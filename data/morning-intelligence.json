@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "generated_at": null,
+  "mode": "setup",
+  "edition": "not-generated-yet",
+  "briefing": [
+    "Noch keine automatische Edition erzeugt."
+  ],
+  "items": [],
+  "signals": {
+    "history_state": "building",
+    "days_available": 0,
+    "topics": []
+  },
+  "source_status": []
+}

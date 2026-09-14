@@ -1,0 +1,68 @@
+{
+  "timezone": "Europe/Berlin",
+  "sources": [
+    {
+      "id": "eu-ai-office",
+      "name": "European Commission – AI Act / AI Office",
+      "role": "primary",
+      "priority": "MUST",
+      "category": [
+        "EU AI Act",
+        "AI Governance"
+      ],
+      "kind": "web",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "enabled": true
+    },
+    {
+      "id": "eurlex-ai-act",
+      "name": "EUR-Lex – Regulation (EU) 2024/1689",
+      "role": "primary",
+      "priority": "MUST",
+      "category": [
+        "EU AI Act"
+      ],
+      "kind": "web",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+      "enabled": true
+    },
+    {
+      "id": "edpb",
+      "name": "European Data Protection Board",
+      "role": "primary",
+      "priority": "MUST",
+      "category": [
+        "DSGVO & Ethik",
+        "AI Governance"
+      ],
+      "kind": "web",
+      "url": "https://www.edpb.europa.eu/",
+      "enabled": true
+    },
+    {
+      "id": "dsk",
+      "name": "Datenschutzkonferenz",
+      "role": "primary",
+      "priority": "MUST",
+      "category": [
+        "DSGVO & Ethik",
+        "AI Governance"
+      ],
+      "kind": "web",
+      "url": "https://www.datenschutzkonferenz-online.de/orientierungshilfen.html",
+      "enabled": true
+    },
+    {
+      "id": "pmi-ai",
+      "name": "PMI – Artificial Intelligence",
+      "role": "primary",
+      "priority": "MUST",
+      "category": [
+        "AI & PM"
+      ],
+      "kind": "web",
+      "url": "https://www.pmi.org/standards/artificial-intelligence",
+      "enabled": true
+    }
+  ]
+}
