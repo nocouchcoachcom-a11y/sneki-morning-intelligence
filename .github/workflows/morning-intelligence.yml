@@ -1,1 +1,43 @@
+name: sneKI Morning Intelligence
 
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "7 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  collect-and-build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Abhängigkeiten installieren
+        run: pip install -r requirements.txt
+
+      - name: Quellen sammeln
+        run: python scripts/collector.py
+
+      - name: Edition prüfen und erzeugen
+        run: python scripts/build_briefing.py
+
+      - name: Änderungen speichern
+        run: |
+          git config user.name "sneKI Morning Intelligence Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "Keine Datenänderung."
+          else
+            git commit -m "Update Morning Intelligence data"
+            git push
+          fi
