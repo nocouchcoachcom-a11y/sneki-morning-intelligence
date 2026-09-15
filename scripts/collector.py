@@ -57,30 +57,28 @@ def normalize_date_string(
     value: str | None
 ) -> str | None:
 
-    """
-    Vereinheitlicht einige typische Datumsformate.
-
-    Beispiele:
-    2026-07-20T10:00:00+02:00 -> bleibt erhalten
-    20 July 2026 -> 2026-07-20
-    """
-
     if not value:
         return None
 
     value = clean_text(value)
 
-    # ISO-Datum oder ISO-Zeitstempel bereits vorhanden
-    if re.match(r"^\d{4}-\d{2}-\d{2}", value):
+    # Bereits ISO
+    if re.match(
+        r"^\d{4}-\d{2}-\d{2}",
+        value
+    ):
         return value
 
     formats = [
         "%d %B %Y",
-        "%d %b %Y"
+        "%d %b %Y",
+        "%d/%m/%Y",
+        "%d.%m.%Y"
     ]
 
     for fmt in formats:
         try:
+
             parsed = datetime.strptime(
                 value,
                 fmt
@@ -99,18 +97,14 @@ def extract_published_at(
 ) -> str | None:
 
     """
-    Veröffentlichungsdatum möglichst robust ermitteln.
+    Allgemeine Datumserkennung.
 
     Reihenfolge:
-    1. strukturierte Meta-Daten
-    2. <time>-Element
-    3. sichtbarer EU-Text wie:
-       'Publication 20 July 2026'
+    1. Meta-Daten
+    2. <time>
+    3. sichtbarer Text wie
+       Publication 20 July 2026
     """
-
-    # -------------------------------------------------
-    # 1. Meta-Daten
-    # -------------------------------------------------
 
     meta_candidates = [
         {
@@ -146,15 +140,14 @@ def extract_published_at(
             meta
             and meta.get("content")
         ):
+
             return normalize_date_string(
                 meta.get("content")
             )
 
-    # -------------------------------------------------
-    # 2. HTML <time>
-    # -------------------------------------------------
-
-    for time_tag in soup.find_all("time"):
+    for time_tag in soup.find_all(
+        "time"
+    ):
 
         value = (
             time_tag.get("datetime")
@@ -167,15 +160,10 @@ def extract_published_at(
         )
 
         if value:
+
             return normalize_date_string(
                 value
             )
-
-    # -------------------------------------------------
-    # 3. Sichtbarer Seitentext
-    # EU-Seiten verwenden z.B.
-    # "Publication 20 July 2026"
-    # -------------------------------------------------
 
     page_text = clean_text(
         soup.get_text(
@@ -198,6 +186,7 @@ def extract_published_at(
         )
 
         if match:
+
             return normalize_date_string(
                 match.group(1)
             )
@@ -211,7 +200,7 @@ def fetch_web(
 
     """
     Standard-Fallback für Quellen
-    ohne eigenen Adapter.
+    ohne Spezialadapter.
     """
 
     headers = {
@@ -266,6 +255,7 @@ def fetch_web(
         meta
         and meta.get("content")
     ):
+
         desc = clean_text(
             meta["content"]
         )
@@ -337,8 +327,7 @@ def fetch_eu_ai_news(
     """
     EU-Kommission Spezialadapter.
 
-    Liest einzelne Meldungen statt
-    nur die AI-Act-Übersichtsseite.
+    Liest einzelne News-Meldungen.
     """
 
     headers = {
@@ -416,7 +405,9 @@ def fetch_eu_ai_news(
                 "html.parser"
             )
 
-            h1 = detail_soup.find("h1")
+            h1 = detail_soup.find(
+                "h1"
+            )
 
             if h1:
 
@@ -454,6 +445,7 @@ def fetch_eu_ai_news(
                 meta
                 and meta.get("content")
             ):
+
                 desc = clean_text(
                     meta["content"]
                 )
@@ -515,7 +507,9 @@ def fetch_eu_ai_news(
                 )
             }
 
-            items.append(item)
+            items.append(
+                item
+            )
 
         except Exception as e:
 
@@ -535,6 +529,208 @@ def fetch_eu_ai_news(
         )
 
     return items
+
+
+def fetch_eurlex_ai_act(
+    source: dict
+) -> list[dict]:
+
+    """
+    Spezialadapter für EUR-Lex.
+
+    Ziel:
+    Aktuelle konsolidierte Fassung
+    des AI Act erkennen.
+
+    Beispiel:
+    27/07/2026
+    """
+
+    headers = {
+        "User-Agent":
+        "sneKI-Morning-Intelligence/1.0 "
+        "(+public research dashboard)"
+    }
+
+    r = requests.get(
+        source["url"],
+        headers=headers,
+        timeout=25
+    )
+
+    r.raise_for_status()
+
+    soup = BeautifulSoup(
+        r.text,
+        "html.parser"
+    )
+
+    page_text = clean_text(
+        soup.get_text(
+            " ",
+            strip=True
+        )
+    )
+
+    current_date = None
+
+    # Englische EUR-Lex-Darstellung
+    patterns = [
+        r"Access current version\s*\((\d{2}/\d{2}/\d{4})\)",
+        r"current version\s*\((\d{2}/\d{2}/\d{4})\)",
+        r"Zur geltenden Fassung\s*\((\d{2}/\d{2}/\d{4})\)"
+    ]
+
+    for pattern in patterns:
+
+        match = re.search(
+            pattern,
+            page_text,
+            flags=re.IGNORECASE
+        )
+
+        if match:
+
+            current_date = (
+                normalize_date_string(
+                    match.group(1)
+                )
+            )
+
+            break
+
+    # Fallback:
+    # CELEX-Dokumentkennung wie
+    # 02024R1689-20260727
+    if not current_date:
+
+        match = re.search(
+            r"02024R1689-(\d{8})",
+            page_text
+        )
+
+        if match:
+
+            raw = match.group(1)
+
+            current_date = (
+                f"{raw[0:4]}-"
+                f"{raw[4:6]}-"
+                f"{raw[6:8]}"
+            )
+
+    if not current_date:
+
+        raise RuntimeError(
+            "EUR-Lex: aktuelle "
+            "konsolidierte Fassung "
+            "konnte nicht erkannt werden."
+        )
+
+    # Aktuelle Fassung direkt verlinken
+    version_url = (
+        "https://eur-lex.europa.eu/"
+        "eli/reg/2024/1689/"
+        f"{current_date}/eng"
+    )
+
+    amendments = []
+
+    amendment_matches = re.findall(
+        r"REGULATION \(EU\) "
+        r"(\d{4}/\d{4})",
+        page_text,
+        flags=re.IGNORECASE
+    )
+
+    for amendment in amendment_matches:
+
+        if amendment == "2024/1689":
+            continue
+
+        if amendment not in amendments:
+            amendments.append(
+                amendment
+            )
+
+    amendment_text = ""
+
+    if amendments:
+
+        amendment_text = (
+            " Änderungen erkannt: "
+            + ", ".join(
+                f"Regulation (EU) {x}"
+                for x in amendments
+            )
+            + "."
+        )
+
+    title = (
+        "AI Act – konsolidierte Fassung "
+        f"{current_date}"
+    )
+
+    desc = (
+        "Aktuelle konsolidierte Fassung "
+        "der Regulation (EU) 2024/1689 "
+        "(Artificial Intelligence Act) "
+        f"mit Stand {current_date}."
+        f"{amendment_text}"
+    )
+
+    item = {
+        "id":
+        stable_id(
+            source["id"],
+            version_url,
+            title
+        ),
+
+        "source_id":
+        source["id"],
+
+        "source":
+        source["name"],
+
+        "source_type":
+        source["role"],
+
+        "source_url":
+        version_url,
+
+        "category":
+        source.get(
+            "category",
+            []
+        ),
+
+        "title":
+        title,
+
+        "raw_excerpt":
+        desc[:800],
+
+        "published_at":
+        current_date,
+
+        "collected_at":
+        now_iso(),
+
+        "verification":
+        "primary",
+
+        "status":
+        "ok",
+
+        "content_hash":
+        content_hash(
+            title,
+            desc
+        )
+    }
+
+    return [item]
 
 
 def load_existing() -> list[dict]:
@@ -574,6 +770,12 @@ def collect_source(
             source
         )
 
+    if adapter == "eurlex_ai_act":
+
+        return fetch_eurlex_ai_act(
+            source
+        )
+
     return fetch_web(
         source
     )
@@ -601,6 +803,7 @@ def main():
             "enabled",
             True
         ):
+
             continue
 
         try:
@@ -632,9 +835,6 @@ def main():
                     ] = item[
                         "collected_at"
                     ]
-
-                    # Neu gefundenes Datum
-                    # nachträglich übernehmen
 
                     if (
                         not old.get(
