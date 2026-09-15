@@ -24,7 +24,8 @@
         "EU AI Act"
       ],
       "kind": "web",
-      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689",
+      "adapter": "eurlex_ai_act",
       "enabled": true
     },
     {
