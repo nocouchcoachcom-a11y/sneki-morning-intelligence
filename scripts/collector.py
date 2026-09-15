@@ -16,33 +16,20 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 
 SOURCES = json.loads(
-    (ROOT / "sources.json").read_text(
-        encoding="utf-8"
-    )
+    (ROOT / "sources.json").read_text(encoding="utf-8")
 )
 
 TZ = ZoneInfo(
-    SOURCES.get(
-        "timezone",
-        "Europe/Berlin"
-    )
+    SOURCES.get("timezone", "Europe/Berlin")
 )
 
 
 def now_iso() -> str:
-    return datetime.now(
-        TZ
-    ).isoformat(
-        timespec="seconds"
-    )
+    return datetime.now(TZ).isoformat(timespec="seconds")
 
 
 def clean_text(text: str) -> str:
-    return re.sub(
-        r"\s+",
-        " ",
-        text or ""
-    ).strip()
+    return re.sub(r"\s+", " ", text or "").strip()
 
 
 def stable_id(
@@ -51,15 +38,9 @@ def stable_id(
     title: str
 ) -> str:
 
-    raw = (
-        f"{source_id}|{url}|{title}"
-    ).encode(
-        "utf-8"
-    )
+    raw = f"{source_id}|{url}|{title}".encode("utf-8")
 
-    return hashlib.sha256(
-        raw
-    ).hexdigest()[:20]
+    return hashlib.sha256(raw).hexdigest()[:20]
 
 
 def content_hash(
@@ -68,14 +49,160 @@ def content_hash(
 ) -> str:
 
     return hashlib.sha256(
-        (
-            title
-            + "|"
-            + desc
-        ).encode(
-            "utf-8"
-        )
+        (title + "|" + desc).encode("utf-8")
     ).hexdigest()
+
+
+def normalize_date_string(
+    value: str | None
+) -> str | None:
+
+    """
+    Vereinheitlicht einige typische Datumsformate.
+
+    Beispiele:
+    2026-07-20T10:00:00+02:00 -> bleibt erhalten
+    20 July 2026 -> 2026-07-20
+    """
+
+    if not value:
+        return None
+
+    value = clean_text(value)
+
+    # ISO-Datum oder ISO-Zeitstempel bereits vorhanden
+    if re.match(r"^\d{4}-\d{2}-\d{2}", value):
+        return value
+
+    formats = [
+        "%d %B %Y",
+        "%d %b %Y"
+    ]
+
+    for fmt in formats:
+        try:
+            parsed = datetime.strptime(
+                value,
+                fmt
+            )
+
+            return parsed.date().isoformat()
+
+        except ValueError:
+            pass
+
+    return value
+
+
+def extract_published_at(
+    soup: BeautifulSoup
+) -> str | None:
+
+    """
+    Veröffentlichungsdatum möglichst robust ermitteln.
+
+    Reihenfolge:
+    1. strukturierte Meta-Daten
+    2. <time>-Element
+    3. sichtbarer EU-Text wie:
+       'Publication 20 July 2026'
+    """
+
+    # -------------------------------------------------
+    # 1. Meta-Daten
+    # -------------------------------------------------
+
+    meta_candidates = [
+        {
+            "property":
+            "article:published_time"
+        },
+        {
+            "name":
+            "date"
+        },
+        {
+            "name":
+            "DC.date"
+        },
+        {
+            "name":
+            "dcterms.date"
+        },
+        {
+            "name":
+            "datePublished"
+        }
+    ]
+
+    for attrs in meta_candidates:
+
+        meta = soup.find(
+            "meta",
+            attrs=attrs
+        )
+
+        if (
+            meta
+            and meta.get("content")
+        ):
+            return normalize_date_string(
+                meta.get("content")
+            )
+
+    # -------------------------------------------------
+    # 2. HTML <time>
+    # -------------------------------------------------
+
+    for time_tag in soup.find_all("time"):
+
+        value = (
+            time_tag.get("datetime")
+            or clean_text(
+                time_tag.get_text(
+                    " ",
+                    strip=True
+                )
+            )
+        )
+
+        if value:
+            return normalize_date_string(
+                value
+            )
+
+    # -------------------------------------------------
+    # 3. Sichtbarer Seitentext
+    # EU-Seiten verwenden z.B.
+    # "Publication 20 July 2026"
+    # -------------------------------------------------
+
+    page_text = clean_text(
+        soup.get_text(
+            " ",
+            strip=True
+        )
+    )
+
+    patterns = [
+        r"\bPublication\s+(\d{1,2}\s+[A-Za-z]+\s+\d{4})\b",
+        r"\bPublished\s+(\d{1,2}\s+[A-Za-z]+\s+\d{4})\b"
+    ]
+
+    for pattern in patterns:
+
+        match = re.search(
+            pattern,
+            page_text,
+            flags=re.IGNORECASE
+        )
+
+        if match:
+            return normalize_date_string(
+                match.group(1)
+            )
+
+    return None
 
 
 def fetch_web(
@@ -83,15 +210,8 @@ def fetch_web(
 ) -> list[dict]:
 
     """
-    Standard-Collector für Quellen
-    ohne Spezialadapter.
-
-    Liest:
-    - Seitentitel
-    - Meta-Beschreibung
-
-    Dient weiterhin als einfache
-    Fallback-Variante.
+    Standard-Fallback für Quellen
+    ohne eigenen Adapter.
     """
 
     headers = {
@@ -144,14 +264,10 @@ def fetch_web(
 
     if (
         meta
-        and meta.get(
-            "content"
-        )
+        and meta.get("content")
     ):
         desc = clean_text(
-            meta[
-                "content"
-            ]
+            meta["content"]
         )
 
     item = {
@@ -187,7 +303,9 @@ def fetch_web(
         desc[:800],
 
         "published_at":
-        None,
+        extract_published_at(
+            soup
+        ),
 
         "collected_at":
         now_iso(),
@@ -195,8 +313,7 @@ def fetch_web(
         "verification":
         (
             "primary"
-            if source["role"]
-            == "primary"
+            if source["role"] == "primary"
             else source["role"]
         ),
 
@@ -210,97 +327,7 @@ def fetch_web(
         )
     }
 
-    return [
-        item
-    ]
-
-
-def extract_published_at(
-    soup: BeautifulSoup
-) -> str | None:
-
-    """
-    Versucht das Veröffentlichungsdatum
-    möglichst robust zu finden.
-
-    Reihenfolge:
-
-    1. strukturierte Meta-Daten
-    2. HTML <time>-Element
-    3. sonst None
-    """
-
-    published_at = None
-
-    date_meta = (
-        soup.find(
-            "meta",
-            attrs={
-                "property":
-                "article:published_time"
-            }
-        )
-        or
-        soup.find(
-            "meta",
-            attrs={
-                "name":
-                "date"
-            }
-        )
-        or
-        soup.find(
-            "meta",
-            attrs={
-                "name":
-                "DC.date"
-            }
-        )
-        or
-        soup.find(
-            "meta",
-            attrs={
-                "name":
-                "dcterms.date"
-            }
-        )
-    )
-
-    if (
-        date_meta
-        and date_meta.get(
-            "content"
-        )
-    ):
-
-        published_at = clean_text(
-            date_meta[
-                "content"
-            ]
-        )
-
-    if not published_at:
-
-        time_tag = soup.find(
-            "time"
-        )
-
-        if time_tag:
-
-            published_at = (
-                time_tag.get(
-                    "datetime"
-                )
-                or
-                clean_text(
-                    time_tag.get_text(
-                        " ",
-                        strip=True
-                    )
-                )
-            )
-
-    return published_at
+    return [item]
 
 
 def fetch_eu_ai_news(
@@ -308,27 +335,10 @@ def fetch_eu_ai_news(
 ) -> list[dict]:
 
     """
-    Spezialadapter für:
+    EU-Kommission Spezialadapter.
 
-    European Commission /
-    Shaping Europe's Digital Future
-
-    Ziel:
-
-    Nicht nur die Startseite speichern,
-    sondern einzelne News-Meldungen
-    erfassen.
-
-    Gespeichert werden:
-
-    - Titel
-    - Original-URL
-    - Veröffentlichungsdatum
-    - Meta-Beschreibung
-    - Zeitstempel der Sammlung
-
-    Es werden KEINE vollständigen
-    Artikeltexte gespeichert.
+    Liest einzelne Meldungen statt
+    nur die AI-Act-Übersichtsseite.
     """
 
     headers = {
@@ -351,7 +361,6 @@ def fetch_eu_ai_news(
     )
 
     items = []
-
     seen_urls = set()
 
     for link in soup.find_all(
@@ -369,7 +378,6 @@ def fetch_eu_ai_news(
         if not href:
             continue
 
-        # Nur echte News-Links
         if "/en/news/" not in href:
             continue
 
@@ -388,17 +396,10 @@ def fetch_eu_ai_news(
             )
         )
 
-        # Navigation,
-        # leere Links,
-        # Mini-Texte ignorieren
-        if len(
-            title
-        ) < 20:
+        if len(title) < 20:
             continue
 
-        seen_urls.add(
-            url
-        )
+        seen_urls.add(url)
 
         try:
 
@@ -415,11 +416,7 @@ def fetch_eu_ai_news(
                 "html.parser"
             )
 
-            # Detail-H1 bevorzugen
-
-            h1 = detail_soup.find(
-                "h1"
-            )
+            h1 = detail_soup.find("h1")
 
             if h1:
 
@@ -455,15 +452,10 @@ def fetch_eu_ai_news(
 
             if (
                 meta
-                and meta.get(
-                    "content"
-                )
+                and meta.get("content")
             ):
-
                 desc = clean_text(
-                    meta[
-                        "content"
-                    ]
+                    meta["content"]
                 )
 
             published_at = (
@@ -523,30 +515,23 @@ def fetch_eu_ai_news(
                 )
             }
 
-            items.append(
-                item
-            )
+            items.append(item)
 
         except Exception as e:
 
             print(
                 "EU-Detailseite "
-                "übersprungen: "
-                f"{url}: {e}"
+                f"übersprungen: {url}: {e}"
             )
 
-        # Erst einmal bewusst begrenzen
-        if len(
-            items
-        ) >= 10:
+        if len(items) >= 10:
             break
 
     if not items:
 
         raise RuntimeError(
             "EU-News-Adapter hat "
-            "keine Einzelmeldungen "
-            "gefunden."
+            "keine Einzelmeldungen gefunden."
         )
 
     return items
@@ -554,17 +539,7 @@ def fetch_eu_ai_news(
 
 def load_existing() -> list[dict]:
 
-    """
-    Bereits vorhandene Rohdaten laden.
-
-    Dadurch verlieren wir ältere
-    Meldungen nicht bei jedem Lauf.
-    """
-
-    p = (
-        DATA
-        / "raw-items.json"
-    )
+    p = DATA / "raw-items.json"
 
     if not p.exists():
         return []
@@ -589,25 +564,11 @@ def collect_source(
     source: dict
 ) -> list[dict]:
 
-    """
-    Entscheidet,
-    welcher Adapter verwendet wird.
-
-    adapter = eu_ai_news
-    -> EU-Spezialadapter
-
-    kein Adapter
-    -> Standard-Collector
-    """
-
     adapter = source.get(
         "adapter"
     )
 
-    if (
-        adapter
-        == "eu_ai_news"
-    ):
+    if adapter == "eu_ai_news":
 
         return fetch_eu_ai_news(
             source
@@ -624,9 +585,7 @@ def main():
         exist_ok=True
     )
 
-    previous = (
-        load_existing()
-    )
+    previous = load_existing()
 
     by_key = {
         x.get("id"): x
@@ -636,9 +595,7 @@ def main():
 
     source_status = []
 
-    for source in SOURCES[
-        "sources"
-    ]:
+    for source in SOURCES["sources"]:
 
         if not source.get(
             "enabled",
@@ -648,10 +605,8 @@ def main():
 
         try:
 
-            items = (
-                collect_source(
-                    source
-                )
+            items = collect_source(
+                source
             )
 
             for item in items:
@@ -678,11 +633,8 @@ def main():
                         "collected_at"
                     ]
 
-                    # Falls beim alten Eintrag
-                    # noch kein published_at
-                    # vorhanden war,
-                    # übernehmen wir jetzt
-                    # ein neu gefundenes Datum.
+                    # Neu gefundenes Datum
+                    # nachträglich übernehmen
 
                     if (
                         not old.get(
@@ -736,9 +688,7 @@ def main():
                 now_iso(),
 
                 "items_found":
-                len(
-                    items
-                )
+                len(items)
             })
 
         except Exception as e:
@@ -757,9 +707,7 @@ def main():
                 now_iso(),
 
                 "note":
-                str(
-                    e
-                )[:240]
+                str(e)[:240]
             })
 
     payload = {
