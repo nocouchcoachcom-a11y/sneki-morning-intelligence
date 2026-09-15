@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-15T10:44:05+02:00",
+  "generated_at": "2026-09-15T10:52:54+02:00",
   "mode": "live",
   "edition": "manual-preview",
   "briefing": [
@@ -45,27 +45,9 @@
       "social_verified": false
     },
     {
-      "id": "956414ff323625f7fa6f",
-      "category": "EU AI Act",
-      "rank": 3,
-      "title": "Supporting the implementation of the AI Act with clear guidelines",
-      "summary": "In the course of 2026, the AI Office has been preparing guidelines to ensure a smooth implementation of the AI Act.",
-      "why_relevant": "Für sneKI prüfen: Relevanz für Regulierung, Governance, Datenschutz oder AI-Projektmanagement.",
-      "watch_next": "Primärquelle auf konkrete Änderungen prüfen.",
-      "source": "European Commission – AI Act / AI Office",
-      "source_type": "primary",
-      "source_url": "https://digital-strategy.ec.europa.eu/en/news/supporting-implementation-ai-act-clear-guidelines",
-      "published_at": null,
-      "collected_at": "2026-09-15T10:43:58+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "is_top5": true,
-      "social_verified": false
-    },
-    {
       "id": "c559fbd12af243b637ab",
       "category": "EU AI Act",
-      "rank": 4,
+      "rank": 3,
       "title": "AI Omnibus enters into force",
       "summary": "On 27 July 2026, the AI Omnibus enters into force across the EU, bringing extended timelines to administrative simplification.",
       "why_relevant": "Für sneKI prüfen: Relevanz für Regulierung, Governance, Datenschutz oder AI-Projektmanagement.",
@@ -81,18 +63,36 @@
       "social_verified": false
     },
     {
-      "id": "b4038eb822b1702a8e84",
+      "id": "956414ff323625f7fa6f",
       "category": "EU AI Act",
-      "rank": 5,
-      "title": "Executive Vice-President Virkkunen in the US for G20 Ministerial meetings",
-      "summary": "Starting today until Wednesday, 2 September, the European Commission will be represented by Henna Virkkunen, Executive Vice-President for Tech Sovereignty, Security and Democracy and Valdis Dombrovskis, Commissioner for Economy and Productivity, Implementation and Simplification at the G20 Ministerial meetings in North Carolina, United States of America.",
+      "rank": 4,
+      "title": "Supporting the implementation of the AI Act with clear guidelines",
+      "summary": "In the course of 2026, the AI Office has been preparing guidelines to ensure a smooth implementation of the AI Act.",
       "why_relevant": "Für sneKI prüfen: Relevanz für Regulierung, Governance, Datenschutz oder AI-Projektmanagement.",
       "watch_next": "Primärquelle auf konkrete Änderungen prüfen.",
       "source": "European Commission – AI Act / AI Office",
       "source_type": "primary",
-      "source_url": "https://digital-strategy.ec.europa.eu/en/news/executive-vice-president-virkkunen-us-g20-ministerial-meetings",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/supporting-implementation-ai-act-clear-guidelines",
       "published_at": null,
-      "collected_at": "2026-09-15T10:43:59+02:00",
+      "collected_at": "2026-09-15T10:43:58+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "is_top5": true,
+      "social_verified": false
+    },
+    {
+      "id": "7fc7e1c4d2073d835bbc",
+      "category": "EU AI Act",
+      "rank": 5,
+      "title": "Commission publishes guidelines on transparency obligations for providers and deployers of certain AI systems",
+      "summary": "The European Commission has published guidelines to assist providers and deployers of artificial intelligence (AI) systems in meeting the AI Act's transparency obligations, which start to apply on 2 August 2026.",
+      "why_relevant": "Für sneKI prüfen: Relevanz für Regulierung, Governance, Datenschutz oder AI-Projektmanagement.",
+      "watch_next": "Primärquelle auf konkrete Änderungen prüfen.",
+      "source": "European Commission – AI Act / AI Office",
+      "source_type": "primary",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-transparency-obligations-providers-and-deployers-certain-ai-systems",
+      "published_at": null,
+      "collected_at": "2026-09-15T10:44:01+02:00",
       "verification": "primary",
       "status": "ok",
       "is_top5": true,
@@ -109,35 +109,35 @@
       "name": "European Commission – AI Act / AI Office",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-09-15T10:44:01+02:00",
+      "last_update": "2026-09-15T10:52:51+02:00",
       "items_found": 8
     },
     {
       "name": "EUR-Lex – Regulation (EU) 2024/1689",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-09-15T10:44:02+02:00",
+      "last_update": "2026-09-15T10:52:51+02:00",
       "items_found": 1
     },
     {
       "name": "European Data Protection Board",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-09-15T10:44:03+02:00",
+      "last_update": "2026-09-15T10:52:52+02:00",
       "items_found": 1
     },
     {
       "name": "Datenschutzkonferenz",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-09-15T10:44:04+02:00",
+      "last_update": "2026-09-15T10:52:54+02:00",
       "items_found": 1
     },
     {
       "name": "PMI – Artificial Intelligence",
       "type": "core",
       "status": "failed",
-      "last_update": "2026-09-15T10:44:05+02:00",
+      "last_update": "2026-09-15T10:52:54+02:00",
       "note": "403 Client Error: Forbidden for url: https://www.pmi.org/standards/artificial-intelligence"
     }
   ]
