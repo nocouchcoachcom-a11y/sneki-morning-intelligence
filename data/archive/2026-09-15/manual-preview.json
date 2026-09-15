@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-15T11:20:17+02:00",
+  "generated_at": "2026-09-15T11:29:34+02:00",
   "mode": "live",
   "edition": "manual-preview",
   "briefing": [
@@ -63,36 +63,36 @@
       "social_verified": false
     },
     {
-      "id": "076d3df9976c6ede52e9",
+      "id": "411fbacd51e3afc9e023",
       "category": "EU AI Act",
       "rank": 4,
-      "title": "EU launches AI Gigafactories call to boost Europe's computing capacity and unlock more than €30 billion in investment",
-      "summary": "The EU has launched a call for tenders to establish up to seven AI Gigafactories across Europe, as part of its latest major push to accelerate Europe's technological sovereignty and ambition of becoming the AI Continent.",
+      "title": "Commission selects EUROPA consortium as the winner of the Frontier AI Grand Challenge, a project to build European open-source frontier AI model in all 24 EU languages",
+      "summary": "The European Commission has selected EUROPA, a European consortium led by the Italian company Domyn, as the winner of its Frontier AI Grand Challenge.",
       "why_relevant": "Für sneKI prüfen: Relevanz für Regulierung, Governance, Datenschutz oder AI-Projektmanagement.",
       "watch_next": "Primärquelle auf konkrete Änderungen prüfen.",
       "source": "European Commission – AI Act / AI Office",
       "source_type": "primary",
-      "source_url": "https://digital-strategy.ec.europa.eu/en/news/eu-launches-ai-gigafactories-call-boost-europes-computing-capacity-and-unlock-more-eu30-billion",
-      "published_at": "2026-07-30",
-      "collected_at": "2026-09-15T10:44:00+02:00",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-selects-europa-consortium-winner-frontier-ai-grand-challenge-project-build-european-open",
+      "published_at": "2026-06-19",
+      "collected_at": "2026-09-15T10:44:01+02:00",
       "verification": "primary",
       "status": "ok",
       "is_top5": true,
       "social_verified": false
     },
     {
-      "id": "675ab8b9c70584920356",
+      "id": "988b163c909eaa93d3a0",
       "category": "EU AI Act",
       "rank": 5,
-      "title": "Commission starts enforcing AI Act rules and new transparency requirements on 2 August",
-      "summary": "From 2 August 2026, the European Commission’s AI Office, together with national authorities, will begin enforcing the Artificial Intelligence (AI) Act.",
+      "title": "Commission presents EU Action Plan on Cybersecurity and Artificial Intelligence",
+      "summary": "The European Commission has presented an Action Plan for a structured response to address the risks and harness the opportunities of advanced artificial intelligence (AI) models for cybersecurity.",
       "why_relevant": "Für sneKI prüfen: Relevanz für Regulierung, Governance, Datenschutz oder AI-Projektmanagement.",
       "watch_next": "Primärquelle auf konkrete Änderungen prüfen.",
       "source": "European Commission – AI Act / AI Office",
       "source_type": "primary",
-      "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
-      "published_at": "2026-07-31",
-      "collected_at": "2026-09-15T10:43:59+02:00",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-presents-eu-action-plan-cybersecurity-and-artificial-intelligence",
+      "published_at": "2026-07-07",
+      "collected_at": "2026-09-15T10:44:01+02:00",
       "verification": "primary",
       "status": "ok",
       "is_top5": true,
@@ -109,35 +109,35 @@
       "name": "European Commission – AI Act / AI Office",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-09-15T11:20:11+02:00",
+      "last_update": "2026-09-15T11:29:32+02:00",
       "items_found": 8
     },
     {
       "name": "EUR-Lex – Regulation (EU) 2024/1689",
       "type": "core",
       "status": "failed",
-      "last_update": "2026-09-15T11:20:11+02:00",
+      "last_update": "2026-09-15T11:29:33+02:00",
       "note": "EUR-Lex: aktuelle konsolidierte Fassung konnte nicht erkannt werden."
     },
     {
       "name": "European Data Protection Board",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-09-15T11:20:12+02:00",
+      "last_update": "2026-09-15T11:29:33+02:00",
       "items_found": 1
     },
     {
       "name": "Datenschutzkonferenz",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-09-15T11:20:16+02:00",
+      "last_update": "2026-09-15T11:29:34+02:00",
       "items_found": 1
     },
     {
       "name": "PMI – Artificial Intelligence",
       "type": "core",
       "status": "failed",
-      "last_update": "2026-09-15T11:20:16+02:00",
+      "last_update": "2026-09-15T11:29:34+02:00",
       "note": "403 Client Error: Forbidden for url: https://www.pmi.org/standards/artificial-intelligence"
     }
   ]
