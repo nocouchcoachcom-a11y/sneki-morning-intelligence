@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-15T11:29:34+02:00",
+  "generated_at": "2026-09-15T11:32:53+02:00",
   "mode": "live",
   "edition": "manual-preview",
   "briefing": [
@@ -109,35 +109,35 @@
       "name": "European Commission – AI Act / AI Office",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-09-15T11:29:32+02:00",
+      "last_update": "2026-09-15T11:32:46+02:00",
       "items_found": 8
     },
     {
       "name": "EUR-Lex – Regulation (EU) 2024/1689",
       "type": "core",
       "status": "failed",
-      "last_update": "2026-09-15T11:29:33+02:00",
+      "last_update": "2026-09-15T11:32:46+02:00",
       "note": "EUR-Lex: aktuelle konsolidierte Fassung konnte nicht erkannt werden."
     },
     {
       "name": "European Data Protection Board",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-09-15T11:29:33+02:00",
+      "last_update": "2026-09-15T11:32:47+02:00",
       "items_found": 1
     },
     {
       "name": "Datenschutzkonferenz",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-09-15T11:29:34+02:00",
+      "last_update": "2026-09-15T11:32:53+02:00",
       "items_found": 1
     },
     {
       "name": "PMI – Artificial Intelligence",
       "type": "core",
       "status": "failed",
-      "last_update": "2026-09-15T11:29:34+02:00",
+      "last_update": "2026-09-15T11:32:53+02:00",
       "note": "403 Client Error: Forbidden for url: https://www.pmi.org/standards/artificial-intelligence"
     }
   ]
