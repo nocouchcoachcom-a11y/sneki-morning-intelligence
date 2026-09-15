@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "collected_at": "2026-09-15T07:23:17+02:00",
+  "collected_at": "2026-09-15T08:29:35+02:00",
   "items": [
     {
       "id": "299bc3455f13fc48bf13",
@@ -20,7 +20,7 @@
       "status": "ok",
       "content_hash": "811ac302c3193eb1b1ab9371558f9eff4f60aa642f2679335f729c77f8d6d3dd",
       "first_seen_at": "2026-09-14T18:58:54+02:00",
-      "last_seen_at": "2026-09-15T07:23:17+02:00"
+      "last_seen_at": "2026-09-15T08:29:35+02:00"
     },
     {
       "id": "fd26c6620cbb3b8fa54e",
@@ -40,26 +40,7 @@
       "status": "ok",
       "content_hash": "a9b348baabb63f3a36168e3506b408dea00ffbc0e6fc27353e27dd69cfd8d3bf",
       "first_seen_at": "2026-09-14T18:58:54+02:00",
-      "last_seen_at": "2026-09-15T07:23:16+02:00"
-    },
-    {
-      "id": "9fbc10bf076e24dfd1af",
-      "source_id": "eurlex-ai-act",
-      "source": "EUR-Lex – Regulation (EU) 2024/1689",
-      "source_type": "primary",
-      "source_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
-      "category": [
-        "EU AI Act"
-      ],
-      "title": "Regulation - EU - 2024/1689 - EN - EUR-Lex",
-      "raw_excerpt": "",
-      "published_at": null,
-      "collected_at": "2026-09-14T18:58:53+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "00eb4613d9dac7bc41c0281cc22c2cd69ab99eb111b03748dae1ea9c7b375fee",
-      "first_seen_at": "2026-09-14T18:58:53+02:00",
-      "last_seen_at": "2026-09-15T07:23:14+02:00"
+      "last_seen_at": "2026-09-15T08:29:34+02:00"
     },
     {
       "id": "702fb8814cab92d7bf70",
@@ -79,7 +60,7 @@
       "status": "ok",
       "content_hash": "b10b218d166de9b2a6297827d20e2cbf45b94cf0be890b5e5b4e6ed26da7452e",
       "first_seen_at": "2026-09-14T18:58:51+02:00",
-      "last_seen_at": "2026-09-15T07:23:13+02:00"
+      "last_seen_at": "2026-09-15T08:29:33+02:00"
     },
     {
       "id": "f835f5c0b7289946d25f",
@@ -98,7 +79,26 @@
       "status": "ok",
       "content_hash": "b8d8c2e954b1f5eb98062a891dbe91a5a07bc516bbfe88e26ed601906d0b6534",
       "first_seen_at": "2026-09-14T20:25:24+02:00",
-      "last_seen_at": "2026-09-15T06:24:11+02:00"
+      "last_seen_at": "2026-09-15T08:29:33+02:00"
+    },
+    {
+      "id": "9fbc10bf076e24dfd1af",
+      "source_id": "eurlex-ai-act",
+      "source": "EUR-Lex – Regulation (EU) 2024/1689",
+      "source_type": "primary",
+      "source_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+      "category": [
+        "EU AI Act"
+      ],
+      "title": "Regulation - EU - 2024/1689 - EN - EUR-Lex",
+      "raw_excerpt": "",
+      "published_at": null,
+      "collected_at": "2026-09-14T18:58:53+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "00eb4613d9dac7bc41c0281cc22c2cd69ab99eb111b03748dae1ea9c7b375fee",
+      "first_seen_at": "2026-09-14T18:58:53+02:00",
+      "last_seen_at": "2026-09-15T07:23:14+02:00"
     }
   ],
   "source_status": [
@@ -106,31 +106,31 @@
       "name": "European Commission – AI Act / AI Office",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-09-15T07:23:13+02:00"
+      "last_update": "2026-09-15T08:29:33+02:00"
     },
     {
       "name": "EUR-Lex – Regulation (EU) 2024/1689",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-09-15T07:23:14+02:00"
+      "last_update": "2026-09-15T08:29:33+02:00"
     },
     {
       "name": "European Data Protection Board",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-09-15T07:23:16+02:00"
+      "last_update": "2026-09-15T08:29:34+02:00"
     },
     {
       "name": "Datenschutzkonferenz",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-09-15T07:23:17+02:00"
+      "last_update": "2026-09-15T08:29:35+02:00"
     },
     {
       "name": "PMI – Artificial Intelligence",
       "type": "core",
       "status": "failed",
-      "last_update": "2026-09-15T07:23:17+02:00",
+      "last_update": "2026-09-15T08:29:35+02:00",
       "note": "403 Client Error: Forbidden for url: https://www.pmi.org/standards/artificial-intelligence"
     }
   ]
