@@ -12,6 +12,7 @@
       ],
       "kind": "web",
       "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "adapter": "eu_ai_news",
       "enabled": true
     },
     {
@@ -63,6 +64,9 @@
       "kind": "web",
       "url": "https://www.pmi.org/standards/artificial-intelligence",
       "enabled": true
+    }
+  ]
+}      "enabled": true
     }
   ]
 }
