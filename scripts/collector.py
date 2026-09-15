@@ -23,12 +23,22 @@ TZ = ZoneInfo(
     SOURCES.get("timezone", "Europe/Berlin")
 )
 
+HEADERS = {
+    "User-Agent":
+    "sneKI-Morning-Intelligence/1.0 "
+    "(public research dashboard)"
+}
+
+
+# ---------------------------------------------------------
+# Allgemeine Hilfsfunktionen
+# ---------------------------------------------------------
 
 def now_iso() -> str:
     return datetime.now(TZ).isoformat(timespec="seconds")
 
 
-def clean_text(text: str) -> str:
+def clean_text(text: str | None) -> str:
     return re.sub(r"\s+", " ", text or "").strip()
 
 
@@ -49,7 +59,7 @@ def content_hash(
 ) -> str:
 
     return hashlib.sha256(
-        (title + "|" + desc).encode("utf-8")
+        f"{title}|{desc}".encode("utf-8")
     ).hexdigest()
 
 
@@ -66,7 +76,7 @@ def normalize_date_string(
         r"^\d{4}-\d{2}-\d{2}",
         value
     ):
-        return value
+        return value[:10]
 
     formats = [
         "%d %B %Y",
@@ -76,7 +86,9 @@ def normalize_date_string(
     ]
 
     for fmt in formats:
+
         try:
+
             parsed = datetime.strptime(
                 value,
                 fmt
@@ -85,9 +97,9 @@ def normalize_date_string(
             return parsed.date().isoformat()
 
         except ValueError:
-            pass
+            continue
 
-    return value
+    return None
 
 
 def extract_published_at(
@@ -95,70 +107,50 @@ def extract_published_at(
 ) -> str | None:
 
     """
-    Allgemeine Datumserkennung.
-
-    Reihenfolge:
-    1. Meta-Daten
-    2. <time>-Elemente
-    3. sichtbarer Text
+    Allgemeine Datumserkennung
+    für normale Webseiten.
     """
 
-    meta_candidates = [
-        {
-            "property":
-            "article:published_time"
-        },
-        {
-            "name":
-            "date"
-        },
-        {
-            "name":
-            "DC.date"
-        },
-        {
-            "name":
-            "dcterms.date"
-        },
-        {
-            "name":
-            "datePublished"
-        }
+    candidates = [
+        {"property": "article:published_time"},
+        {"name": "date"},
+        {"name": "DC.date"},
+        {"name": "dcterms.date"},
+        {"name": "datePublished"}
     ]
 
-    for attrs in meta_candidates:
+    for attrs in candidates:
 
         meta = soup.find(
             "meta",
             attrs=attrs
         )
 
-        if (
-            meta
-            and meta.get("content")
-        ):
+        if meta and meta.get("content"):
 
-            return normalize_date_string(
-                meta.get("content")
+            value = normalize_date_string(
+                meta["content"]
             )
+
+            if value:
+                return value
 
     for time_tag in soup.find_all("time"):
 
         value = (
             time_tag.get("datetime")
-            or clean_text(
-                time_tag.get_text(
-                    " ",
-                    strip=True
-                )
+            or time_tag.get_text(
+                " ",
+                strip=True
             )
         )
 
-        if value:
+        normalized = normalize_date_string(
+            value
+        )
 
-            return normalize_date_string(
-                value
-            )
+        if normalized:
+            return normalized
 
     page_text = clean_text(
         soup.get_text(
@@ -182,32 +174,28 @@ def extract_published_at(
 
         if match:
 
-            return normalize_date_string(
+            normalized = normalize_date_string(
                 match.group(1)
             )
 
+            if normalized:
+                return normalized
+
     return None
 
+
+# ---------------------------------------------------------
+# Standard-Webadapter
+# ---------------------------------------------------------
 
 def fetch_web(
     source: dict
 ) -> list[dict]:
 
-    """
-    Standard-Fallback für Quellen
-    ohne Spezialadapter.
-    """
-
-    headers = {
-        "User-Agent":
-        "sneKI-Morning-Intelligence/1.0 "
-        "(+public research dashboard)"
-    }
-
     r = requests.get(
         source["url"],
-        headers=headers,
-        timeout=20
+        headers=HEADERS,
+        timeout=25
     )
 
     r.raise_for_status()
@@ -231,31 +219,19 @@ def fetch_web(
     meta = (
         soup.find(
             "meta",
-            attrs={
-                "name":
-                "description"
-            }
+            attrs={"name": "description"}
         )
         or
         soup.find(
             "meta",
-            attrs={
-                "property":
-                "og:description"
-            }
+            attrs={"property": "og:description"}
         )
     )
 
-    if (
-        meta
-        and meta.get("content")
-    ):
+    if meta and meta.get("content"):
+        desc = clean_text(meta["content"])
 
-        desc = clean_text(
-            meta["content"]
-        )
-
-    item = {
+    return [{
         "id":
         stable_id(
             source["id"],
@@ -276,10 +252,7 @@ def fetch_web(
         source["url"],
 
         "category":
-        source.get(
-            "category",
-            []
-        ),
+        source.get("category", []),
 
         "title":
         title,
@@ -288,9 +261,7 @@ def fetch_web(
         desc[:800],
 
         "published_at":
-        extract_published_at(
-            soup
-        ),
+        extract_published_at(soup),
 
         "collected_at":
         now_iso(),
@@ -310,31 +281,26 @@ def fetch_web(
             title,
             desc
         )
-    }
+    }]
 
-    return [item]
 
+# ---------------------------------------------------------
+# EU-Kommission / AI Office
+# ---------------------------------------------------------
 
 def fetch_eu_ai_news(
     source: dict
 ) -> list[dict]:
 
     """
-    EU-Kommission Spezialadapter.
-
-    Liest einzelne News-Meldungen.
+    Liest echte einzelne News-Meldungen
+    von Shaping Europe's Digital Future.
     """
-
-    headers = {
-        "User-Agent":
-        "sneKI-Morning-Intelligence/1.0 "
-        "(+public research dashboard)"
-    }
 
     r = requests.get(
         source["url"],
-        headers=headers,
-        timeout=20
+        headers=HEADERS,
+        timeout=25
     )
 
     r.raise_for_status()
@@ -353,14 +319,8 @@ def fetch_eu_ai_news(
     ):
 
         href = clean_text(
-            link.get(
-                "href",
-                ""
-            )
+            link.get("href")
         )
-
-        if not href:
-            continue
 
         if "/en/news/" not in href:
             continue
@@ -389,8 +349,8 @@ def fetch_eu_ai_news(
 
             detail = requests.get(
                 url,
-                headers=headers,
-                timeout=20
+                headers=HEADERS,
+                timeout=25
             )
 
             detail.raise_for_status()
@@ -404,25 +364,22 @@ def fetch_eu_ai_news(
 
             if h1:
 
-                detail_title = clean_text(
+                candidate = clean_text(
                     h1.get_text(
                         " ",
                         strip=True
                     )
                 )
 
-                if detail_title:
-                    title = detail_title
+                if candidate:
+                    title = candidate
 
             desc = ""
 
             meta = (
                 detail_soup.find(
                     "meta",
-                    attrs={
-                        "name":
-                        "description"
-                    }
+                    attrs={"name": "description"}
                 )
                 or
                 detail_soup.find(
@@ -434,11 +391,7 @@ def fetch_eu_ai_news(
                 )
             )
 
-            if (
-                meta
-                and meta.get("content")
-            ):
-
+            if meta and meta.get("content"):
                 desc = clean_text(
                     meta["content"]
                 )
@@ -449,7 +402,7 @@ def fetch_eu_ai_news(
                 )
             )
 
-            item = {
+            items.append({
                 "id":
                 stable_id(
                     source["id"],
@@ -498,15 +451,13 @@ def fetch_eu_ai_news(
                     title,
                     desc
                 )
-            }
+            })
 
-            items.append(item)
-
-        except Exception as e:
+        except Exception as exc:
 
             print(
-                "EU-Detailseite "
-                f"übersprungen: {url}: {e}"
+                f"EU-News übersprungen: "
+                f"{url}: {exc}"
             )
 
         if len(items) >= 10:
@@ -515,174 +466,166 @@ def fetch_eu_ai_news(
     if not items:
 
         raise RuntimeError(
-            "EU-News-Adapter hat "
-            "keine Einzelmeldungen gefunden."
+            "EU-News-Adapter hat keine "
+            "Einzelmeldungen gefunden."
         )
 
     return items
 
 
-def fetch_eurlex_ai_act(
+# ---------------------------------------------------------
+# EUR-Lex / CELLAR
+# ---------------------------------------------------------
+
+def fetch_eurlex_cellar(
     source: dict
 ) -> list[dict]:
 
     """
-    Spezialadapter für EUR-Lex.
+    EUR-Lex über das offizielle
+    Machine-to-Machine-System CELLAR.
 
-    Ermittelt die aktuell konsolidierte
-    Fassung des EU AI Act.
+    Kein HTML-Scraping.
+
+    CELEX Original:
+    32024R1689
+
+    Konsolidierte Fassungen:
+    02024R1689-YYYYMMDD
     """
 
-    headers = {
-        "User-Agent":
-        "sneKI-Morning-Intelligence/1.0 "
-        "(+public research dashboard)"
+    celex = source.get(
+        "celex",
+        "32024R1689"
+    )
+
+    consolidation_prefix = source.get(
+        "consolidation_prefix",
+        "02024R1689"
+    )
+
+    cellar_url = (
+        "https://publications.europa.eu/"
+        f"resource/celex/{celex}"
+        "?language=en"
+    )
+
+    cellar_headers = {
+        **HEADERS,
+        "Accept":
+        "application/xml;notice=tree"
     }
 
-    r = requests.get(
-        source["url"],
-        headers=headers,
-        timeout=25
-    )
+    detected_version = None
+    collector_note = None
 
-    r.raise_for_status()
+    try:
 
-    soup = BeautifulSoup(
-        r.text,
-        "html.parser"
-    )
-
-    page_text = clean_text(
-        soup.get_text(
-            " ",
-            strip=True
-        )
-    )
-
-    current_date = None
-
-    patterns = [
-        r"Current consolidated version\s*:\s*(\d{2}/\d{2}/\d{4})",
-        r"Access current version\s*\((\d{2}/\d{2}/\d{4})\)",
-        r"current version\s*\((\d{2}/\d{2}/\d{4})\)"
-    ]
-
-    for pattern in patterns:
-
-        match = re.search(
-            pattern,
-            page_text,
-            flags=re.IGNORECASE
+        r = requests.get(
+            cellar_url,
+            headers=cellar_headers,
+            timeout=30,
+            allow_redirects=True
         )
 
-        if match:
+        r.raise_for_status()
 
-            current_date = (
-                normalize_date_string(
-                    match.group(1)
+        xml_text = r.text
+
+        # CELLAR verwendet stabile CELEX-Kennungen.
+        #
+        # Beispiel:
+        # 02024R1689-20260727
+
+        pattern = (
+            re.escape(
+                consolidation_prefix
+            )
+            + r"-(\d{8})"
+        )
+
+        versions = sorted(
+            set(
+                re.findall(
+                    pattern,
+                    xml_text,
+                    flags=re.IGNORECASE
                 )
             )
-
-            break
-
-    if not current_date:
-
-        match = re.search(
-            r"02024R1689.*?"
-            r"(\d{2}\.\d{2}\.\d{4})",
-            page_text,
-            flags=re.IGNORECASE
         )
 
-        if match:
+        if versions:
 
-            current_date = (
-                normalize_date_string(
-                    match.group(1)
-                )
+            newest = max(versions)
+
+            detected_version = (
+                f"{newest[0:4]}-"
+                f"{newest[4:6]}-"
+                f"{newest[6:8]}"
             )
 
-    if not current_date:
+    except Exception as exc:
 
-        match = re.search(
-            r"02024R1689-(\d{8})",
-            page_text,
-            flags=re.IGNORECASE
+        collector_note = (
+            "CELLAR-Abfrage fehlgeschlagen: "
+            + str(exc)[:160]
         )
 
-        if match:
+    # -----------------------------------------------------
+    # Sicherheitsnetz
+    #
+    # Wir wollen nicht wieder die ganze Pipeline verlieren,
+    # nur weil EUR-Lex/CELLAR zeitweise nicht antwortet.
+    #
+    # Dieser Wert ist NICHT unsichtbar:
+    # Status wird dann 'degraded'.
+    # -----------------------------------------------------
 
-            raw = match.group(1)
+    if not detected_version:
 
-            current_date = (
-                f"{raw[0:4]}-"
-                f"{raw[4:6]}-"
-                f"{raw[6:8]}"
+        fallback_version = source.get(
+            "fallback_current_version"
+        )
+
+        if not fallback_version:
+
+            raise RuntimeError(
+                "EUR-Lex/CELLAR: "
+                "keine konsolidierte Fassung erkannt "
+                "und kein Fallback konfiguriert."
             )
 
-    if not current_date:
+        detected_version = (
+            fallback_version
+        )
 
-        raise RuntimeError(
-            "EUR-Lex: aktuelle "
-            "konsolidierte Fassung "
-            "konnte nicht erkannt werden."
+        collector_note = (
+            collector_note
+            or
+            "CELLAR lieferte keine erkennbare "
+            "konsolidierte CELEX-Fassung."
         )
 
     version_url = (
         "https://eur-lex.europa.eu/"
         "eli/reg/2024/1689/"
-        f"{current_date}/eng"
+        f"{detected_version}/eng"
     )
 
-    amendments = []
-
-    amendment_patterns = [
-        r"REGULATION \(EU\)\s+(\d{4}/\d{4})",
-        r"Regulation \(EU\)\s+(\d{4}/\d{4})"
-    ]
-
-    for pattern in amendment_patterns:
-
-        matches = re.findall(
-            pattern,
-            page_text,
-            flags=re.IGNORECASE
-        )
-
-        for amendment in matches:
-
-            if amendment == "2024/1689":
-                continue
-
-            if amendment not in amendments:
-                amendments.append(
-                    amendment
-                )
-
-    amendment_text = ""
-
-    if amendments:
-
-        amendment_text = (
-            " Änderungen erkannt: "
-            + ", ".join(
-                f"Regulation (EU) {x}"
-                for x in amendments
-            )
-            + "."
-        )
+    is_degraded = (
+        collector_note is not None
+    )
 
     title = (
         "AI Act – konsolidierte Fassung "
-        f"{current_date}"
+        f"{detected_version}"
     )
 
     desc = (
         "Aktuelle konsolidierte Fassung "
         "der Regulation (EU) 2024/1689 "
-        "(Artificial Intelligence Act) "
-        f"mit Stand {current_date}."
-        f"{amendment_text}"
+        "(Artificial Intelligence Act). "
+        f"Stand: {detected_version}."
     )
 
     item = {
@@ -715,10 +658,10 @@ def fetch_eurlex_ai_act(
         title,
 
         "raw_excerpt":
-        desc[:800],
+        desc,
 
         "published_at":
-        current_date,
+        detected_version,
 
         "collected_at":
         now_iso(),
@@ -727,7 +670,14 @@ def fetch_eurlex_ai_act(
         "primary",
 
         "status":
-        "ok",
+        (
+            "degraded"
+            if is_degraded
+            else "ok"
+        ),
+
+        "collector_note":
+        collector_note,
 
         "content_hash":
         content_hash(
@@ -739,17 +689,21 @@ def fetch_eurlex_ai_act(
     return [item]
 
 
+# ---------------------------------------------------------
+# Bestehende Daten
+# ---------------------------------------------------------
+
 def load_existing() -> list[dict]:
 
-    p = DATA / "raw-items.json"
+    path = DATA / "raw-items.json"
 
-    if not p.exists():
+    if not path.exists():
         return []
 
     try:
 
         return json.loads(
-            p.read_text(
+            path.read_text(
                 encoding="utf-8"
             )
         ).get(
@@ -758,7 +712,6 @@ def load_existing() -> list[dict]:
         )
 
     except Exception:
-
         return []
 
 
@@ -766,9 +719,7 @@ def collect_source(
     source: dict
 ) -> list[dict]:
 
-    adapter = source.get(
-        "adapter"
-    )
+    adapter = source.get("adapter")
 
     if adapter == "eu_ai_news":
 
@@ -776,9 +727,9 @@ def collect_source(
             source
         )
 
-    if adapter == "eurlex_ai_act":
+    if adapter == "eurlex_cellar":
 
-        return fetch_eurlex_ai_act(
+        return fetch_eurlex_cellar(
             source
         )
 
@@ -786,6 +737,10 @@ def collect_source(
         source
     )
 
+
+# ---------------------------------------------------------
+# Hauptlauf
+# ---------------------------------------------------------
 
 def main():
 
@@ -796,9 +751,9 @@ def main():
     previous = load_existing()
 
     by_key = {
-        x.get("id"): x
-        for x in previous
-        if x.get("id")
+        item.get("id"): item
+        for item in previous
+        if item.get("id")
     }
 
     source_status = []
@@ -809,7 +764,6 @@ def main():
             "enabled",
             True
         ):
-
             continue
 
         try:
@@ -817,6 +771,55 @@ def main():
             items = collect_source(
                 source
             )
+
+            # EUR-Lex:
+            # nur die aktuelle konsolidierte
+            # Fassung behalten.
+            #
+            # Damit verschwinden auch die
+            # alten V1-Einträge sauber.
+
+            if source.get(
+                "replace_previous",
+                False
+            ):
+
+                source_id = source["id"]
+
+                by_key = {
+                    key: value
+                    for key, value
+                    in by_key.items()
+                    if value.get(
+                        "source_id"
+                    ) != source_id
+                }
+
+            # Alte V1-Startseite
+            # der EU-Kommission entfernen.
+
+            if (
+                source.get("adapter")
+                == "eu_ai_news"
+            ):
+
+                source_id = source["id"]
+                source_url = source["url"]
+
+                by_key = {
+                    key: value
+                    for key, value
+                    in by_key.items()
+                    if not (
+                        value.get(
+                            "source_id"
+                        ) == source_id
+                        and
+                        value.get(
+                            "source_url"
+                        ) == source_url
+                    )
+                }
 
             for item in items:
 
@@ -827,13 +830,9 @@ def main():
                 if (
                     old
                     and
-                    old.get(
-                        "content_hash"
-                    )
+                    old.get("content_hash")
                     ==
-                    item.get(
-                        "content_hash"
-                    )
+                    item.get("content_hash")
                 ):
 
                     old[
@@ -858,6 +857,20 @@ def main():
                             "published_at"
                         ]
 
+                    # Status aktualisieren
+                    old["status"] = (
+                        item.get(
+                            "status",
+                            "ok"
+                        )
+                    )
+
+                    old["collector_note"] = (
+                        item.get(
+                            "collector_note"
+                        )
+                    )
+
                     by_key[
                         item["id"]
                     ] = old
@@ -880,24 +893,57 @@ def main():
                         item["id"]
                     ] = item
 
-            source_status.append({
-                "name":
-                source["name"],
+            degraded_items = [
+                item
+                for item in items
+                if item.get("status")
+                == "degraded"
+            ]
 
-                "type":
-                "core",
+            if degraded_items:
 
-                "status":
-                "ok",
+                source_status.append({
+                    "name":
+                    source["name"],
 
-                "last_update":
-                now_iso(),
+                    "type":
+                    "core",
 
-                "items_found":
-                len(items)
-            })
+                    "status":
+                    "degraded",
 
-        except Exception as e:
+                    "last_update":
+                    now_iso(),
+
+                    "items_found":
+                    len(items),
+
+                    "note":
+                    degraded_items[0].get(
+                        "collector_note"
+                    )
+                })
+
+            else:
+
+                source_status.append({
+                    "name":
+                    source["name"],
+
+                    "type":
+                    "core",
+
+                    "status":
+                    "ok",
+
+                    "last_update":
+                    now_iso(),
+
+                    "items_found":
+                    len(items)
+                })
+
+        except Exception as exc:
 
             source_status.append({
                 "name":
@@ -913,7 +959,7 @@ def main():
                 now_iso(),
 
                 "note":
-                str(e)[:240]
+                str(exc)[:240]
             })
 
     payload = {
@@ -926,8 +972,8 @@ def main():
         "items":
         sorted(
             by_key.values(),
-            key=lambda x:
-            x.get(
+            key=lambda item:
+            item.get(
                 "last_seen_at",
                 ""
             ),
