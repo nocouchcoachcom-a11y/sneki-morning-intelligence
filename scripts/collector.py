@@ -62,7 +62,6 @@ def normalize_date_string(
 
     value = clean_text(value)
 
-    # Bereits ISO
     if re.match(
         r"^\d{4}-\d{2}-\d{2}",
         value
@@ -78,7 +77,6 @@ def normalize_date_string(
 
     for fmt in formats:
         try:
-
             parsed = datetime.strptime(
                 value,
                 fmt
@@ -101,9 +99,8 @@ def extract_published_at(
 
     Reihenfolge:
     1. Meta-Daten
-    2. <time>
-    3. sichtbarer Text wie
-       Publication 20 July 2026
+    2. <time>-Elemente
+    3. sichtbarer Text
     """
 
     meta_candidates = [
@@ -145,9 +142,7 @@ def extract_published_at(
                 meta.get("content")
             )
 
-    for time_tag in soup.find_all(
-        "time"
-    ):
+    for time_tag in soup.find_all("time"):
 
         value = (
             time_tag.get("datetime")
@@ -405,9 +400,7 @@ def fetch_eu_ai_news(
                 "html.parser"
             )
 
-            h1 = detail_soup.find(
-                "h1"
-            )
+            h1 = detail_soup.find("h1")
 
             if h1:
 
@@ -507,9 +500,7 @@ def fetch_eu_ai_news(
                 )
             }
 
-            items.append(
-                item
-            )
+            items.append(item)
 
         except Exception as e:
 
@@ -538,12 +529,8 @@ def fetch_eurlex_ai_act(
     """
     Spezialadapter für EUR-Lex.
 
-    Ziel:
-    Aktuelle konsolidierte Fassung
-    des AI Act erkennen.
-
-    Beispiel:
-    27/07/2026
+    Ermittelt die aktuell konsolidierte
+    Fassung des EU AI Act.
     """
 
     headers = {
@@ -574,11 +561,10 @@ def fetch_eurlex_ai_act(
 
     current_date = None
 
-    # Englische EUR-Lex-Darstellung
     patterns = [
+        r"Current consolidated version\s*:\s*(\d{2}/\d{2}/\d{4})",
         r"Access current version\s*\((\d{2}/\d{2}/\d{4})\)",
-        r"current version\s*\((\d{2}/\d{2}/\d{4})\)",
-        r"Zur geltenden Fassung\s*\((\d{2}/\d{2}/\d{4})\)"
+        r"current version\s*\((\d{2}/\d{2}/\d{4})\)"
     ]
 
     for pattern in patterns:
@@ -599,14 +585,29 @@ def fetch_eurlex_ai_act(
 
             break
 
-    # Fallback:
-    # CELEX-Dokumentkennung wie
-    # 02024R1689-20260727
+    if not current_date:
+
+        match = re.search(
+            r"02024R1689.*?"
+            r"(\d{2}\.\d{2}\.\d{4})",
+            page_text,
+            flags=re.IGNORECASE
+        )
+
+        if match:
+
+            current_date = (
+                normalize_date_string(
+                    match.group(1)
+                )
+            )
+
     if not current_date:
 
         match = re.search(
             r"02024R1689-(\d{8})",
-            page_text
+            page_text,
+            flags=re.IGNORECASE
         )
 
         if match:
@@ -627,7 +628,6 @@ def fetch_eurlex_ai_act(
             "konnte nicht erkannt werden."
         )
 
-    # Aktuelle Fassung direkt verlinken
     version_url = (
         "https://eur-lex.europa.eu/"
         "eli/reg/2024/1689/"
@@ -636,22 +636,28 @@ def fetch_eurlex_ai_act(
 
     amendments = []
 
-    amendment_matches = re.findall(
-        r"REGULATION \(EU\) "
-        r"(\d{4}/\d{4})",
-        page_text,
-        flags=re.IGNORECASE
-    )
+    amendment_patterns = [
+        r"REGULATION \(EU\)\s+(\d{4}/\d{4})",
+        r"Regulation \(EU\)\s+(\d{4}/\d{4})"
+    ]
 
-    for amendment in amendment_matches:
+    for pattern in amendment_patterns:
 
-        if amendment == "2024/1689":
-            continue
+        matches = re.findall(
+            pattern,
+            page_text,
+            flags=re.IGNORECASE
+        )
 
-        if amendment not in amendments:
-            amendments.append(
-                amendment
-            )
+        for amendment in matches:
+
+            if amendment == "2024/1689":
+                continue
+
+            if amendment not in amendments:
+                amendments.append(
+                    amendment
+                )
 
     amendment_text = ""
 
