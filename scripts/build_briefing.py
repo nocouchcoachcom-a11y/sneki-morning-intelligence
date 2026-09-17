@@ -721,7 +721,7 @@ def make_story(item, rank):
         "social_verified": False
     }
 
-def build_edition(name, raw):
+def build_edition(name, raw, *, preview=False):
     now = now_local()
     source_status = raw.get("source_status", [])
     eligible = _eligible_items(raw.get("items", []), source_status)
@@ -758,16 +758,25 @@ def build_edition(name, raw):
         "ranking": ranking,
     }
 
+    serialized = json.dumps(result, ensure_ascii=False, indent=2)
+
+    if preview:
+        # Ein manueller Testlauf schreibt ausschließlich eine separate Preview.
+        # Die bestehende Live-Datei und das Produktionsarchiv bleiben unangetastet.
+        (DATA / "manual-preview.json").write_text(serialized, encoding="utf-8")
+        print(f"{name}-Edition gebaut: {len(candidates)} Items")
+        return
+
     # Aktuelle Edition für Sites
     (DATA / "morning-intelligence.json").write_text(
-        json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8"
+        serialized, encoding="utf-8"
     )
 
     # Edition zusätzlich archivieren
     daydir = DATA / "archive" / now.strftime("%Y-%m-%d")
     daydir.mkdir(parents=True, exist_ok=True)
     (daydir / f"{name}.json").write_text(
-        json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8"
+        serialized, encoding="utf-8"
     )
     print(f"{name}-Edition gebaut: {len(candidates)} Items")
 
@@ -780,10 +789,10 @@ def main():
     manual = os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch"
 
     edition = EDITION_HOURS.get(now.hour)
-    if edition:
+    if manual:
+        build_edition("manual-preview", raw, preview=True)
+    elif edition:
         build_edition(edition, raw)
-    elif manual:
-        build_edition("manual-preview", raw)
     else:
         print(f"{now:%H:%M}: nur Collection, keine Edition.")
 

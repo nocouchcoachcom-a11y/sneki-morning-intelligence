@@ -505,6 +505,74 @@ class BriefingBuilderTests(unittest.TestCase):
             archived = temporary_data / "archive" / day / "offline-test.json"
             self.assertTrue(archived.is_file())
 
+    def test_manual_preview_never_changes_existing_live_json(self):
+        with tempfile.TemporaryDirectory() as directory:
+            temporary_data = Path(directory)
+            current = temporary_data / "morning-intelligence.json"
+            existing_live = b'{"protected":"live"}\n'
+            current.write_bytes(existing_live)
+            self.builder.DATA = temporary_data
+            manual_time = datetime(2026, 9, 17, 7, 0, tzinfo=self.builder.TZ)
+
+            with mock.patch.object(self.builder, "now_local", return_value=manual_time):
+                with mock.patch.object(self.builder, "read_raw", return_value=self.raw):
+                    with mock.patch.dict(
+                        os.environ,
+                        {
+                            "GITHUB_EVENT_NAME": "workflow_dispatch",
+                            "SNEKI_RANKING_MODE": "baseline",
+                        },
+                    ):
+                        self.builder.main()
+
+            self.assertEqual(existing_live, current.read_bytes())
+
+    def test_manual_preview_is_written_to_separate_preview_file(self):
+        with tempfile.TemporaryDirectory() as directory:
+            temporary_data = Path(directory)
+            self.builder.DATA = temporary_data
+            manual_time = datetime(2026, 9, 17, 12, 0, tzinfo=self.builder.TZ)
+
+            with mock.patch.object(self.builder, "now_local", return_value=manual_time):
+                with mock.patch.object(self.builder, "read_raw", return_value=self.raw):
+                    with mock.patch.dict(
+                        os.environ,
+                        {
+                            "GITHUB_EVENT_NAME": "workflow_dispatch",
+                            "SNEKI_RANKING_MODE": "baseline",
+                        },
+                    ):
+                        self.builder.main()
+
+            preview = temporary_data / "manual-preview.json"
+            self.assertTrue(preview.is_file())
+            self.assertEqual(
+                "manual-preview",
+                json.loads(preview.read_text(encoding="utf-8"))["edition"],
+            )
+
+    def test_scheduled_edition_still_updates_live_json(self):
+        with tempfile.TemporaryDirectory() as directory:
+            temporary_data = Path(directory)
+            current = temporary_data / "morning-intelligence.json"
+            current.write_text('{"old":"live"}\n', encoding="utf-8")
+            self.builder.DATA = temporary_data
+            scheduled_time = datetime(2026, 9, 17, 7, 0, tzinfo=self.builder.TZ)
+
+            with mock.patch.object(self.builder, "now_local", return_value=scheduled_time):
+                with mock.patch.object(self.builder, "read_raw", return_value=self.raw):
+                    with mock.patch.dict(
+                        os.environ,
+                        {
+                            "GITHUB_EVENT_NAME": "schedule",
+                            "SNEKI_RANKING_MODE": "baseline",
+                        },
+                    ):
+                        self.builder.main()
+
+            result = json.loads(current.read_text(encoding="utf-8"))
+            self.assertEqual("morning", result["edition"])
+
 
 class BaselineRankingTests(unittest.TestCase):
     REFERENCE_AT = "2026-09-15T12:00:00+02:00"

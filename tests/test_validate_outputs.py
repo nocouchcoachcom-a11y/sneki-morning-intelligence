@@ -201,6 +201,16 @@ class OutputValidatorTests(unittest.TestCase):
         with self.assertRaisesRegex(self.validator.ValidationError, "gültiges JSON"):
             self.validator.validate_outputs(self.data, skip_briefing=True)
 
+    def test_manual_preview_is_strictly_validated(self):
+        self.write_json("raw-items.json", self.valid_raw())
+        preview = self.valid_briefing()
+        preview["edition"] = "manual-preview"
+        self.write_json("manual-preview.json", preview)
+
+        validated = self.validator.validate_outputs(self.data, preview=True)
+
+        self.assertIn("manual-preview.json", validated)
+
 
 class WorkflowStructureTests(unittest.TestCase):
     @classmethod
@@ -272,6 +282,29 @@ class WorkflowStructureTests(unittest.TestCase):
 
         self.assertLess(condition, skip_call)
         self.assertLess(skip_call, strict_call)
+
+    def test_workflow_dispatch_can_never_run_commit_or_push_step(self):
+        validator = self.workflow.index("name: Generierte Daten validieren")
+        post_tests = self.workflow.index("name: Offline-Tests nach Build ausführen")
+        validation_block = self.workflow[validator:post_tests]
+        commit = self.workflow.index("name: Änderungen speichern")
+        commit_block = self.workflow[commit:]
+
+        self.assertIn(
+            '"${{ github.event_name }}" = "workflow_dispatch"',
+            validation_block,
+        )
+        self.assertIn("python scripts/validate_outputs.py --preview", validation_block)
+        self.assertIn("if: github.event_name != 'workflow_dispatch'", commit_block)
+        self.assertIn("git push origin HEAD:main", commit_block)
+
+    def test_scheduled_production_run_keeps_commit_and_push(self):
+        commit = self.workflow.index("name: Änderungen speichern")
+        commit_block = self.workflow[commit:]
+
+        self.assertIn("if: github.event_name != 'workflow_dispatch'", commit_block)
+        self.assertIn("git add data/", commit_block)
+        self.assertIn("git push origin HEAD:main", commit_block)
 
 
 if __name__ == "__main__":
