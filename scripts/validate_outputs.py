@@ -107,8 +107,7 @@ def validate_raw(payload):
     _validate_source_status(payload["source_status"], label)
 
 
-def validate_briefing(payload):
-    label = "morning-intelligence.json"
+def validate_briefing(payload, label="morning-intelligence.json"):
     _require_keys(
         payload,
         {
@@ -224,17 +223,18 @@ def validate_semantic_cache(payload):
             )
 
 
-def validate_outputs(data_dir=DATA, *, skip_briefing=False):
+def validate_outputs(data_dir=DATA, *, skip_briefing=False, preview=False):
     data_dir = Path(data_dir)
     raw = _load_json(data_dir / "raw-items.json", required=True)
     validate_raw(raw)
     validated = ["raw-items.json"]
 
     if not skip_briefing:
-        briefing = _load_json(data_dir / "morning-intelligence.json", required=False)
+        briefing_name = "manual-preview.json" if preview else "morning-intelligence.json"
+        briefing = _load_json(data_dir / briefing_name, required=preview)
         if briefing is not None:
-            validate_briefing(briefing)
-            validated.append("morning-intelligence.json")
+            validate_briefing(briefing, briefing_name)
+            validated.append(briefing_name)
 
     cache = _load_json(data_dir / "semantic-cache.json", required=False)
     if cache is not None:
@@ -247,16 +247,23 @@ def validate_outputs(data_dir=DATA, *, skip_briefing=False):
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--data-dir", type=Path, default=DATA)
-    parser.add_argument(
+    briefing_mode = parser.add_mutually_exclusive_group()
+    briefing_mode.add_argument(
         "--skip-briefing",
         action="store_true",
         help="Überspringt nur ein nachweislich unverändertes bestehendes Briefing.",
+    )
+    briefing_mode.add_argument(
+        "--preview",
+        action="store_true",
+        help="Validiert eine neu erzeugte manual-preview.json streng.",
     )
     args = parser.parse_args(argv)
     try:
         validated = validate_outputs(
             args.data_dir,
             skip_briefing=args.skip_briefing,
+            preview=args.preview,
         )
     except ValidationError as error:
         print(f"Output-Validierung fehlgeschlagen: {error}")

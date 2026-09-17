@@ -50,7 +50,9 @@ jobs:
 
       - name: Generierte Daten validieren
         run: |
-          if git diff --quiet -- data/morning-intelligence.json && \
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            python scripts/validate_outputs.py --preview
+          elif git diff --quiet -- data/morning-intelligence.json && \
              git ls-files --error-unmatch data/morning-intelligence.json >/dev/null 2>&1; then
             echo "Briefing in diesem Lauf unverändert; Legacy-Datei wird übersprungen."
             python scripts/validate_outputs.py --skip-briefing
@@ -67,6 +69,7 @@ jobs:
           python -m unittest discover -s tests -v
 
       - name: Änderungen speichern
+        if: github.event_name != 'workflow_dispatch'
         run: |
           git config user.name "sneKI Morning Intelligence Bot"
           git config user.email "actions@users.noreply.github.com"
