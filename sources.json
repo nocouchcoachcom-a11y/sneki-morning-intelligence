@@ -69,6 +69,95 @@
       "kind": "web",
       "url": "https://www.pmi.org/standards/artificial-intelligence",
       "enabled": true
+    },
+    {
+      "id": "gpm-project-management",
+      "name": "GPM – Aktuelles und Blog",
+      "role": "primary",
+      "priority": "OPTIONAL",
+      "status_type": "optional",
+      "category": [
+        "AI & PM"
+      ],
+      "kind": "sitemap",
+      "url": "https://www.gpm-ipma.de/ueber-die-gpm/blog",
+      "sitemap_urls": [
+        "https://www.gpm-ipma.de/sitemaps/news/sitemap.xml",
+        "https://www.gpm-ipma.de/sitemaps/blog/sitemap.xml"
+      ],
+      "article_path_prefixes": [
+        "/ueber-die-gpm/aktuelles/detail/",
+        "/ueber-die-gpm/blog/"
+      ],
+      "allowed_domains": [
+        "www.gpm-ipma.de"
+      ],
+      "adapter": "sitemap_articles",
+      "keywords": [
+        "AI",
+        "Artificial Intelligence",
+        "GenAI",
+        "Künstliche Intelligenz",
+        "Projektmanagement",
+        "Projektleitung",
+        "PMO",
+        "Programm",
+        "Portfolio",
+        "Risiko",
+        "Leadership",
+        "Führung",
+        "Transformation",
+        "Agile",
+        "Agil",
+        "Hybrid",
+        "Governance"
+      ],
+      "scan_limit": 12,
+      "max_items": 10,
+      "enabled": true
+    },
+    {
+      "id": "apm-project-management",
+      "name": "APM – News and Blog",
+      "role": "primary",
+      "priority": "OPTIONAL",
+      "status_type": "optional",
+      "category": [
+        "AI & PM"
+      ],
+      "kind": "sitemap",
+      "url": "https://www.apm.org.uk/news-and-opinion/",
+      "sitemap_urls": [
+        "https://www.apm.org.uk/sitemap.xml"
+      ],
+      "article_path_prefixes": [
+        "/news/",
+        "/blog/"
+      ],
+      "allowed_domains": [
+        "www.apm.org.uk"
+      ],
+      "adapter": "sitemap_articles",
+      "keywords": [
+        "AI",
+        "Artificial Intelligence",
+        "GenAI",
+        "Project Management",
+        "Project Manager",
+        "PMO",
+        "Program",
+        "Programme",
+        "Portfolio",
+        "Risk",
+        "Leadership",
+        "Transformation",
+        "Agile",
+        "Hybrid",
+        "Governance"
+      ],
+      "scan_limit": 12,
+      "max_items": 10,
+      "enabled": true
     }
   ]
 }

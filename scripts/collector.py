@@ -6,7 +6,8 @@ from zoneinfo import ZoneInfo
 import hashlib
 import json
 import re
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
+import xml.etree.ElementTree as ET
 
 import requests
 from bs4 import BeautifulSoup
@@ -282,6 +283,294 @@ def fetch_web(
             desc
         )
     }]
+
+
+# ---------------------------------------------------------
+# Offizielle Artikel-Sitemaps
+# ---------------------------------------------------------
+
+def _matches_keywords(
+    title: str,
+    excerpt: str,
+    keywords: list[str]
+) -> bool:
+
+    text = f"{title} {excerpt}"
+
+    return any(
+        re.search(
+            rf"(?<!\w){re.escape(keyword)}(?!\w)",
+            text,
+            flags=re.IGNORECASE
+        )
+        for keyword in keywords
+    )
+
+
+def _article_excerpt(
+    soup: BeautifulSoup,
+    heading
+) -> str:
+
+    meta = (
+        soup.find(
+            "meta",
+            attrs={"name": "description"}
+        )
+        or
+        soup.find(
+            "meta",
+            attrs={"property": "og:description"}
+        )
+    )
+
+    if meta and meta.get("content"):
+        return clean_text(meta["content"])
+
+    article = (
+        heading.find_parent("article")
+        if heading
+        else None
+    )
+
+    container = article or soup.find("main") or soup
+
+    for paragraph in container.find_all("p"):
+
+        excerpt = clean_text(
+            paragraph.get_text(
+                " ",
+                strip=True
+            )
+        )
+
+        if len(excerpt) >= 60:
+            return excerpt
+
+    return ""
+
+
+def _article_published_at(
+    soup: BeautifulSoup,
+    heading
+) -> str | None:
+
+    if heading:
+
+        for parent in list(heading.parents)[:7]:
+
+            time_tag = parent.find("time")
+
+            if not time_tag:
+                continue
+
+            value = (
+                time_tag.get("datetime")
+                or time_tag.get_text(
+                    " ",
+                    strip=True
+                )
+            )
+
+            normalized = normalize_date_string(
+                value
+            )
+
+            if normalized:
+                return normalized
+
+    return extract_published_at(soup)
+
+
+def fetch_sitemap_articles(
+    source: dict
+) -> list[dict]:
+
+    """
+    Nutzt die offizielle XML-Sitemap zur Entdeckung.
+    Nur die dort verlinkten Originalartikel werden gelesen.
+    """
+
+    candidates = []
+
+    for sitemap_url in source.get(
+        "sitemap_urls",
+        []
+    ):
+
+        response = requests.get(
+            sitemap_url,
+            headers=HEADERS,
+            timeout=25
+        )
+
+        response.raise_for_status()
+
+        root = ET.fromstring(
+            response.text
+        )
+
+        for node in root:
+
+            values = {
+                child.tag.rsplit("}", 1)[-1]:
+                clean_text(child.text)
+                for child in node
+            }
+
+            url = values.get("loc", "")
+            path = urlparse(url).path
+
+            if not any(
+                path.startswith(prefix)
+                for prefix in source.get(
+                    "article_path_prefixes",
+                    []
+                )
+            ):
+                continue
+
+            hostname = (
+                urlparse(url).hostname
+                or ""
+            ).lower()
+
+            if hostname not in {
+                domain.lower()
+                for domain in source.get(
+                    "allowed_domains",
+                    []
+                )
+            }:
+                continue
+
+            candidates.append((
+                values.get("lastmod", ""),
+                url
+            ))
+
+    candidates = sorted(
+        set(candidates),
+        reverse=True
+    )
+
+    if not candidates:
+        raise RuntimeError(
+            "Offizielle Sitemap enthält keine "
+            "passenden Artikel-URLs."
+        )
+
+    items = []
+    detail_pages_read = 0
+
+    for _, url in candidates[:source.get(
+        "scan_limit",
+        12
+    )]:
+
+        try:
+
+            detail = requests.get(
+                url,
+                headers=HEADERS,
+                timeout=25
+            )
+
+            detail.raise_for_status()
+            detail_pages_read += 1
+
+            soup = BeautifulSoup(
+                detail.text,
+                "html.parser"
+            )
+
+            heading = soup.find("h1")
+            title = clean_text(
+                heading.get_text(
+                    " ",
+                    strip=True
+                )
+                if heading
+                else ""
+            )
+
+            excerpt = _article_excerpt(
+                soup,
+                heading
+            )
+
+            if not title or not _matches_keywords(
+                title,
+                excerpt,
+                source.get("keywords", [])
+            ):
+                continue
+
+            published_at = _article_published_at(
+                soup,
+                heading
+            )
+
+            is_degraded = not (
+                published_at
+                and excerpt
+            )
+
+            items.append({
+                "id": stable_id(
+                    source["id"],
+                    url,
+                    title
+                ),
+                "source_id": source["id"],
+                "source": source["name"],
+                "source_type": source["role"],
+                "source_url": url,
+                "category": source.get(
+                    "category",
+                    []
+                ),
+                "title": title,
+                "raw_excerpt": excerpt[:800],
+                "published_at": published_at,
+                "collected_at": now_iso(),
+                "verification": "primary",
+                "status": (
+                    "degraded"
+                    if is_degraded
+                    else "ok"
+                ),
+                "collector_note": (
+                    "Datum oder Kurztext fehlt."
+                    if is_degraded
+                    else None
+                ),
+                "content_hash": content_hash(
+                    title,
+                    excerpt
+                )
+            })
+
+            if len(items) >= source.get(
+                "max_items",
+                10
+            ):
+                break
+
+        except Exception as exc:
+
+            print(
+                "Sitemap-Artikel übersprungen: "
+                f"{url}: {exc}"
+            )
+
+    if detail_pages_read == 0:
+        raise RuntimeError(
+            "Kein Artikel aus der offiziellen "
+            "Sitemap war erreichbar."
+        )
+
+    return items
 
 
 # ---------------------------------------------------------
@@ -733,6 +1022,12 @@ def collect_source(
             source
         )
 
+    if adapter == "sitemap_articles":
+
+        return fetch_sitemap_articles(
+            source
+        )
+
     return fetch_web(
         source
     )
@@ -907,7 +1202,10 @@ def main():
                     source["name"],
 
                     "type":
-                    "core",
+                    source.get(
+                        "status_type",
+                        "core"
+                    ),
 
                     "status":
                     "degraded",
@@ -931,7 +1229,10 @@ def main():
                     source["name"],
 
                     "type":
-                    "core",
+                    source.get(
+                        "status_type",
+                        "core"
+                    ),
 
                     "status":
                     "ok",
@@ -950,7 +1251,10 @@ def main():
                 source["name"],
 
                 "type":
-                "core",
+                source.get(
+                    "status_type",
+                    "core"
+                ),
 
                 "status":
                 "failed",
