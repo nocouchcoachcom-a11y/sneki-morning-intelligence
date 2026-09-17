@@ -1,0 +1,188 @@
+[
+  {
+    "item_id": "299bc3455f13fc48bf13",
+    "title": "Datenschutzkonferenz",
+    "raw_excerpt": "Der offizielle Webauftritt der Datenschutzkonferenz (DSK), dem Gremium der deutschen Datenschutzaufsichtsbehörden",
+    "source": "Datenschutzkonferenz",
+    "category": [
+      "DSGVO & Ethik",
+      "AI Governance"
+    ],
+    "published_at": null,
+    "first_seen_at": "2026-09-14T18:58:54+02:00",
+    "expected_management_relevance": 0,
+    "expected_actionability": 0,
+    "expected_significance": 0,
+    "expected_assessment_status": "insufficient_input",
+    "reference_note": "Bestätigt: unzureichende Bewertungsgrundlage; alle drei Dimensionen sind 0."
+  },
+  {
+    "item_id": "fd26c6620cbb3b8fa54e",
+    "title": "Home | European Data Protection Board",
+    "raw_excerpt": "",
+    "source": "European Data Protection Board",
+    "category": [
+      "DSGVO & Ethik",
+      "AI Governance"
+    ],
+    "published_at": "2026-07-30T12:00:00Z",
+    "first_seen_at": "2026-09-14T18:58:54+02:00",
+    "expected_management_relevance": 0,
+    "expected_actionability": 0,
+    "expected_significance": 0,
+    "expected_assessment_status": "insufficient_input",
+    "reference_note": "Bestätigt: unzureichende Bewertungsgrundlage; alle drei Dimensionen sind 0."
+  },
+  {
+    "item_id": "01c5434847cfafae5a0c",
+    "title": "AI Act – konsolidierte Fassung 2026-07-27",
+    "raw_excerpt": "Aktuelle konsolidierte Fassung der Regulation (EU) 2024/1689 (Artificial Intelligence Act). Stand: 2026-07-27.",
+    "source": "EUR-Lex – Regulation (EU) 2024/1689",
+    "category": [
+      "EU AI Act"
+    ],
+    "published_at": "2026-07-27",
+    "first_seen_at": "2026-09-15T11:44:58+02:00",
+    "expected_management_relevance": 1,
+    "expected_actionability": 1,
+    "expected_significance": 2,
+    "expected_assessment_status": "scored",
+    "reference_note": "Bestätigt: geringe Management-Relevanz und Handlungsnähe, mittlere fachliche Bedeutung."
+  },
+  {
+    "item_id": "411fbacd51e3afc9e023",
+    "title": "Commission selects EUROPA consortium as the winner of the Frontier AI Grand Challenge, a project to build European open-source frontier AI model in all 24 EU languages",
+    "raw_excerpt": "The European Commission has selected EUROPA, a European consortium led by the Italian company Domyn, as the winner of its Frontier AI Grand Challenge.",
+    "source": "European Commission – AI Act / AI Office",
+    "category": [
+      "EU AI Act",
+      "AI Governance"
+    ],
+    "published_at": "2026-06-19",
+    "first_seen_at": "2026-09-15T10:44:01+02:00",
+    "expected_management_relevance": 1,
+    "expected_actionability": 1,
+    "expected_significance": 2,
+    "expected_assessment_status": "scored",
+    "reference_note": "Bestätigt: geringe Management-Relevanz und Handlungsnähe, mittlere fachliche Bedeutung."
+  },
+  {
+    "item_id": "988b163c909eaa93d3a0",
+    "title": "Commission presents EU Action Plan on Cybersecurity and Artificial Intelligence",
+    "raw_excerpt": "The European Commission has presented an Action Plan for a structured response to address the risks and harness the opportunities of advanced artificial intelligence (AI) models for cybersecurity.",
+    "source": "European Commission – AI Act / AI Office",
+    "category": [
+      "EU AI Act",
+      "AI Governance"
+    ],
+    "published_at": "2026-07-07",
+    "first_seen_at": "2026-09-15T10:44:01+02:00",
+    "expected_management_relevance": 2,
+    "expected_actionability": 1,
+    "expected_significance": 2,
+    "expected_assessment_status": "scored",
+    "reference_note": "Bestätigt: mittlere Management-Relevanz, geringe Handlungsnähe und mittlere fachliche Bedeutung."
+  },
+  {
+    "item_id": "7fc7e1c4d2073d835bbc",
+    "title": "Commission publishes guidelines on transparency obligations for providers and deployers of certain AI systems",
+    "raw_excerpt": "The European Commission has published guidelines to assist providers and deployers of artificial intelligence (AI) systems in meeting the AI Act's transparency obligations, which start to apply on 2 August 2026.",
+    "source": "European Commission – AI Act / AI Office",
+    "category": [
+      "EU AI Act",
+      "AI Governance"
+    ],
+    "published_at": "2026-07-20",
+    "first_seen_at": "2026-09-15T10:44:01+02:00",
+    "expected_management_relevance": 3,
+    "expected_actionability": 3,
+    "expected_significance": 3,
+    "expected_assessment_status": "scored",
+    "reference_note": "Bestätigt: in allen drei Dimensionen hohe Bewertung."
+  },
+  {
+    "item_id": "076d3df9976c6ede52e9",
+    "title": "EU launches AI Gigafactories call to boost Europe's computing capacity and unlock more than €30 billion in investment",
+    "raw_excerpt": "The EU has launched a call for tenders to establish up to seven AI Gigafactories across Europe, as part of its latest major push to accelerate Europe's technological sovereignty and ambition of becoming the AI Continent.",
+    "source": "European Commission – AI Act / AI Office",
+    "category": [
+      "EU AI Act",
+      "AI Governance"
+    ],
+    "published_at": "2026-07-30",
+    "first_seen_at": "2026-09-15T10:44:00+02:00",
+    "expected_management_relevance": 2,
+    "expected_actionability": 1,
+    "expected_significance": 3,
+    "expected_assessment_status": "scored",
+    "reference_note": "Bestätigt: mittlere Management-Relevanz, geringe Handlungsnähe und hohe fachliche Bedeutung."
+  },
+  {
+    "item_id": "675ab8b9c70584920356",
+    "title": "Commission starts enforcing AI Act rules and new transparency requirements on 2 August",
+    "raw_excerpt": "From 2 August 2026, the European Commission’s AI Office, together with national authorities, will begin enforcing the Artificial Intelligence (AI) Act.",
+    "source": "European Commission – AI Act / AI Office",
+    "category": [
+      "EU AI Act",
+      "AI Governance"
+    ],
+    "published_at": "2026-07-31",
+    "first_seen_at": "2026-09-15T10:43:59+02:00",
+    "expected_management_relevance": 3,
+    "expected_actionability": 3,
+    "expected_significance": 3,
+    "expected_assessment_status": "scored",
+    "reference_note": "Bestätigt: in allen drei Dimensionen hohe Bewertung."
+  },
+  {
+    "item_id": "b4038eb822b1702a8e84",
+    "title": "Executive Vice-President Virkkunen in the US for G20 Ministerial meetings",
+    "raw_excerpt": "Starting today until Wednesday, 2 September, the European Commission will be represented by Henna Virkkunen, Executive Vice-President for Tech Sovereignty, Security and Democracy and Valdis Dombrovskis, Commissioner for Economy and Productivity, Implementation and Simplification at the G20 Ministerial meetings in North Carolina, United States of America.",
+    "source": "European Commission – AI Act / AI Office",
+    "category": [
+      "EU AI Act",
+      "AI Governance"
+    ],
+    "published_at": "2026-08-31",
+    "first_seen_at": "2026-09-15T10:43:59+02:00",
+    "expected_management_relevance": 1,
+    "expected_actionability": 0,
+    "expected_significance": 1,
+    "expected_assessment_status": "scored",
+    "reference_note": "Bestätigt: geringe Management-Relevanz, keine Handlungsnähe und geringe fachliche Bedeutung."
+  },
+  {
+    "item_id": "c559fbd12af243b637ab",
+    "title": "AI Omnibus enters into force",
+    "raw_excerpt": "On 27 July 2026, the AI Omnibus enters into force across the EU, bringing extended timelines to administrative simplification.",
+    "source": "European Commission – AI Act / AI Office",
+    "category": [
+      "EU AI Act",
+      "AI Governance"
+    ],
+    "published_at": "2026-07-27",
+    "first_seen_at": "2026-09-15T10:43:59+02:00",
+    "expected_management_relevance": 3,
+    "expected_actionability": 2,
+    "expected_significance": 3,
+    "expected_assessment_status": "scored",
+    "reference_note": "Bestätigt: hohe Management-Relevanz und fachliche Bedeutung, mittlere Handlungsnähe."
+  },
+  {
+    "item_id": "956414ff323625f7fa6f",
+    "title": "Supporting the implementation of the AI Act with clear guidelines",
+    "raw_excerpt": "In the course of 2026, the AI Office has been preparing guidelines to ensure a smooth implementation of the AI Act.",
+    "source": "European Commission – AI Act / AI Office",
+    "category": [
+      "EU AI Act",
+      "AI Governance"
+    ],
+    "published_at": "2025-12-04",
+    "first_seen_at": "2026-09-15T10:43:58+02:00",
+    "expected_management_relevance": 1,
+    "expected_actionability": 1,
+    "expected_significance": 1,
+    "expected_assessment_status": "scored",
+    "reference_note": "Bestätigt: in allen drei Dimensionen geringe Bewertung."
+  }
+]
