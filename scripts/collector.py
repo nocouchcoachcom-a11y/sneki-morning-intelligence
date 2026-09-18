@@ -392,6 +392,10 @@ def fetch_sitemap_articles(
     """
 
     candidates = []
+    request_timeout = source.get(
+        "timeout_seconds",
+        10
+    )
 
     for sitemap_url in source.get(
         "sitemap_urls",
@@ -401,7 +405,7 @@ def fetch_sitemap_articles(
         response = requests.get(
             sitemap_url,
             headers=HEADERS,
-            timeout=25
+            timeout=request_timeout
         )
 
         response.raise_for_status()
@@ -473,7 +477,7 @@ def fetch_sitemap_articles(
             detail = requests.get(
                 url,
                 headers=HEADERS,
-                timeout=25
+                timeout=request_timeout
             )
 
             detail.raise_for_status()

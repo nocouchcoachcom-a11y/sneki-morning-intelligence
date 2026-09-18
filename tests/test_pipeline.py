@@ -54,13 +54,13 @@ class SitemapSourceAdapterTests(unittest.TestCase):
         response.raise_for_status.return_value = None
         return response
 
-    def source(self, source_id="gpm-pm"):
+    def source(self, source_id="gpm-pm", status_type="core"):
         return {
             "id": source_id,
             "name": "Test PM Source",
             "role": "primary",
-            "priority": "OPTIONAL",
-            "status_type": "optional",
+            "priority": "MUST",
+            "status_type": status_type,
             "category": ["AI & PM"],
             "url": "https://example.org/articles/",
             "sitemap_urls": ["https://example.org/sitemap.xml"],
@@ -123,7 +123,71 @@ class SitemapSourceAdapterTests(unittest.TestCase):
         self.assertEqual("https://example.org/articles/pmo-value", items[0]["source_url"])
         self.assertIn("portfolio decisions", items[0]["raw_excerpt"])
 
-    def test_failed_optional_source_does_not_stop_remaining_sources(self):
+    def test_gpm_irrelevant_article_is_rejected(self):
+        sitemap = """<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+          <url><loc>https://example.org/articles/sommerfest</loc><lastmod>2026-09-17</lastmod></url>
+        </urlset>"""
+        article = """<html><main><article><header>
+          <time datetime="2026-09-17">17.09.2026</time><h1>Fotos vom Sommerfest</h1>
+        </header><p>Mitglieder trafen sich bei Musik und gutem Wetter zum Feiern.</p></article></main></html>"""
+
+        with mock.patch.object(
+            self.collector.requests,
+            "get",
+            side_effect=[self.response(sitemap), self.response(article)],
+        ):
+            items = self.collector.fetch_sitemap_articles(self.source("gpm-pm"))
+
+        self.assertEqual([], items)
+
+    def test_apm_irrelevant_article_is_rejected(self):
+        sitemap = """<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+          <url><loc>https://example.org/articles/social-event</loc><lastmod>2026-09-17</lastmod></url>
+        </urlset>"""
+        article = """<html><main><article><header>
+          <time datetime="2026-09-17">17 Sept 2026</time><h1>Pictures from our social event</h1>
+        </header><p>Members enjoyed an informal evening with food and music.</p></article></main></html>"""
+
+        with mock.patch.object(
+            self.collector.requests,
+            "get",
+            side_effect=[self.response(sitemap), self.response(article)],
+        ):
+            items = self.collector.fetch_sitemap_articles(self.source("apm-pm"))
+
+        self.assertEqual([], items)
+
+    def test_missing_publication_date_is_not_invented(self):
+        sitemap = """<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+          <url><loc>https://example.org/articles/ai-without-date</loc><lastmod>2026-09-17</lastmod></url>
+        </urlset>"""
+        article = """<html><main><article><header>
+          <h1>Artificial Intelligence in project governance</h1>
+        </header><p>Project leaders use a governance framework for responsible decisions.</p></article></main></html>"""
+
+        with mock.patch.object(
+            self.collector.requests,
+            "get",
+            side_effect=[self.response(sitemap), self.response(article)],
+        ):
+            items = self.collector.fetch_sitemap_articles(self.source())
+
+        self.assertIsNone(items[0]["published_at"])
+        self.assertEqual("degraded", items[0]["status"])
+
+    def test_source_matrix_marks_gpm_apm_core_and_pmi_optional(self):
+        sources = {
+            source["id"]: source
+            for source in json.loads(
+                (ROOT / "sources.json").read_text(encoding="utf-8")
+            )["sources"]
+        }
+
+        self.assertEqual("core", sources["gpm-project-management"]["status_type"])
+        self.assertEqual("core", sources["apm-project-management"]["status_type"])
+        self.assertEqual("optional", sources["pmi-ai"]["status_type"])
+
+    def test_failed_pm_source_does_not_stop_remaining_sources(self):
         failed = self.source()
         working = {**self.source("working-pm"), "name": "Working PM Source"}
         temporary_directory = tempfile.TemporaryDirectory()
@@ -158,9 +222,35 @@ class SitemapSourceAdapterTests(unittest.TestCase):
         payload = json.loads((temporary_data / "raw-items.json").read_text(encoding="utf-8"))
         statuses = {entry["name"]: entry for entry in payload["source_status"]}
         self.assertEqual("failed", statuses["Test PM Source"]["status"])
-        self.assertEqual("optional", statuses["Test PM Source"]["type"])
+        self.assertEqual("core", statuses["Test PM Source"]["type"])
         self.assertEqual("ok", statuses["Working PM Source"]["status"])
         self.assertEqual(["working-item"], [item["id"] for item in payload["items"]])
+
+    def test_source_status_preserves_supported_matrix_types(self):
+        source_types = ("core", "optional", "standards", "research")
+        sources = [
+            {
+                **self.source(f"source-{status_type}", status_type=status_type),
+                "name": f"Source {status_type}",
+            }
+            for status_type in source_types
+        ]
+        temporary_directory = tempfile.TemporaryDirectory()
+        self.addCleanup(temporary_directory.cleanup)
+        temporary_data = Path(temporary_directory.name)
+
+        with mock.patch.object(self.collector, "DATA", temporary_data), mock.patch.object(
+            self.collector,
+            "SOURCES",
+            {"sources": sources},
+        ), mock.patch.object(self.collector, "collect_source", return_value=[]):
+            self.collector.main()
+
+        payload = json.loads((temporary_data / "raw-items.json").read_text(encoding="utf-8"))
+        self.assertEqual(
+            list(source_types),
+            [entry["type"] for entry in payload["source_status"]],
+        )
 
 
 class ProjectLayoutTests(unittest.TestCase):

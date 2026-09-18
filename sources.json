@@ -62,7 +62,8 @@
       "id": "pmi-ai",
       "name": "PMI – Artificial Intelligence",
       "role": "primary",
-      "priority": "MUST",
+      "priority": "OPTIONAL",
+      "status_type": "optional",
       "category": [
         "AI & PM"
       ],
@@ -74,8 +75,8 @@
       "id": "gpm-project-management",
       "name": "GPM – Aktuelles und Blog",
       "role": "primary",
-      "priority": "OPTIONAL",
-      "status_type": "optional",
+      "priority": "MUST",
+      "status_type": "core",
       "category": [
         "AI & PM"
       ],
@@ -112,16 +113,17 @@
         "Hybrid",
         "Governance"
       ],
-      "scan_limit": 12,
-      "max_items": 10,
+      "scan_limit": 6,
+      "max_items": 5,
+      "timeout_seconds": 10,
       "enabled": true
     },
     {
       "id": "apm-project-management",
       "name": "APM – News and Blog",
       "role": "primary",
-      "priority": "OPTIONAL",
-      "status_type": "optional",
+      "priority": "MUST",
+      "status_type": "core",
       "category": [
         "AI & PM"
       ],
@@ -155,8 +157,9 @@
         "Hybrid",
         "Governance"
       ],
-      "scan_limit": 12,
-      "max_items": 10,
+      "scan_limit": 6,
+      "max_items": 5,
+      "timeout_seconds": 10,
       "enabled": true
     }
   ]
