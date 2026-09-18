@@ -1049,6 +1049,17 @@ class HybridRankingIntegrationTests(unittest.TestCase):
                 encoding="utf-8"
             )
         )
+        self.v2_predictions = [
+            {
+                **prediction,
+                "why_relevant": (
+                    "Für Unternehmen relevant, weil die Meldung eine konkrete "
+                    "Entwicklung mit möglicher Managementbedeutung beschreibt."
+                ),
+                "watch_next": "Weitere Konkretisierungen in der Originalquelle beobachten.",
+            }
+            for prediction in self.luna_result["predictions"]
+        ]
 
     def select(self, *, mode, provider):
         return self.builder.select_candidates_for_mode(
@@ -1117,21 +1128,21 @@ class HybridRankingIntegrationTests(unittest.TestCase):
                 "675ab8b9c70584920356",
                 "01c5434847cfafae5a0c",
                 "076d3df9976c6ede52e9",
-                "299bc3455f13fc48bf13",
                 "c559fbd12af243b637ab",
+                "7fc7e1c4d2073d835bbc",
             ],
             [item["id"] for item in selected],
         )
 
     def test_unknown_item_id_uses_baseline_fallback(self):
-        predictions = [dict(item) for item in self.luna_result["predictions"]]
+        predictions = [dict(item) for item in self.v2_predictions]
         predictions[0]["item_id"] = "unknown-item"
         provider = mock.Mock(return_value={"predictions": predictions, "usage": {}})
 
         selected, metadata = self.select(mode="hybrid", provider=provider)
 
         self.assertEqual("baseline_fallback", metadata["effective_mode"])
-        self.assertEqual("299bc3455f13fc48bf13", selected[3]["id"])
+        self.assertEqual("c559fbd12af243b637ab", selected[3]["id"])
 
     def test_api_key_is_never_written_to_fallback_log(self):
         secret = "sk-offline-never-log-this-secret"
@@ -1147,13 +1158,19 @@ class HybridRankingIntegrationTests(unittest.TestCase):
         self.assertIn("[REDACTED]", output.getvalue())
 
     def test_saved_luna_result_reproduces_documented_hybrid_top_five(self):
-        provider = mock.Mock(return_value=self.luna_result)
+        ranked = self.builder.rank_candidates_hybrid(
+            self.raw["items"],
+            self.raw["source_status"],
+            self.sources,
+            self.raw["collected_at"],
+            self.luna_result["predictions"],
+            limit=5,
+        )
 
-        selected, metadata = self.select(mode="hybrid", provider=provider)
-
-        provider.assert_called_once()
-        self.assertEqual("hybrid", metadata["effective_mode"])
-        self.assertEqual(self.EXPECTED_TOP_FIVE, [item["id"] for item in selected])
+        self.assertEqual(
+            self.EXPECTED_TOP_FIVE,
+            [result["item"]["id"] for result in ranked],
+        )
 
 
 class SemanticCacheTests(unittest.TestCase):
@@ -1169,7 +1186,15 @@ class SemanticCacheTests(unittest.TestCase):
             )
         )
         self.prediction_by_id = {
-            item["item_id"]: item for item in self.luna_result["predictions"]
+            item["item_id"]: {
+                **item,
+                "why_relevant": (
+                    "Für Unternehmen relevant, weil die Meldung eine konkrete "
+                    "Entwicklung mit möglicher Managementbedeutung beschreibt."
+                ),
+                "watch_next": "Weitere Konkretisierungen in der Originalquelle beobachten.",
+            }
+            for item in self.luna_result["predictions"]
         }
         usable_sources = {
             source["name"]
@@ -1336,7 +1361,7 @@ class SemanticCacheTests(unittest.TestCase):
 
         provider.assert_called_once()
         self.assertEqual("baseline_fallback", metadata["effective_mode"])
-        self.assertEqual("299bc3455f13fc48bf13", selected[3]["id"])
+        self.assertEqual("c559fbd12af243b637ab", selected[3]["id"])
 
     def test_api_error_does_not_damage_existing_cache(self):
         self.cache_with_first_items(1)

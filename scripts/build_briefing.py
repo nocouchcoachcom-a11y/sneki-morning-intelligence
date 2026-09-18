@@ -39,9 +39,15 @@ EDITION_HOURS = {
 RANKING_MODES = {"baseline", "hybrid"}
 HYBRID_MODEL_ID = "gpt-5.6-luna"
 HYBRID_REASONING_EFFORT = "low"
-HYBRID_PROMPT_VERSION = "v1"
-HYBRID_SCHEMA_VERSION = "v1"
+HYBRID_PROMPT_VERSION = "v2"
+HYBRID_SCHEMA_VERSION = "v2"
 SEMANTIC_CACHE_SCHEMA_VERSION = "1.0"
+V2_SEMANTIC_SIMILARITY_BAND = 0.25
+OLD_WHY_RELEVANT_PLACEHOLDER = (
+    "Für sneKI prüfen: Relevanz für Regulierung, Governance, Datenschutz "
+    "oder AI-Projektmanagement."
+)
+OLD_WATCH_NEXT_PLACEHOLDER = "Primärquelle auf konkrete Änderungen prüfen."
 
 def now_local():
     return datetime.now(TZ)
@@ -353,6 +359,239 @@ def rank_candidates_hybrid(
         limit,
     )
 
+
+def _rank_candidates_v2(
+    items,
+    source_status,
+    source_config,
+    reference_at,
+    semantic_scores,
+    limit,
+):
+    """Weiche Diversity nur innerhalb eines engen semantischen Qualitätsbands."""
+    reference_timestamp = parse_sort_timestamp(reference_at)
+    if reference_timestamp is None:
+        raise ValueError("Ranking benötigt einen gültigen Referenzzeitpunkt.")
+
+    source_by_id = {
+        source.get("id"): source
+        for source in source_config
+        if source.get("id")
+    }
+    remaining = []
+    for item in _eligible_items(items, source_status):
+        item_id = item.get("id")
+        if item_id not in semantic_scores:
+            continue
+        semantic_score = semantic_scores[item_id]
+        recency_score = _baseline_recency_score(item, reference_timestamp)
+        quality_score = _baseline_quality_score(item, source_by_id)
+        remaining.append({
+            "item": item,
+            "semantic_component": semantic_score,
+            "recency_score": recency_score,
+            "quality_score": quality_score,
+            "base_score": semantic_score + recency_score + quality_score,
+            "effective_timestamp": publication_sort_timestamp(item),
+        })
+
+    selected = []
+    selected_per_source = {}
+    selected_per_category = {}
+
+    while remaining and len(selected) < limit:
+        strongest_semantic = max(
+            candidate["semantic_component"]
+            for candidate in remaining
+        )
+        similar = [
+            candidate
+            for candidate in remaining
+            if strongest_semantic - candidate["semantic_component"]
+            <= V2_SEMANTIC_SIMILARITY_BAND
+        ]
+
+        newest_recency_band = max(
+            candidate["recency_score"]
+            for candidate in similar
+        )
+        similar = [
+            candidate
+            for candidate in similar
+            if candidate["recency_score"] == newest_recency_band
+        ]
+
+        best_quality = max(
+            candidate["quality_score"]
+            for candidate in similar
+        )
+        similar = [
+            candidate
+            for candidate in similar
+            if candidate["quality_score"] == best_quality
+        ]
+
+        evaluated = []
+        for candidate in similar:
+            item = candidate["item"]
+            categories = item.get("category") or []
+            category_repetitions = sum(
+                selected_per_category.get(category, 0)
+                for category in categories
+            )
+            source_key = item.get("source_id") or item.get("source")
+            source_repetitions = selected_per_source.get(source_key, 0)
+            evaluated.append({
+                **candidate,
+                "category_repetitions": category_repetitions,
+                "source_repetitions": source_repetitions,
+                "diversity_rule": "soft_tiebreaker_v2",
+            })
+
+        winner = min(
+            evaluated,
+            key=lambda result: (
+                result["category_repetitions"],
+                result["source_repetitions"],
+                -result["semantic_component"],
+                -result["effective_timestamp"],
+                result["item"].get("id", ""),
+            ),
+        )
+        selected.append(winner)
+        remaining.remove(
+            next(
+                candidate
+                for candidate in remaining
+                if candidate["item"] is winner["item"]
+            )
+        )
+
+        item = winner["item"]
+        source_key = item.get("source_id") or item.get("source")
+        selected_per_source[source_key] = selected_per_source.get(source_key, 0) + 1
+        for category in item.get("category") or []:
+            selected_per_category[category] = selected_per_category.get(category, 0) + 1
+
+    return selected
+
+
+def _validate_hybrid_predictions_v2(predictions, expected_item_ids):
+    if not isinstance(predictions, list):
+        raise ValueError("Hybrid-Ausgabe muss eine Liste von Bewertungen enthalten.")
+
+    expected = set(expected_item_ids)
+    actual_ids = [prediction.get("item_id") for prediction in predictions]
+    if len(actual_ids) != len(set(actual_ids)) or set(actual_ids) != expected:
+        raise ValueError("Hybrid-Ausgabe enthält fehlende oder doppelte item_id-Werte.")
+
+    required = {
+        "item_id",
+        "assessment_status",
+        "management_relevance",
+        "actionability",
+        "significance",
+        "reason",
+        "summary",
+        "why_relevant",
+        "watch_next",
+    }
+    for prediction in predictions:
+        if set(prediction) != required:
+            raise ValueError("Hybrid-Ausgabe verletzt das Structured-Output-Schema V2.")
+        status = prediction["assessment_status"]
+        scores = [
+            prediction["management_relevance"],
+            prediction["actionability"],
+            prediction["significance"],
+        ]
+        if status not in {"scored", "insufficient_input"}:
+            raise ValueError("Hybrid-Ausgabe enthält einen ungültigen Status.")
+        if not all(isinstance(score, int) and 0 <= score <= 3 for score in scores):
+            raise ValueError("Hybrid-Ausgabe enthält ungültige Scores.")
+        if status == "insufficient_input" and scores != [0, 0, 0]:
+            raise ValueError("insufficient_input benötigt drei Nullwerte.")
+        if not all(
+            isinstance(prediction[field], str) and prediction[field].strip()
+            for field in ("reason", "summary", "why_relevant", "watch_next")
+        ):
+            raise ValueError("Hybrid-Ausgabe enthält leere Texte.")
+        if (
+            prediction["why_relevant"].strip() == OLD_WHY_RELEVANT_PLACEHOLDER
+            or prediction["watch_next"].strip() == OLD_WATCH_NEXT_PLACEHOLDER
+        ):
+            raise ValueError("Hybrid-Ausgabe enthält einen alten generischen Platzhalter.")
+        why_word_count = len(prediction["why_relevant"].split())
+        if not 10 <= why_word_count <= 40:
+            raise ValueError("why_relevant besitzt keine geeignete Satzlänge.")
+
+
+def rank_candidates_hybrid_v2(
+    items,
+    source_status,
+    source_config,
+    reference_at,
+    predictions,
+    limit=5,
+):
+    """Aktives Hybrid-V2-Ranking mit redaktionellen Texten und weicher Vielfalt."""
+    eligible = _eligible_items(items, source_status)
+    expected_item_ids = [item["id"] for item in eligible]
+    _validate_hybrid_predictions_v2(predictions, expected_item_ids)
+
+    semantic_scores = {}
+    prediction_by_id = {}
+    for prediction in predictions:
+        if prediction["assessment_status"] == "insufficient_input":
+            continue
+        semantic_raw = (
+            prediction["management_relevance"]
+            + prediction["actionability"]
+            + prediction["significance"]
+        )
+        semantic_scores[prediction["item_id"]] = round(semantic_raw * 2 / 9, 2)
+        prediction_by_id[prediction["item_id"]] = prediction
+
+    ranked = _rank_candidates_v2(
+        items,
+        source_status,
+        source_config,
+        reference_at,
+        semantic_scores,
+        limit,
+    )
+    for result in ranked:
+        item = dict(result["item"])
+        prediction = prediction_by_id[item["id"]]
+        item["_hybrid_content"] = {
+            "why_relevant": prediction["why_relevant"].strip(),
+            "watch_next": prediction["watch_next"].strip(),
+        }
+        result["item"] = item
+    return ranked
+
+
+def rank_candidates_baseline_v2(
+    items,
+    source_status,
+    source_config,
+    reference_at,
+    limit=5,
+):
+    """Produktiver deterministischer Fallback mit der weichen V2-Auswahl."""
+    semantic_scores = {
+        item["id"]: _baseline_management_score(item)
+        for item in _eligible_items(items, source_status)
+    }
+    return _rank_candidates_v2(
+        items,
+        source_status,
+        source_config,
+        reference_at,
+        semantic_scores,
+        limit,
+    )
+
 def _hybrid_model_inputs(items):
     return [
         {
@@ -398,7 +637,7 @@ def build_semantic_cache_entry(
     *,
     assessed_at=None,
 ):
-    _validate_hybrid_predictions([prediction], [model_input["item_id"]])
+    _validate_hybrid_predictions_v2([prediction], [model_input["item_id"]])
     return {
         "semantic_input_hash": semantic_input_hash(model_input),
         "item_id": model_input["item_id"],
@@ -413,6 +652,8 @@ def build_semantic_cache_entry(
         "significance": prediction["significance"],
         "reason": prediction["reason"],
         "summary": prediction["summary"],
+        "why_relevant": prediction["why_relevant"],
+        "watch_next": prediction["watch_next"],
     }
 
 def read_semantic_cache(path):
@@ -476,9 +717,11 @@ def _prediction_from_cache_entry(entry, model_input, expected_hash):
         "significance": entry.get("significance"),
         "reason": entry.get("reason"),
         "summary": entry.get("summary"),
+        "why_relevant": entry.get("why_relevant"),
+        "watch_next": entry.get("watch_next"),
     }
     try:
-        _validate_hybrid_predictions([prediction], [model_input["item_id"]])
+        _validate_hybrid_predictions_v2([prediction], [model_input["item_id"]])
     except (AttributeError, TypeError, ValueError):
         return None
     return prediction
@@ -543,7 +786,7 @@ def select_candidates_for_mode(
         requested_mode = "baseline"
 
     if requested_mode == "baseline":
-        ranked = rank_candidates_baseline(
+        ranked = rank_candidates_baseline_v2(
             items, source_status, source_config, reference_at, limit
         )
         return [result["item"] for result in ranked], {
@@ -602,7 +845,7 @@ def select_candidates_for_mode(
 
             if model != HYBRID_MODEL_ID or reasoning_effort != HYBRID_REASONING_EFFORT:
                 raise ValueError("Hybrid-Antwort verwendet einen unerwarteten Modellvertrag.")
-            _validate_hybrid_predictions(
+            _validate_hybrid_predictions_v2(
                 new_predictions,
                 [model_input["item_id"] for model_input in misses],
             )
@@ -627,7 +870,7 @@ def select_candidates_for_mode(
 
         predictions = cached_predictions + new_predictions
 
-        ranked = rank_candidates_hybrid(
+        ranked = rank_candidates_hybrid_v2(
             items,
             source_status,
             source_config,
@@ -671,7 +914,7 @@ def select_candidates_for_mode(
             "hybrid → baseline_fallback: "
             f"{type(error).__name__}: {_safe_log_message(error)}"
         )
-        ranked = rank_candidates_baseline(
+        ranked = rank_candidates_baseline_v2(
             items, source_status, source_config, reference_at, limit
         )
         return [result["item"] for result in ranked], {
@@ -700,16 +943,65 @@ def ensure_publishable(candidates, source_status):
             "Briefing nicht publishable: keine Kernquelle mit Status ok oder degraded."
         )
 
+
+def _deterministic_editorial_fallback(item):
+    """Neutrale Texte aus vorhandener Kategorie; keine neuen Tatsachenbehauptungen."""
+    categories = set(item.get("category") or [])
+
+    if "AI & PM" in categories:
+        return {
+            "why_relevant": (
+                "Für IT- und Projektverantwortliche relevant, weil die Meldung eine "
+                "konkrete Entwicklung an der Schnittstelle von KI und Projektmanagement beschreibt."
+            ),
+            "watch_next": (
+                "Weitere Konkretisierungen und Praxisbeispiele in der Originalquelle verfolgen."
+            ),
+        }
+    if categories & {"EU AI Act", "AI Governance"}:
+        return {
+            "why_relevant": (
+                "Für Unternehmen relevant, weil die Meldung eine konkrete Entwicklung "
+                "zu KI-Regulierung oder Governance beschreibt, die strategisch eingeordnet werden sollte."
+            ),
+            "watch_next": (
+                "Weitere Guidance und Konkretisierungen zum Anwendungsbereich in der Originalquelle beobachten."
+            ),
+        }
+    if "DSGVO & Ethik" in categories:
+        return {
+            "why_relevant": (
+                "Für Unternehmen relevant, weil die Meldung eine konkrete Entwicklung "
+                "zu Datenschutz oder verantwortungsvoller KI-Nutzung beschreibt."
+            ),
+            "watch_next": (
+                "Neue Guidance und weitere Konkretisierungen der zuständigen Quelle beobachten."
+            ),
+        }
+
+    category = next(iter(categories), "dem betreffenden Fachgebiet")
+    return {
+        "why_relevant": (
+            "Für Verantwortliche relevant, weil die Meldung eine konkrete Entwicklung "
+            f"aus dem Bereich {category} beschreibt."
+        ),
+        "watch_next": (
+            "Weitere Aktualisierungen und belastbare Konkretisierungen in der Originalquelle beobachten."
+        ),
+    }
+
+
 def make_story(item, rank):
     excerpt = item.get("raw_excerpt") or "Neue bzw. geänderte Information an der Quelle erkannt."
+    editorial = item.get("_hybrid_content") or _deterministic_editorial_fallback(item)
     return {
         "id": item["id"],
         "category": (item.get("category") or ["General AI"])[0],
         "rank": rank,
         "title": item.get("title") or item.get("source"),
         "summary": excerpt[:420],
-        "why_relevant": "Für sneKI prüfen: Relevanz für Regulierung, Governance, Datenschutz oder AI-Projektmanagement.",
-        "watch_next": "Primärquelle auf konkrete Änderungen prüfen.",
+        "why_relevant": editorial["why_relevant"],
+        "watch_next": editorial["watch_next"],
         "source": item.get("source"),
         "source_type": item.get("source_type"),
         "source_url": item.get("source_url"),
