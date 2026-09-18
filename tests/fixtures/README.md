@@ -10,9 +10,14 @@ oder `degraded`.
 
 Die Felder `expected_management_relevance`, `expected_actionability`,
 `expected_significance`, `expected_assessment_status` und `reference_note`
-sind absichtlich `null`. Sie werden erst durch eine menschliche fachliche
-Bewertung befüllt. Ein LLM darf diese Referenzwerte nicht erzeugen oder
-verändern.
+enthalten die bestätigte menschliche Referenzbewertung v1. Ein LLM darf
+diese Referenzwerte nicht erzeugen oder verändern.
+
+`ranking_benchmark_raw_v1.json` enthält den vollständigen damaligen
+11-Item-Rohdatenstand. `ranking_benchmark_sources_v1.json` friert zusätzlich
+die für Datenqualität und Ranking relevanten Quellen-Startseiten ein.
+Baseline-, Hybrid- und Semantik-Cache-Regressionstests verwenden nur diese
+Fixtures und niemals die veränderlichen Dateien unter `data/`.
 
 Der Datensatz soll für einen reproduzierbaren B-vs-C-Vergleich unverändert
 bleiben. Neue Snapshots werden als neue Fixture angelegt und ersetzen diesen
