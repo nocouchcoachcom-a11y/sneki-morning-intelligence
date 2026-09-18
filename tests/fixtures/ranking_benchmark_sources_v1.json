@@ -1,0 +1,26 @@
+{
+  "fixture_version": "1.0",
+  "description": "Eingefrorene Quellen-Startseiten des 11-Item-Ranking-Benchmarks.",
+  "sources": [
+    {
+      "id": "eu-ai-office",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+    },
+    {
+      "id": "eurlex-ai-act",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689"
+    },
+    {
+      "id": "edpb",
+      "url": "https://www.edpb.europa.eu/"
+    },
+    {
+      "id": "dsk",
+      "url": "https://www.datenschutzkonferenz-online.de/orientierungshilfen.html"
+    },
+    {
+      "id": "pmi-ai",
+      "url": "https://www.pmi.org/standards/artificial-intelligence"
+    }
+  ]
+}

@@ -19,6 +19,19 @@ from unittest import mock
 
 
 ROOT = Path(__file__).resolve().parents[1]
+BENCHMARK_RAW_PATH = ROOT / "tests" / "fixtures" / "ranking_benchmark_raw_v1.json"
+BENCHMARK_SOURCES_PATH = (
+    ROOT / "tests" / "fixtures" / "ranking_benchmark_sources_v1.json"
+)
+
+
+def load_ranking_benchmark():
+    """Lädt den unveränderlichen 11-Item-Benchmark statt produktiver Live-Daten."""
+    raw = json.loads(BENCHMARK_RAW_PATH.read_text(encoding="utf-8"))
+    sources = json.loads(BENCHMARK_SOURCES_PATH.read_text(encoding="utf-8"))[
+        "sources"
+    ]
+    return raw, sources
 
 
 def load_builder():
@@ -323,7 +336,7 @@ class SemanticReferenceTests(unittest.TestCase):
                 encoding="utf-8"
             )
         )
-        raw = json.loads((ROOT / "data" / "raw-items.json").read_text(encoding="utf-8"))
+        raw, _ = load_ranking_benchmark()
         known_item_ids = {item["id"] for item in raw["items"]}
         score_fields = (
             "expected_management_relevance",
@@ -800,10 +813,7 @@ class BaselineRankingTests(unittest.TestCase):
 
     def setUp(self):
         self.builder = load_builder()
-        self.raw = json.loads((ROOT / "data" / "raw-items.json").read_text(encoding="utf-8"))
-        self.sources = json.loads((ROOT / "sources.json").read_text(encoding="utf-8"))[
-            "sources"
-        ]
+        self.raw, self.sources = load_ranking_benchmark()
 
     def make_item(
         self,
@@ -1033,10 +1043,7 @@ class HybridRankingIntegrationTests(unittest.TestCase):
         self.temporary_directory = tempfile.TemporaryDirectory()
         self.addCleanup(self.temporary_directory.cleanup)
         self.cache_path = Path(self.temporary_directory.name) / "semantic-cache.json"
-        self.raw = json.loads((ROOT / "data" / "raw-items.json").read_text(encoding="utf-8"))
-        self.sources = json.loads((ROOT / "sources.json").read_text(encoding="utf-8"))[
-            "sources"
-        ]
+        self.raw, self.sources = load_ranking_benchmark()
         self.luna_result = json.loads(
             (ROOT / "tests" / "results" / "hybrid_c_luna.json").read_text(
                 encoding="utf-8"
@@ -1155,10 +1162,7 @@ class SemanticCacheTests(unittest.TestCase):
         self.temporary_directory = tempfile.TemporaryDirectory()
         self.addCleanup(self.temporary_directory.cleanup)
         self.cache_path = Path(self.temporary_directory.name) / "semantic-cache.json"
-        self.raw = json.loads((ROOT / "data" / "raw-items.json").read_text(encoding="utf-8"))
-        self.sources = json.loads((ROOT / "sources.json").read_text(encoding="utf-8"))[
-            "sources"
-        ]
+        self.raw, self.sources = load_ranking_benchmark()
         self.luna_result = json.loads(
             (ROOT / "tests" / "results" / "hybrid_c_luna.json").read_text(
                 encoding="utf-8"
