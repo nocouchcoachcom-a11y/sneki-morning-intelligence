@@ -59,7 +59,9 @@ class HybridCEvaluationTests(unittest.TestCase):
         self.assertEqual("json_schema", output_format["type"])
         self.assertTrue(output_format["strict"])
         self.assertFalse(item_schema["additionalProperties"])
-        self.assertEqual(7, len(item_schema["required"]))
+        self.assertEqual(9, len(item_schema["required"]))
+        self.assertIn("why_relevant", item_schema["required"])
+        self.assertIn("watch_next", item_schema["required"])
 
     def test_test_a_is_zero_for_predictions_equal_to_ground_truth(self):
         predictions = [
@@ -71,6 +73,11 @@ class HybridCEvaluationTests(unittest.TestCase):
                 "significance": item["expected_significance"],
                 "reason": "Offline-Testbegründung",
                 "summary": "Offline-Testzusammenfassung",
+                "why_relevant": (
+                    "Für Unternehmen relevant, weil die Meldung eine konkrete "
+                    "Entwicklung mit möglicher Managementbedeutung beschreibt."
+                ),
+                "watch_next": "Weitere Konkretisierungen in der Originalquelle beobachten.",
             }
             for item in self.reference
         ]
@@ -100,6 +107,11 @@ class HybridCEvaluationTests(unittest.TestCase):
                 "significance": item["expected_significance"],
                 "reason": "Offline-Testbegründung",
                 "summary": "Offline-Testzusammenfassung",
+                "why_relevant": (
+                    "Für Unternehmen relevant, weil die Meldung eine konkrete "
+                    "Entwicklung mit möglicher Managementbedeutung beschreibt."
+                ),
+                "watch_next": "Weitere Konkretisierungen in der Originalquelle beobachten.",
             }
             for item in self.reference
         ]
