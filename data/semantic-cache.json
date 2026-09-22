@@ -522,6 +522,23 @@
       "summary": "Empfehlung von acht Projektmanagement-Podcasts zur Weiterbildung.",
       "why_relevant": "Die Meldung kann der persönlichen Weiterbildung dienen, benennt jedoch keine konkrete Veränderung für Management oder Projektsteuerung.",
       "watch_next": "Keine konkrete Entwicklung; relevante fachliche Inhalte der empfohlenen Podcasts bei Bedarf separat prüfen."
+    },
+    "1d864d3105e73f4d696f39a5c6d03c45a59e8686fedf49dc7369b8cf4aca9e19": {
+      "semantic_input_hash": "1d864d3105e73f4d696f39a5c6d03c45a59e8686fedf49dc7369b8cf4aca9e19",
+      "item_id": "32a1173554f428ec7baa",
+      "model_id": "gpt-5.6-luna",
+      "reasoning_effort": "low",
+      "prompt_version": "v2",
+      "schema_version": "v2",
+      "assessed_at": "2026-09-22T13:23:26.681918+00:00",
+      "assessment_status": "scored",
+      "management_relevance": 1,
+      "actionability": 1,
+      "significance": 1,
+      "reason": "Der Beitrag beschreibt die zunehmende Normalität altersgemischter Projektteams und ordnet sie als Führungs- und Zusammenarbeitsthema ein.",
+      "summary": "Altersgemischte Projektteams werden als zunehmend übliche Teamkonstellation und als Führungschance dargestellt.",
+      "why_relevant": "Projekt- und Führungskräfte können die Zusammenarbeit, den Wissenstransfer und die Einbindung unterschiedlicher Erfahrungsniveaus im Team berücksichtigen.",
+      "watch_next": "Beobachten, ob der Beitrag konkrete Führungsansätze oder Methoden für Zusammenarbeit und Wissenstransfer in altersgemischten Teams konkretisiert."
     }
   }
 }
