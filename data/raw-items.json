@@ -1,7 +1,107 @@
 {
   "schema_version": "1.0",
-  "collected_at": "2026-09-23T10:24:04+02:00",
+  "collected_at": "2026-09-23T11:23:00+02:00",
   "items": [
+    {
+      "id": "ad0ffd3d4bde30c6dfa0",
+      "source_id": "apm-project-management",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/news/the-big-interview-tim-lardner/",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "The Big Interview: Tim Lardner",
+      "raw_excerpt": "Association for Project Management spoke with Tim Lardner, Regional Director for Europe and Central Asia at the United Nations Office for Project Services (UNOPS). He shares insights on the challenges of delivering projects in war-torn countries, highlights the critical role of monitoring and evaluation in high-risk settings, and reflects on the transformative impact of inspiring leaders on communities.",
+      "published_at": "2026-04-02",
+      "collected_at": "2026-09-18T15:21:42+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "51b7c876d92ecadabca46ba52f798930e50247ca6f7b06425b93d4b69ba09393",
+      "first_seen_at": "2026-09-18T15:21:42+02:00",
+      "last_seen_at": "2026-09-23T11:23:00+02:00"
+    },
+    {
+      "id": "8c7f8f210f336e1da80f",
+      "source_id": "apm-project-management",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/news/the-big-interview-james-garner/",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "The Big Interview: James Garner",
+      "raw_excerpt": "In this exclusive interview, James Garner, Head of AI and Data at global property and construction consultancy Gleeds, shares his insights on how artificial intelligence can support the project profession – and what practitioners need in place to use it effectively.",
+      "published_at": "2026-03-17",
+      "collected_at": "2026-09-18T15:21:41+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "13bf6f76c4235d45e194a86dce7d36ce4b4b7bb344e8762df5cb70df5e3be68a",
+      "first_seen_at": "2026-09-18T15:21:41+02:00",
+      "last_seen_at": "2026-09-23T11:22:59+02:00"
+    },
+    {
+      "id": "1335926208b6756f5e00",
+      "source_id": "apm-project-management",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/news/the-big-interview-chris-bird-mbe/",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "The Big Interview: Chris Bird MBE",
+      "raw_excerpt": "Has business thinking kept up with the changing nature of risk? And are leaders viewing risk correctly? Chris Bird MBE, Director at Riskwell, shares his expert views on managing risk, embedding processes and how leaders can adapt their thinking. He also offers insight on how effective (and ineffective) risk management impacts business performance.",
+      "published_at": "2026-09-18",
+      "collected_at": "2026-09-18T15:21:39+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "4b432e3b3e965e2fa65fa546ac728bdf83867935c4b5a67df14cee7618543ad7",
+      "first_seen_at": "2026-09-18T15:21:39+02:00",
+      "last_seen_at": "2026-09-23T11:22:57+02:00"
+    },
+    {
+      "id": "32a1173554f428ec7baa",
+      "source_id": "apm-project-management",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/blog/the-multi-generational-project-team-isn-t-a-challenge-it-s-a-leadership-opportunity/",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "The multi-generational project team isn’t a challenge: It’s a leadership opportunity",
+      "raw_excerpt": "Walk into almost any project or programme environment in the UK today and you will see it straight away: early‑career graduates working alongside colleagues with 30+ years’ experience. This may have been uncommon in the past but isn’t unusual anymore. It’s the norm. Soon, there’ll be no need to say “multi-generational team”, as simply “team” will suffice.",
+      "published_at": "2026-08-03",
+      "collected_at": "2026-09-22T13:21:46+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "3e78e36b419f599cac4172da8c3f02bed7d07307d6296e4c013e2b01321aadc1",
+      "first_seen_at": "2026-09-22T13:21:46+02:00",
+      "last_seen_at": "2026-09-23T11:22:57+02:00"
+    },
+    {
+      "id": "e376cc421d7a63978fd3",
+      "source_id": "apm-project-management",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/blog/good-governance-in-2026-less-about-process-more-about-behaviour/",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "Good governance in 2026: Less about process, more about behaviour",
+      "raw_excerpt": "Governance has always been important and after hosting a recent webinar, it reinforced something that I have been observing for some time: governance in 2026 is becoming less about structures and processes and more about the quality of decisions, behaviours and organisational culture.",
+      "published_at": "2026-09-22",
+      "collected_at": "2026-09-22T18:23:04+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "d2ae00a87cb00e16d1f45e6108b00586968b6a53d272de867623126ac42e1964",
+      "first_seen_at": "2026-09-22T18:23:04+02:00",
+      "last_seen_at": "2026-09-23T11:22:56+02:00"
+    },
     {
       "id": "2328789ce371bc7708d3",
       "source_id": "gpm-project-management",
@@ -20,7 +120,7 @@
       "collector_note": null,
       "content_hash": "445e671448c2f4576bebe3462f5d4dcdd94a2cb91ae14937f6e045b6680b2b8a",
       "first_seen_at": "2026-09-18T08:27:07+02:00",
-      "last_seen_at": "2026-09-23T10:23:54+02:00"
+      "last_seen_at": "2026-09-23T11:22:54+02:00"
     },
     {
       "id": "9cf62dc4c952848c092a",
@@ -40,7 +140,7 @@
       "collector_note": null,
       "content_hash": "817d9833aeefe5c954d7a26238ec52652a4dd585ba39ff8332d224991f9a03ac",
       "first_seen_at": "2026-09-18T08:27:05+02:00",
-      "last_seen_at": "2026-09-23T10:23:53+02:00"
+      "last_seen_at": "2026-09-23T11:22:53+02:00"
     },
     {
       "id": "12f8d58e7b9c6fd89286",
@@ -60,7 +160,7 @@
       "collector_note": null,
       "content_hash": "2ebd2309715f424f85e18221d952906da91933d0d38eebe4d5420bdc027b3b31",
       "first_seen_at": "2026-09-18T08:27:04+02:00",
-      "last_seen_at": "2026-09-23T10:23:52+02:00"
+      "last_seen_at": "2026-09-23T11:22:52+02:00"
     },
     {
       "id": "a81e53d03c9ba7a8ad46",
@@ -80,7 +180,7 @@
       "collector_note": null,
       "content_hash": "a7161be2c057b03e336ea066971ad4bc5d5eed596ff07ca865a1f39c543b2cf2",
       "first_seen_at": "2026-09-18T08:27:03+02:00",
-      "last_seen_at": "2026-09-23T10:23:51+02:00"
+      "last_seen_at": "2026-09-23T11:22:51+02:00"
     },
     {
       "id": "831172ac684ef777d90d",
@@ -100,7 +200,7 @@
       "collector_note": null,
       "content_hash": "af30522180fdbe2d072debed951d5fe0ff884ad2dfa9617bef105596d9d01d53",
       "first_seen_at": "2026-09-22T16:23:11+02:00",
-      "last_seen_at": "2026-09-23T10:23:50+02:00"
+      "last_seen_at": "2026-09-23T11:22:50+02:00"
     },
     {
       "id": "299bc3455f13fc48bf13",
@@ -120,7 +220,195 @@
       "status": "ok",
       "content_hash": "811ac302c3193eb1b1ab9371558f9eff4f60aa642f2679335f729c77f8d6d3dd",
       "first_seen_at": "2026-09-14T18:58:54+02:00",
-      "last_seen_at": "2026-09-23T10:23:44+02:00",
+      "last_seen_at": "2026-09-23T11:22:43+02:00",
+      "collector_note": null
+    },
+    {
+      "id": "01c5434847cfafae5a0c",
+      "source_id": "eurlex-ai-act",
+      "source": "EUR-Lex – Regulation (EU) 2024/1689",
+      "source_type": "primary",
+      "source_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng",
+      "category": [
+        "EU AI Act"
+      ],
+      "title": "AI Act – konsolidierte Fassung 2026-07-27",
+      "raw_excerpt": "Aktuelle konsolidierte Fassung der Regulation (EU) 2024/1689 (Artificial Intelligence Act). Stand: 2026-07-27.",
+      "published_at": "2026-07-27",
+      "collected_at": "2026-09-23T11:22:41+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "ed4a9d3330cafe5c922a278159f2a5379789d35caf18fbba77966ea05c9199a3",
+      "first_seen_at": "2026-09-23T11:22:41+02:00",
+      "last_seen_at": "2026-09-23T11:22:41+02:00"
+    },
+    {
+      "id": "411fbacd51e3afc9e023",
+      "source_id": "eu-ai-office",
+      "source": "European Commission – AI Act / AI Office",
+      "source_type": "primary",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-selects-europa-consortium-winner-frontier-ai-grand-challenge-project-build-european-open",
+      "category": [
+        "EU AI Act",
+        "AI Governance"
+      ],
+      "title": "Commission selects EUROPA consortium as the winner of the Frontier AI Grand Challenge, a project to build European open-source frontier AI model in all 24 EU languages",
+      "raw_excerpt": "The European Commission has selected EUROPA, a European consortium led by the Italian company Domyn, as the winner of its Frontier AI Grand Challenge.",
+      "published_at": "2026-06-19",
+      "collected_at": "2026-09-15T10:44:01+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "b8afdf5a946f499c0084a4f6cf0c743556f782cd4cd51e523b53a10f78c93e99",
+      "first_seen_at": "2026-09-15T10:44:01+02:00",
+      "last_seen_at": "2026-09-23T11:22:39+02:00",
+      "collector_note": null
+    },
+    {
+      "id": "988b163c909eaa93d3a0",
+      "source_id": "eu-ai-office",
+      "source": "European Commission – AI Act / AI Office",
+      "source_type": "primary",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-presents-eu-action-plan-cybersecurity-and-artificial-intelligence",
+      "category": [
+        "EU AI Act",
+        "AI Governance"
+      ],
+      "title": "Commission presents EU Action Plan on Cybersecurity and Artificial Intelligence",
+      "raw_excerpt": "The European Commission has presented an Action Plan for a structured response to address the risks and harness the opportunities of advanced artificial intelligence (AI) models for cybersecurity.",
+      "published_at": "2026-07-07",
+      "collected_at": "2026-09-15T10:44:01+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "d755fd0273ce8945ef8578e9b1f73ccbce8ccdf14d613f81bc985f6d65f9100f",
+      "first_seen_at": "2026-09-15T10:44:01+02:00",
+      "last_seen_at": "2026-09-23T11:22:39+02:00",
+      "collector_note": null
+    },
+    {
+      "id": "7fc7e1c4d2073d835bbc",
+      "source_id": "eu-ai-office",
+      "source": "European Commission – AI Act / AI Office",
+      "source_type": "primary",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-transparency-obligations-providers-and-deployers-certain-ai-systems",
+      "category": [
+        "EU AI Act",
+        "AI Governance"
+      ],
+      "title": "Commission publishes guidelines on transparency obligations for providers and deployers of certain AI systems",
+      "raw_excerpt": "The European Commission has published guidelines to assist providers and deployers of artificial intelligence (AI) systems in meeting the AI Act's transparency obligations, which start to apply on 2 August 2026.",
+      "published_at": "2026-07-20",
+      "collected_at": "2026-09-15T10:44:01+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "55aad3678ae8e013de3eb7bf6c0ad54c05fb8b8e106644903d1a0b1cb9573da2",
+      "first_seen_at": "2026-09-15T10:44:01+02:00",
+      "last_seen_at": "2026-09-23T11:22:38+02:00",
+      "collector_note": null
+    },
+    {
+      "id": "076d3df9976c6ede52e9",
+      "source_id": "eu-ai-office",
+      "source": "European Commission – AI Act / AI Office",
+      "source_type": "primary",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/eu-launches-ai-gigafactories-call-boost-europes-computing-capacity-and-unlock-more-eu30-billion",
+      "category": [
+        "EU AI Act",
+        "AI Governance"
+      ],
+      "title": "EU launches AI Gigafactories call to boost Europe's computing capacity and unlock more than €30 billion in investment",
+      "raw_excerpt": "The EU has launched a call for tenders to establish up to seven AI Gigafactories across Europe, as part of its latest major push to accelerate Europe's technological sovereignty and ambition of becoming the AI Continent.",
+      "published_at": "2026-07-30",
+      "collected_at": "2026-09-15T10:44:00+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "692e8e6b8ea34bd3bfda9b6cf73462a033664c2fe330126e6e22d1ca8b160ecf",
+      "first_seen_at": "2026-09-15T10:44:00+02:00",
+      "last_seen_at": "2026-09-23T11:22:38+02:00",
+      "collector_note": null
+    },
+    {
+      "id": "675ab8b9c70584920356",
+      "source_id": "eu-ai-office",
+      "source": "European Commission – AI Act / AI Office",
+      "source_type": "primary",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
+      "category": [
+        "EU AI Act",
+        "AI Governance"
+      ],
+      "title": "Commission starts enforcing AI Act rules and new transparency requirements on 2 August",
+      "raw_excerpt": "From 2 August 2026, the European Commission’s AI Office, together with national authorities, will begin enforcing the Artificial Intelligence (AI) Act.",
+      "published_at": "2026-07-31",
+      "collected_at": "2026-09-15T10:43:59+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "ee5b82669e37a94a160e66d77b3507fdc759483f5ac1206d4e0645d4bacb55b6",
+      "first_seen_at": "2026-09-15T10:43:59+02:00",
+      "last_seen_at": "2026-09-23T11:22:37+02:00",
+      "collector_note": null
+    },
+    {
+      "id": "b4038eb822b1702a8e84",
+      "source_id": "eu-ai-office",
+      "source": "European Commission – AI Act / AI Office",
+      "source_type": "primary",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/executive-vice-president-virkkunen-us-g20-ministerial-meetings",
+      "category": [
+        "EU AI Act",
+        "AI Governance"
+      ],
+      "title": "Executive Vice-President Virkkunen in the US for G20 Ministerial meetings",
+      "raw_excerpt": "Starting today until Wednesday, 2 September, the European Commission will be represented by Henna Virkkunen, Executive Vice-President for Tech Sovereignty, Security and Democracy and Valdis Dombrovskis, Commissioner for Economy and Productivity, Implementation and Simplification at the G20 Ministerial meetings in North Carolina, United States of America.",
+      "published_at": "2026-08-31",
+      "collected_at": "2026-09-15T10:43:59+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "6266543d23bd3f2acf8affccadd939511f8509fd2736b914501003846c628981",
+      "first_seen_at": "2026-09-15T10:43:59+02:00",
+      "last_seen_at": "2026-09-23T11:22:37+02:00",
+      "collector_note": null
+    },
+    {
+      "id": "c559fbd12af243b637ab",
+      "source_id": "eu-ai-office",
+      "source": "European Commission – AI Act / AI Office",
+      "source_type": "primary",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
+      "category": [
+        "EU AI Act",
+        "AI Governance"
+      ],
+      "title": "AI Omnibus enters into force",
+      "raw_excerpt": "On 27 July 2026, the AI Omnibus enters into force across the EU, bringing extended timelines to administrative simplification.",
+      "published_at": "2026-07-27",
+      "collected_at": "2026-09-15T10:43:59+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "2adce69ab2ad064ab7d0d5e4c37c8459642f465c380fd74168a3f948e4e9027e",
+      "first_seen_at": "2026-09-15T10:43:59+02:00",
+      "last_seen_at": "2026-09-23T11:22:37+02:00",
+      "collector_note": null
+    },
+    {
+      "id": "956414ff323625f7fa6f",
+      "source_id": "eu-ai-office",
+      "source": "European Commission – AI Act / AI Office",
+      "source_type": "primary",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/supporting-implementation-ai-act-clear-guidelines",
+      "category": [
+        "EU AI Act",
+        "AI Governance"
+      ],
+      "title": "Supporting the implementation of the AI Act with clear guidelines",
+      "raw_excerpt": "In the course of 2026, the AI Office has been preparing guidelines to ensure a smooth implementation of the AI Act.",
+      "published_at": "2025-12-04",
+      "collected_at": "2026-09-15T10:43:58+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "6964d2a6e825efe24a090875b524221a191b37acacf014c6a4535031cae41c00",
+      "first_seen_at": "2026-09-15T10:43:58+02:00",
+      "last_seen_at": "2026-09-23T11:22:36+02:00",
       "collector_note": null
     },
     {
@@ -143,294 +431,6 @@
       "first_seen_at": "2026-09-14T18:58:54+02:00",
       "last_seen_at": "2026-09-23T10:23:43+02:00",
       "collector_note": null
-    },
-    {
-      "id": "01c5434847cfafae5a0c",
-      "source_id": "eurlex-ai-act",
-      "source": "EUR-Lex – Regulation (EU) 2024/1689",
-      "source_type": "primary",
-      "source_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng",
-      "category": [
-        "EU AI Act"
-      ],
-      "title": "AI Act – konsolidierte Fassung 2026-07-27",
-      "raw_excerpt": "Aktuelle konsolidierte Fassung der Regulation (EU) 2024/1689 (Artificial Intelligence Act). Stand: 2026-07-27.",
-      "published_at": "2026-07-27",
-      "collected_at": "2026-09-23T10:23:42+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "ed4a9d3330cafe5c922a278159f2a5379789d35caf18fbba77966ea05c9199a3",
-      "first_seen_at": "2026-09-23T10:23:42+02:00",
-      "last_seen_at": "2026-09-23T10:23:42+02:00"
-    },
-    {
-      "id": "411fbacd51e3afc9e023",
-      "source_id": "eu-ai-office",
-      "source": "European Commission – AI Act / AI Office",
-      "source_type": "primary",
-      "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-selects-europa-consortium-winner-frontier-ai-grand-challenge-project-build-european-open",
-      "category": [
-        "EU AI Act",
-        "AI Governance"
-      ],
-      "title": "Commission selects EUROPA consortium as the winner of the Frontier AI Grand Challenge, a project to build European open-source frontier AI model in all 24 EU languages",
-      "raw_excerpt": "The European Commission has selected EUROPA, a European consortium led by the Italian company Domyn, as the winner of its Frontier AI Grand Challenge.",
-      "published_at": "2026-06-19",
-      "collected_at": "2026-09-15T10:44:01+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "b8afdf5a946f499c0084a4f6cf0c743556f782cd4cd51e523b53a10f78c93e99",
-      "first_seen_at": "2026-09-15T10:44:01+02:00",
-      "last_seen_at": "2026-09-23T10:23:39+02:00",
-      "collector_note": null
-    },
-    {
-      "id": "988b163c909eaa93d3a0",
-      "source_id": "eu-ai-office",
-      "source": "European Commission – AI Act / AI Office",
-      "source_type": "primary",
-      "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-presents-eu-action-plan-cybersecurity-and-artificial-intelligence",
-      "category": [
-        "EU AI Act",
-        "AI Governance"
-      ],
-      "title": "Commission presents EU Action Plan on Cybersecurity and Artificial Intelligence",
-      "raw_excerpt": "The European Commission has presented an Action Plan for a structured response to address the risks and harness the opportunities of advanced artificial intelligence (AI) models for cybersecurity.",
-      "published_at": "2026-07-07",
-      "collected_at": "2026-09-15T10:44:01+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "d755fd0273ce8945ef8578e9b1f73ccbce8ccdf14d613f81bc985f6d65f9100f",
-      "first_seen_at": "2026-09-15T10:44:01+02:00",
-      "last_seen_at": "2026-09-23T10:23:39+02:00",
-      "collector_note": null
-    },
-    {
-      "id": "7fc7e1c4d2073d835bbc",
-      "source_id": "eu-ai-office",
-      "source": "European Commission – AI Act / AI Office",
-      "source_type": "primary",
-      "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-transparency-obligations-providers-and-deployers-certain-ai-systems",
-      "category": [
-        "EU AI Act",
-        "AI Governance"
-      ],
-      "title": "Commission publishes guidelines on transparency obligations for providers and deployers of certain AI systems",
-      "raw_excerpt": "The European Commission has published guidelines to assist providers and deployers of artificial intelligence (AI) systems in meeting the AI Act's transparency obligations, which start to apply on 2 August 2026.",
-      "published_at": "2026-07-20",
-      "collected_at": "2026-09-15T10:44:01+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "55aad3678ae8e013de3eb7bf6c0ad54c05fb8b8e106644903d1a0b1cb9573da2",
-      "first_seen_at": "2026-09-15T10:44:01+02:00",
-      "last_seen_at": "2026-09-23T10:23:38+02:00",
-      "collector_note": null
-    },
-    {
-      "id": "076d3df9976c6ede52e9",
-      "source_id": "eu-ai-office",
-      "source": "European Commission – AI Act / AI Office",
-      "source_type": "primary",
-      "source_url": "https://digital-strategy.ec.europa.eu/en/news/eu-launches-ai-gigafactories-call-boost-europes-computing-capacity-and-unlock-more-eu30-billion",
-      "category": [
-        "EU AI Act",
-        "AI Governance"
-      ],
-      "title": "EU launches AI Gigafactories call to boost Europe's computing capacity and unlock more than €30 billion in investment",
-      "raw_excerpt": "The EU has launched a call for tenders to establish up to seven AI Gigafactories across Europe, as part of its latest major push to accelerate Europe's technological sovereignty and ambition of becoming the AI Continent.",
-      "published_at": "2026-07-30",
-      "collected_at": "2026-09-15T10:44:00+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "692e8e6b8ea34bd3bfda9b6cf73462a033664c2fe330126e6e22d1ca8b160ecf",
-      "first_seen_at": "2026-09-15T10:44:00+02:00",
-      "last_seen_at": "2026-09-23T10:23:38+02:00",
-      "collector_note": null
-    },
-    {
-      "id": "675ab8b9c70584920356",
-      "source_id": "eu-ai-office",
-      "source": "European Commission – AI Act / AI Office",
-      "source_type": "primary",
-      "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
-      "category": [
-        "EU AI Act",
-        "AI Governance"
-      ],
-      "title": "Commission starts enforcing AI Act rules and new transparency requirements on 2 August",
-      "raw_excerpt": "From 2 August 2026, the European Commission’s AI Office, together with national authorities, will begin enforcing the Artificial Intelligence (AI) Act.",
-      "published_at": "2026-07-31",
-      "collected_at": "2026-09-15T10:43:59+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "ee5b82669e37a94a160e66d77b3507fdc759483f5ac1206d4e0645d4bacb55b6",
-      "first_seen_at": "2026-09-15T10:43:59+02:00",
-      "last_seen_at": "2026-09-23T10:23:38+02:00",
-      "collector_note": null
-    },
-    {
-      "id": "b4038eb822b1702a8e84",
-      "source_id": "eu-ai-office",
-      "source": "European Commission – AI Act / AI Office",
-      "source_type": "primary",
-      "source_url": "https://digital-strategy.ec.europa.eu/en/news/executive-vice-president-virkkunen-us-g20-ministerial-meetings",
-      "category": [
-        "EU AI Act",
-        "AI Governance"
-      ],
-      "title": "Executive Vice-President Virkkunen in the US for G20 Ministerial meetings",
-      "raw_excerpt": "Starting today until Wednesday, 2 September, the European Commission will be represented by Henna Virkkunen, Executive Vice-President for Tech Sovereignty, Security and Democracy and Valdis Dombrovskis, Commissioner for Economy and Productivity, Implementation and Simplification at the G20 Ministerial meetings in North Carolina, United States of America.",
-      "published_at": "2026-08-31",
-      "collected_at": "2026-09-15T10:43:59+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "6266543d23bd3f2acf8affccadd939511f8509fd2736b914501003846c628981",
-      "first_seen_at": "2026-09-15T10:43:59+02:00",
-      "last_seen_at": "2026-09-23T10:23:38+02:00",
-      "collector_note": null
-    },
-    {
-      "id": "c559fbd12af243b637ab",
-      "source_id": "eu-ai-office",
-      "source": "European Commission – AI Act / AI Office",
-      "source_type": "primary",
-      "source_url": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
-      "category": [
-        "EU AI Act",
-        "AI Governance"
-      ],
-      "title": "AI Omnibus enters into force",
-      "raw_excerpt": "On 27 July 2026, the AI Omnibus enters into force across the EU, bringing extended timelines to administrative simplification.",
-      "published_at": "2026-07-27",
-      "collected_at": "2026-09-15T10:43:59+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "2adce69ab2ad064ab7d0d5e4c37c8459642f465c380fd74168a3f948e4e9027e",
-      "first_seen_at": "2026-09-15T10:43:59+02:00",
-      "last_seen_at": "2026-09-23T10:23:38+02:00",
-      "collector_note": null
-    },
-    {
-      "id": "956414ff323625f7fa6f",
-      "source_id": "eu-ai-office",
-      "source": "European Commission – AI Act / AI Office",
-      "source_type": "primary",
-      "source_url": "https://digital-strategy.ec.europa.eu/en/news/supporting-implementation-ai-act-clear-guidelines",
-      "category": [
-        "EU AI Act",
-        "AI Governance"
-      ],
-      "title": "Supporting the implementation of the AI Act with clear guidelines",
-      "raw_excerpt": "In the course of 2026, the AI Office has been preparing guidelines to ensure a smooth implementation of the AI Act.",
-      "published_at": "2025-12-04",
-      "collected_at": "2026-09-15T10:43:58+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "6964d2a6e825efe24a090875b524221a191b37acacf014c6a4535031cae41c00",
-      "first_seen_at": "2026-09-15T10:43:58+02:00",
-      "last_seen_at": "2026-09-23T10:23:37+02:00",
-      "collector_note": null
-    },
-    {
-      "id": "ad0ffd3d4bde30c6dfa0",
-      "source_id": "apm-project-management",
-      "source": "APM – News and Blog",
-      "source_type": "primary",
-      "source_url": "https://www.apm.org.uk/news/the-big-interview-tim-lardner/",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "The Big Interview: Tim Lardner",
-      "raw_excerpt": "Association for Project Management spoke with Tim Lardner, Regional Director for Europe and Central Asia at the United Nations Office for Project Services (UNOPS). He shares insights on the challenges of delivering projects in war-torn countries, highlights the critical role of monitoring and evaluation in high-risk settings, and reflects on the transformative impact of inspiring leaders on communities.",
-      "published_at": "2026-04-02",
-      "collected_at": "2026-09-18T15:21:42+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "51b7c876d92ecadabca46ba52f798930e50247ca6f7b06425b93d4b69ba09393",
-      "first_seen_at": "2026-09-18T15:21:42+02:00",
-      "last_seen_at": "2026-09-23T09:23:19+02:00"
-    },
-    {
-      "id": "8c7f8f210f336e1da80f",
-      "source_id": "apm-project-management",
-      "source": "APM – News and Blog",
-      "source_type": "primary",
-      "source_url": "https://www.apm.org.uk/news/the-big-interview-james-garner/",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "The Big Interview: James Garner",
-      "raw_excerpt": "In this exclusive interview, James Garner, Head of AI and Data at global property and construction consultancy Gleeds, shares his insights on how artificial intelligence can support the project profession – and what practitioners need in place to use it effectively.",
-      "published_at": "2026-03-17",
-      "collected_at": "2026-09-18T15:21:41+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "13bf6f76c4235d45e194a86dce7d36ce4b4b7bb344e8762df5cb70df5e3be68a",
-      "first_seen_at": "2026-09-18T15:21:41+02:00",
-      "last_seen_at": "2026-09-23T09:23:18+02:00"
-    },
-    {
-      "id": "1335926208b6756f5e00",
-      "source_id": "apm-project-management",
-      "source": "APM – News and Blog",
-      "source_type": "primary",
-      "source_url": "https://www.apm.org.uk/news/the-big-interview-chris-bird-mbe/",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "The Big Interview: Chris Bird MBE",
-      "raw_excerpt": "Has business thinking kept up with the changing nature of risk? And are leaders viewing risk correctly? Chris Bird MBE, Director at Riskwell, shares his expert views on managing risk, embedding processes and how leaders can adapt their thinking. He also offers insight on how effective (and ineffective) risk management impacts business performance.",
-      "published_at": "2026-09-18",
-      "collected_at": "2026-09-18T15:21:39+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "4b432e3b3e965e2fa65fa546ac728bdf83867935c4b5a67df14cee7618543ad7",
-      "first_seen_at": "2026-09-18T15:21:39+02:00",
-      "last_seen_at": "2026-09-23T09:23:17+02:00"
-    },
-    {
-      "id": "32a1173554f428ec7baa",
-      "source_id": "apm-project-management",
-      "source": "APM – News and Blog",
-      "source_type": "primary",
-      "source_url": "https://www.apm.org.uk/blog/the-multi-generational-project-team-isn-t-a-challenge-it-s-a-leadership-opportunity/",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "The multi-generational project team isn’t a challenge: It’s a leadership opportunity",
-      "raw_excerpt": "Walk into almost any project or programme environment in the UK today and you will see it straight away: early‑career graduates working alongside colleagues with 30+ years’ experience. This may have been uncommon in the past but isn’t unusual anymore. It’s the norm. Soon, there’ll be no need to say “multi-generational team”, as simply “team” will suffice.",
-      "published_at": "2026-08-03",
-      "collected_at": "2026-09-22T13:21:46+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "3e78e36b419f599cac4172da8c3f02bed7d07307d6296e4c013e2b01321aadc1",
-      "first_seen_at": "2026-09-22T13:21:46+02:00",
-      "last_seen_at": "2026-09-23T09:23:16+02:00"
-    },
-    {
-      "id": "e376cc421d7a63978fd3",
-      "source_id": "apm-project-management",
-      "source": "APM – News and Blog",
-      "source_type": "primary",
-      "source_url": "https://www.apm.org.uk/blog/good-governance-in-2026-less-about-process-more-about-behaviour/",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "Good governance in 2026: Less about process, more about behaviour",
-      "raw_excerpt": "Governance has always been important and after hosting a recent webinar, it reinforced something that I have been observing for some time: governance in 2026 is becoming less about structures and processes and more about the quality of decisions, behaviours and organisational culture.",
-      "published_at": "2026-09-22",
-      "collected_at": "2026-09-22T18:23:04+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "d2ae00a87cb00e16d1f45e6108b00586968b6a53d272de867623126ac42e1964",
-      "first_seen_at": "2026-09-22T18:23:04+02:00",
-      "last_seen_at": "2026-09-23T09:23:15+02:00"
     },
     {
       "id": "d1722578d6657edd64b1",
@@ -498,50 +498,50 @@
       "name": "European Commission – AI Act / AI Office",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-09-23T10:23:39+02:00",
+      "last_update": "2026-09-23T11:22:39+02:00",
       "items_found": 8
     },
     {
       "name": "EUR-Lex – Regulation (EU) 2024/1689",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-09-23T10:23:42+02:00",
+      "last_update": "2026-09-23T11:22:41+02:00",
       "items_found": 1
     },
     {
       "name": "European Data Protection Board",
       "type": "core",
-      "status": "ok",
-      "last_update": "2026-09-23T10:23:43+02:00",
-      "items_found": 1
+      "status": "failed",
+      "last_update": "2026-09-23T11:22:42+02:00",
+      "note": "502 Server Error: Bad Gateway for url: https://www.edpb.europa.eu/"
     },
     {
       "name": "Datenschutzkonferenz",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-09-23T10:23:44+02:00",
+      "last_update": "2026-09-23T11:22:43+02:00",
       "items_found": 1
     },
     {
       "name": "PMI – Artificial Intelligence",
       "type": "optional",
       "status": "failed",
-      "last_update": "2026-09-23T10:23:45+02:00",
+      "last_update": "2026-09-23T11:22:44+02:00",
       "note": "403 Client Error: Forbidden for url: https://www.pmi.org/standards/artificial-intelligence"
     },
     {
       "name": "GPM – Aktuelles und Blog",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-09-23T10:23:54+02:00",
+      "last_update": "2026-09-23T11:22:54+02:00",
       "items_found": 5
     },
     {
       "name": "APM – News and Blog",
       "type": "core",
-      "status": "failed",
-      "last_update": "2026-09-23T10:24:04+02:00",
-      "note": "HTTPSConnectionPool(host='www.apm.org.uk', port=443): Read timed out. (read timeout=10)"
+      "status": "ok",
+      "last_update": "2026-09-23T11:23:00+02:00",
+      "items_found": 5
     }
   ]
 }
