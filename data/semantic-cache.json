@@ -539,6 +539,40 @@
       "summary": "Altersgemischte Projektteams werden als zunehmend übliche Teamkonstellation und als Führungschance dargestellt.",
       "why_relevant": "Projekt- und Führungskräfte können die Zusammenarbeit, den Wissenstransfer und die Einbindung unterschiedlicher Erfahrungsniveaus im Team berücksichtigen.",
       "watch_next": "Beobachten, ob der Beitrag konkrete Führungsansätze oder Methoden für Zusammenarbeit und Wissenstransfer in altersgemischten Teams konkretisiert."
+    },
+    "1c5a15ee615f269ee4712af69fcad8ef0a8cddf9675678fdefba985901479198": {
+      "semantic_input_hash": "1c5a15ee615f269ee4712af69fcad8ef0a8cddf9675678fdefba985901479198",
+      "item_id": "e376cc421d7a63978fd3",
+      "model_id": "gpt-5.6-luna",
+      "reasoning_effort": "low",
+      "prompt_version": "v2",
+      "schema_version": "v2",
+      "assessed_at": "2026-09-23T05:21:45.701719+00:00",
+      "assessment_status": "scored",
+      "management_relevance": 2,
+      "actionability": 1,
+      "significance": 1,
+      "reason": "Der Beitrag beschreibt eine beobachtete Entwicklung hin zu stärker verhaltens- und entscheidungsorientierter Governance im Jahr 2026.",
+      "summary": "Governance wird laut Beitrag weniger über Strukturen und Prozesse und stärker über Entscheidungsqualität, Verhalten und Organisationskultur verstanden.",
+      "why_relevant": "Die Perspektive kann beeinflussen, wie Führungskräfte Governance, Entscheidungskultur und organisatorisches Verhalten in ihrer Organisation weiterentwickeln.",
+      "watch_next": "Beobachten, ob daraus konkrete Governance-Leitlinien, Bewertungsmodelle oder Anforderungen an Führung und Organisationskultur entstehen."
+    },
+    "83e646acc26c5618fa0b6f64a89ec1e81f91227702a6dd1409514eb85cbfa966": {
+      "semantic_input_hash": "83e646acc26c5618fa0b6f64a89ec1e81f91227702a6dd1409514eb85cbfa966",
+      "item_id": "831172ac684ef777d90d",
+      "model_id": "gpt-5.6-luna",
+      "reasoning_effort": "low",
+      "prompt_version": "v2",
+      "schema_version": "v2",
+      "assessed_at": "2026-09-23T05:21:45.701719+00:00",
+      "assessment_status": "scored",
+      "management_relevance": 2,
+      "actionability": 2,
+      "significance": 2,
+      "reason": "Die Studie beschreibt Veränderungen von Aufgaben im Projektmanagement durch KI und benennt künftig wichtigere Kompetenzen.",
+      "summary": "KI verändert laut Studie die Rollen und Aufgaben im Projektmanagement; zugleich gewinnen bestimmte Kompetenzen künftig an Bedeutung.",
+      "why_relevant": "Die dargestellten Rollenveränderungen können Personalentwicklung, Kompetenzaufbau und die Ausgestaltung künftiger KI-gestützter Projektarbeit beeinflussen.",
+      "watch_next": "Prüfen, welche konkreten Aufgaben sich verändern, welche Kompetenzen genannt werden und wie belastbar die Studienergebnisse für die eigene Organisation sind."
     }
   }
 }
