@@ -573,6 +573,23 @@
       "summary": "KI verändert laut Studie die Rollen und Aufgaben im Projektmanagement; zugleich gewinnen bestimmte Kompetenzen künftig an Bedeutung.",
       "why_relevant": "Die dargestellten Rollenveränderungen können Personalentwicklung, Kompetenzaufbau und die Ausgestaltung künftiger KI-gestützter Projektarbeit beeinflussen.",
       "watch_next": "Prüfen, welche konkreten Aufgaben sich verändern, welche Kompetenzen genannt werden und wie belastbar die Studienergebnisse für die eigene Organisation sind."
+    },
+    "e3dfa181e9bd4550ab377aff3a58d91d4ffb807a45ddf84d89ccfd0b4d325a68": {
+      "semantic_input_hash": "e3dfa181e9bd4550ab377aff3a58d91d4ffb807a45ddf84d89ccfd0b4d325a68",
+      "item_id": "bc82e6c572d518ec53dc",
+      "model_id": "gpt-5.6-luna",
+      "reasoning_effort": "low",
+      "prompt_version": "v2",
+      "schema_version": "v2",
+      "assessed_at": "2026-09-24T05:21:52.491335+00:00",
+      "assessment_status": "scored",
+      "management_relevance": 1,
+      "actionability": 1,
+      "significance": 1,
+      "reason": "Die Meldung beschreibt eine Veranstaltung mit Praxisbeispielen zum Einsatz von KI im Projektmanagement sowie daraus abgeleiteten Chancen und neuen Anforderungen.",
+      "summary": "Der PM-Summit NRW behandelte das Zusammenwirken von Mensch und KI im Projektmanagement und stellte Praxisbeispiele, Chancen und neue Anforderungen vor.",
+      "why_relevant": "Für Projekt- und KI-Verantwortliche bietet die Veranstaltung Einblicke in praktische Einsatzmöglichkeiten und diskutierte Anforderungen an die Zusammenarbeit von Mensch und KI.",
+      "watch_next": "Beobachtenswert sind konkrete Methoden, Anforderungen und übertragbare Praxisbeispiele, die aus den vorgestellten Ansätzen hervorgehen."
     }
   }
 }
