@@ -658,6 +658,57 @@
       "summary": "Projektmanagement wird als lernendes System verstanden, das Standards, Reifegrad und Praxiserfahrungen gezielt nutzt.",
       "why_relevant": "Der Ansatz kann die Weiterentwicklung von Projektmanagement-Fähigkeiten und Standards beeinflussen, insbesondere bei Organisationen mit systematischem Reifegradmanagement.",
       "watch_next": "Zu prüfen sind die konkret beschriebenen Reifegradmodelle, Standards und Verfahren zur Nutzung von Praxiswissen."
+    },
+    "1a0dfdc7501cd22d8371aa19e9a76340cd32ffa0d29e1a128f29d281142b0769": {
+      "semantic_input_hash": "1a0dfdc7501cd22d8371aa19e9a76340cd32ffa0d29e1a128f29d281142b0769",
+      "item_id": "581b38c72ea5053b77e3",
+      "model_id": "gpt-5.6-luna",
+      "reasoning_effort": "low",
+      "prompt_version": "v2",
+      "schema_version": "v2",
+      "assessed_at": "2026-09-25T13:24:46.578740+00:00",
+      "assessment_status": "scored",
+      "management_relevance": 1,
+      "actionability": 1,
+      "significance": 1,
+      "reason": "Der Beitrag berichtet über einen Kongress zu Digital Government und Verwaltungsmodernisierung sowie über Kulturwandel, Veränderungsbereitschaft und Projektmanagement.",
+      "summary": "Kongressbeitrag zur Rolle von Projektmanagement, qualifizierten Mitarbeitenden und Veränderungsbereitschaft bei Digital Government und Verwaltungsmodernisierung.",
+      "why_relevant": "Die Meldung gibt Führungskräften einen allgemeinen Kontext zu Kompetenzen, Kulturwandel und Projektmanagement in der Verwaltungsmodernisierung.",
+      "watch_next": "Beobachten, ob aus den diskutierten Handlungsempfehlungen konkrete Programme, Leitlinien oder organisatorische Maßnahmen hervorgehen."
+    },
+    "f70b6b96bd85d307c0e8c780fd8e4941c87d04665722f7494a9b2a1dd3784808": {
+      "semantic_input_hash": "f70b6b96bd85d307c0e8c780fd8e4941c87d04665722f7494a9b2a1dd3784808",
+      "item_id": "18d976b062b81afb085c",
+      "model_id": "gpt-5.6-luna",
+      "reasoning_effort": "low",
+      "prompt_version": "v2",
+      "schema_version": "v2",
+      "assessed_at": "2026-09-25T13:24:46.578740+00:00",
+      "assessment_status": "scored",
+      "management_relevance": 1,
+      "actionability": 1,
+      "significance": 1,
+      "reason": "Der Beitrag beschreibt Vernetzung, gemeinsame Vermarktung und Runde Tische als Unterstützung für kleine Betriebe in Argentinien.",
+      "summary": "Vernetzungs- und Vermarktungsansatz zur Unterstützung kleiner Betriebe durch gemeinsame Absatzwege und Vertrauensbildung.",
+      "why_relevant": "Die Meldung zeigt einen organisatorischen Ansatz, durch Vernetzung und gemeinsame Vermarktung Absatzwege für kleine Betriebe zu verbessern.",
+      "watch_next": "Beobachten, ob konkrete Kooperationen, messbare Ergebnisse oder übertragbare Projektmanagement-Ansätze beschrieben werden."
+    },
+    "df2afd55f7f912b9cf0efbd2e65db4e3a402686609fd838245ee14bd5e9dc99a": {
+      "semantic_input_hash": "df2afd55f7f912b9cf0efbd2e65db4e3a402686609fd838245ee14bd5e9dc99a",
+      "item_id": "512df9f1890f27d4a8bf",
+      "model_id": "gpt-5.6-luna",
+      "reasoning_effort": "low",
+      "prompt_version": "v2",
+      "schema_version": "v2",
+      "assessed_at": "2026-09-25T13:24:46.578740+00:00",
+      "assessment_status": "scored",
+      "management_relevance": 1,
+      "actionability": 1,
+      "significance": 1,
+      "reason": "Der Beitrag erläutert das Verhältnis von Zeit, Kosten und Qualität im Projektmanagement und nennt praktische Anwendungstipps sowie Grenzen.",
+      "summary": "Grundlagenbeitrag zum Magischen Dreieck und zum Zusammenhang von Zeit, Kosten und Qualität in Projekten.",
+      "why_relevant": "Das Modell unterstützt Verantwortliche dabei, Zielkonflikte zwischen Zeit, Kosten und Qualität in Projekten strukturiert zu betrachten.",
+      "watch_next": "Prüfen, ob die beschriebenen Grenzen anhand konkreter Projektsituationen oder weiterführender Methoden erläutert werden."
     }
   }
 }
