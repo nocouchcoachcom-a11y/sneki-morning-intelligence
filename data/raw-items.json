@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "collected_at": "2026-09-26T02:28:23+02:00",
+  "collected_at": "2026-09-26T03:21:20+02:00",
   "items": [
     {
       "id": "e376cc421d7a63978fd3",
@@ -20,7 +20,7 @@
       "collector_note": null,
       "content_hash": "d2ae00a87cb00e16d1f45e6108b00586968b6a53d272de867623126ac42e1964",
       "first_seen_at": "2026-09-22T18:23:04+02:00",
-      "last_seen_at": "2026-09-26T02:28:23+02:00"
+      "last_seen_at": "2026-09-26T03:21:20+02:00"
     },
     {
       "id": "2fa4ab50dd0bb4a3245b",
@@ -40,7 +40,7 @@
       "collector_note": null,
       "content_hash": "0b9969ce09ef5887ffbd9cb48f6fbe740c4dcf24b4250d7296c3b66a88ca403a",
       "first_seen_at": "2026-09-24T13:22:26+02:00",
-      "last_seen_at": "2026-09-26T02:28:21+02:00"
+      "last_seen_at": "2026-09-26T03:21:18+02:00"
     },
     {
       "id": "321f3373f2f117f7df1a",
@@ -60,7 +60,7 @@
       "collector_note": null,
       "content_hash": "5858e6737ef815d42067dc74cdd0db3d3c5bf8a0ec867d7a5bd880a66e79f2b3",
       "first_seen_at": "2026-09-24T16:23:52+02:00",
-      "last_seen_at": "2026-09-26T02:28:20+02:00"
+      "last_seen_at": "2026-09-26T03:21:18+02:00"
     },
     {
       "id": "7b8ef343ee9249f31973",
@@ -80,7 +80,7 @@
       "collector_note": null,
       "content_hash": "4c6fba53644f15f740ed1f9745f5002f86278699b51b4faa2977170fa853240f",
       "first_seen_at": "2026-09-24T13:22:25+02:00",
-      "last_seen_at": "2026-09-26T02:28:19+02:00"
+      "last_seen_at": "2026-09-26T03:21:17+02:00"
     },
     {
       "id": "bc82e6c572d518ec53dc",
@@ -100,7 +100,7 @@
       "collector_note": null,
       "content_hash": "c418d67ac3c7f75ba60c17132fff94f6fd7921d3fdf8b99861103ccb23c7c3fb",
       "first_seen_at": "2026-09-23T18:24:08+02:00",
-      "last_seen_at": "2026-09-26T02:28:17+02:00"
+      "last_seen_at": "2026-09-26T03:21:16+02:00"
     },
     {
       "id": "581b38c72ea5053b77e3",
@@ -120,7 +120,7 @@
       "collector_note": null,
       "content_hash": "9a48bc18c3d7e136452500c6d0a51094ac84bc737ed1f03ff86bbe245127291f",
       "first_seen_at": "2026-09-25T14:27:51+02:00",
-      "last_seen_at": "2026-09-26T02:28:16+02:00"
+      "last_seen_at": "2026-09-26T03:21:15+02:00"
     },
     {
       "id": "c6af655b4c02c239167b",
@@ -140,7 +140,7 @@
       "collector_note": null,
       "content_hash": "b64ce92c50ed5a5e071ee330a770e93125aea28beb54ea502d38f2957cdf3c22",
       "first_seen_at": "2026-09-24T17:24:06+02:00",
-      "last_seen_at": "2026-09-26T02:28:15+02:00"
+      "last_seen_at": "2026-09-26T03:21:14+02:00"
     },
     {
       "id": "18d976b062b81afb085c",
@@ -160,7 +160,7 @@
       "collector_note": null,
       "content_hash": "e5f5cc459312bd64615f343be2d81047c180defeda90b9ffc712547288de4044",
       "first_seen_at": "2026-09-25T08:27:49+02:00",
-      "last_seen_at": "2026-09-26T02:28:14+02:00"
+      "last_seen_at": "2026-09-26T03:21:13+02:00"
     },
     {
       "id": "512df9f1890f27d4a8bf",
@@ -180,7 +180,7 @@
       "collector_note": null,
       "content_hash": "f99cc517f7d201eba1e513a28ecc9743cb8ff0ec489937ea4f711500e57993ed",
       "first_seen_at": "2026-09-25T10:24:40+02:00",
-      "last_seen_at": "2026-09-26T02:28:12+02:00"
+      "last_seen_at": "2026-09-26T03:21:11+02:00"
     },
     {
       "id": "299bc3455f13fc48bf13",
@@ -200,7 +200,7 @@
       "status": "ok",
       "content_hash": "811ac302c3193eb1b1ab9371558f9eff4f60aa642f2679335f729c77f8d6d3dd",
       "first_seen_at": "2026-09-14T18:58:54+02:00",
-      "last_seen_at": "2026-09-26T02:28:06+02:00",
+      "last_seen_at": "2026-09-26T03:21:05+02:00",
       "collector_note": null
     },
     {
@@ -221,7 +221,7 @@
       "status": "ok",
       "content_hash": "a9b348baabb63f3a36168e3506b408dea00ffbc0e6fc27353e27dd69cfd8d3bf",
       "first_seen_at": "2026-09-14T18:58:54+02:00",
-      "last_seen_at": "2026-09-26T02:28:05+02:00",
+      "last_seen_at": "2026-09-26T03:21:04+02:00",
       "collector_note": null
     },
     {
@@ -236,13 +236,13 @@
       "title": "AI Act – konsolidierte Fassung 2026-07-27",
       "raw_excerpt": "Aktuelle konsolidierte Fassung der Regulation (EU) 2024/1689 (Artificial Intelligence Act). Stand: 2026-07-27.",
       "published_at": "2026-07-27",
-      "collected_at": "2026-09-26T02:28:04+02:00",
+      "collected_at": "2026-09-26T03:21:04+02:00",
       "verification": "primary",
       "status": "ok",
       "collector_note": null,
       "content_hash": "ed4a9d3330cafe5c922a278159f2a5379789d35caf18fbba77966ea05c9199a3",
-      "first_seen_at": "2026-09-26T02:28:04+02:00",
-      "last_seen_at": "2026-09-26T02:28:04+02:00"
+      "first_seen_at": "2026-09-26T03:21:04+02:00",
+      "last_seen_at": "2026-09-26T03:21:04+02:00"
     },
     {
       "id": "411fbacd51e3afc9e023",
@@ -262,7 +262,7 @@
       "status": "ok",
       "content_hash": "b8afdf5a946f499c0084a4f6cf0c743556f782cd4cd51e523b53a10f78c93e99",
       "first_seen_at": "2026-09-15T10:44:01+02:00",
-      "last_seen_at": "2026-09-26T02:28:02+02:00",
+      "last_seen_at": "2026-09-26T03:21:03+02:00",
       "collector_note": null
     },
     {
@@ -283,7 +283,7 @@
       "status": "ok",
       "content_hash": "d755fd0273ce8945ef8578e9b1f73ccbce8ccdf14d613f81bc985f6d65f9100f",
       "first_seen_at": "2026-09-15T10:44:01+02:00",
-      "last_seen_at": "2026-09-26T02:28:02+02:00",
+      "last_seen_at": "2026-09-26T03:21:02+02:00",
       "collector_note": null
     },
     {
@@ -304,7 +304,7 @@
       "status": "ok",
       "content_hash": "55aad3678ae8e013de3eb7bf6c0ad54c05fb8b8e106644903d1a0b1cb9573da2",
       "first_seen_at": "2026-09-15T10:44:01+02:00",
-      "last_seen_at": "2026-09-26T02:28:02+02:00",
+      "last_seen_at": "2026-09-26T03:21:02+02:00",
       "collector_note": null
     },
     {
@@ -325,7 +325,7 @@
       "status": "ok",
       "content_hash": "692e8e6b8ea34bd3bfda9b6cf73462a033664c2fe330126e6e22d1ca8b160ecf",
       "first_seen_at": "2026-09-15T10:44:00+02:00",
-      "last_seen_at": "2026-09-26T02:28:01+02:00",
+      "last_seen_at": "2026-09-26T03:21:01+02:00",
       "collector_note": null
     },
     {
@@ -346,7 +346,7 @@
       "status": "ok",
       "content_hash": "ee5b82669e37a94a160e66d77b3507fdc759483f5ac1206d4e0645d4bacb55b6",
       "first_seen_at": "2026-09-15T10:43:59+02:00",
-      "last_seen_at": "2026-09-26T02:28:01+02:00",
+      "last_seen_at": "2026-09-26T03:21:01+02:00",
       "collector_note": null
     },
     {
@@ -367,7 +367,7 @@
       "status": "ok",
       "content_hash": "6266543d23bd3f2acf8affccadd939511f8509fd2736b914501003846c628981",
       "first_seen_at": "2026-09-15T10:43:59+02:00",
-      "last_seen_at": "2026-09-26T02:28:01+02:00",
+      "last_seen_at": "2026-09-26T03:21:01+02:00",
       "collector_note": null
     },
     {
@@ -388,7 +388,7 @@
       "status": "ok",
       "content_hash": "2adce69ab2ad064ab7d0d5e4c37c8459642f465c380fd74168a3f948e4e9027e",
       "first_seen_at": "2026-09-15T10:43:59+02:00",
-      "last_seen_at": "2026-09-26T02:28:00+02:00",
+      "last_seen_at": "2026-09-26T03:21:01+02:00",
       "collector_note": null
     },
     {
@@ -409,7 +409,7 @@
       "status": "ok",
       "content_hash": "6964d2a6e825efe24a090875b524221a191b37acacf014c6a4535031cae41c00",
       "first_seen_at": "2026-09-15T10:43:58+02:00",
-      "last_seen_at": "2026-09-26T02:28:00+02:00",
+      "last_seen_at": "2026-09-26T03:21:01+02:00",
       "collector_note": null
     },
     {
@@ -658,49 +658,49 @@
       "name": "European Commission – AI Act / AI Office",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-09-26T02:28:02+02:00",
+      "last_update": "2026-09-26T03:21:03+02:00",
       "items_found": 8
     },
     {
       "name": "EUR-Lex – Regulation (EU) 2024/1689",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-09-26T02:28:04+02:00",
+      "last_update": "2026-09-26T03:21:04+02:00",
       "items_found": 1
     },
     {
       "name": "European Data Protection Board",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-09-26T02:28:05+02:00",
+      "last_update": "2026-09-26T03:21:04+02:00",
       "items_found": 1
     },
     {
       "name": "Datenschutzkonferenz",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-09-26T02:28:06+02:00",
+      "last_update": "2026-09-26T03:21:05+02:00",
       "items_found": 1
     },
     {
       "name": "PMI – Artificial Intelligence",
       "type": "optional",
       "status": "failed",
-      "last_update": "2026-09-26T02:28:06+02:00",
+      "last_update": "2026-09-26T03:21:05+02:00",
       "note": "403 Client Error: Forbidden for url: https://www.pmi.org/standards/artificial-intelligence"
     },
     {
       "name": "GPM – Aktuelles und Blog",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-09-26T02:28:17+02:00",
+      "last_update": "2026-09-26T03:21:16+02:00",
       "items_found": 5
     },
     {
       "name": "APM – News and Blog",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-09-26T02:28:23+02:00",
+      "last_update": "2026-09-26T03:21:20+02:00",
       "items_found": 4
     }
   ]
