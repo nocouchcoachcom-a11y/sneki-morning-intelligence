@@ -709,6 +709,40 @@
       "summary": "Grundlagenbeitrag zum Magischen Dreieck und zum Zusammenhang von Zeit, Kosten und Qualität in Projekten.",
       "why_relevant": "Das Modell unterstützt Verantwortliche dabei, Zielkonflikte zwischen Zeit, Kosten und Qualität in Projekten strukturiert zu betrachten.",
       "watch_next": "Prüfen, ob die beschriebenen Grenzen anhand konkreter Projektsituationen oder weiterführender Methoden erläutert werden."
+    },
+    "b797a1e4025e7401943951ed2ce62f19a58616cdbc3d631cb403e13a6a0910e8": {
+      "semantic_input_hash": "b797a1e4025e7401943951ed2ce62f19a58616cdbc3d631cb403e13a6a0910e8",
+      "item_id": "9417cc8182b1b3dac1d7",
+      "model_id": "gpt-5.6-luna",
+      "reasoning_effort": "low",
+      "prompt_version": "v2",
+      "schema_version": "v2",
+      "assessed_at": "2026-09-28T13:26:23.289703+00:00",
+      "assessment_status": "scored",
+      "management_relevance": 0,
+      "actionability": 0,
+      "significance": 1,
+      "reason": "Die Meldung informiert darüber, dass die Wahlen zu den APM-Trustees 2026 geöffnet sind. Eine konkrete Auswirkung auf Unternehmensentscheidungen, Pflichten oder Projekte wird nicht genannt.",
+      "summary": "Die Abstimmung für die APM-Trustee-Wahlen 2026 ist eröffnet.",
+      "why_relevant": "Für Projektverantwortliche ist die Meldung nur dann relevant, wenn eine Beteiligung an der APM-Gremienarbeit oder Verbandsentwicklung beabsichtigt ist.",
+      "watch_next": "Beobachten, ob aus der Wahl neue APM-Positionen, Leitlinien oder für das Projektmanagement relevante Verbandsinitiativen hervorgehen."
+    },
+    "6f5772ef488c8843816f7ab73aa26b1a3001a7c3c5bb424d2e0bfb67aa771f83": {
+      "semantic_input_hash": "6f5772ef488c8843816f7ab73aa26b1a3001a7c3c5bb424d2e0bfb67aa771f83",
+      "item_id": "a428178a9e6defecd04e",
+      "model_id": "gpt-5.6-luna",
+      "reasoning_effort": "low",
+      "prompt_version": "v2",
+      "schema_version": "v2",
+      "assessed_at": "2026-09-28T13:26:23.289703+00:00",
+      "assessment_status": "scored",
+      "management_relevance": 1,
+      "actionability": 1,
+      "significance": 1,
+      "reason": "Der Beitrag schildert Erfahrungen eines Programmmanagers aus einer R&D-Einrichtung für die britische Live-Performance-Branche. Eine konkrete neue Regel, Technologieentscheidung oder Investitionsfolge wird im Auszug nicht genannt.",
+      "summary": "Ein Programmmanager berichtet über Erfahrungen aus dem CoSTAR Live Lab und deren Bezug zur Programmumsetzung.",
+      "why_relevant": "Der Erfahrungsbericht kann Projekt- und Programmverantwortlichen ergänzende Einblicke in die Umsetzung einer spezialisierten Forschungs- und Entwicklungseinrichtung geben.",
+      "watch_next": "Prüfen, welche konkreten Methoden, Governance-Ansätze oder übertragbaren Erkenntnisse der vollständige Erfahrungsbericht für eigene Programme beschreibt."
     }
   }
 }
