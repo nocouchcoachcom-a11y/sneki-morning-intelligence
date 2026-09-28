@@ -1,7 +1,149 @@
 {
   "schema_version": "1.0",
-  "collected_at": "2026-09-28T15:26:15+02:00",
+  "collected_at": "2026-09-28T16:27:37+02:00",
   "items": [
+    {
+      "id": "581b38c72ea5053b77e3",
+      "source_id": "gpm-project-management",
+      "source": "GPM – Aktuelles und Blog",
+      "source_type": "primary",
+      "source_url": "https://www.gpm-ipma.de/ueber-die-gpm/blog/projektmanagement-als-wegbereiter-der-verwaltungsmodernisierung",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "Projektmanagement als Wegbereiter der Verwaltungsmodernisierung",
+      "raw_excerpt": "Über 1.000 Entscheiderinnen und Entscheider aus Bund, Ländern und Kommunen sowie Unternehmen und Wissenschaft diskutierten auf dem Zukunftskongress „Staat und Verwaltung“ Ideen und Handlungsempfehlungen für Digital Government und Verwaltungsmodernisierung. „Damit die Digitalisierung gut gelingen kann, kommt es darauf an, qualifizierte und kompetente Mitarbeiter zu haben. Dafür braucht es Kulturwandel und Veränderungsbereitschaft,“ so Bundesinnenminister Thomas de Maizière bei seiner Eröffnungsrede. Die GPM konnte diese Aussage gemeinsam mit ihren Partnern mit Bezug auf wesentliche Aspekte des Aktionsprogramms „Mit Projekten Deutschlands Zukunft gestalten“ in vier eigenen Veranstaltungen auf dem Kongress unterstützen.",
+      "published_at": "2017-06-26",
+      "collected_at": "2026-09-25T14:27:51+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "9a48bc18c3d7e136452500c6d0a51094ac84bc737ed1f03ff86bbe245127291f",
+      "first_seen_at": "2026-09-25T14:27:51+02:00",
+      "last_seen_at": "2026-09-28T16:27:27+02:00"
+    },
+    {
+      "id": "c6af655b4c02c239167b",
+      "source_id": "gpm-project-management",
+      "source": "GPM – Aktuelles und Blog",
+      "source_type": "primary",
+      "source_url": "https://www.gpm-ipma.de/ueber-die-gpm/blog/projektmanagement-als-lernendes-system",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "Projektmanagement als lernendes System",
+      "raw_excerpt": "Die Weiterentwicklung des Projektmanagements setzt auf Analyse statt Aktionismus. Ein lernendes System nutzt Standards, Reifegrad und Praxiswissen gezielt.",
+      "published_at": "2026-09-24",
+      "collected_at": "2026-09-24T17:24:06+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "b64ce92c50ed5a5e071ee330a770e93125aea28beb54ea502d38f2957cdf3c22",
+      "first_seen_at": "2026-09-24T17:24:06+02:00",
+      "last_seen_at": "2026-09-28T16:27:26+02:00"
+    },
+    {
+      "id": "18d976b062b81afb085c",
+      "source_id": "gpm-project-management",
+      "source": "GPM – Aktuelles und Blog",
+      "source_type": "primary",
+      "source_url": "https://www.gpm-ipma.de/ueber-die-gpm/blog/projektmanagement-in-argentinien-gemeinsam-besser-vermarkten",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "Projektmanagement in Argentinien: Gemeinsam besser vermarkten",
+      "raw_excerpt": "Projektmanagement in Argentinien stärkt kleine Betriebe durch Vernetzung und gemeinsame Vermarktung. Runde Tische schaffen neue Absatzwege und Vertrauen.",
+      "published_at": "2026-09-25",
+      "collected_at": "2026-09-25T08:27:49+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "e5f5cc459312bd64615f343be2d81047c180defeda90b9ffc712547288de4044",
+      "first_seen_at": "2026-09-25T08:27:49+02:00",
+      "last_seen_at": "2026-09-28T16:27:25+02:00"
+    },
+    {
+      "id": "512df9f1890f27d4a8bf",
+      "source_id": "gpm-project-management",
+      "source": "GPM – Aktuelles und Blog",
+      "source_type": "primary",
+      "source_url": "https://www.gpm-ipma.de/ueber-die-gpm/blog/magisches-dreieck-im-projektmanagement-bedeutung-anwendung-und-grenzen",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "Magisches Dreieck im Projektmanagement: Bedeutung, Anwendung und Grenzen",
+      "raw_excerpt": "Magisches Dreieck im Projektmanagement: Wie Zeit, Kosten und Qualität zusammenhängen. Anschauliche Beispiele und praktische Tipps.",
+      "published_at": "2026-02-12",
+      "collected_at": "2026-09-25T10:24:40+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "f99cc517f7d201eba1e513a28ecc9743cb8ff0ec489937ea4f711500e57993ed",
+      "first_seen_at": "2026-09-25T10:24:40+02:00",
+      "last_seen_at": "2026-09-28T16:27:22+02:00"
+    },
+    {
+      "id": "299bc3455f13fc48bf13",
+      "source_id": "dsk",
+      "source": "Datenschutzkonferenz",
+      "source_type": "primary",
+      "source_url": "https://www.datenschutzkonferenz-online.de/orientierungshilfen.html",
+      "category": [
+        "DSGVO & Ethik",
+        "AI Governance"
+      ],
+      "title": "Datenschutzkonferenz",
+      "raw_excerpt": "Der offizielle Webauftritt der Datenschutzkonferenz (DSK), dem Gremium der deutschen Datenschutzaufsichtsbehörden",
+      "published_at": null,
+      "collected_at": "2026-09-14T18:58:54+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "811ac302c3193eb1b1ab9371558f9eff4f60aa642f2679335f729c77f8d6d3dd",
+      "first_seen_at": "2026-09-14T18:58:54+02:00",
+      "last_seen_at": "2026-09-28T16:27:17+02:00",
+      "collector_note": null
+    },
+    {
+      "id": "fd26c6620cbb3b8fa54e",
+      "source_id": "edpb",
+      "source": "European Data Protection Board",
+      "source_type": "primary",
+      "source_url": "https://www.edpb.europa.eu/",
+      "category": [
+        "DSGVO & Ethik",
+        "AI Governance"
+      ],
+      "title": "Home | European Data Protection Board",
+      "raw_excerpt": "",
+      "published_at": "2026-07-30T12:00:00Z",
+      "collected_at": "2026-09-14T18:58:54+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "a9b348baabb63f3a36168e3506b408dea00ffbc0e6fc27353e27dd69cfd8d3bf",
+      "first_seen_at": "2026-09-14T18:58:54+02:00",
+      "last_seen_at": "2026-09-28T16:27:16+02:00",
+      "collector_note": null
+    },
+    {
+      "id": "01c5434847cfafae5a0c",
+      "source_id": "eurlex-ai-act",
+      "source": "EUR-Lex – Regulation (EU) 2024/1689",
+      "source_type": "primary",
+      "source_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng",
+      "category": [
+        "EU AI Act"
+      ],
+      "title": "AI Act – konsolidierte Fassung 2026-07-27",
+      "raw_excerpt": "Aktuelle konsolidierte Fassung der Regulation (EU) 2024/1689 (Artificial Intelligence Act). Stand: 2026-07-27.",
+      "published_at": "2026-07-27",
+      "collected_at": "2026-09-28T16:27:15+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "ed4a9d3330cafe5c922a278159f2a5379789d35caf18fbba77966ea05c9199a3",
+      "first_seen_at": "2026-09-28T16:27:15+02:00",
+      "last_seen_at": "2026-09-28T16:27:15+02:00"
+    },
     {
       "id": "2fa4ab50dd0bb4a3245b",
       "source_id": "apm-project-management",
@@ -103,128 +245,6 @@
       "last_seen_at": "2026-09-28T15:26:13+02:00"
     },
     {
-      "id": "581b38c72ea5053b77e3",
-      "source_id": "gpm-project-management",
-      "source": "GPM – Aktuelles und Blog",
-      "source_type": "primary",
-      "source_url": "https://www.gpm-ipma.de/ueber-die-gpm/blog/projektmanagement-als-wegbereiter-der-verwaltungsmodernisierung",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "Projektmanagement als Wegbereiter der Verwaltungsmodernisierung",
-      "raw_excerpt": "Über 1.000 Entscheiderinnen und Entscheider aus Bund, Ländern und Kommunen sowie Unternehmen und Wissenschaft diskutierten auf dem Zukunftskongress „Staat und Verwaltung“ Ideen und Handlungsempfehlungen für Digital Government und Verwaltungsmodernisierung. „Damit die Digitalisierung gut gelingen kann, kommt es darauf an, qualifizierte und kompetente Mitarbeiter zu haben. Dafür braucht es Kulturwandel und Veränderungsbereitschaft,“ so Bundesinnenminister Thomas de Maizière bei seiner Eröffnungsrede. Die GPM konnte diese Aussage gemeinsam mit ihren Partnern mit Bezug auf wesentliche Aspekte des Aktionsprogramms „Mit Projekten Deutschlands Zukunft gestalten“ in vier eigenen Veranstaltungen auf dem Kongress unterstützen.",
-      "published_at": "2017-06-26",
-      "collected_at": "2026-09-25T14:27:51+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "9a48bc18c3d7e136452500c6d0a51094ac84bc737ed1f03ff86bbe245127291f",
-      "first_seen_at": "2026-09-25T14:27:51+02:00",
-      "last_seen_at": "2026-09-28T15:26:11+02:00"
-    },
-    {
-      "id": "c6af655b4c02c239167b",
-      "source_id": "gpm-project-management",
-      "source": "GPM – Aktuelles und Blog",
-      "source_type": "primary",
-      "source_url": "https://www.gpm-ipma.de/ueber-die-gpm/blog/projektmanagement-als-lernendes-system",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "Projektmanagement als lernendes System",
-      "raw_excerpt": "Die Weiterentwicklung des Projektmanagements setzt auf Analyse statt Aktionismus. Ein lernendes System nutzt Standards, Reifegrad und Praxiswissen gezielt.",
-      "published_at": "2026-09-24",
-      "collected_at": "2026-09-24T17:24:06+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "b64ce92c50ed5a5e071ee330a770e93125aea28beb54ea502d38f2957cdf3c22",
-      "first_seen_at": "2026-09-24T17:24:06+02:00",
-      "last_seen_at": "2026-09-28T15:26:10+02:00"
-    },
-    {
-      "id": "18d976b062b81afb085c",
-      "source_id": "gpm-project-management",
-      "source": "GPM – Aktuelles und Blog",
-      "source_type": "primary",
-      "source_url": "https://www.gpm-ipma.de/ueber-die-gpm/blog/projektmanagement-in-argentinien-gemeinsam-besser-vermarkten",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "Projektmanagement in Argentinien: Gemeinsam besser vermarkten",
-      "raw_excerpt": "Projektmanagement in Argentinien stärkt kleine Betriebe durch Vernetzung und gemeinsame Vermarktung. Runde Tische schaffen neue Absatzwege und Vertrauen.",
-      "published_at": "2026-09-25",
-      "collected_at": "2026-09-25T08:27:49+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "e5f5cc459312bd64615f343be2d81047c180defeda90b9ffc712547288de4044",
-      "first_seen_at": "2026-09-25T08:27:49+02:00",
-      "last_seen_at": "2026-09-28T15:26:09+02:00"
-    },
-    {
-      "id": "512df9f1890f27d4a8bf",
-      "source_id": "gpm-project-management",
-      "source": "GPM – Aktuelles und Blog",
-      "source_type": "primary",
-      "source_url": "https://www.gpm-ipma.de/ueber-die-gpm/blog/magisches-dreieck-im-projektmanagement-bedeutung-anwendung-und-grenzen",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "Magisches Dreieck im Projektmanagement: Bedeutung, Anwendung und Grenzen",
-      "raw_excerpt": "Magisches Dreieck im Projektmanagement: Wie Zeit, Kosten und Qualität zusammenhängen. Anschauliche Beispiele und praktische Tipps.",
-      "published_at": "2026-02-12",
-      "collected_at": "2026-09-25T10:24:40+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "f99cc517f7d201eba1e513a28ecc9743cb8ff0ec489937ea4f711500e57993ed",
-      "first_seen_at": "2026-09-25T10:24:40+02:00",
-      "last_seen_at": "2026-09-28T15:26:05+02:00"
-    },
-    {
-      "id": "299bc3455f13fc48bf13",
-      "source_id": "dsk",
-      "source": "Datenschutzkonferenz",
-      "source_type": "primary",
-      "source_url": "https://www.datenschutzkonferenz-online.de/orientierungshilfen.html",
-      "category": [
-        "DSGVO & Ethik",
-        "AI Governance"
-      ],
-      "title": "Datenschutzkonferenz",
-      "raw_excerpt": "Der offizielle Webauftritt der Datenschutzkonferenz (DSK), dem Gremium der deutschen Datenschutzaufsichtsbehörden",
-      "published_at": null,
-      "collected_at": "2026-09-14T18:58:54+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "811ac302c3193eb1b1ab9371558f9eff4f60aa642f2679335f729c77f8d6d3dd",
-      "first_seen_at": "2026-09-14T18:58:54+02:00",
-      "last_seen_at": "2026-09-28T15:26:00+02:00",
-      "collector_note": null
-    },
-    {
-      "id": "fd26c6620cbb3b8fa54e",
-      "source_id": "edpb",
-      "source": "European Data Protection Board",
-      "source_type": "primary",
-      "source_url": "https://www.edpb.europa.eu/",
-      "category": [
-        "DSGVO & Ethik",
-        "AI Governance"
-      ],
-      "title": "Home | European Data Protection Board",
-      "raw_excerpt": "",
-      "published_at": "2026-07-30T12:00:00Z",
-      "collected_at": "2026-09-14T18:58:54+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "a9b348baabb63f3a36168e3506b408dea00ffbc0e6fc27353e27dd69cfd8d3bf",
-      "first_seen_at": "2026-09-14T18:58:54+02:00",
-      "last_seen_at": "2026-09-28T15:25:59+02:00",
-      "collector_note": null
-    },
-    {
       "id": "411fbacd51e3afc9e023",
       "source_id": "eu-ai-office",
       "source": "European Commission – AI Act / AI Office",
@@ -244,26 +264,6 @@
       "first_seen_at": "2026-09-15T10:44:01+02:00",
       "last_seen_at": "2026-09-28T15:25:58+02:00",
       "collector_note": null
-    },
-    {
-      "id": "01c5434847cfafae5a0c",
-      "source_id": "eurlex-ai-act",
-      "source": "EUR-Lex – Regulation (EU) 2024/1689",
-      "source_type": "primary",
-      "source_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng",
-      "category": [
-        "EU AI Act"
-      ],
-      "title": "AI Act – konsolidierte Fassung 2026-07-27",
-      "raw_excerpt": "Aktuelle konsolidierte Fassung der Regulation (EU) 2024/1689 (Artificial Intelligence Act). Stand: 2026-07-27.",
-      "published_at": "2026-07-27",
-      "collected_at": "2026-09-28T15:25:58+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "ed4a9d3330cafe5c922a278159f2a5379789d35caf18fbba77966ea05c9199a3",
-      "first_seen_at": "2026-09-28T15:25:58+02:00",
-      "last_seen_at": "2026-09-28T15:25:58+02:00"
     },
     {
       "id": "988b163c909eaa93d3a0",
@@ -697,51 +697,51 @@
     {
       "name": "European Commission – AI Act / AI Office",
       "type": "core",
-      "status": "ok",
-      "last_update": "2026-09-28T15:25:58+02:00",
-      "items_found": 8
+      "status": "failed",
+      "last_update": "2026-09-28T16:27:14+02:00",
+      "note": "403 Client Error: Forbidden for url: https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
     },
     {
       "name": "EUR-Lex – Regulation (EU) 2024/1689",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-09-28T15:25:58+02:00",
+      "last_update": "2026-09-28T16:27:15+02:00",
       "items_found": 1
     },
     {
       "name": "European Data Protection Board",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-09-28T15:25:59+02:00",
+      "last_update": "2026-09-28T16:27:16+02:00",
       "items_found": 1
     },
     {
       "name": "Datenschutzkonferenz",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-09-28T15:26:00+02:00",
+      "last_update": "2026-09-28T16:27:17+02:00",
       "items_found": 1
     },
     {
       "name": "PMI – Artificial Intelligence",
       "type": "optional",
       "status": "failed",
-      "last_update": "2026-09-28T15:26:00+02:00",
+      "last_update": "2026-09-28T16:27:17+02:00",
       "note": "403 Client Error: Forbidden for url: https://www.pmi.org/standards/artificial-intelligence"
     },
     {
       "name": "GPM – Aktuelles und Blog",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-09-28T15:26:11+02:00",
+      "last_update": "2026-09-28T16:27:27+02:00",
       "items_found": 4
     },
     {
       "name": "APM – News and Blog",
       "type": "core",
-      "status": "ok",
-      "last_update": "2026-09-28T15:26:15+02:00",
-      "items_found": 5
+      "status": "failed",
+      "last_update": "2026-09-28T16:27:37+02:00",
+      "note": "HTTPSConnectionPool(host='www.apm.org.uk', port=443): Read timed out. (read timeout=10)"
     }
   ]
 }
