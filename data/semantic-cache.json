@@ -743,6 +743,40 @@
       "summary": "Ein Programmmanager berichtet über Erfahrungen aus dem CoSTAR Live Lab und deren Bezug zur Programmumsetzung.",
       "why_relevant": "Der Erfahrungsbericht kann Projekt- und Programmverantwortlichen ergänzende Einblicke in die Umsetzung einer spezialisierten Forschungs- und Entwicklungseinrichtung geben.",
       "watch_next": "Prüfen, welche konkreten Methoden, Governance-Ansätze oder übertragbaren Erkenntnisse der vollständige Erfahrungsbericht für eigene Programme beschreibt."
+    },
+    "a37c5d3a3deea35bfbcb4e0e1b0797bfd460dfaeb150e1eeebd44a01c833055e": {
+      "semantic_input_hash": "a37c5d3a3deea35bfbcb4e0e1b0797bfd460dfaeb150e1eeebd44a01c833055e",
+      "item_id": "0526f0ec6b45d5f232fe",
+      "model_id": "gpt-5.6-luna",
+      "reasoning_effort": "low",
+      "prompt_version": "v2",
+      "schema_version": "v2",
+      "assessed_at": "2026-09-29T05:23:55.682887+00:00",
+      "assessment_status": "scored",
+      "management_relevance": 1,
+      "actionability": 1,
+      "significance": 1,
+      "reason": "Der Beitrag beschreibt die Bedeutung eines projektmanagementorientierten Ansatzes für Organisationen im Raumfahrtsektor, nennt jedoch keine konkrete neue Pflicht, Entscheidung oder Investition.",
+      "summary": "Ein Beitrag zur Rolle von Projektprofessionals und projektmanagementorientierten Ansätzen im Raumfahrtsektor.",
+      "why_relevant": "Für Verantwortliche im Raumfahrtsektor zeigt der Beitrag, dass Projektmanagement als Faktor für strategischen Organisationserfolg betrachtet wird.",
+      "watch_next": "Beobachten, ob daraus konkrete Methoden, Governance-Empfehlungen oder sektorspezifische Anforderungen für Raumfahrtprojekte abgeleitet werden."
+    },
+    "04c860b788813baed538823fa4919e981ee26b5cc39a269a6d10dcd32e44c305": {
+      "semantic_input_hash": "04c860b788813baed538823fa4919e981ee26b5cc39a269a6d10dcd32e44c305",
+      "item_id": "8a7c406805c41f943d68",
+      "model_id": "gpt-5.6-luna",
+      "reasoning_effort": "low",
+      "prompt_version": "v2",
+      "schema_version": "v2",
+      "assessed_at": "2026-09-29T05:23:55.682887+00:00",
+      "assessment_status": "scored",
+      "management_relevance": 2,
+      "actionability": 2,
+      "significance": 2,
+      "reason": "Der Titel kündigt eine Fassung ISO 9001:2026 und mögliche Änderungen für das Projektmanagement an; der Auszug hebt Qualitätsmanagement, Risiken und Governance hervor, konkretisiert die Änderungen jedoch nicht.",
+      "summary": "Angekündigte Betrachtung der Auswirkungen von ISO 9001:2026 auf Projektmanagement, Qualitätsmanagement, Risiken und Governance.",
+      "why_relevant": "Die angekündigte ISO-9001-Fassung kann für Projektverantwortliche relevant sein, weil der Beitrag Qualitätsmanagement, Risiken und Governance als zentrale Themen nennt.",
+      "watch_next": "Die konkrete Fassung, Änderungen sowie deren Anwendungsbereich und Auswirkungen auf projektbezogene Qualitäts- und Governance-Prozesse prüfen."
     }
   }
 }
