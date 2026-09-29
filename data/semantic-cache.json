@@ -777,6 +777,23 @@
       "summary": "Angekündigte Betrachtung der Auswirkungen von ISO 9001:2026 auf Projektmanagement, Qualitätsmanagement, Risiken und Governance.",
       "why_relevant": "Die angekündigte ISO-9001-Fassung kann für Projektverantwortliche relevant sein, weil der Beitrag Qualitätsmanagement, Risiken und Governance als zentrale Themen nennt.",
       "watch_next": "Die konkrete Fassung, Änderungen sowie deren Anwendungsbereich und Auswirkungen auf projektbezogene Qualitäts- und Governance-Prozesse prüfen."
+    },
+    "207fedd2251fa0fffeb818fb06d857bd95f8dcbe4b41245b3c25bbb00f570c50": {
+      "semantic_input_hash": "207fedd2251fa0fffeb818fb06d857bd95f8dcbe4b41245b3c25bbb00f570c50",
+      "item_id": "530ccf0fce189221d8c8",
+      "model_id": "gpt-5.6-luna",
+      "reasoning_effort": "low",
+      "prompt_version": "v2",
+      "schema_version": "v2",
+      "assessed_at": "2026-09-29T13:28:53.167394+00:00",
+      "assessment_status": "scored",
+      "management_relevance": 2,
+      "actionability": 2,
+      "significance": 2,
+      "reason": "Die Europäische Kommission sammelt Rückmeldungen zu Herausforderungen und möglichen künftigen Maßnahmen zum Einfluss von Technologie einschließlich KI auf den wirksamen Urheberrechtsschutz.",
+      "summary": "Laufende EU-Konsultation zu technologischen Entwicklungen, einschließlich KI, und möglichen Maßnahmen für den Urheberrechtsschutz.",
+      "why_relevant": "Die Konsultation kann künftige Rahmenbedingungen für den Einsatz von KI und den Umgang mit urheberrechtlich geschützten Werken beeinflussen.",
+      "watch_next": "Beobachten, welche Rückmeldungen, politischen Optionen und konkreten Maßnahmen die Kommission aus der Konsultation ableitet."
     }
   }
 }
