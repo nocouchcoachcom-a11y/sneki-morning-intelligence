@@ -794,6 +794,23 @@
       "summary": "Laufende EU-Konsultation zu technologischen Entwicklungen, einschließlich KI, und möglichen Maßnahmen für den Urheberrechtsschutz.",
       "why_relevant": "Die Konsultation kann künftige Rahmenbedingungen für den Einsatz von KI und den Umgang mit urheberrechtlich geschützten Werken beeinflussen.",
       "watch_next": "Beobachten, welche Rückmeldungen, politischen Optionen und konkreten Maßnahmen die Kommission aus der Konsultation ableitet."
+    },
+    "6679cb1a01792789203169db30becd6efc951e3aa3c5ee945481dc1d698b6d42": {
+      "semantic_input_hash": "6679cb1a01792789203169db30becd6efc951e3aa3c5ee945481dc1d698b6d42",
+      "item_id": "8f77e9bef4f955a5c9dd",
+      "model_id": "gpt-5.6-luna",
+      "reasoning_effort": "low",
+      "prompt_version": "v2",
+      "schema_version": "v2",
+      "assessed_at": "2026-09-30T05:25:04.309894+00:00",
+      "assessment_status": "scored",
+      "management_relevance": 1,
+      "actionability": 1,
+      "significance": 1,
+      "reason": "Der Beitrag beschreibt KI-Unterstützung bei der Konfliktanalyse und Gesprächsvorbereitung, betont aber die weiterhin menschliche Verantwortung für die Konfliktlösung.",
+      "summary": "KI kann im Projektmanagement Konflikte analysieren und Gespräche vorbereiten; die eigentliche Konfliktfähigkeit und Lösungsverantwortung bleiben laut Beitrag beim Menschen.",
+      "why_relevant": "Projektverantwortliche erhalten einen Hinweis auf mögliche KI-Unterstützung in Konflikten, ohne dass die menschliche Entscheidungs- und Gesprächsverantwortung entfällt.",
+      "watch_next": "Beobachten, welche konkreten Einsatzgrenzen, Qualitätskriterien und Rollenverteilungen für KI-gestützte Konfliktanalyse und Gesprächsvorbereitung beschrieben werden."
     }
   }
 }
