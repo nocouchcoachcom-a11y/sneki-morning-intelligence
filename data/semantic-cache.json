@@ -811,6 +811,23 @@
       "summary": "KI kann im Projektmanagement Konflikte analysieren und Gespräche vorbereiten; die eigentliche Konfliktfähigkeit und Lösungsverantwortung bleiben laut Beitrag beim Menschen.",
       "why_relevant": "Projektverantwortliche erhalten einen Hinweis auf mögliche KI-Unterstützung in Konflikten, ohne dass die menschliche Entscheidungs- und Gesprächsverantwortung entfällt.",
       "watch_next": "Beobachten, welche konkreten Einsatzgrenzen, Qualitätskriterien und Rollenverteilungen für KI-gestützte Konfliktanalyse und Gesprächsvorbereitung beschrieben werden."
+    },
+    "ed6ed4a3ee5175f03d90fe6ef6d5b4bf72c3baffda01b63ef3e6fd628d8f4b55": {
+      "semantic_input_hash": "ed6ed4a3ee5175f03d90fe6ef6d5b4bf72c3baffda01b63ef3e6fd628d8f4b55",
+      "item_id": "09cd0405561ebf61f89d",
+      "model_id": "gpt-5.6-luna",
+      "reasoning_effort": "low",
+      "prompt_version": "v2",
+      "schema_version": "v2",
+      "assessed_at": "2026-09-30T13:27:42.016187+00:00",
+      "assessment_status": "scored",
+      "management_relevance": 2,
+      "actionability": 2,
+      "significance": 1,
+      "reason": "Die Eurobarometer-Erhebung weist auf eine hohe Verbreitung verdächtiger E-Mails, Nachrichten oder Links unter Beschäftigten in der EU hin. Daraus ergibt sich ein konkreter Anlass, bestehende Sensibilisierungs- und Sicherheitsmaßnahmen zu prüfen; eine neue Regel oder unmittelbare Pflicht wird nicht genannt.",
+      "summary": "Laut einer neuen Eurobarometer-Umfrage der Europäischen Kommission begegneten drei von vier Beschäftigten in der EU bei der Arbeit verdächtigen E-Mails, Nachrichten oder Links.",
+      "why_relevant": "Die hohe gemeldete Exposition kann Entscheidungen zu Awareness, Phishing-Schutz und der Bewertung menschlicher Cyberrisiken im Unternehmen unterstützen.",
+      "watch_next": "Beobachten und prüfen, ob die Erhebung nach Branchen oder Unternehmensgrößen differenziert und welche Sicherheits- oder Sensibilisierungsmaßnahmen daraus abgeleitet werden."
     }
   }
 }
