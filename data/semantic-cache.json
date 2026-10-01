@@ -828,6 +828,57 @@
       "summary": "Laut einer neuen Eurobarometer-Umfrage der Europäischen Kommission begegneten drei von vier Beschäftigten in der EU bei der Arbeit verdächtigen E-Mails, Nachrichten oder Links.",
       "why_relevant": "Die hohe gemeldete Exposition kann Entscheidungen zu Awareness, Phishing-Schutz und der Bewertung menschlicher Cyberrisiken im Unternehmen unterstützen.",
       "watch_next": "Beobachten und prüfen, ob die Erhebung nach Branchen oder Unternehmensgrößen differenziert und welche Sicherheits- oder Sensibilisierungsmaßnahmen daraus abgeleitet werden."
+    },
+    "441bb06aae93c34839b88c906931d8f0d9ea598ef34a5ec72b45e12d136f7d02": {
+      "semantic_input_hash": "441bb06aae93c34839b88c906931d8f0d9ea598ef34a5ec72b45e12d136f7d02",
+      "item_id": "0526f0ec6b45d5f232fe",
+      "model_id": "gpt-5.6-luna",
+      "reasoning_effort": "low",
+      "prompt_version": "v2",
+      "schema_version": "v2",
+      "assessed_at": "2026-10-01T05:24:48.365372+00:00",
+      "assessment_status": "scored",
+      "management_relevance": 1,
+      "actionability": 1,
+      "significance": 1,
+      "reason": "Der Beitrag beschreibt die Bedeutung eines projektmanagementorientierten Ansatzes für Organisationen im Raumfahrtsektor, ohne konkrete Maßnahmen oder neue Anforderungen zu nennen.",
+      "summary": "APM-Vertreter erläutern, warum Projektfachleute und ein projektmanagementorientierter Ansatz zum strategischen Erfolg im Raumfahrtsektor beitragen können.",
+      "why_relevant": "Für Projektverantwortliche liefert der Beitrag einen allgemeinen Impuls zur Rolle professionellen Projektmanagements in strategisch ausgerichteten Raumfahrtorganisationen.",
+      "watch_next": "Beobachtet werden könnten konkrete Methoden, Erfolgsfaktoren oder sektorbezogene Empfehlungen, die der Beitrag möglicherweise näher ausführt."
+    },
+    "13fff4fb9dde76d3dffbb2f89ce23b2fc824668829a7d37278440ee0b03ab0fc": {
+      "semantic_input_hash": "13fff4fb9dde76d3dffbb2f89ce23b2fc824668829a7d37278440ee0b03ab0fc",
+      "item_id": "f85ecb46bb70afdd0e80",
+      "model_id": "gpt-5.6-luna",
+      "reasoning_effort": "low",
+      "prompt_version": "v2",
+      "schema_version": "v2",
+      "assessed_at": "2026-10-01T05:24:48.365372+00:00",
+      "assessment_status": "scored",
+      "management_relevance": 1,
+      "actionability": 1,
+      "significance": 1,
+      "reason": "Der Titel stellt einen Zusammenhang zwischen traditionellen Führungsmodellen und entfernten Projektteams her, enthält aber keine konkreten Modelle, Daten oder Maßnahmen.",
+      "summary": "Der Beitrag vertritt die These, dass Remote-Projektteams Schwächen überholter Führungsgewohnheiten sichtbar machen.",
+      "why_relevant": "Für Führungskräfte und Projektverantwortliche ist die These relevant, weil sie mögliche Anpassungsbedarfe bei der Führung verteilter Teams thematisiert.",
+      "watch_next": "Zu prüfen wären konkrete Führungspraktiken, beobachtete Probleme und Empfehlungen für die Zusammenarbeit in Remote-Projektteams."
+    },
+    "e94ce98204540a4b33493c6f6c9d3d2ba1903f9dcff377cb1dcc509970348102": {
+      "semantic_input_hash": "e94ce98204540a4b33493c6f6c9d3d2ba1903f9dcff377cb1dcc509970348102",
+      "item_id": "cb74e3bf7092b5f15652",
+      "model_id": "gpt-5.6-luna",
+      "reasoning_effort": "low",
+      "prompt_version": "v2",
+      "schema_version": "v2",
+      "assessed_at": "2026-10-01T05:24:48.365372+00:00",
+      "assessment_status": "scored",
+      "management_relevance": 1,
+      "actionability": 1,
+      "significance": 1,
+      "reason": "Der Beitrag stellt einen Zusammenhang zwischen PISA, projektorientiertem Unterricht und Kompetenzentwicklung her, ohne konkrete Auswirkungen auf Organisationen oder Projekte zu belegen.",
+      "summary": "GPM beschreibt projektorientierten Unterricht als Ansatz zur Förderung von Kompetenzen, Transferdenken und praxisnahem Lernen an Schulen.",
+      "why_relevant": "Die Meldung kann für Verantwortliche interessant sein, weil sie den möglichen Zusammenhang zwischen Bildungsansätzen und späteren Projektkompetenzen beschreibt.",
+      "watch_next": "Beobachtet werden könnten konkrete Kompetenzmodelle, empirische Belege und Übertragungen projektorientierten Lernens in Organisationen."
     }
   }
 }
