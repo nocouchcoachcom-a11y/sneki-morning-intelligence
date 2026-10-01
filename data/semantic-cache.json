@@ -879,6 +879,57 @@
       "summary": "GPM beschreibt projektorientierten Unterricht als Ansatz zur Förderung von Kompetenzen, Transferdenken und praxisnahem Lernen an Schulen.",
       "why_relevant": "Die Meldung kann für Verantwortliche interessant sein, weil sie den möglichen Zusammenhang zwischen Bildungsansätzen und späteren Projektkompetenzen beschreibt.",
       "watch_next": "Beobachtet werden könnten konkrete Kompetenzmodelle, empirische Belege und Übertragungen projektorientierten Lernens in Organisationen."
+    },
+    "6daf6fa03f006be535989ba078cf04932cc183f5ab39e22368a7fdc347f403ba": {
+      "semantic_input_hash": "6daf6fa03f006be535989ba078cf04932cc183f5ab39e22368a7fdc347f403ba",
+      "item_id": "5f2d0b8eb529a2538886",
+      "model_id": "gpt-5.6-luna",
+      "reasoning_effort": "low",
+      "prompt_version": "v2",
+      "schema_version": "v2",
+      "assessed_at": "2026-10-01T13:29:41.479898+00:00",
+      "assessment_status": "scored",
+      "management_relevance": 1,
+      "actionability": 1,
+      "significance": 1,
+      "reason": "Der Beitrag leitet allgemeine Projektmanagement-Lektionen aus der Odyssee ab, ohne konkrete neue Anforderungen, Risiken oder Investitionsentscheidungen zu benennen.",
+      "summary": "Ein APM-Blogbeitrag über Roadmaps, Meilensteine, Verzögerungen und Unsicherheit anhand einer Analogie zur Odyssee.",
+      "why_relevant": "Der Beitrag bietet allgemeine Denkanstöße für Projektplanung und den Umgang mit Verzögerungen, Unsicherheit sowie der Steuerung komplexer Vorhaben.",
+      "watch_next": "Beobachten, ob aus den allgemeinen Überlegungen konkrete Methoden, Leitlinien oder anwendbare Projektmanagement-Praktiken abgeleitet werden."
+    },
+    "33b734f9de2cf646c5c209b38da540ae3619999948bc261e1fc425c4621a08d2": {
+      "semantic_input_hash": "33b734f9de2cf646c5c209b38da540ae3619999948bc261e1fc425c4621a08d2",
+      "item_id": "09cd0405561ebf61f89d",
+      "model_id": "gpt-5.6-luna",
+      "reasoning_effort": "low",
+      "prompt_version": "v2",
+      "schema_version": "v2",
+      "assessed_at": "2026-10-01T13:29:41.479898+00:00",
+      "assessment_status": "scored",
+      "management_relevance": 2,
+      "actionability": 2,
+      "significance": 1,
+      "reason": "Die Eurobarometer-Erhebung zeigt eine hohe Verbreitung verdächtiger E-Mails, Nachrichten oder Links unter EU-Beschäftigten und berührt damit betriebliche Cyberrisiken.",
+      "summary": "Laut einer neuen Eurobarometer-Erhebung begegneten drei von vier Beschäftigten in der EU am Arbeitsplatz verdächtigen E-Mails, Nachrichten oder Links.",
+      "why_relevant": "Die gemeldete Häufigkeit verdächtiger Nachrichten ist für Sicherheitsrisiken, Awareness-Maßnahmen und die Priorisierung betrieblicher Schutzvorkehrungen relevant.",
+      "watch_next": "Prüfen, welche detaillierten Ergebnisse, Empfehlungen oder Folgeinitiativen zur betrieblichen Cybersecurity-Awareness aus der Erhebung hervorgehen."
+    },
+    "93354b09226ce09930d15b656c77f667f200895d7ee8dd1e89174ce5e54e9ac4": {
+      "semantic_input_hash": "93354b09226ce09930d15b656c77f667f200895d7ee8dd1e89174ce5e54e9ac4",
+      "item_id": "798eda4ebfda65d6642f",
+      "model_id": "gpt-5.6-luna",
+      "reasoning_effort": "low",
+      "prompt_version": "v2",
+      "schema_version": "v2",
+      "assessed_at": "2026-10-01T13:29:41.479898+00:00",
+      "assessment_status": "scored",
+      "management_relevance": 2,
+      "actionability": 1,
+      "significance": 2,
+      "reason": "Mit dem EDIC for Agri-Food wurde ein europäischer Verbund zur Unterstützung digitaler Innovation im Agrar- und Lebensmittelsektor gegründet; konkrete Angebote oder Pflichten werden nicht genannt.",
+      "summary": "Der European Digital Infrastructure Consortium for Agri-Food wurde mit Sitz in Paris offiziell eingerichtet und verbindet Mitgliedstaaten, die Kommission sowie Akteure der Lieferkette.",
+      "why_relevant": "Die neue europäische Infrastrukturinitiative kann für Digitalisierungsstrategien, Kooperationsmöglichkeiten und Innovationsbeobachtung im Agrar- und Lebensmittelsektor relevant sein.",
+      "watch_next": "Beobachten, welche konkreten Programme, Beteiligungsmöglichkeiten, technischen Schwerpunkte und Unterstützungsangebote der EDIC veröffentlicht."
     }
   }
 }
