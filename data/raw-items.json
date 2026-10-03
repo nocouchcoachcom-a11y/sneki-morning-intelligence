@@ -1,7 +1,317 @@
 {
   "schema_version": "1.0",
-  "collected_at": "2026-10-03T04:25:04+02:00",
+  "collected_at": "2026-10-03T05:28:48+02:00",
   "items": [
+    {
+      "id": "512df9f1890f27d4a8bf",
+      "source_id": "gpm-project-management",
+      "source": "GPM – Aktuelles und Blog",
+      "source_type": "primary",
+      "source_url": "https://www.gpm-ipma.de/ueber-die-gpm/blog/magisches-dreieck-im-projektmanagement-bedeutung-anwendung-und-grenzen",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "Magisches Dreieck im Projektmanagement: Bedeutung, Anwendung und Grenzen",
+      "raw_excerpt": "Magisches Dreieck im Projektmanagement: Wie Zeit, Kosten und Qualität zusammenhängen. Anschauliche Beispiele und praktische Tipps.",
+      "published_at": "2026-02-12",
+      "collected_at": "2026-09-25T10:24:40+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "f99cc517f7d201eba1e513a28ecc9743cb8ff0ec489937ea4f711500e57993ed",
+      "first_seen_at": "2026-09-25T10:24:40+02:00",
+      "last_seen_at": "2026-10-03T05:28:37+02:00"
+    },
+    {
+      "id": "cb74e3bf7092b5f15652",
+      "source_id": "gpm-project-management",
+      "source": "GPM – Aktuelles und Blog",
+      "source_type": "primary",
+      "source_url": "https://www.gpm-ipma.de/ueber-die-gpm/blog/was-hat-pisa-mit-projektmanagement-zu-tun",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "Was hat PISA mit Projektmanagement zu tun?",
+      "raw_excerpt": "PISA und Projektmanagement gehören zusammen: Projektorientierter Unterricht stärkt Kompetenzen, Transferdenken und praxisnahes Lernen an Schulen.",
+      "published_at": "2026-10-01",
+      "collected_at": "2026-10-01T05:25:24+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "a836729110557dbd22acbeb881bc917c2e1c29714edc84d22798a567ff387b37",
+      "first_seen_at": "2026-10-01T05:25:24+02:00",
+      "last_seen_at": "2026-10-03T05:28:36+02:00"
+    },
+    {
+      "id": "8a7c406805c41f943d68",
+      "source_id": "gpm-project-management",
+      "source": "GPM – Aktuelles und Blog",
+      "source_type": "primary",
+      "source_url": "https://www.gpm-ipma.de/ueber-die-gpm/blog/iso-9001-in-2026-warum-projektmanagement-jetzt-noch-wichtiger-wird",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "ISO 9001:2026 – Warum Projektmanagement jetzt noch wichtiger wird",
+      "raw_excerpt": "ISO 9001:2026 – Was ändert sich für das Projektmanagement? Qualitätsmanagement, Risiken und Governance gewinnen weiter an Bedeutung.",
+      "published_at": "2026-09-29",
+      "collected_at": "2026-09-29T05:24:23+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "6aad89eebfafbba4decc6489c8f6f63dbd2f4fbb4d61a0ffefdf6d6450b129cc",
+      "first_seen_at": "2026-09-29T05:24:23+02:00",
+      "last_seen_at": "2026-10-03T05:28:35+02:00"
+    },
+    {
+      "id": "8f77e9bef4f955a5c9dd",
+      "source_id": "gpm-project-management",
+      "source": "GPM – Aktuelles und Blog",
+      "source_type": "primary",
+      "source_url": "https://www.gpm-ipma.de/ueber-die-gpm/blog/ki-kann-konflikte-analysieren-loesen-muessen-wir-sie-selbst",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "KI kann Konflikte analysieren, lösen müssen wir sie selbst",
+      "raw_excerpt": "KI im Konfliktmanagement kann analysieren und Gespräche vorbereiten. Warum Konfliktfähigkeit im Projektmanagement trotzdem menschlich bleibt.",
+      "published_at": "2026-09-30",
+      "collected_at": "2026-09-30T05:25:14+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "a1c8a7eaca7ac7309760fa4cfc3e5e83b2cc2d7a4f505033ff4bd733e6160266",
+      "first_seen_at": "2026-09-30T05:25:14+02:00",
+      "last_seen_at": "2026-10-03T05:28:34+02:00"
+    },
+    {
+      "id": "299bc3455f13fc48bf13",
+      "source_id": "dsk",
+      "source": "Datenschutzkonferenz",
+      "source_type": "primary",
+      "source_url": "https://www.datenschutzkonferenz-online.de/orientierungshilfen.html",
+      "category": [
+        "DSGVO & Ethik",
+        "AI Governance"
+      ],
+      "title": "Datenschutzkonferenz",
+      "raw_excerpt": "Der offizielle Webauftritt der Datenschutzkonferenz (DSK), dem Gremium der deutschen Datenschutzaufsichtsbehörden",
+      "published_at": null,
+      "collected_at": "2026-09-14T18:58:54+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "811ac302c3193eb1b1ab9371558f9eff4f60aa642f2679335f729c77f8d6d3dd",
+      "first_seen_at": "2026-09-14T18:58:54+02:00",
+      "last_seen_at": "2026-10-03T05:28:27+02:00",
+      "collector_note": null
+    },
+    {
+      "id": "fd26c6620cbb3b8fa54e",
+      "source_id": "edpb",
+      "source": "European Data Protection Board",
+      "source_type": "primary",
+      "source_url": "https://www.edpb.europa.eu/",
+      "category": [
+        "DSGVO & Ethik",
+        "AI Governance"
+      ],
+      "title": "Home | European Data Protection Board",
+      "raw_excerpt": "",
+      "published_at": "2026-07-30T12:00:00Z",
+      "collected_at": "2026-09-14T18:58:54+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "a9b348baabb63f3a36168e3506b408dea00ffbc0e6fc27353e27dd69cfd8d3bf",
+      "first_seen_at": "2026-09-14T18:58:54+02:00",
+      "last_seen_at": "2026-10-03T05:28:26+02:00",
+      "collector_note": null
+    },
+    {
+      "id": "01c5434847cfafae5a0c",
+      "source_id": "eurlex-ai-act",
+      "source": "EUR-Lex – Regulation (EU) 2024/1689",
+      "source_type": "primary",
+      "source_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng",
+      "category": [
+        "EU AI Act"
+      ],
+      "title": "AI Act – konsolidierte Fassung 2026-07-27",
+      "raw_excerpt": "Aktuelle konsolidierte Fassung der Regulation (EU) 2024/1689 (Artificial Intelligence Act). Stand: 2026-07-27.",
+      "published_at": "2026-07-27",
+      "collected_at": "2026-10-03T05:28:25+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "ed4a9d3330cafe5c922a278159f2a5379789d35caf18fbba77966ea05c9199a3",
+      "first_seen_at": "2026-10-03T05:28:25+02:00",
+      "last_seen_at": "2026-10-03T05:28:25+02:00"
+    },
+    {
+      "id": "076d3df9976c6ede52e9",
+      "source_id": "eu-ai-office",
+      "source": "European Commission – AI Act / AI Office",
+      "source_type": "primary",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/eu-launches-ai-gigafactories-call-boost-europes-computing-capacity-and-unlock-more-eu30-billion",
+      "category": [
+        "EU AI Act",
+        "AI Governance"
+      ],
+      "title": "EU launches AI Gigafactories call to boost Europe's computing capacity and unlock more than €30 billion in investment",
+      "raw_excerpt": "The EU has launched a call for tenders to establish up to seven AI Gigafactories across Europe, as part of its latest major push to accelerate Europe's technological sovereignty and ambition of becoming the AI Continent.",
+      "published_at": "2026-07-30",
+      "collected_at": "2026-09-15T10:44:00+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "692e8e6b8ea34bd3bfda9b6cf73462a033664c2fe330126e6e22d1ca8b160ecf",
+      "first_seen_at": "2026-09-15T10:44:00+02:00",
+      "last_seen_at": "2026-10-03T05:28:23+02:00",
+      "collector_note": null
+    },
+    {
+      "id": "675ab8b9c70584920356",
+      "source_id": "eu-ai-office",
+      "source": "European Commission – AI Act / AI Office",
+      "source_type": "primary",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
+      "category": [
+        "EU AI Act",
+        "AI Governance"
+      ],
+      "title": "Commission starts enforcing AI Act rules and new transparency requirements on 2 August",
+      "raw_excerpt": "From 2 August 2026, the European Commission’s AI Office, together with national authorities, will begin enforcing the Artificial Intelligence (AI) Act.",
+      "published_at": "2026-07-31",
+      "collected_at": "2026-09-15T10:43:59+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "ee5b82669e37a94a160e66d77b3507fdc759483f5ac1206d4e0645d4bacb55b6",
+      "first_seen_at": "2026-09-15T10:43:59+02:00",
+      "last_seen_at": "2026-10-03T05:28:23+02:00",
+      "collector_note": null
+    },
+    {
+      "id": "b4038eb822b1702a8e84",
+      "source_id": "eu-ai-office",
+      "source": "European Commission – AI Act / AI Office",
+      "source_type": "primary",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/executive-vice-president-virkkunen-us-g20-ministerial-meetings",
+      "category": [
+        "EU AI Act",
+        "AI Governance"
+      ],
+      "title": "Executive Vice-President Virkkunen in the US for G20 Ministerial meetings",
+      "raw_excerpt": "Starting today until Wednesday, 2 September, the European Commission will be represented by Henna Virkkunen, Executive Vice-President for Tech Sovereignty, Security and Democracy and Valdis Dombrovskis, Commissioner for Economy and Productivity, Implementation and Simplification at the G20 Ministerial meetings in North Carolina, United States of America.",
+      "published_at": "2026-08-31",
+      "collected_at": "2026-09-15T10:43:59+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "6266543d23bd3f2acf8affccadd939511f8509fd2736b914501003846c628981",
+      "first_seen_at": "2026-09-15T10:43:59+02:00",
+      "last_seen_at": "2026-10-03T05:28:23+02:00",
+      "collector_note": null
+    },
+    {
+      "id": "530ccf0fce189221d8c8",
+      "source_id": "eu-ai-office",
+      "source": "European Commission – AI Act / AI Office",
+      "source_type": "primary",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-seeks-feedback-challenges-and-way-forward-area-effect-technology-copyright",
+      "category": [
+        "EU AI Act",
+        "AI Governance"
+      ],
+      "title": "Commission seeks feedback on challenges and way forward in the area of effect of technology on copyright",
+      "raw_excerpt": "The European Commission is gathering feedback on challenges and options for potential future measures to support the impact of technology, including artificial intelligence, on the effective copyright protection amid market and technology developments of creative works and innovations.",
+      "published_at": "2026-09-29",
+      "collected_at": "2026-09-29T12:25:35+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "e372d5321d49eabddc6333a57bcd763ea0e80a5d6c42c07b3240018c8be35e5a",
+      "first_seen_at": "2026-09-29T12:25:35+02:00",
+      "last_seen_at": "2026-10-03T05:28:22+02:00",
+      "collector_note": null
+    },
+    {
+      "id": "09cd0405561ebf61f89d",
+      "source_id": "eu-ai-office",
+      "source": "European Commission – AI Act / AI Office",
+      "source_type": "primary",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/three-four-eu-employees-faced-cyber-threats-work-new-eurobarometer-finds",
+      "category": [
+        "EU AI Act",
+        "AI Governance"
+      ],
+      "title": "Three in four EU employees faced cyber threats at work, new Eurobarometer finds",
+      "raw_excerpt": "Three in four employees in the European Union encountered suspicious emails, messages or links at work, according to a new Eurobarometer survey published by the European Commission.",
+      "published_at": "2026-09-30",
+      "collected_at": "2026-10-01T12:26:04+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "0be1fca47d42517ae4231e5c41a920023a7e9b94c302d1e4575bec4cde309214",
+      "first_seen_at": "2026-10-01T12:26:04+02:00",
+      "last_seen_at": "2026-10-03T05:28:22+02:00",
+      "collector_note": null
+    },
+    {
+      "id": "9d5dc209f53282ec4ee9",
+      "source_id": "eu-ai-office",
+      "source": "European Commission – AI Act / AI Office",
+      "source_type": "primary",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/edic-agri-food-launched-support-digital-innovation-across-europes-food-and-agriculture-sector",
+      "category": [
+        "EU AI Act",
+        "AI Governance"
+      ],
+      "title": "EDIC for Agri-Food launched to support digital innovation across Europe’s food and agriculture sector",
+      "raw_excerpt": "The European Digital Infrastructure Consortium for Agri-Food (EDIC for Agri-Food) has officially been established with its seat in Paris with a launch event convened by Ms Annie Genevard, French Minister of Agriculture, Agri-Food and Food Sovereignty member countries, the Commission and stakeholders from across the agri-food supply chain.",
+      "published_at": "2026-10-01",
+      "collected_at": "2026-10-02T16:26:47+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "3862cdd024cb5b8de5911df27a335043acf70ef90d351d1d5b1577e4aaf2a30e",
+      "first_seen_at": "2026-10-02T16:26:47+02:00",
+      "last_seen_at": "2026-10-03T05:28:22+02:00",
+      "collector_note": null
+    },
+    {
+      "id": "c559fbd12af243b637ab",
+      "source_id": "eu-ai-office",
+      "source": "European Commission – AI Act / AI Office",
+      "source_type": "primary",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
+      "category": [
+        "EU AI Act",
+        "AI Governance"
+      ],
+      "title": "AI Omnibus enters into force",
+      "raw_excerpt": "On 27 July 2026, the AI Omnibus enters into force across the EU, bringing extended timelines to administrative simplification.",
+      "published_at": "2026-07-27",
+      "collected_at": "2026-09-15T10:43:59+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "2adce69ab2ad064ab7d0d5e4c37c8459642f465c380fd74168a3f948e4e9027e",
+      "first_seen_at": "2026-09-15T10:43:59+02:00",
+      "last_seen_at": "2026-10-03T05:28:22+02:00",
+      "collector_note": null
+    },
+    {
+      "id": "956414ff323625f7fa6f",
+      "source_id": "eu-ai-office",
+      "source": "European Commission – AI Act / AI Office",
+      "source_type": "primary",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/supporting-implementation-ai-act-clear-guidelines",
+      "category": [
+        "EU AI Act",
+        "AI Governance"
+      ],
+      "title": "Supporting the implementation of the AI Act with clear guidelines",
+      "raw_excerpt": "In the course of 2026, the AI Office has been preparing guidelines to ensure a smooth implementation of the AI Act.",
+      "published_at": "2025-12-04",
+      "collected_at": "2026-09-15T10:43:58+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "6964d2a6e825efe24a090875b524221a191b37acacf014c6a4535031cae41c00",
+      "first_seen_at": "2026-09-15T10:43:58+02:00",
+      "last_seen_at": "2026-10-03T05:28:22+02:00",
+      "collector_note": null
+    },
     {
       "id": "a428178a9e6defecd04e",
       "source_id": "apm-project-management",
@@ -101,316 +411,6 @@
       "content_hash": "96f74255c08761cbad1ab67d7836d0fc26adddc5e2d7c11f7b5c5cce661d0dea",
       "first_seen_at": "2026-10-02T18:24:59+02:00",
       "last_seen_at": "2026-10-03T04:25:01+02:00"
-    },
-    {
-      "id": "512df9f1890f27d4a8bf",
-      "source_id": "gpm-project-management",
-      "source": "GPM – Aktuelles und Blog",
-      "source_type": "primary",
-      "source_url": "https://www.gpm-ipma.de/ueber-die-gpm/blog/magisches-dreieck-im-projektmanagement-bedeutung-anwendung-und-grenzen",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "Magisches Dreieck im Projektmanagement: Bedeutung, Anwendung und Grenzen",
-      "raw_excerpt": "Magisches Dreieck im Projektmanagement: Wie Zeit, Kosten und Qualität zusammenhängen. Anschauliche Beispiele und praktische Tipps.",
-      "published_at": "2026-02-12",
-      "collected_at": "2026-09-25T10:24:40+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "f99cc517f7d201eba1e513a28ecc9743cb8ff0ec489937ea4f711500e57993ed",
-      "first_seen_at": "2026-09-25T10:24:40+02:00",
-      "last_seen_at": "2026-10-03T04:24:59+02:00"
-    },
-    {
-      "id": "cb74e3bf7092b5f15652",
-      "source_id": "gpm-project-management",
-      "source": "GPM – Aktuelles und Blog",
-      "source_type": "primary",
-      "source_url": "https://www.gpm-ipma.de/ueber-die-gpm/blog/was-hat-pisa-mit-projektmanagement-zu-tun",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "Was hat PISA mit Projektmanagement zu tun?",
-      "raw_excerpt": "PISA und Projektmanagement gehören zusammen: Projektorientierter Unterricht stärkt Kompetenzen, Transferdenken und praxisnahes Lernen an Schulen.",
-      "published_at": "2026-10-01",
-      "collected_at": "2026-10-01T05:25:24+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "a836729110557dbd22acbeb881bc917c2e1c29714edc84d22798a567ff387b37",
-      "first_seen_at": "2026-10-01T05:25:24+02:00",
-      "last_seen_at": "2026-10-03T04:24:58+02:00"
-    },
-    {
-      "id": "8a7c406805c41f943d68",
-      "source_id": "gpm-project-management",
-      "source": "GPM – Aktuelles und Blog",
-      "source_type": "primary",
-      "source_url": "https://www.gpm-ipma.de/ueber-die-gpm/blog/iso-9001-in-2026-warum-projektmanagement-jetzt-noch-wichtiger-wird",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "ISO 9001:2026 – Warum Projektmanagement jetzt noch wichtiger wird",
-      "raw_excerpt": "ISO 9001:2026 – Was ändert sich für das Projektmanagement? Qualitätsmanagement, Risiken und Governance gewinnen weiter an Bedeutung.",
-      "published_at": "2026-09-29",
-      "collected_at": "2026-09-29T05:24:23+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "6aad89eebfafbba4decc6489c8f6f63dbd2f4fbb4d61a0ffefdf6d6450b129cc",
-      "first_seen_at": "2026-09-29T05:24:23+02:00",
-      "last_seen_at": "2026-10-03T04:24:57+02:00"
-    },
-    {
-      "id": "8f77e9bef4f955a5c9dd",
-      "source_id": "gpm-project-management",
-      "source": "GPM – Aktuelles und Blog",
-      "source_type": "primary",
-      "source_url": "https://www.gpm-ipma.de/ueber-die-gpm/blog/ki-kann-konflikte-analysieren-loesen-muessen-wir-sie-selbst",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "KI kann Konflikte analysieren, lösen müssen wir sie selbst",
-      "raw_excerpt": "KI im Konfliktmanagement kann analysieren und Gespräche vorbereiten. Warum Konfliktfähigkeit im Projektmanagement trotzdem menschlich bleibt.",
-      "published_at": "2026-09-30",
-      "collected_at": "2026-09-30T05:25:14+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "a1c8a7eaca7ac7309760fa4cfc3e5e83b2cc2d7a4f505033ff4bd733e6160266",
-      "first_seen_at": "2026-09-30T05:25:14+02:00",
-      "last_seen_at": "2026-10-03T04:24:56+02:00"
-    },
-    {
-      "id": "299bc3455f13fc48bf13",
-      "source_id": "dsk",
-      "source": "Datenschutzkonferenz",
-      "source_type": "primary",
-      "source_url": "https://www.datenschutzkonferenz-online.de/orientierungshilfen.html",
-      "category": [
-        "DSGVO & Ethik",
-        "AI Governance"
-      ],
-      "title": "Datenschutzkonferenz",
-      "raw_excerpt": "Der offizielle Webauftritt der Datenschutzkonferenz (DSK), dem Gremium der deutschen Datenschutzaufsichtsbehörden",
-      "published_at": null,
-      "collected_at": "2026-09-14T18:58:54+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "811ac302c3193eb1b1ab9371558f9eff4f60aa642f2679335f729c77f8d6d3dd",
-      "first_seen_at": "2026-09-14T18:58:54+02:00",
-      "last_seen_at": "2026-10-03T04:24:52+02:00",
-      "collector_note": null
-    },
-    {
-      "id": "fd26c6620cbb3b8fa54e",
-      "source_id": "edpb",
-      "source": "European Data Protection Board",
-      "source_type": "primary",
-      "source_url": "https://www.edpb.europa.eu/",
-      "category": [
-        "DSGVO & Ethik",
-        "AI Governance"
-      ],
-      "title": "Home | European Data Protection Board",
-      "raw_excerpt": "",
-      "published_at": "2026-07-30T12:00:00Z",
-      "collected_at": "2026-09-14T18:58:54+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "a9b348baabb63f3a36168e3506b408dea00ffbc0e6fc27353e27dd69cfd8d3bf",
-      "first_seen_at": "2026-09-14T18:58:54+02:00",
-      "last_seen_at": "2026-10-03T04:24:51+02:00",
-      "collector_note": null
-    },
-    {
-      "id": "01c5434847cfafae5a0c",
-      "source_id": "eurlex-ai-act",
-      "source": "EUR-Lex – Regulation (EU) 2024/1689",
-      "source_type": "primary",
-      "source_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng",
-      "category": [
-        "EU AI Act"
-      ],
-      "title": "AI Act – konsolidierte Fassung 2026-07-27",
-      "raw_excerpt": "Aktuelle konsolidierte Fassung der Regulation (EU) 2024/1689 (Artificial Intelligence Act). Stand: 2026-07-27.",
-      "published_at": "2026-07-27",
-      "collected_at": "2026-10-03T04:24:50+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "ed4a9d3330cafe5c922a278159f2a5379789d35caf18fbba77966ea05c9199a3",
-      "first_seen_at": "2026-10-03T04:24:50+02:00",
-      "last_seen_at": "2026-10-03T04:24:50+02:00"
-    },
-    {
-      "id": "076d3df9976c6ede52e9",
-      "source_id": "eu-ai-office",
-      "source": "European Commission – AI Act / AI Office",
-      "source_type": "primary",
-      "source_url": "https://digital-strategy.ec.europa.eu/en/news/eu-launches-ai-gigafactories-call-boost-europes-computing-capacity-and-unlock-more-eu30-billion",
-      "category": [
-        "EU AI Act",
-        "AI Governance"
-      ],
-      "title": "EU launches AI Gigafactories call to boost Europe's computing capacity and unlock more than €30 billion in investment",
-      "raw_excerpt": "The EU has launched a call for tenders to establish up to seven AI Gigafactories across Europe, as part of its latest major push to accelerate Europe's technological sovereignty and ambition of becoming the AI Continent.",
-      "published_at": "2026-07-30",
-      "collected_at": "2026-09-15T10:44:00+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "692e8e6b8ea34bd3bfda9b6cf73462a033664c2fe330126e6e22d1ca8b160ecf",
-      "first_seen_at": "2026-09-15T10:44:00+02:00",
-      "last_seen_at": "2026-10-03T04:24:49+02:00",
-      "collector_note": null
-    },
-    {
-      "id": "675ab8b9c70584920356",
-      "source_id": "eu-ai-office",
-      "source": "European Commission – AI Act / AI Office",
-      "source_type": "primary",
-      "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
-      "category": [
-        "EU AI Act",
-        "AI Governance"
-      ],
-      "title": "Commission starts enforcing AI Act rules and new transparency requirements on 2 August",
-      "raw_excerpt": "From 2 August 2026, the European Commission’s AI Office, together with national authorities, will begin enforcing the Artificial Intelligence (AI) Act.",
-      "published_at": "2026-07-31",
-      "collected_at": "2026-09-15T10:43:59+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "ee5b82669e37a94a160e66d77b3507fdc759483f5ac1206d4e0645d4bacb55b6",
-      "first_seen_at": "2026-09-15T10:43:59+02:00",
-      "last_seen_at": "2026-10-03T04:24:49+02:00",
-      "collector_note": null
-    },
-    {
-      "id": "b4038eb822b1702a8e84",
-      "source_id": "eu-ai-office",
-      "source": "European Commission – AI Act / AI Office",
-      "source_type": "primary",
-      "source_url": "https://digital-strategy.ec.europa.eu/en/news/executive-vice-president-virkkunen-us-g20-ministerial-meetings",
-      "category": [
-        "EU AI Act",
-        "AI Governance"
-      ],
-      "title": "Executive Vice-President Virkkunen in the US for G20 Ministerial meetings",
-      "raw_excerpt": "Starting today until Wednesday, 2 September, the European Commission will be represented by Henna Virkkunen, Executive Vice-President for Tech Sovereignty, Security and Democracy and Valdis Dombrovskis, Commissioner for Economy and Productivity, Implementation and Simplification at the G20 Ministerial meetings in North Carolina, United States of America.",
-      "published_at": "2026-08-31",
-      "collected_at": "2026-09-15T10:43:59+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "6266543d23bd3f2acf8affccadd939511f8509fd2736b914501003846c628981",
-      "first_seen_at": "2026-09-15T10:43:59+02:00",
-      "last_seen_at": "2026-10-03T04:24:49+02:00",
-      "collector_note": null
-    },
-    {
-      "id": "530ccf0fce189221d8c8",
-      "source_id": "eu-ai-office",
-      "source": "European Commission – AI Act / AI Office",
-      "source_type": "primary",
-      "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-seeks-feedback-challenges-and-way-forward-area-effect-technology-copyright",
-      "category": [
-        "EU AI Act",
-        "AI Governance"
-      ],
-      "title": "Commission seeks feedback on challenges and way forward in the area of effect of technology on copyright",
-      "raw_excerpt": "The European Commission is gathering feedback on challenges and options for potential future measures to support the impact of technology, including artificial intelligence, on the effective copyright protection amid market and technology developments of creative works and innovations.",
-      "published_at": "2026-09-29",
-      "collected_at": "2026-09-29T12:25:35+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "e372d5321d49eabddc6333a57bcd763ea0e80a5d6c42c07b3240018c8be35e5a",
-      "first_seen_at": "2026-09-29T12:25:35+02:00",
-      "last_seen_at": "2026-10-03T04:24:49+02:00",
-      "collector_note": null
-    },
-    {
-      "id": "09cd0405561ebf61f89d",
-      "source_id": "eu-ai-office",
-      "source": "European Commission – AI Act / AI Office",
-      "source_type": "primary",
-      "source_url": "https://digital-strategy.ec.europa.eu/en/news/three-four-eu-employees-faced-cyber-threats-work-new-eurobarometer-finds",
-      "category": [
-        "EU AI Act",
-        "AI Governance"
-      ],
-      "title": "Three in four EU employees faced cyber threats at work, new Eurobarometer finds",
-      "raw_excerpt": "Three in four employees in the European Union encountered suspicious emails, messages or links at work, according to a new Eurobarometer survey published by the European Commission.",
-      "published_at": "2026-09-30",
-      "collected_at": "2026-10-01T12:26:04+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "0be1fca47d42517ae4231e5c41a920023a7e9b94c302d1e4575bec4cde309214",
-      "first_seen_at": "2026-10-01T12:26:04+02:00",
-      "last_seen_at": "2026-10-03T04:24:49+02:00",
-      "collector_note": null
-    },
-    {
-      "id": "9d5dc209f53282ec4ee9",
-      "source_id": "eu-ai-office",
-      "source": "European Commission – AI Act / AI Office",
-      "source_type": "primary",
-      "source_url": "https://digital-strategy.ec.europa.eu/en/news/edic-agri-food-launched-support-digital-innovation-across-europes-food-and-agriculture-sector",
-      "category": [
-        "EU AI Act",
-        "AI Governance"
-      ],
-      "title": "EDIC for Agri-Food launched to support digital innovation across Europe’s food and agriculture sector",
-      "raw_excerpt": "The European Digital Infrastructure Consortium for Agri-Food (EDIC for Agri-Food) has officially been established with its seat in Paris with a launch event convened by Ms Annie Genevard, French Minister of Agriculture, Agri-Food and Food Sovereignty member countries, the Commission and stakeholders from across the agri-food supply chain.",
-      "published_at": "2026-10-01",
-      "collected_at": "2026-10-02T16:26:47+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "3862cdd024cb5b8de5911df27a335043acf70ef90d351d1d5b1577e4aaf2a30e",
-      "first_seen_at": "2026-10-02T16:26:47+02:00",
-      "last_seen_at": "2026-10-03T04:24:49+02:00",
-      "collector_note": null
-    },
-    {
-      "id": "c559fbd12af243b637ab",
-      "source_id": "eu-ai-office",
-      "source": "European Commission – AI Act / AI Office",
-      "source_type": "primary",
-      "source_url": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
-      "category": [
-        "EU AI Act",
-        "AI Governance"
-      ],
-      "title": "AI Omnibus enters into force",
-      "raw_excerpt": "On 27 July 2026, the AI Omnibus enters into force across the EU, bringing extended timelines to administrative simplification.",
-      "published_at": "2026-07-27",
-      "collected_at": "2026-09-15T10:43:59+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "2adce69ab2ad064ab7d0d5e4c37c8459642f465c380fd74168a3f948e4e9027e",
-      "first_seen_at": "2026-09-15T10:43:59+02:00",
-      "last_seen_at": "2026-10-03T04:24:49+02:00",
-      "collector_note": null
-    },
-    {
-      "id": "956414ff323625f7fa6f",
-      "source_id": "eu-ai-office",
-      "source": "European Commission – AI Act / AI Office",
-      "source_type": "primary",
-      "source_url": "https://digital-strategy.ec.europa.eu/en/news/supporting-implementation-ai-act-clear-guidelines",
-      "category": [
-        "EU AI Act",
-        "AI Governance"
-      ],
-      "title": "Supporting the implementation of the AI Act with clear guidelines",
-      "raw_excerpt": "In the course of 2026, the AI Office has been preparing guidelines to ensure a smooth implementation of the AI Act.",
-      "published_at": "2025-12-04",
-      "collected_at": "2026-09-15T10:43:58+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "6964d2a6e825efe24a090875b524221a191b37acacf014c6a4535031cae41c00",
-      "first_seen_at": "2026-09-15T10:43:58+02:00",
-      "last_seen_at": "2026-10-03T04:24:48+02:00",
-      "collector_note": null
     },
     {
       "id": "798eda4ebfda65d6642f",
@@ -922,50 +922,50 @@
       "name": "European Commission – AI Act / AI Office",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-03T04:24:49+02:00",
+      "last_update": "2026-10-03T05:28:23+02:00",
       "items_found": 8
     },
     {
       "name": "EUR-Lex – Regulation (EU) 2024/1689",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-03T04:24:50+02:00",
+      "last_update": "2026-10-03T05:28:25+02:00",
       "items_found": 1
     },
     {
       "name": "European Data Protection Board",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-03T04:24:51+02:00",
+      "last_update": "2026-10-03T05:28:26+02:00",
       "items_found": 1
     },
     {
       "name": "Datenschutzkonferenz",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-03T04:24:52+02:00",
+      "last_update": "2026-10-03T05:28:27+02:00",
       "items_found": 1
     },
     {
       "name": "PMI – Artificial Intelligence",
       "type": "optional",
       "status": "failed",
-      "last_update": "2026-10-03T04:24:52+02:00",
+      "last_update": "2026-10-03T05:28:28+02:00",
       "note": "403 Client Error: Forbidden for url: https://www.pmi.org/standards/artificial-intelligence"
     },
     {
       "name": "GPM – Aktuelles und Blog",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-03T04:24:59+02:00",
+      "last_update": "2026-10-03T05:28:38+02:00",
       "items_found": 4
     },
     {
       "name": "APM – News and Blog",
       "type": "core",
-      "status": "ok",
-      "last_update": "2026-10-03T04:25:04+02:00",
-      "items_found": 5
+      "status": "failed",
+      "last_update": "2026-10-03T05:28:48+02:00",
+      "note": "HTTPSConnectionPool(host='www.apm.org.uk', port=443): Read timed out. (read timeout=10)"
     }
   ]
 }
