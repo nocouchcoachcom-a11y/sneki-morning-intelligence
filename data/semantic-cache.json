@@ -930,6 +930,40 @@
       "summary": "Der European Digital Infrastructure Consortium for Agri-Food wurde mit Sitz in Paris offiziell eingerichtet und verbindet Mitgliedstaaten, die Kommission sowie Akteure der Lieferkette.",
       "why_relevant": "Die neue europäische Infrastrukturinitiative kann für Digitalisierungsstrategien, Kooperationsmöglichkeiten und Innovationsbeobachtung im Agrar- und Lebensmittelsektor relevant sein.",
       "watch_next": "Beobachten, welche konkreten Programme, Beteiligungsmöglichkeiten, technischen Schwerpunkte und Unterstützungsangebote der EDIC veröffentlicht."
+    },
+    "4cdf1db136c0f7a8241187f0e20937f9d09bd1ac53c050d3fd535a78ecf24060": {
+      "semantic_input_hash": "4cdf1db136c0f7a8241187f0e20937f9d09bd1ac53c050d3fd535a78ecf24060",
+      "item_id": "9febc72eea23620760be",
+      "model_id": "gpt-5.6-luna",
+      "reasoning_effort": "low",
+      "prompt_version": "v2",
+      "schema_version": "v2",
+      "assessed_at": "2026-10-03T05:32:43.820878+00:00",
+      "assessment_status": "insufficient_input",
+      "management_relevance": 0,
+      "actionability": 0,
+      "significance": 0,
+      "reason": "Der Titel und Auszug berichten ausschließlich über den Tod und die Würdigung eines ehemaligen APM-Präsidenten; eine konkrete Entwicklung für Management oder Projekte ist nicht erkennbar.",
+      "summary": "Würdigung des verstorbenen ehemaligen APM-Präsidenten Professor Tony Ridley.",
+      "why_relevant": "Die Meldung enthält keine konkrete Auswirkung auf Geschäftsführung, IT-, KI- oder Projektentscheidungen.",
+      "watch_next": "Keine konkrete fachliche Entwicklung zur weiteren Beobachtung aus den bereitgestellten Angaben ableitbar."
+    },
+    "7e110273926f14fb4ba8e3f9ed7b5ae868b7b24c564881836477ac36a94eead9": {
+      "semantic_input_hash": "7e110273926f14fb4ba8e3f9ed7b5ae868b7b24c564881836477ac36a94eead9",
+      "item_id": "9d5dc209f53282ec4ee9",
+      "model_id": "gpt-5.6-luna",
+      "reasoning_effort": "low",
+      "prompt_version": "v2",
+      "schema_version": "v2",
+      "assessed_at": "2026-10-03T05:32:43.820878+00:00",
+      "assessment_status": "scored",
+      "management_relevance": 2,
+      "actionability": 1,
+      "significance": 2,
+      "reason": "Der European Digital Infrastructure Consortium for Agri-Food wurde offiziell gegründet und soll die digitale Innovation im europäischen Agrar- und Ernährungssektor unterstützen.",
+      "summary": "Ein europäisches digitales Infrastrukturkonsortium für den Agrar- und Ernährungssektor wurde mit Sitz in Paris eingerichtet.",
+      "why_relevant": "Die Gründung kann für Organisationen im Agrar- und Ernährungssektor als mögliche Kooperations- oder Innovationsplattform relevant werden.",
+      "watch_next": "Beobachtet werden sollten die konkreten Angebote, beteiligten Mitgliedstaaten, Anwendungsbereiche und weiteren Aktivitäten des Konsortiums."
     }
   }
 }
