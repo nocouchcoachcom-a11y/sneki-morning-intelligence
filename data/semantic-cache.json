@@ -964,6 +964,23 @@
       "summary": "Ein europäisches digitales Infrastrukturkonsortium für den Agrar- und Ernährungssektor wurde mit Sitz in Paris eingerichtet.",
       "why_relevant": "Die Gründung kann für Organisationen im Agrar- und Ernährungssektor als mögliche Kooperations- oder Innovationsplattform relevant werden.",
       "watch_next": "Beobachtet werden sollten die konkreten Angebote, beteiligten Mitgliedstaaten, Anwendungsbereiche und weiteren Aktivitäten des Konsortiums."
+    },
+    "7c546e270fe8c1260191f89a08da23563d593871ae6aac0e7e4df8c95281a738": {
+      "semantic_input_hash": "7c546e270fe8c1260191f89a08da23563d593871ae6aac0e7e4df8c95281a738",
+      "item_id": "9c4721fbd1d9df912a28",
+      "model_id": "gpt-5.6-luna",
+      "reasoning_effort": "low",
+      "prompt_version": "v2",
+      "schema_version": "v2",
+      "assessed_at": "2026-10-05T13:31:11.124010+00:00",
+      "assessment_status": "insufficient_input",
+      "management_relevance": 0,
+      "actionability": 0,
+      "significance": 0,
+      "reason": "Titel und Auszug beschreiben überwiegend die berufliche Funktion und den Hintergrund einer Referentin; eine konkrete Entwicklung oder Maßnahme ist nicht erkennbar.",
+      "summary": "Der Beitrag kündigt offenbar einen Vortrag oder eine Veranstaltung mit einer Expertin aus Verteidigung, Raumfahrt, Sicherheit und digitaler Transformation an, enthält jedoch keine konkrete fachliche Entwicklung.",
+      "why_relevant": "Der Auszug nennt einschlägige Projektmanagement- und Transformationskompetenz, zeigt aber keine konkrete Auswirkung auf Unternehmensentscheidungen oder laufende Projekte.",
+      "watch_next": "Beobachtet werden sollte, ob der vollständige Beitrag konkrete Methoden, Empfehlungen oder Entwicklungen für KI- und Projektmanagement enthält."
     }
   }
 }
