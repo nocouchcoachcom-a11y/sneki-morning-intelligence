@@ -981,6 +981,23 @@
       "summary": "Der Beitrag kündigt offenbar einen Vortrag oder eine Veranstaltung mit einer Expertin aus Verteidigung, Raumfahrt, Sicherheit und digitaler Transformation an, enthält jedoch keine konkrete fachliche Entwicklung.",
       "why_relevant": "Der Auszug nennt einschlägige Projektmanagement- und Transformationskompetenz, zeigt aber keine konkrete Auswirkung auf Unternehmensentscheidungen oder laufende Projekte.",
       "watch_next": "Beobachtet werden sollte, ob der vollständige Beitrag konkrete Methoden, Empfehlungen oder Entwicklungen für KI- und Projektmanagement enthält."
+    },
+    "48f5b6a4580244db0ef7336bf174baa5acd43611ee2519b11e2c7b34adffae0c": {
+      "semantic_input_hash": "48f5b6a4580244db0ef7336bf174baa5acd43611ee2519b11e2c7b34adffae0c",
+      "item_id": "8f06b79d388f40327935",
+      "model_id": "gpt-5.6-luna",
+      "reasoning_effort": "low",
+      "prompt_version": "v2",
+      "schema_version": "v2",
+      "assessed_at": "2026-10-06T13:27:42.459443+00:00",
+      "assessment_status": "insufficient_input",
+      "management_relevance": 0,
+      "actionability": 0,
+      "significance": 0,
+      "reason": "Titel und Beschreibung behandeln allgemein digitale Risiken und die Fähigkeiten von Beschäftigten, nennen jedoch keine konkrete neue Entwicklung, Maßnahme oder Anforderung.",
+      "summary": "Allgemeiner Hinweis auf digitale Risiken am Arbeitsplatz und die Bedeutung von Fähigkeiten der Beschäftigten.",
+      "why_relevant": "Die Meldung verweist allgemein auf digitale Risiken und Beschäftigtenfähigkeiten, enthält jedoch keine konkrete Entscheidung, Pflicht oder technische Entwicklung.",
+      "watch_next": "Beobachten, ob konkrete Empfehlungen, Schulungsinhalte oder Leitlinien zur Bewältigung digitaler Risiken veröffentlicht werden."
     }
   }
 }

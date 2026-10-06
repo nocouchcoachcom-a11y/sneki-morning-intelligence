@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "collected_at": "2026-10-06T14:30:56+02:00",
+  "collected_at": "2026-10-06T15:27:37+02:00",
   "items": [
     {
       "id": "8f06b79d388f40327935",
@@ -20,7 +20,7 @@
       "collector_note": null,
       "content_hash": "225fd97730996f1056df2c3d6e0681ea23d0a6212ad9322476999f5ec066e30b",
       "first_seen_at": "2026-10-06T13:24:52+02:00",
-      "last_seen_at": "2026-10-06T14:30:56+02:00"
+      "last_seen_at": "2026-10-06T15:27:37+02:00"
     },
     {
       "id": "65e9186f8e76dd91b78b",
@@ -40,7 +40,7 @@
       "collector_note": null,
       "content_hash": "2fd558dcd468f0aab6e36a9da997400381d2c4c477d5b31c086a1f5ef47fa7ce",
       "first_seen_at": "2026-10-06T13:24:52+02:00",
-      "last_seen_at": "2026-10-06T14:30:56+02:00"
+      "last_seen_at": "2026-10-06T15:27:37+02:00"
     },
     {
       "id": "69e35d4f63fb3a6177f8",
@@ -60,7 +60,7 @@
       "collector_note": null,
       "content_hash": "376977684c043312d89d15c0ffe34cb6fd17761d7174ab6e954baf04c39ac5d8",
       "first_seen_at": "2026-10-06T13:24:52+02:00",
-      "last_seen_at": "2026-10-06T14:30:56+02:00"
+      "last_seen_at": "2026-10-06T15:27:37+02:00"
     },
     {
       "id": "aa9c64790a7db03646d9",
@@ -80,7 +80,7 @@
       "collector_note": null,
       "content_hash": "e23d30677d9db5c5a8af3afcf3536c5ce3a31455d8324890055107201bf11e17",
       "first_seen_at": "2026-10-06T13:24:52+02:00",
-      "last_seen_at": "2026-10-06T14:30:56+02:00"
+      "last_seen_at": "2026-10-06T15:27:37+02:00"
     },
     {
       "id": "37a0e12ebb691190f14d",
@@ -100,7 +100,7 @@
       "collector_note": null,
       "content_hash": "689f2572401454d352cc027392d682def7ab40956b4c1a28c2dbf232e1c59544",
       "first_seen_at": "2026-10-06T13:24:52+02:00",
-      "last_seen_at": "2026-10-06T14:30:56+02:00"
+      "last_seen_at": "2026-10-06T15:27:37+02:00"
     },
     {
       "id": "0c8caa098365fd047aaa",
@@ -120,7 +120,7 @@
       "collector_note": null,
       "content_hash": "81395f5d03cf2b1d35d1800c9ae35ee1414e3b4260cbdce7260b29b63dc94971",
       "first_seen_at": "2026-10-06T13:24:51+02:00",
-      "last_seen_at": "2026-10-06T14:30:56+02:00"
+      "last_seen_at": "2026-10-06T15:27:37+02:00"
     },
     {
       "id": "3a84ffe437a1be8937fb",
@@ -140,7 +140,7 @@
       "collector_note": null,
       "content_hash": "88600f0816bc82143e2deae3f8277c0f8066609b642aeb481559cc0ab0b4c926",
       "first_seen_at": "2026-10-06T13:24:51+02:00",
-      "last_seen_at": "2026-10-06T14:30:56+02:00"
+      "last_seen_at": "2026-10-06T15:27:37+02:00"
     },
     {
       "id": "677a3907a60a79063d20",
@@ -160,7 +160,7 @@
       "collector_note": null,
       "content_hash": "d88f09321ffc92e67e77becb68315572d48b6459ca116b6008f21fccd81952b3",
       "first_seen_at": "2026-10-06T13:24:51+02:00",
-      "last_seen_at": "2026-10-06T14:30:56+02:00"
+      "last_seen_at": "2026-10-06T15:27:37+02:00"
     },
     {
       "id": "ff590f1b258a9879c652",
@@ -180,7 +180,7 @@
       "collector_note": null,
       "content_hash": "7dd18494bb85542a62f081aa4e2c03e745354825045ef8baee2cdc042b72c3f0",
       "first_seen_at": "2026-10-06T13:24:51+02:00",
-      "last_seen_at": "2026-10-06T14:30:56+02:00"
+      "last_seen_at": "2026-10-06T15:27:37+02:00"
     },
     {
       "id": "15b56dab14e0223af20a",
@@ -200,7 +200,7 @@
       "collector_note": null,
       "content_hash": "226dcb280c0e2038261848775968c9764269aa01c8f8ab3bc06b0c168ecaea3a",
       "first_seen_at": "2026-10-06T13:24:51+02:00",
-      "last_seen_at": "2026-10-06T14:30:56+02:00"
+      "last_seen_at": "2026-10-06T15:27:37+02:00"
     },
     {
       "id": "cb74e3bf7092b5f15652",
@@ -220,7 +220,7 @@
       "collector_note": null,
       "content_hash": "a836729110557dbd22acbeb881bc917c2e1c29714edc84d22798a567ff387b37",
       "first_seen_at": "2026-10-01T05:25:24+02:00",
-      "last_seen_at": "2026-10-06T14:30:45+02:00"
+      "last_seen_at": "2026-10-06T15:27:24+02:00"
     },
     {
       "id": "8a7c406805c41f943d68",
@@ -240,7 +240,7 @@
       "collector_note": null,
       "content_hash": "6aad89eebfafbba4decc6489c8f6f63dbd2f4fbb4d61a0ffefdf6d6450b129cc",
       "first_seen_at": "2026-09-29T05:24:23+02:00",
-      "last_seen_at": "2026-10-06T14:30:43+02:00"
+      "last_seen_at": "2026-10-06T15:27:23+02:00"
     },
     {
       "id": "8f77e9bef4f955a5c9dd",
@@ -260,7 +260,7 @@
       "collector_note": null,
       "content_hash": "a1c8a7eaca7ac7309760fa4cfc3e5e83b2cc2d7a4f505033ff4bd733e6160266",
       "first_seen_at": "2026-09-30T05:25:14+02:00",
-      "last_seen_at": "2026-10-06T14:30:41+02:00"
+      "last_seen_at": "2026-10-06T15:27:21+02:00"
     },
     {
       "id": "299bc3455f13fc48bf13",
@@ -280,7 +280,7 @@
       "status": "ok",
       "content_hash": "811ac302c3193eb1b1ab9371558f9eff4f60aa642f2679335f729c77f8d6d3dd",
       "first_seen_at": "2026-09-14T18:58:54+02:00",
-      "last_seen_at": "2026-10-06T14:30:32+02:00",
+      "last_seen_at": "2026-10-06T15:27:07+02:00",
       "collector_note": null
     },
     {
@@ -301,7 +301,7 @@
       "status": "ok",
       "content_hash": "a9b348baabb63f3a36168e3506b408dea00ffbc0e6fc27353e27dd69cfd8d3bf",
       "first_seen_at": "2026-09-14T18:58:54+02:00",
-      "last_seen_at": "2026-10-06T14:30:30+02:00",
+      "last_seen_at": "2026-10-06T15:27:06+02:00",
       "collector_note": null
     },
     {
@@ -316,13 +316,13 @@
       "title": "AI Act – konsolidierte Fassung 2026-07-27",
       "raw_excerpt": "Aktuelle konsolidierte Fassung der Regulation (EU) 2024/1689 (Artificial Intelligence Act). Stand: 2026-07-27.",
       "published_at": "2026-07-27",
-      "collected_at": "2026-10-06T14:30:30+02:00",
+      "collected_at": "2026-10-06T15:27:05+02:00",
       "verification": "primary",
       "status": "ok",
       "collector_note": null,
       "content_hash": "ed4a9d3330cafe5c922a278159f2a5379789d35caf18fbba77966ea05c9199a3",
-      "first_seen_at": "2026-10-06T14:30:30+02:00",
-      "last_seen_at": "2026-10-06T14:30:30+02:00"
+      "first_seen_at": "2026-10-06T15:27:05+02:00",
+      "last_seen_at": "2026-10-06T15:27:05+02:00"
     },
     {
       "id": "076d3df9976c6ede52e9",
@@ -342,7 +342,7 @@
       "status": "ok",
       "content_hash": "692e8e6b8ea34bd3bfda9b6cf73462a033664c2fe330126e6e22d1ca8b160ecf",
       "first_seen_at": "2026-09-15T10:44:00+02:00",
-      "last_seen_at": "2026-10-06T14:30:29+02:00",
+      "last_seen_at": "2026-10-06T15:27:04+02:00",
       "collector_note": null
     },
     {
@@ -363,7 +363,7 @@
       "status": "ok",
       "content_hash": "ee5b82669e37a94a160e66d77b3507fdc759483f5ac1206d4e0645d4bacb55b6",
       "first_seen_at": "2026-09-15T10:43:59+02:00",
-      "last_seen_at": "2026-10-06T14:30:29+02:00",
+      "last_seen_at": "2026-10-06T15:27:03+02:00",
       "collector_note": null
     },
     {
@@ -384,7 +384,7 @@
       "status": "ok",
       "content_hash": "6266543d23bd3f2acf8affccadd939511f8509fd2736b914501003846c628981",
       "first_seen_at": "2026-09-15T10:43:59+02:00",
-      "last_seen_at": "2026-10-06T14:30:29+02:00",
+      "last_seen_at": "2026-10-06T15:27:03+02:00",
       "collector_note": null
     },
     {
@@ -405,7 +405,7 @@
       "status": "ok",
       "content_hash": "e372d5321d49eabddc6333a57bcd763ea0e80a5d6c42c07b3240018c8be35e5a",
       "first_seen_at": "2026-09-29T12:25:35+02:00",
-      "last_seen_at": "2026-10-06T14:30:28+02:00",
+      "last_seen_at": "2026-10-06T15:27:02+02:00",
       "collector_note": null
     },
     {
@@ -426,7 +426,7 @@
       "status": "ok",
       "content_hash": "0be1fca47d42517ae4231e5c41a920023a7e9b94c302d1e4575bec4cde309214",
       "first_seen_at": "2026-10-01T12:26:04+02:00",
-      "last_seen_at": "2026-10-06T14:30:28+02:00",
+      "last_seen_at": "2026-10-06T15:27:02+02:00",
       "collector_note": null
     },
     {
@@ -447,7 +447,7 @@
       "status": "ok",
       "content_hash": "3862cdd024cb5b8de5911df27a335043acf70ef90d351d1d5b1577e4aaf2a30e",
       "first_seen_at": "2026-10-02T16:26:47+02:00",
-      "last_seen_at": "2026-10-06T14:30:28+02:00",
+      "last_seen_at": "2026-10-06T15:27:02+02:00",
       "collector_note": null
     },
     {
@@ -468,7 +468,7 @@
       "status": "ok",
       "content_hash": "2adce69ab2ad064ab7d0d5e4c37c8459642f465c380fd74168a3f948e4e9027e",
       "first_seen_at": "2026-09-15T10:43:59+02:00",
-      "last_seen_at": "2026-10-06T14:30:28+02:00",
+      "last_seen_at": "2026-10-06T15:27:02+02:00",
       "collector_note": null
     },
     {
@@ -489,7 +489,7 @@
       "status": "ok",
       "content_hash": "6964d2a6e825efe24a090875b524221a191b37acacf014c6a4535031cae41c00",
       "first_seen_at": "2026-09-15T10:43:58+02:00",
-      "last_seen_at": "2026-10-06T14:30:28+02:00",
+      "last_seen_at": "2026-10-06T15:27:02+02:00",
       "collector_note": null
     },
     {
@@ -1162,63 +1162,63 @@
       "name": "European Commission – AI Act / AI Office",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-06T14:30:29+02:00",
+      "last_update": "2026-10-06T15:27:04+02:00",
       "items_found": 8
     },
     {
       "name": "EUR-Lex – Regulation (EU) 2024/1689",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-06T14:30:30+02:00",
+      "last_update": "2026-10-06T15:27:05+02:00",
       "items_found": 1
     },
     {
       "name": "European Data Protection Board",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-06T14:30:30+02:00",
+      "last_update": "2026-10-06T15:27:06+02:00",
       "items_found": 1
     },
     {
       "name": "Datenschutzkonferenz",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-06T14:30:32+02:00",
+      "last_update": "2026-10-06T15:27:07+02:00",
       "items_found": 1
     },
     {
       "name": "PMI – Artificial Intelligence",
       "type": "optional",
       "status": "failed",
-      "last_update": "2026-10-06T14:30:32+02:00",
+      "last_update": "2026-10-06T15:27:07+02:00",
       "note": "403 Client Error: Forbidden for url: https://www.pmi.org/standards/artificial-intelligence"
     },
     {
       "name": "GPM – Aktuelles und Blog",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-06T14:30:45+02:00",
+      "last_update": "2026-10-06T15:27:24+02:00",
       "items_found": 3
     },
     {
       "name": "APM – News and Blog",
       "type": "core",
       "status": "failed",
-      "last_update": "2026-10-06T14:30:55+02:00",
+      "last_update": "2026-10-06T15:27:35+02:00",
       "note": "HTTPSConnectionPool(host='www.apm.org.uk', port=443): Read timed out. (read timeout=10)"
     },
     {
       "name": "BSI – Cyber- und KI-Sicherheit",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-10-06T14:30:56+02:00",
+      "last_update": "2026-10-06T15:27:37+02:00",
       "items_found": 5
     },
     {
       "name": "ENISA – Cyber- und KI-Sicherheit",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-10-06T14:30:56+02:00",
+      "last_update": "2026-10-06T15:27:37+02:00",
       "items_found": 5
     }
   ]
