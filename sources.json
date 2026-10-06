@@ -207,7 +207,7 @@
       ],
       "max_items": 5,
       "timeout_seconds": 10,
-      "enabled": false,
+      "enabled": true,
       "max_news_age_days": 7
     },
     {
@@ -245,7 +245,7 @@
       ],
       "max_items": 5,
       "timeout_seconds": 10,
-      "enabled": false,
+      "enabled": true,
       "max_news_age_days": 7
     }
   ]
