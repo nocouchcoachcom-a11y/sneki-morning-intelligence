@@ -770,6 +770,33 @@ def _safe_usage(usage):
         "estimated_cost_usd": float(usage.get("estimated_cost_usd", 0)),
     }
 
+def filter_source_freshness(items, source_config, reference_at):
+    """Konfiguriertes Nachrichtenalter prüfen, bevor eine KI bewertet.
+
+    Ältere Rohdaten bleiben erhalten. Unbekannte und zukünftige
+    Veröffentlichungsdaten zählen nicht als aktuelle Nachrichten.
+    Quellen ohne Altersregel behalten ihre bisherige Behandlung.
+    """
+    policies = {
+        source["id"]: source["max_news_age_days"]
+        for source in source_config
+        if "max_news_age_days" in source
+    }
+    reference = parse_sort_timestamp(reference_at)
+    if policies and reference is None:
+        raise ValueError("Aktualitätsprüfung benötigt einen gültigen Bezugszeitpunkt.")
+    result = []
+    for item in items:
+        max_days = policies.get(item.get("source_id"))
+        if max_days is None:
+            result.append(item)
+            continue
+        published = parse_sort_timestamp(item.get("published_at"))
+        if published is not None and 0 <= reference - published <= max_days * 86400:
+            result.append(item)
+    return result
+
+
 def select_candidates_for_mode(
     items,
     source_status,
@@ -781,6 +808,7 @@ def select_candidates_for_mode(
     cache_path=None,
     limit=5,
 ):
+    items = filter_source_freshness(items, source_config, reference_at)
     requested_mode = mode or get_ranking_mode()
     if requested_mode not in RANKING_MODES:
         requested_mode = "baseline"
@@ -1022,7 +1050,7 @@ def build_edition(name, raw, *, preview=False):
         raw.get("items", []),
         source_status,
         read_source_config(),
-        raw.get("collected_at") or now.isoformat(),
+        now.isoformat(),
         limit=5,
     )
     ensure_publishable(candidates, source_status)

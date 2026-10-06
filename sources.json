@@ -161,6 +161,92 @@
       "max_items": 5,
       "timeout_seconds": 10,
       "enabled": true
+    },
+    {
+      "id": "bsi-security",
+      "name": "BSI – Cyber- und KI-Sicherheit",
+      "role": "primary",
+      "priority": "OPTIONAL",
+      "status_type": "optional",
+      "category": [
+        "IT Security"
+      ],
+      "kind": "rss",
+      "adapter": "rss",
+      "url": "https://www.bsi.bund.de/SiteGlobals/Functions/RSSFeed/RSSNewsfeed/RSSNewsfeed_Presse_Veranstaltungen.xml",
+      "allowed_domains": [
+        "www.bsi.bund.de",
+        "bsi.bund.de"
+      ],
+      "keywords": [
+        "KI",
+        "Künstliche Intelligenz",
+        "AI",
+        "Cyberresilienz",
+        "Cybersicherheit",
+        "Cyber-Sicherheit",
+        "Cyberangriff",
+        "Cyberangriffe",
+        "Ransomware",
+        "NIS-2",
+        "NIS2",
+        "IT-Grundschutz",
+        "Cloud",
+        "Sicherheitslücke",
+        "Sicherheitslücken",
+        "Cyber Resilience Act",
+        "CRA",
+        "security.txt"
+      ],
+      "exclude_keywords": [
+        "Veranstaltung",
+        "Veranstaltungen",
+        "Webinar",
+        "Personalie",
+        "Personalien"
+      ],
+      "max_items": 5,
+      "timeout_seconds": 10,
+      "enabled": false,
+      "max_news_age_days": 7
+    },
+    {
+      "id": "enisa-security",
+      "name": "ENISA – Cyber- und KI-Sicherheit",
+      "role": "primary",
+      "priority": "OPTIONAL",
+      "status_type": "optional",
+      "category": [
+        "IT Security"
+      ],
+      "kind": "web",
+      "adapter": "enisa_news",
+      "url": "https://www.enisa.europa.eu/news",
+      "allowed_domains": [
+        "www.enisa.europa.eu"
+      ],
+      "keywords": [
+        "Artificial Intelligence",
+        "AI",
+        "Cybersecurity",
+        "Cyber Threat",
+        "Cyber Threats",
+        "Cyber Resilience Act",
+        "CRA",
+        "NIS2",
+        "NIS360",
+        "Managed Security",
+        "digital risks"
+      ],
+      "exclude_keywords": [
+        "Webinar",
+        "competition",
+        "wins"
+      ],
+      "max_items": 5,
+      "timeout_seconds": 10,
+      "enabled": false,
+      "max_news_age_days": 7
     }
   ]
 }

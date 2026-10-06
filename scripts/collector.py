@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 import hashlib
 import json
@@ -10,6 +10,7 @@ from urllib.parse import urljoin, urlparse
 import xml.etree.ElementTree as ET
 
 import requests
+import feedparser
 from bs4 import BeautifulSoup
 
 
@@ -1008,11 +1009,162 @@ def load_existing() -> list[dict]:
         return []
 
 
+def fetch_enisa_news(source: dict) -> list[dict]:
+    """Liest die Nachrichtenkarten der offiziellen ENISA-Liste mit einem Abruf."""
+    response = requests.get(
+        source["url"], headers=HEADERS,
+        timeout=source.get("timeout_seconds", 10)
+    )
+    response.raise_for_status()
+    soup = BeautifulSoup(response.text, "html.parser")
+    cards = soup.select(".view-content .publications-item")
+    if not cards:
+        raise RuntimeError("ENISA-Nachrichtenstruktur nicht erkannt.")
+    allowed = {d.lower() for d in source.get("allowed_domains", [])}
+    if not allowed:
+        raise ValueError("ENISA-Quelle benötigt allowed_domains.")
+    items = []
+    seen = set()
+    for card in cards:
+        link = card.select_one(".publication-content h3 a[href]")
+        if not link:
+            continue
+        title = clean_text(link.get_text(" ", strip=True))
+        href = clean_text(link.get("href"))
+        url = urljoin(source["url"], href)
+        parsed = urlparse(url)
+        if (
+            not title or not href or url in seen
+            or parsed.scheme != "https"
+            or (parsed.hostname or "").lower() not in allowed
+            or not parsed.path.startswith("/news/")
+            or parsed.username is not None or parsed.password is not None
+        ):
+            continue
+        content = card.select_one(".publication-content .content")
+        excerpt = clean_text(content.get_text(" ", strip=True) if content else "")
+        if source.get("keywords") and not _matches_keywords(
+            title, excerpt, source["keywords"]
+        ):
+            continue
+        if _matches_keywords(title, excerpt, source.get("exclude_keywords", [])):
+            continue
+        published_at = None
+        time_tag = card.select_one(".metadata time[datetime]")
+        if time_tag:
+            try:
+                value = datetime.fromisoformat(time_tag["datetime"].replace("Z", "+00:00"))
+                # Ohne Zeitzone nur das belegte Datum übernehmen.
+                published_at = (
+                    value.astimezone(TZ).isoformat(timespec="seconds")
+                    if value.tzinfo else value.date().isoformat()
+                )
+            except (ValueError, TypeError, OverflowError):
+                pass
+        degraded = not (published_at and excerpt)
+        items.append({
+            "id": stable_id(source["id"], url, title),
+            "source_id": source["id"], "source": source["name"],
+            "source_type": source["role"], "source_url": url,
+            "category": source.get("category", []), "title": title,
+            "raw_excerpt": excerpt[:800], "published_at": published_at,
+            "collected_at": now_iso(), "verification": source["role"],
+            "status": "degraded" if degraded else "ok",
+            "collector_note": "Datum oder Kurztext fehlt." if degraded else None,
+            "content_hash": content_hash(title, excerpt),
+        })
+        seen.add(url)
+    items.sort(key=lambda item: item["published_at"] or "", reverse=True)
+    return items[:source.get("max_items", 5)]
+
+
+def fetch_rss(source: dict) -> list[dict]:
+    """Liest Feed-Einträge ohne weitere Artikel- oder KI-Aufrufe."""
+    response = requests.get(
+        source["url"], headers=HEADERS,
+        timeout=source.get("timeout_seconds", 10)
+    )
+    response.raise_for_status()
+    feed = feedparser.parse(response.content)
+    if feed.bozo or not feed.version:
+        raise RuntimeError("RSS-Feed ist ungültig oder konnte nicht gelesen werden.")
+
+    allowed_domains = {
+        domain.lower() for domain in source.get("allowed_domains", [])
+    }
+    if not allowed_domains:
+        raise ValueError("RSS-Quelle benötigt allowed_domains.")
+
+    items = []
+    seen_urls = set()
+    for entry in feed.entries:
+        title = clean_text(BeautifulSoup(
+            entry.get("title", ""), "html.parser"
+        ).get_text(" ", strip=True))
+        url = urljoin(source["url"], entry.get("link", ""))
+        parsed_url = urlparse(url)
+        if (
+            not title or not entry.get("link")
+            or parsed_url.scheme != "https"
+            or (parsed_url.hostname or "").lower() not in allowed_domains
+            or parsed_url.username is not None
+            or parsed_url.password is not None
+            or url in seen_urls
+        ):
+            continue
+        excerpt = clean_text(BeautifulSoup(
+            entry.get("summary", ""), "html.parser"
+        ).get_text(" ", strip=True))
+        keywords = source.get("keywords", [])
+        if keywords and not _matches_keywords(title, excerpt, keywords):
+            continue
+        if _matches_keywords(title, excerpt, source.get("exclude_keywords", [])):
+            continue
+
+        # Veröffentlichungsdatum verwenden, nicht Abruf- oder Änderungsdatum.
+        published = entry.get("published_parsed")
+        published_at = None
+        if published:
+            try:
+                published_at = datetime(
+                    *published[:6], tzinfo=timezone.utc
+                ).astimezone(TZ).isoformat(timespec="seconds")
+            except (TypeError, ValueError, OverflowError):
+                pass
+        degraded = not (published_at and excerpt)
+        items.append({
+            "id": stable_id(source["id"], url, title),
+            "source_id": source["id"],
+            "source": source["name"],
+            "source_type": source["role"],
+            "source_url": url,
+            "category": source.get("category", []),
+            "title": title,
+            "raw_excerpt": excerpt[:800],
+            "published_at": published_at,
+            "collected_at": now_iso(),
+            "verification": source["role"],
+            "status": "degraded" if degraded else "ok",
+            "collector_note": "Datum oder Kurztext fehlt." if degraded else None,
+            "content_hash": content_hash(title, excerpt),
+        })
+        seen_urls.add(url)
+        if len(items) >= source.get("max_items", 5):
+            break
+    return items
+
+
 def collect_source(
     source: dict
 ) -> list[dict]:
 
     adapter = source.get("adapter")
+
+    if adapter == "enisa_news":
+        return fetch_enisa_news(source)
+
+    if adapter == "rss":
+        return fetch_rss(source)
 
     if adapter == "eu_ai_news":
 
