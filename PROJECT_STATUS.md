@@ -1,7 +1,7 @@
 # sneKI Morning Intelligence – Status
 
-Stand: 06.10.2026
-Produktiv: Ja
+Stand: 06.10.2026  
+Produktiv: Ja  
 Technische Wahrheit: GitHub `main`
 
 ## Aktueller Stand
@@ -15,9 +15,9 @@ Technische Wahrheit: GitHub `main`
 ## Letzte bestätigte Qualität
 - Testsuite: PASS
 - Validator: PASS
-- V2-Test: 17 Items
-- API-Aufrufe: 1
-- Kosten: $0.003907
+- Letzter bestätigter V2-Test: 17 Items
+- API-Aufrufe im dokumentierten V2-Test: 1
+- Kosten des dokumentierten V2-Tests: $0.003907
 - SNE Q-LOOP: PASS
 
 ## Offene Punkte
@@ -37,13 +37,17 @@ Technische Wahrheit: GitHub `main`
 - manuelle Preview-Läufe dürfen LIVE-Daten nicht überschreiben
 
 ## Nächster Schritt
-Reddit Social Radar spezifizieren und entscheiden, wie Signale getrennt von bestätigten Fakten dargestellt werden.
+Reddit Social Radar spezifizieren.
+
+Danach:
+- Reddit zuerst integrieren
+- X anschließend prüfen und integrieren
 
 ## Wichtige Orte
-Repository:
+Repository:  
 https://github.com/nocouchcoachcom-a11y/sneki-morning-intelligence
 
-Live JSON:
+Live JSON:  
 https://nocouchcoachcom-a11y.github.io/sneki-morning-intelligence/data/morning-intelligence.json
 
 ## Pflege-Regel
@@ -53,4 +57,3 @@ Diese Datei wird nur nach wichtigen Meilensteinen aktualisiert:
 - neue produktive Quelle
 - relevante Qualitätsänderung
 - neuer nächster Hauptschritt
-- 
