@@ -52,6 +52,13 @@ class EditorialDepthTests(unittest.TestCase):
         spec=importlib.util.spec_from_file_location('builder_topic',Path(__file__).resolve().parents[1]/'scripts/build_briefing.py')
         b=importlib.util.module_from_spec(spec);spec.loader.exec_module(b)
         self.assertEqual(('KI & Technologie',True),b.editorial_topic({'title':'Atlassian and OpenAI expand partnership to turn enterprise knowledge into action','raw_excerpt':''}))
+    def test_ai_project_tool_requires_project_work_context(self):
+        spec=importlib.util.spec_from_file_location('builder_pm_tool',Path(__file__).resolve().parents[1]/'scripts/build_briefing.py')
+        b=importlib.util.module_from_spec(spec);spec.loader.exec_module(b)
+        item={'title':'Atlassian and OpenAI expand partnership','raw_excerpt':'Connect enterprise knowledge and help teams plan, build, and deliver work.'}
+        self.assertEqual(('AI & PM',True),b.editorial_topic(item))
+        self.assertEqual(('KI & Technologie',True),b.editorial_topic({'title':'OpenAI and Atlassian corporate branding','raw_excerpt':'New logo announced.'}))
+        self.assertEqual(('KI & Technologie',True),b.editorial_topic({'title':'OpenAI agent for research','raw_excerpt':'Teams plan a research study.'}))
     def test_same_publisher_canonical_redirect_is_followed(self):
         html='<main><h1>Topic</h1><p>'+('Article text. '*100)+'</p></main>'
         responses=[Mock(status_code=301,headers={'Location':'/article/'}),Mock(status_code=200,headers={'Content-Type':'text/html'},content=html.encode())]

@@ -995,7 +995,11 @@ def editorial_topic(item):
     if ai:
         if re.search(r"\b(?:governance|governancepflichten)\b", text, re.I):
             return "AI Governance", True
-        if re.search(r"\b(?:project management|Projektmanagement|PMO)\b", text, re.I):
+        pm_tool_context = (
+            re.search(r"\b(?:Atlassian|Jira|Confluence|Rovo)\b", text, re.I)
+            and re.search(r"\b(?:projects?|Projekt\w*|milestones?|teams plan|plan, build, and deliver)\b", text, re.I)
+        )
+        if re.search(r"\b(?:project management|Projektmanagement|PMO)\b", text, re.I) or pm_tool_context:
             return "AI & PM", True
         return "KI & Technologie", True
     if re.search(r"\b(?:project management|Projektmanagement|PMO)\b", text, re.I):
