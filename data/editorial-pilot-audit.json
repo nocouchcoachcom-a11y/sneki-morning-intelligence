@@ -1,0 +1,9 @@
+{
+  "run_id": 37585572460,
+  "api_calls": 1,
+  "budget_usd": 0.03,
+  "actual_usage": null,
+  "model_output_validation": "failed_assessment_status",
+  "further_api_calls": 0,
+  "published_preparation": "human_reviewed_source_based"
+}
