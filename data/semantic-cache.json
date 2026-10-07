@@ -998,6 +998,23 @@
       "summary": "Allgemeiner Hinweis auf digitale Risiken am Arbeitsplatz und die Bedeutung von Fähigkeiten der Beschäftigten.",
       "why_relevant": "Die Meldung verweist allgemein auf digitale Risiken und Beschäftigtenfähigkeiten, enthält jedoch keine konkrete Entscheidung, Pflicht oder technische Entwicklung.",
       "watch_next": "Beobachten, ob konkrete Empfehlungen, Schulungsinhalte oder Leitlinien zur Bewältigung digitaler Risiken veröffentlicht werden."
+    },
+    "acf90fc92067c8947833e354ad8a78e4d0345e2fe2d17c3adeba40acfe844564": {
+      "semantic_input_hash": "acf90fc92067c8947833e354ad8a78e4d0345e2fe2d17c3adeba40acfe844564",
+      "item_id": "db0e4c6dfcc7e824142c",
+      "model_id": "gpt-5.6-luna",
+      "reasoning_effort": "low",
+      "prompt_version": "v2",
+      "schema_version": "v2",
+      "assessed_at": "2026-10-07T05:26:30.442485+00:00",
+      "assessment_status": "insufficient_input",
+      "management_relevance": 0,
+      "actionability": 0,
+      "significance": 0,
+      "reason": "Der Titel und Auszug beschreiben ein Profilinterview im Rahmen der World Space Week 2026, nennen jedoch keine konkrete Regel, Entwicklung, Entscheidung oder Auswirkung.",
+      "summary": "Profilinterview über Personen aus den Bereichen Antrieb und Startsysteme im Kontext der World Space Week 2026.",
+      "why_relevant": "Für Management- und Projektverantwortliche wird keine konkrete Entscheidung, Verpflichtung, Investition oder relevante Entwicklung beschrieben.",
+      "watch_next": "Eine konkrete technologische, regulatorische oder wirtschaftliche Entwicklung im Raumfahrt- oder Projektmanagementkontext wäre gesondert zu prüfen."
     }
   }
 }
