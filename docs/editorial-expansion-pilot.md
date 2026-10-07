@@ -1,6 +1,8 @@
 # Mehr Themen und mehr Tiefe: redaktioneller Pilot
 
-Stand: 7. Oktober 2026. Noch nicht aktiviert.
+Stand: 7. Oktober 2026. Ein zusätzlicher API-Aufruf wurde mit höchstens 0,03 US-Dollar Modellkosten freigegeben und durchgeführt. Die Ausgabe scheiterte danach an der Statusvalidierung; kein weiterer API-Aufruf erfolgte. Der genaue Verbrauch wurde beim fehlgeschlagenen Lauf nicht gespeichert.
+
+Die drei Beiträge wurden anschließend im Chat anhand der geprüften Originalquellen redaktionell ausgearbeitet und auf der privaten Website als Testausgabe bereitgestellt. Die regelmäßige Pipeline ist nicht um neue KI-Aufrufe erweitert. Die automatische redaktionelle Aufbereitung ist damit weiterhin nicht abgenommen.
 
 Die bisherigen fünf Zusammenfassungen haben nur 8 bis 20 Wörter. Der Sitemap-Collector bevorzugt Metabeschreibungen; der semantischen Bewertung fehlen damit Details aus den Artikeln. Neue Rangfolgen allein können dieses Problem nicht beheben.
 
@@ -10,7 +12,7 @@ Ein zusätzlicher KI-Aufruf für drei öffentlich zugängliche Originalartikel, 
 
 Artikel: OpenAI/Atlassian-Partnerschaft vom 6. Oktober, Anthropic Frontier Academy vom 2. Oktober, GPM zu KI im Konfliktmanagement vom 30. September. Herstellertexte sind Herstellerangaben, keine unabhängigen Leistungsnachweise. Veröffentlichungsdaten bleiben sichtbar; der ältere GPM-Beitrag wird nicht als neue Nachricht ausgegeben.
 
-Der Request verwendet das bestehende Modell gpt-5.6-luna mit reasoning=low, maximal 6.000 Ausgabetokens, maximal 60.000 UTF-8-Bytes im vorbereiteten Request und ohne kostenpflichtige Recherchetools. Kein automatischer Wiederholungsaufruf. Vor Durchführung des zusätzlichen kostenpflichtigen Aufrufs ist die vereinbarte Nutzerfreigabe erforderlich. Der einmalige Pilot aktiviert keine zusätzlichen wiederkehrenden API-Aufrufe.
+Der Request verwendet das bestehende Modell gpt-5.6-luna mit reasoning=low, maximal 6.000 Ausgabetokens, maximal 60.000 UTF-8-Bytes im vorbereiteten Request und ohne kostenpflichtige Recherchetools. Kein automatischer Wiederholungsaufruf. Der einmalig freigegebene Aufruf ist verbraucht; jede weitere Durchführung erfordert eine neue Freigabe. Der einmalige Pilot aktiviert keine zusätzlichen wiederkehrenden API-Aufrufe.
 
 ## Themenbreite nach erfolgreichem Pilot
 
