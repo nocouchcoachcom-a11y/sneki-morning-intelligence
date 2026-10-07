@@ -1,0 +1,31 @@
+name: Approved one-time editorial pilot
+on:
+  push:
+    branches: [pilot/editorial-2026-10-07]
+    paths: [.github/workflows/editorial-pilot.yml, scripts/run_editorial_pilot.py]
+permissions:
+  contents: write
+concurrency:
+  group: approved-editorial-pilot-2026-10-07
+  cancel-in-progress: false
+jobs:
+  pilot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Exactly one approved model request
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python scripts/run_editorial_pilot.py
+      - name: Preserve result on pilot branch only
+        run: |
+          git config user.name 'sneKI Editorial Pilot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add data/editorial-pilot-result.json
+          git commit -m 'Save approved one-time editorial pilot result'
+          git push origin HEAD:pilot/editorial-2026-10-07
