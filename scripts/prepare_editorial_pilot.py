@@ -25,13 +25,15 @@ def prepare(output):
         heading = soup.find("h1")
         if heading is None:
             raise ValueError("Article heading missing")
-        container = heading.find_parent("article") or soup.find("main")
+        container = heading.find_parent("article") or soup.find("main") or soup.select_one(".news-detail") or soup.body
         if container is None:
             raise ValueError("Article container missing")
         for irrelevant in container.select("nav, aside, footer, form, script, style"):
             irrelevant.decompose()
         paragraphs = []
-        for element in container.find_all(["h2", "h3", "p"]):
+        for element in heading.find_all_next(["h2", "h3", "p"]):
+            if container not in element.parents:
+                break
             text = " ".join(element.get_text(" ", strip=True).split())
             if text.lower() in {"keep reading", "related content", "kommentare", "autoren"}:
                 break
