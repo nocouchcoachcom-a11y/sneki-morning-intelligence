@@ -44,6 +44,7 @@ jobs:
       - name: Edition prüfen und erzeugen
         env:
           SNEKI_RANKING_MODE: hybrid
+          SNEKI_EDITORIAL_ENABLED: "0"
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
           python scripts/build_briefing.py

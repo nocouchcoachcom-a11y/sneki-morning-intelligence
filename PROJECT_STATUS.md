@@ -1,59 +1,41 @@
-# sneKI Morning Intelligence – Status
+# sneKI Morning Intelligence – Projektstatus
 
-Stand: 06.10.2026  
-Produktiv: Ja  
-Technische Wahrheit: GitHub `main`
+Stand: 07.10.2026. Reifegrad: privater Prototyp/Pilot, noch nicht vollständig produktiv abgenommen.
 
-## Aktueller Stand
-- Website LIVE
-- GitHub Actions aktiv
-- GPM + APM integriert
-- Hybrid C v2 aktiv
-- Content Quality V2 in `main`
-- Social Radar noch nicht produktiv
+## Ziel
 
-## Letzte bestätigte Qualität
-- Testsuite: PASS
-- Validator: PASS
-- Letzter bestätigter V2-Test: 17 Items
-- API-Aufrufe im dokumentierten V2-Test: 1
-- Kosten des dokumentierten V2-Tests: $0.003907
-- SNE Q-LOOP: PASS
+Ein nützlicher täglicher Überblick über KI und Projektmanagement als Praxisprojekt für „Manager für KI-Transformation & Tool-Integration (IHK)“. Der angestrebte Überblick in 3–5 Minuten und die geschätzte manuelle Ausgangszeit von 25–30 Minuten sind noch kein gemessener Nutzenbeleg.
 
-## Offene Punkte
-- Reddit Social Radar
-- X Social Radar
-- weitere Quellen-/Content-Qualität
-- Präsentation / IHK-Unterlagen finalisieren
-- Monitoring und Wartung weiter vereinfachen
+## Bestätigte Ergebnisse
 
-## Aktuelle Entscheidungen
-- deterministisch vor KI
-- KI nur für semantische Bewertung, wo sie Mehrwert bringt
-- Soft Diversity statt harter Quoten
-- Social Media = Signal, keine bestätigte Faktenquelle
-- keine unnötigen API-Aufrufe
-- Änderungen erst testen, dann mergen
-- manuelle Preview-Läufe dürfen LIVE-Daten nicht überschreiben
+- Bestehende GitHub-Pipeline sammelt Quellen und erstellt zeitgesteuerte Ausgaben.
+- Private Sites-Website liest den GitHub-Feed; eine erfolgreiche Bereitstellung ist bestätigt.
+- BSI und ENISA sind neben regulatorischen Quellen und GPM/APM integriert.
+- Veröffentlichungsalter und Abrufstatus werden getrennt dargestellt.
+- Deutsche Cache-Texte, relevante KI-/PM-Hintergründe und Auswahlgrenzen werden verwendet.
+- Drei manuell redaktionell geprüfte ausführliche Testbeiträge sind sichtbar. Sie sind nicht Teil der automatischen täglichen Aufbereitung.
+- Ein genehmigter Zusatzaufruf scheiterte nach der Modellantwort an der Statusvalidierung. Er wurde nicht wiederholt; sein genauer Verbrauch ist nicht gespeichert.
 
-## Nächster Schritt
-Reddit Social Radar spezifizieren.
+## Vorbereitet, noch nicht aktiviert
 
-Danach:
-- Reddit zuerst integrieren
-- X anschließend prüfen und integrieren
+- Artikelbasierte ausführliche Einordnung mit Praxisbeispiel, Prüfschritt und Grenzen.
+- Strukturierter Modellvertrag, validierter Cache, Fehlerpfad ohne Wiederholungsaufruf und Erhalt der Kurzfassung.
+- Teilbudgets: höchstens 0,02 US-Dollar für Ranking und 0,03 US-Dollar für ausführliche Aufbereitung je automatischer Ausgabe. Voraktivierung erforderlich; keine zusätzliche Kostenfreigabe aus dieser Datei ableiten.
+- OpenAI News und Google AI als gekennzeichnete Herstellerquellen. Die Quellen sind ausgeschaltet.
+- Website kann ausführliche automatische Beiträge anzeigen; statische Testausgabe ist nur ein gekennzeichneter Übergang.
 
-## Wichtige Orte
-Repository:  
-https://github.com/nocouchcoachcom-a11y/sneki-morning-intelligence
+## Noch zu belegen
 
-Live JSON:  
-https://nocouchcoachcom-a11y.github.io/sneki-morning-intelligence/data/morning-intelligence.json
+- Erfolgreicher echter Lauf der ausführlichen automatischen Aufbereitung und nachfolgende Wiederverwendung des Caches.
+- Mehrere Ausgabeprüfungen auf relevante Themen, sachliche Fehler, Kosten und Quellenabdeckung.
+- Anwenderdurchlauf und tatsächlicher Zeitaufwand einschließlich Nachprüfung.
+- Finale konsistente IHK-Abgabe: OnePager und 8–10 Folien als eine PDF, einschließlich ROI, Reifegrad, Governance, Change und Reflexion.
+- Aktueller persönlicher Termin- und Uploadstatus. Die Prüfungsakte nennt 09.10. als nächsten bekannten Termin und 18.10. als rechnerisches Fristende; keine aktuelle Buchung bestätigt.
 
-## Pflege-Regel
-Diese Datei wird nur nach wichtigen Meilensteinen aktualisiert:
-- Merge in `main`
-- Architekturentscheidung
-- neue produktive Quelle
-- relevante Qualitätsänderung
-- neuer nächster Hauptschritt
+## Nächster Hauptschritt
+
+Die vorbereitete automatische Inhaltstiefe nach expliziter Kostenfreigabe begrenzt testen und erst nach Fakten-/Nutzwertprüfung abnehmen. Danach die IHK-Unterlagen mit dem belegten Pilotstand fertigstellen. Reddit, X und weitere Layoutoptimierung sind nachrangig.
+
+## Grenzen
+
+Tests prüfen Datenverträge und Verhalten, nicht sämtliche externen Fakten. Ein SNE-Q-LOOP-PASS wäre keine allgemeine fachliche, rechtliche oder IHK-Zulassung. Die neueste Website ist noch nicht vollständig visuell und als Anwender geprüft.

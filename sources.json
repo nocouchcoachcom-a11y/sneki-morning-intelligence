@@ -250,6 +250,48 @@
       "timeout_seconds": 10,
       "enabled": true,
       "max_news_age_days": 7
+    },
+    {
+      "id": "openai-news",
+      "name": "OpenAI – News",
+      "role": "vendor",
+      "priority": "OPTIONAL",
+      "status_type": "optional",
+      "category": [
+        "KI & Technologie"
+      ],
+      "kind": "rss",
+      "adapter": "rss",
+      "url": "https://openai.com/news/rss.xml",
+      "allowed_domains": [
+        "openai.com"
+      ],
+      "keywords": [],
+      "max_items": 5,
+      "timeout_seconds": 10,
+      "max_news_age_days": 7,
+      "enabled": false
+    },
+    {
+      "id": "google-ai-news",
+      "name": "Google – AI Blog",
+      "role": "vendor",
+      "priority": "OPTIONAL",
+      "status_type": "optional",
+      "category": [
+        "KI & Technologie"
+      ],
+      "kind": "rss",
+      "adapter": "rss",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
+      "allowed_domains": [
+        "blog.google"
+      ],
+      "keywords": [],
+      "max_items": 5,
+      "timeout_seconds": 10,
+      "max_news_age_days": 7,
+      "enabled": false
     }
   ]
 }
