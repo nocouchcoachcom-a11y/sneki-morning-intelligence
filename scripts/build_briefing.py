@@ -955,6 +955,30 @@ def select_candidates_for_mode(
             "api_call_performed": api_call_performed,
         }
 
+def select_edition_candidates(items, source_status, source_config, reference_at, *, mode=None, hybrid_provider=None, cache_path=None, limit=5):
+    """Aktuelle Nachrichten getrennt von Hintergrund auswählen; keine KI für Altinhalte."""
+    reference = parse_sort_timestamp(reference_at)
+    if reference is None:
+        raise ValueError("Aktualitätsprüfung benötigt einen gültigen Bezugszeitpunkt.")
+    current, background = [], []
+    for item in items:
+        published = parse_sort_timestamp(item.get("published_at"))
+        # Unbekannte oder zukünftige Daten sind keine belastbare Nachricht.
+        # Die Originale bleiben in raw-items.json erhalten.
+        if published is None or published > reference:
+            continue
+        (current if reference - published <= 7 * 86400 else background).append(item)
+    news, ranking = select_candidates_for_mode(
+        current, source_status, source_config, reference_at, mode=mode,
+        hybrid_provider=hybrid_provider, cache_path=cache_path, limit=limit,
+    )
+    background_ranked = rank_candidates_baseline_v2(
+        background, source_status, source_config, reference_at, limit
+    )
+    selected_background = [result["item"] for result in background_ranked]
+    return news, selected_background, ranking
+
+
 def ensure_publishable(candidates, source_status):
     if not candidates:
         raise RuntimeError(
@@ -1019,8 +1043,8 @@ def _deterministic_editorial_fallback(item):
     }
 
 
-def make_story(item, rank):
-    excerpt = item.get("raw_excerpt") or "Neue bzw. geänderte Information an der Quelle erkannt."
+def make_story(item, rank, *, content_kind="current"):
+    excerpt = item.get("raw_excerpt") or "Zusammenfassung nicht verfügbar; Titel und Quelldaten bleiben sichtbar."
     editorial = item.get("_hybrid_content") or _deterministic_editorial_fallback(item)
     return {
         "id": item["id"],
@@ -1037,7 +1061,8 @@ def make_story(item, rank):
         "collected_at": item.get("collected_at"),
         "verification": item.get("verification"),
         "status": item.get("status", "ok"),
-        "is_top5": True,
+        "is_top5": content_kind == "current",
+        "content_kind": content_kind,
         "social_verified": False
     }
 
@@ -1046,14 +1071,14 @@ def build_edition(name, raw, *, preview=False):
     source_status = raw.get("source_status", [])
     eligible = _eligible_items(raw.get("items", []), source_status)
     ensure_publishable(eligible, source_status)
-    candidates, ranking = select_candidates_for_mode(
+    candidates, background, ranking = select_edition_candidates(
         raw.get("items", []),
         source_status,
         read_source_config(),
         now.isoformat(),
         limit=5,
     )
-    ensure_publishable(candidates, source_status)
+    ensure_publishable(candidates + background, source_status)
     briefing_mode = (
         "Hybrid-C-Semantik mit deterministischem Ranking."
         if ranking["effective_mode"] == "hybrid"
@@ -1066,9 +1091,15 @@ def build_edition(name, raw, *, preview=False):
         "edition": name,
         "briefing": [
             briefing_mode,
-            "Primärquellen werden bevorzugt; Social Radar ist deaktiviert."
+            "Primärquellen werden bevorzugt; Social Radar ist deaktiviert.",
+            ("Aktuelle Meldungen: Veröffentlichungen der letzten 7 Tage. Ältere Inhalte sind separat als Hintergrund eingeordnet."
+             if candidates else "Keine aktuellen Meldungen in der verfügbaren Auswahl der letzten 7 Tage. Es werden ausschließlich ältere Hintergrundinformationen angezeigt.")
         ],
-        "items": [make_story(x, i+1) for i, x in enumerate(candidates)],
+        "items": ([make_story(x, i+1) for i, x in enumerate(candidates)]
+                  + [make_story(x, len(candidates)+i+1, content_kind="background")
+                     for i, x in enumerate(background)]),
+        "freshness": {"news_window_days": 7, "current_count": len(candidates),
+                      "background_count": len(background)},
         "signals": {
             "history_state": "building",
             "days_available": 1,
@@ -1084,7 +1115,7 @@ def build_edition(name, raw, *, preview=False):
         # Ein manueller Testlauf schreibt ausschließlich eine separate Preview.
         # Die bestehende Live-Datei und das Produktionsarchiv bleiben unangetastet.
         (DATA / "manual-preview.json").write_text(serialized, encoding="utf-8")
-        print(f"{name}-Edition gebaut: {len(candidates)} Items")
+        print(f"{name}-Edition gebaut: {len(candidates)} aktuelle Meldungen, {len(background)} Hintergrundinformationen")
         return
 
     # Aktuelle Edition für Sites
@@ -1098,7 +1129,7 @@ def build_edition(name, raw, *, preview=False):
     (daydir / f"{name}.json").write_text(
         serialized, encoding="utf-8"
     )
-    print(f"{name}-Edition gebaut: {len(candidates)} Items")
+    print(f"{name}-Edition gebaut: {len(candidates)} aktuelle Meldungen, {len(background)} Hintergrundinformationen")
 
 def main():
     now = now_local()
