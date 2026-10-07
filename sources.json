@@ -71,7 +71,19 @@
         "AI & PM"
       ],
       "kind": "web",
-      "url": "https://www.pmi.org/standards/artificial-intelligence",
+      "adapter": "pmi_blog",
+      "url": "https://www.pmi.org/blog?userTagIDSort=11122",
+      "allowed_domains": [
+        "www.pmi.org"
+      ],
+      "keywords": [
+        "AI",
+        "Artificial Intelligence",
+        "Generative AI",
+        "Machine Learning"
+      ],
+      "max_items": 5,
+      "timeout_seconds": 15,
       "enabled": true
     },
     {

@@ -1107,6 +1107,97 @@ def fetch_enisa_news(source: dict) -> list[dict]:
     return items[:source.get("max_items", 5)]
 
 
+def fetch_pmi_blog(source: dict) -> list[dict]:
+    """Liest aktuelle PMI-Blogkarten und filtert sie auf KI-/PM-Themen."""
+    response = requests.get(
+        source["url"], headers=HEADERS,
+        timeout=source.get("timeout_seconds", 10)
+    )
+    response.raise_for_status()
+    soup = BeautifulSoup(response.text, "html.parser")
+    allowed = {d.lower() for d in source.get("allowed_domains", [])}
+    if not allowed:
+        raise ValueError("PMI-Quelle benötigt allowed_domains.")
+
+    items = []
+    seen_urls = set()
+    for heading in soup.find_all(["h2", "h3", "h4"]):
+        title = clean_text(heading.get_text(" ", strip=True))
+        if not title:
+            continue
+
+        card = None
+        link = None
+        candidate = heading.parent
+        for _ in range(4):
+            if candidate is None:
+                break
+            link = candidate.find(
+                "a", href=re.compile(r"^https://www\.pmi\.org/blog/|^/blog/")
+            )
+            if link:
+                card = candidate
+                break
+            candidate = candidate.parent
+        if not card or not link:
+            continue
+
+        url = urljoin(source["url"], clean_text(link.get("href")))
+        parsed = urlparse(url)
+        if (
+            url in seen_urls
+            or parsed.scheme != "https"
+            or (parsed.hostname or "").lower() not in allowed
+            or not parsed.path.startswith("/blog/")
+            or parsed.username is not None or parsed.password is not None
+        ):
+            continue
+
+        paragraphs = [
+            clean_text(p.get_text(" ", strip=True))
+            for p in card.find_all("p")
+        ]
+        excerpt = next((p for p in paragraphs if len(p) >= 40), "")
+        card_text = clean_text(card.get_text(" ", strip=True))
+        date_match = re.search(
+            r"\b(\d{1,2}\s+[A-Za-z]+\s+\d{4})\b", card_text
+        )
+        published_at = normalize_date_string(
+            date_match.group(1) if date_match else None
+        )
+
+        if source.get("keywords") and not _matches_keywords(
+            title, excerpt, source["keywords"]
+        ):
+            continue
+        if _matches_keywords(title, excerpt, source.get("exclude_keywords", [])):
+            continue
+
+        degraded = not (published_at and excerpt)
+        items.append({
+            "id": stable_id(source["id"], url, title),
+            "source_id": source["id"],
+            "source": source["name"],
+            "source_type": source["role"],
+            "source_url": url,
+            "category": source.get("category", []),
+            "title": title,
+            "raw_excerpt": excerpt[:800],
+            "published_at": published_at,
+            "collected_at": now_iso(),
+            "verification": source["role"],
+            "status": "degraded" if degraded else "ok",
+            "collector_note": "Datum oder Kurztext fehlt." if degraded else None,
+            "content_hash": content_hash(title, excerpt),
+        })
+        seen_urls.add(url)
+
+    if not items:
+        raise RuntimeError("Keine passenden PMI-Blogbeiträge erkannt.")
+    items.sort(key=lambda item: item["published_at"] or "", reverse=True)
+    return items[:source.get("max_items", 5)]
+
+
 def fetch_rss(source: dict) -> list[dict]:
     """Liest Feed-Einträge ohne weitere Artikel- oder KI-Aufrufe."""
     response = requests.get(
@@ -1191,6 +1282,9 @@ def collect_source(
 
     if adapter == "enisa_news":
         return fetch_enisa_news(source)
+
+    if adapter == "pmi_blog":
+        return fetch_pmi_blog(source)
 
     if adapter == "rss":
         return fetch_rss(source)
