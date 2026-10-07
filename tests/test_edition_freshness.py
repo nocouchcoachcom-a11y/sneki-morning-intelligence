@@ -125,3 +125,21 @@ class SourceUrlDeduplicationTests(unittest.TestCase):
         self.assertEqual([later],b.deduplicate_source_urls([later,self.old],[]))
 
 if __name__=='__main__':unittest.main()
+
+class MorningPriorityTests(unittest.TestCase):
+    ref = '2026-10-07T07:00:00+02:00'
+    def item(self, ident, date, pm=False):
+        return dict(id=ident,published_at=date,title='Projektmanagement Praxis' if pm else 'OpenAI new model',raw_excerpt='')
+    def test_fresh_items_precede_old_high_rank(self):
+        old=self.item('old','2026-10-04T12:00:00+02:00')
+        new=self.item('new','2026-10-07T06:00:00+02:00')
+        self.assertEqual(['new'],[i['id'] for i in b.select_morning_priority([old,new],self.ref,1)])
+    def test_eligible_fresh_pm_gets_one_slot(self):
+        ai=[self.item(str(i),'2026-10-07T06:00:00+02:00') for i in range(6)]
+        pm=self.item('pm','2026-10-06T12:00:00+02:00',True)
+        result=b.select_morning_priority(ai+[pm],self.ref,5)
+        self.assertEqual(5,len(result));self.assertIn('pm',[i['id'] for i in result])
+    def test_old_pm_does_not_displace_fresh_news(self):
+        ai=[self.item(str(i),'2026-10-07T06:00:00+02:00') for i in range(5)]
+        pm=self.item('pm','2026-10-06',True)
+        self.assertNotIn('pm',[i['id'] for i in b.select_morning_priority(ai+[pm],self.ref,5)])

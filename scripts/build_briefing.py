@@ -1048,6 +1048,24 @@ def select_useful_background(items, reference_at, limit):
     return selected
 
 
+def select_morning_priority(ranked, reference_at, limit):
+    """Prefer today's window and retain one eligible PM item, without another API."""
+    reference = parse_sort_timestamp(reference_at)
+    def fresh(item):
+        value = item.get("published_at") or ""
+        if len(value) == 10:
+            return value == datetime.fromtimestamp(reference, TZ).date().isoformat()
+        published = parse_sort_timestamp(value)
+        return published is not None and 0 <= reference - published <= 86400
+    today = [item for item in ranked if fresh(item)]
+    older = [item for item in ranked if not fresh(item)]
+    selected = today[:limit]
+    pm = next((item for item in today if editorial_topic(item)[0] in {"AI & PM", "Projektmanagement"}), None)
+    if limit >= 2 and pm and not any(editorial_topic(item)[0] in {"AI & PM", "Projektmanagement"} for item in selected):
+        selected[-1] = pm
+    return (selected + older)[:limit]
+
+
 def select_edition_candidates(items, source_status, source_config, reference_at, *, mode=None, hybrid_provider=None, cache_path=None, limit=5):
     """Aktuelle Nachrichten getrennt von Hintergrund auswählen; keine KI für Altinhalte."""
     reference = parse_sort_timestamp(reference_at)
@@ -1071,10 +1089,11 @@ def select_edition_candidates(items, source_status, source_config, reference_at,
                 background.append({**item, "_reading": True})
         else:
             background.append(item)
-    news, ranking = select_candidates_for_mode(
+    ranked_news, ranking = select_candidates_for_mode(
         current, source_status, source_config, reference_at, mode=mode,
-        hybrid_provider=hybrid_provider, cache_path=cache_path, limit=limit,
+        hybrid_provider=hybrid_provider, cache_path=cache_path, limit=max(limit, len(current)),
     )
+    news = select_morning_priority(ranked_news, reference_at, limit)
     # Vorhandene Redaktionstexte nutzen, bevor Nutzwert und Vielfalt bewertet werden.
     try:
         cache = read_semantic_cache(Path(cache_path) if cache_path is not None else DATA / "semantic-cache.json")
@@ -1090,6 +1109,7 @@ def select_edition_candidates(items, source_status, source_config, reference_at,
         enriched.append(item)
     selected_background = select_useful_background(enriched, reference_at, limit)
     ranking["selection"] = {
+        "selection_policy": "24h_first_with_eligible_pm_slot",
         "recent_core_candidates": len(current),
         "recent_core_not_selected": len(current) - len(news),
         "unavailable_sources": [source["name"] for source in source_status
