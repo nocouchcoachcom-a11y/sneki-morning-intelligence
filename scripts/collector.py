@@ -403,17 +403,18 @@ def fetch_sitemap_articles(
         []
     ):
 
-        response = requests.get(
-            sitemap_url,
-            headers=HEADERS,
-            timeout=request_timeout
-        )
-
-        response.raise_for_status()
-
-        root = ET.fromstring(
-            response.text
-        )
+        try:
+            response = requests.get(
+                sitemap_url,
+                headers=HEADERS,
+                timeout=request_timeout
+            )
+            response.raise_for_status()
+            root = ET.fromstring(response.text)
+        except (requests.RequestException, ET.ParseError):
+            if source.get("listing_urls"):
+                continue
+            raise
 
         for node in root:
 
@@ -458,6 +459,34 @@ def fetch_sitemap_articles(
         set(candidates),
         reverse=True
     )
+
+    # Current publisher listings come before sitemap modification dates,
+    # which may promote old articles. Discovery never supplies publication dates.
+    listed_urls = []
+    domains = {domain.lower() for domain in source.get("allowed_domains", [])}
+    for listing_url in source.get("listing_urls", [])[:2]:
+        parsed_listing = urlparse(listing_url)
+        if parsed_listing.scheme != "https" or parsed_listing.hostname not in domains:
+            raise ValueError("Artikelübersicht außerhalb der erlaubten Quelle.")
+        try:
+            listing = requests.get(listing_url, headers=HEADERS, timeout=request_timeout)
+            listing.raise_for_status()
+            listing_soup = BeautifulSoup(listing.text, "html.parser")
+            for anchor in (listing_soup.find("main") or listing_soup).find_all("a", href=True):
+                url = urljoin(listing_url, anchor["href"]).split("#", 1)[0].split("?", 1)[0]
+                parsed = urlparse(url)
+                if (parsed.scheme == "https" and parsed.hostname in domains
+                    and parsed.username is None and parsed.password is None
+                    and any(parsed.path.startswith(prefix) and parsed.path.rstrip("/") != prefix.rstrip("/")
+                            for prefix in source.get("article_path_prefixes", []))
+                    and url not in listed_urls):
+                    listed_urls.append(url)
+        except requests.RequestException:
+            # Existing sitemap discovery remains usable when a listing fails.
+            continue
+    candidates = [("", url) for url in listed_urls] + [
+        candidate for candidate in candidates if candidate[1] not in listed_urls
+    ]
 
     if not candidates:
         raise RuntimeError(
@@ -1143,7 +1172,7 @@ def fetch_rss(source: dict) -> list[dict]:
             "raw_excerpt": excerpt[:800],
             "published_at": published_at,
             "collected_at": now_iso(),
-            "verification": source["role"],
+            "verification": "secondary" if source["role"] == "discovery" else source["role"],
             "status": "degraded" if degraded else "ok",
             "collector_note": "Datum oder Kurztext fehlt." if degraded else None,
             "content_hash": content_hash(title, excerpt),

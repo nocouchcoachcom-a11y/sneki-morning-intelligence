@@ -37,6 +37,10 @@ class RssTests(unittest.TestCase):
         self.assertEqual('ok', item['status'])
         self.assertEqual(item['id'], self.read(self.entry())[0]['id'])
 
+    def test_editorial_discovery_source_is_secondary(self):
+        self.source['role']='discovery'
+        self.assertEqual('secondary',self.read(self.entry())[0]['verification'])
+
     def test_missing_date_is_visible_not_invented(self):
         item = self.read(self.entry(date=''))[0]
         self.assertIsNone(item['published_at'])

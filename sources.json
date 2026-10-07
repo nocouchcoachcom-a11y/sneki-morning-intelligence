@@ -114,10 +114,21 @@
         "Agile",
         "Agil",
         "Hybrid",
-        "Governance"
+        "Governance",
+        "Projektsteuerung",
+        "Stakeholder",
+        "Terminplanung",
+        "Zusammenarbeit",
+        "Nutzen",
+        "Benefits",
+        "Collaboration",
+        "Schedule",
+        "Delivery",
+        "Knowledge sharing",
+        "project professional"
       ],
-      "scan_limit": 6,
-      "max_items": 5,
+      "scan_limit": 20,
+      "max_items": 10,
       "timeout_seconds": 10,
       "enabled": true
     },
@@ -158,12 +169,27 @@
         "Transformation",
         "Agile",
         "Hybrid",
-        "Governance"
+        "Governance",
+        "Projektsteuerung",
+        "Stakeholder",
+        "Terminplanung",
+        "Zusammenarbeit",
+        "Nutzen",
+        "Benefits",
+        "Collaboration",
+        "Schedule",
+        "Delivery",
+        "Knowledge sharing",
+        "project professional"
       ],
-      "scan_limit": 6,
-      "max_items": 5,
+      "scan_limit": 20,
+      "max_items": 10,
       "timeout_seconds": 10,
-      "enabled": true
+      "enabled": true,
+      "listing_urls": [
+        "https://www.apm.org.uk/news/",
+        "https://www.apm.org.uk/blog/"
+      ]
     },
     {
       "id": "bsi-security",
@@ -289,6 +315,41 @@
       ],
       "keywords": [],
       "max_items": 5,
+      "timeout_seconds": 10,
+      "max_news_age_days": 7,
+      "enabled": true
+    },
+    {
+      "id": "heise-ai-news",
+      "name": "heise online – KI-Nachrichten",
+      "role": "discovery",
+      "priority": "OPTIONAL",
+      "status_type": "optional",
+      "category": [
+        "KI & Technologie"
+      ],
+      "kind": "rss",
+      "adapter": "rss",
+      "url": "https://www.heise.de/rss/heise-atom.xml",
+      "allowed_domains": [
+        "www.heise.de",
+        "heise.de"
+      ],
+      "keywords": [
+        "KI",
+        "Künstliche Intelligenz",
+        "AI",
+        "Artificial Intelligence",
+        "OpenAI",
+        "ChatGPT",
+        "Anthropic",
+        "Claude",
+        "Gemini",
+        "LLM",
+        "KI-Agenten"
+      ],
+      "exclude_keywords": [],
+      "max_items": 8,
       "timeout_seconds": 10,
       "max_news_age_days": 7,
       "enabled": true

@@ -86,6 +86,25 @@ class SitemapSourceAdapterTests(unittest.TestCase):
             "enabled": True,
         }
 
+    def test_listing_remains_available_when_sitemap_times_out(self):
+        source=self.source();source['listing_urls']=['https://example.org/articles/'];source['max_items']=1
+        listing='<main><a href="/articles/new">New</a></main>'
+        article='<main><h1>PMO new study</h1><time datetime="2026-10-06">Date</time><p>Project governance and lessons.</p></main>'
+        with mock.patch.object(self.collector.requests,'get',side_effect=[self.collector.requests.Timeout('offline timeout'),self.response(listing),self.response(article)]):
+            items=self.collector.collect_source(source)
+        self.assertEqual('https://example.org/articles/new',items[0]['source_url'])
+
+    def test_listing_precedes_sitemap_and_preserves_article_publication(self):
+        source=self.source();source['listing_urls']=['https://example.org/articles/'];source['max_items']=1
+        sitemap='<urlset><url><loc>https://example.org/articles/old</loc><lastmod>2026-10-07</lastmod></url></urlset>'
+        listing='<main><a href="/articles/">Index</a><a href="https://evil.example/articles/bad">Bad</a><a href="/articles/new?tracking=1">New</a><a href="/articles/new">Duplicate</a></main>'
+        article='<main><h1>PMO new study</h1><time datetime="2026-10-06">Date</time><p>Project governance and lessons.</p></main>'
+        with mock.patch.object(self.collector.requests,'get',side_effect=[self.response(sitemap),self.response(listing),self.response(article)]) as get:
+            items=self.collector.collect_source(source)
+        self.assertEqual('https://example.org/articles/new',items[0]['source_url'])
+        self.assertEqual('2026-10-06',items[0]['published_at'])
+        self.assertEqual(3,get.call_count)
+
     def test_relevant_article_is_collected_and_irrelevant_article_is_rejected(self):
         sitemap = """<?xml version="1.0"?>
         <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
