@@ -38,4 +38,23 @@ class EditionFreshnessTests(unittest.TestCase):
         current,background,_=b.select_edition_candidates([self.item('old','2026-07-01')],[{'name':'Official','type':'core','status':'failed'}],[],self.ref,mode='baseline')
         self.assertEqual([],current);self.assertEqual([],background)
 
+class SourceUrlDeduplicationTests(unittest.TestCase):
+    def setUp(self):
+        self.old=dict(id='old',source_id='official',source_url='https://example.org/old',title='Original title',collected_at='2026-10-01T00:00:00Z')
+        self.new=dict(self.old,id='new',source_url='https://example.org/new',title='Updated title')
+        self.config=[{'id':'official','url_aliases':{'https://example.org/old':'https://example.org/new'}}]
+    def test_verified_alias_keeps_canonical_article_without_mutating_raw(self):
+        raw=[self.old,self.new];original=copy.deepcopy(raw)
+        for records in [raw,list(reversed(raw))]:
+            self.assertEqual([self.new],b.deduplicate_source_urls(records,self.config))
+        self.assertEqual(original,raw)
+    def test_similar_titles_without_alias_remain_separate(self):
+        self.assertEqual(2,len(b.deduplicate_source_urls([self.old,self.new],[])))
+    def test_alias_does_not_merge_independent_sources(self):
+        other=dict(self.new,source_id='other')
+        self.assertEqual(2,len(b.deduplicate_source_urls([self.old,other],self.config)))
+    def test_same_url_keeps_latest_observation(self):
+        later=dict(self.old,id='later',last_seen_at='2026-10-07T00:00:00Z')
+        self.assertEqual([later],b.deduplicate_source_urls([later,self.old],[]))
+
 if __name__=='__main__':unittest.main()

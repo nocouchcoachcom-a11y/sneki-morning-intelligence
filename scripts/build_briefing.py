@@ -955,13 +955,34 @@ def select_candidates_for_mode(
             "api_call_performed": api_call_performed,
         }
 
+def deduplicate_source_urls(items, source_config):
+    """Nur identische URLs oder ausdrücklich bestätigte URL-Aliase zusammenführen."""
+    aliases = {source.get("id"): source.get("url_aliases", {}) for source in source_config}
+    selected = {}
+    for item in items:
+        source_id = item.get("source_id")
+        url = item.get("source_url")
+        canonical = aliases.get(source_id, {}).get(url, url)
+        # Ohne URL keine Gleichheit ableiten.
+        key = (source_id, canonical) if canonical else (source_id, item.get("id"))
+        previous = selected.get(key)
+        def preference(value):
+            return (value.get("source_url") == canonical,
+                    parse_sort_timestamp(value.get("last_seen_at")) or 0,
+                    parse_sort_timestamp(value.get("collected_at")) or 0,
+                    str(value.get("id", "")))
+        if previous is None or preference(item) > preference(previous):
+            selected[key] = item
+    return list(selected.values())
+
+
 def select_edition_candidates(items, source_status, source_config, reference_at, *, mode=None, hybrid_provider=None, cache_path=None, limit=5):
     """Aktuelle Nachrichten getrennt von Hintergrund auswählen; keine KI für Altinhalte."""
     reference = parse_sort_timestamp(reference_at)
     if reference is None:
         raise ValueError("Aktualitätsprüfung benötigt einen gültigen Bezugszeitpunkt.")
     current, background = [], []
-    for item in items:
+    for item in deduplicate_source_urls(_eligible_items(items, source_status), source_config):
         published = parse_sort_timestamp(item.get("published_at"))
         # Unbekannte oder zukünftige Daten sind keine belastbare Nachricht.
         # Die Originale bleiben in raw-items.json erhalten.

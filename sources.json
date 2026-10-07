@@ -13,7 +13,10 @@
       "kind": "web",
       "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
       "adapter": "eu_ai_news",
-      "enabled": true
+      "enabled": true,
+      "url_aliases": {
+        "https://digital-strategy.ec.europa.eu/en/news/edic-agri-food-launches-support-digital-innovation-across-europes-food-and-agriculture-sector": "https://digital-strategy.ec.europa.eu/en/news/edic-agri-food-launched-support-digital-innovation-across-europes-food-and-agriculture-sector"
+      }
     },
     {
       "id": "eurlex-ai-act",
