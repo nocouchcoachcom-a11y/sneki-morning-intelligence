@@ -34,6 +34,39 @@ class EditionFreshnessTests(unittest.TestCase):
     def test_background_not_top_five(self):
         story=b.make_story(self.item('old','2026-07-01'),1,content_kind='background')
         self.assertFalse(story['is_top5']);self.assertEqual('background',story['content_kind'])
+    def test_source_label_does_not_establish_topic(self):
+        item=self.item('edic','2026-10-01')
+        item.update(title='EDIC agri-food launched',raw_excerpt='Digital infrastructure for agriculture')
+        self.assertEqual(('Digitalisierung & Kontext',False),b.editorial_topic(item))
+        original=copy.deepcopy(item)
+        current,background,_=self.select([item])
+        self.assertEqual([],current)
+        self.assertTrue(background[0]['_reading'])
+        story=b.make_story(background[0],1,content_kind='background')
+        self.assertEqual('reading',story['content_kind']);self.assertFalse(story['is_top5'])
+        self.assertEqual(original,item)
+    def test_recent_reading_remains_visible_among_old_background(self):
+        reading=self.item('reading','2026-10-01')
+        reading.update(title='Projektmanagement PISA',raw_excerpt='Projektmanagement Studie')
+        current,background,_=self.select([self.item('old'+str(i),'2026-07-01') for i in range(8)]+[reading])
+        self.assertEqual([],current);self.assertEqual('reading',background[0]['id']);self.assertEqual(5,len(background))
+    def test_unrelated_recent_article_is_not_used_to_fill_readings(self):
+        unrelated=self.item('rockets','2026-10-01')
+        unrelated.update(title='Meet the rocket builders',raw_excerpt='The people behind propulsion')
+        current,background,_=self.select([unrelated])
+        self.assertEqual([],current);self.assertEqual([],background)
+    def test_core_topics_and_general_pm(self):
+        for title,expected,core in [('KI im Projektmanagement','AI & PM',True),('AI Act requirements','EU AI Act',True),('Datenschutz im Unternehmen','DSGVO & Ethik',True),('Cybersecurity guidance','IT Security',True),('Projektmanagement: PISA Studie','Projektmanagement',False)]:
+            with self.subTest(title=title):
+                self.assertEqual((expected,core),b.editorial_topic(dict(title=title,raw_excerpt='',category=['EU AI Act'])))
+    def test_cached_summary_and_explicit_source_excerpt(self):
+        item=self.item('one','2026-10-01')
+        item['_hybrid_content']=dict(summary='Deutsche Zusammenfassung.',why_relevant='Belegte Bedeutung.',watch_next='Quelle beobachten.')
+        story=b.make_story(item,1)
+        self.assertEqual('Deutsche Zusammenfassung.',story['summary']);self.assertEqual('generated',story['summary_origin'])
+        item.pop('_hybrid_content')
+        story=b.make_story(item,1)
+        self.assertEqual(item['raw_excerpt'],story['summary']);self.assertEqual('source_excerpt',story['summary_origin'])
     def test_failed_source_never_used_for_background(self):
         current,background,_=b.select_edition_candidates([self.item('old','2026-07-01')],[{'name':'Official','type':'core','status':'failed'}],[],self.ref,mode='baseline')
         self.assertEqual([],current);self.assertEqual([],background)

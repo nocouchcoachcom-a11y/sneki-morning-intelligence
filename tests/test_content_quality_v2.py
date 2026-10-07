@@ -198,6 +198,7 @@ class ContentQualityV2Tests(unittest.TestCase):
 
     def test_deterministic_fallback_contains_safe_specific_texts(self):
         item = self.item("fallback", "gpm", "GPM", "AI & PM")
+        item["title"] = "KI im Projektmanagement"
 
         story = self.builder.make_story(item, 1)
 
