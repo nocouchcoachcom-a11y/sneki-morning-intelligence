@@ -746,6 +746,11 @@ def request_hybrid_semantics(model_inputs):
         or evaluator.HYBRID_SCHEMA_VERSION != HYBRID_SCHEMA_VERSION
     ):
         raise RuntimeError("Hybrid-C-Vertragsversionen stimmen nicht überein.")
+    if os.environ.get("SNEKI_EDITORIAL_ENABLED") == "1":
+        payload = evaluator.build_request_payload(model_inputs)
+        bound = len(json.dumps(payload, ensure_ascii=False).encode("utf-8")) * .25 / 1000000 + payload["max_output_tokens"] * 1.2 / 1000000
+        if bound > .02:
+            raise ValueError("Ranking-API überschreitet das Teilbudget von 0,02 US-Dollar.")
     return evaluator.request_hybrid_assessments(model_inputs)
 
 def _safe_log_message(error):
@@ -980,7 +985,7 @@ def deduplicate_source_urls(items, source_config):
 def editorial_topic(item):
     """Konservative Einordnung anhand des gelieferten Inhalts, nicht des Quellenlabels."""
     text = " ".join(str(item.get(key) or "") for key in ("title", "raw_excerpt"))
-    ai = bool(re.search(r"\b(?:AI|KI|LLM|GenAI|artificial intelligence|künstliche intelligenz|machine learning)\b", text, re.I))
+    ai = bool(re.search(r"\b(?:AI|KI|LLM|GenAI|ChatGPT|GPT[- ]?\d+|Claude|Gemini|Codex|artificial intelligence|künstliche intelligenz|machine learning)\b", text, re.I))
     if re.search(r"\b(?:AI Act|KI-Verordnung)\b", text, re.I):
         return "EU AI Act", True
     if re.search(r"\b(?:DSGVO|GDPR|Datenschutz|data protection|privacy)\b", text, re.I):
@@ -1161,14 +1166,18 @@ def make_story(item, rank, *, content_kind="current"):
     topic, _ = editorial_topic(item)
     editorial = item.get("_hybrid_content") or _deterministic_editorial_fallback({**item, "category": [topic]})
     summary = editorial.get("summary") or excerpt
+    detail = item.get("_editorial_detail") or {}
     if item.get("_reading"):
         content_kind = "reading"
     return {
         "id": item["id"],
         "category": topic,
         "rank": rank,
-        "title": item.get("title") or item.get("source"),
-        "summary": summary[:420],
+        "title": detail.get("title_de") or item.get("title") or item.get("source"),
+        "summary": summary[:1800] if detail else summary[:420],
+        "editorial_depth": bool(detail),
+        "practice_example": detail.get("practice_example", ""),
+        "limitations": detail.get("limitations", ""),
         "summary_origin": "generated" if editorial.get("summary") else "source_excerpt",
         "why_relevant": editorial["why_relevant"],
         "watch_next": editorial["watch_next"],
@@ -1198,6 +1207,14 @@ def build_edition(name, raw, *, preview=False):
         limit=5,
     )
     ensure_publishable(candidates + background, source_status)
+    detail_stats = {"enabled": False, "api_calls": 0}
+    if os.environ.get("SNEKI_EDITORIAL_ENABLED") == "1" and os.environ.get("GITHUB_EVENT_NAME") != "workflow_dispatch":
+        spec = importlib.util.spec_from_file_location("editorial_depth", ROOT / "scripts" / "editorial_depth.py")
+        detail = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(detail)
+        combined, detail_stats = detail.enrich(candidates + background, read_source_config(), DATA / "editorial-cache.json", enabled=True)
+        candidates, background = combined[:len(candidates)], combined[len(candidates):]
+    ranking["editorial_depth"] = detail_stats
     briefing_mode = (
         "Hybrid-C-Semantik mit deterministischem Ranking."
         if ranking["effective_mode"] == "hybrid"
@@ -1226,6 +1243,7 @@ def build_edition(name, raw, *, preview=False):
         },
         "source_status": raw.get("source_status", []),
         "ranking": ranking,
+        "editorial_depth_status": detail_stats,
     }
 
     selection = ranking.get("selection", {})
