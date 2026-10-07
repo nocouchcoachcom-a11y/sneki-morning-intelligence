@@ -49,12 +49,40 @@ class EditionFreshnessTests(unittest.TestCase):
         reading=self.item('reading','2026-10-01')
         reading.update(title='Projektmanagement PISA',raw_excerpt='Projektmanagement Studie')
         current,background,_=self.select([self.item('old'+str(i),'2026-07-01') for i in range(8)]+[reading])
-        self.assertEqual([],current);self.assertEqual('reading',background[0]['id']);self.assertEqual(5,len(background))
+        self.assertEqual([],current);self.assertIn('reading',[x['id'] for x in background]);self.assertEqual(5,len(background))
     def test_unrelated_recent_article_is_not_used_to_fill_readings(self):
         unrelated=self.item('rockets','2026-10-01')
         unrelated.update(title='Meet the rocket builders',raw_excerpt='The people behind propulsion')
         current,background,_=self.select([unrelated])
         self.assertEqual([],current);self.assertEqual([],background)
+    def test_relevant_ai_pm_background_beats_recent_generic_reading(self):
+        relevant=self.item('conflicts','2026-09-30')
+        relevant.update(title='KI kann Konflikte im Projektmanagement analysieren',raw_excerpt='Verantwortung bleibt beim Menschen')
+        generic=self.item('agri','2026-10-01')
+        generic.update(title='Digital innovation in agriculture',raw_excerpt='Digital infrastructure')
+        current,background,_=self.select([relevant,generic])
+        self.assertEqual([],current);self.assertEqual('conflicts',background[0]['id'])
+    def test_background_diversity_preserves_security_and_ai_pm(self):
+        items=[]
+        for i in range(5):
+            item=self.item('pm'+str(i),'2026-09-23')
+            item.update(title='KI im Projektmanagement '+str(i),raw_excerpt='Praxisbericht')
+            items.append(item)
+        security=self.item('security','2026-09-22');security.update(title='Cybersecurity dependencies',raw_excerpt='Digital resilience')
+        selected=b.select_useful_background(items+[security],self.ref,5)
+        self.assertIn('security',[x['id'] for x in selected])
+    def test_same_reporting_event_has_two_sources_in_one_story(self):
+        enisa=self.item('enisa','2026-09-11T13:00:00+02:00')
+        enisa.update(source_id='enisa-security',source='ENISA',source_url='https://example.org/enisa',title='The CRA Single Reporting Platform is launched',raw_excerpt='Initial reporting capability')
+        bsi=self.item('bsi','2026-09-11T09:00:00+02:00')
+        bsi.update(source_id='bsi-security',source='BSI',source_url='https://example.org/bsi',title='Cyber Resilience Act: Meldepflicht startet',raw_excerpt='Meldepflicht für Hersteller')
+        original=copy.deepcopy([enisa,bsi])
+        selected=b.bundle_reporting_sources([enisa,bsi])
+        self.assertEqual(1,len(selected));self.assertEqual('bsi',selected[0]['id'])
+        self.assertEqual([{'name':'ENISA','url':'https://example.org/enisa'}],b.make_story(selected[0],1,content_kind='background')['related_sources'])
+        self.assertEqual(original,[enisa,bsi])
+        different=dict(enisa,id='different',published_at='2026-09-12')
+        self.assertEqual(2,len(b.bundle_reporting_sources([different,bsi])))
     def test_core_topics_and_general_pm(self):
         for title,expected,core in [('KI im Projektmanagement','AI & PM',True),('AI Act requirements','EU AI Act',True),('Datenschutz im Unternehmen','DSGVO & Ethik',True),('Cybersecurity guidance','IT Security',True),('Projektmanagement: PISA Studie','Projektmanagement',False)]:
             with self.subTest(title=title):

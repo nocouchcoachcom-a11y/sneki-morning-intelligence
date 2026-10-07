@@ -998,6 +998,51 @@ def editorial_topic(item):
     return "Digitalisierung & Kontext", False
 
 
+def bundle_reporting_sources(items):
+    """Nur klar gleiche CRA-Meldestart-Ereignisse am selben Tag bündeln."""
+    grouped, result = {}, []
+    for item in items:
+        text = " ".join(str(item.get(key) or "") for key in ("title", "raw_excerpt"))
+        reporting = bool(re.search(r"(?:CRA|Cyber Resilience Act|Single Reporting Platform)", text, re.I)
+                         and re.search(r"(?:Meldepflicht|reporting|Meldestart)", text, re.I))
+        key = (str(item.get("published_at") or "")[:10], "cra-reporting") if reporting else None
+        if key and key in grouped:
+            index = grouped[key]
+            previous = result[index]
+            # Deutscher BSI-Quellenauszug erklärt hier die Bedeutung ausführlicher.
+            preferred, other = (item, previous) if item.get("source_id") == "bsi-security" else (previous, item)
+            related = [*previous.get("_related_sources", []),
+                       {"name": other.get("source"), "url": other.get("source_url")}]
+            result[index] = {**preferred, "_related_sources": related}
+        else:
+            if key:
+                grouped[key] = len(result)
+            result.append(dict(item))
+    return result
+
+
+def select_useful_background(items, reference_at, limit):
+    """Zielbezug zuerst, dann Aktualität; Quellenprestige verdrängt keine KI-/PM-Praxis."""
+    reference = parse_sort_timestamp(reference_at)
+    candidates = bundle_reporting_sources(items)
+    def usefulness(item):
+        topic, core = editorial_topic(item)
+        fit = 3 if topic == "AI & PM" else 2 if core else 1 if topic == "Projektmanagement" else 0
+        age = reference - parse_sort_timestamp(item.get("published_at"))
+        recency = 2 if age <= 30 * 86400 else 1 if age <= 90 * 86400 else 0
+        return fit * 4 + recency + bool(item.get("_hybrid_content"))
+    selected, counts = [], {}
+    while candidates and len(selected) < limit:
+        winner = min(candidates, key=lambda item: (
+            -(usefulness(item) - 3 * counts.get(editorial_topic(item)[0], 0)),
+            -publication_sort_timestamp(item), item.get("id", "")))
+        selected.append(winner)
+        topic = editorial_topic(winner)[0]
+        counts[topic] = counts.get(topic, 0) + 1
+        candidates.remove(winner)
+    return selected
+
+
 def select_edition_candidates(items, source_status, source_config, reference_at, *, mode=None, hybrid_provider=None, cache_path=None, limit=5):
     """Aktuelle Nachrichten getrennt von Hintergrund auswählen; keine KI für Altinhalte."""
     reference = parse_sort_timestamp(reference_at)
@@ -1024,31 +1069,26 @@ def select_edition_candidates(items, source_status, source_config, reference_at,
         current, source_status, source_config, reference_at, mode=mode,
         hybrid_provider=hybrid_provider, cache_path=cache_path, limit=limit,
     )
-    # Zeitnahe Lesestücke bleiben sichtbar; ältere Fachtexte ergänzen die Auswahl.
-    readings = [item for item in background if item.get("_reading")]
-    older = [item for item in background if not item.get("_reading")]
-    background_ranked = rank_candidates_baseline_v2(
-        readings, source_status, source_config, reference_at, limit
-    )
-    if len(background_ranked) < limit:
-        background_ranked += rank_candidates_baseline_v2(
-            older, source_status, source_config, reference_at, limit - len(background_ranked)
-        )
-    selected_background = [result["item"] for result in background_ranked]
-    # Bereits vorhandene Texte wiederverwenden; keine neue Bewertung für Lesestücke.
+    # Vorhandene Redaktionstexte nutzen, bevor Nutzwert und Vielfalt bewertet werden.
     try:
         cache = read_semantic_cache(Path(cache_path) if cache_path is not None else DATA / "semantic-cache.json")
-        enriched = []
-        for item in selected_background:
-            model_input = _hybrid_model_inputs([item])[0]
-            key = semantic_input_hash(model_input)
-            prediction = _prediction_from_cache_entry(cache["entries"].get(key), model_input, key)
-            if prediction and prediction["assessment_status"] == "scored":
-                item = {**item, "_hybrid_content": {field: prediction[field] for field in ("summary", "why_relevant", "watch_next")}}
-            enriched.append(item)
-        selected_background = enriched
-    except (ValueError, OSError, IndexError):
-        pass  # Quellenauszug bleibt als expliziter Fallback erhalten.
+    except (ValueError, OSError):
+        cache = {"entries": {}}
+    enriched = []
+    for item in background:
+        model_input = _hybrid_model_inputs([item])[0]
+        key = semantic_input_hash(model_input)
+        prediction = _prediction_from_cache_entry(cache["entries"].get(key), model_input, key)
+        if prediction and prediction["assessment_status"] == "scored":
+            item = {**item, "_hybrid_content": {field: prediction[field] for field in ("summary", "why_relevant", "watch_next")}}
+        enriched.append(item)
+    selected_background = select_useful_background(enriched, reference_at, limit)
+    ranking["selection"] = {
+        "recent_core_candidates": len(current),
+        "recent_core_not_selected": len(current) - len(news),
+        "unavailable_sources": [source["name"] for source in source_status
+                                if source.get("status") not in {"ok", "degraded"}],
+    }
     return news, selected_background, ranking
 
 
@@ -1141,6 +1181,7 @@ def make_story(item, rank, *, content_kind="current"):
         "status": item.get("status", "ok"),
         "is_top5": content_kind == "current",
         "content_kind": content_kind,
+        "related_sources": item.get("_related_sources", []),
         "social_verified": False
     }
 
@@ -1187,6 +1228,22 @@ def build_edition(name, raw, *, preview=False):
         "ranking": ranking,
     }
 
+    selection = ranking.get("selection", {})
+    lead = result["items"][0]
+    result["editorial_brief"] = {
+        "title": "Aktuelle Auswahl" if candidates else "Zuletzt relevant für KI und Projektmanagement",
+        "summary": lead["summary"],
+        "why_relevant": lead["why_relevant"],
+        "watch_next": lead["watch_next"],
+        "item_id": lead["id"],
+        "published_at": lead["published_at"],
+        "context": ("Ausgewählte Kernmeldungen aus dem Zeitfenster der letzten 7 Tage."
+                    if candidates else "Im Zeitfenster der letzten 7 Tage wurde keine ausreichend belegte Kernmeldung ausgewählt. Die folgenden Beiträge dienen zur Einordnung."),
+        "limits": ([f"Nach der Inhaltsbewertung nicht ausgewählte aktuelle Kandidaten: {selection['recent_core_not_selected']}."]
+                   if selection.get("recent_core_not_selected") else [])
+                  + (["Letzter Abruf eingeschränkt: " + ", ".join(selection["unavailable_sources"]) + "."]
+                     if selection.get("unavailable_sources") else []),
+    }
     serialized = json.dumps(result, ensure_ascii=False, indent=2)
 
     if preview:
