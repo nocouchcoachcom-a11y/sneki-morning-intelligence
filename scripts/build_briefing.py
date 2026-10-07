@@ -1060,7 +1060,8 @@ def select_edition_candidates(items, source_status, source_config, reference_at,
         # Die Originale bleiben in raw-items.json erhalten.
         if published is None or published > reference:
             continue
-        if reference - published <= 7 * 86400 and editorial_topic(item)[1]:
+        topic, core_topic = editorial_topic(item)
+        if reference - published <= 7 * 86400 and (core_topic or topic == "Projektmanagement"):
             current.append(item)
         elif reference - published <= 7 * 86400:
             text = " ".join(str(item.get(key) or "") for key in ("title", "raw_excerpt"))

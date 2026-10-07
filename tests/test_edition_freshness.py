@@ -47,9 +47,15 @@ class EditionFreshnessTests(unittest.TestCase):
         self.assertEqual(original,item)
     def test_recent_reading_remains_visible_among_old_background(self):
         reading=self.item('reading','2026-10-01')
-        reading.update(title='Projektmanagement PISA',raw_excerpt='Projektmanagement Studie')
+        reading.update(title='Digital innovation in agriculture',raw_excerpt='Digital infrastructure')
         current,background,_=self.select([self.item('old'+str(i),'2026-07-01') for i in range(8)]+[reading])
         self.assertEqual([],current);self.assertIn('reading',[x['id'] for x in background]);self.assertEqual(5,len(background))
+    def test_general_pm_is_eligible_news_without_ai_reference(self):
+        item=self.item('pm','2026-10-07')
+        item.update(title='Projektmanagement: neue Studie zur Projektsteuerung',raw_excerpt='Neue Ergebnisse zu Risiken und Terminplanung')
+        current,background,_=self.select([item])
+        self.assertEqual(['pm'],[x['id'] for x in current]);self.assertEqual([],background)
+        self.assertEqual('Projektmanagement',b.make_story(current[0],1)['category'])
     def test_unrelated_recent_article_is_not_used_to_fill_readings(self):
         unrelated=self.item('rockets','2026-10-01')
         unrelated.update(title='Meet the rocket builders',raw_excerpt='The people behind propulsion')
