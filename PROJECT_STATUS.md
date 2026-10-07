@@ -16,12 +16,12 @@ Ein nützlicher täglicher Überblick über KI und Projektmanagement als Praxisp
 - Drei manuell redaktionell geprüfte ausführliche Testbeiträge sind sichtbar. Sie sind nicht Teil der automatischen täglichen Aufbereitung.
 - Ein genehmigter Zusatzaufruf scheiterte nach der Modellantwort an der Statusvalidierung. Er wurde nicht wiederholt; sein genauer Verbrauch ist nicht gespeichert.
 
-## Vorbereitet, noch nicht aktiviert
+## Aktivierung freigegeben, echte Abnahme offen
 
 - Artikelbasierte ausführliche Einordnung mit Praxisbeispiel, Prüfschritt und Grenzen.
 - Strukturierter Modellvertrag, validierter Cache, Fehlerpfad ohne Wiederholungsaufruf und Erhalt der Kurzfassung.
-- Teilbudgets: höchstens 0,02 US-Dollar für Ranking und 0,03 US-Dollar für ausführliche Aufbereitung je automatischer Ausgabe. Voraktivierung erforderlich; keine zusätzliche Kostenfreigabe aus dieser Datei ableiten.
-- OpenAI News und Google AI als gekennzeichnete Herstellerquellen. Die Quellen sind ausgeschaltet.
+- Teilbudgets: höchstens 0,02 US-Dollar für Ranking und 0,03 US-Dollar für ausführliche Aufbereitung je automatischer Ausgabe. Steffen hat am 07.10.2026 um 09:34 Uhr bis zu 0,10 US-Dollar Modellkosten pro Tag für zwei Ausgaben ausdrücklich freigegeben. Der einmalige Aktivierungslauf zählt als heutige erste ausführliche Ausgabe; die Nachmittagsausgabe als zweite.
+- OpenAI News und Google AI als gekennzeichnete Herstellerquellen. Die Quellen sind aktiviert.
 - Website kann ausführliche automatische Beiträge anzeigen; statische Testausgabe ist nur ein gekennzeichneter Übergang.
 
 ## Noch zu belegen
@@ -34,7 +34,7 @@ Ein nützlicher täglicher Überblick über KI und Projektmanagement als Praxisp
 
 ## Nächster Hauptschritt
 
-Die vorbereitete automatische Inhaltstiefe nach expliziter Kostenfreigabe begrenzt testen und erst nach Fakten-/Nutzwertprüfung abnehmen. Danach die IHK-Unterlagen mit dem belegten Pilotstand fertigstellen. Reddit, X und weitere Layoutoptimierung sind nachrangig.
+Die freigegebene automatische Inhaltstiefe im ersten echten Lauf prüfen und erst nach Fakten-/Nutzwertprüfung abnehmen. Danach die IHK-Unterlagen mit dem belegten Pilotstand fertigstellen. Reddit, X und weitere Layoutoptimierung sind nachrangig.
 
 ## Grenzen
 

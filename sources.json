@@ -270,7 +270,7 @@
       "max_items": 5,
       "timeout_seconds": 10,
       "max_news_age_days": 7,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": "google-ai-news",
@@ -291,7 +291,7 @@
       "max_items": 5,
       "timeout_seconds": 10,
       "max_news_age_days": 7,
-      "enabled": false
+      "enabled": true
     }
   ]
 }

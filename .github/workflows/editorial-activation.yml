@@ -1,10 +1,9 @@
-name: sneKI Morning Intelligence
+name: sneKI Editorial Activation 2026-10-07
 
 on:
-  workflow_dispatch:
-
-  schedule:
-    - cron: "7 * * * *"
+  push:
+    branches: [main]
+    paths: [".github/workflows/editorial-activation.yml"]
 
 concurrency:
   group: sneki-morning-intelligence-main
@@ -47,7 +46,18 @@ jobs:
           SNEKI_EDITORIAL_ENABLED: "1"
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          python scripts/build_briefing.py
+          python - <<'PYRUN'
+          import runpy
+          from pathlib import Path
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          if datetime.now(ZoneInfo("Europe/Berlin")).date().isoformat() != "2026-10-07":
+              raise SystemExit("Activation window closed")
+          if Path("data/archive/2026-10-07/activation.json").exists():
+              raise SystemExit("Activation edition already exists; no extra model calls")
+          ns = runpy.run_path("scripts/build_briefing.py")
+          ns["build_edition"]("activation", ns["read_raw"]())
+          PYRUN
 
       - name: Generierte Daten validieren
         run: |
