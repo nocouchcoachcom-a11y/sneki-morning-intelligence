@@ -1,20 +1,21 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-07T08:09:18+02:00",
+  "generated_at": "2026-10-07T08:37:31+02:00",
   "mode": "live",
   "edition": "morning",
   "briefing": [
     "Hybrid-C-Semantik mit deterministischem Ranking.",
     "Primärquellen werden bevorzugt; Social Radar ist deaktiviert.",
-    "Aktuelle Meldungen: Veröffentlichungen der letzten 7 Tage. Ältere Inhalte sind separat als Hintergrund eingeordnet."
+    "Keine aktuellen Kernmeldungen in der verfügbaren Auswahl der letzten 7 Tage. Lesestücke und Hintergrund bleiben verfügbar."
   ],
   "items": [
     {
       "id": "9d5dc209f53282ec4ee9",
-      "category": "EU AI Act",
+      "category": "Digitalisierung & Kontext",
       "rank": 1,
       "title": "EDIC for Agri-Food launched to support digital innovation across Europe’s food and agriculture sector",
-      "summary": "The European Digital Infrastructure Consortium for Agri-Food (EDIC for Agri-Food) has officially been established with its seat in Paris with a launch event convened by Ms Annie Genevard, French Minister of Agriculture, Agri-Food and Food Sovereignty member countries, the Commission and stakeholders from across the agri-food supply chain.",
+      "summary": "Ein europäisches digitales Infrastrukturkonsortium für den Agrar- und Ernährungssektor wurde mit Sitz in Paris eingerichtet.",
+      "summary_origin": "generated",
       "why_relevant": "Die Gründung kann für Organisationen im Agrar- und Ernährungssektor als mögliche Kooperations- oder Innovationsplattform relevant werden.",
       "watch_next": "Beobachtet werden sollten die konkreten Angebote, beteiligten Mitgliedstaaten, Anwendungsbereiche und weiteren Aktivitäten des Konsortiums.",
       "source": "European Commission – AI Act / AI Office",
@@ -24,35 +25,17 @@
       "collected_at": "2026-10-02T16:26:47+02:00",
       "verification": "primary",
       "status": "ok",
-      "is_top5": true,
-      "content_kind": "current",
-      "social_verified": false
-    },
-    {
-      "id": "5f2d0b8eb529a2538886",
-      "category": "AI & PM",
-      "rank": 2,
-      "title": "Project management lessons from The Odyssey",
-      "summary": "Projects are journeys - they have roadmaps, milestones, directions, delays and uncertainty. I recently watched The Odyssey and found myself reflecting on the project management lessons we could learn from Odysseus’ epic journey. It also left me wondering how differently things might have turned out if he had approached his journey more like a project manager.",
-      "why_relevant": "Der Beitrag bietet allgemeine Denkanstöße für Projektplanung und den Umgang mit Verzögerungen, Unsicherheit sowie der Steuerung komplexer Vorhaben.",
-      "watch_next": "Beobachten, ob aus den allgemeinen Überlegungen konkrete Methoden, Leitlinien oder anwendbare Projektmanagement-Praktiken abgeleitet werden.",
-      "source": "APM – News and Blog",
-      "source_type": "primary",
-      "source_url": "https://www.apm.org.uk/blog/project-management-lessons-from-the-odyssey/",
-      "published_at": "2026-10-01",
-      "collected_at": "2026-10-01T15:29:28+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "is_top5": true,
-      "content_kind": "current",
+      "is_top5": false,
+      "content_kind": "reading",
       "social_verified": false
     },
     {
       "id": "cb74e3bf7092b5f15652",
-      "category": "AI & PM",
-      "rank": 3,
+      "category": "Projektmanagement",
+      "rank": 2,
       "title": "Was hat PISA mit Projektmanagement zu tun?",
-      "summary": "PISA und Projektmanagement gehören zusammen: Projektorientierter Unterricht stärkt Kompetenzen, Transferdenken und praxisnahes Lernen an Schulen.",
+      "summary": "GPM beschreibt projektorientierten Unterricht als Ansatz zur Förderung von Kompetenzen, Transferdenken und praxisnahem Lernen an Schulen.",
+      "summary_origin": "generated",
       "why_relevant": "Die Meldung kann für Verantwortliche interessant sein, weil sie den möglichen Zusammenhang zwischen Bildungsansätzen und späteren Projektkompetenzen beschreibt.",
       "watch_next": "Beobachtet werden könnten konkrete Kompetenzmodelle, empirische Belege und Übertragungen projektorientierten Lernens in Organisationen.",
       "source": "GPM – Aktuelles und Blog",
@@ -62,16 +45,17 @@
       "collected_at": "2026-10-01T05:25:24+02:00",
       "verification": "primary",
       "status": "ok",
-      "is_top5": true,
-      "content_kind": "current",
+      "is_top5": false,
+      "content_kind": "reading",
       "social_verified": false
     },
     {
       "id": "69e35d4f63fb3a6177f8",
       "category": "IT Security",
-      "rank": 4,
+      "rank": 3,
       "title": "The CRA Single Reporting Platform is launched",
       "summary": "The EU Agency for Cybersecurity (ENISA) has deployed the initial operating capability of the Single Reporting Platform (SRP).",
+      "summary_origin": "source_excerpt",
       "why_relevant": "Für Verantwortliche relevant, weil die Meldung eine konkrete Entwicklung aus dem Bereich IT Security beschreibt.",
       "watch_next": "Weitere Aktualisierungen und belastbare Konkretisierungen in der Originalquelle beobachten.",
       "source": "ENISA – Cyber- und KI-Sicherheit",
@@ -88,9 +72,10 @@
     {
       "id": "0c8caa098365fd047aaa",
       "category": "IT Security",
-      "rank": 5,
+      "rank": 4,
       "title": "Cyber Resilience Act: Meldepflicht startet",
       "summary": "Für Hersteller von Produkten mit digitalen Elementen gelten auf dem Binnenmarkt der EU ab dem 11. September 2026 die Meldepflichten des CRA. Hersteller müssen aktiv ausgenutzte Schwachstellen sowie schwerwiegende Sicherheitsvorfälle melden. Das BSI unterstützt mit Schritt-für-Schritt-Anleitungen.",
+      "summary_origin": "source_excerpt",
       "why_relevant": "Für Verantwortliche relevant, weil die Meldung eine konkrete Entwicklung aus dem Bereich IT Security beschreibt.",
       "watch_next": "Weitere Aktualisierungen und belastbare Konkretisierungen in der Originalquelle beobachten.",
       "source": "BSI – Cyber- und KI-Sicherheit",
@@ -107,11 +92,12 @@
     {
       "id": "675ab8b9c70584920356",
       "category": "EU AI Act",
-      "rank": 6,
+      "rank": 5,
       "title": "Commission starts enforcing AI Act rules and new transparency requirements on 2 August",
-      "summary": "From 2 August 2026, the European Commission’s AI Office, together with national authorities, will begin enforcing the Artificial Intelligence (AI) Act.",
-      "why_relevant": "Für Unternehmen relevant, weil die Meldung eine konkrete Entwicklung zu KI-Regulierung oder Governance beschreibt, die strategisch eingeordnet werden sollte.",
-      "watch_next": "Weitere Guidance und Konkretisierungen zum Anwendungsbereich in der Originalquelle beobachten.",
+      "summary": "Beginn der Durchsetzung von AI-Act-Regeln und neuen Transparenzanforderungen.",
+      "summary_origin": "generated",
+      "why_relevant": "Der angekündigte Beginn der Durchsetzung macht die Vorbereitung auf einschlägige AI-Act-Anforderungen für betroffene Organisationen besonders relevant.",
+      "watch_next": "Betroffene Anforderungen, zuständige Behörden und konkrete Durchsetzungshinweise beobachten.",
       "source": "European Commission – AI Act / AI Office",
       "source_type": "primary",
       "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
@@ -122,49 +108,11 @@
       "is_top5": false,
       "content_kind": "background",
       "social_verified": false
-    },
-    {
-      "id": "01c5434847cfafae5a0c",
-      "category": "EU AI Act",
-      "rank": 7,
-      "title": "AI Act – konsolidierte Fassung 2026-07-27",
-      "summary": "Aktuelle konsolidierte Fassung der Regulation (EU) 2024/1689 (Artificial Intelligence Act). Stand: 2026-07-27.",
-      "why_relevant": "Für Unternehmen relevant, weil die Meldung eine konkrete Entwicklung zu KI-Regulierung oder Governance beschreibt, die strategisch eingeordnet werden sollte.",
-      "watch_next": "Weitere Guidance und Konkretisierungen zum Anwendungsbereich in der Originalquelle beobachten.",
-      "source": "EUR-Lex – Regulation (EU) 2024/1689",
-      "source_type": "primary",
-      "source_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng",
-      "published_at": "2026-07-27",
-      "collected_at": "2026-10-07T07:26:02+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "is_top5": false,
-      "content_kind": "background",
-      "social_verified": false
-    },
-    {
-      "id": "aa9c64790a7db03646d9",
-      "category": "IT Security",
-      "rank": 8,
-      "title": "ENISA scales up its role in the CVE Program",
-      "summary": "NATO Communications and Information Agency (NCIA), along with AI and cybersecurity innovator AISLE, join the Common Vulnerabilities and Exposures (CVE) Numbering Authorities (CNAs), under the ENISA Root.",
-      "why_relevant": "Für Verantwortliche relevant, weil die Meldung eine konkrete Entwicklung aus dem Bereich IT Security beschreibt.",
-      "watch_next": "Weitere Aktualisierungen und belastbare Konkretisierungen in der Originalquelle beobachten.",
-      "source": "ENISA – Cyber- und KI-Sicherheit",
-      "source_type": "primary",
-      "source_url": "https://www.enisa.europa.eu/news/enisa-scales-up-its-role-in-the-cve-program",
-      "published_at": "2026-08-06T13:10:40+02:00",
-      "collected_at": "2026-10-06T13:24:52+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "is_top5": false,
-      "content_kind": "background",
-      "social_verified": false
     }
   ],
   "freshness": {
     "news_window_days": 7,
-    "current_count": 3,
+    "current_count": 0,
     "background_count": 5
   },
   "signals": {
@@ -177,63 +125,63 @@
       "name": "European Commission – AI Act / AI Office",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-07T07:26:00+02:00",
+      "last_update": "2026-10-07T08:29:50+02:00",
       "items_found": 8
     },
     {
       "name": "EUR-Lex – Regulation (EU) 2024/1689",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-07T07:26:02+02:00",
+      "last_update": "2026-10-07T08:29:51+02:00",
       "items_found": 1
     },
     {
       "name": "European Data Protection Board",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-07T07:26:03+02:00",
+      "last_update": "2026-10-07T08:29:52+02:00",
       "items_found": 1
     },
     {
       "name": "Datenschutzkonferenz",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-07T07:26:04+02:00",
+      "last_update": "2026-10-07T08:29:53+02:00",
       "items_found": 1
     },
     {
       "name": "PMI – Artificial Intelligence",
       "type": "optional",
       "status": "failed",
-      "last_update": "2026-10-07T07:26:04+02:00",
+      "last_update": "2026-10-07T08:29:53+02:00",
       "note": "403 Client Error: Forbidden for url: https://www.pmi.org/standards/artificial-intelligence"
     },
     {
       "name": "GPM – Aktuelles und Blog",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-07T07:26:13+02:00",
+      "last_update": "2026-10-07T08:30:01+02:00",
       "items_found": 2
     },
     {
       "name": "APM – News and Blog",
       "type": "core",
-      "status": "ok",
-      "last_update": "2026-10-07T07:26:21+02:00",
-      "items_found": 4
+      "status": "failed",
+      "last_update": "2026-10-07T08:30:11+02:00",
+      "note": "HTTPSConnectionPool(host='www.apm.org.uk', port=443): Read timed out. (read timeout=10)"
     },
     {
       "name": "BSI – Cyber- und KI-Sicherheit",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-10-07T07:26:22+02:00",
+      "last_update": "2026-10-07T08:30:12+02:00",
       "items_found": 5
     },
     {
       "name": "ENISA – Cyber- und KI-Sicherheit",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-10-07T07:26:23+02:00",
+      "last_update": "2026-10-07T08:30:12+02:00",
       "items_found": 5
     }
   ],
@@ -244,7 +192,7 @@
     "reasoning_effort": "low",
     "prompt_version": "v2",
     "schema_version": "v2",
-    "cache_hits": 6,
+    "cache_hits": 1,
     "cache_misses": 0,
     "api_items_evaluated": 0,
     "api_call_performed": false,
