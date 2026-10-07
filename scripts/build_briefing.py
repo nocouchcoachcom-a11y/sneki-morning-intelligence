@@ -564,6 +564,7 @@ def rank_candidates_hybrid_v2(
         item = dict(result["item"])
         prediction = prediction_by_id[item["id"]]
         item["_hybrid_content"] = {
+            "summary": prediction["summary"].strip(),
             "why_relevant": prediction["why_relevant"].strip(),
             "watch_next": prediction["watch_next"].strip(),
         }
@@ -976,6 +977,27 @@ def deduplicate_source_urls(items, source_config):
     return list(selected.values())
 
 
+def editorial_topic(item):
+    """Konservative Einordnung anhand des gelieferten Inhalts, nicht des Quellenlabels."""
+    text = " ".join(str(item.get(key) or "") for key in ("title", "raw_excerpt"))
+    ai = bool(re.search(r"\b(?:AI|KI|LLM|GenAI|artificial intelligence|künstliche intelligenz|machine learning)\b", text, re.I))
+    if re.search(r"\b(?:AI Act|KI-Verordnung)\b", text, re.I):
+        return "EU AI Act", True
+    if re.search(r"\b(?:DSGVO|GDPR|Datenschutz|data protection|privacy)\b", text, re.I):
+        return "DSGVO & Ethik", True
+    if re.search(r"\b(?:cyber\w*|IT-Sicherheit|security|Sicherheitslücke|NIS2|Cyber Resilience Act)\b", text, re.I):
+        return "IT Security", True
+    if ai:
+        if re.search(r"\b(?:governance|governancepflichten)\b", text, re.I):
+            return "AI Governance", True
+        if re.search(r"\b(?:project management|Projektmanagement|PMO)\b", text, re.I):
+            return "AI & PM", True
+        return "KI & Technologie", True
+    if re.search(r"\b(?:project management|Projektmanagement|PMO)\b", text, re.I):
+        return "Projektmanagement", False
+    return "Digitalisierung & Kontext", False
+
+
 def select_edition_candidates(items, source_status, source_config, reference_at, *, mode=None, hybrid_provider=None, cache_path=None, limit=5):
     """Aktuelle Nachrichten getrennt von Hintergrund auswählen; keine KI für Altinhalte."""
     reference = parse_sort_timestamp(reference_at)
@@ -988,15 +1010,45 @@ def select_edition_candidates(items, source_status, source_config, reference_at,
         # Die Originale bleiben in raw-items.json erhalten.
         if published is None or published > reference:
             continue
-        (current if reference - published <= 7 * 86400 else background).append(item)
+        if reference - published <= 7 * 86400 and editorial_topic(item)[1]:
+            current.append(item)
+        elif reference - published <= 7 * 86400:
+            text = " ".join(str(item.get(key) or "") for key in ("title", "raw_excerpt"))
+            if editorial_topic(item)[0] == "Projektmanagement" or re.search(
+                r"\b(?:digital innovation|digital infrastructure|Digitalisierung)\b", text, re.I
+            ):
+                background.append({**item, "_reading": True})
+        else:
+            background.append(item)
     news, ranking = select_candidates_for_mode(
         current, source_status, source_config, reference_at, mode=mode,
         hybrid_provider=hybrid_provider, cache_path=cache_path, limit=limit,
     )
+    # Zeitnahe Lesestücke bleiben sichtbar; ältere Fachtexte ergänzen die Auswahl.
+    readings = [item for item in background if item.get("_reading")]
+    older = [item for item in background if not item.get("_reading")]
     background_ranked = rank_candidates_baseline_v2(
-        background, source_status, source_config, reference_at, limit
+        readings, source_status, source_config, reference_at, limit
     )
+    if len(background_ranked) < limit:
+        background_ranked += rank_candidates_baseline_v2(
+            older, source_status, source_config, reference_at, limit - len(background_ranked)
+        )
     selected_background = [result["item"] for result in background_ranked]
+    # Bereits vorhandene Texte wiederverwenden; keine neue Bewertung für Lesestücke.
+    try:
+        cache = read_semantic_cache(Path(cache_path) if cache_path is not None else DATA / "semantic-cache.json")
+        enriched = []
+        for item in selected_background:
+            model_input = _hybrid_model_inputs([item])[0]
+            key = semantic_input_hash(model_input)
+            prediction = _prediction_from_cache_entry(cache["entries"].get(key), model_input, key)
+            if prediction and prediction["assessment_status"] == "scored":
+                item = {**item, "_hybrid_content": {field: prediction[field] for field in ("summary", "why_relevant", "watch_next")}}
+            enriched.append(item)
+        selected_background = enriched
+    except (ValueError, OSError, IndexError):
+        pass  # Quellenauszug bleibt als expliziter Fallback erhalten.
     return news, selected_background, ranking
 
 
@@ -1066,13 +1118,18 @@ def _deterministic_editorial_fallback(item):
 
 def make_story(item, rank, *, content_kind="current"):
     excerpt = item.get("raw_excerpt") or "Zusammenfassung nicht verfügbar; Titel und Quelldaten bleiben sichtbar."
-    editorial = item.get("_hybrid_content") or _deterministic_editorial_fallback(item)
+    topic, _ = editorial_topic(item)
+    editorial = item.get("_hybrid_content") or _deterministic_editorial_fallback({**item, "category": [topic]})
+    summary = editorial.get("summary") or excerpt
+    if item.get("_reading"):
+        content_kind = "reading"
     return {
         "id": item["id"],
-        "category": (item.get("category") or ["General AI"])[0],
+        "category": topic,
         "rank": rank,
         "title": item.get("title") or item.get("source"),
-        "summary": excerpt[:420],
+        "summary": summary[:420],
+        "summary_origin": "generated" if editorial.get("summary") else "source_excerpt",
         "why_relevant": editorial["why_relevant"],
         "watch_next": editorial["watch_next"],
         "source": item.get("source"),
@@ -1113,8 +1170,8 @@ def build_edition(name, raw, *, preview=False):
         "briefing": [
             briefing_mode,
             "Primärquellen werden bevorzugt; Social Radar ist deaktiviert.",
-            ("Aktuelle Meldungen: Veröffentlichungen der letzten 7 Tage. Ältere Inhalte sind separat als Hintergrund eingeordnet."
-             if candidates else "Keine aktuellen Meldungen in der verfügbaren Auswahl der letzten 7 Tage. Es werden ausschließlich ältere Hintergrundinformationen angezeigt.")
+            ("Aktuelle Meldungen: Veröffentlichungen der letzten 7 Tage. Lesestücke und ältere Inhalte sind separat eingeordnet."
+             if candidates else "Keine aktuellen Kernmeldungen in der verfügbaren Auswahl der letzten 7 Tage. Lesestücke und Hintergrund bleiben verfügbar.")
         ],
         "items": ([make_story(x, i+1) for i, x in enumerate(candidates)]
                   + [make_story(x, len(candidates)+i+1, content_kind="background")
