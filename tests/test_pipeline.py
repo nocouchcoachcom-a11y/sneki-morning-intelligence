@@ -732,7 +732,9 @@ class BriefingBuilderTests(unittest.TestCase):
             self.assertEqual("1.0", result.get("schema_version"))
             self.assertEqual("offline-test", result.get("edition"))
             self.assertEqual("live", result.get("mode"))
-            self.assertLessEqual(len(result.get("items", [])), 5)
+            self.assertLessEqual(len([item for item in result["items"] if item["is_top5"]]), 5)
+            self.assertLessEqual(len([item for item in result["items"] if not item["is_top5"]]), 5)
+            self.assertLessEqual(len(result["items"]), 10)
             self.assertEqual(self.raw["source_status"], result.get("source_status"))
 
             day = self.builder.now_local().strftime("%Y-%m-%d")
