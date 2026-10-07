@@ -3,7 +3,7 @@ import hashlib
 import json
 import os
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import urlparse, urljoin
 import requests
 from bs4 import BeautifulSoup
 
@@ -39,11 +39,18 @@ def extract_article(html):
 def fetch_article(item, config):
     url = item.get('source_url', '')
     allowed = set(config.get('allowed_domains') or [urlparse(config.get('url', '')).hostname])
-    parsed = urlparse(url)
-    if parsed.scheme != 'https' or parsed.hostname not in allowed or parsed.username or parsed.password:
-        raise ValueError('Article URL outside configured publisher')
-    response = requests.get(url, timeout=15, allow_redirects=False,
-                            headers={'User-Agent':'sneKI Morning Intelligence editorial collector'})
+    for hop in range(4):
+        parsed = urlparse(url)
+        if parsed.scheme != 'https' or parsed.hostname not in allowed or parsed.username or parsed.password:
+            raise ValueError('Article URL outside configured publisher')
+        response = requests.get(url, timeout=15, allow_redirects=False,
+                                headers={'User-Agent':'sneKI Morning Intelligence editorial collector'})
+        if response.status_code not in {301,302,303,307,308}:
+            break
+        location = response.headers.get('Location')
+        if not location or hop == 3:
+            raise ValueError('Article redirect limit or missing destination')
+        url = urljoin(url, location)
     response.raise_for_status()
     if response.status_code != 200 or 'html' not in response.headers.get('Content-Type','').lower():
         raise ValueError('Article HTML unavailable')

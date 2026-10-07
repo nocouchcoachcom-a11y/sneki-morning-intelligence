@@ -48,6 +48,26 @@ class EditorialDepthTests(unittest.TestCase):
         p=d.build_request([{'id':'one','article_text':'Text'}])
         props=p['text']['format']['schema']['properties']['items']['items']['properties']
         self.assertEqual(['scored','insufficient_input'],props['assessment_status']['enum']);self.assertFalse(p['store'])
+    def test_explicit_openai_partnership_title_is_ai_candidate(self):
+        spec=importlib.util.spec_from_file_location('builder_topic',Path(__file__).resolve().parents[1]/'scripts/build_briefing.py')
+        b=importlib.util.module_from_spec(spec);spec.loader.exec_module(b)
+        self.assertEqual(('KI & Technologie',True),b.editorial_topic({'title':'Atlassian and OpenAI expand partnership to turn enterprise knowledge into action','raw_excerpt':''}))
+    def test_same_publisher_canonical_redirect_is_followed(self):
+        html='<main><h1>Topic</h1><p>'+('Article text. '*100)+'</p></main>'
+        responses=[Mock(status_code=301,headers={'Location':'/article/'}),Mock(status_code=200,headers={'Content-Type':'text/html'},content=html.encode())]
+        with patch.object(d.requests,'get',side_effect=responses) as get:
+            body=d.fetch_article({'source_url':'https://example.org/article'},self.config[0])
+        self.assertGreater(len(body),500);self.assertEqual(2,get.call_count)
+        self.assertEqual('https://example.org/article/',get.call_args.args[0]);self.assertFalse(get.call_args.kwargs['allow_redirects'])
+    def test_external_or_insecure_redirect_is_blocked_before_request(self):
+        for target in ('https://evil.example/article','http://example.org/article'):
+            with self.subTest(target=target),patch.object(d.requests,'get',return_value=Mock(status_code=302,headers={'Location':target})) as get:
+                with self.assertRaises(ValueError):d.fetch_article({'source_url':'https://example.org/article'},self.config[0])
+                self.assertEqual(1,get.call_count)
+    def test_redirect_loop_stops_after_four_requests(self):
+        with patch.object(d.requests,'get',return_value=Mock(status_code=301,headers={'Location':'/article'})) as get:
+            with self.assertRaises(ValueError):d.fetch_article({'source_url':'https://example.org/article'},self.config[0])
+            self.assertEqual(4,get.call_count)
     def test_extraction_uses_body_not_meta_and_stops_before_comments(self):
         html='<html><meta name="description" content="Tiny description"><body><main><h1>Topic</h1><nav><p>Navigation</p></nav><p>Actual detailed article.</p><h2>Kommentare</h2><p>Ignore comments.</p></main></body></html>'
         self.assertEqual('Actual detailed article.',d.extract_article(html))

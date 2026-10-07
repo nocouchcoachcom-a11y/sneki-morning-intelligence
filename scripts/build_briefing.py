@@ -985,7 +985,7 @@ def deduplicate_source_urls(items, source_config):
 def editorial_topic(item):
     """Konservative Einordnung anhand des gelieferten Inhalts, nicht des Quellenlabels."""
     text = " ".join(str(item.get(key) or "") for key in ("title", "raw_excerpt"))
-    ai = bool(re.search(r"\b(?:AI|KI|LLM|GenAI|ChatGPT|GPT[- ]?\d+|Claude|Gemini|Codex|artificial intelligence|künstliche intelligenz|machine learning)\b", text, re.I))
+    ai = bool(re.search(r"\b(?:AI|KI|LLM|GenAI|OpenAI|ChatGPT|GPT[- ]?\d+|Claude|Gemini|Codex|artificial intelligence|künstliche intelligenz|machine learning)\b", text, re.I))
     if re.search(r"\b(?:AI Act|KI-Verordnung)\b", text, re.I):
         return "EU AI Act", True
     if re.search(r"\b(?:DSGVO|GDPR|Datenschutz|data protection|privacy)\b", text, re.I):

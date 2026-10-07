@@ -13,10 +13,12 @@ Ein nützlicher täglicher Überblick über KI und Projektmanagement als Praxisp
 - BSI und ENISA sind neben regulatorischen Quellen und GPM/APM integriert.
 - Veröffentlichungsalter und Abrufstatus werden getrennt dargestellt.
 - Deutsche Cache-Texte, relevante KI-/PM-Hintergründe und Auswahlgrenzen werden verwendet.
-- Drei manuell redaktionell geprüfte ausführliche Testbeiträge sind sichtbar. Sie sind nicht Teil der automatischen täglichen Aufbereitung.
+- Drei manuell redaktionell geprüfte Testbeiträge bleiben als Übergangs-Fallback verfügbar. Bei aktivierter Automatik zeigt die Website deren echte Beiträge.
 - Ein genehmigter Zusatzaufruf scheiterte nach der Modellantwort an der Statusvalidierung. Er wurde nicht wiederholt; sein genauer Verbrauch ist nicht gespeichert.
 
-## Aktivierung freigegeben, echte Abnahme offen
+## Aktivierung freigegeben, erste Ausgabe bestätigt
+
+Der Aktivierungslauf vom 07.10.2026 um 09:37 Uhr war erfolgreich: drei aktuelle Meldungen und fünf Hintergründe, davon zwei ausführliche PM-Beiträge. 5589 Modell-Tokens; einfache gespeicherte Kostenschätzung rund 0,003 USD (keine Abrechnung). Drei kanonische OpenAI-Weiterleitungen wurden zuerst abgewiesen; der Abruf ist jetzt korrigiert und durch Offline-Tests geprüft. Kein zusätzlicher bezahlter Wiederholungslauf. Details: [Aktivierungsprüfung](docs/editorial-activation-2026-10-07.md).
 
 - Artikelbasierte ausführliche Einordnung mit Praxisbeispiel, Prüfschritt und Grenzen.
 - Strukturierter Modellvertrag, validierter Cache, Fehlerpfad ohne Wiederholungsaufruf und Erhalt der Kurzfassung.
@@ -26,7 +28,7 @@ Ein nützlicher täglicher Überblick über KI und Projektmanagement als Praxisp
 
 ## Noch zu belegen
 
-- Erfolgreicher echter Lauf der ausführlichen automatischen Aufbereitung und nachfolgende Wiederverwendung des Caches.
+- Erneute echte Cache-Nutzung und erfolgreicher korrigierter Abruf der Herstellerartikel im nächsten regulären Lauf.
 - Mehrere Ausgabeprüfungen auf relevante Themen, sachliche Fehler, Kosten und Quellenabdeckung.
 - Anwenderdurchlauf und tatsächlicher Zeitaufwand einschließlich Nachprüfung.
 - Finale konsistente IHK-Abgabe: OnePager und 8–10 Folien als eine PDF, einschließlich ROI, Reifegrad, Governance, Change und Reflexion.
