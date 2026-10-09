@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "collected_at": "2026-10-09T03:26:42+02:00",
+  "collected_at": "2026-10-09T04:24:38+02:00",
   "items": [
     {
       "id": "4f852222e6afe0bec66a",
@@ -20,7 +20,7 @@
       "collector_note": null,
       "content_hash": "d87f2226ff7bcd745f01bf1d6c25660deaa172d623b7186ed9f0896e8f0fef8f",
       "first_seen_at": "2026-10-08T06:26:56+02:00",
-      "last_seen_at": "2026-10-09T03:26:42+02:00"
+      "last_seen_at": "2026-10-09T04:24:38+02:00"
     },
     {
       "id": "16dd981401fcd9920a12",
@@ -40,7 +40,7 @@
       "collector_note": null,
       "content_hash": "e593e09fda3eea2625ddcd10cfa4fbc4bcb634260f8750b56cda090274ffa7fe",
       "first_seen_at": "2026-10-08T09:28:47+02:00",
-      "last_seen_at": "2026-10-09T03:26:42+02:00"
+      "last_seen_at": "2026-10-09T04:24:38+02:00"
     },
     {
       "id": "1b9093b9dc7cd22eaf88",
@@ -60,7 +60,7 @@
       "collector_note": null,
       "content_hash": "04ea37498401cd43386319ee7336fc14ecf6db7569bbf1eb6bb0e209e09c58f4",
       "first_seen_at": "2026-10-08T11:27:51+02:00",
-      "last_seen_at": "2026-10-09T03:26:42+02:00"
+      "last_seen_at": "2026-10-09T04:24:38+02:00"
     },
     {
       "id": "3bb93a0a633c57496292",
@@ -80,7 +80,7 @@
       "collector_note": null,
       "content_hash": "36a96d332d296484a5dd0b0f5bbc137a3be16f6faa8e362e729ade75337aeeb9",
       "first_seen_at": "2026-10-08T12:29:07+02:00",
-      "last_seen_at": "2026-10-09T03:26:42+02:00"
+      "last_seen_at": "2026-10-09T04:24:38+02:00"
     },
     {
       "id": "96bd3e442c3954670114",
@@ -100,7 +100,7 @@
       "collector_note": null,
       "content_hash": "98ac44730cf3405066308e7037701f04f07762bb66e0d1d3b800777cedd0b91e",
       "first_seen_at": "2026-10-08T12:29:07+02:00",
-      "last_seen_at": "2026-10-09T03:26:42+02:00"
+      "last_seen_at": "2026-10-09T04:24:38+02:00"
     },
     {
       "id": "093a20211a03c2407172",
@@ -120,7 +120,7 @@
       "collector_note": null,
       "content_hash": "71ca6642c20907460f3eeb109b64088f75df8fff410e2c7f767f58522070b139",
       "first_seen_at": "2026-10-08T12:29:07+02:00",
-      "last_seen_at": "2026-10-09T03:26:42+02:00"
+      "last_seen_at": "2026-10-09T04:24:38+02:00"
     },
     {
       "id": "ad080927e45ab7bcd83c",
@@ -140,7 +140,7 @@
       "collector_note": null,
       "content_hash": "f69d42f0ec34fff220e0950e440162dbe84a728a35e6aa19778bdca504a13482",
       "first_seen_at": "2026-10-08T15:30:14+02:00",
-      "last_seen_at": "2026-10-09T03:26:42+02:00"
+      "last_seen_at": "2026-10-09T04:24:38+02:00"
     },
     {
       "id": "0b619919cad81bea28d5",
@@ -160,7 +160,7 @@
       "collector_note": null,
       "content_hash": "822dcdddf2714c3e1fe5dec820f4cc81df7a5fa5629e0d5a8ca1958a4589ea55",
       "first_seen_at": "2026-10-08T18:30:05+02:00",
-      "last_seen_at": "2026-10-09T03:26:42+02:00"
+      "last_seen_at": "2026-10-09T04:24:38+02:00"
     },
     {
       "id": "c7d7bb4939fc2f0dad73",
@@ -180,7 +180,7 @@
       "collector_note": null,
       "content_hash": "1b43760e04547b5751a11afd2896f3b3aa8a572f9c7b3ccc5d3297f0a62ce5ce",
       "first_seen_at": "2026-10-07T09:37:16+02:00",
-      "last_seen_at": "2026-10-09T03:26:42+02:00"
+      "last_seen_at": "2026-10-09T04:24:37+02:00"
     },
     {
       "id": "b92ea2310cc5132177da",
@@ -200,7 +200,7 @@
       "collector_note": null,
       "content_hash": "e6029d901a530f7ae7c5eb830e90f0f7c0308a8a6900d6397372a0074721eb36",
       "first_seen_at": "2026-10-07T09:37:16+02:00",
-      "last_seen_at": "2026-10-09T03:26:42+02:00"
+      "last_seen_at": "2026-10-09T04:24:37+02:00"
     },
     {
       "id": "b4162d56612c1332aaae",
@@ -220,7 +220,7 @@
       "collector_note": null,
       "content_hash": "d458b769d914c00d50f576b5a5d777f0a73fac22ea982f732f049f8f8e38c202",
       "first_seen_at": "2026-10-07T09:37:16+02:00",
-      "last_seen_at": "2026-10-09T03:26:42+02:00"
+      "last_seen_at": "2026-10-09T04:24:37+02:00"
     },
     {
       "id": "589953384ae52c75dc97",
@@ -240,7 +240,7 @@
       "collector_note": null,
       "content_hash": "56fadafe44aeca56a99a8646170134b349f1f40b5bb67b83e789da4e6f2d5144",
       "first_seen_at": "2026-10-07T09:37:16+02:00",
-      "last_seen_at": "2026-10-09T03:26:42+02:00"
+      "last_seen_at": "2026-10-09T04:24:37+02:00"
     },
     {
       "id": "b19c702be37740f484a0",
@@ -260,7 +260,7 @@
       "collector_note": null,
       "content_hash": "05480450e66b8d504a43770b97669157f396074b09721b4d7a969a5ee9050fde",
       "first_seen_at": "2026-10-07T14:33:39+02:00",
-      "last_seen_at": "2026-10-09T03:26:42+02:00"
+      "last_seen_at": "2026-10-09T04:24:37+02:00"
     },
     {
       "id": "c697b8b575831ce0dbfb",
@@ -280,7 +280,7 @@
       "collector_note": null,
       "content_hash": "b0936b728fe2467236ee7de8ccd470b51340c74896bdcde217a71026c7a31c46",
       "first_seen_at": "2026-10-07T18:28:54+02:00",
-      "last_seen_at": "2026-10-09T03:26:41+02:00"
+      "last_seen_at": "2026-10-09T04:24:37+02:00"
     },
     {
       "id": "14aeb3f8fe7ba34f9928",
@@ -300,7 +300,7 @@
       "collector_note": null,
       "content_hash": "801c36515f6b610e746d009736ca263f721d0c24c9a0f89e5dd71a00b8f8a582",
       "first_seen_at": "2026-10-08T17:28:45+02:00",
-      "last_seen_at": "2026-10-09T03:26:41+02:00"
+      "last_seen_at": "2026-10-09T04:24:37+02:00"
     },
     {
       "id": "5dfafcc3e90fe51b1106",
@@ -320,7 +320,7 @@
       "collector_note": null,
       "content_hash": "47f4cfeaf3d8c2d3f87aae40bb03a89a162c2475bd48d6bd7ce1c8d5b45396b3",
       "first_seen_at": "2026-10-08T20:29:05+02:00",
-      "last_seen_at": "2026-10-09T03:26:41+02:00"
+      "last_seen_at": "2026-10-09T04:24:37+02:00"
     },
     {
       "id": "532efa6cffbe518d01f7",
@@ -340,207 +340,7 @@
       "collector_note": null,
       "content_hash": "0bbb734722d19271678456effd247db9babcb20ac7a735cea75dbbfeb5aeab31",
       "first_seen_at": "2026-10-08T20:29:05+02:00",
-      "last_seen_at": "2026-10-09T03:26:41+02:00"
-    },
-    {
-      "id": "8f06b79d388f40327935",
-      "source_id": "enisa-security",
-      "source": "ENISA – Cyber- und KI-Sicherheit",
-      "source_type": "primary",
-      "source_url": "https://www.enisa.europa.eu/news/cybersecurity-month-work-employees-skills-under-the-looking-glass",
-      "category": [
-        "IT Security"
-      ],
-      "title": "Cybersecurity Month @ work: Employees' skills under the looking glass",
-      "raw_excerpt": "With the digitalisation of the workplace, organisations and their employees must navigate and manage the digital risks.",
-      "published_at": "2026-09-30T12:55:56+02:00",
-      "collected_at": "2026-10-06T13:24:52+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "225fd97730996f1056df2c3d6e0681ea23d0a6212ad9322476999f5ec066e30b",
-      "first_seen_at": "2026-10-06T13:24:52+02:00",
-      "last_seen_at": "2026-10-09T03:26:41+02:00"
-    },
-    {
-      "id": "65e9186f8e76dd91b78b",
-      "source_id": "enisa-security",
-      "source": "ENISA – Cyber- und KI-Sicherheit",
-      "source_type": "primary",
-      "source_url": "https://www.enisa.europa.eu/news/exploring-the-evolution-of-the-cyber-threat-landscape-how-dependencies-weaken-our-digital-resilience",
-      "category": [
-        "IT Security"
-      ],
-      "title": "Exploring the evolution of the cyber threat landscape: How dependencies weaken our digital resilience",
-      "raw_excerpt": "The 2026 ENISA Threat Landscape confirms that cyber dependencies expand the attack surface and require a new level of vigilance to effectively prevent and mitigate the impact of cyber incidents.",
-      "published_at": "2026-09-22T12:02:45+02:00",
-      "collected_at": "2026-10-06T13:24:52+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "2fd558dcd468f0aab6e36a9da997400381d2c4c477d5b31c086a1f5ef47fa7ce",
-      "first_seen_at": "2026-10-06T13:24:52+02:00",
-      "last_seen_at": "2026-10-09T03:26:41+02:00"
-    },
-    {
-      "id": "69e35d4f63fb3a6177f8",
-      "source_id": "enisa-security",
-      "source": "ENISA – Cyber- und KI-Sicherheit",
-      "source_type": "primary",
-      "source_url": "https://www.enisa.europa.eu/news/the-cra-single-reporting-platform-is-launched",
-      "category": [
-        "IT Security"
-      ],
-      "title": "The CRA Single Reporting Platform is launched",
-      "raw_excerpt": "The EU Agency for Cybersecurity (ENISA) has deployed the initial operating capability of the Single Reporting Platform (SRP).",
-      "published_at": "2026-09-11T13:00:26+02:00",
-      "collected_at": "2026-10-06T13:24:52+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "376977684c043312d89d15c0ffe34cb6fd17761d7174ab6e954baf04c39ac5d8",
-      "first_seen_at": "2026-10-06T13:24:52+02:00",
-      "last_seen_at": "2026-10-09T03:26:41+02:00"
-    },
-    {
-      "id": "aa9c64790a7db03646d9",
-      "source_id": "enisa-security",
-      "source": "ENISA – Cyber- und KI-Sicherheit",
-      "source_type": "primary",
-      "source_url": "https://www.enisa.europa.eu/news/enisa-scales-up-its-role-in-the-cve-program",
-      "category": [
-        "IT Security"
-      ],
-      "title": "ENISA scales up its role in the CVE Program",
-      "raw_excerpt": "NATO Communications and Information Agency (NCIA), along with AI and cybersecurity innovator AISLE, join the Common Vulnerabilities and Exposures (CVE) Numbering Authorities (CNAs), under the ENISA Root.",
-      "published_at": "2026-08-06T13:10:40+02:00",
-      "collected_at": "2026-10-06T13:24:52+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "e23d30677d9db5c5a8af3afcf3536c5ce3a31455d8324890055107201bf11e17",
-      "first_seen_at": "2026-10-06T13:24:52+02:00",
-      "last_seen_at": "2026-10-09T03:26:41+02:00"
-    },
-    {
-      "id": "37a0e12ebb691190f14d",
-      "source_id": "enisa-security",
-      "source": "ENISA – Cyber- und KI-Sicherheit",
-      "source_type": "primary",
-      "source_url": "https://www.enisa.europa.eu/news/have-your-say-on-the-certification-of-eu-managed-security-services",
-      "category": [
-        "IT Security"
-      ],
-      "title": "Have your say on the certification of EU Managed Security Services",
-      "raw_excerpt": "ENISA is launching a public consultation on the draft candidate cybersecurity certification scheme on EU Managed Security Services (EUMSS), following its work with the dedicated Ad Hoc Working Group.",
-      "published_at": "2026-07-24T12:00:13+02:00",
-      "collected_at": "2026-10-06T13:24:52+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "689f2572401454d352cc027392d682def7ab40956b4c1a28c2dbf232e1c59544",
-      "first_seen_at": "2026-10-06T13:24:52+02:00",
-      "last_seen_at": "2026-10-09T03:26:41+02:00"
-    },
-    {
-      "id": "0c8caa098365fd047aaa",
-      "source_id": "bsi-security",
-      "source": "BSI – Cyber- und KI-Sicherheit",
-      "source_type": "primary",
-      "source_url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/260911_CRA_Meldepflicht_Schwachstellen.html",
-      "category": [
-        "IT Security"
-      ],
-      "title": "Cyber Resilience Act: Meldepflicht startet",
-      "raw_excerpt": "Für Hersteller von Produkten mit digitalen Elementen gelten auf dem Binnenmarkt der EU ab dem 11. September 2026 die Meldepflichten des CRA. Hersteller müssen aktiv ausgenutzte Schwachstellen sowie schwerwiegende Sicherheitsvorfälle melden. Das BSI unterstützt mit Schritt-für-Schritt-Anleitungen.",
-      "published_at": "2026-09-11T09:00:00+02:00",
-      "collected_at": "2026-10-06T13:24:51+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "81395f5d03cf2b1d35d1800c9ae35ee1414e3b4260cbdce7260b29b63dc94971",
-      "first_seen_at": "2026-10-06T13:24:51+02:00",
-      "last_seen_at": "2026-10-09T03:26:41+02:00"
-    },
-    {
-      "id": "3a84ffe437a1be8937fb",
-      "source_id": "bsi-security",
-      "source": "BSI – Cyber- und KI-Sicherheit",
-      "source_type": "primary",
-      "source_url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/260806_security_txt.html",
-      "category": [
-        "IT Security"
-      ],
-      "title": "Nur 1,8 Prozent der Webseitenbetreiber nutzen security.txt – BSI und ACS raten zur Umsetzung",
-      "raw_excerpt": "Nur 1,8 Prozent der Webseitenbetreiber in Deutschland stellen bislang eine security.txt bereit. Das zeigen Messungen des Bundesamt für Sicherheit in der Informationstechnik (BSI) im Rahmen des Cyberdome-Projekts.",
-      "published_at": "2026-08-06T10:15:00+02:00",
-      "collected_at": "2026-10-06T13:24:51+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "88600f0816bc82143e2deae3f8277c0f8066609b642aeb481559cc0ab0b4c926",
-      "first_seen_at": "2026-10-06T13:24:51+02:00",
-      "last_seen_at": "2026-10-09T03:26:41+02:00"
-    },
-    {
-      "id": "677a3907a60a79063d20",
-      "source_id": "bsi-security",
-      "source": "BSI – Cyber- und KI-Sicherheit",
-      "source_type": "primary",
-      "source_url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/260728_Sichere_Ladeinfrastruktur.html",
-      "category": [
-        "IT Security"
-      ],
-      "title": "Sichere Ladeinfrastruktur: BSI veröffentlicht Eckpunktepapier und startet mit beteiligten Ressorts die Maßnahmenumsetzung",
-      "raw_excerpt": "Die Elektromobilität in Deutschland entwickelt sich immer dynamischer. Damit steigen auch die Anforderungen an Cybersicherheit und Resilienz. Das BSI hat aufbauend auf einer Studie ein Eckpunktepapier mit konkreten Maßnahmen für eine resiliente und vertrauenswürdige Ladeinfrastruktur erarbeitet.",
-      "published_at": "2026-07-28T10:00:00+02:00",
-      "collected_at": "2026-10-06T13:24:51+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "d88f09321ffc92e67e77becb68315572d48b6459ca116b6008f21fccd81952b3",
-      "first_seen_at": "2026-10-06T13:24:51+02:00",
-      "last_seen_at": "2026-10-09T03:26:41+02:00"
-    },
-    {
-      "id": "ff590f1b258a9879c652",
-      "source_id": "bsi-security",
-      "source": "BSI – Cyber- und KI-Sicherheit",
-      "source_type": "primary",
-      "source_url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/260722_Bundeskabinett_staerkt_CGS.html",
-      "category": [
-        "IT Security"
-      ],
-      "title": "Bundeskabinett stärkt mit „CyberGovSecure\" die Cybersicherheit der Bundesverwaltung",
-      "raw_excerpt": "Das Programm „CyberGovSecure“ setzt einen verbindlichen politischen und organisatorischen Rahmen. Das Programm setzt sich zum Ziel, die Cybersicherheit und Cyberresilienz der Bundesverwaltung ressortübergreifend, wirksam und messbar zu stärken.",
-      "published_at": "2026-07-22T14:00:00+02:00",
-      "collected_at": "2026-10-06T13:24:51+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "7dd18494bb85542a62f081aa4e2c03e745354825045ef8baee2cdc042b72c3f0",
-      "first_seen_at": "2026-10-06T13:24:51+02:00",
-      "last_seen_at": "2026-10-09T03:26:41+02:00"
-    },
-    {
-      "id": "e5c9b8b2ace7a43200cf",
-      "source_id": "bsi-security",
-      "source": "BSI – Cyber- und KI-Sicherheit",
-      "source_type": "primary",
-      "source_url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/261007_KI-Sicherheitsstudie_TUEV_BSI.html",
-      "category": [
-        "IT Security"
-      ],
-      "title": "Nur jedes zehnte Unternehmen gegen KI-gestützte Angriffe gerüstet - jedes sechste Unternehmen berichtet von Vorfällen",
-      "raw_excerpt": "Nur wenige Unternehmen in Deutschland haben Schutzmaßnahmen und Prozesse mit Blick auf Cyberangriffe im Zusammenhang mit KI etabliert. Das zeigt die aktuelle Studie zum Thema „Künstliche Intelligenz und Cybersicherheit in Unternehmen\", eine gemeinsame Untersuchung des TÜV-Verbands und des BSI, für die mehr als 500 Unternehmen ab 20 Mitarbeitenden befragt wurden.",
-      "published_at": "2026-10-07T10:00:00+02:00",
-      "collected_at": "2026-10-07T10:28:48+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "007c16d21b65a4736b024de225f5866aa482693538dca236d2a0ebfecd794032",
-      "first_seen_at": "2026-10-07T10:28:48+02:00",
-      "last_seen_at": "2026-10-09T03:26:41+02:00"
+      "last_seen_at": "2026-10-09T04:24:37+02:00"
     },
     {
       "id": "1c71b03f3efb97447d56",
@@ -560,7 +360,207 @@
       "collector_note": null,
       "content_hash": "03d825f4feae31a5a4e904b9acb5dda68e1e26d41256461b9966f35da073c717",
       "first_seen_at": "2026-10-09T02:38:09+02:00",
-      "last_seen_at": "2026-10-09T03:26:41+02:00"
+      "last_seen_at": "2026-10-09T04:24:37+02:00"
+    },
+    {
+      "id": "8f06b79d388f40327935",
+      "source_id": "enisa-security",
+      "source": "ENISA – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.enisa.europa.eu/news/cybersecurity-month-work-employees-skills-under-the-looking-glass",
+      "category": [
+        "IT Security"
+      ],
+      "title": "Cybersecurity Month @ work: Employees' skills under the looking glass",
+      "raw_excerpt": "With the digitalisation of the workplace, organisations and their employees must navigate and manage the digital risks.",
+      "published_at": "2026-09-30T12:55:56+02:00",
+      "collected_at": "2026-10-06T13:24:52+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "225fd97730996f1056df2c3d6e0681ea23d0a6212ad9322476999f5ec066e30b",
+      "first_seen_at": "2026-10-06T13:24:52+02:00",
+      "last_seen_at": "2026-10-09T04:24:36+02:00"
+    },
+    {
+      "id": "65e9186f8e76dd91b78b",
+      "source_id": "enisa-security",
+      "source": "ENISA – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.enisa.europa.eu/news/exploring-the-evolution-of-the-cyber-threat-landscape-how-dependencies-weaken-our-digital-resilience",
+      "category": [
+        "IT Security"
+      ],
+      "title": "Exploring the evolution of the cyber threat landscape: How dependencies weaken our digital resilience",
+      "raw_excerpt": "The 2026 ENISA Threat Landscape confirms that cyber dependencies expand the attack surface and require a new level of vigilance to effectively prevent and mitigate the impact of cyber incidents.",
+      "published_at": "2026-09-22T12:02:45+02:00",
+      "collected_at": "2026-10-06T13:24:52+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "2fd558dcd468f0aab6e36a9da997400381d2c4c477d5b31c086a1f5ef47fa7ce",
+      "first_seen_at": "2026-10-06T13:24:52+02:00",
+      "last_seen_at": "2026-10-09T04:24:36+02:00"
+    },
+    {
+      "id": "69e35d4f63fb3a6177f8",
+      "source_id": "enisa-security",
+      "source": "ENISA – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.enisa.europa.eu/news/the-cra-single-reporting-platform-is-launched",
+      "category": [
+        "IT Security"
+      ],
+      "title": "The CRA Single Reporting Platform is launched",
+      "raw_excerpt": "The EU Agency for Cybersecurity (ENISA) has deployed the initial operating capability of the Single Reporting Platform (SRP).",
+      "published_at": "2026-09-11T13:00:26+02:00",
+      "collected_at": "2026-10-06T13:24:52+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "376977684c043312d89d15c0ffe34cb6fd17761d7174ab6e954baf04c39ac5d8",
+      "first_seen_at": "2026-10-06T13:24:52+02:00",
+      "last_seen_at": "2026-10-09T04:24:36+02:00"
+    },
+    {
+      "id": "aa9c64790a7db03646d9",
+      "source_id": "enisa-security",
+      "source": "ENISA – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.enisa.europa.eu/news/enisa-scales-up-its-role-in-the-cve-program",
+      "category": [
+        "IT Security"
+      ],
+      "title": "ENISA scales up its role in the CVE Program",
+      "raw_excerpt": "NATO Communications and Information Agency (NCIA), along with AI and cybersecurity innovator AISLE, join the Common Vulnerabilities and Exposures (CVE) Numbering Authorities (CNAs), under the ENISA Root.",
+      "published_at": "2026-08-06T13:10:40+02:00",
+      "collected_at": "2026-10-06T13:24:52+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "e23d30677d9db5c5a8af3afcf3536c5ce3a31455d8324890055107201bf11e17",
+      "first_seen_at": "2026-10-06T13:24:52+02:00",
+      "last_seen_at": "2026-10-09T04:24:36+02:00"
+    },
+    {
+      "id": "37a0e12ebb691190f14d",
+      "source_id": "enisa-security",
+      "source": "ENISA – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.enisa.europa.eu/news/have-your-say-on-the-certification-of-eu-managed-security-services",
+      "category": [
+        "IT Security"
+      ],
+      "title": "Have your say on the certification of EU Managed Security Services",
+      "raw_excerpt": "ENISA is launching a public consultation on the draft candidate cybersecurity certification scheme on EU Managed Security Services (EUMSS), following its work with the dedicated Ad Hoc Working Group.",
+      "published_at": "2026-07-24T12:00:13+02:00",
+      "collected_at": "2026-10-06T13:24:52+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "689f2572401454d352cc027392d682def7ab40956b4c1a28c2dbf232e1c59544",
+      "first_seen_at": "2026-10-06T13:24:52+02:00",
+      "last_seen_at": "2026-10-09T04:24:36+02:00"
+    },
+    {
+      "id": "0c8caa098365fd047aaa",
+      "source_id": "bsi-security",
+      "source": "BSI – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/260911_CRA_Meldepflicht_Schwachstellen.html",
+      "category": [
+        "IT Security"
+      ],
+      "title": "Cyber Resilience Act: Meldepflicht startet",
+      "raw_excerpt": "Für Hersteller von Produkten mit digitalen Elementen gelten auf dem Binnenmarkt der EU ab dem 11. September 2026 die Meldepflichten des CRA. Hersteller müssen aktiv ausgenutzte Schwachstellen sowie schwerwiegende Sicherheitsvorfälle melden. Das BSI unterstützt mit Schritt-für-Schritt-Anleitungen.",
+      "published_at": "2026-09-11T09:00:00+02:00",
+      "collected_at": "2026-10-06T13:24:51+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "81395f5d03cf2b1d35d1800c9ae35ee1414e3b4260cbdce7260b29b63dc94971",
+      "first_seen_at": "2026-10-06T13:24:51+02:00",
+      "last_seen_at": "2026-10-09T04:24:35+02:00"
+    },
+    {
+      "id": "3a84ffe437a1be8937fb",
+      "source_id": "bsi-security",
+      "source": "BSI – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/260806_security_txt.html",
+      "category": [
+        "IT Security"
+      ],
+      "title": "Nur 1,8 Prozent der Webseitenbetreiber nutzen security.txt – BSI und ACS raten zur Umsetzung",
+      "raw_excerpt": "Nur 1,8 Prozent der Webseitenbetreiber in Deutschland stellen bislang eine security.txt bereit. Das zeigen Messungen des Bundesamt für Sicherheit in der Informationstechnik (BSI) im Rahmen des Cyberdome-Projekts.",
+      "published_at": "2026-08-06T10:15:00+02:00",
+      "collected_at": "2026-10-06T13:24:51+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "88600f0816bc82143e2deae3f8277c0f8066609b642aeb481559cc0ab0b4c926",
+      "first_seen_at": "2026-10-06T13:24:51+02:00",
+      "last_seen_at": "2026-10-09T04:24:35+02:00"
+    },
+    {
+      "id": "677a3907a60a79063d20",
+      "source_id": "bsi-security",
+      "source": "BSI – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/260728_Sichere_Ladeinfrastruktur.html",
+      "category": [
+        "IT Security"
+      ],
+      "title": "Sichere Ladeinfrastruktur: BSI veröffentlicht Eckpunktepapier und startet mit beteiligten Ressorts die Maßnahmenumsetzung",
+      "raw_excerpt": "Die Elektromobilität in Deutschland entwickelt sich immer dynamischer. Damit steigen auch die Anforderungen an Cybersicherheit und Resilienz. Das BSI hat aufbauend auf einer Studie ein Eckpunktepapier mit konkreten Maßnahmen für eine resiliente und vertrauenswürdige Ladeinfrastruktur erarbeitet.",
+      "published_at": "2026-07-28T10:00:00+02:00",
+      "collected_at": "2026-10-06T13:24:51+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "d88f09321ffc92e67e77becb68315572d48b6459ca116b6008f21fccd81952b3",
+      "first_seen_at": "2026-10-06T13:24:51+02:00",
+      "last_seen_at": "2026-10-09T04:24:35+02:00"
+    },
+    {
+      "id": "ff590f1b258a9879c652",
+      "source_id": "bsi-security",
+      "source": "BSI – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/260722_Bundeskabinett_staerkt_CGS.html",
+      "category": [
+        "IT Security"
+      ],
+      "title": "Bundeskabinett stärkt mit „CyberGovSecure\" die Cybersicherheit der Bundesverwaltung",
+      "raw_excerpt": "Das Programm „CyberGovSecure“ setzt einen verbindlichen politischen und organisatorischen Rahmen. Das Programm setzt sich zum Ziel, die Cybersicherheit und Cyberresilienz der Bundesverwaltung ressortübergreifend, wirksam und messbar zu stärken.",
+      "published_at": "2026-07-22T14:00:00+02:00",
+      "collected_at": "2026-10-06T13:24:51+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "7dd18494bb85542a62f081aa4e2c03e745354825045ef8baee2cdc042b72c3f0",
+      "first_seen_at": "2026-10-06T13:24:51+02:00",
+      "last_seen_at": "2026-10-09T04:24:35+02:00"
+    },
+    {
+      "id": "e5c9b8b2ace7a43200cf",
+      "source_id": "bsi-security",
+      "source": "BSI – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/261007_KI-Sicherheitsstudie_TUEV_BSI.html",
+      "category": [
+        "IT Security"
+      ],
+      "title": "Nur jedes zehnte Unternehmen gegen KI-gestützte Angriffe gerüstet - jedes sechste Unternehmen berichtet von Vorfällen",
+      "raw_excerpt": "Nur wenige Unternehmen in Deutschland haben Schutzmaßnahmen und Prozesse mit Blick auf Cyberangriffe im Zusammenhang mit KI etabliert. Das zeigt die aktuelle Studie zum Thema „Künstliche Intelligenz und Cybersicherheit in Unternehmen\", eine gemeinsame Untersuchung des TÜV-Verbands und des BSI, für die mehr als 500 Unternehmen ab 20 Mitarbeitenden befragt wurden.",
+      "published_at": "2026-10-07T10:00:00+02:00",
+      "collected_at": "2026-10-07T10:28:48+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "007c16d21b65a4736b024de225f5866aa482693538dca236d2a0ebfecd794032",
+      "first_seen_at": "2026-10-07T10:28:48+02:00",
+      "last_seen_at": "2026-10-09T04:24:35+02:00"
     },
     {
       "id": "01846c67871d722ee1ef",
@@ -580,7 +580,7 @@
       "collector_note": null,
       "content_hash": "e15009ed611ec79a7c86e6cd484d04ae2a3bf12f546d1e84d97da0e0347e2334",
       "first_seen_at": "2026-10-08T15:30:11+02:00",
-      "last_seen_at": "2026-10-09T03:26:40+02:00"
+      "last_seen_at": "2026-10-09T04:24:32+02:00"
     },
     {
       "id": "d746eb7a0098ea55d816",
@@ -600,7 +600,7 @@
       "collector_note": null,
       "content_hash": "1801f7ec9ea8e97eb78a4102f017547dfcc1643c5289e1ae2ef5106861aa8e4f",
       "first_seen_at": "2026-10-07T12:26:51+02:00",
-      "last_seen_at": "2026-10-09T03:26:40+02:00"
+      "last_seen_at": "2026-10-09T04:24:31+02:00"
     },
     {
       "id": "1335926208b6756f5e00",
@@ -620,7 +620,7 @@
       "collector_note": null,
       "content_hash": "4b432e3b3e965e2fa65fa546ac728bdf83867935c4b5a67df14cee7618543ad7",
       "first_seen_at": "2026-09-18T15:21:39+02:00",
-      "last_seen_at": "2026-10-09T03:26:39+02:00"
+      "last_seen_at": "2026-10-09T04:24:30+02:00"
     },
     {
       "id": "7b8ef343ee9249f31973",
@@ -640,7 +640,7 @@
       "collector_note": null,
       "content_hash": "4c6fba53644f15f740ed1f9745f5002f86278699b51b4faa2977170fa853240f",
       "first_seen_at": "2026-09-24T13:22:25+02:00",
-      "last_seen_at": "2026-10-09T03:26:38+02:00"
+      "last_seen_at": "2026-10-09T04:24:29+02:00"
     },
     {
       "id": "2fa4ab50dd0bb4a3245b",
@@ -660,7 +660,7 @@
       "collector_note": null,
       "content_hash": "0b9969ce09ef5887ffbd9cb48f6fbe740c4dcf24b4250d7296c3b66a88ca403a",
       "first_seen_at": "2026-09-24T13:22:26+02:00",
-      "last_seen_at": "2026-10-09T03:26:38+02:00"
+      "last_seen_at": "2026-10-09T04:24:29+02:00"
     },
     {
       "id": "9417cc8182b1b3dac1d7",
@@ -680,7 +680,7 @@
       "collector_note": null,
       "content_hash": "6ae2d6424c4322dea3e73e7f3768750dedd91b305f36f745cd417b85dc7aaf09",
       "first_seen_at": "2026-09-28T11:27:09+02:00",
-      "last_seen_at": "2026-10-09T03:26:37+02:00"
+      "last_seen_at": "2026-10-09T04:24:28+02:00"
     },
     {
       "id": "0526f0ec6b45d5f232fe",
@@ -700,7 +700,7 @@
       "collector_note": null,
       "content_hash": "9036cc7572f54f9542a0c21183b81050d8a9bfcd6a46b20d6ed96bbf179702d1",
       "first_seen_at": "2026-09-30T13:23:02+02:00",
-      "last_seen_at": "2026-10-09T03:26:37+02:00"
+      "last_seen_at": "2026-10-09T04:24:27+02:00"
     },
     {
       "id": "9c4721fbd1d9df912a28",
@@ -720,7 +720,7 @@
       "collector_note": null,
       "content_hash": "4c3818ef73facb1cb0c8372fd396fa074d7a9216263ab6736c31b554dc78f0e6",
       "first_seen_at": "2026-10-05T13:25:35+02:00",
-      "last_seen_at": "2026-10-09T03:26:36+02:00"
+      "last_seen_at": "2026-10-09T04:24:26+02:00"
     },
     {
       "id": "db0e4c6dfcc7e824142c",
@@ -740,7 +740,7 @@
       "collector_note": null,
       "content_hash": "e5886c92471d60640e3e1f01ff8157c82278742e268322f40510d613f16b9f3a",
       "first_seen_at": "2026-10-06T12:25:23+02:00",
-      "last_seen_at": "2026-10-09T03:26:36+02:00"
+      "last_seen_at": "2026-10-09T04:24:25+02:00"
     },
     {
       "id": "e4a51cd49beb427b4255",
@@ -760,7 +760,7 @@
       "collector_note": null,
       "content_hash": "fe0d6e6fd083f51e69586033f41f1e32e6ff1ba6267566f3e11553b6fac33e68",
       "first_seen_at": "2026-10-08T07:25:53+02:00",
-      "last_seen_at": "2026-10-09T03:26:35+02:00"
+      "last_seen_at": "2026-10-09T04:24:24+02:00"
     },
     {
       "id": "c6af655b4c02c239167b",
@@ -780,7 +780,7 @@
       "collector_note": null,
       "content_hash": "b64ce92c50ed5a5e071ee330a770e93125aea28beb54ea502d38f2957cdf3c22",
       "first_seen_at": "2026-09-24T17:24:06+02:00",
-      "last_seen_at": "2026-10-09T03:26:30+02:00"
+      "last_seen_at": "2026-10-09T04:24:18+02:00"
     },
     {
       "id": "18d976b062b81afb085c",
@@ -800,7 +800,7 @@
       "collector_note": null,
       "content_hash": "e5f5cc459312bd64615f343be2d81047c180defeda90b9ffc712547288de4044",
       "first_seen_at": "2026-09-25T08:27:49+02:00",
-      "last_seen_at": "2026-10-09T03:26:29+02:00"
+      "last_seen_at": "2026-10-09T04:24:17+02:00"
     },
     {
       "id": "512df9f1890f27d4a8bf",
@@ -820,7 +820,7 @@
       "collector_note": null,
       "content_hash": "f99cc517f7d201eba1e513a28ecc9743cb8ff0ec489937ea4f711500e57993ed",
       "first_seen_at": "2026-09-25T10:24:40+02:00",
-      "last_seen_at": "2026-10-09T03:26:27+02:00"
+      "last_seen_at": "2026-10-09T04:24:15+02:00"
     },
     {
       "id": "cb74e3bf7092b5f15652",
@@ -840,7 +840,7 @@
       "collector_note": null,
       "content_hash": "a836729110557dbd22acbeb881bc917c2e1c29714edc84d22798a567ff387b37",
       "first_seen_at": "2026-10-01T05:25:24+02:00",
-      "last_seen_at": "2026-10-09T03:26:26+02:00"
+      "last_seen_at": "2026-10-09T04:24:14+02:00"
     },
     {
       "id": "8a7c406805c41f943d68",
@@ -860,7 +860,7 @@
       "collector_note": null,
       "content_hash": "6aad89eebfafbba4decc6489c8f6f63dbd2f4fbb4d61a0ffefdf6d6450b129cc",
       "first_seen_at": "2026-09-29T05:24:23+02:00",
-      "last_seen_at": "2026-10-09T03:26:25+02:00"
+      "last_seen_at": "2026-10-09T04:24:13+02:00"
     },
     {
       "id": "8f77e9bef4f955a5c9dd",
@@ -880,7 +880,7 @@
       "collector_note": null,
       "content_hash": "a1c8a7eaca7ac7309760fa4cfc3e5e83b2cc2d7a4f505033ff4bd733e6160266",
       "first_seen_at": "2026-09-30T05:25:14+02:00",
-      "last_seen_at": "2026-10-09T03:26:25+02:00"
+      "last_seen_at": "2026-10-09T04:24:12+02:00"
     },
     {
       "id": "98e2ebb55198c00a6e3b",
@@ -900,7 +900,7 @@
       "collector_note": null,
       "content_hash": "211a1e11c2709d12abff04d891641da09510f6f4457ce3189edf5c07970f542d",
       "first_seen_at": "2026-10-08T05:26:04+02:00",
-      "last_seen_at": "2026-10-09T03:26:22+02:00"
+      "last_seen_at": "2026-10-09T04:24:10+02:00"
     },
     {
       "id": "ddd2b4ab738328b4b190",
@@ -920,7 +920,7 @@
       "collector_note": null,
       "content_hash": "4cd532cc5b9198adab85884f15b7dd37e34c67bd1d0deb46f651785d3324e06e",
       "first_seen_at": "2026-10-07T12:26:30+02:00",
-      "last_seen_at": "2026-10-09T03:26:21+02:00"
+      "last_seen_at": "2026-10-09T04:24:09+02:00"
     },
     {
       "id": "71ed0d0ef2788c3ddb95",
@@ -940,7 +940,7 @@
       "collector_note": null,
       "content_hash": "2e69b0d238d389cf6d3626842947b04c1a796f02f0e57dc09b0951ec16f07fd4",
       "first_seen_at": "2026-10-08T21:26:25+02:00",
-      "last_seen_at": "2026-10-09T03:26:20+02:00"
+      "last_seen_at": "2026-10-09T04:24:08+02:00"
     },
     {
       "id": "77767ae136292d70b92b",
@@ -960,7 +960,7 @@
       "collector_note": null,
       "content_hash": "27919fd28171bd11a5ae8a6eafe040eacccc8e6c6fa65e25c1f09a09be377488",
       "first_seen_at": "2026-10-08T22:27:31+02:00",
-      "last_seen_at": "2026-10-09T03:26:19+02:00"
+      "last_seen_at": "2026-10-09T04:24:07+02:00"
     },
     {
       "id": "299bc3455f13fc48bf13",
@@ -980,7 +980,7 @@
       "status": "ok",
       "content_hash": "811ac302c3193eb1b1ab9371558f9eff4f60aa642f2679335f729c77f8d6d3dd",
       "first_seen_at": "2026-09-14T18:58:54+02:00",
-      "last_seen_at": "2026-10-09T03:26:17+02:00",
+      "last_seen_at": "2026-10-09T04:24:04+02:00",
       "collector_note": null
     },
     {
@@ -1001,7 +1001,7 @@
       "status": "ok",
       "content_hash": "a9b348baabb63f3a36168e3506b408dea00ffbc0e6fc27353e27dd69cfd8d3bf",
       "first_seen_at": "2026-09-14T18:58:54+02:00",
-      "last_seen_at": "2026-10-09T03:26:16+02:00",
+      "last_seen_at": "2026-10-09T04:24:03+02:00",
       "collector_note": null
     },
     {
@@ -1016,13 +1016,13 @@
       "title": "AI Act – konsolidierte Fassung 2026-07-27",
       "raw_excerpt": "Aktuelle konsolidierte Fassung der Regulation (EU) 2024/1689 (Artificial Intelligence Act). Stand: 2026-07-27.",
       "published_at": "2026-07-27",
-      "collected_at": "2026-10-09T03:26:15+02:00",
+      "collected_at": "2026-10-09T04:24:01+02:00",
       "verification": "primary",
       "status": "ok",
       "collector_note": null,
       "content_hash": "ed4a9d3330cafe5c922a278159f2a5379789d35caf18fbba77966ea05c9199a3",
-      "first_seen_at": "2026-10-09T03:26:15+02:00",
-      "last_seen_at": "2026-10-09T03:26:15+02:00"
+      "first_seen_at": "2026-10-09T04:24:01+02:00",
+      "last_seen_at": "2026-10-09T04:24:01+02:00"
     },
     {
       "id": "076d3df9976c6ede52e9",
@@ -1042,7 +1042,7 @@
       "status": "ok",
       "content_hash": "692e8e6b8ea34bd3bfda9b6cf73462a033664c2fe330126e6e22d1ca8b160ecf",
       "first_seen_at": "2026-09-15T10:44:00+02:00",
-      "last_seen_at": "2026-10-09T03:26:14+02:00",
+      "last_seen_at": "2026-10-09T04:23:58+02:00",
       "collector_note": null
     },
     {
@@ -1063,7 +1063,7 @@
       "status": "ok",
       "content_hash": "ee5b82669e37a94a160e66d77b3507fdc759483f5ac1206d4e0645d4bacb55b6",
       "first_seen_at": "2026-09-15T10:43:59+02:00",
-      "last_seen_at": "2026-10-09T03:26:14+02:00",
+      "last_seen_at": "2026-10-09T04:23:58+02:00",
       "collector_note": null
     },
     {
@@ -1084,7 +1084,7 @@
       "status": "ok",
       "content_hash": "6266543d23bd3f2acf8affccadd939511f8509fd2736b914501003846c628981",
       "first_seen_at": "2026-09-15T10:43:59+02:00",
-      "last_seen_at": "2026-10-09T03:26:14+02:00",
+      "last_seen_at": "2026-10-09T04:23:58+02:00",
       "collector_note": null
     },
     {
@@ -1105,7 +1105,7 @@
       "status": "ok",
       "content_hash": "e372d5321d49eabddc6333a57bcd763ea0e80a5d6c42c07b3240018c8be35e5a",
       "first_seen_at": "2026-09-29T12:25:35+02:00",
-      "last_seen_at": "2026-10-09T03:26:14+02:00",
+      "last_seen_at": "2026-10-09T04:23:58+02:00",
       "collector_note": null
     },
     {
@@ -1126,7 +1126,7 @@
       "status": "ok",
       "content_hash": "0be1fca47d42517ae4231e5c41a920023a7e9b94c302d1e4575bec4cde309214",
       "first_seen_at": "2026-10-01T12:26:04+02:00",
-      "last_seen_at": "2026-10-09T03:26:14+02:00",
+      "last_seen_at": "2026-10-09T04:23:58+02:00",
       "collector_note": null
     },
     {
@@ -1147,7 +1147,7 @@
       "status": "ok",
       "content_hash": "3862cdd024cb5b8de5911df27a335043acf70ef90d351d1d5b1577e4aaf2a30e",
       "first_seen_at": "2026-10-02T16:26:47+02:00",
-      "last_seen_at": "2026-10-09T03:26:14+02:00",
+      "last_seen_at": "2026-10-09T04:23:58+02:00",
       "collector_note": null
     },
     {
@@ -1168,7 +1168,7 @@
       "status": "ok",
       "content_hash": "2adce69ab2ad064ab7d0d5e4c37c8459642f465c380fd74168a3f948e4e9027e",
       "first_seen_at": "2026-09-15T10:43:59+02:00",
-      "last_seen_at": "2026-10-09T03:26:13+02:00",
+      "last_seen_at": "2026-10-09T04:23:57+02:00",
       "collector_note": null
     },
     {
@@ -1189,7 +1189,7 @@
       "status": "ok",
       "content_hash": "6964d2a6e825efe24a090875b524221a191b37acacf014c6a4535031cae41c00",
       "first_seen_at": "2026-09-15T10:43:58+02:00",
-      "last_seen_at": "2026-10-09T03:26:13+02:00",
+      "last_seen_at": "2026-10-09T04:23:57+02:00",
       "collector_note": null
     },
     {
@@ -2382,84 +2382,84 @@
       "name": "European Commission – AI Act / AI Office",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-09T03:26:14+02:00",
+      "last_update": "2026-10-09T04:23:58+02:00",
       "items_found": 8
     },
     {
       "name": "EUR-Lex – Regulation (EU) 2024/1689",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-09T03:26:15+02:00",
+      "last_update": "2026-10-09T04:24:01+02:00",
       "items_found": 1
     },
     {
       "name": "European Data Protection Board",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-09T03:26:16+02:00",
+      "last_update": "2026-10-09T04:24:03+02:00",
       "items_found": 1
     },
     {
       "name": "Datenschutzkonferenz",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-09T03:26:17+02:00",
+      "last_update": "2026-10-09T04:24:04+02:00",
       "items_found": 1
     },
     {
       "name": "PMI – Artificial Intelligence",
       "type": "optional",
       "status": "failed",
-      "last_update": "2026-10-09T03:26:17+02:00",
+      "last_update": "2026-10-09T04:24:04+02:00",
       "note": "403 Client Error: Forbidden for url: https://www.pmi.org/blog?userTagIDSort=11122"
     },
     {
       "name": "GPM – Aktuelles und Blog",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-09T03:26:30+02:00",
+      "last_update": "2026-10-09T04:24:18+02:00",
       "items_found": 10
     },
     {
       "name": "APM – News and Blog",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-09T03:26:40+02:00",
+      "last_update": "2026-10-09T04:24:32+02:00",
       "items_found": 10
     },
     {
       "name": "BSI – Cyber- und KI-Sicherheit",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-10-09T03:26:41+02:00",
+      "last_update": "2026-10-09T04:24:35+02:00",
       "items_found": 5
     },
     {
       "name": "ENISA – Cyber- und KI-Sicherheit",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-10-09T03:26:41+02:00",
+      "last_update": "2026-10-09T04:24:36+02:00",
       "items_found": 5
     },
     {
       "name": "OpenAI – News",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-10-09T03:26:41+02:00",
+      "last_update": "2026-10-09T04:24:37+02:00",
       "items_found": 5
     },
     {
       "name": "Google – AI Blog",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-10-09T03:26:42+02:00",
+      "last_update": "2026-10-09T04:24:37+02:00",
       "items_found": 5
     },
     {
       "name": "heise online – KI-Nachrichten",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-10-09T03:26:42+02:00",
+      "last_update": "2026-10-09T04:24:38+02:00",
       "items_found": 8
     }
   ]
