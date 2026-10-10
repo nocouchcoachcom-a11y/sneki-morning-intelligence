@@ -2171,6 +2171,40 @@
       "summary": "Die angekündigten Keynotes behandeln veränderte Führungsanforderungen und Kompetenzen im KI-gestützten Projektmanagement.",
       "why_relevant": "Projektverantwortliche können die Themen zur Einordnung künftiger Kompetenzanforderungen und Veränderungsaspekte in ihren Projekten heranziehen.",
       "watch_next": "Zu beobachten sind die konkret genannten Fähigkeiten, Führungsansätze und Veränderungsmaßnahmen für den Einsatz von KI im Projektmanagement."
+    },
+    "18d0335d3f41cb281a731426a7218c9dc4295e5cec3b63064b8b37676cf8d4a9": {
+      "semantic_input_hash": "18d0335d3f41cb281a731426a7218c9dc4295e5cec3b63064b8b37676cf8d4a9",
+      "item_id": "ce2af6c028bf9482d802",
+      "model_id": "gpt-5.6-luna",
+      "reasoning_effort": "low",
+      "prompt_version": "v2",
+      "schema_version": "v2",
+      "assessed_at": "2026-10-10T13:25:19.555430+00:00",
+      "assessment_status": "scored",
+      "management_relevance": 1,
+      "actionability": 1,
+      "significance": 1,
+      "reason": "Der Beitrag beschreibt einen agilen Lernprozess für KI-gestütztes Lernen und thematisiert das Risiko unbemerkter Fehler beim KI-Einsatz.",
+      "summary": "KI kann beim Erschließen fremder Fachgebiete unterstützen, aber unbemerkt fehlerhafte Inhalte liefern. Der Beitrag behandelt einen strukturierten Lernprozess als möglichen Umgang damit.",
+      "why_relevant": "Für Verantwortliche ist relevant, wie KI-gestütztes Lernen strukturiert werden kann, wenn die eingesetzten Systeme unbemerkte Fehler erzeugen.",
+      "watch_next": "Beobachten, welche konkreten Prozessschritte und Kontrollmechanismen der vorgeschlagene Lernansatz für den KI-Einsatz vorsieht."
+    },
+    "962e1a5220c04936bf568722b27e05ba829a3cd6d2c4358b4dec941b2604c047": {
+      "semantic_input_hash": "962e1a5220c04936bf568722b27e05ba829a3cd6d2c4358b4dec941b2604c047",
+      "item_id": "fd7cd5678893b552b51d",
+      "model_id": "gpt-5.6-luna",
+      "reasoning_effort": "low",
+      "prompt_version": "v2",
+      "schema_version": "v2",
+      "assessed_at": "2026-10-10T13:25:19.555430+00:00",
+      "assessment_status": "scored",
+      "management_relevance": 1,
+      "actionability": 1,
+      "significance": 1,
+      "reason": "Die Meldung bündelt Branchenentwicklungen: einen geplanten Umzug der Imaging World nach Köln sowie eine Prüfung möglichen KI-Betrugs bei einem Wettbewerb.",
+      "summary": "Die Fotonews berichten über den Standortwechsel einer Imaging-Veranstaltung, eine Untersuchung möglichen KI-Betrugs bei Nikon und eine Auszeichnung für Graciela Iturbide.",
+      "why_relevant": "Für Technologie- und Projektverantwortliche bietet die Meldung Einblick in aktuelle Entwicklungen rund um KI-Nutzung und Integrität in der Imaging-Branche.",
+      "watch_next": "Beobachten, zu welchem Ergebnis die Prüfung des möglichen KI-Betrugs kommt und wie die Imaging World in Köln umgesetzt wird."
     }
   }
 }
