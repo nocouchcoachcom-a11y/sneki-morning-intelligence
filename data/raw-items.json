@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "collected_at": "2026-10-13T02:34:59+02:00",
+  "collected_at": "2026-10-13T09:40:20+02:00",
   "items": [
     {
       "id": "e56a3675339394bcfa67",
@@ -20,7 +20,7 @@
       "collector_note": null,
       "content_hash": "b2793c56c7b16fb0527af651e1ad245f0b5e30dd009e494e42efafa94b60b51f",
       "first_seen_at": "2026-10-12T19:49:24+02:00",
-      "last_seen_at": "2026-10-13T02:34:59+02:00"
+      "last_seen_at": "2026-10-13T09:40:20+02:00"
     },
     {
       "id": "16f597034e83fb750448",
@@ -40,7 +40,956 @@
       "collector_note": null,
       "content_hash": "4aebfff22e4f68031a8e4e6cd8d1479031f159cc83fc32e258010e6391affd6f",
       "first_seen_at": "2026-10-12T19:49:24+02:00",
-      "last_seen_at": "2026-10-13T02:34:59+02:00"
+      "last_seen_at": "2026-10-13T09:40:20+02:00"
+    },
+    {
+      "id": "27e53a7c8684efcd45ea",
+      "source_id": "heise-ai-news",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/hintergrund/Kontext-bei-Architekturentscheidungen-It-Depends-reicht-nicht-11484586.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "Kontext bei Architekturentscheidungen: „It Depends reicht nicht“",
+      "raw_excerpt": "Im Interview erläutert Neal Ford, warum Architekten mehr überprüfen und weniger diskutieren sollten. Außerdem spricht er über KI in der Softwarearchitektur.",
+      "published_at": "2026-10-13T09:05:00+02:00",
+      "collected_at": "2026-10-13T09:40:20+02:00",
+      "verification": "secondary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "9be0b52d3ad81d289e123a929c49467ca071a88a185f239072f36c712cfde32c",
+      "first_seen_at": "2026-10-13T09:40:20+02:00",
+      "last_seen_at": "2026-10-13T09:40:20+02:00"
+    },
+    {
+      "id": "3ee7f43c4504043c24a5",
+      "source_id": "heise-ai-news",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/Metas-neue-KI-Spitzenmodelle-Muse-Wonder-macht-Claude-Konkurrenz-11485317.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "Metas KI-Aufholjagd: Muse Wonder erreicht Spitzenniveau",
+      "raw_excerpt": "Meta hat mit Muse Wonder und Muse Wonder Full zwei neue KI-Modelle der Frontier-Klasse vorgestellt. Der Leistungssprung hat seinen Preis.",
+      "published_at": "2026-10-13T08:37:00+02:00",
+      "collected_at": "2026-10-13T09:40:20+02:00",
+      "verification": "secondary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "92d6c4993a81ca0cec5c0e55698208d751b960d303d304746578b9a810ac0573",
+      "first_seen_at": "2026-10-13T09:40:20+02:00",
+      "last_seen_at": "2026-10-13T09:40:20+02:00"
+    },
+    {
+      "id": "9e1952b558d96daa4197",
+      "source_id": "heise-ai-news",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/Epic-Games-verschiebt-Disney-Shooter-und-stellt-Entwicklung-auf-KI-um-11485273.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "Epic Games verschiebt Disney-Shooter und stellt Entwicklung auf KI um",
+      "raw_excerpt": "Epic Games verschiebt seinen Shooter mit Marvel- und „Star Wars“-Figuren. Laut Bloomberg sollen die Entwickler ihn nun vorrangig mit KI fertigstellen.",
+      "published_at": "2026-10-13T08:22:00+02:00",
+      "collected_at": "2026-10-13T09:40:20+02:00",
+      "verification": "secondary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "aa550b1b288cea79bb184ce126d2e13cf389b5ae3a2d399fc0901f6d02ebfd0c",
+      "first_seen_at": "2026-10-13T09:40:20+02:00",
+      "last_seen_at": "2026-10-13T09:40:20+02:00"
+    },
+    {
+      "id": "1660af4267ba4759e610",
+      "source_id": "heise-ai-news",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/Digitalminister-Wildberger-will-KI-Umsaetze-in-Deutschland-besteuern-11485305.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "Digitalminister plant Steuer auf KI-Umsätze",
+      "raw_excerpt": "Microsoft-Gründer Bill Gates fordert schon länger, Roboter und KI zu besteuern. Der deutsche Digitalminister hat ähnliche Vorstellungen.",
+      "published_at": "2026-10-13T08:11:00+02:00",
+      "collected_at": "2026-10-13T09:40:20+02:00",
+      "verification": "secondary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "8c7cdd908cbb6dcee8c1df2a6a96180a1977aaa67881b2537c3a4da4d682da97",
+      "first_seen_at": "2026-10-13T09:40:20+02:00",
+      "last_seen_at": "2026-10-13T09:40:20+02:00"
+    },
+    {
+      "id": "22e8d83a06d2cd837102",
+      "source_id": "heise-ai-news",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/KI-jenseits-des-Hypes-OOP-Focus-Day-nimmt-die-Praxis-in-den-Blick-11481078.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "heise-Angebot: KI jenseits des Hypes: OOP Focus Day nimmt die Praxis in den Blick",
+      "raw_excerpt": "KI verändert die Softwareentwicklung. Doch was funktioniert wirklich? Der OOP Focus Day am 11. November beleuchtet Trends, Erfahrungen und Kontroversen.",
+      "published_at": "2026-10-13T08:00:00+02:00",
+      "collected_at": "2026-10-13T09:40:20+02:00",
+      "verification": "secondary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "89101fea66eff06b87fee61f6ebc4d66a469596bcf247793d65057d2d3aa7c5c",
+      "first_seen_at": "2026-10-13T09:40:20+02:00",
+      "last_seen_at": "2026-10-13T09:40:20+02:00"
+    },
+    {
+      "id": "5deb00942c475ea5cb44",
+      "source_id": "heise-ai-news",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/Dienstag-Supermarkt-Kuehlsysteme-angegriffen-OpenAI-Modell-auf-Zerstoerungstrip-11485167.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "Dienstag: Supermarkt-Kühlsysteme angegriffen, OpenAI-Modell auf Zerstörungstrip",
+      "raw_excerpt": "Cyberangriff auf Kühl- und Gefriersysteme + OpenAI-Modell zerstört Testumgebung + Vorschlag von Satya Nadella + BYD mit neuem Modell + Starlink in Venezuela",
+      "published_at": "2026-10-13T06:15:00+02:00",
+      "collected_at": "2026-10-13T09:40:20+02:00",
+      "verification": "secondary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "717f8238090b70c7f9303396a24909539950a74a2ea2144c67b5f2f955efbead",
+      "first_seen_at": "2026-10-13T09:40:20+02:00",
+      "last_seen_at": "2026-10-13T09:40:20+02:00"
+    },
+    {
+      "id": "c7d7bb4939fc2f0dad73",
+      "source_id": "google-ai-news",
+      "source": "Google – AI Blog",
+      "source_type": "vendor",
+      "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "The latest AI news we announced in September 2026",
+      "raw_excerpt": "A video showing the September AI updates",
+      "published_at": "2026-10-02T17:00:00+02:00",
+      "collected_at": "2026-10-07T09:37:16+02:00",
+      "verification": "vendor",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "1b43760e04547b5751a11afd2896f3b3aa8a572f9c7b3ccc5d3297f0a62ce5ce",
+      "first_seen_at": "2026-10-07T09:37:16+02:00",
+      "last_seen_at": "2026-10-13T09:40:19+02:00"
+    },
+    {
+      "id": "b92ea2310cc5132177da",
+      "source_id": "google-ai-news",
+      "source": "Google – AI Blog",
+      "source_type": "vendor",
+      "source_url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+      "raw_excerpt": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+      "published_at": "2026-09-28T21:00:00+02:00",
+      "collected_at": "2026-10-07T09:37:16+02:00",
+      "verification": "vendor",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "e6029d901a530f7ae7c5eb830e90f0f7c0308a8a6900d6397372a0074721eb36",
+      "first_seen_at": "2026-10-07T09:37:16+02:00",
+      "last_seen_at": "2026-10-13T09:40:19+02:00"
+    },
+    {
+      "id": "b4162d56612c1332aaae",
+      "source_id": "google-ai-news",
+      "source": "Google – AI Blog",
+      "source_type": "vendor",
+      "source_url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "Google Beam expands with new regions, partners, and customers",
+      "raw_excerpt": "Google Beam promotional animation",
+      "published_at": "2026-09-23T20:00:00+02:00",
+      "collected_at": "2026-10-07T09:37:16+02:00",
+      "verification": "vendor",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "d458b769d914c00d50f576b5a5d777f0a73fac22ea982f732f049f8f8e38c202",
+      "first_seen_at": "2026-10-07T09:37:16+02:00",
+      "last_seen_at": "2026-10-13T09:40:19+02:00"
+    },
+    {
+      "id": "589953384ae52c75dc97",
+      "source_id": "google-ai-news",
+      "source": "Google – AI Blog",
+      "source_type": "vendor",
+      "source_url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "New experts join Google’s AI & Economy team",
+      "raw_excerpt": "Text \"AI & Economy Research Program\" all over a green grid background, with the Google G logo in the bottom right corner",
+      "published_at": "2026-09-18T16:00:00+02:00",
+      "collected_at": "2026-10-07T09:37:16+02:00",
+      "verification": "vendor",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "56fadafe44aeca56a99a8646170134b349f1f40b5bb67b83e789da4e6f2d5144",
+      "first_seen_at": "2026-10-07T09:37:16+02:00",
+      "last_seen_at": "2026-10-13T09:40:19+02:00"
+    },
+    {
+      "id": "b19c702be37740f484a0",
+      "source_id": "google-ai-news",
+      "source": "Google – AI Blog",
+      "source_type": "vendor",
+      "source_url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "Introducing Playground: Create and play custom games",
+      "raw_excerpt": "Overview of Playground",
+      "published_at": "2026-10-07T14:00:00+02:00",
+      "collected_at": "2026-10-07T14:33:39+02:00",
+      "verification": "vendor",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "05480450e66b8d504a43770b97669157f396074b09721b4d7a969a5ee9050fde",
+      "first_seen_at": "2026-10-07T14:33:39+02:00",
+      "last_seen_at": "2026-10-13T09:40:19+02:00"
+    },
+    {
+      "id": "5dfafcc3e90fe51b1106",
+      "source_id": "openai-news",
+      "source": "OpenAI – News",
+      "source_type": "vendor",
+      "source_url": "https://openai.com/index/oracle",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+      "raw_excerpt": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+      "published_at": "2026-10-08T18:00:00+02:00",
+      "collected_at": "2026-10-08T20:29:05+02:00",
+      "verification": "vendor",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "47f4cfeaf3d8c2d3f87aae40bb03a89a162c2475bd48d6bd7ce1c8d5b45396b3",
+      "first_seen_at": "2026-10-08T20:29:05+02:00",
+      "last_seen_at": "2026-10-13T09:40:19+02:00"
+    },
+    {
+      "id": "532efa6cffbe518d01f7",
+      "source_id": "openai-news",
+      "source": "OpenAI – News",
+      "source_type": "vendor",
+      "source_url": "https://openai.com/index/pollo-ai",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "raw_excerpt": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+      "published_at": "2026-10-08T14:00:00+02:00",
+      "collected_at": "2026-10-08T20:29:05+02:00",
+      "verification": "vendor",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "0bbb734722d19271678456effd247db9babcb20ac7a735cea75dbbfeb5aeab31",
+      "first_seen_at": "2026-10-08T20:29:05+02:00",
+      "last_seen_at": "2026-10-13T09:40:19+02:00"
+    },
+    {
+      "id": "1c71b03f3efb97447d56",
+      "source_id": "openai-news",
+      "source": "OpenAI – News",
+      "source_type": "vendor",
+      "source_url": "https://openai.com/index/legalon-halves-codex-costs",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "LegalOn halves Codex costs while maintaining development speed",
+      "raw_excerpt": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
+      "published_at": "2026-10-08T14:00:00+02:00",
+      "collected_at": "2026-10-09T02:38:09+02:00",
+      "verification": "vendor",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "03d825f4feae31a5a4e904b9acb5dda68e1e26d41256461b9966f35da073c717",
+      "first_seen_at": "2026-10-09T02:38:09+02:00",
+      "last_seen_at": "2026-10-13T09:40:19+02:00"
+    },
+    {
+      "id": "63bbc34aac1e5360697a",
+      "source_id": "openai-news",
+      "source": "OpenAI – News",
+      "source_type": "vendor",
+      "source_url": "https://openai.com/index/sophos",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "raw_excerpt": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+      "published_at": "2026-10-09T09:00:00+02:00",
+      "collected_at": "2026-10-09T11:28:11+02:00",
+      "verification": "vendor",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "2f070f7296088ae0bd49ebd07104f9b04894a75fc85a2cf8ed5abefdc5bd558f",
+      "first_seen_at": "2026-10-09T11:28:11+02:00",
+      "last_seen_at": "2026-10-13T09:40:19+02:00"
+    },
+    {
+      "id": "fa5bbd7178cd8da766e2",
+      "source_id": "openai-news",
+      "source": "OpenAI – News",
+      "source_type": "vendor",
+      "source_url": "https://openai.com/index/asana-browser-agent",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "raw_excerpt": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+      "published_at": "2026-10-09T09:00:00+02:00",
+      "collected_at": "2026-10-09T21:24:54+02:00",
+      "verification": "vendor",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "2f907c02f59460e30f1ad12da6c3ffd7e1834c7bb9a2191db817513de67a2e2f",
+      "first_seen_at": "2026-10-09T21:24:54+02:00",
+      "last_seen_at": "2026-10-13T09:40:19+02:00"
+    },
+    {
+      "id": "8f06b79d388f40327935",
+      "source_id": "enisa-security",
+      "source": "ENISA – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.enisa.europa.eu/news/cybersecurity-month-work-employees-skills-under-the-looking-glass",
+      "category": [
+        "IT Security"
+      ],
+      "title": "Cybersecurity Month @ work: Employees' skills under the looking glass",
+      "raw_excerpt": "With the digitalisation of the workplace, organisations and their employees must navigate and manage the digital risks.",
+      "published_at": "2026-09-30T12:55:56+02:00",
+      "collected_at": "2026-10-06T13:24:52+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "225fd97730996f1056df2c3d6e0681ea23d0a6212ad9322476999f5ec066e30b",
+      "first_seen_at": "2026-10-06T13:24:52+02:00",
+      "last_seen_at": "2026-10-13T09:40:19+02:00"
+    },
+    {
+      "id": "65e9186f8e76dd91b78b",
+      "source_id": "enisa-security",
+      "source": "ENISA – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.enisa.europa.eu/news/exploring-the-evolution-of-the-cyber-threat-landscape-how-dependencies-weaken-our-digital-resilience",
+      "category": [
+        "IT Security"
+      ],
+      "title": "Exploring the evolution of the cyber threat landscape: How dependencies weaken our digital resilience",
+      "raw_excerpt": "The 2026 ENISA Threat Landscape confirms that cyber dependencies expand the attack surface and require a new level of vigilance to effectively prevent and mitigate the impact of cyber incidents.",
+      "published_at": "2026-09-22T12:02:45+02:00",
+      "collected_at": "2026-10-06T13:24:52+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "2fd558dcd468f0aab6e36a9da997400381d2c4c477d5b31c086a1f5ef47fa7ce",
+      "first_seen_at": "2026-10-06T13:24:52+02:00",
+      "last_seen_at": "2026-10-13T09:40:19+02:00"
+    },
+    {
+      "id": "69e35d4f63fb3a6177f8",
+      "source_id": "enisa-security",
+      "source": "ENISA – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.enisa.europa.eu/news/the-cra-single-reporting-platform-is-launched",
+      "category": [
+        "IT Security"
+      ],
+      "title": "The CRA Single Reporting Platform is launched",
+      "raw_excerpt": "The EU Agency for Cybersecurity (ENISA) has deployed the initial operating capability of the Single Reporting Platform (SRP).",
+      "published_at": "2026-09-11T13:00:26+02:00",
+      "collected_at": "2026-10-06T13:24:52+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "376977684c043312d89d15c0ffe34cb6fd17761d7174ab6e954baf04c39ac5d8",
+      "first_seen_at": "2026-10-06T13:24:52+02:00",
+      "last_seen_at": "2026-10-13T09:40:19+02:00"
+    },
+    {
+      "id": "aa9c64790a7db03646d9",
+      "source_id": "enisa-security",
+      "source": "ENISA – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.enisa.europa.eu/news/enisa-scales-up-its-role-in-the-cve-program",
+      "category": [
+        "IT Security"
+      ],
+      "title": "ENISA scales up its role in the CVE Program",
+      "raw_excerpt": "NATO Communications and Information Agency (NCIA), along with AI and cybersecurity innovator AISLE, join the Common Vulnerabilities and Exposures (CVE) Numbering Authorities (CNAs), under the ENISA Root.",
+      "published_at": "2026-08-06T13:10:40+02:00",
+      "collected_at": "2026-10-06T13:24:52+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "e23d30677d9db5c5a8af3afcf3536c5ce3a31455d8324890055107201bf11e17",
+      "first_seen_at": "2026-10-06T13:24:52+02:00",
+      "last_seen_at": "2026-10-13T09:40:19+02:00"
+    },
+    {
+      "id": "37a0e12ebb691190f14d",
+      "source_id": "enisa-security",
+      "source": "ENISA – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.enisa.europa.eu/news/have-your-say-on-the-certification-of-eu-managed-security-services",
+      "category": [
+        "IT Security"
+      ],
+      "title": "Have your say on the certification of EU Managed Security Services",
+      "raw_excerpt": "ENISA is launching a public consultation on the draft candidate cybersecurity certification scheme on EU Managed Security Services (EUMSS), following its work with the dedicated Ad Hoc Working Group.",
+      "published_at": "2026-07-24T12:00:13+02:00",
+      "collected_at": "2026-10-06T13:24:52+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "689f2572401454d352cc027392d682def7ab40956b4c1a28c2dbf232e1c59544",
+      "first_seen_at": "2026-10-06T13:24:52+02:00",
+      "last_seen_at": "2026-10-13T09:40:19+02:00"
+    },
+    {
+      "id": "0c8caa098365fd047aaa",
+      "source_id": "bsi-security",
+      "source": "BSI – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/260911_CRA_Meldepflicht_Schwachstellen.html",
+      "category": [
+        "IT Security"
+      ],
+      "title": "Cyber Resilience Act: Meldepflicht startet",
+      "raw_excerpt": "Für Hersteller von Produkten mit digitalen Elementen gelten auf dem Binnenmarkt der EU ab dem 11. September 2026 die Meldepflichten des CRA. Hersteller müssen aktiv ausgenutzte Schwachstellen sowie schwerwiegende Sicherheitsvorfälle melden. Das BSI unterstützt mit Schritt-für-Schritt-Anleitungen.",
+      "published_at": "2026-09-11T09:00:00+02:00",
+      "collected_at": "2026-10-06T13:24:51+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "81395f5d03cf2b1d35d1800c9ae35ee1414e3b4260cbdce7260b29b63dc94971",
+      "first_seen_at": "2026-10-06T13:24:51+02:00",
+      "last_seen_at": "2026-10-13T09:40:18+02:00"
+    },
+    {
+      "id": "3a84ffe437a1be8937fb",
+      "source_id": "bsi-security",
+      "source": "BSI – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/260806_security_txt.html",
+      "category": [
+        "IT Security"
+      ],
+      "title": "Nur 1,8 Prozent der Webseitenbetreiber nutzen security.txt – BSI und ACS raten zur Umsetzung",
+      "raw_excerpt": "Nur 1,8 Prozent der Webseitenbetreiber in Deutschland stellen bislang eine security.txt bereit. Das zeigen Messungen des Bundesamt für Sicherheit in der Informationstechnik (BSI) im Rahmen des Cyberdome-Projekts.",
+      "published_at": "2026-08-06T10:15:00+02:00",
+      "collected_at": "2026-10-06T13:24:51+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "88600f0816bc82143e2deae3f8277c0f8066609b642aeb481559cc0ab0b4c926",
+      "first_seen_at": "2026-10-06T13:24:51+02:00",
+      "last_seen_at": "2026-10-13T09:40:18+02:00"
+    },
+    {
+      "id": "677a3907a60a79063d20",
+      "source_id": "bsi-security",
+      "source": "BSI – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/260728_Sichere_Ladeinfrastruktur.html",
+      "category": [
+        "IT Security"
+      ],
+      "title": "Sichere Ladeinfrastruktur: BSI veröffentlicht Eckpunktepapier und startet mit beteiligten Ressorts die Maßnahmenumsetzung",
+      "raw_excerpt": "Die Elektromobilität in Deutschland entwickelt sich immer dynamischer. Damit steigen auch die Anforderungen an Cybersicherheit und Resilienz. Das BSI hat aufbauend auf einer Studie ein Eckpunktepapier mit konkreten Maßnahmen für eine resiliente und vertrauenswürdige Ladeinfrastruktur erarbeitet.",
+      "published_at": "2026-07-28T10:00:00+02:00",
+      "collected_at": "2026-10-06T13:24:51+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "d88f09321ffc92e67e77becb68315572d48b6459ca116b6008f21fccd81952b3",
+      "first_seen_at": "2026-10-06T13:24:51+02:00",
+      "last_seen_at": "2026-10-13T09:40:18+02:00"
+    },
+    {
+      "id": "ff590f1b258a9879c652",
+      "source_id": "bsi-security",
+      "source": "BSI – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/260722_Bundeskabinett_staerkt_CGS.html",
+      "category": [
+        "IT Security"
+      ],
+      "title": "Bundeskabinett stärkt mit „CyberGovSecure\" die Cybersicherheit der Bundesverwaltung",
+      "raw_excerpt": "Das Programm „CyberGovSecure“ setzt einen verbindlichen politischen und organisatorischen Rahmen. Das Programm setzt sich zum Ziel, die Cybersicherheit und Cyberresilienz der Bundesverwaltung ressortübergreifend, wirksam und messbar zu stärken.",
+      "published_at": "2026-07-22T14:00:00+02:00",
+      "collected_at": "2026-10-06T13:24:51+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "7dd18494bb85542a62f081aa4e2c03e745354825045ef8baee2cdc042b72c3f0",
+      "first_seen_at": "2026-10-06T13:24:51+02:00",
+      "last_seen_at": "2026-10-13T09:40:18+02:00"
+    },
+    {
+      "id": "e5c9b8b2ace7a43200cf",
+      "source_id": "bsi-security",
+      "source": "BSI – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/261007_KI-Sicherheitsstudie_TUEV_BSI.html",
+      "category": [
+        "IT Security"
+      ],
+      "title": "Nur jedes zehnte Unternehmen gegen KI-gestützte Angriffe gerüstet - jedes sechste Unternehmen berichtet von Vorfällen",
+      "raw_excerpt": "Nur wenige Unternehmen in Deutschland haben Schutzmaßnahmen und Prozesse mit Blick auf Cyberangriffe im Zusammenhang mit KI etabliert. Das zeigt die aktuelle Studie von TÜV-Verband und BSI zum Thema „Künstliche Intelligenz und Cybersicherheit in Unternehmen\".",
+      "published_at": "2026-10-07T10:00:00+02:00",
+      "collected_at": "2026-10-12T19:49:22+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "b711f7fcda22b83b3767e55bde5472e65cbdb49e7430aa24d4a26fbdd7d99d78",
+      "first_seen_at": "2026-10-12T19:49:22+02:00",
+      "last_seen_at": "2026-10-13T09:40:18+02:00"
+    },
+    {
+      "id": "01846c67871d722ee1ef",
+      "source_id": "apm-project-management",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/blog/another-tracker-wont-fix-weak-reporting/",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "Another tracker won't fix weak reporting",
+      "raw_excerpt": "Weak reporting is often mistaken for a visibility problem. The response is predictable: build another tracker, assign someone to maintain it, schedule another monthly review. Yet these measures do little to address the underlying issue. A tracker can only reflect the information people choose, or remember, to enter. When data is being gathered weeks or months after events have occurred, recollection takes the place of evidence. On paper, the reporting process may appear comprehensive. In reality, it can be capturing very little, timely or reliable.",
+      "published_at": "2026-10-08",
+      "collected_at": "2026-10-08T15:30:11+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "e15009ed611ec79a7c86e6cd484d04ae2a3bf12f546d1e84d97da0e0347e2334",
+      "first_seen_at": "2026-10-08T15:30:11+02:00",
+      "last_seen_at": "2026-10-13T09:40:16+02:00"
+    },
+    {
+      "id": "392704caef232940d5cc",
+      "source_id": "apm-project-management",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/blog/why-good-projects-start-with-good-schedules-before-bim-ai-and-digital-twins/",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "Why good projects start with good schedules — Before BIM, AI and digital twins",
+      "raw_excerpt": "Before any project invests in Artificial Intelligence (AI), digital twins or the latest BIM tools, there's a simpler question worth asking: is the underlying schedule any good? Because no amount of sophisticated technology can fix a programme that lacks solid logic, realistic sequencing or credible assumptions. Technology can enhance a good programme, but it cannot compensate for a poor one.",
+      "published_at": "2026-10-07",
+      "collected_at": "2026-10-07T15:28:48+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "ca0d472cb0a3edb48a9818f843107c9490ee973d47649659f84eadc117b28134",
+      "first_seen_at": "2026-10-07T15:28:48+02:00",
+      "last_seen_at": "2026-10-13T09:40:16+02:00"
+    },
+    {
+      "id": "7b8ef343ee9249f31973",
+      "source_id": "apm-project-management",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/news/how-to-get-the-best-from-working-with-your-project-sponsor-webinar/",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "How to get the best from working with your Project Sponsor webinar",
+      "raw_excerpt": "The fundamental partnership in any project is that between the Project Manager and their Sponsor. So how can you make that partnership effective?",
+      "published_at": "2026-09-23",
+      "collected_at": "2026-09-24T13:22:25+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "4c6fba53644f15f740ed1f9745f5002f86278699b51b4faa2977170fa853240f",
+      "first_seen_at": "2026-09-24T13:22:25+02:00",
+      "last_seen_at": "2026-10-13T09:40:14+02:00"
+    },
+    {
+      "id": "2fa4ab50dd0bb4a3245b",
+      "source_id": "apm-project-management",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/news/prompt-engineering-how-to-get-the-best-out-of-generative-ai-tools/",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "Prompt Engineering – How to get the best out of Generative AI tools",
+      "raw_excerpt": "On the 16th September, Dr Kitty Hung delivered a thought-provoking and informative presentation focussed on AI Prompt Engineering at the AtkinsRealis Hub in Bristol. During the evening, Kitty covered the following topics, displaying a great level of practical knowledge and insight:",
+      "published_at": "2026-09-24",
+      "collected_at": "2026-09-24T13:22:26+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "0b9969ce09ef5887ffbd9cb48f6fbe740c4dcf24b4250d7296c3b66a88ca403a",
+      "first_seen_at": "2026-09-24T13:22:26+02:00",
+      "last_seen_at": "2026-10-13T09:40:13+02:00"
+    },
+    {
+      "id": "9417cc8182b1b3dac1d7",
+      "source_id": "apm-project-management",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/news/voting-for-the-apm-trustee-elections-now-open/",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "Voting for the APM Trustee elections now open",
+      "raw_excerpt": "Association for Project Management (APM) is pleased to announce that voting for the 2026 APM Trustee elections is now open.",
+      "published_at": "2026-09-28",
+      "collected_at": "2026-09-28T11:27:09+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "6ae2d6424c4322dea3e73e7f3768750dedd91b305f36f745cd417b85dc7aaf09",
+      "first_seen_at": "2026-09-28T11:27:09+02:00",
+      "last_seen_at": "2026-10-13T09:40:12+02:00"
+    },
+    {
+      "id": "0526f0ec6b45d5f232fe",
+      "source_id": "apm-project-management",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/news/world-space-week-why-project-professionals-are-mission-critical-for-strategic-success-in-the-space-sector/",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "World Space Week: Why project professionals are mission-critical for strategic success in the space sector",
+      "raw_excerpt": "Ahead of World Space Week (4 October-10 October 2026), Martina Blake, and Mark Heelis (Lead and Deputy Lead of the APM International Space Sector Interest Network ) share their views on how a project management-led approach can result in success for organisations in the space sector.",
+      "published_at": "2026-09-28",
+      "collected_at": "2026-09-30T13:23:02+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "9036cc7572f54f9542a0c21183b81050d8a9bfcd6a46b20d6ed96bbf179702d1",
+      "first_seen_at": "2026-09-30T13:23:02+02:00",
+      "last_seen_at": "2026-10-13T09:40:12+02:00"
+    },
+    {
+      "id": "9c4721fbd1d9df912a28",
+      "source_id": "apm-project-management",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/news/the-revolution-starts-here-how-launch-is-changing/",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "The revolution starts here: How launch is changing?",
+      "raw_excerpt": "With almost 30 years in the UK Government, Martina has deep expertise in leading strategic delivery across defence, space, security and digital portfolios, both in the UK and internationally. Martina is currently a Deputy Director in the Ministry of Defence. Prior to this she worked as a UK Government Advisor at the European Space Agency (ESA) in Germany, advising ESA on delivery of the Space Safety Programme (Space Weather, Planetary Defence and Space Debris), Mission Operations Infrastructure Projects, and strategic transformation Initiatives. Martina is also the Lead of APM’s International Space Sector Interest Network, and UK representative for the International Project Management Committee within the International Astronautical Federation. She is a Chartered Project Professional, Fell",
+      "published_at": "2026-10-05",
+      "collected_at": "2026-10-05T13:25:35+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "4c3818ef73facb1cb0c8372fd396fa074d7a9216263ab6736c31b554dc78f0e6",
+      "first_seen_at": "2026-10-05T13:25:35+02:00",
+      "last_seen_at": "2026-10-13T09:40:11+02:00"
+    },
+    {
+      "id": "db0e4c6dfcc7e824142c",
+      "source_id": "apm-project-management",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/news/meet-the-rocket-builders-the-people-behind-propulsion/",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "Meet the rocket builders: The people behind propulsion",
+      "raw_excerpt": "The theme of World Space Week 2026 is \"Rocket Revolution\". This is our profile interview with a project or programme professional working in propulsion or launch.",
+      "published_at": "2026-10-06",
+      "collected_at": "2026-10-06T12:25:23+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "e5886c92471d60640e3e1f01ff8157c82278742e268322f40510d613f16b9f3a",
+      "first_seen_at": "2026-10-06T12:25:23+02:00",
+      "last_seen_at": "2026-10-13T09:40:10+02:00"
+    },
+    {
+      "id": "e4a51cd49beb427b4255",
+      "source_id": "apm-project-management",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/news/when-the-playbook-fails-why-navigating-uncertainty-is-the-future-of-project-leadership/",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "When the playbook fails: Why navigating uncertainty is the future of project leadership",
+      "raw_excerpt": "When a high-stakes, complex initiative hits unexpected turbulence, the breakdown rarely happens in the Gantt chart. It happens in human dynamics.",
+      "published_at": "2026-10-08",
+      "collected_at": "2026-10-08T07:25:53+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "fe0d6e6fd083f51e69586033f41f1e32e6ff1ba6267566f3e11553b6fac33e68",
+      "first_seen_at": "2026-10-08T07:25:53+02:00",
+      "last_seen_at": "2026-10-13T09:40:09+02:00"
+    },
+    {
+      "id": "9d5b089fcc7a7b3854c4",
+      "source_id": "apm-project-management",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/news/world-space-week-2026-quick-quiz/",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "World Space Week 2026 - quick quiz",
+      "raw_excerpt": "To conclude World Space Week content, a quiz a quick has been designed. A fun way to test your knowledge and discover something new about space, project leadership and the people shaping the Rocket Revolution.",
+      "published_at": "2026-10-09",
+      "collected_at": "2026-10-09T11:28:00+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "5ec36b3136b32239b6e6852de7d6a66ddf5f3d87052f62e19cf0180431798f21",
+      "first_seen_at": "2026-10-09T11:28:00+02:00",
+      "last_seen_at": "2026-10-13T09:40:08+02:00"
+    },
+    {
+      "id": "299bc3455f13fc48bf13",
+      "source_id": "dsk",
+      "source": "Datenschutzkonferenz",
+      "source_type": "primary",
+      "source_url": "https://www.datenschutzkonferenz-online.de/orientierungshilfen.html",
+      "category": [
+        "DSGVO & Ethik",
+        "AI Governance"
+      ],
+      "title": "Datenschutzkonferenz",
+      "raw_excerpt": "Der offizielle Webauftritt der Datenschutzkonferenz (DSK), dem Gremium der deutschen Datenschutzaufsichtsbehörden",
+      "published_at": null,
+      "collected_at": "2026-09-14T18:58:54+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "811ac302c3193eb1b1ab9371558f9eff4f60aa642f2679335f729c77f8d6d3dd",
+      "first_seen_at": "2026-09-14T18:58:54+02:00",
+      "last_seen_at": "2026-10-13T09:39:41+02:00",
+      "collector_note": null
+    },
+    {
+      "id": "fd26c6620cbb3b8fa54e",
+      "source_id": "edpb",
+      "source": "European Data Protection Board",
+      "source_type": "primary",
+      "source_url": "https://www.edpb.europa.eu/",
+      "category": [
+        "DSGVO & Ethik",
+        "AI Governance"
+      ],
+      "title": "Home | European Data Protection Board",
+      "raw_excerpt": "",
+      "published_at": "2026-07-30T12:00:00Z",
+      "collected_at": "2026-09-14T18:58:54+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "a9b348baabb63f3a36168e3506b408dea00ffbc0e6fc27353e27dd69cfd8d3bf",
+      "first_seen_at": "2026-09-14T18:58:54+02:00",
+      "last_seen_at": "2026-10-13T09:39:40+02:00",
+      "collector_note": null
+    },
+    {
+      "id": "01c5434847cfafae5a0c",
+      "source_id": "eurlex-ai-act",
+      "source": "EUR-Lex – Regulation (EU) 2024/1689",
+      "source_type": "primary",
+      "source_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng",
+      "category": [
+        "EU AI Act"
+      ],
+      "title": "AI Act – konsolidierte Fassung 2026-07-27",
+      "raw_excerpt": "Aktuelle konsolidierte Fassung der Regulation (EU) 2024/1689 (Artificial Intelligence Act). Stand: 2026-07-27.",
+      "published_at": "2026-07-27",
+      "collected_at": "2026-10-13T09:39:40+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "ed4a9d3330cafe5c922a278159f2a5379789d35caf18fbba77966ea05c9199a3",
+      "first_seen_at": "2026-10-13T09:39:40+02:00",
+      "last_seen_at": "2026-10-13T09:39:40+02:00"
+    },
+    {
+      "id": "b4038eb822b1702a8e84",
+      "source_id": "eu-ai-office",
+      "source": "European Commission – AI Act / AI Office",
+      "source_type": "primary",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/executive-vice-president-virkkunen-us-g20-ministerial-meetings",
+      "category": [
+        "EU AI Act",
+        "AI Governance"
+      ],
+      "title": "Executive Vice-President Virkkunen in the US for G20 Ministerial meetings",
+      "raw_excerpt": "Starting today until Wednesday, 2 September, the European Commission will be represented by Henna Virkkunen, Executive Vice-President for Tech Sovereignty, Security and Democracy and Valdis Dombrovskis, Commissioner for Economy and Productivity, Implementation and Simplification at the G20 Ministerial meetings in North Carolina, United States of America.",
+      "published_at": "2026-08-31",
+      "collected_at": "2026-09-15T10:43:59+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "6266543d23bd3f2acf8affccadd939511f8509fd2736b914501003846c628981",
+      "first_seen_at": "2026-09-15T10:43:59+02:00",
+      "last_seen_at": "2026-10-13T09:39:38+02:00",
+      "collector_note": null
+    },
+    {
+      "id": "530ccf0fce189221d8c8",
+      "source_id": "eu-ai-office",
+      "source": "European Commission – AI Act / AI Office",
+      "source_type": "primary",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-seeks-feedback-challenges-and-way-forward-area-effect-technology-copyright",
+      "category": [
+        "EU AI Act",
+        "AI Governance"
+      ],
+      "title": "Commission seeks feedback on challenges and way forward in the area of effect of technology on copyright",
+      "raw_excerpt": "The European Commission is gathering feedback on challenges and options for potential future measures to support the impact of technology, including artificial intelligence, on the effective copyright protection amid market and technology developments of creative works and innovations.",
+      "published_at": "2026-09-29",
+      "collected_at": "2026-09-29T12:25:35+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "e372d5321d49eabddc6333a57bcd763ea0e80a5d6c42c07b3240018c8be35e5a",
+      "first_seen_at": "2026-09-29T12:25:35+02:00",
+      "last_seen_at": "2026-10-13T09:39:38+02:00",
+      "collector_note": null
+    },
+    {
+      "id": "09cd0405561ebf61f89d",
+      "source_id": "eu-ai-office",
+      "source": "European Commission – AI Act / AI Office",
+      "source_type": "primary",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/three-four-eu-employees-faced-cyber-threats-work-new-eurobarometer-finds",
+      "category": [
+        "EU AI Act",
+        "AI Governance"
+      ],
+      "title": "Three in four EU employees faced cyber threats at work, new Eurobarometer finds",
+      "raw_excerpt": "Three in four employees in the European Union encountered suspicious emails, messages or links at work, according to a new Eurobarometer survey published by the European Commission.",
+      "published_at": "2026-09-30",
+      "collected_at": "2026-10-01T12:26:04+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "0be1fca47d42517ae4231e5c41a920023a7e9b94c302d1e4575bec4cde309214",
+      "first_seen_at": "2026-10-01T12:26:04+02:00",
+      "last_seen_at": "2026-10-13T09:39:37+02:00",
+      "collector_note": null
+    },
+    {
+      "id": "9d5dc209f53282ec4ee9",
+      "source_id": "eu-ai-office",
+      "source": "European Commission – AI Act / AI Office",
+      "source_type": "primary",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/edic-agri-food-launched-support-digital-innovation-across-europes-food-and-agriculture-sector",
+      "category": [
+        "EU AI Act",
+        "AI Governance"
+      ],
+      "title": "EDIC for Agri-Food launched to support digital innovation across Europe’s food and agriculture sector",
+      "raw_excerpt": "The European Digital Infrastructure Consortium for Agri-Food (EDIC for Agri-Food) has officially been established with its seat in Paris with a launch event convened by Ms Annie Genevard, French Minister of Agriculture, Agri-Food and Food Sovereignty member countries, the Commission and stakeholders from across the agri-food supply chain.",
+      "published_at": "2026-10-01",
+      "collected_at": "2026-10-02T16:26:47+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "3862cdd024cb5b8de5911df27a335043acf70ef90d351d1d5b1577e4aaf2a30e",
+      "first_seen_at": "2026-10-02T16:26:47+02:00",
+      "last_seen_at": "2026-10-13T09:39:37+02:00",
+      "collector_note": null
+    },
+    {
+      "id": "2a1bcba63fb036090ae9",
+      "source_id": "eu-ai-office",
+      "source": "European Commission – AI Act / AI Office",
+      "source_type": "primary",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-holds-special-meeting-scientific-panel-frontier-ai-safety-and-risks",
+      "category": [
+        "EU AI Act",
+        "AI Governance"
+      ],
+      "title": "Commission holds special meeting of Scientific panel on frontier AI safety and risks",
+      "raw_excerpt": "The Commission holds a special meeting of the Scientific Panel on artificial intelligence (AI).",
+      "published_at": "2026-10-09",
+      "collected_at": "2026-10-12T19:48:50+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "ce0f30dcbe1de72c8feef41038c965ffbad76d9eaaeeb1aa548b4114a1f8fda4",
+      "first_seen_at": "2026-10-12T19:48:50+02:00",
+      "last_seen_at": "2026-10-13T09:39:37+02:00",
+      "collector_note": null
+    },
+    {
+      "id": "c559fbd12af243b637ab",
+      "source_id": "eu-ai-office",
+      "source": "European Commission – AI Act / AI Office",
+      "source_type": "primary",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
+      "category": [
+        "EU AI Act",
+        "AI Governance"
+      ],
+      "title": "AI Omnibus enters into force",
+      "raw_excerpt": "On 27 July 2026, the AI Omnibus enters into force across the EU, bringing extended timelines to administrative simplification.",
+      "published_at": "2026-07-27",
+      "collected_at": "2026-09-15T10:43:59+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "2adce69ab2ad064ab7d0d5e4c37c8459642f465c380fd74168a3f948e4e9027e",
+      "first_seen_at": "2026-09-15T10:43:59+02:00",
+      "last_seen_at": "2026-10-13T09:39:37+02:00",
+      "collector_note": null
+    },
+    {
+      "id": "956414ff323625f7fa6f",
+      "source_id": "eu-ai-office",
+      "source": "European Commission – AI Act / AI Office",
+      "source_type": "primary",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/supporting-implementation-ai-act-clear-guidelines",
+      "category": [
+        "EU AI Act",
+        "AI Governance"
+      ],
+      "title": "Supporting the implementation of the AI Act with clear guidelines",
+      "raw_excerpt": "In the course of 2026, the AI Office has been preparing guidelines to ensure a smooth implementation of the AI Act.",
+      "published_at": "2025-12-04",
+      "collected_at": "2026-09-15T10:43:58+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "6964d2a6e825efe24a090875b524221a191b37acacf014c6a4535031cae41c00",
+      "first_seen_at": "2026-09-15T10:43:58+02:00",
+      "last_seen_at": "2026-10-13T09:39:37+02:00",
+      "collector_note": null
+    },
+    {
+      "id": "cc90eaa80cf04055a42d",
+      "source_id": "eu-ai-office",
+      "source": "European Commission – AI Act / AI Office",
+      "source_type": "primary",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/eu-and-ukraine-deepen-cooperation-cyber-security-5th-cyber-dialogue",
+      "category": [
+        "EU AI Act",
+        "AI Governance"
+      ],
+      "title": "EU and Ukraine deepen cooperation on cyber security at 5th Cyber Dialogue",
+      "raw_excerpt": "On 9 October, the European Union and Ukraine held their 5th Cyber Dialogue, in Brussels.",
+      "published_at": "2026-10-13",
+      "collected_at": "2026-10-13T09:39:37+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "51fa4ec207150577543197fe8346e235baa94bbc2d64a7efb36ce411888acb34",
+      "first_seen_at": "2026-10-13T09:39:37+02:00",
+      "last_seen_at": "2026-10-13T09:39:37+02:00"
     },
     {
       "id": "bf704ed609bfb91655ee",
@@ -161,606 +1110,6 @@
       "content_hash": "202013fda6fff824a8a0e72cfa7f648c4b982ff99b344f2572ea630cd8f4e353",
       "first_seen_at": "2026-10-12T19:49:24+02:00",
       "last_seen_at": "2026-10-13T02:34:59+02:00"
-    },
-    {
-      "id": "c7d7bb4939fc2f0dad73",
-      "source_id": "google-ai-news",
-      "source": "Google – AI Blog",
-      "source_type": "vendor",
-      "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
-      "category": [
-        "KI & Technologie"
-      ],
-      "title": "The latest AI news we announced in September 2026",
-      "raw_excerpt": "A video showing the September AI updates",
-      "published_at": "2026-10-02T17:00:00+02:00",
-      "collected_at": "2026-10-07T09:37:16+02:00",
-      "verification": "vendor",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "1b43760e04547b5751a11afd2896f3b3aa8a572f9c7b3ccc5d3297f0a62ce5ce",
-      "first_seen_at": "2026-10-07T09:37:16+02:00",
-      "last_seen_at": "2026-10-13T02:34:58+02:00"
-    },
-    {
-      "id": "b92ea2310cc5132177da",
-      "source_id": "google-ai-news",
-      "source": "Google – AI Blog",
-      "source_type": "vendor",
-      "source_url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
-      "category": [
-        "KI & Technologie"
-      ],
-      "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-      "raw_excerpt": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-      "published_at": "2026-09-28T21:00:00+02:00",
-      "collected_at": "2026-10-07T09:37:16+02:00",
-      "verification": "vendor",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "e6029d901a530f7ae7c5eb830e90f0f7c0308a8a6900d6397372a0074721eb36",
-      "first_seen_at": "2026-10-07T09:37:16+02:00",
-      "last_seen_at": "2026-10-13T02:34:58+02:00"
-    },
-    {
-      "id": "b4162d56612c1332aaae",
-      "source_id": "google-ai-news",
-      "source": "Google – AI Blog",
-      "source_type": "vendor",
-      "source_url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
-      "category": [
-        "KI & Technologie"
-      ],
-      "title": "Google Beam expands with new regions, partners, and customers",
-      "raw_excerpt": "Google Beam promotional animation",
-      "published_at": "2026-09-23T20:00:00+02:00",
-      "collected_at": "2026-10-07T09:37:16+02:00",
-      "verification": "vendor",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "d458b769d914c00d50f576b5a5d777f0a73fac22ea982f732f049f8f8e38c202",
-      "first_seen_at": "2026-10-07T09:37:16+02:00",
-      "last_seen_at": "2026-10-13T02:34:58+02:00"
-    },
-    {
-      "id": "589953384ae52c75dc97",
-      "source_id": "google-ai-news",
-      "source": "Google – AI Blog",
-      "source_type": "vendor",
-      "source_url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
-      "category": [
-        "KI & Technologie"
-      ],
-      "title": "New experts join Google’s AI & Economy team",
-      "raw_excerpt": "Text \"AI & Economy Research Program\" all over a green grid background, with the Google G logo in the bottom right corner",
-      "published_at": "2026-09-18T16:00:00+02:00",
-      "collected_at": "2026-10-07T09:37:16+02:00",
-      "verification": "vendor",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "56fadafe44aeca56a99a8646170134b349f1f40b5bb67b83e789da4e6f2d5144",
-      "first_seen_at": "2026-10-07T09:37:16+02:00",
-      "last_seen_at": "2026-10-13T02:34:58+02:00"
-    },
-    {
-      "id": "b19c702be37740f484a0",
-      "source_id": "google-ai-news",
-      "source": "Google – AI Blog",
-      "source_type": "vendor",
-      "source_url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
-      "category": [
-        "KI & Technologie"
-      ],
-      "title": "Introducing Playground: Create and play custom games",
-      "raw_excerpt": "Overview of Playground",
-      "published_at": "2026-10-07T14:00:00+02:00",
-      "collected_at": "2026-10-07T14:33:39+02:00",
-      "verification": "vendor",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "05480450e66b8d504a43770b97669157f396074b09721b4d7a969a5ee9050fde",
-      "first_seen_at": "2026-10-07T14:33:39+02:00",
-      "last_seen_at": "2026-10-13T02:34:58+02:00"
-    },
-    {
-      "id": "5dfafcc3e90fe51b1106",
-      "source_id": "openai-news",
-      "source": "OpenAI – News",
-      "source_type": "vendor",
-      "source_url": "https://openai.com/index/oracle",
-      "category": [
-        "KI & Technologie"
-      ],
-      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
-      "raw_excerpt": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
-      "published_at": "2026-10-08T18:00:00+02:00",
-      "collected_at": "2026-10-08T20:29:05+02:00",
-      "verification": "vendor",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "47f4cfeaf3d8c2d3f87aae40bb03a89a162c2475bd48d6bd7ce1c8d5b45396b3",
-      "first_seen_at": "2026-10-08T20:29:05+02:00",
-      "last_seen_at": "2026-10-13T02:34:58+02:00"
-    },
-    {
-      "id": "532efa6cffbe518d01f7",
-      "source_id": "openai-news",
-      "source": "OpenAI – News",
-      "source_type": "vendor",
-      "source_url": "https://openai.com/index/pollo-ai",
-      "category": [
-        "KI & Technologie"
-      ],
-      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
-      "raw_excerpt": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
-      "published_at": "2026-10-08T14:00:00+02:00",
-      "collected_at": "2026-10-08T20:29:05+02:00",
-      "verification": "vendor",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "0bbb734722d19271678456effd247db9babcb20ac7a735cea75dbbfeb5aeab31",
-      "first_seen_at": "2026-10-08T20:29:05+02:00",
-      "last_seen_at": "2026-10-13T02:34:58+02:00"
-    },
-    {
-      "id": "1c71b03f3efb97447d56",
-      "source_id": "openai-news",
-      "source": "OpenAI – News",
-      "source_type": "vendor",
-      "source_url": "https://openai.com/index/legalon-halves-codex-costs",
-      "category": [
-        "KI & Technologie"
-      ],
-      "title": "LegalOn halves Codex costs while maintaining development speed",
-      "raw_excerpt": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
-      "published_at": "2026-10-08T14:00:00+02:00",
-      "collected_at": "2026-10-09T02:38:09+02:00",
-      "verification": "vendor",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "03d825f4feae31a5a4e904b9acb5dda68e1e26d41256461b9966f35da073c717",
-      "first_seen_at": "2026-10-09T02:38:09+02:00",
-      "last_seen_at": "2026-10-13T02:34:58+02:00"
-    },
-    {
-      "id": "63bbc34aac1e5360697a",
-      "source_id": "openai-news",
-      "source": "OpenAI – News",
-      "source_type": "vendor",
-      "source_url": "https://openai.com/index/sophos",
-      "category": [
-        "KI & Technologie"
-      ],
-      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-      "raw_excerpt": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
-      "published_at": "2026-10-09T09:00:00+02:00",
-      "collected_at": "2026-10-09T11:28:11+02:00",
-      "verification": "vendor",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "2f070f7296088ae0bd49ebd07104f9b04894a75fc85a2cf8ed5abefdc5bd558f",
-      "first_seen_at": "2026-10-09T11:28:11+02:00",
-      "last_seen_at": "2026-10-13T02:34:58+02:00"
-    },
-    {
-      "id": "fa5bbd7178cd8da766e2",
-      "source_id": "openai-news",
-      "source": "OpenAI – News",
-      "source_type": "vendor",
-      "source_url": "https://openai.com/index/asana-browser-agent",
-      "category": [
-        "KI & Technologie"
-      ],
-      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "raw_excerpt": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "published_at": "2026-10-09T09:00:00+02:00",
-      "collected_at": "2026-10-09T21:24:54+02:00",
-      "verification": "vendor",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "2f907c02f59460e30f1ad12da6c3ffd7e1834c7bb9a2191db817513de67a2e2f",
-      "first_seen_at": "2026-10-09T21:24:54+02:00",
-      "last_seen_at": "2026-10-13T02:34:58+02:00"
-    },
-    {
-      "id": "8f06b79d388f40327935",
-      "source_id": "enisa-security",
-      "source": "ENISA – Cyber- und KI-Sicherheit",
-      "source_type": "primary",
-      "source_url": "https://www.enisa.europa.eu/news/cybersecurity-month-work-employees-skills-under-the-looking-glass",
-      "category": [
-        "IT Security"
-      ],
-      "title": "Cybersecurity Month @ work: Employees' skills under the looking glass",
-      "raw_excerpt": "With the digitalisation of the workplace, organisations and their employees must navigate and manage the digital risks.",
-      "published_at": "2026-09-30T12:55:56+02:00",
-      "collected_at": "2026-10-06T13:24:52+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "225fd97730996f1056df2c3d6e0681ea23d0a6212ad9322476999f5ec066e30b",
-      "first_seen_at": "2026-10-06T13:24:52+02:00",
-      "last_seen_at": "2026-10-13T02:34:57+02:00"
-    },
-    {
-      "id": "65e9186f8e76dd91b78b",
-      "source_id": "enisa-security",
-      "source": "ENISA – Cyber- und KI-Sicherheit",
-      "source_type": "primary",
-      "source_url": "https://www.enisa.europa.eu/news/exploring-the-evolution-of-the-cyber-threat-landscape-how-dependencies-weaken-our-digital-resilience",
-      "category": [
-        "IT Security"
-      ],
-      "title": "Exploring the evolution of the cyber threat landscape: How dependencies weaken our digital resilience",
-      "raw_excerpt": "The 2026 ENISA Threat Landscape confirms that cyber dependencies expand the attack surface and require a new level of vigilance to effectively prevent and mitigate the impact of cyber incidents.",
-      "published_at": "2026-09-22T12:02:45+02:00",
-      "collected_at": "2026-10-06T13:24:52+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "2fd558dcd468f0aab6e36a9da997400381d2c4c477d5b31c086a1f5ef47fa7ce",
-      "first_seen_at": "2026-10-06T13:24:52+02:00",
-      "last_seen_at": "2026-10-13T02:34:57+02:00"
-    },
-    {
-      "id": "69e35d4f63fb3a6177f8",
-      "source_id": "enisa-security",
-      "source": "ENISA – Cyber- und KI-Sicherheit",
-      "source_type": "primary",
-      "source_url": "https://www.enisa.europa.eu/news/the-cra-single-reporting-platform-is-launched",
-      "category": [
-        "IT Security"
-      ],
-      "title": "The CRA Single Reporting Platform is launched",
-      "raw_excerpt": "The EU Agency for Cybersecurity (ENISA) has deployed the initial operating capability of the Single Reporting Platform (SRP).",
-      "published_at": "2026-09-11T13:00:26+02:00",
-      "collected_at": "2026-10-06T13:24:52+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "376977684c043312d89d15c0ffe34cb6fd17761d7174ab6e954baf04c39ac5d8",
-      "first_seen_at": "2026-10-06T13:24:52+02:00",
-      "last_seen_at": "2026-10-13T02:34:57+02:00"
-    },
-    {
-      "id": "aa9c64790a7db03646d9",
-      "source_id": "enisa-security",
-      "source": "ENISA – Cyber- und KI-Sicherheit",
-      "source_type": "primary",
-      "source_url": "https://www.enisa.europa.eu/news/enisa-scales-up-its-role-in-the-cve-program",
-      "category": [
-        "IT Security"
-      ],
-      "title": "ENISA scales up its role in the CVE Program",
-      "raw_excerpt": "NATO Communications and Information Agency (NCIA), along with AI and cybersecurity innovator AISLE, join the Common Vulnerabilities and Exposures (CVE) Numbering Authorities (CNAs), under the ENISA Root.",
-      "published_at": "2026-08-06T13:10:40+02:00",
-      "collected_at": "2026-10-06T13:24:52+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "e23d30677d9db5c5a8af3afcf3536c5ce3a31455d8324890055107201bf11e17",
-      "first_seen_at": "2026-10-06T13:24:52+02:00",
-      "last_seen_at": "2026-10-13T02:34:57+02:00"
-    },
-    {
-      "id": "37a0e12ebb691190f14d",
-      "source_id": "enisa-security",
-      "source": "ENISA – Cyber- und KI-Sicherheit",
-      "source_type": "primary",
-      "source_url": "https://www.enisa.europa.eu/news/have-your-say-on-the-certification-of-eu-managed-security-services",
-      "category": [
-        "IT Security"
-      ],
-      "title": "Have your say on the certification of EU Managed Security Services",
-      "raw_excerpt": "ENISA is launching a public consultation on the draft candidate cybersecurity certification scheme on EU Managed Security Services (EUMSS), following its work with the dedicated Ad Hoc Working Group.",
-      "published_at": "2026-07-24T12:00:13+02:00",
-      "collected_at": "2026-10-06T13:24:52+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "689f2572401454d352cc027392d682def7ab40956b4c1a28c2dbf232e1c59544",
-      "first_seen_at": "2026-10-06T13:24:52+02:00",
-      "last_seen_at": "2026-10-13T02:34:57+02:00"
-    },
-    {
-      "id": "0c8caa098365fd047aaa",
-      "source_id": "bsi-security",
-      "source": "BSI – Cyber- und KI-Sicherheit",
-      "source_type": "primary",
-      "source_url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/260911_CRA_Meldepflicht_Schwachstellen.html",
-      "category": [
-        "IT Security"
-      ],
-      "title": "Cyber Resilience Act: Meldepflicht startet",
-      "raw_excerpt": "Für Hersteller von Produkten mit digitalen Elementen gelten auf dem Binnenmarkt der EU ab dem 11. September 2026 die Meldepflichten des CRA. Hersteller müssen aktiv ausgenutzte Schwachstellen sowie schwerwiegende Sicherheitsvorfälle melden. Das BSI unterstützt mit Schritt-für-Schritt-Anleitungen.",
-      "published_at": "2026-09-11T09:00:00+02:00",
-      "collected_at": "2026-10-06T13:24:51+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "81395f5d03cf2b1d35d1800c9ae35ee1414e3b4260cbdce7260b29b63dc94971",
-      "first_seen_at": "2026-10-06T13:24:51+02:00",
-      "last_seen_at": "2026-10-13T02:34:57+02:00"
-    },
-    {
-      "id": "3a84ffe437a1be8937fb",
-      "source_id": "bsi-security",
-      "source": "BSI – Cyber- und KI-Sicherheit",
-      "source_type": "primary",
-      "source_url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/260806_security_txt.html",
-      "category": [
-        "IT Security"
-      ],
-      "title": "Nur 1,8 Prozent der Webseitenbetreiber nutzen security.txt – BSI und ACS raten zur Umsetzung",
-      "raw_excerpt": "Nur 1,8 Prozent der Webseitenbetreiber in Deutschland stellen bislang eine security.txt bereit. Das zeigen Messungen des Bundesamt für Sicherheit in der Informationstechnik (BSI) im Rahmen des Cyberdome-Projekts.",
-      "published_at": "2026-08-06T10:15:00+02:00",
-      "collected_at": "2026-10-06T13:24:51+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "88600f0816bc82143e2deae3f8277c0f8066609b642aeb481559cc0ab0b4c926",
-      "first_seen_at": "2026-10-06T13:24:51+02:00",
-      "last_seen_at": "2026-10-13T02:34:57+02:00"
-    },
-    {
-      "id": "677a3907a60a79063d20",
-      "source_id": "bsi-security",
-      "source": "BSI – Cyber- und KI-Sicherheit",
-      "source_type": "primary",
-      "source_url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/260728_Sichere_Ladeinfrastruktur.html",
-      "category": [
-        "IT Security"
-      ],
-      "title": "Sichere Ladeinfrastruktur: BSI veröffentlicht Eckpunktepapier und startet mit beteiligten Ressorts die Maßnahmenumsetzung",
-      "raw_excerpt": "Die Elektromobilität in Deutschland entwickelt sich immer dynamischer. Damit steigen auch die Anforderungen an Cybersicherheit und Resilienz. Das BSI hat aufbauend auf einer Studie ein Eckpunktepapier mit konkreten Maßnahmen für eine resiliente und vertrauenswürdige Ladeinfrastruktur erarbeitet.",
-      "published_at": "2026-07-28T10:00:00+02:00",
-      "collected_at": "2026-10-06T13:24:51+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "d88f09321ffc92e67e77becb68315572d48b6459ca116b6008f21fccd81952b3",
-      "first_seen_at": "2026-10-06T13:24:51+02:00",
-      "last_seen_at": "2026-10-13T02:34:57+02:00"
-    },
-    {
-      "id": "ff590f1b258a9879c652",
-      "source_id": "bsi-security",
-      "source": "BSI – Cyber- und KI-Sicherheit",
-      "source_type": "primary",
-      "source_url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/260722_Bundeskabinett_staerkt_CGS.html",
-      "category": [
-        "IT Security"
-      ],
-      "title": "Bundeskabinett stärkt mit „CyberGovSecure\" die Cybersicherheit der Bundesverwaltung",
-      "raw_excerpt": "Das Programm „CyberGovSecure“ setzt einen verbindlichen politischen und organisatorischen Rahmen. Das Programm setzt sich zum Ziel, die Cybersicherheit und Cyberresilienz der Bundesverwaltung ressortübergreifend, wirksam und messbar zu stärken.",
-      "published_at": "2026-07-22T14:00:00+02:00",
-      "collected_at": "2026-10-06T13:24:51+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "7dd18494bb85542a62f081aa4e2c03e745354825045ef8baee2cdc042b72c3f0",
-      "first_seen_at": "2026-10-06T13:24:51+02:00",
-      "last_seen_at": "2026-10-13T02:34:57+02:00"
-    },
-    {
-      "id": "e5c9b8b2ace7a43200cf",
-      "source_id": "bsi-security",
-      "source": "BSI – Cyber- und KI-Sicherheit",
-      "source_type": "primary",
-      "source_url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/261007_KI-Sicherheitsstudie_TUEV_BSI.html",
-      "category": [
-        "IT Security"
-      ],
-      "title": "Nur jedes zehnte Unternehmen gegen KI-gestützte Angriffe gerüstet - jedes sechste Unternehmen berichtet von Vorfällen",
-      "raw_excerpt": "Nur wenige Unternehmen in Deutschland haben Schutzmaßnahmen und Prozesse mit Blick auf Cyberangriffe im Zusammenhang mit KI etabliert. Das zeigt die aktuelle Studie von TÜV-Verband und BSI zum Thema „Künstliche Intelligenz und Cybersicherheit in Unternehmen\".",
-      "published_at": "2026-10-07T10:00:00+02:00",
-      "collected_at": "2026-10-12T19:49:22+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "b711f7fcda22b83b3767e55bde5472e65cbdb49e7430aa24d4a26fbdd7d99d78",
-      "first_seen_at": "2026-10-12T19:49:22+02:00",
-      "last_seen_at": "2026-10-13T02:34:57+02:00"
-    },
-    {
-      "id": "01846c67871d722ee1ef",
-      "source_id": "apm-project-management",
-      "source": "APM – News and Blog",
-      "source_type": "primary",
-      "source_url": "https://www.apm.org.uk/blog/another-tracker-wont-fix-weak-reporting/",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "Another tracker won't fix weak reporting",
-      "raw_excerpt": "Weak reporting is often mistaken for a visibility problem. The response is predictable: build another tracker, assign someone to maintain it, schedule another monthly review. Yet these measures do little to address the underlying issue. A tracker can only reflect the information people choose, or remember, to enter. When data is being gathered weeks or months after events have occurred, recollection takes the place of evidence. On paper, the reporting process may appear comprehensive. In reality, it can be capturing very little, timely or reliable.",
-      "published_at": "2026-10-08",
-      "collected_at": "2026-10-08T15:30:11+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "e15009ed611ec79a7c86e6cd484d04ae2a3bf12f546d1e84d97da0e0347e2334",
-      "first_seen_at": "2026-10-08T15:30:11+02:00",
-      "last_seen_at": "2026-10-13T02:34:56+02:00"
-    },
-    {
-      "id": "392704caef232940d5cc",
-      "source_id": "apm-project-management",
-      "source": "APM – News and Blog",
-      "source_type": "primary",
-      "source_url": "https://www.apm.org.uk/blog/why-good-projects-start-with-good-schedules-before-bim-ai-and-digital-twins/",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "Why good projects start with good schedules — Before BIM, AI and digital twins",
-      "raw_excerpt": "Before any project invests in Artificial Intelligence (AI), digital twins or the latest BIM tools, there's a simpler question worth asking: is the underlying schedule any good? Because no amount of sophisticated technology can fix a programme that lacks solid logic, realistic sequencing or credible assumptions. Technology can enhance a good programme, but it cannot compensate for a poor one.",
-      "published_at": "2026-10-07",
-      "collected_at": "2026-10-07T15:28:48+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "ca0d472cb0a3edb48a9818f843107c9490ee973d47649659f84eadc117b28134",
-      "first_seen_at": "2026-10-07T15:28:48+02:00",
-      "last_seen_at": "2026-10-13T02:34:56+02:00"
-    },
-    {
-      "id": "7b8ef343ee9249f31973",
-      "source_id": "apm-project-management",
-      "source": "APM – News and Blog",
-      "source_type": "primary",
-      "source_url": "https://www.apm.org.uk/news/how-to-get-the-best-from-working-with-your-project-sponsor-webinar/",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "How to get the best from working with your Project Sponsor webinar",
-      "raw_excerpt": "The fundamental partnership in any project is that between the Project Manager and their Sponsor. So how can you make that partnership effective?",
-      "published_at": "2026-09-23",
-      "collected_at": "2026-09-24T13:22:25+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "4c6fba53644f15f740ed1f9745f5002f86278699b51b4faa2977170fa853240f",
-      "first_seen_at": "2026-09-24T13:22:25+02:00",
-      "last_seen_at": "2026-10-13T02:34:54+02:00"
-    },
-    {
-      "id": "2fa4ab50dd0bb4a3245b",
-      "source_id": "apm-project-management",
-      "source": "APM – News and Blog",
-      "source_type": "primary",
-      "source_url": "https://www.apm.org.uk/news/prompt-engineering-how-to-get-the-best-out-of-generative-ai-tools/",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "Prompt Engineering – How to get the best out of Generative AI tools",
-      "raw_excerpt": "On the 16th September, Dr Kitty Hung delivered a thought-provoking and informative presentation focussed on AI Prompt Engineering at the AtkinsRealis Hub in Bristol. During the evening, Kitty covered the following topics, displaying a great level of practical knowledge and insight:",
-      "published_at": "2026-09-24",
-      "collected_at": "2026-09-24T13:22:26+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "0b9969ce09ef5887ffbd9cb48f6fbe740c4dcf24b4250d7296c3b66a88ca403a",
-      "first_seen_at": "2026-09-24T13:22:26+02:00",
-      "last_seen_at": "2026-10-13T02:34:53+02:00"
-    },
-    {
-      "id": "9417cc8182b1b3dac1d7",
-      "source_id": "apm-project-management",
-      "source": "APM – News and Blog",
-      "source_type": "primary",
-      "source_url": "https://www.apm.org.uk/news/voting-for-the-apm-trustee-elections-now-open/",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "Voting for the APM Trustee elections now open",
-      "raw_excerpt": "Association for Project Management (APM) is pleased to announce that voting for the 2026 APM Trustee elections is now open.",
-      "published_at": "2026-09-28",
-      "collected_at": "2026-09-28T11:27:09+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "6ae2d6424c4322dea3e73e7f3768750dedd91b305f36f745cd417b85dc7aaf09",
-      "first_seen_at": "2026-09-28T11:27:09+02:00",
-      "last_seen_at": "2026-10-13T02:34:53+02:00"
-    },
-    {
-      "id": "0526f0ec6b45d5f232fe",
-      "source_id": "apm-project-management",
-      "source": "APM – News and Blog",
-      "source_type": "primary",
-      "source_url": "https://www.apm.org.uk/news/world-space-week-why-project-professionals-are-mission-critical-for-strategic-success-in-the-space-sector/",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "World Space Week: Why project professionals are mission-critical for strategic success in the space sector",
-      "raw_excerpt": "Ahead of World Space Week (4 October-10 October 2026), Martina Blake, and Mark Heelis (Lead and Deputy Lead of the APM International Space Sector Interest Network ) share their views on how a project management-led approach can result in success for organisations in the space sector.",
-      "published_at": "2026-09-28",
-      "collected_at": "2026-09-30T13:23:02+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "9036cc7572f54f9542a0c21183b81050d8a9bfcd6a46b20d6ed96bbf179702d1",
-      "first_seen_at": "2026-09-30T13:23:02+02:00",
-      "last_seen_at": "2026-10-13T02:34:52+02:00"
-    },
-    {
-      "id": "9c4721fbd1d9df912a28",
-      "source_id": "apm-project-management",
-      "source": "APM – News and Blog",
-      "source_type": "primary",
-      "source_url": "https://www.apm.org.uk/news/the-revolution-starts-here-how-launch-is-changing/",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "The revolution starts here: How launch is changing?",
-      "raw_excerpt": "With almost 30 years in the UK Government, Martina has deep expertise in leading strategic delivery across defence, space, security and digital portfolios, both in the UK and internationally. Martina is currently a Deputy Director in the Ministry of Defence. Prior to this she worked as a UK Government Advisor at the European Space Agency (ESA) in Germany, advising ESA on delivery of the Space Safety Programme (Space Weather, Planetary Defence and Space Debris), Mission Operations Infrastructure Projects, and strategic transformation Initiatives. Martina is also the Lead of APM’s International Space Sector Interest Network, and UK representative for the International Project Management Committee within the International Astronautical Federation. She is a Chartered Project Professional, Fell",
-      "published_at": "2026-10-05",
-      "collected_at": "2026-10-05T13:25:35+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "4c3818ef73facb1cb0c8372fd396fa074d7a9216263ab6736c31b554dc78f0e6",
-      "first_seen_at": "2026-10-05T13:25:35+02:00",
-      "last_seen_at": "2026-10-13T02:34:51+02:00"
-    },
-    {
-      "id": "db0e4c6dfcc7e824142c",
-      "source_id": "apm-project-management",
-      "source": "APM – News and Blog",
-      "source_type": "primary",
-      "source_url": "https://www.apm.org.uk/news/meet-the-rocket-builders-the-people-behind-propulsion/",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "Meet the rocket builders: The people behind propulsion",
-      "raw_excerpt": "The theme of World Space Week 2026 is \"Rocket Revolution\". This is our profile interview with a project or programme professional working in propulsion or launch.",
-      "published_at": "2026-10-06",
-      "collected_at": "2026-10-06T12:25:23+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "e5886c92471d60640e3e1f01ff8157c82278742e268322f40510d613f16b9f3a",
-      "first_seen_at": "2026-10-06T12:25:23+02:00",
-      "last_seen_at": "2026-10-13T02:34:51+02:00"
-    },
-    {
-      "id": "e4a51cd49beb427b4255",
-      "source_id": "apm-project-management",
-      "source": "APM – News and Blog",
-      "source_type": "primary",
-      "source_url": "https://www.apm.org.uk/news/when-the-playbook-fails-why-navigating-uncertainty-is-the-future-of-project-leadership/",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "When the playbook fails: Why navigating uncertainty is the future of project leadership",
-      "raw_excerpt": "When a high-stakes, complex initiative hits unexpected turbulence, the breakdown rarely happens in the Gantt chart. It happens in human dynamics.",
-      "published_at": "2026-10-08",
-      "collected_at": "2026-10-08T07:25:53+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "fe0d6e6fd083f51e69586033f41f1e32e6ff1ba6267566f3e11553b6fac33e68",
-      "first_seen_at": "2026-10-08T07:25:53+02:00",
-      "last_seen_at": "2026-10-13T02:34:49+02:00"
-    },
-    {
-      "id": "9d5b089fcc7a7b3854c4",
-      "source_id": "apm-project-management",
-      "source": "APM – News and Blog",
-      "source_type": "primary",
-      "source_url": "https://www.apm.org.uk/news/world-space-week-2026-quick-quiz/",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "World Space Week 2026 - quick quiz",
-      "raw_excerpt": "To conclude World Space Week content, a quiz a quick has been designed. A fun way to test your knowledge and discover something new about space, project leadership and the people shaping the Rocket Revolution.",
-      "published_at": "2026-10-09",
-      "collected_at": "2026-10-09T11:28:00+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "5ec36b3136b32239b6e6852de7d6a66ddf5f3d87052f62e19cf0180431798f21",
-      "first_seen_at": "2026-10-09T11:28:00+02:00",
-      "last_seen_at": "2026-10-13T02:34:49+02:00"
     },
     {
       "id": "cb74e3bf7092b5f15652",
@@ -963,68 +1312,6 @@
       "last_seen_at": "2026-10-13T02:34:34+02:00"
     },
     {
-      "id": "299bc3455f13fc48bf13",
-      "source_id": "dsk",
-      "source": "Datenschutzkonferenz",
-      "source_type": "primary",
-      "source_url": "https://www.datenschutzkonferenz-online.de/orientierungshilfen.html",
-      "category": [
-        "DSGVO & Ethik",
-        "AI Governance"
-      ],
-      "title": "Datenschutzkonferenz",
-      "raw_excerpt": "Der offizielle Webauftritt der Datenschutzkonferenz (DSK), dem Gremium der deutschen Datenschutzaufsichtsbehörden",
-      "published_at": null,
-      "collected_at": "2026-09-14T18:58:54+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "811ac302c3193eb1b1ab9371558f9eff4f60aa642f2679335f729c77f8d6d3dd",
-      "first_seen_at": "2026-09-14T18:58:54+02:00",
-      "last_seen_at": "2026-10-13T02:34:29+02:00",
-      "collector_note": null
-    },
-    {
-      "id": "fd26c6620cbb3b8fa54e",
-      "source_id": "edpb",
-      "source": "European Data Protection Board",
-      "source_type": "primary",
-      "source_url": "https://www.edpb.europa.eu/",
-      "category": [
-        "DSGVO & Ethik",
-        "AI Governance"
-      ],
-      "title": "Home | European Data Protection Board",
-      "raw_excerpt": "",
-      "published_at": "2026-07-30T12:00:00Z",
-      "collected_at": "2026-09-14T18:58:54+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "a9b348baabb63f3a36168e3506b408dea00ffbc0e6fc27353e27dd69cfd8d3bf",
-      "first_seen_at": "2026-09-14T18:58:54+02:00",
-      "last_seen_at": "2026-10-13T02:34:28+02:00",
-      "collector_note": null
-    },
-    {
-      "id": "01c5434847cfafae5a0c",
-      "source_id": "eurlex-ai-act",
-      "source": "EUR-Lex – Regulation (EU) 2024/1689",
-      "source_type": "primary",
-      "source_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng",
-      "category": [
-        "EU AI Act"
-      ],
-      "title": "AI Act – konsolidierte Fassung 2026-07-27",
-      "raw_excerpt": "Aktuelle konsolidierte Fassung der Regulation (EU) 2024/1689 (Artificial Intelligence Act). Stand: 2026-07-27.",
-      "published_at": "2026-07-27",
-      "collected_at": "2026-10-13T02:34:27+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "ed4a9d3330cafe5c922a278159f2a5379789d35caf18fbba77966ea05c9199a3",
-      "first_seen_at": "2026-10-13T02:34:27+02:00",
-      "last_seen_at": "2026-10-13T02:34:27+02:00"
-    },
-    {
       "id": "675ab8b9c70584920356",
       "source_id": "eu-ai-office",
       "source": "European Commission – AI Act / AI Office",
@@ -1043,153 +1330,6 @@
       "content_hash": "ee5b82669e37a94a160e66d77b3507fdc759483f5ac1206d4e0645d4bacb55b6",
       "first_seen_at": "2026-09-15T10:43:59+02:00",
       "last_seen_at": "2026-10-13T02:34:26+02:00",
-      "collector_note": null
-    },
-    {
-      "id": "b4038eb822b1702a8e84",
-      "source_id": "eu-ai-office",
-      "source": "European Commission – AI Act / AI Office",
-      "source_type": "primary",
-      "source_url": "https://digital-strategy.ec.europa.eu/en/news/executive-vice-president-virkkunen-us-g20-ministerial-meetings",
-      "category": [
-        "EU AI Act",
-        "AI Governance"
-      ],
-      "title": "Executive Vice-President Virkkunen in the US for G20 Ministerial meetings",
-      "raw_excerpt": "Starting today until Wednesday, 2 September, the European Commission will be represented by Henna Virkkunen, Executive Vice-President for Tech Sovereignty, Security and Democracy and Valdis Dombrovskis, Commissioner for Economy and Productivity, Implementation and Simplification at the G20 Ministerial meetings in North Carolina, United States of America.",
-      "published_at": "2026-08-31",
-      "collected_at": "2026-09-15T10:43:59+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "6266543d23bd3f2acf8affccadd939511f8509fd2736b914501003846c628981",
-      "first_seen_at": "2026-09-15T10:43:59+02:00",
-      "last_seen_at": "2026-10-13T02:34:26+02:00",
-      "collector_note": null
-    },
-    {
-      "id": "530ccf0fce189221d8c8",
-      "source_id": "eu-ai-office",
-      "source": "European Commission – AI Act / AI Office",
-      "source_type": "primary",
-      "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-seeks-feedback-challenges-and-way-forward-area-effect-technology-copyright",
-      "category": [
-        "EU AI Act",
-        "AI Governance"
-      ],
-      "title": "Commission seeks feedback on challenges and way forward in the area of effect of technology on copyright",
-      "raw_excerpt": "The European Commission is gathering feedback on challenges and options for potential future measures to support the impact of technology, including artificial intelligence, on the effective copyright protection amid market and technology developments of creative works and innovations.",
-      "published_at": "2026-09-29",
-      "collected_at": "2026-09-29T12:25:35+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "e372d5321d49eabddc6333a57bcd763ea0e80a5d6c42c07b3240018c8be35e5a",
-      "first_seen_at": "2026-09-29T12:25:35+02:00",
-      "last_seen_at": "2026-10-13T02:34:26+02:00",
-      "collector_note": null
-    },
-    {
-      "id": "09cd0405561ebf61f89d",
-      "source_id": "eu-ai-office",
-      "source": "European Commission – AI Act / AI Office",
-      "source_type": "primary",
-      "source_url": "https://digital-strategy.ec.europa.eu/en/news/three-four-eu-employees-faced-cyber-threats-work-new-eurobarometer-finds",
-      "category": [
-        "EU AI Act",
-        "AI Governance"
-      ],
-      "title": "Three in four EU employees faced cyber threats at work, new Eurobarometer finds",
-      "raw_excerpt": "Three in four employees in the European Union encountered suspicious emails, messages or links at work, according to a new Eurobarometer survey published by the European Commission.",
-      "published_at": "2026-09-30",
-      "collected_at": "2026-10-01T12:26:04+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "0be1fca47d42517ae4231e5c41a920023a7e9b94c302d1e4575bec4cde309214",
-      "first_seen_at": "2026-10-01T12:26:04+02:00",
-      "last_seen_at": "2026-10-13T02:34:26+02:00",
-      "collector_note": null
-    },
-    {
-      "id": "9d5dc209f53282ec4ee9",
-      "source_id": "eu-ai-office",
-      "source": "European Commission – AI Act / AI Office",
-      "source_type": "primary",
-      "source_url": "https://digital-strategy.ec.europa.eu/en/news/edic-agri-food-launched-support-digital-innovation-across-europes-food-and-agriculture-sector",
-      "category": [
-        "EU AI Act",
-        "AI Governance"
-      ],
-      "title": "EDIC for Agri-Food launched to support digital innovation across Europe’s food and agriculture sector",
-      "raw_excerpt": "The European Digital Infrastructure Consortium for Agri-Food (EDIC for Agri-Food) has officially been established with its seat in Paris with a launch event convened by Ms Annie Genevard, French Minister of Agriculture, Agri-Food and Food Sovereignty member countries, the Commission and stakeholders from across the agri-food supply chain.",
-      "published_at": "2026-10-01",
-      "collected_at": "2026-10-02T16:26:47+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "3862cdd024cb5b8de5911df27a335043acf70ef90d351d1d5b1577e4aaf2a30e",
-      "first_seen_at": "2026-10-02T16:26:47+02:00",
-      "last_seen_at": "2026-10-13T02:34:25+02:00",
-      "collector_note": null
-    },
-    {
-      "id": "2a1bcba63fb036090ae9",
-      "source_id": "eu-ai-office",
-      "source": "European Commission – AI Act / AI Office",
-      "source_type": "primary",
-      "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-holds-special-meeting-scientific-panel-frontier-ai-safety-and-risks",
-      "category": [
-        "EU AI Act",
-        "AI Governance"
-      ],
-      "title": "Commission holds special meeting of Scientific panel on frontier AI safety and risks",
-      "raw_excerpt": "The Commission holds a special meeting of the Scientific Panel on artificial intelligence (AI).",
-      "published_at": "2026-10-09",
-      "collected_at": "2026-10-12T19:48:50+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "ce0f30dcbe1de72c8feef41038c965ffbad76d9eaaeeb1aa548b4114a1f8fda4",
-      "first_seen_at": "2026-10-12T19:48:50+02:00",
-      "last_seen_at": "2026-10-13T02:34:25+02:00",
-      "collector_note": null
-    },
-    {
-      "id": "c559fbd12af243b637ab",
-      "source_id": "eu-ai-office",
-      "source": "European Commission – AI Act / AI Office",
-      "source_type": "primary",
-      "source_url": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
-      "category": [
-        "EU AI Act",
-        "AI Governance"
-      ],
-      "title": "AI Omnibus enters into force",
-      "raw_excerpt": "On 27 July 2026, the AI Omnibus enters into force across the EU, bringing extended timelines to administrative simplification.",
-      "published_at": "2026-07-27",
-      "collected_at": "2026-09-15T10:43:59+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "2adce69ab2ad064ab7d0d5e4c37c8459642f465c380fd74168a3f948e4e9027e",
-      "first_seen_at": "2026-09-15T10:43:59+02:00",
-      "last_seen_at": "2026-10-13T02:34:25+02:00",
-      "collector_note": null
-    },
-    {
-      "id": "956414ff323625f7fa6f",
-      "source_id": "eu-ai-office",
-      "source": "European Commission – AI Act / AI Office",
-      "source_type": "primary",
-      "source_url": "https://digital-strategy.ec.europa.eu/en/news/supporting-implementation-ai-act-clear-guidelines",
-      "category": [
-        "EU AI Act",
-        "AI Governance"
-      ],
-      "title": "Supporting the implementation of the AI Act with clear guidelines",
-      "raw_excerpt": "In the course of 2026, the AI Office has been preparing guidelines to ensure a smooth implementation of the AI Act.",
-      "published_at": "2025-12-04",
-      "collected_at": "2026-09-15T10:43:58+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "6964d2a6e825efe24a090875b524221a191b37acacf014c6a4535031cae41c00",
-      "first_seen_at": "2026-09-15T10:43:58+02:00",
-      "last_seen_at": "2026-10-13T02:34:25+02:00",
       "collector_note": null
     },
     {
@@ -3083,84 +3223,84 @@
       "name": "European Commission – AI Act / AI Office",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-13T02:34:26+02:00",
+      "last_update": "2026-10-13T09:39:38+02:00",
       "items_found": 8
     },
     {
       "name": "EUR-Lex – Regulation (EU) 2024/1689",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-13T02:34:27+02:00",
+      "last_update": "2026-10-13T09:39:40+02:00",
       "items_found": 1
     },
     {
       "name": "European Data Protection Board",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-13T02:34:28+02:00",
+      "last_update": "2026-10-13T09:39:40+02:00",
       "items_found": 1
     },
     {
       "name": "Datenschutzkonferenz",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-13T02:34:29+02:00",
+      "last_update": "2026-10-13T09:39:41+02:00",
       "items_found": 1
     },
     {
       "name": "PMI – Artificial Intelligence",
       "type": "optional",
       "status": "failed",
-      "last_update": "2026-10-13T02:34:29+02:00",
+      "last_update": "2026-10-13T09:39:41+02:00",
       "note": "403 Client Error: Forbidden for url: https://www.pmi.org/blog?userTagIDSort=11122"
     },
     {
       "name": "GPM – Aktuelles und Blog",
       "type": "core",
-      "status": "ok",
-      "last_update": "2026-10-13T02:34:43+02:00",
-      "items_found": 10
+      "status": "failed",
+      "last_update": "2026-10-13T09:39:54+02:00",
+      "note": "HTTPSConnectionPool(host='www.gpm-ipma.de', port=443): Read timed out. (read timeout=10)"
     },
     {
       "name": "APM – News and Blog",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-13T02:34:56+02:00",
+      "last_update": "2026-10-13T09:40:16+02:00",
       "items_found": 10
     },
     {
       "name": "BSI – Cyber- und KI-Sicherheit",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-10-13T02:34:57+02:00",
+      "last_update": "2026-10-13T09:40:18+02:00",
       "items_found": 5
     },
     {
       "name": "ENISA – Cyber- und KI-Sicherheit",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-10-13T02:34:57+02:00",
+      "last_update": "2026-10-13T09:40:19+02:00",
       "items_found": 5
     },
     {
       "name": "OpenAI – News",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-10-13T02:34:58+02:00",
+      "last_update": "2026-10-13T09:40:19+02:00",
       "items_found": 5
     },
     {
       "name": "Google – AI Blog",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-10-13T02:34:58+02:00",
+      "last_update": "2026-10-13T09:40:19+02:00",
       "items_found": 5
     },
     {
       "name": "heise online – KI-Nachrichten",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-10-13T02:34:59+02:00",
+      "last_update": "2026-10-13T09:40:20+02:00",
       "items_found": 8
     }
   ]
