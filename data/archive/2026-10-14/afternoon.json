@@ -1,0 +1,417 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T15:39:28+02:00",
+  "mode": "live",
+  "edition": "afternoon",
+  "briefing": [
+    "Deterministische Ranking-Baseline ohne kostenpflichtige KI-API.",
+    "Primärquellen werden bevorzugt; Social Radar ist deaktiviert.",
+    "Aktuelle Meldungen: Veröffentlichungen der letzten 7 Tage. Lesestücke und ältere Inhalte sind separat eingeordnet."
+  ],
+  "items": [
+    {
+      "id": "48bda23ca19d7a553154",
+      "category": "Projektmanagement",
+      "rank": 1,
+      "title": "Deutschlands Hightech-Agenda: Strategie braucht Umsetzung",
+      "summary": "Der Beitrag der GPM bewertet die Roadmaps der deutschen Hightech-Agenda als wichtigen Anfang, aber nicht als bereits wirksame Umsetzung. Roadmaps bauten keine Chipfabriken, beschleunigten keine Genehmigungen und überführten Quantencomputer nicht automatisch in die industrielle Anwendung. Entscheidend seien professionelles Portfolio- und Projektmanagement, klare Nutzenlogik, Priorisierung und belastbare Governance. Fortschritt müsse anhand konkreter Wirkungen wie mehr industriellen KI-Anwendungen, Produktivitätsgewinnen oder international wettbewerbsfähigen Produkten gemessen werden, statt nur Aktivitäten und Fördermittel zu zählen. Der Text fordert außerdem die Bereitschaft, nicht tragfähige Vorhaben zu beenden, Verantwortlichkeiten zwischen Staat, Forschung und Unternehmen zu klären und Experimente zu ermöglichen. Für die Umsetzung seien neue Kompetenzprofile nötig, darunter Programm-, Transfer- und regulatorische Projektmanager sowie Fachwissen zur Daten- und KI-Governance. Die 26 Partnerdialoge werden als sinnvoll, aber nicht als Ersatz für eine Umsetzungsorganisation beschrieben.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisches Beispiel: Ein öffentlich gefördertes KI-Programm definiert vorab messbare Ziele, benennt ein entscheidungsbefugtes Steuerungsgremium und beendet einen Teilstrang, wenn seine Nutzenannahme trotz überprüfter Experimente nicht trägt.",
+      "limitations": "Der Beitrag formuliert vor allem Perspektiven und Empfehlungen. Konkrete Ausgestaltung, Ressourcen, Zeitpläne und verbindliche Zuständigkeiten der Hightech-Agenda werden nicht genannt.",
+      "summary_origin": "generated",
+      "why_relevant": "Redaktionell relevant ist der Beitrag, weil er technologische Politik konsequent als Umsetzungs- und Steuerungsproblem einordnet. Für KI- und PM-Verantwortliche liegt die zentrale Botschaft darin, Wirkung, Entscheidungsrechte und Abbruchkriterien früh festzulegen.",
+      "watch_next": "Erstellen Sie für jedes Vorhaben eine Nutzenlogik mit messbaren Wirkungsindikatoren, Verantwortlichen, Entscheidungsrechten und einem dokumentierten Prüfpunkt für Fortführung oder Beendigung.",
+      "source": "GPM – Aktuelles und Blog",
+      "source_type": "primary",
+      "source_url": "https://www.gpm-ipma.de/ueber-die-gpm/aktuelles/detail/deutschlands-hightech-agenda-eine-gute-strategie-die-aber-allein-nicht-ausreicht",
+      "published_at": "2026-10-14",
+      "collected_at": "2026-10-14T15:38:52+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "3aed5704e5336676b50c",
+      "category": "KI & Technologie",
+      "rank": 2,
+      "title": "Europas nächste KI-Phase ist agentisch",
+      "summary": "OpenAI berichtet über eine zunehmende Nutzung agentischer Werkzeuge in Unternehmen und kleinen sowie mittleren Unternehmen in der EU. Der Hersteller definiert kleine und mittlere Unternehmen in dieser Analyse als Betriebe mit höchstens 200 zugeordneten Nutzern. Nach eigenen Angaben entfiel bei ChatGPT-Enterprise-Kunden im EU-Sample mehr als die Hälfte der Output-Tokens auf Codex und ChatGPT Work. Bei EU-KMU stieg die Zahl wöchentlicher aktiver Nutzer dieser Werkzeuge seit Mai 2026 um mehr als das Achtfache; laut Anbieter zeigte sich das Wachstum in jedem Mitgliedstaat. Die Intensität variiert stark: Im Sample lag der Anteil agentischer Output-Tokens zwischen 22 Prozent in Slowenien und 85 Prozent in Litauen. OpenAI berichtet außerdem, EU-Frontier-Firmen nutzten KI intensiver als typische EU-Firmen, lägen aber hinter der globalen Spitze. Als nächste Herausforderung nennt der Beitrag den Übergang von Experimenten zu tiefer Nutzung, Qualifizierung und breiterem Zugang.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisches Beispiel: Ein europäisches Unternehmen kartiert einen Planungsprozess, prüft zunächst einen agentischen Einsatz für Recherche und Entwurf und vergleicht anschließend Qualität, Bearbeitungsaufwand und menschliche Kontrollpunkte mit dem bisherigen Ablauf.",
+      "limitations": "Die Angaben stammen aus einer OpenAI-Analyse und beziehen sich auf deren ChatGPT-Enterprise- und Business-Samples. Die Definitionen, Stichprobe und Output-Token-Metrik sind nicht vollständig erläutert; Produktivitäts- oder Beschäftigungswirkungen werden nicht belegt.",
+      "summary_origin": "generated",
+      "why_relevant": "Redaktionell relevant ist die Unterscheidung zwischen bloßer Verbreitung und intensiver, arbeitsintegrierter Nutzung. Für das PM zeigt sich daraus die Frage, ob Agenten tatsächlich Prozesse verbessern oder nur zusätzliche Aktivität erzeugen.",
+      "watch_next": "Prüfen Sie die im eigenen Unternehmen verwendeten KI-Werkzeuge nach Nutzungsintensität, Anwendungsfällen, erforderlichen Kompetenzen und nachvollziehbaren Ergebnissen, getrennt nach Teams oder Ländern.",
+      "source": "OpenAI – News",
+      "source_type": "vendor",
+      "source_url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+      "published_at": "2026-10-14T02:00:00+02:00",
+      "collected_at": "2026-10-14T15:39:27+02:00",
+      "verification": "vendor",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "4d877526335d6c5ef5d7",
+      "category": "KI & Technologie",
+      "rank": 3,
+      "title": "Projektmanager müssen KI-Daten kritisch hinterfragen",
+      "summary": "Der APM-Beitrag beschreibt KI als bereits im Projektalltag angekommen: Werkzeuge fassen Fortschritte zusammen, erkennen Risiken, entwerfen Berichte, analysieren Stakeholder-Stimmungen und erzeugen Entscheidungsvorlagen. Laut APM-Forschung 2026 sagen 27 Prozent der Projektprofessionals, KI sei vollständig in ihre Arbeitsabläufe eingebettet. Daraus leitet der Text eine neue Verantwortungsfrage ab: Projektmanager sollen nicht nur Dashboards lesen, sondern Herkunft, Lücken, Annahmen, mögliche Benachteiligungen und den Entscheidungszweck der Daten prüfen. Auch präzise wirkende Prognosen, Risikowerte und KI-Zusammenfassungen könnten unvollständig, verzerrt, veraltet oder falsch sein. Der Beitrag verweist auf APMs Data Literacy Skills Framework, auf Systems Thinking und auf den APM Competence Framework. Internationale Standards wie ISO/IEC 42001:2023 werden als Hinweis auf KI-Governance eingeordnet. Menschliches Urteilsvermögen werde durch KI nicht überflüssig, sondern wichtiger.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisches Beispiel: Vor einer Terminentscheidung prüft die Projektleitung, welche Daten ein KI-Risikowert nutzt, welche Arbeitspakete fehlen, wie aktuell die Daten sind und welche Unsicherheit die Empfehlung enthält.",
+      "limitations": "Die im Beitrag genannten 27 Prozent stammen aus APM-Forschung; Details zur Stichprobe und Messmethode fehlen. Der Text beschreibt Kompetenz- und Governance-Anforderungen, liefert aber keine projektspezifischen Umsetzungsmetriken oder Wirksamkeitsnachweise.",
+      "summary_origin": "generated",
+      "why_relevant": "Redaktionell relevant ist die Verschiebung von KI-Einführung zu Rechenschaft und Urteilskompetenz. In Projekten mit Zeitdruck kann eine gut präsentierte Analyse falsches Vertrauen erzeugen; kritisches Nachfragen wird daher zu einer Führungsaufgabe.",
+      "watch_next": "Führen Sie vor jeder wichtigen KI-gestützten Entscheidung einen kurzen Evidenzcheck mit Datenquelle, Aktualität, fehlenden Informationen, Annahmen, Unsicherheit und betroffenen Stakeholdern durch.",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/blog/in-an-ai-powered-project-world-are-project-managers-ready-to-challenge-the-data/",
+      "published_at": "2026-10-14",
+      "collected_at": "2026-10-14T15:39:24+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "a4584606c6f85bca43e2",
+      "category": "KI & Technologie",
+      "rank": 4,
+      "title": "Google stellt Gemini 4 Argon als Frontier-Modell vor",
+      "summary": "Google stellt Gemini 4 Argon als neues Frontier-Modell für Entwickler, Unternehmen, Wissenschaftler und Verbraucher vor. Nach Herstellerangaben sei es global über mehrere Google-Angebote und per API verfügbar; zugleich nennt Google einen Einführungspreis von zwei US-Dollar je Million Input-Tokens und zehn US-Dollar je Million Output-Tokens. Der Anbieter behauptet Spitzenleistungen bei mehrstufigen Aufgaben in Programmierung, Finanzen, Recht, Cybersicherheit und Wissenschaft sowie Rang eins im eigenen Vals Index. Google berichtet außerdem von internen und externen Anwendungsbeispielen: mehr als 35 Prozent mehr agentische Code-Einreichungen und nahezu ein Drittel weniger Rollbacks bei eigenen Teams, 3D-Modellierung, Dokumentenanalyse, Patent- und PDF-Auswertung sowie wissenschaftlichen und sicherheitsbezogenen Workflows. Weitere Beispiele betreffen die Verarbeitung von LiDAR-, GIS- und Archivdaten sowie automatisierte Angebots- und Kommunikationsabläufe. Der vorliegende Text bricht am Ende während der Darstellung wissenschaftlicher Anwendungen ab.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisches Beispiel: Ein Team testet das Modell zunächst mit nicht vertraulichen Projektdokumenten für Zusammenfassungen und Codeentwürfe und bewertet Genauigkeit, Nacharbeit, Tokenverbrauch sowie notwendige Freigaben.",
+      "limitations": "Die Leistungs-, Verfügbarkeits- und Wirkungsaussagen stammen vom Hersteller. Der Text nennt keine unabhängige Evaluation der behaupteten Benchmarks oder Produktivitätswerte; außerdem ist der bereitgestellte Artikeltext unvollständig.",
+      "summary_origin": "generated",
+      "why_relevant": "Redaktionell relevant ist die Breite der behaupteten Einsatzfelder, nicht deren automatische Übertragbarkeit. Für PM-Organisationen sollte die Ankündigung Anlass sein, Leistungsversprechen, Kosten, Datenrisiken und menschliche Kontrollpunkte getrennt zu prüfen.",
+      "watch_next": "Fordern Sie vor einer Einführung einen begrenzten Vergleichstest mit repräsentativen eigenen Aufgaben, dokumentierten Fehlern, Kostenannahmen, Datenschutzprüfung und manueller Abnahme der Ergebnisse durch.",
+      "source": "Google – AI Blog",
+      "source_type": "vendor",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "published_at": "2026-10-13T18:00:00+02:00",
+      "collected_at": "2026-10-13T23:12:56+02:00",
+      "verification": "vendor",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "61952b0355e955b50aa9",
+      "category": "AI & PM",
+      "rank": 5,
+      "title": "APM fordert Einstiegswege in Projektberufe für junge Menschen",
+      "summary": "Die Association for Project Management fordert Regierung und Wirtschaft auf, große nationale Projekte stärker für den Einstieg von Menschen ohne Ausbildung, Arbeit oder Studium sowie für Nachwuchskräfte zu nutzen. Ihr Bericht empfiehlt einen kohärenteren Ansatz für Projektkompetenzen, bessere frühe Karrierewege und breiteren Zugang zu Qualifikationen. Bei staatlichen Infrastruktur-, Digital-, Gesundheits-, Wohnungsbau- und Netto-Null-Projekten sollen laut APM Anteile von Einstiegsstellen, Ausbildungsplätzen oder Trainee-Positionen für NEETs reserviert werden. Außerdem schlägt der Verband vor, Mittel aus dem Growth and Skills Levy auch für anerkannte berufliche Zertifizierungen einzusetzen. Als Arbeitsmarktdruck nennt APM unter anderem 54 Prozent besorgte Projektprofessionals hinsichtlich der nötigen Kompetenzen, 57 Prozent besorgte Organisationen und 61 Prozent Geschäftsführungen, die keine ausreichende Talentpipeline sehen. 88 Prozent der Projektmanager bezeichneten KI-Kompetenz als wichtigste Fähigkeit der nächsten fünf Jahre. APM verweist zudem auf 981.000 NEETs im Alter von 16 bis 24 Jahren im Zeitraum April bis Juni 2026.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisches Beispiel: Ein Infrastrukturprogramm reserviert mehrere Einstiegsrollen, kombiniert sie mit betreuter Praxiserfahrung und ermöglicht parallel den Erwerb einer anerkannten Projektmanagementqualifikation.",
+      "limitations": "Die Empfehlungen und Zahlen stammen überwiegend aus APM-Berichten und werden im Artikel nicht methodisch detailliert. Eine Reservierung von Stellen wird als Forderung beschrieben, nicht als bereits geltende Pflicht; konkrete Finanzierungs- und Umsetzungsmodelle bleiben offen.",
+      "summary_origin": "generated",
+      "why_relevant": "Redaktionell relevant ist die Verbindung von Fachkräftesicherung, sozialer Teilhabe und Lieferfähigkeit großer Vorhaben. Die Forderungen zeigen, dass KI-Kompetenz nicht isoliert, sondern zusammen mit Kommunikation, Ethik, Risiko- und Stakeholderkompetenz aufgebaut werden soll.",
+      "watch_next": "Prüfen Sie bei geplanten Großprojekten, ob konkrete Einstiegsrollen, Mentoring, Mindestqualifikationen, Nachqualifizierung und messbare Entwicklungspfade für Nachwuchskräfte vorgesehen sind.",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/news/apm-urges-government-and-industry-to-use-major-national-projects-to-create-new-opportunities-for-neets-and-early-career-talent/",
+      "published_at": "2026-10-14",
+      "collected_at": "2026-10-14T15:39:16+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "8e5f82cfca63bac66758",
+      "category": "AI & PM",
+      "rank": 6,
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "summary": "Die Partnerschaft soll Unternehmenswissen mit fortgeschrittenen Modellen verbinden und Teams bei Planung, Entwicklung und Umsetzung unterstützen.",
+      "editorial_depth": false,
+      "practice_example": "",
+      "limitations": "",
+      "summary_origin": "generated",
+      "why_relevant": "Die Entwicklung ist für Verantwortliche relevant, die Integrationen von Unternehmenswissen und KI in Arbeits- und Projektprozesse bewerten.",
+      "watch_next": "Prüfen Sie verfügbare Integrationen, Datenzugriffe, Sicherheitsmechanismen und den konkreten Funktionsumfang.",
+      "source": "OpenAI – News",
+      "source_type": "vendor",
+      "source_url": "https://openai.com/index/atlassian-partnership",
+      "published_at": "2026-10-06T18:00:00+02:00",
+      "collected_at": "2026-10-07T09:37:16+02:00",
+      "verification": "vendor",
+      "status": "ok",
+      "is_top5": false,
+      "content_kind": "background",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "8f77e9bef4f955a5c9dd",
+      "category": "AI & PM",
+      "rank": 7,
+      "title": "KI kann Konflikte analysieren, lösen müssen wir sie selbst",
+      "summary": "KI kann im Projektmanagement Konflikte analysieren und Gespräche vorbereiten; die eigentliche Konfliktfähigkeit und Lösungsverantwortung bleiben laut Beitrag beim Menschen.",
+      "editorial_depth": false,
+      "practice_example": "",
+      "limitations": "",
+      "summary_origin": "generated",
+      "why_relevant": "Projektverantwortliche erhalten einen Hinweis auf mögliche KI-Unterstützung in Konflikten, ohne dass die menschliche Entscheidungs- und Gesprächsverantwortung entfällt.",
+      "watch_next": "Beobachten, welche konkreten Einsatzgrenzen, Qualitätskriterien und Rollenverteilungen für KI-gestützte Konfliktanalyse und Gesprächsvorbereitung beschrieben werden.",
+      "source": "GPM – Aktuelles und Blog",
+      "source_type": "primary",
+      "source_url": "https://www.gpm-ipma.de/ueber-die-gpm/blog/ki-kann-konflikte-analysieren-loesen-muessen-wir-sie-selbst",
+      "published_at": "2026-09-30",
+      "collected_at": "2026-09-30T05:25:14+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "is_top5": false,
+      "content_kind": "background",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "3306405c2ae2d89d5151",
+      "category": "KI & Technologie",
+      "rank": 8,
+      "title": "Atom für KI: Google schließt Vertrag über 3,6 GW mit großem US-Stromversorger",
+      "summary": "Google plant die Stromversorgung seiner KI-Rechenzentren über einen Vertrag mit Constellation Energy mit einer Leistung von 3,6 GW.",
+      "editorial_depth": false,
+      "practice_example": "",
+      "limitations": "",
+      "summary_origin": "generated",
+      "why_relevant": "Der Vertrag verdeutlicht die Größenordnung des Energiebedarfs von KI-Rechenzentren und ist für Infrastruktur- und Investitionsplanung relevant.",
+      "watch_next": "Beobachtet werden sollten Vertragsumsetzung, Energiebedarf weiterer Rechenzentren und die Entwicklung vergleichbarer Versorgungsmodelle.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/Atom-fuer-KI-Google-schliesst-Vertrag-ueber-3-6-GW-mit-grossem-US-Stromversorger-11479566.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-10-07T15:31:00+02:00",
+      "collected_at": "2026-10-07T16:28:05+02:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": false,
+      "content_kind": "background",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "578961a7d2d433bc9039",
+      "category": "IT Security",
+      "rank": 9,
+      "title": "Cybercrime-Zentrum Karlsruhe: Zunahme KI-generierter Missbrauchsdarstellungen",
+      "summary": "Frei verfügbare KI-Tools werden laut Meldung zur Erstellung kinderpornografischer Inhalte eingesetzt; die Abgrenzung zu realem Missbrauch wird thematisiert.",
+      "editorial_depth": false,
+      "practice_example": "",
+      "limitations": "",
+      "summary_origin": "generated",
+      "why_relevant": "Die Entwicklung betrifft Sicherheits-, Melde- und Moderationsrisiken bei Organisationen, deren Systeme oder Plattformen solche Inhalte verarbeiten könnten.",
+      "watch_next": "Prüfen Sie relevante Erkennungs-, Melde- und Schutzprozesse sowie weitere belastbare Lageentwicklungen zu KI-generiertem Missbrauch.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/Kindesmissbrauch-mit-KI-Cyber-Ermittler-vor-neuen-Problemen-11479344.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-10-07T13:50:00+02:00",
+      "collected_at": "2026-10-07T14:33:40+02:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": false,
+      "content_kind": "background",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "675ab8b9c70584920356",
+      "category": "EU AI Act",
+      "rank": 10,
+      "title": "Commission starts enforcing AI Act rules and new transparency requirements on 2 August",
+      "summary": "Beginn der Durchsetzung von AI-Act-Regeln und neuen Transparenzanforderungen.",
+      "editorial_depth": false,
+      "practice_example": "",
+      "limitations": "",
+      "summary_origin": "generated",
+      "why_relevant": "Der angekündigte Beginn der Durchsetzung macht die Vorbereitung auf einschlägige AI-Act-Anforderungen für betroffene Organisationen besonders relevant.",
+      "watch_next": "Betroffene Anforderungen, zuständige Behörden und konkrete Durchsetzungshinweise beobachten.",
+      "source": "European Commission – AI Act / AI Office",
+      "source_type": "primary",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
+      "published_at": "2026-07-31",
+      "collected_at": "2026-09-15T10:43:59+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "is_top5": false,
+      "content_kind": "background",
+      "related_sources": [],
+      "social_verified": false
+    }
+  ],
+  "freshness": {
+    "news_window_days": 7,
+    "current_count": 5,
+    "background_count": 5
+  },
+  "signals": {
+    "history_state": "building",
+    "days_available": 1,
+    "topics": []
+  },
+  "source_status": [
+    {
+      "name": "European Commission – AI Act / AI Office",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-10-14T15:38:45+02:00",
+      "items_found": 8
+    },
+    {
+      "name": "EUR-Lex – Regulation (EU) 2024/1689",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-10-14T15:38:47+02:00",
+      "items_found": 1
+    },
+    {
+      "name": "European Data Protection Board",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-10-14T15:38:48+02:00",
+      "items_found": 1
+    },
+    {
+      "name": "Datenschutzkonferenz",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-10-14T15:38:49+02:00",
+      "items_found": 1
+    },
+    {
+      "name": "PMI – Artificial Intelligence",
+      "type": "optional",
+      "status": "failed",
+      "last_update": "2026-10-14T15:38:49+02:00",
+      "note": "403 Client Error: Forbidden for url: https://www.pmi.org/blog?userTagIDSort=11122"
+    },
+    {
+      "name": "GPM – Aktuelles und Blog",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-10-14T15:39:08+02:00",
+      "items_found": 10
+    },
+    {
+      "name": "APM – News and Blog",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-10-14T15:39:25+02:00",
+      "items_found": 10
+    },
+    {
+      "name": "BSI – Cyber- und KI-Sicherheit",
+      "type": "optional",
+      "status": "ok",
+      "last_update": "2026-10-14T15:39:26+02:00",
+      "items_found": 5
+    },
+    {
+      "name": "ENISA – Cyber- und KI-Sicherheit",
+      "type": "optional",
+      "status": "ok",
+      "last_update": "2026-10-14T15:39:26+02:00",
+      "items_found": 5
+    },
+    {
+      "name": "OpenAI – News",
+      "type": "optional",
+      "status": "ok",
+      "last_update": "2026-10-14T15:39:27+02:00",
+      "items_found": 5
+    },
+    {
+      "name": "Google – AI Blog",
+      "type": "optional",
+      "status": "ok",
+      "last_update": "2026-10-14T15:39:27+02:00",
+      "items_found": 5
+    },
+    {
+      "name": "heise online – KI-Nachrichten",
+      "type": "optional",
+      "status": "ok",
+      "last_update": "2026-10-14T15:39:28+02:00",
+      "items_found": 8
+    }
+  ],
+  "ranking": {
+    "requested_mode": "hybrid",
+    "effective_mode": "baseline_fallback",
+    "error_class": "EvaluationDiagnosticError",
+    "cache_hits": 43,
+    "cache_misses": 51,
+    "api_items_evaluated": 51,
+    "api_call_performed": true,
+    "selection": {
+      "selection_policy": "24h_first_with_eligible_pm_slot",
+      "recent_core_candidates": 94,
+      "recent_core_not_selected": 89,
+      "unavailable_sources": [
+        "PMI – Artificial Intelligence"
+      ]
+    },
+    "editorial_depth": {
+      "enabled": true,
+      "api_calls": 1,
+      "cache_hits": 0,
+      "article_failures": 0,
+      "usage": {
+        "input_tokens": 5079,
+        "input_tokens_details": {
+          "cache_write_tokens": 5076,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2382,
+        "output_tokens_details": {
+          "reasoning_tokens": 46
+        },
+        "total_tokens": 7461
+      },
+      "model_cost_usd": 0.0038742000000000004
+    }
+  },
+  "editorial_depth_status": {
+    "enabled": true,
+    "api_calls": 1,
+    "cache_hits": 0,
+    "article_failures": 0,
+    "usage": {
+      "input_tokens": 5079,
+      "input_tokens_details": {
+        "cache_write_tokens": 5076,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2382,
+      "output_tokens_details": {
+        "reasoning_tokens": 46
+      },
+      "total_tokens": 7461
+    },
+    "model_cost_usd": 0.0038742000000000004
+  },
+  "editorial_brief": {
+    "title": "Aktuelle Auswahl",
+    "summary": "Der Beitrag der GPM bewertet die Roadmaps der deutschen Hightech-Agenda als wichtigen Anfang, aber nicht als bereits wirksame Umsetzung. Roadmaps bauten keine Chipfabriken, beschleunigten keine Genehmigungen und überführten Quantencomputer nicht automatisch in die industrielle Anwendung. Entscheidend seien professionelles Portfolio- und Projektmanagement, klare Nutzenlogik, Priorisierung und belastbare Governance. Fortschritt müsse anhand konkreter Wirkungen wie mehr industriellen KI-Anwendungen, Produktivitätsgewinnen oder international wettbewerbsfähigen Produkten gemessen werden, statt nur Aktivitäten und Fördermittel zu zählen. Der Text fordert außerdem die Bereitschaft, nicht tragfähige Vorhaben zu beenden, Verantwortlichkeiten zwischen Staat, Forschung und Unternehmen zu klären und Experimente zu ermöglichen. Für die Umsetzung seien neue Kompetenzprofile nötig, darunter Programm-, Transfer- und regulatorische Projektmanager sowie Fachwissen zur Daten- und KI-Governance. Die 26 Partnerdialoge werden als sinnvoll, aber nicht als Ersatz für eine Umsetzungsorganisation beschrieben.",
+    "why_relevant": "Redaktionell relevant ist der Beitrag, weil er technologische Politik konsequent als Umsetzungs- und Steuerungsproblem einordnet. Für KI- und PM-Verantwortliche liegt die zentrale Botschaft darin, Wirkung, Entscheidungsrechte und Abbruchkriterien früh festzulegen.",
+    "watch_next": "Erstellen Sie für jedes Vorhaben eine Nutzenlogik mit messbaren Wirkungsindikatoren, Verantwortlichen, Entscheidungsrechten und einem dokumentierten Prüfpunkt für Fortführung oder Beendigung.",
+    "item_id": "48bda23ca19d7a553154",
+    "published_at": "2026-10-14",
+    "context": "Ausgewählte Kernmeldungen aus dem Zeitfenster der letzten 7 Tage.",
+    "limits": [
+      "Nach der Inhaltsbewertung nicht ausgewählte aktuelle Kandidaten: 89.",
+      "Letzter Abruf eingeschränkt: PMI – Artificial Intelligence."
+    ]
+  }
+}
