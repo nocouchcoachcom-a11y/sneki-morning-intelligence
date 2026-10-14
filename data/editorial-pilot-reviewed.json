@@ -1,0 +1,45 @@
+{
+  "prepared_at": "2026-10-07T09:12:00+02:00",
+  "preparation": "human_reviewed_source_based",
+  "items": [
+    {
+      "id": "pilot-openai-atlassian",
+      "title": "Projektwissen für KI-Agenten: OpenAI und Atlassian erweitern ihre Zusammenarbeit",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/index/atlassian-partnership/",
+      "published_at": "2026-10-06",
+      "role": "vendor",
+      "summary": "OpenAI beschreibt eine erweiterte Zusammenarbeit mit Atlassian. Modelle sollen KI-Funktionen und Agenten in dessen Plattform und in Rovo unterstützen. Entscheidend ist dabei der Unternehmenskontext: Atlassians Teamwork Graph verbindet Menschen, Projekte, Dokumente und Entscheidungen. Als Beispiel nennt OpenAI einen Produktmanager, der die Startbereitschaft eines Produkts prüfen lässt. Rovo soll dafür Jira-Tickets, Confluence-Dokumente und Diskussionen zusammenführen, technische Hindernisse erkennen und offene Entscheidungen hervorheben. Beschrieben werden außerdem Plugins, über die ChatGPT und Codex auf bestehende Arbeitsinformationen zugreifen können, abhängig von Berechtigungen. Weitere Möglichkeiten, etwa Arbeit an Agenten zuzuweisen und Ergebnisse nachzuverfolgen, werden als Gegenstand künftiger Integrationen dargestellt. Die Ankündigung beschreibt damit einen Weg von der Informationssuche zur Unterstützung konkreter Arbeitsabläufe.",
+      "why_relevant": "Redaktionelle Einordnung: Für Projektverantwortliche ist interessant, ob KI einen nachvollziehbaren Status aus verstreutem Projektwissen erstellen kann.",
+      "practice_example": "Hypothetischer Test: Eine Projektleitung vergleicht einen KI-Statusbericht zu einem Meilenstein mit ihrer eigenen Bewertung und dokumentiert übersehene Hindernisse.",
+      "next_step": "Prüfen, welche Aussagen auf konkrete Tickets oder Dokumente zurückgeführt werden können.",
+      "limitations": "Herstellerangabe. Die Ankündigung belegt weder unabhängige Wirksamkeit noch die Verfügbarkeit sämtlicher beschriebener Möglichkeiten im eigenen Tarif."
+    },
+    {
+      "id": "pilot-anthropic-academy",
+      "title": "KI produktiv einführen: Anthropic setzt auf praktische Implementierungskompetenz",
+      "source": "Anthropic",
+      "source_url": "https://www.anthropic.com/news/claude-frontier-academy",
+      "published_at": "2026-10-02",
+      "role": "vendor",
+      "summary": "Anthropic kündigt eine Frontier Academy an und stellt dafür nach eigenen Angaben 100 Millionen US-Dollar bereit. Ziel ist die Ausbildung von 10.000 Frontier Deployed Engineers bis Ende 2027. Das Programm richtet sich an erfahrene Softwareentwickler, die KI in reale Unternehmensabläufe einführen sollen. Der beschriebene Ablauf verbindet eine mehrtägige Präsenzphase mit einer zwölfwöchigen Arbeit an einem eigenen Anwendungsfall. In der ersten Phase bearbeiten Teilnehmende eine simulierte Einführung, vom passenden Anwendungsfall über die Sicherheitsprüfung bis zur Übergabe. Es folgen praktische Prüfungen und weitere Bewertung nach der Arbeit im Unternehmen. Organisationen nominieren Teilnehmende; der Beitrag beschreibt erste Gruppen in San Francisco, New York und London. Der Schwerpunkt liegt damit auf erprobter Umsetzungskompetenz statt allein auf allgemeinem Werkzeugwissen.",
+      "why_relevant": "Redaktionelle Einordnung: Die Einführung von KI verlangt neben Werkzeugkenntnis auch Verantwortung für Umsetzung, Übergabe und tatsächliche Nutzung.",
+      "practice_example": "Hypothetischer Test: Ein Team entwickelt für einen kleinen KI-Piloten einen Übergabeplan mit Verantwortlichem, Abnahmekriterien und einem Termin zur Nutzenprüfung.",
+      "next_step": "Im eigenen Pilotprojekt prüfen, wer Einführung und anschließenden Betrieb tatsächlich verantwortet.",
+      "limitations": "Herstellerangabe und Zielsetzung. Kein unabhängiger Erfolgsnachweis; eine Teilnahmeberechtigung der eigenen Organisation ist damit nicht bestätigt."
+    },
+    {
+      "id": "pilot-gpm-conflicts",
+      "title": "KI kann Konfliktgespräche vorbereiten – Verantwortung bleibt bei der Projektleitung",
+      "source": "GPM",
+      "source_url": "https://www.gpm-ipma.de/ueber-die-gpm/blog/ki-kann-konflikte-analysieren-loesen-muessen-wir-sie-selbst",
+      "published_at": "2026-09-30",
+      "role": "primary",
+      "summary": "Der GPM-Beitrag beschreibt KI als Unterstützung bei der Vorbereitung schwieriger Zusammenarbeit. Sie kann eine Situation strukturieren, andere Perspektiven sichtbar machen und Fragen für ein Gespräch entwickeln. Als Beispiel dient ein verspätetes Arbeitspaket: Die Projektleitung sieht wiederholte Verzögerungen, während die verantwortliche Person wechselnde Anforderungen und eine unrealistische Planung erlebt. KI kann helfen, Beobachtungen von Bewertungen zu trennen und die Interessen beider Seiten zu untersuchen. Die Autoren betonen zugleich eine Grenze: Vertrauen herstellen, Fehler eingestehen und einen Konflikt tatsächlich ansprechen müssen Menschen selbst. Außerdem kann schnellere Analyse zusätzlichen Entscheidungsdruck erzeugen. Ein guter Gesprächsleitfaden löst deshalb noch keinen Konflikt. Der Beitrag verbindet KI-Nutzung mit der Frage, ob Teams Probleme offen ansprechen und Verantwortung übernehmen können.",
+      "why_relevant": "Redaktionelle Einordnung: Projektleitungen können KI zur Reflexion nutzen, ohne Vorbereitung mit einer bereits erreichten Konfliktlösung zu verwechseln.",
+      "practice_example": "Hypothetischer Test: Vor einem Konfliktgespräch trennt eine Projektleitung ihre Beobachtungen, Interpretationen und offenen Fragen und lässt alternative Sichtweisen prüfen.",
+      "next_step": "Die vorbereiteten Fragen selbst prüfen und anschließend das Gespräch mit den Beteiligten führen.",
+      "limitations": "Praxisbeitrag vom 30. September, keine neue Tagesmeldung. Beschreibt einen Ansatz, keine garantierte Wirkung eines bestimmten KI-Werkzeugs."
+    }
+  ]
+}
