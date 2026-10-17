@@ -1,0 +1,417 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-17T15:42:07+02:00",
+  "mode": "live",
+  "edition": "afternoon",
+  "briefing": [
+    "Deterministische Ranking-Baseline ohne kostenpflichtige KI-API.",
+    "Primärquellen werden bevorzugt; Social Radar ist deaktiviert.",
+    "Aktuelle Meldungen: Veröffentlichungen der letzten 7 Tage. Lesestücke und ältere Inhalte sind separat eingeordnet."
+  ],
+  "items": [
+    {
+      "id": "6536b2d03b18d7fa242c",
+      "category": "IT Security",
+      "rank": 1,
+      "title": "Schweden gewinnt die European Cybersecurity Challenge 2026",
+      "summary": "Bei der 12. European Cybersecurity Challenge (ECSC) 2026 belegte Schweden den ersten Platz, gefolgt von Finnland und Österreich. Deutschland war Gastgeber; in Bochum traten 35 nationale Teams aus EU-Mitgliedstaaten, EFTA- und EU-Kandidatenländern sowie sieben internationale Gastteams an. Die nationalen Teams bestanden jeweils aus zehn Talenten zwischen 14 und 25 Jahren. Der Wettbewerb umfasste Jeopardy-Capture-the-Flag-Aufgaben zu Websicherheit, Kryptografie, Reverse Engineering sowie Software- und Hardware-Schwachstellen. Zusätzlich gab es eine Attack-and-Defense-Disziplin, bei der Teams eigene Dienste absicherten und gegnerische Dienste angriffen. Neu war „CTF Unplugged“, ein Offline-Format gegen die Uhr. ENISA betont kollaboratives Arbeiten und teambasierte Entscheidungen. Ein Female+ Bootcamp sollte technische Weiterbildung, Mentoring und Vernetzung fördern. Die nächste ECSC soll in Dänemark stattfinden; die ICC 2027 ist in Irland angekündigt.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisches Beispiel: Ein Unternehmen könnte einen internen Sicherheitstag nach dem ECSC-Prinzip organisieren. Teams analysieren zunächst eine Webanwendung, sichern anschließend einen eigenen Testdienst und bearbeiten danach eine Offline-Aufgabe. Bewertet würden nicht nur gefundene Schwachstellen, sondern auch Dokumentation, Kommunikation und die Qualität gemeinsamer Entscheidungen.",
+      "limitations": "Der Text nennt Ergebnisse und Formate, aber keine detaillierten Aufgabenstellungen, Punktestände oder Leistungsdaten der Teams. Die Wirkung des Wettbewerbs auf spätere berufliche Fähigkeiten wird nicht belegt. Angaben zum Return on Investment sind eine Einschätzung des ENISA-Exekutivdirektors.",
+      "summary_origin": "generated",
+      "why_relevant": "Redaktionelle Einordnung: Der Wettbewerb zeigt, dass technische Cybersecurity-Kompetenz nicht nur über Einzelwissen, sondern auch über Kooperation, Entscheidungsfähigkeit und praktische Übung entwickelt wird. Für Organisationen ist besonders das Zusammenspiel aus Angriff, Verteidigung und Offline-Aufgaben interessant, weil es unterschiedliche Kompetenzprofile sichtbar machen kann. Die Aussagen zu Motivation und künftigem Return on Investment stammen von ENISA und sind daher als Behördeneinschätzung einzuordnen.",
+      "watch_next": "Prüfen Sie, welche ECSC-Disziplinen zu den eigenen Lernzielen passen, und definieren Sie für einen kontrollierten Pilotwettbewerb Testumgebung, Aufgaben, Rollen und nachvollziehbare Bewertungskriterien.",
+      "source": "ENISA – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.enisa.europa.eu/news/sweden-sweeps-the-winning-title-of-the-european-cybersecurity-challenge",
+      "published_at": "2026-10-16T17:14:35+02:00",
+      "collected_at": "2026-10-16T19:22:39+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "74c91d170ab9876555af",
+      "category": "KI & Technologie",
+      "rank": 2,
+      "title": "enterJS kündigt Konferenzprogramm und Agentic-AI-Thementag an",
+      "summary": "Der Call for Proposals für die Enterprise-JavaScript-Konferenz enterJS 2027 ist eröffnet. Vorschläge für Vorträge oder Workshops können laut Artikel bis zum 3. November eingereicht werden; die Konferenz soll am 9. und 10. Juni in Köln stattfinden, ganztägige Workshops sind für den 8. Juni vorgesehen. Als Themen nennt der Veranstalter unter anderem KI, Frameworks, Tools, Bibliotheken, Security, User Experience, Accessibility und Performance. Parallel wird für den 22. Oktober der Online-Thementag „enterJS Agentic“ angekündigt. Das Programm umfasst sechs jeweils 45-minütige Vorträge zu agentischer KI in JavaScript- und TypeScript-Projekten, darunter Kosten- und Performance-Abwägungen, Anpassung von Claude Code sowie Grenzen und Kontrollmechanismen beim KI-Einsatz. Der Artikel nennt außerdem Ticketpreise und Leistungen für angenommene Speaker.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisches Beispiel: Ein TypeScript-Team könnte einen Vortrag einreichen, der einen kleinen Coding-Agenten mit klar begrenztem Repository-Zugriff vergleicht. Präsentiert würden Laufzeit, Modellkosten, Fehlerraten und ein Freigabeprozess für automatisch vorgeschlagene Änderungen.",
+      "limitations": "Der Artikel liefert keine technischen Details zu den angekündigten Vorträgen und keine unabhängige Bewertung der genannten Tools. Termine, Preise und Leistungen sind Veranstalterangaben und sollten vor einer Entscheidung auf der offiziellen Konferenzseite geprüft werden.",
+      "summary_origin": "generated",
+      "why_relevant": "Redaktionelle Einordnung: Der Beitrag verbindet Weiterbildung zu agentischer Softwareentwicklung mit einer Aufforderung zur aktiven Einreichung von Praxiswissen. Besonders relevant ist, dass neben Einsatzmöglichkeiten ausdrücklich auch Kosten, Performance und Kontrollmechanismen thematisiert werden. Das reduziert den Blick auf KI als reine Produktivitätsfrage und lenkt ihn auf Betriebs- und Steuerungsfragen.",
+      "watch_next": "Prüfen Sie anhand des eigenen Projekts, ob ein belastbarer Erfahrungsbericht zu Kosten, Performance oder Kontrollmechanismen vorliegt, und gleichen Sie Inhalt, Format und Einreichungsfrist mit den Angaben des Veranstalters ab.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/enterJS-Call-for-Proposals-2027-und-letzter-Aufruf-fuer-KI-Online-Thementag-2026-11456215.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-10-17T13:00:00+02:00",
+      "collected_at": "2026-10-17T15:42:07+02:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "221b3e132417e1e22a06",
+      "category": "AI Governance",
+      "rank": 3,
+      "title": "Itaú baut eine generative KI-Plattform für Kunden und Mitarbeitende",
+      "summary": "Die brasilianische Bank Itaú beschreibt mit ia.i eine konversationelle Oberfläche für Kunden und mit IARA eine Governance- und Orchestrierungsplattform für den Bankbetrieb. ia.i soll Text- und Spracheingaben zu Konten, Krediten, Karten, Versicherungen und weiteren Leistungen bündeln und bei Bedarf an menschliche Unterstützung übergeben. Nach Herstellerangaben startete die erste Phase mit rund 300.000 Kunden; bis Ende 2026 soll die gesamte Kundenbasis erreicht werden. Eine Kontextschicht namens „Customer DNA“ soll Informationen zu Bedürfnissen, Gewohnheiten und Lebensphasen von etwa 70 Millionen Kunden berücksichtigen. IARA steuert den Zugriff auf mehrere Modelle, überwacht Kosten und soll Richtlinien für verantwortungsvolle KI durchsetzen. Für eine juristische Lösung nennt Itaú mehr als 90 Millionen Dokumente, über zwei Millionen Aufgaben pro Monat und Effizienzgewinne von 20 bis 80 Prozent in Prozessabschnitten.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisches Beispiel: Eine Bank könnte zunächst einen Assistenten für Kontoauszugsfragen mit begrenztem Datenzugriff testen. Antworten würden protokolliert, risikoreiche Fälle an Mitarbeitende übergeben und Kosten, Fehlklassifikationen sowie Eskalationsquoten vor einer Ausweitung ausgewertet.",
+      "limitations": "Der Text ist eine Hersteller-Fallstudie und enthält keine unabhängige Validierung der Kennzahlen, keine Fehlerquoten und keine konkreten Informationen zu Datenschutz, Modellgrenzen oder regulatorischen Prüfungen. Die genannten Zielwerte und Effizienzgewinne sind nicht als garantierte Wirkungen zu verstehen.",
+      "summary_origin": "generated",
+      "why_relevant": "Redaktionelle Einordnung: Der Beitrag illustriert ein Plattformmuster für regulierte Branchen: eine sichtbare Kundenschnittstelle wird mit Modellorchestrierung, Kontextverwaltung, Kostenkontrolle und Governance verbunden. Relevant ist weniger die einzelne Modellmarke als die organisatorische Frage, wie mehrere Anwendungsfälle unter einheitlichen Kontrollen betrieben werden können. Sämtliche Leistungs- und Reichweitenangaben stammen aus einer Herstellerdarstellung von Itaú beziehungsweise OpenAI.",
+      "watch_next": "Prüfen Sie für einen begrenzten Anwendungsfall Datenzugriff, Modellwahl, menschliche Eskalation, Protokollierung, Kosten je Vorgang und Kriterien für laufendes Monitoring in einem gemeinsamen Kontrollkonzept.",
+      "source": "OpenAI – News",
+      "source_type": "vendor",
+      "source_url": "https://openai.com/index/itau-generative-ai",
+      "published_at": "2026-10-16T21:00:00+02:00",
+      "collected_at": "2026-10-17T01:32:50+02:00",
+      "verification": "vendor",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "84b495b7b3695f487e99",
+      "category": "KI & Technologie",
+      "rank": 4,
+      "title": "RTX-Spark-Notebook im Test: viel Speicher für lokale KI, aber mit Einschränkungen",
+      "summary": "Ein c’t-Test untersucht das Asus ProArt P14 mit Nvidias erstem Notebook-Chip der RTX-Spark-Reihe, dem N1X. Der Chip unterstützt laut Beitrag bis zu 128 GB gemeinsam genutzten Speicher für CPU und GPU und soll dadurch größere lokale KI-Modelle ermöglichen. Als Beispiel nennt der Test Qwen 3.8-27B: Die stark quantisierte Variante benötige etwa 14 GB für das Modell, mit Kontext seien schnell weitere 18 GB oder mehr relevant. Das getestete Gerät hatte 32 GB gemeinsamen Speicher und eine 1-TB-SSD. Der Artikel nennt für diese Konfiguration einen Handelspreis von 3.300 Euro sowie höhere Beträge für 64 beziehungsweise 128 GB; diese Angaben beziehen sich auf das Testgerät und den genannten Marktzeitpunkt. Positiv bewertet werden OLED-Display und eine Videolaufzeit von über 19 Stunden. Unter Last wurde eine Lautstärke von bis zu 2,7 Sone gemessen.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisches Beispiel: Ein Entwicklerteam könnte prüfen, ob ein lokales Modell für vertrauliche Testdaten auf einer 64-GB-Konfiguration ausreichend schnell läuft. Dabei würde es nicht nur Antwortqualität, sondern auch Kontextgröße, Geräuschentwicklung, Akkulaufzeit und Parallelbetrieb der Entwicklungsumgebung messen.",
+      "limitations": "Der vorliegende Textauszug endet vor dem vollständigen Testergebnis und enthält keine vollständigen Benchmarks zu KI-, Spiele- oder Linux-Leistung. Die genannten Preise und Verfügbarkeitsaussagen sind zeit- und marktbezogen. Angaben zur lokalen Modellleistung lassen sich nicht ohne eigene Tests auf andere Geräte oder Modelle übertragen.",
+      "summary_origin": "generated",
+      "why_relevant": "Redaktionelle Einordnung: Für lokale KI ist nicht nur der nominelle Chipname entscheidend, sondern vor allem der verfügbare gemeinsame Speicher, der Modell, Kontext und übrige Anwendungen aufnehmen muss. Der Test macht zugleich sichtbar, dass lokale Verarbeitung mit Zielkonflikten bei Preis, Lautstärke, Betriebssystem und Leistungsreserven verbunden sein kann. Die technischen und preislichen Aussagen stammen aus dem beschriebenen heise/c’t-Test.",
+      "watch_next": "Erstellen Sie vor einer Anschaffung einen reproduzierbaren Test mit den tatsächlich benötigten Modellen, Quantisierungen, Kontextlängen und Anwendungen und erfassen Sie Speicherbedarf, Laufzeit, Lautstärke sowie Betriebssystem-Kompatibilität.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/RTX-Spark-im-Test-Nvidias-erster-Notebook-Chip-fuer-lokale-KI-11490664.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-10-16T17:38:00+02:00",
+      "collected_at": "2026-10-16T19:22:41+02:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "87179351c4b5b9f0390f",
+      "category": "IT Security",
+      "rank": 5,
+      "title": "Third Moment Research betreibt zehntausende KI-Agenten für lange Forschungszyklen",
+      "summary": "Third Moment Research beschreibt ein System, in dem bis zu 10.000 Agenten gleichzeitig an Forschungsaufgaben arbeiten und einzelne autonome Sitzungen 36 bis 48 Stunden dauern sollen. Nach Darstellung des Unternehmens werden GPT-6-Modelle, Codex und die Cybersecurity-Plattform Daybreak kombiniert. In einem quantitativen Finanzanwendungsfall analysierte Codex aufgezeichnete Agentenverläufe, Zeitstempel und Code. Dabei sei eine Optimierung identifiziert worden, die einen Backtest von ungefähr drei Stunden auf etwa drei bis fünf Minuten verkürzt habe; als Maßnahmen nennt der Artikel Caching und Memory-Packing. Die Agenten arbeiten in Docker-Umgebungen mit Daten, Dokumentation und Forschungsrepositorys. Ein übergeordnetes System soll unvollständige Aufgaben prüfen und Wiederholung, Abbruch oder menschliche Eskalation auslösen. Daybreak testet laut Anbieter, ob Agenten ihre Forschungsumgebung verlassen und auf das weitere Netzwerk zugreifen könnten.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisches Beispiel: Ein Forschungsteam könnte zunächst zehn isolierte Agenten auf historischen, nicht produktiven Daten einsetzen. Jeder Agent erhält klar begrenzte Werkzeuge; ein äußerer Prozess prüft Ergebnisse, stoppt Endlosschleifen und eskaliert Änderungen an einen Menschen, bevor sie übernommen werden.",
+      "limitations": "Der Artikel beschreibt Anbieterangaben und enthält keine unabhängige Reproduzierbarkeit, keine vollständigen Kosten- oder Fehlerdaten und keine detaillierte Sicherheitsarchitektur. Die Ergebnisse aus quantitativer Finanzforschung lassen sich nicht ohne Weiteres auf andere Domänen übertragen. Aussagen zu Modellnamen und Leistungswerten sind daher als Fallbeispiel, nicht als allgemeine Garantie, zu verstehen.",
+      "summary_origin": "generated",
+      "why_relevant": "Redaktionelle Einordnung: Der Fall zeigt, dass agentische Systeme bei langen, parallelen Arbeitsläufen vor allem Orchestrierung, Zustandsverwaltung, Ressourcensteuerung und Sicherheitsprüfung benötigen. Interessant ist die Kombination aus innerem Agenten-Harness und äußerer Kontrolle für unvollständige Aufgaben. Die dargestellten Skalierungs-, Leistungs- und Modellangaben stammen jedoch aus einer OpenAI-Herstellerdarstellung über Third Moment Research und sind nicht unabhängig verifiziert.",
+      "watch_next": "Prüfen Sie in einer isolierten Umgebung, ob Aufgabenabschluss, Wiederholungen, Tokenverbrauch, Datenzugriffe und Netzwerkgrenzen messbar kontrolliert werden können, bevor Sie die Agentenzahl oder Laufzeit erhöhen.",
+      "source": "OpenAI – News",
+      "source_type": "vendor",
+      "source_url": "https://openai.com/index/third-moment-research",
+      "published_at": "2026-10-14T09:00:00+02:00",
+      "collected_at": "2026-10-14T20:33:19+02:00",
+      "verification": "vendor",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "d3a09fae823e4240f8ef",
+      "category": "AI & PM",
+      "rank": 6,
+      "title": "KI-Kompetenz im Projektmanagement: So gelingt der verantwortungsvolle Einstieg",
+      "summary": "Die Meldung formuliert einen Ansatz für verantwortungsvollen KI-Einsatz und Kompetenzaufbau in Projektteams.",
+      "editorial_depth": false,
+      "practice_example": "",
+      "limitations": "",
+      "summary_origin": "generated",
+      "why_relevant": "Projektverantwortliche können daraus Ansatzpunkte für Qualifizierung, gemeinsame Lernprozesse und interne Regeln beim KI-Einsatz ableiten.",
+      "watch_next": "Beobachten, welche konkreten Kompetenzmodelle, Lernformate und Regeln für den verantwortungsvollen KI-Einsatz vorgeschlagen werden.",
+      "source": "GPM – Aktuelles und Blog",
+      "source_type": "primary",
+      "source_url": "https://www.gpm-ipma.de/ueber-die-gpm/blog/ki-kompetenz-im-projektmanagement-so-gelingt-der-verantwortungsvolle-einstieg",
+      "published_at": "2026-10-09",
+      "collected_at": "2026-10-09T05:26:10+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "is_top5": false,
+      "content_kind": "background",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "e7932ad1b84feccfb2a8",
+      "category": "AI & PM",
+      "rank": 7,
+      "title": "Die Zukunft des Projektmanagements verlangt neue Fähigkeiten: Künstliche Intelligenz führen und Veränderungen mutig gestalten.",
+      "summary": "Die angekündigten Keynotes behandeln veränderte Führungsanforderungen und Kompetenzen im KI-gestützten Projektmanagement.",
+      "editorial_depth": false,
+      "practice_example": "",
+      "limitations": "",
+      "summary_origin": "generated",
+      "why_relevant": "Projektverantwortliche können die Themen zur Einordnung künftiger Kompetenzanforderungen und Veränderungsaspekte in ihren Projekten heranziehen.",
+      "watch_next": "Zu beobachten sind die konkret genannten Fähigkeiten, Führungsansätze und Veränderungsmaßnahmen für den Einsatz von KI im Projektmanagement.",
+      "source": "GPM – Aktuelles und Blog",
+      "source_type": "primary",
+      "source_url": "https://www.gpm-ipma.de/ueber-die-gpm/aktuelles/detail/die-zukunft-des-projektmanagements-verlangt-neue-faehigkeiten-kuenstliche-intelligenz-fuehren-und-veraenderungen-mutig-gestalten",
+      "published_at": "2026-10-09",
+      "collected_at": "2026-10-09T19:23:47+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "is_top5": false,
+      "content_kind": "background",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "fd7cd5678893b552b51d",
+      "category": "KI & Technologie",
+      "rank": 8,
+      "title": "Photokina-Comeback und KI-Skandal – die Fotonews der Woche 41/2026",
+      "summary": "Die Fotonews berichten über den Standortwechsel einer Imaging-Veranstaltung, eine Untersuchung möglichen KI-Betrugs bei Nikon und eine Auszeichnung für Graciela Iturbide.",
+      "editorial_depth": false,
+      "practice_example": "",
+      "limitations": "",
+      "summary_origin": "generated",
+      "why_relevant": "Für Technologie- und Projektverantwortliche bietet die Meldung Einblick in aktuelle Entwicklungen rund um KI-Nutzung und Integrität in der Imaging-Branche.",
+      "watch_next": "Beobachten, zu welchem Ergebnis die Prüfung des möglichen KI-Betrugs kommt und wie die Imaging World in Köln umgesetzt wird.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/Photokina-Comeback-und-KI-Skandal-die-Fotonews-der-Woche-41-2026-11482204.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-10-10T10:00:00+02:00",
+      "collected_at": "2026-10-10T10:24:56+02:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": false,
+      "content_kind": "background",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "dcb02b38ff9193d466ee",
+      "category": "IT Security",
+      "rank": 9,
+      "title": "EU fordert Auskunft von OpenAI und Anthropic nach KI-Angriffen",
+      "summary": "Die Auskunftsverlangen der EU-Kommission markieren eine bedeutende regulatorische und sicherheitsbezogene Entwicklung im Umgang mit KI-gestützten Cyberangriffen.",
+      "editorial_depth": false,
+      "practice_example": "",
+      "limitations": "",
+      "summary_origin": "generated",
+      "why_relevant": "Geschäftsführung sowie KI- und IT-Verantwortliche sollten beobachten, ob daraus neue Anforderungen an Anbieter, Sicherheitsmaßnahmen oder Governance entstehen.",
+      "watch_next": "Zu beobachten sind die Inhalte der verlangten Auskünfte, weitere behördliche Schritte und eine mögliche Konkretisierung von Anforderungen.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/EU-fordert-Auskunft-von-OpenAI-und-Anthropic-nach-KI-Angriffen-11482906.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-10-09T18:37:00+02:00",
+      "collected_at": "2026-10-09T19:24:10+02:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": false,
+      "content_kind": "background",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "db5761f0b27c6158337a",
+      "category": "DSGVO & Ethik",
+      "rank": 10,
+      "title": "Kommentar zu Apples Privacy-Versprechen: Zweifache Rolle rückwärts",
+      "summary": "Apple wird ein veränderter Umgang mit Trainingsdaten und bestimmte Gerätefunktionen vorgeworfen beziehungsweise zugeschrieben.",
+      "editorial_depth": false,
+      "practice_example": "",
+      "limitations": "",
+      "summary_origin": "generated",
+      "why_relevant": "Veränderungen bei Trainingsdaten und Gerätefunktionen können für Datenschutzbewertung, Lieferantenbeobachtung und den Einsatz Apple-basierter Systeme relevant sein.",
+      "watch_next": "Beobachtet werden sollten konkrete Apple-Ankündigungen, technische Details und belastbare Angaben zum Umgang mit Trainingsdaten sowie zu den genannten Funktionen.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/meinung/Kommentar-zu-Apples-Privacy-Versprechen-Zweifache-Rolle-rueckwaerts-11471238.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-10-09T10:16:00+02:00",
+      "collected_at": "2026-10-09T10:28:37+02:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": false,
+      "content_kind": "background",
+      "related_sources": [],
+      "social_verified": false
+    }
+  ],
+  "freshness": {
+    "news_window_days": 7,
+    "current_count": 5,
+    "background_count": 5
+  },
+  "signals": {
+    "history_state": "building",
+    "days_available": 1,
+    "topics": []
+  },
+  "source_status": [
+    {
+      "name": "European Commission – AI Act / AI Office",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-10-17T15:41:36+02:00",
+      "items_found": 8
+    },
+    {
+      "name": "EUR-Lex – Regulation (EU) 2024/1689",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-10-17T15:41:37+02:00",
+      "items_found": 1
+    },
+    {
+      "name": "European Data Protection Board",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-10-17T15:41:38+02:00",
+      "items_found": 1
+    },
+    {
+      "name": "Datenschutzkonferenz",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-10-17T15:41:39+02:00",
+      "items_found": 1
+    },
+    {
+      "name": "PMI – Artificial Intelligence",
+      "type": "optional",
+      "status": "failed",
+      "last_update": "2026-10-17T15:41:39+02:00",
+      "note": "403 Client Error: Forbidden for url: https://www.pmi.org/blog?userTagIDSort=11122"
+    },
+    {
+      "name": "GPM – Aktuelles und Blog",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-10-17T15:41:55+02:00",
+      "items_found": 10
+    },
+    {
+      "name": "APM – News and Blog",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-10-17T15:42:05+02:00",
+      "items_found": 10
+    },
+    {
+      "name": "BSI – Cyber- und KI-Sicherheit",
+      "type": "optional",
+      "status": "ok",
+      "last_update": "2026-10-17T15:42:05+02:00",
+      "items_found": 5
+    },
+    {
+      "name": "ENISA – Cyber- und KI-Sicherheit",
+      "type": "optional",
+      "status": "ok",
+      "last_update": "2026-10-17T15:42:05+02:00",
+      "items_found": 5
+    },
+    {
+      "name": "OpenAI – News",
+      "type": "optional",
+      "status": "ok",
+      "last_update": "2026-10-17T15:42:06+02:00",
+      "items_found": 5
+    },
+    {
+      "name": "Google – AI Blog",
+      "type": "optional",
+      "status": "ok",
+      "last_update": "2026-10-17T15:42:06+02:00",
+      "items_found": 5
+    },
+    {
+      "name": "heise online – KI-Nachrichten",
+      "type": "optional",
+      "status": "ok",
+      "last_update": "2026-10-17T15:42:07+02:00",
+      "items_found": 8
+    }
+  ],
+  "ranking": {
+    "requested_mode": "hybrid",
+    "effective_mode": "baseline_fallback",
+    "error_class": "EvaluationDiagnosticError",
+    "cache_hits": 0,
+    "cache_misses": 94,
+    "api_items_evaluated": 94,
+    "api_call_performed": true,
+    "selection": {
+      "selection_policy": "24h_first_with_eligible_pm_slot",
+      "recent_core_candidates": 94,
+      "recent_core_not_selected": 89,
+      "unavailable_sources": [
+        "PMI – Artificial Intelligence"
+      ]
+    },
+    "editorial_depth": {
+      "enabled": true,
+      "api_calls": 1,
+      "cache_hits": 0,
+      "article_failures": 0,
+      "usage": {
+        "input_tokens": 6357,
+        "input_tokens_details": {
+          "cache_write_tokens": 6354,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2672,
+        "output_tokens_details": {
+          "reasoning_tokens": 34
+        },
+        "total_tokens": 9029
+      },
+      "model_cost_usd": 0.0044778000000000005
+    }
+  },
+  "editorial_depth_status": {
+    "enabled": true,
+    "api_calls": 1,
+    "cache_hits": 0,
+    "article_failures": 0,
+    "usage": {
+      "input_tokens": 6357,
+      "input_tokens_details": {
+        "cache_write_tokens": 6354,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2672,
+      "output_tokens_details": {
+        "reasoning_tokens": 34
+      },
+      "total_tokens": 9029
+    },
+    "model_cost_usd": 0.0044778000000000005
+  },
+  "editorial_brief": {
+    "title": "Aktuelle Auswahl",
+    "summary": "Bei der 12. European Cybersecurity Challenge (ECSC) 2026 belegte Schweden den ersten Platz, gefolgt von Finnland und Österreich. Deutschland war Gastgeber; in Bochum traten 35 nationale Teams aus EU-Mitgliedstaaten, EFTA- und EU-Kandidatenländern sowie sieben internationale Gastteams an. Die nationalen Teams bestanden jeweils aus zehn Talenten zwischen 14 und 25 Jahren. Der Wettbewerb umfasste Jeopardy-Capture-the-Flag-Aufgaben zu Websicherheit, Kryptografie, Reverse Engineering sowie Software- und Hardware-Schwachstellen. Zusätzlich gab es eine Attack-and-Defense-Disziplin, bei der Teams eigene Dienste absicherten und gegnerische Dienste angriffen. Neu war „CTF Unplugged“, ein Offline-Format gegen die Uhr. ENISA betont kollaboratives Arbeiten und teambasierte Entscheidungen. Ein Female+ Bootcamp sollte technische Weiterbildung, Mentoring und Vernetzung fördern. Die nächste ECSC soll in Dänemark stattfinden; die ICC 2027 ist in Irland angekündigt.",
+    "why_relevant": "Redaktionelle Einordnung: Der Wettbewerb zeigt, dass technische Cybersecurity-Kompetenz nicht nur über Einzelwissen, sondern auch über Kooperation, Entscheidungsfähigkeit und praktische Übung entwickelt wird. Für Organisationen ist besonders das Zusammenspiel aus Angriff, Verteidigung und Offline-Aufgaben interessant, weil es unterschiedliche Kompetenzprofile sichtbar machen kann. Die Aussagen zu Motivation und künftigem Return on Investment stammen von ENISA und sind daher als Behördeneinschätzung einzuordnen.",
+    "watch_next": "Prüfen Sie, welche ECSC-Disziplinen zu den eigenen Lernzielen passen, und definieren Sie für einen kontrollierten Pilotwettbewerb Testumgebung, Aufgaben, Rollen und nachvollziehbare Bewertungskriterien.",
+    "item_id": "6536b2d03b18d7fa242c",
+    "published_at": "2026-10-16T17:14:35+02:00",
+    "context": "Ausgewählte Kernmeldungen aus dem Zeitfenster der letzten 7 Tage.",
+    "limits": [
+      "Nach der Inhaltsbewertung nicht ausgewählte aktuelle Kandidaten: 89.",
+      "Letzter Abruf eingeschränkt: PMI – Artificial Intelligence."
+    ]
+  }
+}
