@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-17T15:42:07+02:00",
+  "generated_at": "2026-10-18T07:50:37+02:00",
   "mode": "live",
-  "edition": "afternoon",
+  "edition": "morning",
   "briefing": [
     "Deterministische Ranking-Baseline ohne kostenpflichtige KI-API.",
     "Primärquellen werden bevorzugt; Social Radar ist deaktiviert.",
@@ -10,33 +10,9 @@
   ],
   "items": [
     {
-      "id": "6536b2d03b18d7fa242c",
-      "category": "IT Security",
-      "rank": 1,
-      "title": "Schweden gewinnt die European Cybersecurity Challenge 2026",
-      "summary": "Bei der 12. European Cybersecurity Challenge (ECSC) 2026 belegte Schweden den ersten Platz, gefolgt von Finnland und Österreich. Deutschland war Gastgeber; in Bochum traten 35 nationale Teams aus EU-Mitgliedstaaten, EFTA- und EU-Kandidatenländern sowie sieben internationale Gastteams an. Die nationalen Teams bestanden jeweils aus zehn Talenten zwischen 14 und 25 Jahren. Der Wettbewerb umfasste Jeopardy-Capture-the-Flag-Aufgaben zu Websicherheit, Kryptografie, Reverse Engineering sowie Software- und Hardware-Schwachstellen. Zusätzlich gab es eine Attack-and-Defense-Disziplin, bei der Teams eigene Dienste absicherten und gegnerische Dienste angriffen. Neu war „CTF Unplugged“, ein Offline-Format gegen die Uhr. ENISA betont kollaboratives Arbeiten und teambasierte Entscheidungen. Ein Female+ Bootcamp sollte technische Weiterbildung, Mentoring und Vernetzung fördern. Die nächste ECSC soll in Dänemark stattfinden; die ICC 2027 ist in Irland angekündigt.",
-      "editorial_depth": true,
-      "practice_example": "Hypothetisches Beispiel: Ein Unternehmen könnte einen internen Sicherheitstag nach dem ECSC-Prinzip organisieren. Teams analysieren zunächst eine Webanwendung, sichern anschließend einen eigenen Testdienst und bearbeiten danach eine Offline-Aufgabe. Bewertet würden nicht nur gefundene Schwachstellen, sondern auch Dokumentation, Kommunikation und die Qualität gemeinsamer Entscheidungen.",
-      "limitations": "Der Text nennt Ergebnisse und Formate, aber keine detaillierten Aufgabenstellungen, Punktestände oder Leistungsdaten der Teams. Die Wirkung des Wettbewerbs auf spätere berufliche Fähigkeiten wird nicht belegt. Angaben zum Return on Investment sind eine Einschätzung des ENISA-Exekutivdirektors.",
-      "summary_origin": "generated",
-      "why_relevant": "Redaktionelle Einordnung: Der Wettbewerb zeigt, dass technische Cybersecurity-Kompetenz nicht nur über Einzelwissen, sondern auch über Kooperation, Entscheidungsfähigkeit und praktische Übung entwickelt wird. Für Organisationen ist besonders das Zusammenspiel aus Angriff, Verteidigung und Offline-Aufgaben interessant, weil es unterschiedliche Kompetenzprofile sichtbar machen kann. Die Aussagen zu Motivation und künftigem Return on Investment stammen von ENISA und sind daher als Behördeneinschätzung einzuordnen.",
-      "watch_next": "Prüfen Sie, welche ECSC-Disziplinen zu den eigenen Lernzielen passen, und definieren Sie für einen kontrollierten Pilotwettbewerb Testumgebung, Aufgaben, Rollen und nachvollziehbare Bewertungskriterien.",
-      "source": "ENISA – Cyber- und KI-Sicherheit",
-      "source_type": "primary",
-      "source_url": "https://www.enisa.europa.eu/news/sweden-sweeps-the-winning-title-of-the-european-cybersecurity-challenge",
-      "published_at": "2026-10-16T17:14:35+02:00",
-      "collected_at": "2026-10-16T19:22:39+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "is_top5": true,
-      "content_kind": "current",
-      "related_sources": [],
-      "social_verified": false
-    },
-    {
       "id": "74c91d170ab9876555af",
       "category": "KI & Technologie",
-      "rank": 2,
+      "rank": 1,
       "title": "enterJS kündigt Konferenzprogramm und Agentic-AI-Thementag an",
       "summary": "Der Call for Proposals für die Enterprise-JavaScript-Konferenz enterJS 2027 ist eröffnet. Vorschläge für Vorträge oder Workshops können laut Artikel bis zum 3. November eingereicht werden; die Konferenz soll am 9. und 10. Juni in Köln stattfinden, ganztägige Workshops sind für den 8. Juni vorgesehen. Als Themen nennt der Veranstalter unter anderem KI, Frameworks, Tools, Bibliotheken, Security, User Experience, Accessibility und Performance. Parallel wird für den 22. Oktober der Online-Thementag „enterJS Agentic“ angekündigt. Das Programm umfasst sechs jeweils 45-minütige Vorträge zu agentischer KI in JavaScript- und TypeScript-Projekten, darunter Kosten- und Performance-Abwägungen, Anpassung von Claude Code sowie Grenzen und Kontrollmechanismen beim KI-Einsatz. Der Artikel nennt außerdem Ticketpreise und Leistungen für angenommene Speaker.",
       "editorial_depth": true,
@@ -58,47 +34,23 @@
       "social_verified": false
     },
     {
-      "id": "221b3e132417e1e22a06",
-      "category": "AI Governance",
-      "rank": 3,
-      "title": "Itaú baut eine generative KI-Plattform für Kunden und Mitarbeitende",
-      "summary": "Die brasilianische Bank Itaú beschreibt mit ia.i eine konversationelle Oberfläche für Kunden und mit IARA eine Governance- und Orchestrierungsplattform für den Bankbetrieb. ia.i soll Text- und Spracheingaben zu Konten, Krediten, Karten, Versicherungen und weiteren Leistungen bündeln und bei Bedarf an menschliche Unterstützung übergeben. Nach Herstellerangaben startete die erste Phase mit rund 300.000 Kunden; bis Ende 2026 soll die gesamte Kundenbasis erreicht werden. Eine Kontextschicht namens „Customer DNA“ soll Informationen zu Bedürfnissen, Gewohnheiten und Lebensphasen von etwa 70 Millionen Kunden berücksichtigen. IARA steuert den Zugriff auf mehrere Modelle, überwacht Kosten und soll Richtlinien für verantwortungsvolle KI durchsetzen. Für eine juristische Lösung nennt Itaú mehr als 90 Millionen Dokumente, über zwei Millionen Aufgaben pro Monat und Effizienzgewinne von 20 bis 80 Prozent in Prozessabschnitten.",
+      "id": "6536b2d03b18d7fa242c",
+      "category": "IT Security",
+      "rank": 2,
+      "title": "Schweden gewinnt die European Cybersecurity Challenge 2026",
+      "summary": "Bei der 12. European Cybersecurity Challenge (ECSC) 2026 belegte Schweden den ersten Platz, gefolgt von Finnland und Österreich. Deutschland war Gastgeber; in Bochum traten 35 nationale Teams aus EU-Mitgliedstaaten, EFTA- und EU-Kandidatenländern sowie sieben internationale Gastteams an. Die nationalen Teams bestanden jeweils aus zehn Talenten zwischen 14 und 25 Jahren. Der Wettbewerb umfasste Jeopardy-Capture-the-Flag-Aufgaben zu Websicherheit, Kryptografie, Reverse Engineering sowie Software- und Hardware-Schwachstellen. Zusätzlich gab es eine Attack-and-Defense-Disziplin, bei der Teams eigene Dienste absicherten und gegnerische Dienste angriffen. Neu war „CTF Unplugged“, ein Offline-Format gegen die Uhr. ENISA betont kollaboratives Arbeiten und teambasierte Entscheidungen. Ein Female+ Bootcamp sollte technische Weiterbildung, Mentoring und Vernetzung fördern. Die nächste ECSC soll in Dänemark stattfinden; die ICC 2027 ist in Irland angekündigt.",
       "editorial_depth": true,
-      "practice_example": "Hypothetisches Beispiel: Eine Bank könnte zunächst einen Assistenten für Kontoauszugsfragen mit begrenztem Datenzugriff testen. Antworten würden protokolliert, risikoreiche Fälle an Mitarbeitende übergeben und Kosten, Fehlklassifikationen sowie Eskalationsquoten vor einer Ausweitung ausgewertet.",
-      "limitations": "Der Text ist eine Hersteller-Fallstudie und enthält keine unabhängige Validierung der Kennzahlen, keine Fehlerquoten und keine konkreten Informationen zu Datenschutz, Modellgrenzen oder regulatorischen Prüfungen. Die genannten Zielwerte und Effizienzgewinne sind nicht als garantierte Wirkungen zu verstehen.",
+      "practice_example": "Hypothetisches Beispiel: Ein Unternehmen könnte einen internen Sicherheitstag nach dem ECSC-Prinzip organisieren. Teams analysieren zunächst eine Webanwendung, sichern anschließend einen eigenen Testdienst und bearbeiten danach eine Offline-Aufgabe. Bewertet würden nicht nur gefundene Schwachstellen, sondern auch Dokumentation, Kommunikation und die Qualität gemeinsamer Entscheidungen.",
+      "limitations": "Der Text nennt Ergebnisse und Formate, aber keine detaillierten Aufgabenstellungen, Punktestände oder Leistungsdaten der Teams. Die Wirkung des Wettbewerbs auf spätere berufliche Fähigkeiten wird nicht belegt. Angaben zum Return on Investment sind eine Einschätzung des ENISA-Exekutivdirektors.",
       "summary_origin": "generated",
-      "why_relevant": "Redaktionelle Einordnung: Der Beitrag illustriert ein Plattformmuster für regulierte Branchen: eine sichtbare Kundenschnittstelle wird mit Modellorchestrierung, Kontextverwaltung, Kostenkontrolle und Governance verbunden. Relevant ist weniger die einzelne Modellmarke als die organisatorische Frage, wie mehrere Anwendungsfälle unter einheitlichen Kontrollen betrieben werden können. Sämtliche Leistungs- und Reichweitenangaben stammen aus einer Herstellerdarstellung von Itaú beziehungsweise OpenAI.",
-      "watch_next": "Prüfen Sie für einen begrenzten Anwendungsfall Datenzugriff, Modellwahl, menschliche Eskalation, Protokollierung, Kosten je Vorgang und Kriterien für laufendes Monitoring in einem gemeinsamen Kontrollkonzept.",
-      "source": "OpenAI – News",
-      "source_type": "vendor",
-      "source_url": "https://openai.com/index/itau-generative-ai",
-      "published_at": "2026-10-16T21:00:00+02:00",
-      "collected_at": "2026-10-17T01:32:50+02:00",
-      "verification": "vendor",
-      "status": "ok",
-      "is_top5": true,
-      "content_kind": "current",
-      "related_sources": [],
-      "social_verified": false
-    },
-    {
-      "id": "84b495b7b3695f487e99",
-      "category": "KI & Technologie",
-      "rank": 4,
-      "title": "RTX-Spark-Notebook im Test: viel Speicher für lokale KI, aber mit Einschränkungen",
-      "summary": "Ein c’t-Test untersucht das Asus ProArt P14 mit Nvidias erstem Notebook-Chip der RTX-Spark-Reihe, dem N1X. Der Chip unterstützt laut Beitrag bis zu 128 GB gemeinsam genutzten Speicher für CPU und GPU und soll dadurch größere lokale KI-Modelle ermöglichen. Als Beispiel nennt der Test Qwen 3.8-27B: Die stark quantisierte Variante benötige etwa 14 GB für das Modell, mit Kontext seien schnell weitere 18 GB oder mehr relevant. Das getestete Gerät hatte 32 GB gemeinsamen Speicher und eine 1-TB-SSD. Der Artikel nennt für diese Konfiguration einen Handelspreis von 3.300 Euro sowie höhere Beträge für 64 beziehungsweise 128 GB; diese Angaben beziehen sich auf das Testgerät und den genannten Marktzeitpunkt. Positiv bewertet werden OLED-Display und eine Videolaufzeit von über 19 Stunden. Unter Last wurde eine Lautstärke von bis zu 2,7 Sone gemessen.",
-      "editorial_depth": true,
-      "practice_example": "Hypothetisches Beispiel: Ein Entwicklerteam könnte prüfen, ob ein lokales Modell für vertrauliche Testdaten auf einer 64-GB-Konfiguration ausreichend schnell läuft. Dabei würde es nicht nur Antwortqualität, sondern auch Kontextgröße, Geräuschentwicklung, Akkulaufzeit und Parallelbetrieb der Entwicklungsumgebung messen.",
-      "limitations": "Der vorliegende Textauszug endet vor dem vollständigen Testergebnis und enthält keine vollständigen Benchmarks zu KI-, Spiele- oder Linux-Leistung. Die genannten Preise und Verfügbarkeitsaussagen sind zeit- und marktbezogen. Angaben zur lokalen Modellleistung lassen sich nicht ohne eigene Tests auf andere Geräte oder Modelle übertragen.",
-      "summary_origin": "generated",
-      "why_relevant": "Redaktionelle Einordnung: Für lokale KI ist nicht nur der nominelle Chipname entscheidend, sondern vor allem der verfügbare gemeinsame Speicher, der Modell, Kontext und übrige Anwendungen aufnehmen muss. Der Test macht zugleich sichtbar, dass lokale Verarbeitung mit Zielkonflikten bei Preis, Lautstärke, Betriebssystem und Leistungsreserven verbunden sein kann. Die technischen und preislichen Aussagen stammen aus dem beschriebenen heise/c’t-Test.",
-      "watch_next": "Erstellen Sie vor einer Anschaffung einen reproduzierbaren Test mit den tatsächlich benötigten Modellen, Quantisierungen, Kontextlängen und Anwendungen und erfassen Sie Speicherbedarf, Laufzeit, Lautstärke sowie Betriebssystem-Kompatibilität.",
-      "source": "heise online – KI-Nachrichten",
-      "source_type": "discovery",
-      "source_url": "https://www.heise.de/news/RTX-Spark-im-Test-Nvidias-erster-Notebook-Chip-fuer-lokale-KI-11490664.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "published_at": "2026-10-16T17:38:00+02:00",
-      "collected_at": "2026-10-16T19:22:41+02:00",
-      "verification": "secondary",
+      "why_relevant": "Redaktionelle Einordnung: Der Wettbewerb zeigt, dass technische Cybersecurity-Kompetenz nicht nur über Einzelwissen, sondern auch über Kooperation, Entscheidungsfähigkeit und praktische Übung entwickelt wird. Für Organisationen ist besonders das Zusammenspiel aus Angriff, Verteidigung und Offline-Aufgaben interessant, weil es unterschiedliche Kompetenzprofile sichtbar machen kann. Die Aussagen zu Motivation und künftigem Return on Investment stammen von ENISA und sind daher als Behördeneinschätzung einzuordnen.",
+      "watch_next": "Prüfen Sie, welche ECSC-Disziplinen zu den eigenen Lernzielen passen, und definieren Sie für einen kontrollierten Pilotwettbewerb Testumgebung, Aufgaben, Rollen und nachvollziehbare Bewertungskriterien.",
+      "source": "ENISA – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.enisa.europa.eu/news/sweden-sweeps-the-winning-title-of-the-european-cybersecurity-challenge",
+      "published_at": "2026-10-16T17:14:35+02:00",
+      "collected_at": "2026-10-16T19:22:39+02:00",
+      "verification": "primary",
       "status": "ok",
       "is_top5": true,
       "content_kind": "current",
@@ -108,7 +60,7 @@
     {
       "id": "87179351c4b5b9f0390f",
       "category": "IT Security",
-      "rank": 5,
+      "rank": 3,
       "title": "Third Moment Research betreibt zehntausende KI-Agenten für lange Forschungszyklen",
       "summary": "Third Moment Research beschreibt ein System, in dem bis zu 10.000 Agenten gleichzeitig an Forschungsaufgaben arbeiten und einzelne autonome Sitzungen 36 bis 48 Stunden dauern sollen. Nach Darstellung des Unternehmens werden GPT-6-Modelle, Codex und die Cybersecurity-Plattform Daybreak kombiniert. In einem quantitativen Finanzanwendungsfall analysierte Codex aufgezeichnete Agentenverläufe, Zeitstempel und Code. Dabei sei eine Optimierung identifiziert worden, die einen Backtest von ungefähr drei Stunden auf etwa drei bis fünf Minuten verkürzt habe; als Maßnahmen nennt der Artikel Caching und Memory-Packing. Die Agenten arbeiten in Docker-Umgebungen mit Daten, Dokumentation und Forschungsrepositorys. Ein übergeordnetes System soll unvollständige Aufgaben prüfen und Wiederholung, Abbruch oder menschliche Eskalation auslösen. Daybreak testet laut Anbieter, ob Agenten ihre Forschungsumgebung verlassen und auf das weitere Netzwerk zugreifen könnten.",
       "editorial_depth": true,
@@ -123,6 +75,54 @@
       "published_at": "2026-10-14T09:00:00+02:00",
       "collected_at": "2026-10-14T20:33:19+02:00",
       "verification": "vendor",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "b78870db9699debcca0c",
+      "category": "Projektmanagement",
+      "rank": 4,
+      "title": "Wasser- und Sanitärversorgung: Wie Projektmanagement die Abwärtsspirale umkehren kann",
+      "summary": "Der Beitrag beschreibt, warum Wasser- und Sanitärinfrastruktur nicht allein durch den Bau neuer Brunnen, Leitungen oder Anlagen dauerhaft funktioniert. Betreiber benötigen laufende Einnahmen für Betrieb und Instandhaltung. Sind Tarife zu niedrig oder werden Rechnungen unvollständig bezahlt, werden Wartungen verschoben, technische Verluste steigen und die Versorgung wird unzuverlässiger. Dadurch sinkt häufig die Zahlungsbereitschaft, was die finanzielle Lage weiter verschärft. Als Gegenmodell nennt der Text eine schrittweise Stabilisierung von Leistung, Einnahmen, Wartung und Investitionen. Water Operator Partnerships sollen Wissen zwischen Versorgungsunternehmen aufbauen. Bei mehreren parallelen Vorhaben schaffen Multiprojektmanagement, Projektreports, Ressourcenplanung und Skill-Management Transparenz. Zugleich warnt der Beitrag vor zusätzlicher Dokumentation ohne klaren Entscheidungsnutzen. Werkzeuge sollen den Überblick verbessern, aber Erfahrung und Verantwortung der steuernden Menschen nicht ersetzen.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisches Beispiel: Ein Versorger könnte vor der Freigabe mehrerer Sanierungsprojekte prüfen, welche Fachkräfte tatsächlich verfügbar sind, welche Kompetenzen benötigt werden und wie sich Betriebskosten, erwartete Einnahmen und Wartungsaufwand über die Vorhaben hinweg entwickeln.",
+      "limitations": "Der Text nennt keine konkreten Kennzahlen, Tarifmodelle, Länderbeispiele oder Erfolgsmessungen. Er erläutert auch nicht, wie soziale Bezahlbarkeit, Governance oder die Qualität von Projektreports im Einzelnen bewertet werden sollen. Aussagen zu privatem Kapital und Mischfinanzierungen bleiben allgemein.",
+      "summary_origin": "generated",
+      "why_relevant": "Redaktionelle Einordnung: Der Artikel verbindet Infrastrukturpolitik mit praktischen PM-Fragen. Besonders relevant ist die Perspektive, dass Projekterfolg nicht am Abschluss einer Anlage endet, sondern an der dauerhaften Betriebsfähigkeit gemessen werden muss. Für Programm- und Portfoliomanagement ist der Hinweis wichtig, nominelle Kapazitäten nicht mit tatsächlich verfügbarer Arbeitszeit gleichzusetzen.",
+      "watch_next": "Konkreter Prüfschritt: Erstellen Sie eine gemeinsame Übersicht aller laufenden und geplanten Vorhaben mit Verantwortlichen, real verfügbarer Arbeitszeit, benötigten Kompetenzen, Aufwand, wirtschaftlicher Entwicklung und kritischen Abweichungen.",
+      "source": "GPM – Aktuelles und Blog",
+      "source_type": "primary",
+      "source_url": "https://www.gpm-ipma.de/ueber-die-gpm/blog/wasser-und-sanitaerversorgung-wie-projektmanagement-die-abwaertsspirale-umkehren-kann",
+      "published_at": "2026-10-16",
+      "collected_at": "2026-10-16T09:05:09+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "cc90eaa80cf04055a42d",
+      "category": "IT Security",
+      "rank": 5,
+      "title": "EU und Ukraine vertiefen Zusammenarbeit bei Cybersicherheit im fünften Cyberdialog",
+      "summary": "Beim fünften Cyberdialog am 9. Oktober in Brüssel bekräftigten die EU und die Ukraine ihre Zusammenarbeit zu operativer Cybersicherheit, EU-Normen, Cyberverteidigung und Diplomatie. Gespräche behandelten die Bedrohungslage, politische Entwicklungen sowie Reformen und die Annäherung der Ukraine an zentrale EU-Rahmenwerke wie NIS2 und den Cyber Resilience Act. Weitere Themen waren das 5G Cybersecurity Toolbox, Krisenmanagement, Cybercrime-Ermittlungen, die EU Cybersecurity Reserve, Kapazitätsaufbau und der Tallinn Mechanism. Die Beteiligten vereinbarten, stärker auf konkrete operative Ergebnisse hinzuarbeiten. Während des Dialogs unterzeichneten CERT-EU und die ukrainische SSSCIP eine Verwaltungsvereinbarung, die den Austausch zwischen CERT-EU und CERT-UA zur Prävention, Erkennung und Eindämmung von Cybervorfällen anstoßen soll. Außerdem wurden multilaterale Gespräche, verantwortliches staatliches Verhalten und öffentlich-private Partnerschaften thematisiert.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisches Beispiel: Ein grenzüberschreitendes Cyberresilienzprojekt könnte Zuständigkeiten für Prävention, Erkennung und Reaktion dokumentieren und anschließend testen, ob der Informationsaustausch zwischen den beteiligten CERT-Strukturen im Krisenfall funktioniert.",
+      "limitations": "Der Artikel berichtet über politische Gespräche und eine unterzeichnete Verwaltungsvereinbarung, nennt aber keine technischen Implementierungsdetails, verbindlichen Zeitpläne, Budgets oder messbaren Zielwerte. Die erwähnten EU-Instrumente werden nicht inhaltlich erläutert. Aus dem Text lässt sich keine Aussage über konkrete Sicherheitsverbesserungen oder die praktische Umsetzung in einzelnen Organisationen ableiten.",
+      "summary_origin": "generated",
+      "why_relevant": "Redaktionelle Einordnung: Für Cybersecurity- und IT-Portfolios zeigt der Beitrag, dass technische Resilienz, regulatorische Annäherung, Krisenkoordination und internationale Zusammenarbeit gemeinsam betrachtet werden. Projektteams sollten deshalb nicht nur einzelne Schutzmaßnahmen planen, sondern auch Schnittstellen, Melde- und Austauschprozesse sowie Abhängigkeiten zwischen Behörden und Unternehmen sichtbar machen.",
+      "watch_next": "Konkreter Prüfschritt: Legen Sie eine Schnittstellen- und Maßnahmenmatrix an, die betroffene Systeme, zuständige Organisationen, relevante EU-Rahmenwerke, Austauschwege und den Status geplanter operativer Kooperationen erfasst.",
+      "source": "European Commission – AI Act / AI Office",
+      "source_type": "primary",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/eu-and-ukraine-deepen-cooperation-cyber-security-5th-cyber-dialogue",
+      "published_at": "2026-10-13",
+      "collected_at": "2026-10-13T09:39:37+02:00",
+      "verification": "primary",
       "status": "ok",
       "is_top5": true,
       "content_kind": "current",
@@ -265,84 +265,84 @@
       "name": "European Commission – AI Act / AI Office",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-17T15:41:36+02:00",
+      "last_update": "2026-10-18T07:50:03+02:00",
       "items_found": 8
     },
     {
       "name": "EUR-Lex – Regulation (EU) 2024/1689",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-17T15:41:37+02:00",
+      "last_update": "2026-10-18T07:50:04+02:00",
       "items_found": 1
     },
     {
       "name": "European Data Protection Board",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-17T15:41:38+02:00",
+      "last_update": "2026-10-18T07:50:05+02:00",
       "items_found": 1
     },
     {
       "name": "Datenschutzkonferenz",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-17T15:41:39+02:00",
+      "last_update": "2026-10-18T07:50:06+02:00",
       "items_found": 1
     },
     {
       "name": "PMI – Artificial Intelligence",
       "type": "optional",
       "status": "failed",
-      "last_update": "2026-10-17T15:41:39+02:00",
+      "last_update": "2026-10-18T07:50:06+02:00",
       "note": "403 Client Error: Forbidden for url: https://www.pmi.org/blog?userTagIDSort=11122"
     },
     {
       "name": "GPM – Aktuelles und Blog",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-17T15:41:55+02:00",
+      "last_update": "2026-10-18T07:50:21+02:00",
       "items_found": 10
     },
     {
       "name": "APM – News and Blog",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-17T15:42:05+02:00",
+      "last_update": "2026-10-18T07:50:34+02:00",
       "items_found": 10
     },
     {
       "name": "BSI – Cyber- und KI-Sicherheit",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-10-17T15:42:05+02:00",
+      "last_update": "2026-10-18T07:50:35+02:00",
       "items_found": 5
     },
     {
       "name": "ENISA – Cyber- und KI-Sicherheit",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-10-17T15:42:05+02:00",
+      "last_update": "2026-10-18T07:50:35+02:00",
       "items_found": 5
     },
     {
       "name": "OpenAI – News",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-10-17T15:42:06+02:00",
+      "last_update": "2026-10-18T07:50:35+02:00",
       "items_found": 5
     },
     {
       "name": "Google – AI Blog",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-10-17T15:42:06+02:00",
+      "last_update": "2026-10-18T07:50:36+02:00",
       "items_found": 5
     },
     {
       "name": "heise online – KI-Nachrichten",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-10-17T15:42:07+02:00",
+      "last_update": "2026-10-18T07:50:37+02:00",
       "items_found": 8
     }
   ],
@@ -351,13 +351,13 @@
     "effective_mode": "baseline_fallback",
     "error_class": "EvaluationDiagnosticError",
     "cache_hits": 0,
-    "cache_misses": 94,
-    "api_items_evaluated": 94,
+    "cache_misses": 92,
+    "api_items_evaluated": 92,
     "api_call_performed": true,
     "selection": {
       "selection_policy": "24h_first_with_eligible_pm_slot",
-      "recent_core_candidates": 94,
-      "recent_core_not_selected": 89,
+      "recent_core_candidates": 92,
+      "recent_core_not_selected": 87,
       "unavailable_sources": [
         "PMI – Artificial Intelligence"
       ]
@@ -365,52 +365,52 @@
     "editorial_depth": {
       "enabled": true,
       "api_calls": 1,
-      "cache_hits": 0,
+      "cache_hits": 3,
       "article_failures": 0,
       "usage": {
-        "input_tokens": 6357,
+        "input_tokens": 2376,
         "input_tokens_details": {
-          "cache_write_tokens": 6354,
+          "cache_write_tokens": 2373,
           "cached_tokens": 0
         },
-        "output_tokens": 2672,
+        "output_tokens": 1105,
         "output_tokens_details": {
-          "reasoning_tokens": 34
+          "reasoning_tokens": 67
         },
-        "total_tokens": 9029
+        "total_tokens": 3481
       },
-      "model_cost_usd": 0.0044778000000000005
+      "model_cost_usd": 0.0018012
     }
   },
   "editorial_depth_status": {
     "enabled": true,
     "api_calls": 1,
-    "cache_hits": 0,
+    "cache_hits": 3,
     "article_failures": 0,
     "usage": {
-      "input_tokens": 6357,
+      "input_tokens": 2376,
       "input_tokens_details": {
-        "cache_write_tokens": 6354,
+        "cache_write_tokens": 2373,
         "cached_tokens": 0
       },
-      "output_tokens": 2672,
+      "output_tokens": 1105,
       "output_tokens_details": {
-        "reasoning_tokens": 34
+        "reasoning_tokens": 67
       },
-      "total_tokens": 9029
+      "total_tokens": 3481
     },
-    "model_cost_usd": 0.0044778000000000005
+    "model_cost_usd": 0.0018012
   },
   "editorial_brief": {
     "title": "Aktuelle Auswahl",
-    "summary": "Bei der 12. European Cybersecurity Challenge (ECSC) 2026 belegte Schweden den ersten Platz, gefolgt von Finnland und Österreich. Deutschland war Gastgeber; in Bochum traten 35 nationale Teams aus EU-Mitgliedstaaten, EFTA- und EU-Kandidatenländern sowie sieben internationale Gastteams an. Die nationalen Teams bestanden jeweils aus zehn Talenten zwischen 14 und 25 Jahren. Der Wettbewerb umfasste Jeopardy-Capture-the-Flag-Aufgaben zu Websicherheit, Kryptografie, Reverse Engineering sowie Software- und Hardware-Schwachstellen. Zusätzlich gab es eine Attack-and-Defense-Disziplin, bei der Teams eigene Dienste absicherten und gegnerische Dienste angriffen. Neu war „CTF Unplugged“, ein Offline-Format gegen die Uhr. ENISA betont kollaboratives Arbeiten und teambasierte Entscheidungen. Ein Female+ Bootcamp sollte technische Weiterbildung, Mentoring und Vernetzung fördern. Die nächste ECSC soll in Dänemark stattfinden; die ICC 2027 ist in Irland angekündigt.",
-    "why_relevant": "Redaktionelle Einordnung: Der Wettbewerb zeigt, dass technische Cybersecurity-Kompetenz nicht nur über Einzelwissen, sondern auch über Kooperation, Entscheidungsfähigkeit und praktische Übung entwickelt wird. Für Organisationen ist besonders das Zusammenspiel aus Angriff, Verteidigung und Offline-Aufgaben interessant, weil es unterschiedliche Kompetenzprofile sichtbar machen kann. Die Aussagen zu Motivation und künftigem Return on Investment stammen von ENISA und sind daher als Behördeneinschätzung einzuordnen.",
-    "watch_next": "Prüfen Sie, welche ECSC-Disziplinen zu den eigenen Lernzielen passen, und definieren Sie für einen kontrollierten Pilotwettbewerb Testumgebung, Aufgaben, Rollen und nachvollziehbare Bewertungskriterien.",
-    "item_id": "6536b2d03b18d7fa242c",
-    "published_at": "2026-10-16T17:14:35+02:00",
+    "summary": "Der Call for Proposals für die Enterprise-JavaScript-Konferenz enterJS 2027 ist eröffnet. Vorschläge für Vorträge oder Workshops können laut Artikel bis zum 3. November eingereicht werden; die Konferenz soll am 9. und 10. Juni in Köln stattfinden, ganztägige Workshops sind für den 8. Juni vorgesehen. Als Themen nennt der Veranstalter unter anderem KI, Frameworks, Tools, Bibliotheken, Security, User Experience, Accessibility und Performance. Parallel wird für den 22. Oktober der Online-Thementag „enterJS Agentic“ angekündigt. Das Programm umfasst sechs jeweils 45-minütige Vorträge zu agentischer KI in JavaScript- und TypeScript-Projekten, darunter Kosten- und Performance-Abwägungen, Anpassung von Claude Code sowie Grenzen und Kontrollmechanismen beim KI-Einsatz. Der Artikel nennt außerdem Ticketpreise und Leistungen für angenommene Speaker.",
+    "why_relevant": "Redaktionelle Einordnung: Der Beitrag verbindet Weiterbildung zu agentischer Softwareentwicklung mit einer Aufforderung zur aktiven Einreichung von Praxiswissen. Besonders relevant ist, dass neben Einsatzmöglichkeiten ausdrücklich auch Kosten, Performance und Kontrollmechanismen thematisiert werden. Das reduziert den Blick auf KI als reine Produktivitätsfrage und lenkt ihn auf Betriebs- und Steuerungsfragen.",
+    "watch_next": "Prüfen Sie anhand des eigenen Projekts, ob ein belastbarer Erfahrungsbericht zu Kosten, Performance oder Kontrollmechanismen vorliegt, und gleichen Sie Inhalt, Format und Einreichungsfrist mit den Angaben des Veranstalters ab.",
+    "item_id": "74c91d170ab9876555af",
+    "published_at": "2026-10-17T13:00:00+02:00",
     "context": "Ausgewählte Kernmeldungen aus dem Zeitfenster der letzten 7 Tage.",
     "limits": [
-      "Nach der Inhaltsbewertung nicht ausgewählte aktuelle Kandidaten: 89.",
+      "Nach der Inhaltsbewertung nicht ausgewählte aktuelle Kandidaten: 87.",
       "Letzter Abruf eingeschränkt: PMI – Artificial Intelligence."
     ]
   }
