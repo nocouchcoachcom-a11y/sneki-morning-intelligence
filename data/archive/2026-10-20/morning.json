@@ -1,0 +1,417 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-20T07:58:45+02:00",
+  "mode": "live",
+  "edition": "morning",
+  "briefing": [
+    "Deterministische Ranking-Baseline ohne kostenpflichtige KI-API.",
+    "Primärquellen werden bevorzugt; Social Radar ist deaktiviert.",
+    "Aktuelle Meldungen: Veröffentlichungen der letzten 7 Tage. Lesestücke und ältere Inhalte sind separat eingeordnet."
+  ],
+  "items": [
+    {
+      "id": "5027030afb0f759b566e",
+      "category": "KI & Technologie",
+      "rank": 1,
+      "title": "China plant weltweite Exportbeschränkungen für KI- und Solartechnik",
+      "summary": "China plant laut Regierungsentwurf Exportbeschränkungen für 40 Schlüsseltechnologien aus den Bereichen KI, Solartechnik und Biotechnologie. Für 26 Technologien sollen Genehmigungen erforderlich werden, 14 weitere könnten vollständig vom Export ausgeschlossen werden. Genannt werden 23 KI-Anwendungen, darunter KI-Agenten und Verfahren für große KI-Modelle. Der Zugriff auf diese Technologien über Apps und Webseiten soll nach dem derzeitigen Stand offenbar erlaubt bleiben; auch bereits öffentlich zugängliche KI-Technologien sollen verfügbar bleiben. Eine Registrierungspflicht für den Technologietransfer gilt laut Artikel bereits. Bis zum 15. November können Stellungnahmen eingereicht werden. Betroffen sein könnten außerdem Produktionsverfahren für Solarzellen sowie Techniken für Zell- und Gentherapien. Die chinesische Regierung begründet die Pläne mit Sicherheitsbedenken. Die Beschränkungen sollen weltweit gelten.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisches Beispiel: Ein Unternehmen prüft, ob ein in China entwickeltes KI-Modul in ein internationales Produkt übernommen werden kann. Es müsste zunächst klären, ob das konkrete Modul oder der dafür nötige Technologietransfer in der späteren Exportliste erfasst wird.",
+      "limitations": "Der Text beschreibt einen Regierungsentwurf, keine endgültige Regelung. Einzelne Technologiepositionen, Verfahren, Zuständigkeiten und praktische Auswirkungen sind noch nicht abschließend festgelegt. Die Angaben zu erlaubtem Zugriff über Apps und Webseiten werden im Artikel vorsichtig formuliert.",
+      "summary_origin": "generated",
+      "why_relevant": "Redaktionelle Einordnung: Für Unternehmen, die KI-Komponenten, Modelle oder Solartechnik aus China beziehen oder dorthin transferieren, kann sich die Verfügbarkeit bestimmter Technologien verändern. Entscheidend ist weniger die allgemeine Schlagzeile als die noch ausstehende Konkretisierung der 40 Positionen und ihrer Genehmigungsvoraussetzungen.",
+      "watch_next": "Erstellen Sie eine Liste aller betroffenen chinesischen Modelle, Softwarekomponenten und Produktionsverfahren und gleichen Sie diese nach Veröffentlichung der endgültigen Regelung mit den konkreten Technologiepositionen und Registrierungsvorgaben ab.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/China-will-Export-von-KI-und-Solartechnik-beschraenken-11487798.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-10-19T18:35:00+02:00",
+      "collected_at": "2026-10-19T23:01:38+02:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "b34861aaad89b18aae69",
+      "category": "KI & Technologie",
+      "rank": 2,
+      "title": "Warum ein Kill-Switch für agentische KI mehr als Prozessabbruch braucht",
+      "summary": "Der Artikel untersucht, warum sich agentische Anwendungen mit Orchestrator, Subagenten, Werkzeugaufrufen und nachgelagerten Prozessen nicht zuverlässig mit einem einzigen Kill-Switch stilllegen lassen. Prozess-IDs werden vom Betriebssystem dynamisch vergeben; außerdem kann sich die Menge laufender Agenten während des Abschaltversuchs verändern. Vor allem beendet das Stoppen eines Prozesses keine bereits ausgelösten Nebenwirkungen. Hat ein Agent eine Zahlung initiiert, ein externes Programm gestartet, eine E-Mail versandt oder ein DELETE-Kommando an eine REST-API gesendet, macht ein SIGKILL diese Aktion nicht rückgängig. Der Beitrag ordnet die Frage deshalb als Problem verteilter Systeme ein. Der vorliegende Text kündigt an, alternative Mechanismen zu betrachten, beschreibt diese konkreten Mechanismen jedoch nicht vollständig.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisches Beispiel: Ein Agent startet über ein Werkzeug eine Löschoperation und wird unmittelbar danach beendet. Der Prozess ist zwar gestoppt, die bereits an die Schnittstelle gesendete Anweisung könnte aber weiterhin verarbeitet werden.",
+      "limitations": "Der zugelieferte Ausschnitt enthält keine vollständige Architektur oder konkrete Implementierungsempfehlungen für einen Kill-Switch. Aussagen über geeignete Rücknahme-, Sperr- oder Transaktionsmechanismen lassen sich daraus nicht ableiten.",
+      "summary_origin": "generated",
+      "why_relevant": "Redaktionelle Einordnung: Für das Risikomanagement agentischer Systeme ist ein Not-Aus nur ein Teil der Kontrolle. Ein System muss auch laufende Aktionen, externe Abhängigkeiten und bereits eingetretene Zustandsänderungen berücksichtigen.",
+      "watch_next": "Kartieren Sie für jede agentische Aktion, welche externen Nebenwirkungen vor dem Prozessabbruch eintreten können, und prüfen Sie separat, ob diese Aktionen blockiert, zurückgerollt oder nachträglich erkannt werden können.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/hintergrund/So-funktioniert-Kill-Switch-Architektur-fuer-KI-Anwendungen-11487391.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "published_at": "2026-10-20T07:30:00+02:00",
+      "collected_at": "2026-10-20T07:58:45+02:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "57d873dff83538e4af13",
+      "category": "KI & Technologie",
+      "rank": 3,
+      "title": "OpenAI meldet Fortschritte bei COBOL, Fortran und Visual Basic",
+      "summary": "OpenAI berichtet über verbesserte Fähigkeiten seiner neuesten Modelle beim Entwickeln und Migrieren von Software in weniger häufig vertretenen Programmiersprachen wie COBOL, Fortran und Visual Basic. Zur Messung entwickelte das Unternehmen MultiLangBench, das den Bau einer SQLite-kompatiblen Datenbank-Engine in 20 Sprachen prüft, sowie eine COBOL-Migrationsprüfung mit Verhaltenserhalt. Nach Herstellerangaben erreicht GPT-6 Astra in MultiLangBench durchschnittlich 87,4 Prozent bestandene Tests gegenüber 26,8 Prozent bei GPT-5.6 Sol; COBOL bleibt mit 72,1 Prozent die schwierigste genannte Sprache. In der COBOL-Prüfung erzielt GPT-6.1 Sol laut OpenAI 86,6 Prozent Genauigkeit bei geringem und 97,9 Prozent bei höherem Reasoning-Aufwand. OpenAI betont, dass Produktionseinsatz weiterhin Expertenprüfung und Tests mit Geschäftsregeln und Abhängigkeiten erfordert.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisches Beispiel: Ein Team lässt ein COBOL-Programm nach Java übertragen und vergleicht anschließend Rundungen, Behandlung fehlender Datensätze und alle beobachtbaren Ausgaben mit dem bestehenden System.",
+      "limitations": "Die Leistungsangaben stammen vom Hersteller und beziehen sich auf die beschriebenen OpenAI-Evaluierungen. Benchmark-Ergebnisse garantieren keine korrekte Migration beliebiger Codebasen. Der Artikel nennt weiterhin erforderliche Expertenprüfung und Tests gegen Geschäftsregeln und Abhängigkeiten.",
+      "summary_origin": "generated",
+      "why_relevant": "Redaktionelle Einordnung: Die Ergebnisse adressieren ein praktisches Modernisierungsproblem, weil ältere Systeme oft unvollständig dokumentiert sind und Geschäftsregeln nur im Code stecken. Sie zeigen jedoch zunächst Benchmark-Fortschritte, nicht automatisch sichere Migrationen im Unternehmensbetrieb.",
+      "watch_next": "Wählen Sie ein abgegrenztes, nicht produktionskritisches COBOL-Modul aus und führen Sie eine unabhängige Vergleichsprüfung mit vorhandenen Tests, Geschäftsregeln und realistischen Randfällen durch.",
+      "source": "OpenAI – News",
+      "source_type": "vendor",
+      "source_url": "https://openai.com/index/low-resource-programming-languages",
+      "published_at": "2026-10-19T14:00:00+02:00",
+      "collected_at": "2026-10-20T02:17:40+02:00",
+      "verification": "vendor",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "1ae554b5eaddc1a15127",
+      "category": "KI & Technologie",
+      "rank": 4,
+      "title": "Merz und Nvidia werben für nutzbare Industriedaten und KI-Investitionen",
+      "summary": "Beim Gipfel „Invest in Germany“ in Berlin sprachen Bundeskanzler Friedrich Merz und Nvidia-CEO Jensen Huang über Investitionen, KI-Rechenzentren und die Nutzung deutscher Industriedaten. Eine gemeinsame Absichtserklärung des zuständigen Bundesministeriums und Nvidia soll laut Artikel dazu beitragen, Industriedaten besser nutzbar zu machen, insbesondere mit den Modellen Nemotron und Cosmos. Merz warb bei Unternehmen für Offenheit gegenüber KI und für strategische Investitionen in Verteidigung und Infrastruktur. Huang sagte, deutsche Daten seien eine Ressource des Landes und sollten in lokalen Modellen genutzt werden. Zugleich äußerte er, Sicherheit sei Voraussetzung für nützliche KI und Unternehmen müssten sich an die bestverfügbaren Sicherheitsstandards halten. Der Artikel stellt diese politischen und unternehmerischen Aussagen in den Kontext bisher nur teilweise erfüllter Hoffnungen auf Datenmärkte und digitale Zwillinge.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisches Beispiel: Mehrere Industrieunternehmen entwickeln ein lokales Modell für Wartungsdaten. Vor einer gemeinsamen Nutzung müssten sie Datenquellen, Zugriffsrechte, Qualitätsanforderungen und zulässige Verwendungszwecke festlegen.",
+      "limitations": "Der Text beschreibt politische Aussagen und eine Absichtserklärung, aber keine konkreten Umsetzungspläne, technischen Ergebnisse, Finanzierungsbedingungen oder garantierten Effekte. Aussagen von Nvidia sind als Hersteller- beziehungsweise Unternehmenspositionen einzuordnen.",
+      "summary_origin": "generated",
+      "why_relevant": "Redaktionelle Einordnung: Der Beitrag macht sichtbar, dass KI-Wertschöpfung nicht nur von Rechenleistung, sondern auch von Datenzugang, Daten-Governance und sektorübergreifender Kooperation abhängt. Die Aussagen der Beteiligten sind dabei Interessenpositionen und keine Wirksamkeitsnachweise.",
+      "watch_next": "Prüfen Sie für einen konkreten Anwendungsfall, welche Industriedaten tatsächlich verfügbar sind, wem sie zugeordnet sind, wie sie technisch zugänglich gemacht werden können und welche Sicherheitskontrollen erforderlich wären.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/Kanzler-Merz-hofft-auf-Nvidia-als-Wachstumsbeschleuniger-11493401.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-10-19T23:50:00+02:00",
+      "collected_at": "2026-10-20T02:17:41+02:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "694b600aec4ad4f4266f",
+      "category": "KI & Technologie",
+      "rank": 5,
+      "title": "ISO/IEC 27090 beschreibt Sicherheitsbedrohungen für KI-Systeme",
+      "summary": "ISO und IEC haben ISO/IEC 27090 „Cybersecurity — Artificial intelligence (AI) — Addressing security threats and compromises to AI systems“ veröffentlicht. Der 56-seitige Leitfaden beschreibt KI-spezifische Bedrohungen, ihre Folgen sowie Maßnahmen zur Erkennung und Abwehr. Behandelt werden unter anderem Data Poisoning, manipulierte Modellgewichte, Evasion-Angriffe, Model Extraction, Membership Inference, Model Inversion, Prompt Injection und Angriffe über Modellausgaben. Ein Anhang ordnet die Risiken Lebenszyklusphasen und betroffenen Assets zu. Die Norm ergänzt ISO/IEC 27001 und 27002, ist aber kein zertifizierbarer Anforderungsstandard. Für europäische Anbieter verändert sie laut Artikel die Rechtslage nicht und erzeugt keine Konformitätsvermutung nach KI-Verordnung oder Cyber Resilience Act. Agentische Systeme mit Werkzeugzugriff werden in der Erstausgabe nur am Rand behandelt.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisches Beispiel: Ein Team nutzt den Leitfaden, um für eine Modellpipeline Risiken durch vergiftete Trainingsdaten, Prompt Injection und Model Extraction zu erfassen und jedem Risiko eine vorhandene Kontrollmaßnahme zuzuordnen.",
+      "limitations": "Die Norm ist laut Artikel ein Leitfaden ohne Anforderungscharakter und ohne Zertifikat. Ein Mapping zu prEN 18282 und ETSI TS 104 223 liegt bisher nicht vor. Die europäische Rechtslage wird dadurch nicht geändert; der Text ersetzt keine rechtliche Prüfung.",
+      "summary_origin": "generated",
+      "why_relevant": "Redaktionelle Einordnung: 27090 kann als strukturierende Referenz für KI-spezifische Bedrohungsanalysen dienen, ersetzt aber weder bestehende Managementsysteme noch verbindliche oder harmonisierte Vorgaben. Besonders für agentische Systeme bleibt die Abdeckung laut Artikel begrenzt.",
+      "watch_next": "Nehmen Sie das eigene KI-System entlang von Daten, Modellen, Schnittstellen und Betriebsphasen auf und gleichen Sie die relevanten Angriffsklassen der ISO/IEC 27090 mit bestehenden Sicherheitskontrollen ab.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/ISO-IEC-27090-soll-KI-Systeme-sicher-machen-11492332.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-10-19T17:40:00+02:00",
+      "collected_at": "2026-10-19T23:01:38+02:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "d3a09fae823e4240f8ef",
+      "category": "AI & PM",
+      "rank": 6,
+      "title": "KI-Kompetenz im Projektmanagement: So gelingt der verantwortungsvolle Einstieg",
+      "summary": "Die Meldung formuliert einen Ansatz für verantwortungsvollen KI-Einsatz und Kompetenzaufbau in Projektteams.",
+      "editorial_depth": false,
+      "practice_example": "",
+      "limitations": "",
+      "summary_origin": "generated",
+      "why_relevant": "Projektverantwortliche können daraus Ansatzpunkte für Qualifizierung, gemeinsame Lernprozesse und interne Regeln beim KI-Einsatz ableiten.",
+      "watch_next": "Beobachten, welche konkreten Kompetenzmodelle, Lernformate und Regeln für den verantwortungsvollen KI-Einsatz vorgeschlagen werden.",
+      "source": "GPM – Aktuelles und Blog",
+      "source_type": "primary",
+      "source_url": "https://www.gpm-ipma.de/ueber-die-gpm/blog/ki-kompetenz-im-projektmanagement-so-gelingt-der-verantwortungsvolle-einstieg",
+      "published_at": "2026-10-09",
+      "collected_at": "2026-10-09T05:26:10+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "is_top5": false,
+      "content_kind": "background",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "e7932ad1b84feccfb2a8",
+      "category": "AI & PM",
+      "rank": 7,
+      "title": "Die Zukunft des Projektmanagements verlangt neue Fähigkeiten: Künstliche Intelligenz führen und Veränderungen mutig gestalten.",
+      "summary": "Die angekündigten Keynotes behandeln veränderte Führungsanforderungen und Kompetenzen im KI-gestützten Projektmanagement.",
+      "editorial_depth": false,
+      "practice_example": "",
+      "limitations": "",
+      "summary_origin": "generated",
+      "why_relevant": "Projektverantwortliche können die Themen zur Einordnung künftiger Kompetenzanforderungen und Veränderungsaspekte in ihren Projekten heranziehen.",
+      "watch_next": "Zu beobachten sind die konkret genannten Fähigkeiten, Führungsansätze und Veränderungsmaßnahmen für den Einsatz von KI im Projektmanagement.",
+      "source": "GPM – Aktuelles und Blog",
+      "source_type": "primary",
+      "source_url": "https://www.gpm-ipma.de/ueber-die-gpm/aktuelles/detail/die-zukunft-des-projektmanagements-verlangt-neue-faehigkeiten-kuenstliche-intelligenz-fuehren-und-veraenderungen-mutig-gestalten",
+      "published_at": "2026-10-09",
+      "collected_at": "2026-10-09T19:23:47+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "is_top5": false,
+      "content_kind": "background",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "fd7cd5678893b552b51d",
+      "category": "KI & Technologie",
+      "rank": 8,
+      "title": "Photokina-Comeback und KI-Skandal – die Fotonews der Woche 41/2026",
+      "summary": "Die Fotonews berichten über den Standortwechsel einer Imaging-Veranstaltung, eine Untersuchung möglichen KI-Betrugs bei Nikon und eine Auszeichnung für Graciela Iturbide.",
+      "editorial_depth": false,
+      "practice_example": "",
+      "limitations": "",
+      "summary_origin": "generated",
+      "why_relevant": "Für Technologie- und Projektverantwortliche bietet die Meldung Einblick in aktuelle Entwicklungen rund um KI-Nutzung und Integrität in der Imaging-Branche.",
+      "watch_next": "Beobachten, zu welchem Ergebnis die Prüfung des möglichen KI-Betrugs kommt und wie die Imaging World in Köln umgesetzt wird.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/Photokina-Comeback-und-KI-Skandal-die-Fotonews-der-Woche-41-2026-11482204.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-10-10T10:00:00+02:00",
+      "collected_at": "2026-10-10T10:24:56+02:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": false,
+      "content_kind": "background",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "dcb02b38ff9193d466ee",
+      "category": "IT Security",
+      "rank": 9,
+      "title": "EU fordert Auskunft von OpenAI und Anthropic nach KI-Angriffen",
+      "summary": "Die Auskunftsverlangen der EU-Kommission markieren eine bedeutende regulatorische und sicherheitsbezogene Entwicklung im Umgang mit KI-gestützten Cyberangriffen.",
+      "editorial_depth": false,
+      "practice_example": "",
+      "limitations": "",
+      "summary_origin": "generated",
+      "why_relevant": "Geschäftsführung sowie KI- und IT-Verantwortliche sollten beobachten, ob daraus neue Anforderungen an Anbieter, Sicherheitsmaßnahmen oder Governance entstehen.",
+      "watch_next": "Zu beobachten sind die Inhalte der verlangten Auskünfte, weitere behördliche Schritte und eine mögliche Konkretisierung von Anforderungen.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/EU-fordert-Auskunft-von-OpenAI-und-Anthropic-nach-KI-Angriffen-11482906.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-10-09T18:37:00+02:00",
+      "collected_at": "2026-10-09T19:24:10+02:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": false,
+      "content_kind": "background",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "db5761f0b27c6158337a",
+      "category": "DSGVO & Ethik",
+      "rank": 10,
+      "title": "Kommentar zu Apples Privacy-Versprechen: Zweifache Rolle rückwärts",
+      "summary": "Apple wird ein veränderter Umgang mit Trainingsdaten und bestimmte Gerätefunktionen vorgeworfen beziehungsweise zugeschrieben.",
+      "editorial_depth": false,
+      "practice_example": "",
+      "limitations": "",
+      "summary_origin": "generated",
+      "why_relevant": "Veränderungen bei Trainingsdaten und Gerätefunktionen können für Datenschutzbewertung, Lieferantenbeobachtung und den Einsatz Apple-basierter Systeme relevant sein.",
+      "watch_next": "Beobachtet werden sollten konkrete Apple-Ankündigungen, technische Details und belastbare Angaben zum Umgang mit Trainingsdaten sowie zu den genannten Funktionen.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/meinung/Kommentar-zu-Apples-Privacy-Versprechen-Zweifache-Rolle-rueckwaerts-11471238.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-10-09T10:16:00+02:00",
+      "collected_at": "2026-10-09T10:28:37+02:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": false,
+      "content_kind": "background",
+      "related_sources": [],
+      "social_verified": false
+    }
+  ],
+  "freshness": {
+    "news_window_days": 7,
+    "current_count": 5,
+    "background_count": 5
+  },
+  "signals": {
+    "history_state": "building",
+    "days_available": 1,
+    "topics": []
+  },
+  "source_status": [
+    {
+      "name": "European Commission – AI Act / AI Office",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-10-20T07:58:05+02:00",
+      "items_found": 8
+    },
+    {
+      "name": "EUR-Lex – Regulation (EU) 2024/1689",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-10-20T07:58:06+02:00",
+      "items_found": 1
+    },
+    {
+      "name": "European Data Protection Board",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-10-20T07:58:08+02:00",
+      "items_found": 1
+    },
+    {
+      "name": "Datenschutzkonferenz",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-10-20T07:58:09+02:00",
+      "items_found": 1
+    },
+    {
+      "name": "PMI – Artificial Intelligence",
+      "type": "optional",
+      "status": "failed",
+      "last_update": "2026-10-20T07:58:09+02:00",
+      "note": "403 Client Error: Forbidden for url: https://www.pmi.org/blog?userTagIDSort=11122"
+    },
+    {
+      "name": "GPM – Aktuelles und Blog",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-10-20T07:58:28+02:00",
+      "items_found": 10
+    },
+    {
+      "name": "APM – News and Blog",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-10-20T07:58:41+02:00",
+      "items_found": 10
+    },
+    {
+      "name": "BSI – Cyber- und KI-Sicherheit",
+      "type": "optional",
+      "status": "ok",
+      "last_update": "2026-10-20T07:58:42+02:00",
+      "items_found": 5
+    },
+    {
+      "name": "ENISA – Cyber- und KI-Sicherheit",
+      "type": "optional",
+      "status": "ok",
+      "last_update": "2026-10-20T07:58:43+02:00",
+      "items_found": 5
+    },
+    {
+      "name": "OpenAI – News",
+      "type": "optional",
+      "status": "ok",
+      "last_update": "2026-10-20T07:58:43+02:00",
+      "items_found": 5
+    },
+    {
+      "name": "Google – AI Blog",
+      "type": "optional",
+      "status": "ok",
+      "last_update": "2026-10-20T07:58:44+02:00",
+      "items_found": 5
+    },
+    {
+      "name": "heise online – KI-Nachrichten",
+      "type": "optional",
+      "status": "ok",
+      "last_update": "2026-10-20T07:58:45+02:00",
+      "items_found": 8
+    }
+  ],
+  "ranking": {
+    "requested_mode": "hybrid",
+    "effective_mode": "baseline_fallback",
+    "error_class": "EvaluationDiagnosticError",
+    "cache_hits": 0,
+    "cache_misses": 94,
+    "api_items_evaluated": 94,
+    "api_call_performed": true,
+    "selection": {
+      "selection_policy": "24h_first_with_eligible_pm_slot",
+      "recent_core_candidates": 94,
+      "recent_core_not_selected": 89,
+      "unavailable_sources": [
+        "PMI – Artificial Intelligence"
+      ]
+    },
+    "editorial_depth": {
+      "enabled": true,
+      "api_calls": 1,
+      "cache_hits": 0,
+      "article_failures": 0,
+      "usage": {
+        "input_tokens": 5050,
+        "input_tokens_details": {
+          "cache_write_tokens": 5047,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2355,
+        "output_tokens_details": {
+          "reasoning_tokens": 83
+        },
+        "total_tokens": 7405
+      },
+      "model_cost_usd": 0.003836
+    }
+  },
+  "editorial_depth_status": {
+    "enabled": true,
+    "api_calls": 1,
+    "cache_hits": 0,
+    "article_failures": 0,
+    "usage": {
+      "input_tokens": 5050,
+      "input_tokens_details": {
+        "cache_write_tokens": 5047,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2355,
+      "output_tokens_details": {
+        "reasoning_tokens": 83
+      },
+      "total_tokens": 7405
+    },
+    "model_cost_usd": 0.003836
+  },
+  "editorial_brief": {
+    "title": "Aktuelle Auswahl",
+    "summary": "China plant laut Regierungsentwurf Exportbeschränkungen für 40 Schlüsseltechnologien aus den Bereichen KI, Solartechnik und Biotechnologie. Für 26 Technologien sollen Genehmigungen erforderlich werden, 14 weitere könnten vollständig vom Export ausgeschlossen werden. Genannt werden 23 KI-Anwendungen, darunter KI-Agenten und Verfahren für große KI-Modelle. Der Zugriff auf diese Technologien über Apps und Webseiten soll nach dem derzeitigen Stand offenbar erlaubt bleiben; auch bereits öffentlich zugängliche KI-Technologien sollen verfügbar bleiben. Eine Registrierungspflicht für den Technologietransfer gilt laut Artikel bereits. Bis zum 15. November können Stellungnahmen eingereicht werden. Betroffen sein könnten außerdem Produktionsverfahren für Solarzellen sowie Techniken für Zell- und Gentherapien. Die chinesische Regierung begründet die Pläne mit Sicherheitsbedenken. Die Beschränkungen sollen weltweit gelten.",
+    "why_relevant": "Redaktionelle Einordnung: Für Unternehmen, die KI-Komponenten, Modelle oder Solartechnik aus China beziehen oder dorthin transferieren, kann sich die Verfügbarkeit bestimmter Technologien verändern. Entscheidend ist weniger die allgemeine Schlagzeile als die noch ausstehende Konkretisierung der 40 Positionen und ihrer Genehmigungsvoraussetzungen.",
+    "watch_next": "Erstellen Sie eine Liste aller betroffenen chinesischen Modelle, Softwarekomponenten und Produktionsverfahren und gleichen Sie diese nach Veröffentlichung der endgültigen Regelung mit den konkreten Technologiepositionen und Registrierungsvorgaben ab.",
+    "item_id": "5027030afb0f759b566e",
+    "published_at": "2026-10-19T18:35:00+02:00",
+    "context": "Ausgewählte Kernmeldungen aus dem Zeitfenster der letzten 7 Tage.",
+    "limits": [
+      "Nach der Inhaltsbewertung nicht ausgewählte aktuelle Kandidaten: 89.",
+      "Letzter Abruf eingeschränkt: PMI – Artificial Intelligence."
+    ]
+  }
+}
