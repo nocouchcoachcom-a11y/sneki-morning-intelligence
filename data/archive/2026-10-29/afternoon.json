@@ -1,0 +1,418 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-29T15:12:37+01:00",
+  "mode": "live",
+  "edition": "afternoon",
+  "briefing": [
+    "Deterministische Ranking-Baseline ohne kostenpflichtige KI-API.",
+    "Primärquellen werden bevorzugt; Social Radar ist deaktiviert.",
+    "Aktuelle Meldungen: Veröffentlichungen der letzten 7 Tage. Lesestücke und ältere Inhalte sind separat eingeordnet."
+  ],
+  "items": [
+    {
+      "id": "12fdcdeaa874866ccbd0",
+      "category": "KI & Technologie",
+      "rank": 1,
+      "title": "KI in der gebauten Umwelt: Praktische Werkzeuge für Projektprofis",
+      "summary": "Ein APM-Webinar vom 28. Oktober 2026 behandelte den Einsatz von KI in Wohnungsbau und Bauwesen. Im Mittelpunkt standen drei Werkzeuge, die per Kurzdemonstration und anhand realer Projektanwendungsfälle vorgestellt wurden. Die Themen reichten von Planung, Stakeholder-Kommunikation und Visualisierung bis zur Projektdurchführung. Die Veranstalter betonten einen sachlichen, nicht spekulativen Blick: Neben möglichen Einsatzfeldern wurden auch Voraussetzungen der Einführung und Grenzen der Werkzeuge erläutert. Eine abschließende Fragerunde behandelte unter anderem Change Management, Vertrauen von Stakeholdern und verantwortungsvolle Einführung. Laut APM sollten Teilnehmende besser einschätzen können, wann KI in der Projektarbeit geeignet ist und wie komplexe Informationen verständlicher vermittelt werden können. Für die vorgestellten Werkzeuge wurden den Teilnehmenden laut Veranstalter außerdem verfügbare Testguthaben oder Rabattcodes angeboten. Die Aufzeichnung und Präsentationsmaterialien wurden zur Verfügung gestellt.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisches Beispiel: Ein Projektteam könnte anhand der Webinar-Themen prüfen, ob ein KI-Werkzeug bei der Visualisierung eines Bauvorhabens oder bei der Aufbereitung von Stakeholder-Rückmeldungen unterstützt, ohne Entscheidungen automatisiert zu treffen.",
+      "limitations": "Der Artikel nennt die drei Werkzeuge nicht konkret und enthält keine vergleichenden Leistungsdaten. Aussagen zu Nutzen und verfügbaren Testguthaben stammen aus dem APM-Veranstaltungstext. Die Übertragbarkeit auf einzelne Projekte bleibt offen.",
+      "summary_origin": "generated",
+      "why_relevant": "Redaktionell relevant ist vor allem die Verbindung von KI-Einsatz, Projektkommunikation und Einführungsmanagement. Der Text liefert weniger eine technische Produktbewertung als einen Orientierungsrahmen für Projektteams, die Nutzen und Grenzen vor einer Einführung prüfen wollen.",
+      "watch_next": "Prüfen Sie für einen konkreten Projektprozess, welcher Arbeitsschritt unterstützt werden soll, welche Daten dafür benötigt werden und wie Ergebnisse durch einen verantwortlichen Menschen kontrolliert werden.",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/news/ai-in-the-built-environment-practical-tools-for-project-professionals/",
+      "published_at": "2026-10-29",
+      "collected_at": "2026-10-29T15:12:28+01:00",
+      "verification": "primary",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "567cb6fbc17d5ee2882b",
+      "category": "KI & Technologie",
+      "rank": 2,
+      "title": "Mistral Large 4: Modellgewichte veröffentlicht, Coding-Leistung verbessert",
+      "summary": "Mistral hat die Gewichte seines Modells Large 4 nach eigenen Angaben nach drei zusätzlichen Trainingswochen veröffentlicht. Das Unternehmen berichtet, das Modell gemeinsam mit Kunden und Cybersicherheitspartnern getestet und per Reinforcement Learning nachtrainiert zu haben. Neu sind die Reasoning-Stufen Low und Medium neben High. Mistral gibt außerdem an, bei gleicher Leistungsfähigkeit rund 50 Prozent weniger Token als die Vorabversion zu benötigen. Im Coding-Benchmark Terminal-Bench 4.0 sei die Erfolgsquote von 28 auf 41 Prozent gestiegen. Heise ordnet diesen Wert unter Verweis auf Artificial Analysis zwischen anderen Modellen ein, weist aber darauf hin, dass bestimmte Vergleichsergebnisse nicht öffentlich einsehbar waren. Für Cyberabwehr nennt Mistral 79 Prozent im CyberGym-E2E-Benchmark; dieses Ergebnis ließ sich laut Artikel nicht unabhängig überprüfen. Die Gewichte sollten auf Hugging Face erscheinen, zusätzlich wurden API- und ausgewählte Vibe-Zugänge genannt.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisches Beispiel: Ein Entwicklungsteam könnte Large 4 lokal oder in einer kontrollierten Umgebung mit einem kleinen, repräsentativen Repository testen und dabei Codequalität, Tokenverbrauch und notwendige menschliche Nacharbeit vergleichen.",
+      "limitations": "Mehrere Leistungsangaben stammen von Mistral oder Artificial Analysis. Das CyberGym-Ergebnis war laut Artikel nicht unabhängig nachprüfbar; Ergebnisse des Coding Agent Index waren zum Recherchezeitpunkt nicht öffentlich einsehbar. Aussagen zu Verfügbarkeit und Zugang beziehen sich auf den Artikelzeitpunkt.",
+      "summary_origin": "generated",
+      "why_relevant": "Redaktionell relevant sind die veröffentlichten Gewichte und die verbesserte Coding-Angabe für Teams, die offene Modelle evaluieren. Die Benchmarkwerte sind jedoch nur als Hersteller- beziehungsweise Drittanbieterangaben belastbar und nicht automatisch auf eigene Entwicklungsaufgaben übertragbar.",
+      "watch_next": "Führen Sie einen reproduzierbaren Praxistest mit eigenen, nicht sensiblen Coding-Aufgaben durch und dokumentieren Sie Erfolgsquote, Fehlerarten, Aufwand und Sicherheitsrisiken.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/Mistral-Large-4-Modellgewichte-veroeffentlicht-Coding-Leistung-verbessert-11504965.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-10-29T15:00:00+01:00",
+      "collected_at": "2026-10-29T15:12:36+01:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "036694c1096d120c1ca6",
+      "category": "KI & Technologie",
+      "rank": 3,
+      "title": "Oracle ermöglicht ChatGPT-Zugriff auf Geschäftsdaten",
+      "summary": "Oracle stellte auf der Oracle AI World mehrere KI-Dienste vor. Oracle AI Workspace soll Beschäftigten über ChatGPT den Zugriff auf Fusion Applications, NetSuite, Oracle AI Database und Oracle Cloud Infrastructure ermöglichen. Plugins sollen Informationen aus verbundenen Systemen erschließen und autorisierte Geschäftsabläufe koordinieren; bestehende Berechtigungen, Freigaben und Kontrollmechanismen sollen erhalten bleiben. Menschen können Aktionen vor der Ausführung prüfen und freigeben. Oracle App Composer soll KI-generierte Anwendungen in OCI bereitstellen und unter anderem Zugriffe, Datenverbindungen, Richtlinien, Kostenkontrollen, Überwachung und Wiederherstellung unterstützen. Security Mesh ist laut Oracle ein verwalteter Dienst für Sicherheitstests über Clouds und lokale Rechenzentren hinweg. Oracle nennt dabei mögliche Angriffspfadanalysen, Validierung und erneute Tests vorgeschlagener Korrekturen. Der Artikel weist darauf hin, dass technische Zusammenspiele, konkrete Modellversionen, allgemeine Starttermine und Preise teilweise offenbleiben. Das SMB-Bundle ist laut Text nur in den USA verfügbar.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisches Beispiel: Ein Unternehmen könnte einen Lieferengpass über eine ChatGPT-Oberfläche untersuchen lassen, die relevante ERP-Informationen zusammenführt, während eine tatsächliche Bestelländerung erst nach menschlicher Freigabe ausgeführt wird.",
+      "limitations": "Die beschriebenen Funktionen sind überwiegend Oracle-Angaben. Der Artikel erläutert nicht vollständig, wie Workspace und Fusion Companion technisch zusammenspielen. Für Security Mesh fehlen konkrete Modellnamen und eine Beurteilung der praktischen Zuverlässigkeit. Verfügbarkeit, Zugangsrechte und Nutzungslimits unterscheiden sich je Dienst.",
+      "summary_origin": "generated",
+      "why_relevant": "Redaktionell relevant ist die Kombination aus generativer Oberfläche, Unternehmensberechtigungen und kontrollierten Aktionen. Für das Produktmanagement verschiebt sich die Frage damit von reiner Modellqualität hin zu Datenzugriff, Freigabeprozessen, Betrieb und Nachvollziehbarkeit.",
+      "watch_next": "Erstellen Sie vor einem Pilotversuch eine Berechtigungsmatrix: zugängliche Daten, erlaubte Aktionen, erforderliche Freigaben, Protokollierung und Abbruchkriterien.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/Oracle-laesst-ChatGPT-an-die-Geschaeftsdaten-11504915.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-10-29T14:06:00+01:00",
+      "collected_at": "2026-10-29T15:12:36+01:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "0751ddd59350d7bfd364",
+      "category": "KI & Technologie",
+      "rank": 4,
+      "title": "Artificial Analysis v5: Neuer Benchmark-Index für KI-Modelle",
+      "summary": "Artificial Analysis hat seinen Intelligence Index in Version 5 aktualisiert. Der Index verrechnet laut Artikel die Ergebnisse von neun Benchmark-Tests und nutzt erstmals zu 60 Prozent nicht öffentliche Aufgaben. Damit soll verhindert werden, dass Modellanbieter ihre Systeme gezielt auf bekannte Tests optimieren. Gleichzeitig entsteht eine neue Einschränkung: Externe können die geheimen Aufgaben nicht prüfen und mögliche Fehler deshalb schwerer erkennen. Neu hinzugekommen sind laut Artificial Analysis Terminal-Bench-Science mit 70 agentischen wissenschaftlichen Aufgaben und FrontierCode 2.0, das möglichst realitätsnahe Programmieraufgaben bewertet. Aktualisiert wurden außerdem Humanity’s Last Exam Diamond, AA-Omniscience v1.1 und CritPt v2; drei andere Benchmarks wurden entfernt. Die Gewichtung der vier Bereiche Wissen, Programmieren, Wissenschaft und Allgemein bleibt laut Artikel gleich. Durch die Änderungen veränderte sich die Modellreihenfolge: Claude Opus 5.5 führte zunächst, bevor Gemini 4 Carbon nach dessen Veröffentlichung die Spitze übernahm.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisches Beispiel: Ein Produktteam könnte zwei Modelle nicht nur anhand des Index vergleichen, sondern zusätzlich eigene Aufgaben aus Support, Analyse und Programmierung mit identischen Kriterien bewerten.",
+      "limitations": "Ein Teil der Aufgaben ist nicht öffentlich und damit nicht extern prüfbar. Der Index basiert auf der Auswahl und Gewichtung von Artificial Analysis; Änderungen an Tests können Ranglisten verändern. Die beschriebenen Ergebnisse belegen keine bestimmte Leistung im individuellen Unternehmensprozess.",
+      "summary_origin": "generated",
+      "why_relevant": "Redaktionell relevant ist die Warnung vor einer Überinterpretation von Ranglisten. Ein geänderter Testmix kann Modellpositionen deutlich verschieben; Benchmarkversion, Aufgabenart und Transparenz müssen daher Teil jeder Produktentscheidung sein.",
+      "watch_next": "Dokumentieren Sie bei jedem Benchmarkvergleich Version, Testabdeckung, öffentliche Nachprüfbarkeit und die Übereinstimmung der Aufgaben mit Ihrem konkreten Anwendungsfall.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/Artificial-Analysis-Index-v5-Mehr-geheime-KI-Benchmarks-11504417.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-10-29T12:28:00+01:00",
+      "collected_at": "2026-10-29T15:12:36+01:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "8d469a7a6eae7ba04764",
+      "category": "KI & Technologie",
+      "rank": 5,
+      "title": "KI-Agenten für komplexe Unternehmensaufgaben entwickeln",
+      "summary": "Der Text bewirbt einen heise-academy-Classroom zur Entwicklung moderner KI-Agenten. Im Mittelpunkt stehen Function Tools, MCP und Multi-Agentensysteme als technische Grundlagen für produktive Unternehmensanwendungen. Der Kursleiter soll von den Grundlagen bis zur Konzeption, Implementierung und Integration solcher Systeme führen. Behandelt werden laut Text unter anderem die Verbindung verschiedener KI-Werkzeuge wie Copilot, Codex und Claude, MCP-Authentifizierung, MCP Apps sowie die Protokolle AG-UI und A2A. Die Sessions sind als Live-Coding angelegt und verwenden überwiegend TypeScript, ergänzt durch Beispiele in Python und C#. Als Entwicklungsumgebung dient Visual Studio Code mit Claude Code; eine andere moderne IDE mit KI-Unterstützung sei laut Veranstalter ebenfalls möglich. Der Text nennt vierstündige Sessions von 9 bis 13 Uhr, Aufzeichnungen, Materialien und Live-Chat. Außerdem werden ein Professional Pass, Videokurse und Ticketinformationen beworben. Der Anspruch, produktive Umgebungen integrieren zu können, ist eine Veranstalterangabe.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisches Beispiel: Ein Team könnte einen Agenten entwerfen, der Informationen aus mehreren internen Werkzeugen abfragt und Aufgaben vorbereitet, wobei Authentifizierung, Protokollierung und menschliche Freigaben separat festgelegt werden.",
+      "limitations": "Der Text ist ein Werbeangebot und keine unabhängige Bewertung des Lernformats oder der vermittelten Technologien. Konkrete Kursinhalte, Übungen, Voraussetzungen, Termine und Kosten werden im vorliegenden Ausschnitt nicht vollständig beschrieben. Eine produktive Integration wird angekündigt, aber nicht nachgewiesen.",
+      "summary_origin": "generated",
+      "why_relevant": "Redaktionell relevant ist die Betonung der Integrationsschicht: Agenten bestehen nicht nur aus einem Modell, sondern aus Werkzeugen, Protokollen und Betriebsumgebung. Für PM-Teams ist das ein Hinweis auf zusätzlichen Architektur- und Governance-Aufwand.",
+      "watch_next": "Definieren Sie vor einer Implementierung eine einzelne, klar begrenzte Prozesskette und beschreiben Sie benötigte Tools, Schnittstellen, Identitäten, Zustände, Freigaben und Fehlerbehandlung.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/KI-Agents-fuer-komplexe-Aufgaben-im-Unternehmen-in-fuenf-Sessions-entwickeln-11433886.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-10-29T12:00:00+01:00",
+      "collected_at": "2026-10-29T15:12:36+01:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "d3a09fae823e4240f8ef",
+      "category": "AI & PM",
+      "rank": 6,
+      "title": "KI-Kompetenz im Projektmanagement: So gelingt der verantwortungsvolle Einstieg",
+      "summary": "Die Meldung formuliert einen Ansatz für verantwortungsvollen KI-Einsatz und Kompetenzaufbau in Projektteams.",
+      "editorial_depth": false,
+      "practice_example": "",
+      "limitations": "",
+      "summary_origin": "generated",
+      "why_relevant": "Projektverantwortliche können daraus Ansatzpunkte für Qualifizierung, gemeinsame Lernprozesse und interne Regeln beim KI-Einsatz ableiten.",
+      "watch_next": "Beobachten, welche konkreten Kompetenzmodelle, Lernformate und Regeln für den verantwortungsvollen KI-Einsatz vorgeschlagen werden.",
+      "source": "GPM – Aktuelles und Blog",
+      "source_type": "primary",
+      "source_url": "https://www.gpm-ipma.de/ueber-die-gpm/blog/ki-kompetenz-im-projektmanagement-so-gelingt-der-verantwortungsvolle-einstieg",
+      "published_at": "2026-10-09",
+      "collected_at": "2026-10-09T05:26:10+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "is_top5": false,
+      "content_kind": "background",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "e7932ad1b84feccfb2a8",
+      "category": "AI & PM",
+      "rank": 7,
+      "title": "Die Zukunft des Projektmanagements verlangt neue Fähigkeiten: Künstliche Intelligenz führen und Veränderungen mutig gestalten.",
+      "summary": "Die angekündigten Keynotes behandeln veränderte Führungsanforderungen und Kompetenzen im KI-gestützten Projektmanagement.",
+      "editorial_depth": false,
+      "practice_example": "",
+      "limitations": "",
+      "summary_origin": "generated",
+      "why_relevant": "Projektverantwortliche können die Themen zur Einordnung künftiger Kompetenzanforderungen und Veränderungsaspekte in ihren Projekten heranziehen.",
+      "watch_next": "Zu beobachten sind die konkret genannten Fähigkeiten, Führungsansätze und Veränderungsmaßnahmen für den Einsatz von KI im Projektmanagement.",
+      "source": "GPM – Aktuelles und Blog",
+      "source_type": "primary",
+      "source_url": "https://www.gpm-ipma.de/ueber-die-gpm/aktuelles/detail/die-zukunft-des-projektmanagements-verlangt-neue-faehigkeiten-kuenstliche-intelligenz-fuehren-und-veraenderungen-mutig-gestalten",
+      "published_at": "2026-10-09",
+      "collected_at": "2026-10-09T19:23:47+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "is_top5": false,
+      "content_kind": "background",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "fd7cd5678893b552b51d",
+      "category": "KI & Technologie",
+      "rank": 8,
+      "title": "Photokina-Comeback und KI-Skandal – die Fotonews der Woche 41/2026",
+      "summary": "Die Fotonews berichten über den Standortwechsel einer Imaging-Veranstaltung, eine Untersuchung möglichen KI-Betrugs bei Nikon und eine Auszeichnung für Graciela Iturbide.",
+      "editorial_depth": false,
+      "practice_example": "",
+      "limitations": "",
+      "summary_origin": "generated",
+      "why_relevant": "Für Technologie- und Projektverantwortliche bietet die Meldung Einblick in aktuelle Entwicklungen rund um KI-Nutzung und Integrität in der Imaging-Branche.",
+      "watch_next": "Beobachten, zu welchem Ergebnis die Prüfung des möglichen KI-Betrugs kommt und wie die Imaging World in Köln umgesetzt wird.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/Photokina-Comeback-und-KI-Skandal-die-Fotonews-der-Woche-41-2026-11482204.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-10-10T10:00:00+02:00",
+      "collected_at": "2026-10-10T10:24:56+02:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": false,
+      "content_kind": "background",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "dcb02b38ff9193d466ee",
+      "category": "IT Security",
+      "rank": 9,
+      "title": "EU fordert Auskunft von OpenAI und Anthropic nach KI-Angriffen",
+      "summary": "Die Auskunftsverlangen der EU-Kommission markieren eine bedeutende regulatorische und sicherheitsbezogene Entwicklung im Umgang mit KI-gestützten Cyberangriffen.",
+      "editorial_depth": false,
+      "practice_example": "",
+      "limitations": "",
+      "summary_origin": "generated",
+      "why_relevant": "Geschäftsführung sowie KI- und IT-Verantwortliche sollten beobachten, ob daraus neue Anforderungen an Anbieter, Sicherheitsmaßnahmen oder Governance entstehen.",
+      "watch_next": "Zu beobachten sind die Inhalte der verlangten Auskünfte, weitere behördliche Schritte und eine mögliche Konkretisierung von Anforderungen.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/EU-fordert-Auskunft-von-OpenAI-und-Anthropic-nach-KI-Angriffen-11482906.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-10-09T18:37:00+02:00",
+      "collected_at": "2026-10-09T19:24:10+02:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": false,
+      "content_kind": "background",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "db5761f0b27c6158337a",
+      "category": "DSGVO & Ethik",
+      "rank": 10,
+      "title": "Kommentar zu Apples Privacy-Versprechen: Zweifache Rolle rückwärts",
+      "summary": "Apple wird ein veränderter Umgang mit Trainingsdaten und bestimmte Gerätefunktionen vorgeworfen beziehungsweise zugeschrieben.",
+      "editorial_depth": false,
+      "practice_example": "",
+      "limitations": "",
+      "summary_origin": "generated",
+      "why_relevant": "Veränderungen bei Trainingsdaten und Gerätefunktionen können für Datenschutzbewertung, Lieferantenbeobachtung und den Einsatz Apple-basierter Systeme relevant sein.",
+      "watch_next": "Beobachtet werden sollten konkrete Apple-Ankündigungen, technische Details und belastbare Angaben zum Umgang mit Trainingsdaten sowie zu den genannten Funktionen.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/meinung/Kommentar-zu-Apples-Privacy-Versprechen-Zweifache-Rolle-rueckwaerts-11471238.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-10-09T10:16:00+02:00",
+      "collected_at": "2026-10-09T10:28:37+02:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": false,
+      "content_kind": "background",
+      "related_sources": [],
+      "social_verified": false
+    }
+  ],
+  "freshness": {
+    "news_window_days": 7,
+    "current_count": 5,
+    "background_count": 5
+  },
+  "signals": {
+    "history_state": "building",
+    "days_available": 1,
+    "topics": []
+  },
+  "source_status": [
+    {
+      "name": "European Commission – AI Act / AI Office",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-10-29T15:12:01+01:00",
+      "items_found": 8
+    },
+    {
+      "name": "EUR-Lex – Regulation (EU) 2024/1689",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-10-29T15:12:02+01:00",
+      "items_found": 1
+    },
+    {
+      "name": "European Data Protection Board",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-10-29T15:12:03+01:00",
+      "items_found": 1
+    },
+    {
+      "name": "Datenschutzkonferenz",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-10-29T15:12:04+01:00",
+      "items_found": 1
+    },
+    {
+      "name": "PMI – Artificial Intelligence",
+      "type": "optional",
+      "status": "failed",
+      "last_update": "2026-10-29T15:12:04+01:00",
+      "note": "403 Client Error: Forbidden for url: https://www.pmi.org/blog?userTagIDSort=11122"
+    },
+    {
+      "name": "GPM – Aktuelles und Blog",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-10-29T15:12:17+01:00",
+      "items_found": 10
+    },
+    {
+      "name": "APM – News and Blog",
+      "type": "core",
+      "status": "degraded",
+      "last_update": "2026-10-29T15:12:33+01:00",
+      "items_found": 10,
+      "note": "Datum oder Kurztext fehlt."
+    },
+    {
+      "name": "BSI – Cyber- und KI-Sicherheit",
+      "type": "optional",
+      "status": "ok",
+      "last_update": "2026-10-29T15:12:34+01:00",
+      "items_found": 5
+    },
+    {
+      "name": "ENISA – Cyber- und KI-Sicherheit",
+      "type": "optional",
+      "status": "ok",
+      "last_update": "2026-10-29T15:12:35+01:00",
+      "items_found": 5
+    },
+    {
+      "name": "OpenAI – News",
+      "type": "optional",
+      "status": "ok",
+      "last_update": "2026-10-29T15:12:35+01:00",
+      "items_found": 5
+    },
+    {
+      "name": "Google – AI Blog",
+      "type": "optional",
+      "status": "ok",
+      "last_update": "2026-10-29T15:12:36+01:00",
+      "items_found": 5
+    },
+    {
+      "name": "heise online – KI-Nachrichten",
+      "type": "optional",
+      "status": "ok",
+      "last_update": "2026-10-29T15:12:36+01:00",
+      "items_found": 8
+    }
+  ],
+  "ranking": {
+    "requested_mode": "hybrid",
+    "effective_mode": "baseline_fallback",
+    "error_class": "EvaluationDiagnosticError",
+    "cache_hits": 1,
+    "cache_misses": 98,
+    "api_items_evaluated": 98,
+    "api_call_performed": true,
+    "selection": {
+      "selection_policy": "24h_first_with_eligible_pm_slot",
+      "recent_core_candidates": 99,
+      "recent_core_not_selected": 94,
+      "unavailable_sources": [
+        "PMI – Artificial Intelligence"
+      ]
+    },
+    "editorial_depth": {
+      "enabled": true,
+      "api_calls": 1,
+      "cache_hits": 0,
+      "article_failures": 0,
+      "usage": {
+        "input_tokens": 4316,
+        "input_tokens_details": {
+          "cache_write_tokens": 4313,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2356,
+        "output_tokens_details": {
+          "reasoning_tokens": 52
+        },
+        "total_tokens": 6672
+      },
+      "model_cost_usd": 0.0036903999999999995
+    }
+  },
+  "editorial_depth_status": {
+    "enabled": true,
+    "api_calls": 1,
+    "cache_hits": 0,
+    "article_failures": 0,
+    "usage": {
+      "input_tokens": 4316,
+      "input_tokens_details": {
+        "cache_write_tokens": 4313,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2356,
+      "output_tokens_details": {
+        "reasoning_tokens": 52
+      },
+      "total_tokens": 6672
+    },
+    "model_cost_usd": 0.0036903999999999995
+  },
+  "editorial_brief": {
+    "title": "Aktuelle Auswahl",
+    "summary": "Ein APM-Webinar vom 28. Oktober 2026 behandelte den Einsatz von KI in Wohnungsbau und Bauwesen. Im Mittelpunkt standen drei Werkzeuge, die per Kurzdemonstration und anhand realer Projektanwendungsfälle vorgestellt wurden. Die Themen reichten von Planung, Stakeholder-Kommunikation und Visualisierung bis zur Projektdurchführung. Die Veranstalter betonten einen sachlichen, nicht spekulativen Blick: Neben möglichen Einsatzfeldern wurden auch Voraussetzungen der Einführung und Grenzen der Werkzeuge erläutert. Eine abschließende Fragerunde behandelte unter anderem Change Management, Vertrauen von Stakeholdern und verantwortungsvolle Einführung. Laut APM sollten Teilnehmende besser einschätzen können, wann KI in der Projektarbeit geeignet ist und wie komplexe Informationen verständlicher vermittelt werden können. Für die vorgestellten Werkzeuge wurden den Teilnehmenden laut Veranstalter außerdem verfügbare Testguthaben oder Rabattcodes angeboten. Die Aufzeichnung und Präsentationsmaterialien wurden zur Verfügung gestellt.",
+    "why_relevant": "Redaktionell relevant ist vor allem die Verbindung von KI-Einsatz, Projektkommunikation und Einführungsmanagement. Der Text liefert weniger eine technische Produktbewertung als einen Orientierungsrahmen für Projektteams, die Nutzen und Grenzen vor einer Einführung prüfen wollen.",
+    "watch_next": "Prüfen Sie für einen konkreten Projektprozess, welcher Arbeitsschritt unterstützt werden soll, welche Daten dafür benötigt werden und wie Ergebnisse durch einen verantwortlichen Menschen kontrolliert werden.",
+    "item_id": "12fdcdeaa874866ccbd0",
+    "published_at": "2026-10-29",
+    "context": "Ausgewählte Kernmeldungen aus dem Zeitfenster der letzten 7 Tage.",
+    "limits": [
+      "Nach der Inhaltsbewertung nicht ausgewählte aktuelle Kandidaten: 94.",
+      "Letzter Abruf eingeschränkt: PMI – Artificial Intelligence."
+    ]
+  }
+}

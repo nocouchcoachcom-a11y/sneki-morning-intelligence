@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-26T07:06:20+01:00",
+  "generated_at": "2026-10-29T15:12:37+01:00",
   "mode": "live",
-  "edition": "morning",
+  "edition": "afternoon",
   "briefing": [
     "Deterministische Ranking-Baseline ohne kostenpflichtige KI-API.",
     "Primärquellen werden bevorzugt; Social Radar ist deaktiviert.",
@@ -10,23 +10,23 @@
   ],
   "items": [
     {
-      "id": "23cf34bb7f2142e91594",
+      "id": "12fdcdeaa874866ccbd0",
       "category": "KI & Technologie",
       "rank": 1,
-      "title": "Montag: Audi plant US-Werk trotz VW-Sparkurs, Google personalisiert Werbung mit Nutzerdaten",
-      "summary": "Audi will nach Angaben des Artikels für vier Milliarden US-Dollar ein Werk im US-Bundesstaat Georgia bauen. Geplant sind jährlich 200.000 SUVs und rund 4.500 Arbeitsplätze. Die Ankündigung erfolgte durch US-Präsident Donald Trump bei einer Wahlkampfveranstaltung; die Zustimmung des Volkswagen-Aufsichtsrats steht noch aus. Audi-Chef Gernot Döllner bezeichnete das Vorhaben als Gewinn für den Konzern, während Vertreter aus Niedersachsen und Gewerkschaften davor warnen, dass US-Wachstum Arbeitsplätze in Deutschland verdrängen könnte. Parallel änderte Google seine Datenschutzerklärung. Wenn Nutzer Daten aus Gmail oder Google Fotos mit Diensten verknüpfen, die personalisierte Werbung unterstützen, können diese Inhalte laut Text für Anzeigen herangezogen werden. Die personalisierte Werbung lasse sich abschalten. Außerdem beschreibt der Artikel einen Streit über Europas KI-Strategie sowie eine erfolgreiche, aber nicht reibungslose Prüfung des Bundeswehr-Digitalfunks.",
+      "title": "KI in der gebauten Umwelt: Praktische Werkzeuge für Projektprofis",
+      "summary": "Ein APM-Webinar vom 28. Oktober 2026 behandelte den Einsatz von KI in Wohnungsbau und Bauwesen. Im Mittelpunkt standen drei Werkzeuge, die per Kurzdemonstration und anhand realer Projektanwendungsfälle vorgestellt wurden. Die Themen reichten von Planung, Stakeholder-Kommunikation und Visualisierung bis zur Projektdurchführung. Die Veranstalter betonten einen sachlichen, nicht spekulativen Blick: Neben möglichen Einsatzfeldern wurden auch Voraussetzungen der Einführung und Grenzen der Werkzeuge erläutert. Eine abschließende Fragerunde behandelte unter anderem Change Management, Vertrauen von Stakeholdern und verantwortungsvolle Einführung. Laut APM sollten Teilnehmende besser einschätzen können, wann KI in der Projektarbeit geeignet ist und wie komplexe Informationen verständlicher vermittelt werden können. Für die vorgestellten Werkzeuge wurden den Teilnehmenden laut Veranstalter außerdem verfügbare Testguthaben oder Rabattcodes angeboten. Die Aufzeichnung und Präsentationsmaterialien wurden zur Verfügung gestellt.",
       "editorial_depth": true,
-      "practice_example": "Hypothetisches Beispiel: Ein Unternehmen plant, einen Produktionsstandort in den USA aufzubauen und zugleich Kundendaten aus mehreren eigenen Diensten für Werbung zu verknüpfen. Es könnte beide Vorhaben in einem gemeinsamen Entscheidungsprozess auf Investitionsfreigabe, Beschäftigungseffekte, Transparenz und abschaltbare Personalisierung prüfen.",
-      "limitations": "Der Text belegt keine endgültige Genehmigung des Audi-Werks, keine tatsächlichen Schließungen in Deutschland und keine konkrete Auswirkung der Google-Änderung auf einzelne Nutzer. Die Aussagen zur europäischen KI-Abhängigkeit werden als Warnungen von Mistral- und DeepL-Verantwortlichen wiedergegeben. Die zusätzlichen Meldungen zu Tomb Raider und Bundeswehr-Digitalfunk sind für eine KI-/PM-Bewertung nur begrenzt vertieft.",
+      "practice_example": "Hypothetisches Beispiel: Ein Projektteam könnte anhand der Webinar-Themen prüfen, ob ein KI-Werkzeug bei der Visualisierung eines Bauvorhabens oder bei der Aufbereitung von Stakeholder-Rückmeldungen unterstützt, ohne Entscheidungen automatisiert zu treffen.",
+      "limitations": "Der Artikel nennt die drei Werkzeuge nicht konkret und enthält keine vergleichenden Leistungsdaten. Aussagen zu Nutzen und verfügbaren Testguthaben stammen aus dem APM-Veranstaltungstext. Die Übertragbarkeit auf einzelne Projekte bleibt offen.",
       "summary_origin": "generated",
-      "why_relevant": "Redaktionelle Einordnung: Der Überblick verbindet Standortentscheidungen, datenbasierte Werbung und europäische KI-Abhängigkeit. Für das Management zeigt sich daran, dass Wachstums- und Digitalstrategien nicht isoliert von Governance, Datenverknüpfungen und möglichen Auswirkungen auf bestehende Standorte bewertet werden sollten.",
-      "watch_next": "Prüfschritt: Dokumentieren Sie für jedes verknüpfte Google-Konto, welche Dienste personalisierte Werbung unterstützen, welche Einstellungen aktiv sind und ob die Abschaltoption wirksam umgesetzt wurde; bei der Standortplanung prüfen Sie zusätzlich den noch ausstehenden Freigabestatus.",
-      "source": "heise online – KI-Nachrichten",
-      "source_type": "discovery",
-      "source_url": "https://www.heise.de/news/Montag-Audi-mit-neuem-US-Werk-trotz-VW-Sparkurs-Google-Werbung-mit-Nutzerdaten-11499583.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "published_at": "2026-10-26T06:15:00+01:00",
-      "collected_at": "2026-10-26T07:06:19+01:00",
-      "verification": "secondary",
+      "why_relevant": "Redaktionell relevant ist vor allem die Verbindung von KI-Einsatz, Projektkommunikation und Einführungsmanagement. Der Text liefert weniger eine technische Produktbewertung als einen Orientierungsrahmen für Projektteams, die Nutzen und Grenzen vor einer Einführung prüfen wollen.",
+      "watch_next": "Prüfen Sie für einen konkreten Projektprozess, welcher Arbeitsschritt unterstützt werden soll, welche Daten dafür benötigt werden und wie Ergebnisse durch einen verantwortlichen Menschen kontrolliert werden.",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/news/ai-in-the-built-environment-practical-tools-for-project-professionals/",
+      "published_at": "2026-10-29",
+      "collected_at": "2026-10-29T15:12:28+01:00",
+      "verification": "primary",
       "status": "ok",
       "is_top5": true,
       "content_kind": "current",
@@ -34,22 +34,22 @@
       "social_verified": false
     },
     {
-      "id": "63d7fb1e404441789ff0",
+      "id": "567cb6fbc17d5ee2882b",
       "category": "KI & Technologie",
       "rank": 2,
-      "title": "Freiheit im Netz unter Druck: Zensur, KI und Altersprüfungen",
-      "summary": "Der Bericht „Freedom on the Net 2026“ verzeichnet laut Artikel den 16. weltweiten Rückgang der Internetfreiheit in Folge. In 16 der 38 untersuchten Staaten verschlechterten sich die Bedingungen, in acht Ländern verbesserten sie sich. Besonders drastisch sei die Entwicklung im Iran, wo eine etwa 88-tägige Internetsperre und eine stärkere Abschottung des Netzes beschrieben werden. Russland und Kirgisistan würden den staatlichen Einfluss auf Provider und internationalen Datenverkehr ausbauen. Als weiteres Risiko nennt Freedom House Altersverifikationen, die Gesichtsscans oder amtliche Ausweise erfordern könnten und dadurch Überwachung sowie Folgen von Datenlecks begünstigten. KI werde sowohl zur Bekämpfung von Deepfakes und Identitätsmissbrauch als auch zur Kontrolle von Meinungen eingesetzt. Die USA stagnieren laut Studie bei 73 von 100 Punkten. Deutschland ist wegen einer geänderten Methodik nicht direkt vergleichbar.",
+      "title": "Mistral Large 4: Modellgewichte veröffentlicht, Coding-Leistung verbessert",
+      "summary": "Mistral hat die Gewichte seines Modells Large 4 nach eigenen Angaben nach drei zusätzlichen Trainingswochen veröffentlicht. Das Unternehmen berichtet, das Modell gemeinsam mit Kunden und Cybersicherheitspartnern getestet und per Reinforcement Learning nachtrainiert zu haben. Neu sind die Reasoning-Stufen Low und Medium neben High. Mistral gibt außerdem an, bei gleicher Leistungsfähigkeit rund 50 Prozent weniger Token als die Vorabversion zu benötigen. Im Coding-Benchmark Terminal-Bench 4.0 sei die Erfolgsquote von 28 auf 41 Prozent gestiegen. Heise ordnet diesen Wert unter Verweis auf Artificial Analysis zwischen anderen Modellen ein, weist aber darauf hin, dass bestimmte Vergleichsergebnisse nicht öffentlich einsehbar waren. Für Cyberabwehr nennt Mistral 79 Prozent im CyberGym-E2E-Benchmark; dieses Ergebnis ließ sich laut Artikel nicht unabhängig überprüfen. Die Gewichte sollten auf Hugging Face erscheinen, zusätzlich wurden API- und ausgewählte Vibe-Zugänge genannt.",
       "editorial_depth": true,
-      "practice_example": "Hypothetisches Beispiel: Eine Plattform erwägt eine Altersprüfung für Minderjährige. Sie könnte zunächst prüfen, ob eine weniger eingriffsintensive Methode ausreicht, welche Daten anfallen, wie lange sie gespeichert würden und welche Risiken bei einem Dienstleister-Leak entstehen könnten.",
-      "limitations": "Der Artikel fasst den Freedom-House-Bericht zusammen, liefert aber keine vollständige Methodik oder Einzelfallprüfung der genannten Staaten. Deutschland ist in der aktuellen Ausgabe nicht direkt global vergleichbar. Die NGO erhält laut Text einen Großteil ihrer Mittel vom US-Außenministerium, verwendet diese Zuschüsse nach eigener Darstellung jedoch nicht für die Berichtserstellung. Der Text begründet keine rechtlichen Pflichten.",
+      "practice_example": "Hypothetisches Beispiel: Ein Entwicklungsteam könnte Large 4 lokal oder in einer kontrollierten Umgebung mit einem kleinen, repräsentativen Repository testen und dabei Codequalität, Tokenverbrauch und notwendige menschliche Nacharbeit vergleichen.",
+      "limitations": "Mehrere Leistungsangaben stammen von Mistral oder Artificial Analysis. Das CyberGym-Ergebnis war laut Artikel nicht unabhängig nachprüfbar; Ergebnisse des Coding Agent Index waren zum Recherchezeitpunkt nicht öffentlich einsehbar. Aussagen zu Verfügbarkeit und Zugang beziehen sich auf den Artikelzeitpunkt.",
       "summary_origin": "generated",
-      "why_relevant": "Redaktionelle Einordnung: Für digitale Produkte und Plattformen ist der Text relevant, weil Identitätsprüfung, Inhaltsmoderation und KI-Funktionen gleichzeitig Schutzinteressen und neue Überwachungs- oder Zensurrisiken erzeugen können. Entscheidungen brauchen daher eine explizite Abwägung von Sicherheits- und Freiheitszielen.",
-      "watch_next": "Prüfschritt: Erstellen Sie vor einer Alters- oder Identitätsprüfung eine Datenflusskarte mit erhobenen Merkmalen, Empfängern, Speicherorten, Löschpunkten und möglichen Ausweich- oder Umgehungswegen; testen Sie anschließend die Auswirkungen auf anonyme Nutzung und Fehlzuordnungen.",
+      "why_relevant": "Redaktionell relevant sind die veröffentlichten Gewichte und die verbesserte Coding-Angabe für Teams, die offene Modelle evaluieren. Die Benchmarkwerte sind jedoch nur als Hersteller- beziehungsweise Drittanbieterangaben belastbar und nicht automatisch auf eigene Entwicklungsaufgaben übertragbar.",
+      "watch_next": "Führen Sie einen reproduzierbaren Praxistest mit eigenen, nicht sensiblen Coding-Aufgaben durch und dokumentieren Sie Erfolgsquote, Fehlerarten, Aufwand und Sicherheitsrisiken.",
       "source": "heise online – KI-Nachrichten",
       "source_type": "discovery",
-      "source_url": "https://www.heise.de/news/Freiheit-im-Netz-auf-Talfahrt-Zensur-KI-Alterschecks-und-digitale-Isolation-11499475.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "published_at": "2026-10-25T16:38:00+01:00",
-      "collected_at": "2026-10-25T17:07:45+01:00",
+      "source_url": "https://www.heise.de/news/Mistral-Large-4-Modellgewichte-veroeffentlicht-Coding-Leistung-verbessert-11504965.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-10-29T15:00:00+01:00",
+      "collected_at": "2026-10-29T15:12:36+01:00",
       "verification": "secondary",
       "status": "ok",
       "is_top5": true,
@@ -58,22 +58,22 @@
       "social_verified": false
     },
     {
-      "id": "46206cc100717c62ae96",
+      "id": "036694c1096d120c1ca6",
       "category": "KI & Technologie",
       "rank": 3,
-      "title": "Mistral- und DeepL-Chefs warnen vor Europas Verzicht auf eigene KI-Modelle",
-      "summary": "In Europa wird laut Artikel darüber gestritten, ob der Kontinent eigene hochentwickelte KI-Modelle entwickeln oder sich auf Anwendungen auf Basis fremder Modelle konzentrieren sollte. EU-Spitzenpolitiker wie Ursula von der Leyen setzen demnach zunehmend auf die wirtschaftliche Nutzung von Anwendungen. Mistral-Chef Arthur Mensch warnt dagegen, ein Verzicht auf eigene Frontier-Modelle könne Europas Bedeutung in der KI-Welt schwächen. DeepL-Chef Jarek Kutylowski fordert, die gesamte Wertschöpfungskette zu beherrschen, da sonst wirtschaftlicher Wert in andere Regionen abwandern könne. Als Risiko nennen beide eine neue technologische Abhängigkeit und ein mögliches Handelsdefizit. Der Artikel verweist zugleich auf Europas Rückstand gegenüber den USA und China, hohe Rechenkosten sowie den geplanten Aufbau von sieben KI-Gigafabriken mit rund 30 Milliarden Euro. Ein Konsortium arbeitet außerdem an einem europäischen Frontier-Modell in allen EU-Amtssprachen.",
+      "title": "Oracle ermöglicht ChatGPT-Zugriff auf Geschäftsdaten",
+      "summary": "Oracle stellte auf der Oracle AI World mehrere KI-Dienste vor. Oracle AI Workspace soll Beschäftigten über ChatGPT den Zugriff auf Fusion Applications, NetSuite, Oracle AI Database und Oracle Cloud Infrastructure ermöglichen. Plugins sollen Informationen aus verbundenen Systemen erschließen und autorisierte Geschäftsabläufe koordinieren; bestehende Berechtigungen, Freigaben und Kontrollmechanismen sollen erhalten bleiben. Menschen können Aktionen vor der Ausführung prüfen und freigeben. Oracle App Composer soll KI-generierte Anwendungen in OCI bereitstellen und unter anderem Zugriffe, Datenverbindungen, Richtlinien, Kostenkontrollen, Überwachung und Wiederherstellung unterstützen. Security Mesh ist laut Oracle ein verwalteter Dienst für Sicherheitstests über Clouds und lokale Rechenzentren hinweg. Oracle nennt dabei mögliche Angriffspfadanalysen, Validierung und erneute Tests vorgeschlagener Korrekturen. Der Artikel weist darauf hin, dass technische Zusammenspiele, konkrete Modellversionen, allgemeine Starttermine und Preise teilweise offenbleiben. Das SMB-Bundle ist laut Text nur in den USA verfügbar.",
       "editorial_depth": true,
-      "practice_example": "Hypothetisches Beispiel: Ein europäisches Unternehmen könnte einen Übersetzungsdienst zunächst mit einem externen Modell betreiben, parallel aber eigene Daten- und Evaluationskapazitäten aufbauen. Es würde so prüfen, ob Qualität, Kosten, Sprachabdeckung und Anbieterwechsel ohne vollständige Abhängigkeit möglich sind.",
-      "limitations": "Die im Artikel genannten Warnungen stammen von Unternehmenschefs mit eigenen wirtschaftlichen Interessen. Es werden keine belastbaren Kosten-, Qualitäts- oder Zeitvergleiche zwischen eigenen Modellen und Anwendungen auf Basis fremder Modelle geliefert. Der Start der sieben KI-Gigafabriken und das europäische Frontier-Modell werden erwähnt, aber weder ihr Umsetzungsstand noch ihre tatsächliche Leistungsfähigkeit belegt.",
+      "practice_example": "Hypothetisches Beispiel: Ein Unternehmen könnte einen Lieferengpass über eine ChatGPT-Oberfläche untersuchen lassen, die relevante ERP-Informationen zusammenführt, während eine tatsächliche Bestelländerung erst nach menschlicher Freigabe ausgeführt wird.",
+      "limitations": "Die beschriebenen Funktionen sind überwiegend Oracle-Angaben. Der Artikel erläutert nicht vollständig, wie Workspace und Fusion Companion technisch zusammenspielen. Für Security Mesh fehlen konkrete Modellnamen und eine Beurteilung der praktischen Zuverlässigkeit. Verfügbarkeit, Zugangsrechte und Nutzungslimits unterscheiden sich je Dienst.",
       "summary_origin": "generated",
-      "why_relevant": "Redaktionelle Einordnung: Die Debatte betrifft eine zentrale Portfolioentscheidung: kurzfristig verfügbare KI-Anwendungen gegen langfristige Kontrolle über Modelle, Infrastruktur und Wertschöpfung. Für Produkt- und IT-Verantwortliche ist damit die Frage verbunden, wie stark sie sich an einzelne externe Modellanbieter binden wollen.",
-      "watch_next": "Prüfschritt: Erstellen Sie eine Abhängigkeitsmatrix für jedes eingesetzte KI-Modell mit Datenzugriff, Schnittstellen, Qualitätsmetriken, Wechseloptionen und Anteil der Ausgaben am externen Anbieter; testen Sie anschließend einen alternativen Modellpfad mit denselben Aufgaben.",
+      "why_relevant": "Redaktionell relevant ist die Kombination aus generativer Oberfläche, Unternehmensberechtigungen und kontrollierten Aktionen. Für das Produktmanagement verschiebt sich die Frage damit von reiner Modellqualität hin zu Datenzugriff, Freigabeprozessen, Betrieb und Nachvollziehbarkeit.",
+      "watch_next": "Erstellen Sie vor einem Pilotversuch eine Berechtigungsmatrix: zugängliche Daten, erlaubte Aktionen, erforderliche Freigaben, Protokollierung und Abbruchkriterien.",
       "source": "heise online – KI-Nachrichten",
       "source_type": "discovery",
-      "source_url": "https://www.heise.de/news/KI-Streit-in-Europa-EU-Tech-Chefs-wehren-sich-gegen-Kapitulation-11499445.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "published_at": "2026-10-25T14:28:00+01:00",
-      "collected_at": "2026-10-25T17:07:45+01:00",
+      "source_url": "https://www.heise.de/news/Oracle-laesst-ChatGPT-an-die-Geschaeftsdaten-11504915.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-10-29T14:06:00+01:00",
+      "collected_at": "2026-10-29T15:12:36+01:00",
       "verification": "secondary",
       "status": "ok",
       "is_top5": true,
@@ -82,22 +82,22 @@
       "social_verified": false
     },
     {
-      "id": "9146d90c9fbf41f0efbd",
-      "category": "IT Security",
+      "id": "0751ddd59350d7bfd364",
+      "category": "KI & Technologie",
       "rank": 4,
-      "title": "Warum Angreifer bei Sicherheitslücken derzeit im Vorteil sind",
-      "summary": "Ein Experte der Cyberagentur des Bundes beschreibt laut Artikel eine Phase, in der Angreifer veröffentlichte Sicherheitslücken innerhalb von Minuten oder Stunden auswerten und Angriffe entwickeln können. Das Beheben dauere dagegen oft länger, weil es dezentral organisiert sei. Als Beispiel dient eine schwerwiegende PHP-Schwachstelle, nach der viele Betreiber ihre Webseiten erst nach Stunden oder mehr als einem Tag wieder online brachten. Das Bundesamt für Sicherheit in der Informationstechnik stufte das Risiko als außerordentlich hoch ein; erfolgreiche Angriffe auf die Bundesverwaltung waren laut Text zunächst nicht gemeldet, während ein Datenabfluss geprüft wurde. Eine IBM-Auswertung meldete für Januar bis September mindestens 10.124 bekannte Schwachstellen bei großen Anbietern, rund 578 Prozent mehr als im Vorjahreszeitraum. Mehr als die Hälfte der mittels KI entdeckten Lücken galt als hoch oder kritisch. KI soll künftig sicherere Software ermöglichen; eine KI-basierte Betriebssystemarchitektur bleibt umstritten.",
+      "title": "Artificial Analysis v5: Neuer Benchmark-Index für KI-Modelle",
+      "summary": "Artificial Analysis hat seinen Intelligence Index in Version 5 aktualisiert. Der Index verrechnet laut Artikel die Ergebnisse von neun Benchmark-Tests und nutzt erstmals zu 60 Prozent nicht öffentliche Aufgaben. Damit soll verhindert werden, dass Modellanbieter ihre Systeme gezielt auf bekannte Tests optimieren. Gleichzeitig entsteht eine neue Einschränkung: Externe können die geheimen Aufgaben nicht prüfen und mögliche Fehler deshalb schwerer erkennen. Neu hinzugekommen sind laut Artificial Analysis Terminal-Bench-Science mit 70 agentischen wissenschaftlichen Aufgaben und FrontierCode 2.0, das möglichst realitätsnahe Programmieraufgaben bewertet. Aktualisiert wurden außerdem Humanity’s Last Exam Diamond, AA-Omniscience v1.1 und CritPt v2; drei andere Benchmarks wurden entfernt. Die Gewichtung der vier Bereiche Wissen, Programmieren, Wissenschaft und Allgemein bleibt laut Artikel gleich. Durch die Änderungen veränderte sich die Modellreihenfolge: Claude Opus 5.5 führte zunächst, bevor Gemini 4 Carbon nach dessen Veröffentlichung die Spitze übernahm.",
       "editorial_depth": true,
-      "practice_example": "Hypothetisches Beispiel: Nach Veröffentlichung einer kritischen Bibliothekslücke könnte ein Unternehmen eine betroffene Webanwendung inventarisieren, sie vorübergehend technisch absichern, ein Update in einer Testumgebung prüfen und die Wiederinbetriebnahme erst nach einem festgelegten Funktionstest freigeben.",
-      "limitations": "Die genannten Schwachstellenzahlen stammen aus einer IBM-Auswertung und werden im Artikel nicht methodisch detailliert. Für die PHP-Lücke nennt der Text keine technische Kennung und keine vollständige Liste betroffener Systeme. Die Aussagen zur KI als sicherheitsförderndem Programmierwerkzeug sind Zukunftserwartungen. Die Idee eines KI-basierten Betriebssystems wird ausdrücklich als offene und unter Experten umstrittene Forschungsfrage beschrieben.",
+      "practice_example": "Hypothetisches Beispiel: Ein Produktteam könnte zwei Modelle nicht nur anhand des Index vergleichen, sondern zusätzlich eigene Aufgaben aus Support, Analyse und Programmierung mit identischen Kriterien bewerten.",
+      "limitations": "Ein Teil der Aufgaben ist nicht öffentlich und damit nicht extern prüfbar. Der Index basiert auf der Auswahl und Gewichtung von Artificial Analysis; Änderungen an Tests können Ranglisten verändern. Die beschriebenen Ergebnisse belegen keine bestimmte Leistung im individuellen Unternehmensprozess.",
       "summary_origin": "generated",
-      "why_relevant": "Redaktionelle Einordnung: Der Artikel macht die Zeitdifferenz zwischen Bekanntwerden und Behebung zum zentralen Managementrisiko. Für Projekte bedeutet das, dass Patchfähigkeit, Abhängigkeiten und Entscheidungswege ebenso wichtig sind wie die reine Erkennung von Schwachstellen.",
-      "watch_next": "Prüfschritt: Führen Sie eine aktuelle Komponenten- und Verantwortlichkeitsliste für produktive Systeme, markieren Sie öffentlich bekannte kritische Abhängigkeiten und messen Sie die Zeit von der Warnung bis zu Test, Freigabe und Installation eines Updates.",
+      "why_relevant": "Redaktionell relevant ist die Warnung vor einer Überinterpretation von Ranglisten. Ein geänderter Testmix kann Modellpositionen deutlich verschieben; Benchmarkversion, Aufgabenart und Transparenz müssen daher Teil jeder Produktentscheidung sein.",
+      "watch_next": "Dokumentieren Sie bei jedem Benchmarkvergleich Version, Testabdeckung, öffentliche Nachprüfbarkeit und die Übereinstimmung der Aufgaben mit Ihrem konkreten Anwendungsfall.",
       "source": "heise online – KI-Nachrichten",
       "source_type": "discovery",
-      "source_url": "https://www.heise.de/news/Cyberagentur-Software-Schwachstellen-bleiben-laenger-ein-Problem-11499379.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "published_at": "2026-10-25T11:28:00+01:00",
-      "collected_at": "2026-10-25T12:19:00+01:00",
+      "source_url": "https://www.heise.de/news/Artificial-Analysis-Index-v5-Mehr-geheime-KI-Benchmarks-11504417.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-10-29T12:28:00+01:00",
+      "collected_at": "2026-10-29T15:12:36+01:00",
       "verification": "secondary",
       "status": "ok",
       "is_top5": true,
@@ -106,22 +106,22 @@
       "social_verified": false
     },
     {
-      "id": "372dcd2646f3c3f00b35",
+      "id": "8d469a7a6eae7ba04764",
       "category": "KI & Technologie",
       "rank": 5,
-      "title": "Nvidia setzt bei KI-Agenten auf technische Schutzmaßnahmen",
-      "summary": "Nvidia-CEO Jensen Huang bezeichnet Sicherheit laut dem Artikel als zentrale KI-Debatte und sieht Engineering statt Regulierung als entscheidenden Ansatz. Nvidia stellte dafür die Referenzarchitektur OpenShell vor. Die seit März verfügbare Open-Source-Software soll über abgestufte Regeln festlegen, auf welche Dateien, Netzwerke und Werkzeuge ein Agent zugreifen darf. Eine zusätzliche hardwaregestützte Überwachung namens Sentry soll auf BlueField-4-DPUs laufen und verdächtiges Verhalten in den Gedankengängen von Modellen prüfen; sie ist laut Artikel erst für Anfang 2027 angekündigt. Nvidia nennt OpenAI, Anthropic und Meta als Nutzer oder Beteiligte, wobei der konkrete Einsatzumfang offenbleibt. Huang skizziert außerdem spezialisierte Unternehmensagenten, die mit eigenen Daten und Werkzeugen arbeiten, sowie lokal laufende Familienagenten. Der Artikel betont, dass die Zuverlässigkeit der Schutzmaßnahmen bislang nicht nachgewiesen ist.",
+      "title": "KI-Agenten für komplexe Unternehmensaufgaben entwickeln",
+      "summary": "Der Text bewirbt einen heise-academy-Classroom zur Entwicklung moderner KI-Agenten. Im Mittelpunkt stehen Function Tools, MCP und Multi-Agentensysteme als technische Grundlagen für produktive Unternehmensanwendungen. Der Kursleiter soll von den Grundlagen bis zur Konzeption, Implementierung und Integration solcher Systeme führen. Behandelt werden laut Text unter anderem die Verbindung verschiedener KI-Werkzeuge wie Copilot, Codex und Claude, MCP-Authentifizierung, MCP Apps sowie die Protokolle AG-UI und A2A. Die Sessions sind als Live-Coding angelegt und verwenden überwiegend TypeScript, ergänzt durch Beispiele in Python und C#. Als Entwicklungsumgebung dient Visual Studio Code mit Claude Code; eine andere moderne IDE mit KI-Unterstützung sei laut Veranstalter ebenfalls möglich. Der Text nennt vierstündige Sessions von 9 bis 13 Uhr, Aufzeichnungen, Materialien und Live-Chat. Außerdem werden ein Professional Pass, Videokurse und Ticketinformationen beworben. Der Anspruch, produktive Umgebungen integrieren zu können, ist eine Veranstalterangabe.",
       "editorial_depth": true,
-      "practice_example": "Hypothetisches Beispiel: Ein interner Agent erhält nur lesenden Zugriff auf ein festgelegtes Dokumentenverzeichnis und ein einzelnes Werkzeug. Jeder zusätzliche Netzwerk- oder Dateizugriff wird blockiert, protokolliert und durch einen Menschen freigegeben.",
-      "limitations": "Aussagen zu OpenShell, Sentry und den Zukunftsszenarien sind teilweise Herstellerangaben von Nvidia. Sentry war zum beschriebenen Zeitpunkt noch nicht verfügbar. Der Artikel nennt keinen unabhängigen Wirksamkeitsnachweis; auch die Überwachung von Modell-„Gedankengängen“ wird als ungelöstes Sicherheitsproblem eingeordnet.",
+      "practice_example": "Hypothetisches Beispiel: Ein Team könnte einen Agenten entwerfen, der Informationen aus mehreren internen Werkzeugen abfragt und Aufgaben vorbereitet, wobei Authentifizierung, Protokollierung und menschliche Freigaben separat festgelegt werden.",
+      "limitations": "Der Text ist ein Werbeangebot und keine unabhängige Bewertung des Lernformats oder der vermittelten Technologien. Konkrete Kursinhalte, Übungen, Voraussetzungen, Termine und Kosten werden im vorliegenden Ausschnitt nicht vollständig beschrieben. Eine produktive Integration wird angekündigt, aber nicht nachgewiesen.",
       "summary_origin": "generated",
-      "why_relevant": "Redaktionell relevant ist die klare Trennung zwischen Herstellerposition und belegter Wirksamkeit: Zugriffskontrollen und Überwachung können Sicherheitsarchitekturen stärken, beseitigen aber nicht automatisch Fehlverhalten oder neue Angriffswege. Produktentscheidungen sollten deshalb nicht allein auf Visionen oder Referenzarchitekturen beruhen.",
-      "watch_next": "Prüfen Sie OpenShell oder eine vergleichbare Zugriffskontrolle in einer isolierten Testumgebung gegen definierte Missbrauchsszenarien und messen Sie Blockierung, Protokollierung, Fehlalarme sowie Wiederherstellbarkeit.",
+      "why_relevant": "Redaktionell relevant ist die Betonung der Integrationsschicht: Agenten bestehen nicht nur aus einem Modell, sondern aus Werkzeugen, Protokollen und Betriebsumgebung. Für PM-Teams ist das ein Hinweis auf zusätzlichen Architektur- und Governance-Aufwand.",
+      "watch_next": "Definieren Sie vor einer Implementierung eine einzelne, klar begrenzte Prozesskette und beschreiben Sie benötigte Tools, Schnittstellen, Identitäten, Zustände, Freigaben und Fehlerbehandlung.",
       "source": "heise online – KI-Nachrichten",
       "source_type": "discovery",
-      "source_url": "https://www.heise.de/news/Nvidia-CEO-nimmt-KI-Entwickler-in-die-Pflicht-Sollen-keine-Schaeden-anrichten-11498634.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "published_at": "2026-10-23T17:28:00+02:00",
-      "collected_at": "2026-10-23T21:09:12+02:00",
+      "source_url": "https://www.heise.de/news/KI-Agents-fuer-komplexe-Aufgaben-im-Unternehmen-in-fuenf-Sessions-entwickeln-11433886.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-10-29T12:00:00+01:00",
+      "collected_at": "2026-10-29T15:12:36+01:00",
       "verification": "secondary",
       "status": "ok",
       "is_top5": true,
@@ -264,50 +264,50 @@
     {
       "name": "European Commission – AI Act / AI Office",
       "type": "core",
-      "status": "failed",
-      "last_update": "2026-10-26T07:05:48+01:00",
-      "note": "403 Client Error: Forbidden for url: https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+      "status": "ok",
+      "last_update": "2026-10-29T15:12:01+01:00",
+      "items_found": 8
     },
     {
       "name": "EUR-Lex – Regulation (EU) 2024/1689",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-26T07:05:49+01:00",
+      "last_update": "2026-10-29T15:12:02+01:00",
       "items_found": 1
     },
     {
       "name": "European Data Protection Board",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-26T07:05:50+01:00",
+      "last_update": "2026-10-29T15:12:03+01:00",
       "items_found": 1
     },
     {
       "name": "Datenschutzkonferenz",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-26T07:05:50+01:00",
+      "last_update": "2026-10-29T15:12:04+01:00",
       "items_found": 1
     },
     {
       "name": "PMI – Artificial Intelligence",
       "type": "optional",
       "status": "failed",
-      "last_update": "2026-10-26T07:05:50+01:00",
+      "last_update": "2026-10-29T15:12:04+01:00",
       "note": "403 Client Error: Forbidden for url: https://www.pmi.org/blog?userTagIDSort=11122"
     },
     {
       "name": "GPM – Aktuelles und Blog",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-26T07:06:05+01:00",
+      "last_update": "2026-10-29T15:12:17+01:00",
       "items_found": 10
     },
     {
       "name": "APM – News and Blog",
       "type": "core",
       "status": "degraded",
-      "last_update": "2026-10-26T07:06:15+01:00",
+      "last_update": "2026-10-29T15:12:33+01:00",
       "items_found": 10,
       "note": "Datum oder Kurztext fehlt."
     },
@@ -315,35 +315,35 @@
       "name": "BSI – Cyber- und KI-Sicherheit",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-10-26T07:06:18+01:00",
+      "last_update": "2026-10-29T15:12:34+01:00",
       "items_found": 5
     },
     {
       "name": "ENISA – Cyber- und KI-Sicherheit",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-10-26T07:06:18+01:00",
+      "last_update": "2026-10-29T15:12:35+01:00",
       "items_found": 5
     },
     {
       "name": "OpenAI – News",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-10-26T07:06:19+01:00",
+      "last_update": "2026-10-29T15:12:35+01:00",
       "items_found": 5
     },
     {
       "name": "Google – AI Blog",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-10-26T07:06:19+01:00",
+      "last_update": "2026-10-29T15:12:36+01:00",
       "items_found": 5
     },
     {
       "name": "heise online – KI-Nachrichten",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-10-26T07:06:20+01:00",
+      "last_update": "2026-10-29T15:12:36+01:00",
       "items_found": 8
     }
   ],
@@ -351,69 +351,68 @@
     "requested_mode": "hybrid",
     "effective_mode": "baseline_fallback",
     "error_class": "EvaluationDiagnosticError",
-    "cache_hits": 0,
-    "cache_misses": 84,
-    "api_items_evaluated": 84,
+    "cache_hits": 1,
+    "cache_misses": 98,
+    "api_items_evaluated": 98,
     "api_call_performed": true,
     "selection": {
       "selection_policy": "24h_first_with_eligible_pm_slot",
-      "recent_core_candidates": 84,
-      "recent_core_not_selected": 79,
+      "recent_core_candidates": 99,
+      "recent_core_not_selected": 94,
       "unavailable_sources": [
-        "European Commission – AI Act / AI Office",
         "PMI – Artificial Intelligence"
       ]
     },
     "editorial_depth": {
       "enabled": true,
       "api_calls": 1,
-      "cache_hits": 1,
+      "cache_hits": 0,
       "article_failures": 0,
       "usage": {
-        "input_tokens": 4386,
+        "input_tokens": 4316,
         "input_tokens_details": {
-          "cache_write_tokens": 4383,
+          "cache_write_tokens": 4313,
           "cached_tokens": 0
         },
-        "output_tokens": 2211,
+        "output_tokens": 2356,
         "output_tokens_details": {
-          "reasoning_tokens": 61
+          "reasoning_tokens": 52
         },
-        "total_tokens": 6597
+        "total_tokens": 6672
       },
-      "model_cost_usd": 0.0035303999999999995
+      "model_cost_usd": 0.0036903999999999995
     }
   },
   "editorial_depth_status": {
     "enabled": true,
     "api_calls": 1,
-    "cache_hits": 1,
+    "cache_hits": 0,
     "article_failures": 0,
     "usage": {
-      "input_tokens": 4386,
+      "input_tokens": 4316,
       "input_tokens_details": {
-        "cache_write_tokens": 4383,
+        "cache_write_tokens": 4313,
         "cached_tokens": 0
       },
-      "output_tokens": 2211,
+      "output_tokens": 2356,
       "output_tokens_details": {
-        "reasoning_tokens": 61
+        "reasoning_tokens": 52
       },
-      "total_tokens": 6597
+      "total_tokens": 6672
     },
-    "model_cost_usd": 0.0035303999999999995
+    "model_cost_usd": 0.0036903999999999995
   },
   "editorial_brief": {
     "title": "Aktuelle Auswahl",
-    "summary": "Audi will nach Angaben des Artikels für vier Milliarden US-Dollar ein Werk im US-Bundesstaat Georgia bauen. Geplant sind jährlich 200.000 SUVs und rund 4.500 Arbeitsplätze. Die Ankündigung erfolgte durch US-Präsident Donald Trump bei einer Wahlkampfveranstaltung; die Zustimmung des Volkswagen-Aufsichtsrats steht noch aus. Audi-Chef Gernot Döllner bezeichnete das Vorhaben als Gewinn für den Konzern, während Vertreter aus Niedersachsen und Gewerkschaften davor warnen, dass US-Wachstum Arbeitsplätze in Deutschland verdrängen könnte. Parallel änderte Google seine Datenschutzerklärung. Wenn Nutzer Daten aus Gmail oder Google Fotos mit Diensten verknüpfen, die personalisierte Werbung unterstützen, können diese Inhalte laut Text für Anzeigen herangezogen werden. Die personalisierte Werbung lasse sich abschalten. Außerdem beschreibt der Artikel einen Streit über Europas KI-Strategie sowie eine erfolgreiche, aber nicht reibungslose Prüfung des Bundeswehr-Digitalfunks.",
-    "why_relevant": "Redaktionelle Einordnung: Der Überblick verbindet Standortentscheidungen, datenbasierte Werbung und europäische KI-Abhängigkeit. Für das Management zeigt sich daran, dass Wachstums- und Digitalstrategien nicht isoliert von Governance, Datenverknüpfungen und möglichen Auswirkungen auf bestehende Standorte bewertet werden sollten.",
-    "watch_next": "Prüfschritt: Dokumentieren Sie für jedes verknüpfte Google-Konto, welche Dienste personalisierte Werbung unterstützen, welche Einstellungen aktiv sind und ob die Abschaltoption wirksam umgesetzt wurde; bei der Standortplanung prüfen Sie zusätzlich den noch ausstehenden Freigabestatus.",
-    "item_id": "23cf34bb7f2142e91594",
-    "published_at": "2026-10-26T06:15:00+01:00",
+    "summary": "Ein APM-Webinar vom 28. Oktober 2026 behandelte den Einsatz von KI in Wohnungsbau und Bauwesen. Im Mittelpunkt standen drei Werkzeuge, die per Kurzdemonstration und anhand realer Projektanwendungsfälle vorgestellt wurden. Die Themen reichten von Planung, Stakeholder-Kommunikation und Visualisierung bis zur Projektdurchführung. Die Veranstalter betonten einen sachlichen, nicht spekulativen Blick: Neben möglichen Einsatzfeldern wurden auch Voraussetzungen der Einführung und Grenzen der Werkzeuge erläutert. Eine abschließende Fragerunde behandelte unter anderem Change Management, Vertrauen von Stakeholdern und verantwortungsvolle Einführung. Laut APM sollten Teilnehmende besser einschätzen können, wann KI in der Projektarbeit geeignet ist und wie komplexe Informationen verständlicher vermittelt werden können. Für die vorgestellten Werkzeuge wurden den Teilnehmenden laut Veranstalter außerdem verfügbare Testguthaben oder Rabattcodes angeboten. Die Aufzeichnung und Präsentationsmaterialien wurden zur Verfügung gestellt.",
+    "why_relevant": "Redaktionell relevant ist vor allem die Verbindung von KI-Einsatz, Projektkommunikation und Einführungsmanagement. Der Text liefert weniger eine technische Produktbewertung als einen Orientierungsrahmen für Projektteams, die Nutzen und Grenzen vor einer Einführung prüfen wollen.",
+    "watch_next": "Prüfen Sie für einen konkreten Projektprozess, welcher Arbeitsschritt unterstützt werden soll, welche Daten dafür benötigt werden und wie Ergebnisse durch einen verantwortlichen Menschen kontrolliert werden.",
+    "item_id": "12fdcdeaa874866ccbd0",
+    "published_at": "2026-10-29",
     "context": "Ausgewählte Kernmeldungen aus dem Zeitfenster der letzten 7 Tage.",
     "limits": [
-      "Nach der Inhaltsbewertung nicht ausgewählte aktuelle Kandidaten: 79.",
-      "Letzter Abruf eingeschränkt: European Commission – AI Act / AI Office, PMI – Artificial Intelligence."
+      "Nach der Inhaltsbewertung nicht ausgewählte aktuelle Kandidaten: 94.",
+      "Letzter Abruf eingeschränkt: PMI – Artificial Intelligence."
     ]
   }
 }
