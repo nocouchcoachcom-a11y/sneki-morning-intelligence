@@ -1,0 +1,418 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-30T15:04:33+01:00",
+  "mode": "live",
+  "edition": "afternoon",
+  "briefing": [
+    "Deterministische Ranking-Baseline ohne kostenpflichtige KI-API.",
+    "Primärquellen werden bevorzugt; Social Radar ist deaktiviert.",
+    "Aktuelle Meldungen: Veröffentlichungen der letzten 7 Tage. Lesestücke und ältere Inhalte sind separat eingeordnet."
+  ],
+  "items": [
+    {
+      "id": "850280c31706d3de7cce",
+      "category": "KI & Technologie",
+      "rank": 1,
+      "title": "Amazon steigert Cloudgeschäft, aber KI-Investitionen belasten den Cashflow",
+      "summary": "Amazon erzielte im dritten Quartal 201,9 Milliarden US-Dollar Umsatz, 12 Prozent mehr als im Vorjahreszeitraum. Das Wachstum wurde vor allem von AWS getragen: Die Cloud-Sparte setzte 46 Milliarden Dollar um, ein Plus von 39 Prozent, und steigerte den Betriebsgewinn um 56 Prozent auf 17,8 Milliarden Dollar. Der Onlinehandel wuchs dagegen nur um 2 Prozent auf 68,5 Milliarden Dollar und blieb laut CNBC hinter den Erwartungen von 69,7 Milliarden Dollar zurück. Auch der Werbeumsatz lag mit 19,6 Milliarden Dollar unter der Markterwartung. Zugleich investierte Amazon stark in Immobilien und Ausrüstung für KI- und Cloud-Infrastruktur. Der freie Cashflow der vergangenen zwölf Monate fiel dadurch auf minus 42,4 Milliarden Dollar. Für das vierte Quartal stellt Amazon 240 bis 247 Milliarden Dollar Umsatz in Aussicht.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisch könnte ein Unternehmen seine geplante KI-Plattform zunächst mit begrenzten Cloud-Kapazitäten starten und zusätzliche Infrastruktur erst nach gemessener Nutzung, Marge und Nachfrage ausbauen.",
+      "limitations": "Der Text enthält Unternehmensprognosen und Analystenerwartungen, aber keine unabhängige Bewertung der Investitionsrendite. Aussagen zu künftigen AWS-Wachstumsraten werden als Erwartung des Amazon-Chefs wiedergegeben, nicht als gesicherte Entwicklung.",
+      "summary_origin": "generated",
+      "why_relevant": "Für Produkt- und Programmverantwortliche zeigt der Bericht den Zielkonflikt zwischen stark wachsender KI-Infrastruktur und kurzfristiger finanzieller Belastung. Cloudnachfrage allein belegt noch nicht, dass sich umfangreiche Kapazitätsausgaben wirtschaftlich sofort auszahlen.",
+      "watch_next": "Prüfen Sie für jedes KI-Vorhaben separat erwartete Nutzung, Infrastrukturkosten, Cashflow-Wirkung und einen Ausstiegspunkt; vergleichen Sie diese Annahmen mit realen Verbrauchsdaten.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/Amazon-waechst-weniger-stark-als-erwartet-hohe-KI-Investitionen-daempfen-Aktie-11505585.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-10-30T05:03:00+01:00",
+      "collected_at": "2026-10-30T08:03:29+01:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "12e14d4f084ea8faf0b5",
+      "category": "Projektmanagement",
+      "rank": 2,
+      "title": "Energie-Vampire im Projektmanagement: Wenn Zusammenarbeit zur Belastung wird",
+      "summary": "Energie-Vampire im Projektmanagement kosten Zeit und Nerven. Welche Verhaltensmuster Teams belasten und wie Projektleitungen gegensteuern können.",
+      "editorial_depth": false,
+      "practice_example": "",
+      "limitations": "",
+      "summary_origin": "source_excerpt",
+      "why_relevant": "Für Verantwortliche relevant, weil die Meldung eine konkrete Entwicklung aus dem Bereich Projektmanagement beschreibt.",
+      "watch_next": "Weitere Aktualisierungen und belastbare Konkretisierungen in der Originalquelle beobachten.",
+      "source": "GPM – Aktuelles und Blog",
+      "source_type": "primary",
+      "source_url": "https://www.gpm-ipma.de/ueber-die-gpm/blog/energie-vampire-im-projektmanagement-wenn-zusammenarbeit-zur-belastung-wird",
+      "published_at": "2026-10-30",
+      "collected_at": "2026-10-30T08:03:01+01:00",
+      "verification": "primary",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "7c933f6aa8a8673981c5",
+      "category": "KI & Technologie",
+      "rank": 3,
+      "title": "OpenAI ordnet seine Model Spec an fünf Grundwerten aus",
+      "summary": "OpenAI beschreibt eine aktualisierte Model Spec, die das gewünschte Verhalten seiner Modelle an fünf Werten ausrichten soll: Treue zur menschlichen Absicht, Schadensminimierung, Ehrlichkeit und Transparenz, menschliche Handlungsfähigkeit sowie Fürsorge. Nach Herstellerangaben soll die Spec Modelle dabei unterstützen, in Situationen ohne eindeutige Anweisung den Kontext und menschliche Werte besser zu berücksichtigen, ohne menschliche Kontrolle zu ersetzen. Die Überarbeitung enthält laut OpenAI neue Hinweise zu Kontext, Aufsicht und Agency, eine aktualisierte Befehlshierarchie sowie zusätzliche Vorgaben zu sozialen Normen. Die Grundsätze werden teils als feste Grenzen, teils als Standardeinstellungen beschrieben, die Nutzer und Entwickler innerhalb der vorgesehenen Grenzen überschreiben können. OpenAI berichtet außerdem über neue Trainingsmethoden, deren Ergebnisse und Erfahrungen erst in künftigen Aktualisierungen veröffentlicht werden sollen.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisch könnte ein Assistenzsystem bei einer Entscheidung zunächst frühere Nutzerpräferenzen berücksichtigen, diese Annahmen offenlegen und eine Korrektur ermöglichen, statt stillschweigend eine Priorität festzulegen.",
+      "limitations": "Die Aussagen stammen von OpenAI und sind daher ausdrücklich Herstellerangaben. Der Text liefert keine unabhängige Messung, wie zuverlässig Modelle die beschriebenen Werte umsetzen, und nennt keine konkreten Leistungsdaten der neuen Trainingsmethoden.",
+      "summary_origin": "generated",
+      "why_relevant": "Für KI- und Produktverantwortliche ist relevant, dass Modellverhalten nicht nur über einzelne Prompts, sondern auch über Werte, Kontextregeln, Aufsicht und Eskalationslogik geprägt wird. Die Veröffentlichung beschreibt jedoch ein Ziel- und Regelwerk, keinen unabhängigen Wirksamkeitsnachweis.",
+      "watch_next": "Prüfen Sie bei einem konkreten KI-Anwendungsfall, welche menschlichen Entscheidungen das System unterstützt, welche Annahmen es sichtbar machen muss und an welchen Punkten eine menschliche Freigabe erforderlich ist.",
+      "source": "OpenAI – News",
+      "source_type": "vendor",
+      "source_url": "https://openai.com/index/updated-model-spec",
+      "published_at": "2026-10-29T18:00:00+01:00",
+      "collected_at": "2026-10-29T21:15:23+01:00",
+      "verification": "vendor",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "cdea07f5c584a9e8121b",
+      "category": "KI & Technologie",
+      "rank": 4,
+      "title": "Manipulierte Cursor-Erweiterung enthielt SSH-Backdoor",
+      "summary": "Im Cursor-Marktplatz war laut dem Bericht eine manipulierte Version der offiziellen Erweiterung „Claude Code for VS Code“ verfügbar. Die Version 2.1.313 soll zwischen 10:27 und 21:35 Uhr mitteleuropäischer Zeit online gewesen sein; Cursor zufolge stammte sie nicht von Anthropic. Die Erweiterung läuft mit den Rechten der Entwicklungsumgebung und des jeweiligen Nutzers und kann dadurch auf lokale Dateien, Quellcode und Entwicklerwerkzeuge zugreifen. Die Backdoor enthielt Routinen für Linux, macOS und Windows. Ein Logikfehler verhinderte laut Analyse häufig die beabsichtigte SSH-Aktivierung, dennoch legte die Malware SSH-Schlüssel ab, sorgte für Persistenz und übermittelte Informationen über den Rechner. Das bloße Deinstallieren reichte dem Bericht zufolge nicht aus. Genannt werden zusätzlich zu entfernende Prozesse, Persistenzmechanismen, Dateien und Schlüssel sowie eine Prüfung und gegebenenfalls Änderung von Zugangsdaten.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisch könnte ein Entwicklungsteam Erweiterungen nur nach Prüfung der Version, Rechte und Herkunft in einer isolierten Umgebung einsetzen und verdächtige Hosts anschließend forensisch untersuchen lassen.",
+      "limitations": "Die konkrete Betroffenenzahl wird als Reuters-Angabe von bis zu 5000 Nutzern wiedergegeben und ist keine unabhängig bestätigte Zahl im Artikel. Der Bericht beschreibt Gegenmaßnahmen, ersetzt aber keine organisationsspezifische Incident-Response- oder forensische Analyse.",
+      "summary_origin": "generated",
+      "why_relevant": "Der Fall zeigt, dass Erweiterungen in Entwicklungsumgebungen einen besonders weitreichenden Vertrauens- und Rechtebereich besitzen. Für Teams ist deshalb nicht nur die Paketquelle, sondern auch die Reaktion nach einer möglichen Kompromittierung entscheidend.",
+      "watch_next": "Prüfen Sie, ob die betroffene Erweiterung oder Version in Ihrer Umgebung installiert war, und gleichen Sie die im Bericht genannten Indicators of Compromise mit den betroffenen Systemen ab.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/Claude-Code-Erweiterung-im-Cursor-Marktplatz-mit-Malware-infiziert-11506368.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-10-30T14:08:00+01:00",
+      "collected_at": "2026-10-30T15:04:33+01:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "a887cbff20c7319f660c",
+      "category": "KI & Technologie",
+      "rank": 5,
+      "title": "KI findet kritische Race-Condition im Linux-TCP/IP-Stack",
+      "summary": "Der Bericht beschreibt eine kritische Schwachstelle im IPv4-Netzwerkcode des Linux-Kernels mit der Kennung CVE-2026-98432 und einem CVSS-Wert von 9,8. Die Race-Condition kann laut Darstellung zu unvorhergesehenen Speicherzugriffen und potenziell zur Ausführung eingeschleusten Codes über das Netzwerk führen. Betroffen seien IPv4-Implementierungen seit Kernel-Version 4.4; IPv6 sei nicht betroffen. Der Fehler wurde laut Artikel von Anthropics Claude bei systematischen Tests entdeckt und mit einem konkreten, nicht öffentlich verfügbaren Exploit belegt. Als behoben werden die Kernel-Versionen 6.12.113, 6.18.56, 7.2.10 und 7.3-rc7 genannt. Distributionen arbeiteten an Aktualisierungen. Über die praktische Ausnutzbarkeit ist dem Text zufolge noch wenig bekannt; der bekannte Exploit bezieht sich auf MPTCP, und es bleibt unklar, ob ein MPTCP-Dienst zwingend erforderlich ist.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisch könnte ein Infrastrukturteam seine unterstützten Kernel gegen die betroffenen IPv4-Versionen inventarisieren, verfügbare Distributionshinweise auswerten und ein Update zunächst in einer repräsentativen Testumgebung prüfen.",
+      "limitations": "Der Artikel nennt keine konkreten Angriffe und beschreibt den einzigen bekannten Exploit als nicht öffentlich. Die tatsächlichen Voraussetzungen für eine Ausnutzung bleiben laut Text ungeklärt; die Bewertung ersetzt daher keine Hersteller- oder Distributionsadvisories.",
+      "summary_origin": "generated",
+      "why_relevant": "Für Sicherheits- und Plattformteams verdeutlicht der Fall den möglichen Nutzen systematischer KI-gestützter Codeanalyse, zugleich aber auch die Notwendigkeit, Befunde technisch zu verifizieren und zeitnah in die Patchbewertung einzubeziehen.",
+      "watch_next": "Prüfen Sie die eingesetzten Kernel- und Distributionsversionen gegen die im Bericht genannten Fixstände und dokumentieren Sie, ob MPTCP oder andere relevante Netzwerkfunktionen aktiv genutzt werden.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/Erneut-kritischer-Bug-in-Linux-TCP-IP-aufgedeckt-Updates-in-Arbeit-11506050.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-10-30T13:12:00+01:00",
+      "collected_at": "2026-10-30T15:04:33+01:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "d3a09fae823e4240f8ef",
+      "category": "AI & PM",
+      "rank": 6,
+      "title": "KI-Kompetenz im Projektmanagement: So gelingt der verantwortungsvolle Einstieg",
+      "summary": "Die Meldung formuliert einen Ansatz für verantwortungsvollen KI-Einsatz und Kompetenzaufbau in Projektteams.",
+      "editorial_depth": false,
+      "practice_example": "",
+      "limitations": "",
+      "summary_origin": "generated",
+      "why_relevant": "Projektverantwortliche können daraus Ansatzpunkte für Qualifizierung, gemeinsame Lernprozesse und interne Regeln beim KI-Einsatz ableiten.",
+      "watch_next": "Beobachten, welche konkreten Kompetenzmodelle, Lernformate und Regeln für den verantwortungsvollen KI-Einsatz vorgeschlagen werden.",
+      "source": "GPM – Aktuelles und Blog",
+      "source_type": "primary",
+      "source_url": "https://www.gpm-ipma.de/ueber-die-gpm/blog/ki-kompetenz-im-projektmanagement-so-gelingt-der-verantwortungsvolle-einstieg",
+      "published_at": "2026-10-09",
+      "collected_at": "2026-10-09T05:26:10+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "is_top5": false,
+      "content_kind": "background",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "e7932ad1b84feccfb2a8",
+      "category": "AI & PM",
+      "rank": 7,
+      "title": "Die Zukunft des Projektmanagements verlangt neue Fähigkeiten: Künstliche Intelligenz führen und Veränderungen mutig gestalten.",
+      "summary": "Die angekündigten Keynotes behandeln veränderte Führungsanforderungen und Kompetenzen im KI-gestützten Projektmanagement.",
+      "editorial_depth": false,
+      "practice_example": "",
+      "limitations": "",
+      "summary_origin": "generated",
+      "why_relevant": "Projektverantwortliche können die Themen zur Einordnung künftiger Kompetenzanforderungen und Veränderungsaspekte in ihren Projekten heranziehen.",
+      "watch_next": "Zu beobachten sind die konkret genannten Fähigkeiten, Führungsansätze und Veränderungsmaßnahmen für den Einsatz von KI im Projektmanagement.",
+      "source": "GPM – Aktuelles und Blog",
+      "source_type": "primary",
+      "source_url": "https://www.gpm-ipma.de/ueber-die-gpm/aktuelles/detail/die-zukunft-des-projektmanagements-verlangt-neue-faehigkeiten-kuenstliche-intelligenz-fuehren-und-veraenderungen-mutig-gestalten",
+      "published_at": "2026-10-09",
+      "collected_at": "2026-10-09T19:23:47+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "is_top5": false,
+      "content_kind": "background",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "fd7cd5678893b552b51d",
+      "category": "KI & Technologie",
+      "rank": 8,
+      "title": "Photokina-Comeback und KI-Skandal – die Fotonews der Woche 41/2026",
+      "summary": "Die Fotonews berichten über den Standortwechsel einer Imaging-Veranstaltung, eine Untersuchung möglichen KI-Betrugs bei Nikon und eine Auszeichnung für Graciela Iturbide.",
+      "editorial_depth": false,
+      "practice_example": "",
+      "limitations": "",
+      "summary_origin": "generated",
+      "why_relevant": "Für Technologie- und Projektverantwortliche bietet die Meldung Einblick in aktuelle Entwicklungen rund um KI-Nutzung und Integrität in der Imaging-Branche.",
+      "watch_next": "Beobachten, zu welchem Ergebnis die Prüfung des möglichen KI-Betrugs kommt und wie die Imaging World in Köln umgesetzt wird.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/Photokina-Comeback-und-KI-Skandal-die-Fotonews-der-Woche-41-2026-11482204.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-10-10T10:00:00+02:00",
+      "collected_at": "2026-10-10T10:24:56+02:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": false,
+      "content_kind": "background",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "dcb02b38ff9193d466ee",
+      "category": "IT Security",
+      "rank": 9,
+      "title": "EU fordert Auskunft von OpenAI und Anthropic nach KI-Angriffen",
+      "summary": "Die Auskunftsverlangen der EU-Kommission markieren eine bedeutende regulatorische und sicherheitsbezogene Entwicklung im Umgang mit KI-gestützten Cyberangriffen.",
+      "editorial_depth": false,
+      "practice_example": "",
+      "limitations": "",
+      "summary_origin": "generated",
+      "why_relevant": "Geschäftsführung sowie KI- und IT-Verantwortliche sollten beobachten, ob daraus neue Anforderungen an Anbieter, Sicherheitsmaßnahmen oder Governance entstehen.",
+      "watch_next": "Zu beobachten sind die Inhalte der verlangten Auskünfte, weitere behördliche Schritte und eine mögliche Konkretisierung von Anforderungen.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/EU-fordert-Auskunft-von-OpenAI-und-Anthropic-nach-KI-Angriffen-11482906.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-10-09T18:37:00+02:00",
+      "collected_at": "2026-10-09T19:24:10+02:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": false,
+      "content_kind": "background",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "db5761f0b27c6158337a",
+      "category": "DSGVO & Ethik",
+      "rank": 10,
+      "title": "Kommentar zu Apples Privacy-Versprechen: Zweifache Rolle rückwärts",
+      "summary": "Apple wird ein veränderter Umgang mit Trainingsdaten und bestimmte Gerätefunktionen vorgeworfen beziehungsweise zugeschrieben.",
+      "editorial_depth": false,
+      "practice_example": "",
+      "limitations": "",
+      "summary_origin": "generated",
+      "why_relevant": "Veränderungen bei Trainingsdaten und Gerätefunktionen können für Datenschutzbewertung, Lieferantenbeobachtung und den Einsatz Apple-basierter Systeme relevant sein.",
+      "watch_next": "Beobachtet werden sollten konkrete Apple-Ankündigungen, technische Details und belastbare Angaben zum Umgang mit Trainingsdaten sowie zu den genannten Funktionen.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/meinung/Kommentar-zu-Apples-Privacy-Versprechen-Zweifache-Rolle-rueckwaerts-11471238.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-10-09T10:16:00+02:00",
+      "collected_at": "2026-10-09T10:28:37+02:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": false,
+      "content_kind": "background",
+      "related_sources": [],
+      "social_verified": false
+    }
+  ],
+  "freshness": {
+    "news_window_days": 7,
+    "current_count": 5,
+    "background_count": 5
+  },
+  "signals": {
+    "history_state": "building",
+    "days_available": 1,
+    "topics": []
+  },
+  "source_status": [
+    {
+      "name": "European Commission – AI Act / AI Office",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-10-30T15:03:54+01:00",
+      "items_found": 8
+    },
+    {
+      "name": "EUR-Lex – Regulation (EU) 2024/1689",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-10-30T15:03:55+01:00",
+      "items_found": 1
+    },
+    {
+      "name": "European Data Protection Board",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-10-30T15:03:56+01:00",
+      "items_found": 1
+    },
+    {
+      "name": "Datenschutzkonferenz",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-10-30T15:03:57+01:00",
+      "items_found": 1
+    },
+    {
+      "name": "PMI – Artificial Intelligence",
+      "type": "optional",
+      "status": "failed",
+      "last_update": "2026-10-30T15:03:57+01:00",
+      "note": "403 Client Error: Forbidden for url: https://www.pmi.org/blog?userTagIDSort=11122"
+    },
+    {
+      "name": "GPM – Aktuelles und Blog",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-10-30T15:04:09+01:00",
+      "items_found": 10
+    },
+    {
+      "name": "APM – News and Blog",
+      "type": "core",
+      "status": "degraded",
+      "last_update": "2026-10-30T15:04:29+01:00",
+      "items_found": 10,
+      "note": "Datum oder Kurztext fehlt."
+    },
+    {
+      "name": "BSI – Cyber- und KI-Sicherheit",
+      "type": "optional",
+      "status": "ok",
+      "last_update": "2026-10-30T15:04:31+01:00",
+      "items_found": 5
+    },
+    {
+      "name": "ENISA – Cyber- und KI-Sicherheit",
+      "type": "optional",
+      "status": "ok",
+      "last_update": "2026-10-30T15:04:31+01:00",
+      "items_found": 5
+    },
+    {
+      "name": "OpenAI – News",
+      "type": "optional",
+      "status": "ok",
+      "last_update": "2026-10-30T15:04:32+01:00",
+      "items_found": 5
+    },
+    {
+      "name": "Google – AI Blog",
+      "type": "optional",
+      "status": "ok",
+      "last_update": "2026-10-30T15:04:32+01:00",
+      "items_found": 5
+    },
+    {
+      "name": "heise online – KI-Nachrichten",
+      "type": "optional",
+      "status": "ok",
+      "last_update": "2026-10-30T15:04:33+01:00",
+      "items_found": 8
+    }
+  ],
+  "ranking": {
+    "requested_mode": "hybrid",
+    "effective_mode": "baseline_fallback",
+    "error_class": "EvaluationDiagnosticError",
+    "cache_hits": 1,
+    "cache_misses": 98,
+    "api_items_evaluated": 98,
+    "api_call_performed": true,
+    "selection": {
+      "selection_policy": "24h_first_with_eligible_pm_slot",
+      "recent_core_candidates": 99,
+      "recent_core_not_selected": 94,
+      "unavailable_sources": [
+        "PMI – Artificial Intelligence"
+      ]
+    },
+    "editorial_depth": {
+      "enabled": true,
+      "api_calls": 1,
+      "cache_hits": 0,
+      "article_failures": 0,
+      "usage": {
+        "input_tokens": 5735,
+        "input_tokens_details": {
+          "cache_write_tokens": 5732,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2246,
+        "output_tokens_details": {
+          "reasoning_tokens": 59
+        },
+        "total_tokens": 7981
+      },
+      "model_cost_usd": 0.0038421999999999996
+    }
+  },
+  "editorial_depth_status": {
+    "enabled": true,
+    "api_calls": 1,
+    "cache_hits": 0,
+    "article_failures": 0,
+    "usage": {
+      "input_tokens": 5735,
+      "input_tokens_details": {
+        "cache_write_tokens": 5732,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2246,
+      "output_tokens_details": {
+        "reasoning_tokens": 59
+      },
+      "total_tokens": 7981
+    },
+    "model_cost_usd": 0.0038421999999999996
+  },
+  "editorial_brief": {
+    "title": "Aktuelle Auswahl",
+    "summary": "Amazon erzielte im dritten Quartal 201,9 Milliarden US-Dollar Umsatz, 12 Prozent mehr als im Vorjahreszeitraum. Das Wachstum wurde vor allem von AWS getragen: Die Cloud-Sparte setzte 46 Milliarden Dollar um, ein Plus von 39 Prozent, und steigerte den Betriebsgewinn um 56 Prozent auf 17,8 Milliarden Dollar. Der Onlinehandel wuchs dagegen nur um 2 Prozent auf 68,5 Milliarden Dollar und blieb laut CNBC hinter den Erwartungen von 69,7 Milliarden Dollar zurück. Auch der Werbeumsatz lag mit 19,6 Milliarden Dollar unter der Markterwartung. Zugleich investierte Amazon stark in Immobilien und Ausrüstung für KI- und Cloud-Infrastruktur. Der freie Cashflow der vergangenen zwölf Monate fiel dadurch auf minus 42,4 Milliarden Dollar. Für das vierte Quartal stellt Amazon 240 bis 247 Milliarden Dollar Umsatz in Aussicht.",
+    "why_relevant": "Für Produkt- und Programmverantwortliche zeigt der Bericht den Zielkonflikt zwischen stark wachsender KI-Infrastruktur und kurzfristiger finanzieller Belastung. Cloudnachfrage allein belegt noch nicht, dass sich umfangreiche Kapazitätsausgaben wirtschaftlich sofort auszahlen.",
+    "watch_next": "Prüfen Sie für jedes KI-Vorhaben separat erwartete Nutzung, Infrastrukturkosten, Cashflow-Wirkung und einen Ausstiegspunkt; vergleichen Sie diese Annahmen mit realen Verbrauchsdaten.",
+    "item_id": "850280c31706d3de7cce",
+    "published_at": "2026-10-30T05:03:00+01:00",
+    "context": "Ausgewählte Kernmeldungen aus dem Zeitfenster der letzten 7 Tage.",
+    "limits": [
+      "Nach der Inhaltsbewertung nicht ausgewählte aktuelle Kandidaten: 94.",
+      "Letzter Abruf eingeschränkt: PMI – Artificial Intelligence."
+    ]
+  }
+}
