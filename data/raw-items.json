@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "collected_at": "2026-10-29T21:15:24+01:00",
+  "collected_at": "2026-10-30T01:54:30+01:00",
   "items": [
     {
       "id": "567cb6fbc17d5ee2882b",
@@ -20,7 +20,7 @@
       "collector_note": null,
       "content_hash": "41eed18486732f01c560c68fdd224995e31e44a8bdd0387ae1269b31e2720ee6",
       "first_seen_at": "2026-10-29T15:12:36+01:00",
-      "last_seen_at": "2026-10-29T21:15:24+01:00"
+      "last_seen_at": "2026-10-30T01:54:30+01:00"
     },
     {
       "id": "036694c1096d120c1ca6",
@@ -40,7 +40,7 @@
       "collector_note": null,
       "content_hash": "a88a2a8f0fc60b174f5bf02b888b38ec653f309b01f1f66377612d4ff7019dd0",
       "first_seen_at": "2026-10-29T15:12:36+01:00",
-      "last_seen_at": "2026-10-29T21:15:24+01:00"
+      "last_seen_at": "2026-10-30T01:54:30+01:00"
     },
     {
       "id": "0751ddd59350d7bfd364",
@@ -60,7 +60,7 @@
       "collector_note": null,
       "content_hash": "3dbc70957e0ee69eee61504f4a686845a1ee3795382773ea75a8be39bbe8b8fb",
       "first_seen_at": "2026-10-29T15:12:36+01:00",
-      "last_seen_at": "2026-10-29T21:15:24+01:00"
+      "last_seen_at": "2026-10-30T01:54:30+01:00"
     },
     {
       "id": "8d469a7a6eae7ba04764",
@@ -80,7 +80,7 @@
       "collector_note": null,
       "content_hash": "506c31d29e1f69ab92b8ef7ff32b10eb49e19f746bab066bf6c897f1010a17d3",
       "first_seen_at": "2026-10-29T15:12:36+01:00",
-      "last_seen_at": "2026-10-29T21:15:24+01:00"
+      "last_seen_at": "2026-10-30T01:54:30+01:00"
     },
     {
       "id": "44227fdd323887494977",
@@ -100,27 +100,7 @@
       "collector_note": null,
       "content_hash": "55287802cfc43d48d416b40c46710b466ae039b4a4a5337eec671d71d059e04b",
       "first_seen_at": "2026-10-29T15:12:36+01:00",
-      "last_seen_at": "2026-10-29T21:15:24+01:00"
-    },
-    {
-      "id": "29a6d9d5dd6082112ec4",
-      "source_id": "heise-ai-news",
-      "source": "heise online – KI-Nachrichten",
-      "source_type": "discovery",
-      "source_url": "https://www.heise.de/news/Teure-Power-einer-neuen-Aera-Apples-33-329-Euro-Mac-Studio-ist-da-11504379.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "category": [
-        "KI & Technologie"
-      ],
-      "title": "Teure „Power einer neuen Ära“: Apples 33.329-Euro-Mac-Studio ist da",
-      "raw_excerpt": "Wie von Apple angekündigt kann man nun den wohl teuersten Mac aller Zeiten erwerben. Hauptzielgruppe: Anwender lokaler KI.",
-      "published_at": "2026-10-29T11:32:00+01:00",
-      "collected_at": "2026-10-29T15:12:36+01:00",
-      "verification": "secondary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "5772f1761fbe17108d3c15e128550ecfdeceb4821aa382153692115f26c9108d",
-      "first_seen_at": "2026-10-29T15:12:36+01:00",
-      "last_seen_at": "2026-10-29T21:15:24+01:00"
+      "last_seen_at": "2026-10-30T01:54:30+01:00"
     },
     {
       "id": "60a2cea1ac071ab1f241",
@@ -140,7 +120,7 @@
       "collector_note": null,
       "content_hash": "44fefd4c93d128af757da832894de86c7b398016a9116f69c7ff741aae17156e",
       "first_seen_at": "2026-10-29T21:15:24+01:00",
-      "last_seen_at": "2026-10-29T21:15:24+01:00"
+      "last_seen_at": "2026-10-30T01:54:30+01:00"
     },
     {
       "id": "3cfa7146bb5dc4456af3",
@@ -160,7 +140,7 @@
       "collector_note": null,
       "content_hash": "14fdd931233526951c5e44018a507d250dbabe802d12f4e47c4371100a0d09d6",
       "first_seen_at": "2026-10-29T21:15:24+01:00",
-      "last_seen_at": "2026-10-29T21:15:24+01:00"
+      "last_seen_at": "2026-10-30T01:54:30+01:00"
     },
     {
       "id": "c7d7bb4939fc2f0dad73",
@@ -180,7 +160,7 @@
       "collector_note": null,
       "content_hash": "1b43760e04547b5751a11afd2896f3b3aa8a572f9c7b3ccc5d3297f0a62ce5ce",
       "first_seen_at": "2026-10-07T09:37:16+02:00",
-      "last_seen_at": "2026-10-29T21:15:23+01:00"
+      "last_seen_at": "2026-10-30T01:54:30+01:00"
     },
     {
       "id": "b19c702be37740f484a0",
@@ -200,7 +180,7 @@
       "collector_note": null,
       "content_hash": "05480450e66b8d504a43770b97669157f396074b09721b4d7a969a5ee9050fde",
       "first_seen_at": "2026-10-07T14:33:39+02:00",
-      "last_seen_at": "2026-10-29T21:15:23+01:00"
+      "last_seen_at": "2026-10-30T01:54:30+01:00"
     },
     {
       "id": "a4584606c6f85bca43e2",
@@ -220,7 +200,7 @@
       "collector_note": null,
       "content_hash": "3d2516c608c95fcb1369b83699f356a187cce9169dd7e5a32d22c3d85994f216",
       "first_seen_at": "2026-10-13T23:12:56+02:00",
-      "last_seen_at": "2026-10-29T21:15:23+01:00"
+      "last_seen_at": "2026-10-30T01:54:30+01:00"
     },
     {
       "id": "4db8554b3ef54f6779de",
@@ -240,7 +220,7 @@
       "collector_note": null,
       "content_hash": "fb58f37729dadb620b2f71194079046c0c0089896725d9f3475acde3b56bade0",
       "first_seen_at": "2026-10-21T06:37:23+02:00",
-      "last_seen_at": "2026-10-29T21:15:23+01:00"
+      "last_seen_at": "2026-10-30T01:54:30+01:00"
     },
     {
       "id": "f6d4e4c15e711e94238b",
@@ -260,7 +240,7 @@
       "collector_note": null,
       "content_hash": "8acda1a5e5684227241126f42f6fa36db9ee0a22abb8ec228a40a3683879d6b8",
       "first_seen_at": "2026-10-26T20:14:46+01:00",
-      "last_seen_at": "2026-10-29T21:15:23+01:00"
+      "last_seen_at": "2026-10-30T01:54:30+01:00"
     },
     {
       "id": "f1c0842fd91885652dd3",
@@ -280,7 +260,7 @@
       "collector_note": null,
       "content_hash": "ed580c58164e991da78ac677e5cc5a48506ba73332e1cfc8494e4c098d418169",
       "first_seen_at": "2026-10-28T22:00:41+01:00",
-      "last_seen_at": "2026-10-29T21:15:23+01:00"
+      "last_seen_at": "2026-10-30T01:54:30+01:00"
     },
     {
       "id": "fa3ad749c9c16fb84451",
@@ -300,107 +280,7 @@
       "collector_note": null,
       "content_hash": "227774bbee108c4a9e06481789d4887cdb7025b833e525bb98c1c3d8e23215a4",
       "first_seen_at": "2026-10-28T22:00:41+01:00",
-      "last_seen_at": "2026-10-29T21:15:23+01:00"
-    },
-    {
-      "id": "8f06b79d388f40327935",
-      "source_id": "enisa-security",
-      "source": "ENISA – Cyber- und KI-Sicherheit",
-      "source_type": "primary",
-      "source_url": "https://www.enisa.europa.eu/news/cybersecurity-month-work-employees-skills-under-the-looking-glass",
-      "category": [
-        "IT Security"
-      ],
-      "title": "Cybersecurity Month @ work: Employees' skills under the looking glass",
-      "raw_excerpt": "With the digitalisation of the workplace, organisations and their employees must navigate and manage the digital risks.",
-      "published_at": "2026-09-30T12:55:56+02:00",
-      "collected_at": "2026-10-06T13:24:52+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "225fd97730996f1056df2c3d6e0681ea23d0a6212ad9322476999f5ec066e30b",
-      "first_seen_at": "2026-10-06T13:24:52+02:00",
-      "last_seen_at": "2026-10-29T21:15:23+01:00"
-    },
-    {
-      "id": "65e9186f8e76dd91b78b",
-      "source_id": "enisa-security",
-      "source": "ENISA – Cyber- und KI-Sicherheit",
-      "source_type": "primary",
-      "source_url": "https://www.enisa.europa.eu/news/exploring-the-evolution-of-the-cyber-threat-landscape-how-dependencies-weaken-our-digital-resilience",
-      "category": [
-        "IT Security"
-      ],
-      "title": "Exploring the evolution of the cyber threat landscape: How dependencies weaken our digital resilience",
-      "raw_excerpt": "The 2026 ENISA Threat Landscape confirms that cyber dependencies expand the attack surface and require a new level of vigilance to effectively prevent and mitigate the impact of cyber incidents.",
-      "published_at": "2026-09-22T12:02:45+02:00",
-      "collected_at": "2026-10-06T13:24:52+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "2fd558dcd468f0aab6e36a9da997400381d2c4c477d5b31c086a1f5ef47fa7ce",
-      "first_seen_at": "2026-10-06T13:24:52+02:00",
-      "last_seen_at": "2026-10-29T21:15:23+01:00"
-    },
-    {
-      "id": "69e35d4f63fb3a6177f8",
-      "source_id": "enisa-security",
-      "source": "ENISA – Cyber- und KI-Sicherheit",
-      "source_type": "primary",
-      "source_url": "https://www.enisa.europa.eu/news/the-cra-single-reporting-platform-is-launched",
-      "category": [
-        "IT Security"
-      ],
-      "title": "The CRA Single Reporting Platform is launched",
-      "raw_excerpt": "The EU Agency for Cybersecurity (ENISA) has deployed the initial operating capability of the Single Reporting Platform (SRP).",
-      "published_at": "2026-09-11T13:00:26+02:00",
-      "collected_at": "2026-10-06T13:24:52+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "376977684c043312d89d15c0ffe34cb6fd17761d7174ab6e954baf04c39ac5d8",
-      "first_seen_at": "2026-10-06T13:24:52+02:00",
-      "last_seen_at": "2026-10-29T21:15:23+01:00"
-    },
-    {
-      "id": "6536b2d03b18d7fa242c",
-      "source_id": "enisa-security",
-      "source": "ENISA – Cyber- und KI-Sicherheit",
-      "source_type": "primary",
-      "source_url": "https://www.enisa.europa.eu/news/sweden-sweeps-the-winning-title-of-the-european-cybersecurity-challenge",
-      "category": [
-        "IT Security"
-      ],
-      "title": "Sweden sweeps the winning title of the European Cybersecurity Challenge",
-      "raw_excerpt": "Best competing teams in this 12 th edition of the European Cybersecurity Challenge (ECSC) include Sweden, winners, followed by Finland in second place and Austria in third place. ENISA congratulates the winning teams and thanks all…",
-      "published_at": "2026-10-16T17:14:35+02:00",
-      "collected_at": "2026-10-16T19:22:39+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "e03ad27417c82d4d9a6dbf695936a0fd0a1b930389ad63bab14fbdee07350538",
-      "first_seen_at": "2026-10-16T19:22:39+02:00",
-      "last_seen_at": "2026-10-29T21:15:23+01:00"
-    },
-    {
-      "id": "9f19ecdf86ee7f98cb26",
-      "source_id": "enisa-security",
-      "source": "ENISA – Cyber- und KI-Sicherheit",
-      "source_type": "primary",
-      "source_url": "https://www.enisa.europa.eu/news/joint-statement-on-critical-php-vulnerabilities",
-      "category": [
-        "IT Security"
-      ],
-      "title": "Joint statement on critical PHP vulnerabilities",
-      "raw_excerpt": "The European Commission (DG CNECT), ENISA, the European Union Agency for Cybersecurity, CERT-EU, Europol EC3, and the network of the EU national computer security incident response teams (CSIRTs network), advise organisations to take immediate…",
-      "published_at": "2026-10-21T19:33:36+02:00",
-      "collected_at": "2026-10-21T22:06:31+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "acddcb3d9dbecf995ef8308e998220c71de215736c030001ead1ead9ec8266fd",
-      "first_seen_at": "2026-10-21T22:06:31+02:00",
-      "last_seen_at": "2026-10-29T21:15:23+01:00"
+      "last_seen_at": "2026-10-30T01:54:30+01:00"
     },
     {
       "id": "7c933f6aa8a8673981c5",
@@ -420,7 +300,7 @@
       "collector_note": null,
       "content_hash": "c5aed12801f4912440a3c190fb8642d96c66b393066beb7cd102b1566ad41cfe",
       "first_seen_at": "2026-10-29T21:15:23+01:00",
-      "last_seen_at": "2026-10-29T21:15:23+01:00"
+      "last_seen_at": "2026-10-30T01:54:30+01:00"
     },
     {
       "id": "eda870e99a18c155a872",
@@ -440,7 +320,7 @@
       "collector_note": null,
       "content_hash": "d4b508aea762c81504d49b92973a15c2fa54896d15a99df3a143c48b46d0f8dc",
       "first_seen_at": "2026-10-29T21:15:23+01:00",
-      "last_seen_at": "2026-10-29T21:15:23+01:00"
+      "last_seen_at": "2026-10-30T01:54:30+01:00"
     },
     {
       "id": "e50f037f696a1d7adaf4",
@@ -460,7 +340,127 @@
       "collector_note": null,
       "content_hash": "6ea256ac9a826f4db7257b2352b500ec2a9f142964bcd63a7b169e72cc5147f7",
       "first_seen_at": "2026-10-29T21:15:23+01:00",
-      "last_seen_at": "2026-10-29T21:15:23+01:00"
+      "last_seen_at": "2026-10-30T01:54:30+01:00"
+    },
+    {
+      "id": "59183695ea9c5fb817fe",
+      "source_id": "heise-ai-news",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/Alphabets-Boersenwert-stuerzt-um-halbe-Billion-Dollar-11505575.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "Alphabets Börsenwert stürzt um halbe Billion Dollar",
+      "raw_excerpt": "Noch nie haben Aktien des Google-Konzerns an einem Tag so stark nachgegeben. Alphabet gibt viel für KI aus, verwässert Aktien und verliert mit Wertpapieren.",
+      "published_at": "2026-10-30T00:01:00+01:00",
+      "collected_at": "2026-10-30T01:54:30+01:00",
+      "verification": "secondary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "0624d4c8381583ca62a8382e245120f51c79b618ce6c9ea38638270a378c0509",
+      "first_seen_at": "2026-10-30T01:54:30+01:00",
+      "last_seen_at": "2026-10-30T01:54:30+01:00"
+    },
+    {
+      "id": "8f06b79d388f40327935",
+      "source_id": "enisa-security",
+      "source": "ENISA – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.enisa.europa.eu/news/cybersecurity-month-work-employees-skills-under-the-looking-glass",
+      "category": [
+        "IT Security"
+      ],
+      "title": "Cybersecurity Month @ work: Employees' skills under the looking glass",
+      "raw_excerpt": "With the digitalisation of the workplace, organisations and their employees must navigate and manage the digital risks.",
+      "published_at": "2026-09-30T12:55:56+02:00",
+      "collected_at": "2026-10-06T13:24:52+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "225fd97730996f1056df2c3d6e0681ea23d0a6212ad9322476999f5ec066e30b",
+      "first_seen_at": "2026-10-06T13:24:52+02:00",
+      "last_seen_at": "2026-10-30T01:54:29+01:00"
+    },
+    {
+      "id": "65e9186f8e76dd91b78b",
+      "source_id": "enisa-security",
+      "source": "ENISA – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.enisa.europa.eu/news/exploring-the-evolution-of-the-cyber-threat-landscape-how-dependencies-weaken-our-digital-resilience",
+      "category": [
+        "IT Security"
+      ],
+      "title": "Exploring the evolution of the cyber threat landscape: How dependencies weaken our digital resilience",
+      "raw_excerpt": "The 2026 ENISA Threat Landscape confirms that cyber dependencies expand the attack surface and require a new level of vigilance to effectively prevent and mitigate the impact of cyber incidents.",
+      "published_at": "2026-09-22T12:02:45+02:00",
+      "collected_at": "2026-10-06T13:24:52+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "2fd558dcd468f0aab6e36a9da997400381d2c4c477d5b31c086a1f5ef47fa7ce",
+      "first_seen_at": "2026-10-06T13:24:52+02:00",
+      "last_seen_at": "2026-10-30T01:54:29+01:00"
+    },
+    {
+      "id": "69e35d4f63fb3a6177f8",
+      "source_id": "enisa-security",
+      "source": "ENISA – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.enisa.europa.eu/news/the-cra-single-reporting-platform-is-launched",
+      "category": [
+        "IT Security"
+      ],
+      "title": "The CRA Single Reporting Platform is launched",
+      "raw_excerpt": "The EU Agency for Cybersecurity (ENISA) has deployed the initial operating capability of the Single Reporting Platform (SRP).",
+      "published_at": "2026-09-11T13:00:26+02:00",
+      "collected_at": "2026-10-06T13:24:52+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "376977684c043312d89d15c0ffe34cb6fd17761d7174ab6e954baf04c39ac5d8",
+      "first_seen_at": "2026-10-06T13:24:52+02:00",
+      "last_seen_at": "2026-10-30T01:54:29+01:00"
+    },
+    {
+      "id": "6536b2d03b18d7fa242c",
+      "source_id": "enisa-security",
+      "source": "ENISA – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.enisa.europa.eu/news/sweden-sweeps-the-winning-title-of-the-european-cybersecurity-challenge",
+      "category": [
+        "IT Security"
+      ],
+      "title": "Sweden sweeps the winning title of the European Cybersecurity Challenge",
+      "raw_excerpt": "Best competing teams in this 12 th edition of the European Cybersecurity Challenge (ECSC) include Sweden, winners, followed by Finland in second place and Austria in third place. ENISA congratulates the winning teams and thanks all…",
+      "published_at": "2026-10-16T17:14:35+02:00",
+      "collected_at": "2026-10-16T19:22:39+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "e03ad27417c82d4d9a6dbf695936a0fd0a1b930389ad63bab14fbdee07350538",
+      "first_seen_at": "2026-10-16T19:22:39+02:00",
+      "last_seen_at": "2026-10-30T01:54:29+01:00"
+    },
+    {
+      "id": "9f19ecdf86ee7f98cb26",
+      "source_id": "enisa-security",
+      "source": "ENISA – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.enisa.europa.eu/news/joint-statement-on-critical-php-vulnerabilities",
+      "category": [
+        "IT Security"
+      ],
+      "title": "Joint statement on critical PHP vulnerabilities",
+      "raw_excerpt": "The European Commission (DG CNECT), ENISA, the European Union Agency for Cybersecurity, CERT-EU, Europol EC3, and the network of the EU national computer security incident response teams (CSIRTs network), advise organisations to take immediate…",
+      "published_at": "2026-10-21T19:33:36+02:00",
+      "collected_at": "2026-10-21T22:06:31+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "acddcb3d9dbecf995ef8308e998220c71de215736c030001ead1ead9ec8266fd",
+      "first_seen_at": "2026-10-21T22:06:31+02:00",
+      "last_seen_at": "2026-10-30T01:54:29+01:00"
     },
     {
       "id": "0c8caa098365fd047aaa",
@@ -480,7 +480,7 @@
       "collector_note": null,
       "content_hash": "81395f5d03cf2b1d35d1800c9ae35ee1414e3b4260cbdce7260b29b63dc94971",
       "first_seen_at": "2026-10-06T13:24:51+02:00",
-      "last_seen_at": "2026-10-29T21:15:22+01:00"
+      "last_seen_at": "2026-10-30T01:54:29+01:00"
     },
     {
       "id": "3a84ffe437a1be8937fb",
@@ -500,7 +500,7 @@
       "collector_note": null,
       "content_hash": "88600f0816bc82143e2deae3f8277c0f8066609b642aeb481559cc0ab0b4c926",
       "first_seen_at": "2026-10-06T13:24:51+02:00",
-      "last_seen_at": "2026-10-29T21:15:22+01:00"
+      "last_seen_at": "2026-10-30T01:54:29+01:00"
     },
     {
       "id": "e5c9b8b2ace7a43200cf",
@@ -520,7 +520,7 @@
       "collector_note": null,
       "content_hash": "b711f7fcda22b83b3767e55bde5472e65cbdb49e7430aa24d4a26fbdd7d99d78",
       "first_seen_at": "2026-10-12T19:49:22+02:00",
-      "last_seen_at": "2026-10-29T21:15:22+01:00"
+      "last_seen_at": "2026-10-30T01:54:29+01:00"
     },
     {
       "id": "6f97b27eb706cd5939f3",
@@ -540,7 +540,7 @@
       "collector_note": null,
       "content_hash": "9bf82115fd99ed444c7d1efb0b7eb07d9b3647128afc8d30d434fc9203d55529",
       "first_seen_at": "2026-10-16T14:23:20+02:00",
-      "last_seen_at": "2026-10-29T21:15:22+01:00"
+      "last_seen_at": "2026-10-30T01:54:29+01:00"
     },
     {
       "id": "ccc642bb60b723bc0d67",
@@ -560,7 +560,7 @@
       "collector_note": null,
       "content_hash": "5fb4c2e6cfebcd2e2b0885e60eaeae8667a67eb0fed937cf73cc50bba32589a8",
       "first_seen_at": "2026-10-20T13:28:53+02:00",
-      "last_seen_at": "2026-10-29T21:15:22+01:00"
+      "last_seen_at": "2026-10-30T01:54:29+01:00"
     },
     {
       "id": "06f0d620f603318c350d",
@@ -580,7 +580,7 @@
       "collector_note": null,
       "content_hash": "d821749ea32b9e74abfd3d9c6150afb40b0aec84621271a6329a7df79f2a5459",
       "first_seen_at": "2026-10-28T16:59:05+01:00",
-      "last_seen_at": "2026-10-29T21:15:21+01:00"
+      "last_seen_at": "2026-10-30T01:54:28+01:00"
     },
     {
       "id": "539840a2e761cd242c3f",
@@ -600,7 +600,7 @@
       "collector_note": null,
       "content_hash": "4e9c66bccd18f4a012daeb34e10b6e7429d0a993c77d39786b883103253387a6",
       "first_seen_at": "2026-10-29T21:15:20+01:00",
-      "last_seen_at": "2026-10-29T21:15:20+01:00"
+      "last_seen_at": "2026-10-30T01:54:27+01:00"
     },
     {
       "id": "d77519c2cf8eb89ff36e",
@@ -620,7 +620,7 @@
       "collector_note": null,
       "content_hash": "302499bd0b22835a62c29fefc260797fef4c344eaf710a35ae3ff166fccfe7b1",
       "first_seen_at": "2026-10-13T17:54:53+02:00",
-      "last_seen_at": "2026-10-29T21:15:19+01:00"
+      "last_seen_at": "2026-10-30T01:54:26+01:00"
     },
     {
       "id": "435e89dc163c892d27bf",
@@ -640,7 +640,7 @@
       "collector_note": null,
       "content_hash": "b918b1b687d2ae858e2cd713a6d82e495c8680a0adef553ee4ae8b9a5049e345",
       "first_seen_at": "2026-10-14T15:39:16+02:00",
-      "last_seen_at": "2026-10-29T21:15:18+01:00"
+      "last_seen_at": "2026-10-30T01:54:25+01:00"
     },
     {
       "id": "61952b0355e955b50aa9",
@@ -660,7 +660,7 @@
       "collector_note": null,
       "content_hash": "6f24a2303ef671775c019390824d71a850c50af50010d98a9abcc3ef0e29a11d",
       "first_seen_at": "2026-10-14T15:39:16+02:00",
-      "last_seen_at": "2026-10-29T21:15:18+01:00"
+      "last_seen_at": "2026-10-30T01:54:24+01:00"
     },
     {
       "id": "94cfed5796f801c7027c",
@@ -680,7 +680,7 @@
       "collector_note": "Datum oder Kurztext fehlt.",
       "content_hash": "f2b82e62187f48df631c8788be1837175ad28260d654039e11f9044d2e416541",
       "first_seen_at": "2026-10-21T17:12:45+02:00",
-      "last_seen_at": "2026-10-29T21:15:17+01:00"
+      "last_seen_at": "2026-10-30T01:54:23+01:00"
     },
     {
       "id": "cc043786754aeda29b06",
@@ -700,7 +700,7 @@
       "collector_note": null,
       "content_hash": "85485e89167ee623b361104f858c1e7de4b65dcb41a6120a4a27ae90b5282084",
       "first_seen_at": "2026-10-21T17:12:45+02:00",
-      "last_seen_at": "2026-10-29T21:15:17+01:00"
+      "last_seen_at": "2026-10-30T01:54:23+01:00"
     },
     {
       "id": "32debf6732655b5b4288",
@@ -720,7 +720,7 @@
       "collector_note": null,
       "content_hash": "5f42861c89b51a9954db84f9a30ae19f4134c2b745f88dd866bb931138df7983",
       "first_seen_at": "2026-10-22T17:15:47+02:00",
-      "last_seen_at": "2026-10-29T21:15:16+01:00"
+      "last_seen_at": "2026-10-30T01:54:22+01:00"
     },
     {
       "id": "5844d1c290cef34c1838",
@@ -740,7 +740,7 @@
       "collector_note": null,
       "content_hash": "b4dde8388ef26a769a76e9966a914303475d6f574931c48b3878d09694b1b893",
       "first_seen_at": "2026-10-26T13:57:53+01:00",
-      "last_seen_at": "2026-10-29T21:15:15+01:00"
+      "last_seen_at": "2026-10-30T01:54:21+01:00"
     },
     {
       "id": "12fdcdeaa874866ccbd0",
@@ -760,7 +760,7 @@
       "collector_note": null,
       "content_hash": "97d98f4bce2f7a05b37673db3b2825d9de506dccb441c8d471d3eccd83253053",
       "first_seen_at": "2026-10-29T15:12:28+01:00",
-      "last_seen_at": "2026-10-29T21:15:14+01:00"
+      "last_seen_at": "2026-10-30T01:54:20+01:00"
     },
     {
       "id": "48bda23ca19d7a553154",
@@ -780,7 +780,7 @@
       "collector_note": null,
       "content_hash": "fdab554a28f0af1191984654b53554a9830632438ce0fca66ba65a151dfea88f",
       "first_seen_at": "2026-10-14T15:38:52+02:00",
-      "last_seen_at": "2026-10-29T21:15:10+01:00"
+      "last_seen_at": "2026-10-30T01:53:58+01:00"
     },
     {
       "id": "b78870db9699debcca0c",
@@ -800,7 +800,7 @@
       "collector_note": null,
       "content_hash": "3e25646eb39013a9b63bd7a0cb7ac79d2b6eabbad6047f2d32231980b0f8273e",
       "first_seen_at": "2026-10-16T09:05:09+02:00",
-      "last_seen_at": "2026-10-29T21:15:08+01:00"
+      "last_seen_at": "2026-10-30T01:53:57+01:00"
     },
     {
       "id": "3da36546586f7dd5ca01",
@@ -820,7 +820,7 @@
       "collector_note": null,
       "content_hash": "46d43a78d22971db64a9636353f4bbeaa1c84b8b131af2b2551ca20a1623fdc3",
       "first_seen_at": "2026-10-21T12:04:28+02:00",
-      "last_seen_at": "2026-10-29T21:15:05+01:00"
+      "last_seen_at": "2026-10-30T01:53:55+01:00"
     },
     {
       "id": "831172ac684ef777d90d",
@@ -840,7 +840,7 @@
       "collector_note": null,
       "content_hash": "af30522180fdbe2d072debed951d5fe0ff884ad2dfa9617bef105596d9d01d53",
       "first_seen_at": "2026-09-22T16:23:11+02:00",
-      "last_seen_at": "2026-10-29T21:15:04+01:00"
+      "last_seen_at": "2026-10-30T01:53:53+01:00"
     },
     {
       "id": "0fc158265bbbeb0fc78a",
@@ -860,7 +860,7 @@
       "collector_note": null,
       "content_hash": "3a1254c5b2a9ab5b88a49b482d966e9534a595dca89917d85b2dea233d1e84b3",
       "first_seen_at": "2026-10-22T12:05:54+02:00",
-      "last_seen_at": "2026-10-29T21:15:02+01:00"
+      "last_seen_at": "2026-10-30T01:53:52+01:00"
     },
     {
       "id": "b0cfe38a91e4840c38ad",
@@ -880,7 +880,7 @@
       "collector_note": null,
       "content_hash": "67a8d62181bcdd0990371364425991ec37e66f5d6c44fa3adbc65f7c79a982c5",
       "first_seen_at": "2026-10-27T17:32:10+01:00",
-      "last_seen_at": "2026-10-29T21:14:59+01:00"
+      "last_seen_at": "2026-10-30T01:53:49+01:00"
     },
     {
       "id": "dd17ab51cb8e29cb102a",
@@ -900,7 +900,7 @@
       "collector_note": null,
       "content_hash": "4d8bfae656fad9f7b2ca8cccafa5247b5350a871d371ad5d54504cd99398f0cc",
       "first_seen_at": "2026-10-28T16:58:34+01:00",
-      "last_seen_at": "2026-10-29T21:14:57+01:00"
+      "last_seen_at": "2026-10-30T01:53:48+01:00"
     },
     {
       "id": "1358bf8b3ecae0d2456d",
@@ -920,7 +920,7 @@
       "collector_note": null,
       "content_hash": "0b525f14515e5e48103c8aa834271c48242f54e083821696caccde30c424f0b7",
       "first_seen_at": "2026-10-28T16:58:32+01:00",
-      "last_seen_at": "2026-10-29T21:14:56+01:00"
+      "last_seen_at": "2026-10-30T01:53:47+01:00"
     },
     {
       "id": "110539ecde8f1cf56381",
@@ -940,7 +940,7 @@
       "collector_note": null,
       "content_hash": "8c4596868b04afde98b733e384ee9df64528f9751cd9ed474778ec41e29c53a6",
       "first_seen_at": "2026-10-29T08:00:12+01:00",
-      "last_seen_at": "2026-10-29T21:14:55+01:00"
+      "last_seen_at": "2026-10-30T01:53:46+01:00"
     },
     {
       "id": "39c9ece875fd8afc24b9",
@@ -960,7 +960,7 @@
       "collector_note": null,
       "content_hash": "ca2e0dabab058ed0e0547d7bbc04ea3f28dadb6bcdb147e2ab17bc15d45f5887",
       "first_seen_at": "2026-10-28T16:58:35+01:00",
-      "last_seen_at": "2026-10-29T21:14:54+01:00"
+      "last_seen_at": "2026-10-30T01:53:45+01:00"
     },
     {
       "id": "299bc3455f13fc48bf13",
@@ -980,7 +980,7 @@
       "status": "ok",
       "content_hash": "811ac302c3193eb1b1ab9371558f9eff4f60aa642f2679335f729c77f8d6d3dd",
       "first_seen_at": "2026-09-14T18:58:54+02:00",
-      "last_seen_at": "2026-10-29T21:14:49+01:00",
+      "last_seen_at": "2026-10-30T01:53:39+01:00",
       "collector_note": null
     },
     {
@@ -1001,7 +1001,7 @@
       "status": "ok",
       "content_hash": "a9b348baabb63f3a36168e3506b408dea00ffbc0e6fc27353e27dd69cfd8d3bf",
       "first_seen_at": "2026-09-14T18:58:54+02:00",
-      "last_seen_at": "2026-10-29T21:14:48+01:00",
+      "last_seen_at": "2026-10-30T01:53:38+01:00",
       "collector_note": null
     },
     {
@@ -1016,13 +1016,13 @@
       "title": "AI Act – konsolidierte Fassung 2026-07-27",
       "raw_excerpt": "Aktuelle konsolidierte Fassung der Regulation (EU) 2024/1689 (Artificial Intelligence Act). Stand: 2026-07-27.",
       "published_at": "2026-07-27",
-      "collected_at": "2026-10-29T21:14:47+01:00",
+      "collected_at": "2026-10-30T01:53:37+01:00",
       "verification": "primary",
       "status": "ok",
       "collector_note": null,
       "content_hash": "ed4a9d3330cafe5c922a278159f2a5379789d35caf18fbba77966ea05c9199a3",
-      "first_seen_at": "2026-10-29T21:14:47+01:00",
-      "last_seen_at": "2026-10-29T21:14:47+01:00"
+      "first_seen_at": "2026-10-30T01:53:37+01:00",
+      "last_seen_at": "2026-10-30T01:53:37+01:00"
     },
     {
       "id": "530ccf0fce189221d8c8",
@@ -1042,7 +1042,7 @@
       "status": "ok",
       "content_hash": "e372d5321d49eabddc6333a57bcd763ea0e80a5d6c42c07b3240018c8be35e5a",
       "first_seen_at": "2026-09-29T12:25:35+02:00",
-      "last_seen_at": "2026-10-29T21:14:46+01:00",
+      "last_seen_at": "2026-10-30T01:53:36+01:00",
       "collector_note": null
     },
     {
@@ -1063,7 +1063,7 @@
       "status": "ok",
       "content_hash": "0be1fca47d42517ae4231e5c41a920023a7e9b94c302d1e4575bec4cde309214",
       "first_seen_at": "2026-10-01T12:26:04+02:00",
-      "last_seen_at": "2026-10-29T21:14:46+01:00",
+      "last_seen_at": "2026-10-30T01:53:36+01:00",
       "collector_note": null
     },
     {
@@ -1084,7 +1084,7 @@
       "status": "ok",
       "content_hash": "3862cdd024cb5b8de5911df27a335043acf70ef90d351d1d5b1577e4aaf2a30e",
       "first_seen_at": "2026-10-02T16:26:47+02:00",
-      "last_seen_at": "2026-10-29T21:14:46+01:00",
+      "last_seen_at": "2026-10-30T01:53:35+01:00",
       "collector_note": null
     },
     {
@@ -1105,7 +1105,7 @@
       "status": "ok",
       "content_hash": "ce0f30dcbe1de72c8feef41038c965ffbad76d9eaaeeb1aa548b4114a1f8fda4",
       "first_seen_at": "2026-10-12T19:48:50+02:00",
-      "last_seen_at": "2026-10-29T21:14:46+01:00",
+      "last_seen_at": "2026-10-30T01:53:35+01:00",
       "collector_note": null
     },
     {
@@ -1126,7 +1126,7 @@
       "status": "ok",
       "content_hash": "51fa4ec207150577543197fe8346e235baa94bbc2d64a7efb36ce411888acb34",
       "first_seen_at": "2026-10-13T09:39:37+02:00",
-      "last_seen_at": "2026-10-29T21:14:45+01:00",
+      "last_seen_at": "2026-10-30T01:53:35+01:00",
       "collector_note": null
     },
     {
@@ -1147,7 +1147,7 @@
       "status": "ok",
       "content_hash": "7eccdaf70986afc9b3e66b13af1f4e3b243869796f84739937ab2ab638235728",
       "first_seen_at": "2026-10-14T15:38:44+02:00",
-      "last_seen_at": "2026-10-29T21:14:45+01:00",
+      "last_seen_at": "2026-10-30T01:53:35+01:00",
       "collector_note": null
     },
     {
@@ -1168,7 +1168,7 @@
       "status": "ok",
       "content_hash": "2adce69ab2ad064ab7d0d5e4c37c8459642f465c380fd74168a3f948e4e9027e",
       "first_seen_at": "2026-09-15T10:43:59+02:00",
-      "last_seen_at": "2026-10-29T21:14:45+01:00",
+      "last_seen_at": "2026-10-30T01:53:35+01:00",
       "collector_note": null
     },
     {
@@ -1189,8 +1189,28 @@
       "status": "ok",
       "content_hash": "6964d2a6e825efe24a090875b524221a191b37acacf014c6a4535031cae41c00",
       "first_seen_at": "2026-09-15T10:43:58+02:00",
-      "last_seen_at": "2026-10-29T21:14:45+01:00",
+      "last_seen_at": "2026-10-30T01:53:35+01:00",
       "collector_note": null
+    },
+    {
+      "id": "29a6d9d5dd6082112ec4",
+      "source_id": "heise-ai-news",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/Teure-Power-einer-neuen-Aera-Apples-33-329-Euro-Mac-Studio-ist-da-11504379.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "Teure „Power einer neuen Ära“: Apples 33.329-Euro-Mac-Studio ist da",
+      "raw_excerpt": "Wie von Apple angekündigt kann man nun den wohl teuersten Mac aller Zeiten erwerben. Hauptzielgruppe: Anwender lokaler KI.",
+      "published_at": "2026-10-29T11:32:00+01:00",
+      "collected_at": "2026-10-29T15:12:36+01:00",
+      "verification": "secondary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "5772f1761fbe17108d3c15e128550ecfdeceb4821aa382153692115f26c9108d",
+      "first_seen_at": "2026-10-29T15:12:36+01:00",
+      "last_seen_at": "2026-10-29T21:15:24+01:00"
     },
     {
       "id": "6ef158e839be5d21a5be",
@@ -8425,49 +8445,49 @@
       "name": "European Commission – AI Act / AI Office",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-29T21:14:46+01:00",
+      "last_update": "2026-10-30T01:53:36+01:00",
       "items_found": 8
     },
     {
       "name": "EUR-Lex – Regulation (EU) 2024/1689",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-29T21:14:47+01:00",
+      "last_update": "2026-10-30T01:53:37+01:00",
       "items_found": 1
     },
     {
       "name": "European Data Protection Board",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-29T21:14:48+01:00",
+      "last_update": "2026-10-30T01:53:38+01:00",
       "items_found": 1
     },
     {
       "name": "Datenschutzkonferenz",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-29T21:14:49+01:00",
+      "last_update": "2026-10-30T01:53:39+01:00",
       "items_found": 1
     },
     {
       "name": "PMI – Artificial Intelligence",
       "type": "optional",
       "status": "failed",
-      "last_update": "2026-10-29T21:14:49+01:00",
+      "last_update": "2026-10-30T01:53:39+01:00",
       "note": "403 Client Error: Forbidden for url: https://www.pmi.org/blog?userTagIDSort=11122"
     },
     {
       "name": "GPM – Aktuelles und Blog",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-29T21:15:10+01:00",
+      "last_update": "2026-10-30T01:53:58+01:00",
       "items_found": 10
     },
     {
       "name": "APM – News and Blog",
       "type": "core",
       "status": "degraded",
-      "last_update": "2026-10-29T21:15:21+01:00",
+      "last_update": "2026-10-30T01:54:28+01:00",
       "items_found": 10,
       "note": "Datum oder Kurztext fehlt."
     },
@@ -8475,35 +8495,35 @@
       "name": "BSI – Cyber- und KI-Sicherheit",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-10-29T21:15:22+01:00",
+      "last_update": "2026-10-30T01:54:29+01:00",
       "items_found": 5
     },
     {
       "name": "ENISA – Cyber- und KI-Sicherheit",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-10-29T21:15:23+01:00",
+      "last_update": "2026-10-30T01:54:29+01:00",
       "items_found": 5
     },
     {
       "name": "OpenAI – News",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-10-29T21:15:23+01:00",
+      "last_update": "2026-10-30T01:54:30+01:00",
       "items_found": 5
     },
     {
       "name": "Google – AI Blog",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-10-29T21:15:23+01:00",
+      "last_update": "2026-10-30T01:54:30+01:00",
       "items_found": 5
     },
     {
       "name": "heise online – KI-Nachrichten",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-10-29T21:15:24+01:00",
+      "last_update": "2026-10-30T01:54:30+01:00",
       "items_found": 8
     }
   ]
