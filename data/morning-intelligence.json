@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-30T15:04:33+01:00",
+  "generated_at": "2026-11-03T07:40:17+01:00",
   "mode": "live",
-  "edition": "afternoon",
+  "edition": "morning",
   "briefing": [
     "Deterministische Ranking-Baseline ohne kostenpflichtige KI-API.",
     "Primärquellen werden bevorzugt; Social Radar ist deaktiviert.",
@@ -10,70 +10,22 @@
   ],
   "items": [
     {
-      "id": "850280c31706d3de7cce",
-      "category": "KI & Technologie",
+      "id": "bcb3db5c6efd24224755",
+      "category": "IT Security",
       "rank": 1,
-      "title": "Amazon steigert Cloudgeschäft, aber KI-Investitionen belasten den Cashflow",
-      "summary": "Amazon erzielte im dritten Quartal 201,9 Milliarden US-Dollar Umsatz, 12 Prozent mehr als im Vorjahreszeitraum. Das Wachstum wurde vor allem von AWS getragen: Die Cloud-Sparte setzte 46 Milliarden Dollar um, ein Plus von 39 Prozent, und steigerte den Betriebsgewinn um 56 Prozent auf 17,8 Milliarden Dollar. Der Onlinehandel wuchs dagegen nur um 2 Prozent auf 68,5 Milliarden Dollar und blieb laut CNBC hinter den Erwartungen von 69,7 Milliarden Dollar zurück. Auch der Werbeumsatz lag mit 19,6 Milliarden Dollar unter der Markterwartung. Zugleich investierte Amazon stark in Immobilien und Ausrüstung für KI- und Cloud-Infrastruktur. Der freie Cashflow der vergangenen zwölf Monate fiel dadurch auf minus 42,4 Milliarden Dollar. Für das vierte Quartal stellt Amazon 240 bis 247 Milliarden Dollar Umsatz in Aussicht.",
+      "title": "OpenAI plant nächsten Sicherheitssprint zur Härtung seiner Systeme",
+      "summary": "OpenAI kündigt einen internen Sicherheitssprint an, bei dem eigene Teams, neue Forschende und Sicherheitspartner Modelle einsetzen sollen, um Verteidigungen zu testen und Schwachstellen zu finden. Als Partner wird Cathedral genannt. Außerdem will OpenAI sein Security-Bug-Bounty-Programm ausbauen und die Belohnungen für kritische Funde deutlich erhöhen. Beim vorherigen Sprint widmete das Unternehmen nach eigenen Angaben 25 Prozent seiner Produktentwickler der Suche und Behebung von Schwachstellen. Mit Codex untersuchten die Entwickler Befunde, reproduzierten Sicherheitslücken in isolierten Umgebungen und bereiteten Patches zur Prüfung vor. OpenAI begründet den Ansatz mit schneller entstehenden Bedrohungen und sieht kontinuierliche defensive Rückkopplungen als Ergänzung zu traditionellen Schutzmaßnahmen. Nach Herstellerangaben sollen leistungsfähige Modelle auch vertrauenswürdigen Verteidigern zugänglich gemacht werden; dafür sei ein subventionierter Zugang im Umfang von einer Milliarde US-Dollar über sechs Monate zugesagt. OpenAI will außerdem Architektur und Erkenntnisse teilen.",
       "editorial_depth": true,
-      "practice_example": "Hypothetisch könnte ein Unternehmen seine geplante KI-Plattform zunächst mit begrenzten Cloud-Kapazitäten starten und zusätzliche Infrastruktur erst nach gemessener Nutzung, Marge und Nachfrage ausbauen.",
-      "limitations": "Der Text enthält Unternehmensprognosen und Analystenerwartungen, aber keine unabhängige Bewertung der Investitionsrendite. Aussagen zu künftigen AWS-Wachstumsraten werden als Erwartung des Amazon-Chefs wiedergegeben, nicht als gesicherte Entwicklung.",
+      "practice_example": "Hypothetisches Beispiel: Ein Softwareteam könnte ein isoliertes Testsystem einrichten, in dem ein Modell mögliche Angriffswege analysiert, Entwickler die Befunde reproduzieren und ein separates Review-Team vorgeschlagene Patches vor einer Freigabe prüft.",
+      "limitations": "Der Text nennt keine unabhängige Bewertung der Wirksamkeit, keine detaillierten Methoden des Sprints und keine konkreten Ergebnisse des angekündigten neuen Durchlaufs. Aussagen zu Zugang, Finanzierung und Wirkungen sind Herstellerangaben.",
       "summary_origin": "generated",
-      "why_relevant": "Für Produkt- und Programmverantwortliche zeigt der Bericht den Zielkonflikt zwischen stark wachsender KI-Infrastruktur und kurzfristiger finanzieller Belastung. Cloudnachfrage allein belegt noch nicht, dass sich umfangreiche Kapazitätsausgaben wirtschaftlich sofort auszahlen.",
-      "watch_next": "Prüfen Sie für jedes KI-Vorhaben separat erwartete Nutzung, Infrastrukturkosten, Cashflow-Wirkung und einen Ausstiegspunkt; vergleichen Sie diese Annahmen mit realen Verbrauchsdaten.",
-      "source": "heise online – KI-Nachrichten",
-      "source_type": "discovery",
-      "source_url": "https://www.heise.de/news/Amazon-waechst-weniger-stark-als-erwartet-hohe-KI-Investitionen-daempfen-Aktie-11505585.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "published_at": "2026-10-30T05:03:00+01:00",
-      "collected_at": "2026-10-30T08:03:29+01:00",
-      "verification": "secondary",
-      "status": "ok",
-      "is_top5": true,
-      "content_kind": "current",
-      "related_sources": [],
-      "social_verified": false
-    },
-    {
-      "id": "12e14d4f084ea8faf0b5",
-      "category": "Projektmanagement",
-      "rank": 2,
-      "title": "Energie-Vampire im Projektmanagement: Wenn Zusammenarbeit zur Belastung wird",
-      "summary": "Energie-Vampire im Projektmanagement kosten Zeit und Nerven. Welche Verhaltensmuster Teams belasten und wie Projektleitungen gegensteuern können.",
-      "editorial_depth": false,
-      "practice_example": "",
-      "limitations": "",
-      "summary_origin": "source_excerpt",
-      "why_relevant": "Für Verantwortliche relevant, weil die Meldung eine konkrete Entwicklung aus dem Bereich Projektmanagement beschreibt.",
-      "watch_next": "Weitere Aktualisierungen und belastbare Konkretisierungen in der Originalquelle beobachten.",
-      "source": "GPM – Aktuelles und Blog",
-      "source_type": "primary",
-      "source_url": "https://www.gpm-ipma.de/ueber-die-gpm/blog/energie-vampire-im-projektmanagement-wenn-zusammenarbeit-zur-belastung-wird",
-      "published_at": "2026-10-30",
-      "collected_at": "2026-10-30T08:03:01+01:00",
-      "verification": "primary",
-      "status": "ok",
-      "is_top5": true,
-      "content_kind": "current",
-      "related_sources": [],
-      "social_verified": false
-    },
-    {
-      "id": "7c933f6aa8a8673981c5",
-      "category": "KI & Technologie",
-      "rank": 3,
-      "title": "OpenAI ordnet seine Model Spec an fünf Grundwerten aus",
-      "summary": "OpenAI beschreibt eine aktualisierte Model Spec, die das gewünschte Verhalten seiner Modelle an fünf Werten ausrichten soll: Treue zur menschlichen Absicht, Schadensminimierung, Ehrlichkeit und Transparenz, menschliche Handlungsfähigkeit sowie Fürsorge. Nach Herstellerangaben soll die Spec Modelle dabei unterstützen, in Situationen ohne eindeutige Anweisung den Kontext und menschliche Werte besser zu berücksichtigen, ohne menschliche Kontrolle zu ersetzen. Die Überarbeitung enthält laut OpenAI neue Hinweise zu Kontext, Aufsicht und Agency, eine aktualisierte Befehlshierarchie sowie zusätzliche Vorgaben zu sozialen Normen. Die Grundsätze werden teils als feste Grenzen, teils als Standardeinstellungen beschrieben, die Nutzer und Entwickler innerhalb der vorgesehenen Grenzen überschreiben können. OpenAI berichtet außerdem über neue Trainingsmethoden, deren Ergebnisse und Erfahrungen erst in künftigen Aktualisierungen veröffentlicht werden sollen.",
-      "editorial_depth": true,
-      "practice_example": "Hypothetisch könnte ein Assistenzsystem bei einer Entscheidung zunächst frühere Nutzerpräferenzen berücksichtigen, diese Annahmen offenlegen und eine Korrektur ermöglichen, statt stillschweigend eine Priorität festzulegen.",
-      "limitations": "Die Aussagen stammen von OpenAI und sind daher ausdrücklich Herstellerangaben. Der Text liefert keine unabhängige Messung, wie zuverlässig Modelle die beschriebenen Werte umsetzen, und nennt keine konkreten Leistungsdaten der neuen Trainingsmethoden.",
-      "summary_origin": "generated",
-      "why_relevant": "Für KI- und Produktverantwortliche ist relevant, dass Modellverhalten nicht nur über einzelne Prompts, sondern auch über Werte, Kontextregeln, Aufsicht und Eskalationslogik geprägt wird. Die Veröffentlichung beschreibt jedoch ein Ziel- und Regelwerk, keinen unabhängigen Wirksamkeitsnachweis.",
-      "watch_next": "Prüfen Sie bei einem konkreten KI-Anwendungsfall, welche menschlichen Entscheidungen das System unterstützt, welche Annahmen es sichtbar machen muss und an welchen Punkten eine menschliche Freigabe erforderlich ist.",
+      "why_relevant": "Redaktionelle Einordnung: Der Text zeigt ein Sicherheitsmodell, das KI nicht nur als Produktfunktion, sondern auch als Werkzeug für kontinuierliches Testen, Reproduzieren und Beheben von Schwachstellen positioniert. Für Produkt- und Sicherheitsverantwortliche ist besonders die Verbindung von internen Teams, externen Forschenden und Bug-Bounty-Prozessen relevant. Die genannten Ergebnisse und Zusagen stammen jedoch vom Anbieter selbst und sind daher als Herstellerangaben zu bewerten.",
+      "watch_next": "Prüfen Sie, ob Ihr Sicherheitsprozess einen klar abgegrenzten Ablauf für Modelltests, reproduzierbare Befunde, menschliche Prüfung und Patch-Freigaben definiert.",
       "source": "OpenAI – News",
       "source_type": "vendor",
-      "source_url": "https://openai.com/index/updated-model-spec",
-      "published_at": "2026-10-29T18:00:00+01:00",
-      "collected_at": "2026-10-29T21:15:23+01:00",
+      "source_url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "published_at": "2026-11-02T19:00:00+01:00",
+      "collected_at": "2026-11-03T07:40:16+01:00",
       "verification": "vendor",
       "status": "ok",
       "is_top5": true,
@@ -82,22 +34,70 @@
       "social_verified": false
     },
     {
-      "id": "cdea07f5c584a9e8121b",
+      "id": "9ceca3cafc926bd2e2e5",
+      "category": "KI & Technologie",
+      "rank": 2,
+      "title": "Googles KI-Neuigkeiten aus dem Oktober 2026",
+      "summary": "Google fasst mehrere KI-Ankündigungen aus dem Oktober zusammen. Gemini 4 Argon wird als Modell für komplexe Aufgaben beschrieben und nach frühen Sicherheitstests weltweit für Entwickler, Unternehmen, Wissenschaftler und Verbraucher ausgerollt. Google nennt unter anderem Coding, Finanzanalyse, rechtliche Arbeitsabläufe und Robotik. Gemini 4 Carbon wird als stärkeres Modell für langfristige technische Aufgaben und Cybersicherheit vorgestellt; laut Google befindet es sich mit US-Regierung und ausgewählten Cyberverteidigern im Vorabtest des Fairwind-Programms. Genie 4 soll interaktive Echtzeitsimulationen mit Audio, Physik und natürlicher Sprachsteuerung ermöglichen. SynthID Detector wird weltweit auf Englisch erweitert und soll KI-generierte Bilder, Videos und Audiodateien erkennen, auch von mehreren Branchenpartnern. Android erhält optionale Schutzfunktionen gegen ausgefeilte Betrugsversuche. Google beschreibt zudem medizinische, Fitness-, Spiele- und Quantencomputing-bezogene Entwicklungen. Der Text weist darauf hin, dass generative KI experimentell ist.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisches Beispiel: Ein Unternehmen könnte Argon zunächst in einer begrenzten Coding-Aufgabe testen, KI-generierte Medien mit einem verfügbaren Erkennungstool prüfen und eine Android-Schutzfunktion freiwillig in einer Pilotgruppe evaluieren.",
+      "limitations": "Der gelieferte Artikeltext endet unvollständig. Dadurch fehlen möglicherweise weitere Oktober-Ankündigungen und Kontext. Die beschriebenen Leistungswerte und Produktmerkmale werden nicht unabhängig belegt; die Aussage zur Erkennung von KI-Inhalten beschreibt kein garantiert fehlerfreies Verfahren.",
+      "summary_origin": "generated",
+      "why_relevant": "Redaktionelle Einordnung: Die Zusammenfassung verdeutlicht die Breite von Googles KI-Portfolio und die Kombination aus Modell-Rollouts, Sicherheitsfunktionen, Simulationen und Verifikation. Für das Produktmanagement ist relevant, dass Google unterschiedliche Zielgruppen und Einsatzfelder parallel adressiert. Leistungs-, Sicherheits- und Nutzenaussagen bleiben überwiegend Anbieterangaben; die beschriebenen Funktionen sollten daher nicht automatisch als unabhängig bestätigt gelten.",
+      "watch_next": "Erstellen Sie für jeden vorgesehenen Anwendungsfall eine Testmatrix mit Zielgruppe, Sicherheitsgrenzen, Prüfkriterien und der tatsächlich verfügbaren Produktversion.",
+      "source": "Google – AI Blog",
+      "source_type": "vendor",
+      "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+      "published_at": "2026-11-02T18:45:00+01:00",
+      "collected_at": "2026-11-03T00:28:12+01:00",
+      "verification": "vendor",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "f5071e9e13c2e14b9f23",
+      "category": "IT Security",
+      "rank": 3,
+      "title": "OpenAI erhöht Belohnungen für Sicherheitsforschende",
+      "summary": "OpenAI kündigt Änderungen an seinem Security-Bug-Bounty-Programm an. Nach eigenen Angaben werden die mittleren Belohnungen für mittlere, hohe und kritische Befunde im Durchschnitt mehr als vervierfacht. Eine kritische Schwachstelle in einem Kernprodukt wie ChatGPT, Codex oder der API-Plattform kann demnach bis zu 30.000 US-Dollar einbringen; außergewöhnliche kritische Befunde können laut Text bis zu 100.000 US-Dollar beziehungsweise mit Boni bis zu 172.000 US-Dollar erreichen. Zusätzlich führt OpenAI Multiplikatoren für hochwertige Berichte, ein fünfstufiges Treueprogramm und Bonuspools für priorisierte Kampagnen zu neuen Funktionen ein. Als besonders wertvoll beschreibt der Anbieter reproduzierbare Proofs of Concept, die Ausnutzbarkeit und Auswirkungen zeigen. Der Text nennt beispielhafte Berechnungen für verschiedene Befundklassen. Rückwirkende Zahlungen werden für bestimmte noch nicht vergütete oder kürzlich vergütete Meldungen angekündigt. Außerdem verweist OpenAI auf ein persönliches Testereignis in Oakland.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisches Beispiel: Ein Forschungsteam könnte eine Schwachstelle in einer isolierten Umgebung reproduzieren, die betroffenen Grenzen dokumentieren und einen Bericht mit klarer Auswirkung zur Bewertung einreichen.",
+      "limitations": "Die Beispiele im Artikel sind ausdrücklich illustrativ. Der Text enthält keine unabhängige Bewertung der tatsächlichen Auszahlungen, der Bearbeitungszeiten oder der Wirksamkeit des Programms. Bedingungen können außerhalb des gelieferten Textes stehen.",
+      "summary_origin": "generated",
+      "why_relevant": "Redaktionelle Einordnung: Das Programm setzt finanzielle Anreize mit der Qualität und Wiederholbarkeit von Sicherheitsmeldungen sowie mit längerfristiger Zusammenarbeit. Für Sicherheits- und Produktteams ist dies ein Beispiel dafür, wie externe Expertise strukturiert in den Entwicklungsprozess eingebunden werden kann. Prämienhöhen, Bedingungen und rückwirkende Zahlungen sind ausschließlich Herstellerangaben und sollten anhand der vollständigen Programmregeln geprüft werden.",
+      "watch_next": "Prüfen Sie die vollständigen aktuellen Teilnahme-, Scope-, Nachweis- und Auszahlungsbedingungen des Bug-Bounty-Programms, bevor Sie die Anreize in Ihre Sicherheitsplanung einbeziehen.",
+      "source": "OpenAI – News",
+      "source_type": "vendor",
+      "source_url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "published_at": "2026-11-02T19:00:00+01:00",
+      "collected_at": "2026-11-03T07:40:16+01:00",
+      "verification": "vendor",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "175148244665873f66c7",
       "category": "KI & Technologie",
       "rank": 4,
-      "title": "Manipulierte Cursor-Erweiterung enthielt SSH-Backdoor",
-      "summary": "Im Cursor-Marktplatz war laut dem Bericht eine manipulierte Version der offiziellen Erweiterung „Claude Code for VS Code“ verfügbar. Die Version 2.1.313 soll zwischen 10:27 und 21:35 Uhr mitteleuropäischer Zeit online gewesen sein; Cursor zufolge stammte sie nicht von Anthropic. Die Erweiterung läuft mit den Rechten der Entwicklungsumgebung und des jeweiligen Nutzers und kann dadurch auf lokale Dateien, Quellcode und Entwicklerwerkzeuge zugreifen. Die Backdoor enthielt Routinen für Linux, macOS und Windows. Ein Logikfehler verhinderte laut Analyse häufig die beabsichtigte SSH-Aktivierung, dennoch legte die Malware SSH-Schlüssel ab, sorgte für Persistenz und übermittelte Informationen über den Rechner. Das bloße Deinstallieren reichte dem Bericht zufolge nicht aus. Genannt werden zusätzlich zu entfernende Prozesse, Persistenzmechanismen, Dateien und Schlüssel sowie eine Prüfung und gegebenenfalls Änderung von Zugangsdaten.",
+      "title": "Leak bei Proton: Wachstum soll laut Bericht wichtiger als Sicherheit sein",
+      "summary": "Heise berichtet über geleakte Slack-Nachrichten, Gesprächsmitschnitte und Aussagen von acht aktuellen sowie einem ehemaligen Proton-Mitarbeiter, die 404 Media ausgewertet habe. Demnach dränge CEO Andy Yen auf einen intensiven KI-Einsatz beim Programmieren und auf schnelles Wachstum, während Sicherheitsbedenken zurückgewiesen worden seien. Ein Mitarbeiter habe vorgeschlagen, KI-generierten Code vor dem Einsatz mehrere Tage auf Sicherheit zu testen; daraufhin seien laut Bericht abwertende Antworten gefallen. In einer Besprechung soll außerdem gesagt worden sein, dass im Oktober 90 Prozent des Codes von KI geschrieben worden seien. Ein späteres KI-Manifest bestätige die strategische Richtung, erwähne Sicherheit aber nur knapp. Der Artikel beschreibt zudem eine mögliche Verlagerung menschlicher Arbeit hin zu Spezifikationen und Tests, neue KI-Nutzungen etwa für Finanzdaten und Kundenantworten sowie einen rauen internen Ton. Proton äußert sich im gelieferten Text nicht ausführlich zu den Vorwürfen.",
       "editorial_depth": true,
-      "practice_example": "Hypothetisch könnte ein Entwicklungsteam Erweiterungen nur nach Prüfung der Version, Rechte und Herkunft in einer isolierten Umgebung einsetzen und verdächtige Hosts anschließend forensisch untersuchen lassen.",
-      "limitations": "Die konkrete Betroffenenzahl wird als Reuters-Angabe von bis zu 5000 Nutzern wiedergegeben und ist keine unabhängig bestätigte Zahl im Artikel. Der Bericht beschreibt Gegenmaßnahmen, ersetzt aber keine organisationsspezifische Incident-Response- oder forensische Analyse.",
+      "practice_example": "Hypothetisches Beispiel: Ein Team könnte für KI-generierten Code verpflichtende Review-, Test- und Freigabeschritte definieren und zugleich einen geschützten Kanal einrichten, über den Mitarbeitende Sicherheitsbedenken ohne persönliche Sanktionen melden können.",
+      "limitations": "Der Text ist am Ende abgeschnitten. Die Darstellung enthält Vorwürfe und Aussagen aus einer Recherche, aber keine vollständige Stellungnahme Protons. Die genannte Codequote sowie weitere Behauptungen werden im gelieferten Text nicht unabhängig belegt.",
       "summary_origin": "generated",
-      "why_relevant": "Der Fall zeigt, dass Erweiterungen in Entwicklungsumgebungen einen besonders weitreichenden Vertrauens- und Rechtebereich besitzen. Für Teams ist deshalb nicht nur die Paketquelle, sondern auch die Reaktion nach einer möglichen Kompromittierung entscheidend.",
-      "watch_next": "Prüfen Sie, ob die betroffene Erweiterung oder Version in Ihrer Umgebung installiert war, und gleichen Sie die im Bericht genannten Indicators of Compromise mit den betroffenen Systemen ab.",
+      "why_relevant": "Redaktionelle Einordnung: Der Bericht macht die organisatorische Seite von KI-Einführung sichtbar: Geschwindigkeit, Sicherheitskultur, Verantwortlichkeiten und psychologische Sicherheit können sich gegenseitig beeinflussen. Für PM- und Engineering-Leitungen ist insbesondere die behauptete Diskrepanz zwischen hoher KI-Nutzung und unklarer Sicherheitsprüfung relevant. Die Vorwürfe beruhen auf geleakten Materialien und recherchierten Aussagen; sie sind nicht als abschließend verifizierte Unternehmensdarstellung zu lesen.",
+      "watch_next": "Prüfen Sie anhand von Richtlinien und Stichproben, welche Sicherheitskontrollen für KI-generierten Code tatsächlich gelten und wer die finale Verantwortung für die Freigabe trägt.",
       "source": "heise online – KI-Nachrichten",
       "source_type": "discovery",
-      "source_url": "https://www.heise.de/news/Claude-Code-Erweiterung-im-Cursor-Marktplatz-mit-Malware-infiziert-11506368.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "published_at": "2026-10-30T14:08:00+01:00",
-      "collected_at": "2026-10-30T15:04:33+01:00",
+      "source_url": "https://www.heise.de/news/Nachrichten-Leak-Wachstum-scheint-bei-Proton-aktuell-wichtiger-als-Sicherheit-11508413.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-11-03T07:00:00+01:00",
+      "collected_at": "2026-11-03T07:40:17+01:00",
       "verification": "secondary",
       "status": "ok",
       "is_top5": true,
@@ -106,23 +106,23 @@
       "social_verified": false
     },
     {
-      "id": "a887cbff20c7319f660c",
+      "id": "47968caaa1bd5cdbfa87",
       "category": "KI & Technologie",
       "rank": 5,
-      "title": "KI findet kritische Race-Condition im Linux-TCP/IP-Stack",
-      "summary": "Der Bericht beschreibt eine kritische Schwachstelle im IPv4-Netzwerkcode des Linux-Kernels mit der Kennung CVE-2026-98432 und einem CVSS-Wert von 9,8. Die Race-Condition kann laut Darstellung zu unvorhergesehenen Speicherzugriffen und potenziell zur Ausführung eingeschleusten Codes über das Netzwerk führen. Betroffen seien IPv4-Implementierungen seit Kernel-Version 4.4; IPv6 sei nicht betroffen. Der Fehler wurde laut Artikel von Anthropics Claude bei systematischen Tests entdeckt und mit einem konkreten, nicht öffentlich verfügbaren Exploit belegt. Als behoben werden die Kernel-Versionen 6.12.113, 6.18.56, 7.2.10 und 7.3-rc7 genannt. Distributionen arbeiteten an Aktualisierungen. Über die praktische Ausnutzbarkeit ist dem Text zufolge noch wenig bekannt; der bekannte Exploit bezieht sich auf MPTCP, und es bleibt unklar, ob ein MPTCP-Dienst zwingend erforderlich ist.",
+      "title": "OpenAI skaliert Git für agentisches Arbeiten",
+      "summary": "OpenAI beschreibt mit Pando ein neues Backend für Git-Repositories, das den Anforderungen eines stark gewachsenen Monorepos und der durch Codex ermöglichten parallelen Entwicklungsarbeit dienen soll. Das System soll Schreibvorgänge auf vielen Branches horizontal skalieren und beim Lesen eine hohe Datenrate ermöglichen. Laut OpenAI blieb die Kompatibilität mit Git-Protokoll und Git-Client erhalten, sodass bestehende Arbeitsabläufe nicht geändert werden mussten. In Produktion habe Pando die mediane Push-Latenz um nahezu das Fünffache reduziert und liefere inzwischen fast ein Petabyte Git-Daten pro Tag. Technisch koordiniert Pando Aktualisierungen unabhängiger Branches parallel und verwendet Git-Packfiles über mehrere Abrufe hinweg wieder. Als Abwägung nennt der Text, dass Leser beim Blick auf mehrere Branches unterschiedliche Zeitpunkte sehen können. OpenAI erläutert außerdem Git-Objekte, Referenzen, Erreichbarkeit sowie lose und gepackte Speicherung und kündigt weitere Beiträge zum Git-Ökosystem an.",
       "editorial_depth": true,
-      "practice_example": "Hypothetisch könnte ein Infrastrukturteam seine unterstützten Kernel gegen die betroffenen IPv4-Versionen inventarisieren, verfügbare Distributionshinweise auswerten und ein Update zunächst in einer repräsentativen Testumgebung prüfen.",
-      "limitations": "Der Artikel nennt keine konkreten Angriffe und beschreibt den einzigen bekannten Exploit als nicht öffentlich. Die tatsächlichen Voraussetzungen für eine Ausnutzung bleiben laut Text ungeklärt; die Bewertung ersetzt daher keine Hersteller- oder Distributionsadvisories.",
+      "practice_example": "Hypothetisches Beispiel: Ein Unternehmen könnte vor einer Migration messen, wie viele parallele Pushes, Fetches und CI-Abrufe auftreten, und anschließend in einer Testumgebung prüfen, ob unterschiedliche Branch-Zeitpunkte mit den eigenen Review-Prozessen vereinbar sind.",
+      "limitations": "Der gelieferte Text endet während der technischen Erläuterung und enthält daher nicht den vollständigen Artikel. Es fehlen unabhängige Vergleichsdaten, Details zur Implementierung und Angaben zur Übertragbarkeit auf andere Organisationen.",
       "summary_origin": "generated",
-      "why_relevant": "Für Sicherheits- und Plattformteams verdeutlicht der Fall den möglichen Nutzen systematischer KI-gestützter Codeanalyse, zugleich aber auch die Notwendigkeit, Befunde technisch zu verifizieren und zeitnah in die Patchbewertung einzubeziehen.",
-      "watch_next": "Prüfen Sie die eingesetzten Kernel- und Distributionsversionen gegen die im Bericht genannten Fixstände und dokumentieren Sie, ob MPTCP oder andere relevante Netzwerkfunktionen aktiv genutzt werden.",
-      "source": "heise online – KI-Nachrichten",
-      "source_type": "discovery",
-      "source_url": "https://www.heise.de/news/Erneut-kritischer-Bug-in-Linux-TCP-IP-aufgedeckt-Updates-in-Arbeit-11506050.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "published_at": "2026-10-30T13:12:00+01:00",
-      "collected_at": "2026-10-30T15:04:33+01:00",
-      "verification": "secondary",
+      "why_relevant": "Redaktionelle Einordnung: Der Artikel zeigt, dass agentische Entwicklungsarbeit nicht nur Modell- oder UI-Fragen aufwirft, sondern auch Infrastruktur für Branches, CI, Abrufe und Zusammenführungen belastet. Die Beibehaltung des Git-Workflows kann Migrationsaufwand begrenzen, während die beschriebene Konsistenzabwägung für Teams relevant ist. Leistungswerte und Aussagen zur Eignung stammen von OpenAI und sind Herstellerangaben.",
+      "watch_next": "Erheben Sie Last- und Konsistenzanforderungen Ihres Repositories und testen Sie Push-Latenz, Fetch-Durchsatz, CI-Verhalten sowie Branch-Sichtbarkeit unter paralleler Nutzung.",
+      "source": "OpenAI – News",
+      "source_type": "vendor",
+      "source_url": "https://openai.com/index/scaling-git-at-openai",
+      "published_at": "2026-11-02T16:30:00+01:00",
+      "collected_at": "2026-11-03T07:40:16+01:00",
+      "verification": "vendor",
       "status": "ok",
       "is_top5": true,
       "content_kind": "current",
@@ -265,49 +265,49 @@
       "name": "European Commission – AI Act / AI Office",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-30T15:03:54+01:00",
+      "last_update": "2026-11-03T07:39:33+01:00",
       "items_found": 8
     },
     {
       "name": "EUR-Lex – Regulation (EU) 2024/1689",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-30T15:03:55+01:00",
+      "last_update": "2026-11-03T07:39:35+01:00",
       "items_found": 1
     },
     {
       "name": "European Data Protection Board",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-30T15:03:56+01:00",
+      "last_update": "2026-11-03T07:39:36+01:00",
       "items_found": 1
     },
     {
       "name": "Datenschutzkonferenz",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-30T15:03:57+01:00",
+      "last_update": "2026-11-03T07:39:37+01:00",
       "items_found": 1
     },
     {
       "name": "PMI – Artificial Intelligence",
       "type": "optional",
       "status": "failed",
-      "last_update": "2026-10-30T15:03:57+01:00",
+      "last_update": "2026-11-03T07:39:38+01:00",
       "note": "403 Client Error: Forbidden for url: https://www.pmi.org/blog?userTagIDSort=11122"
     },
     {
       "name": "GPM – Aktuelles und Blog",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-10-30T15:04:09+01:00",
+      "last_update": "2026-11-03T07:39:58+01:00",
       "items_found": 10
     },
     {
       "name": "APM – News and Blog",
       "type": "core",
       "status": "degraded",
-      "last_update": "2026-10-30T15:04:29+01:00",
+      "last_update": "2026-11-03T07:40:14+01:00",
       "items_found": 10,
       "note": "Datum oder Kurztext fehlt."
     },
@@ -315,35 +315,35 @@
       "name": "BSI – Cyber- und KI-Sicherheit",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-10-30T15:04:31+01:00",
+      "last_update": "2026-11-03T07:40:15+01:00",
       "items_found": 5
     },
     {
       "name": "ENISA – Cyber- und KI-Sicherheit",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-10-30T15:04:31+01:00",
+      "last_update": "2026-11-03T07:40:15+01:00",
       "items_found": 5
     },
     {
       "name": "OpenAI – News",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-10-30T15:04:32+01:00",
+      "last_update": "2026-11-03T07:40:16+01:00",
       "items_found": 5
     },
     {
       "name": "Google – AI Blog",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-10-30T15:04:32+01:00",
+      "last_update": "2026-11-03T07:40:16+01:00",
       "items_found": 5
     },
     {
       "name": "heise online – KI-Nachrichten",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-10-30T15:04:33+01:00",
+      "last_update": "2026-11-03T07:40:17+01:00",
       "items_found": 8
     }
   ],
@@ -352,13 +352,13 @@
     "effective_mode": "baseline_fallback",
     "error_class": "EvaluationDiagnosticError",
     "cache_hits": 1,
-    "cache_misses": 98,
-    "api_items_evaluated": 98,
+    "cache_misses": 94,
+    "api_items_evaluated": 94,
     "api_call_performed": true,
     "selection": {
       "selection_policy": "24h_first_with_eligible_pm_slot",
-      "recent_core_candidates": 99,
-      "recent_core_not_selected": 94,
+      "recent_core_candidates": 95,
+      "recent_core_not_selected": 90,
       "unavailable_sources": [
         "PMI – Artificial Intelligence"
       ]
@@ -369,18 +369,18 @@
       "cache_hits": 0,
       "article_failures": 0,
       "usage": {
-        "input_tokens": 5735,
+        "input_tokens": 5565,
         "input_tokens_details": {
-          "cache_write_tokens": 5732,
+          "cache_write_tokens": 5562,
           "cached_tokens": 0
         },
-        "output_tokens": 2246,
+        "output_tokens": 2582,
         "output_tokens_details": {
-          "reasoning_tokens": 59
+          "reasoning_tokens": 76
         },
-        "total_tokens": 7981
+        "total_tokens": 8147
       },
-      "model_cost_usd": 0.0038421999999999996
+      "model_cost_usd": 0.0042114
     }
   },
   "editorial_depth_status": {
@@ -389,29 +389,29 @@
     "cache_hits": 0,
     "article_failures": 0,
     "usage": {
-      "input_tokens": 5735,
+      "input_tokens": 5565,
       "input_tokens_details": {
-        "cache_write_tokens": 5732,
+        "cache_write_tokens": 5562,
         "cached_tokens": 0
       },
-      "output_tokens": 2246,
+      "output_tokens": 2582,
       "output_tokens_details": {
-        "reasoning_tokens": 59
+        "reasoning_tokens": 76
       },
-      "total_tokens": 7981
+      "total_tokens": 8147
     },
-    "model_cost_usd": 0.0038421999999999996
+    "model_cost_usd": 0.0042114
   },
   "editorial_brief": {
     "title": "Aktuelle Auswahl",
-    "summary": "Amazon erzielte im dritten Quartal 201,9 Milliarden US-Dollar Umsatz, 12 Prozent mehr als im Vorjahreszeitraum. Das Wachstum wurde vor allem von AWS getragen: Die Cloud-Sparte setzte 46 Milliarden Dollar um, ein Plus von 39 Prozent, und steigerte den Betriebsgewinn um 56 Prozent auf 17,8 Milliarden Dollar. Der Onlinehandel wuchs dagegen nur um 2 Prozent auf 68,5 Milliarden Dollar und blieb laut CNBC hinter den Erwartungen von 69,7 Milliarden Dollar zurück. Auch der Werbeumsatz lag mit 19,6 Milliarden Dollar unter der Markterwartung. Zugleich investierte Amazon stark in Immobilien und Ausrüstung für KI- und Cloud-Infrastruktur. Der freie Cashflow der vergangenen zwölf Monate fiel dadurch auf minus 42,4 Milliarden Dollar. Für das vierte Quartal stellt Amazon 240 bis 247 Milliarden Dollar Umsatz in Aussicht.",
-    "why_relevant": "Für Produkt- und Programmverantwortliche zeigt der Bericht den Zielkonflikt zwischen stark wachsender KI-Infrastruktur und kurzfristiger finanzieller Belastung. Cloudnachfrage allein belegt noch nicht, dass sich umfangreiche Kapazitätsausgaben wirtschaftlich sofort auszahlen.",
-    "watch_next": "Prüfen Sie für jedes KI-Vorhaben separat erwartete Nutzung, Infrastrukturkosten, Cashflow-Wirkung und einen Ausstiegspunkt; vergleichen Sie diese Annahmen mit realen Verbrauchsdaten.",
-    "item_id": "850280c31706d3de7cce",
-    "published_at": "2026-10-30T05:03:00+01:00",
+    "summary": "OpenAI kündigt einen internen Sicherheitssprint an, bei dem eigene Teams, neue Forschende und Sicherheitspartner Modelle einsetzen sollen, um Verteidigungen zu testen und Schwachstellen zu finden. Als Partner wird Cathedral genannt. Außerdem will OpenAI sein Security-Bug-Bounty-Programm ausbauen und die Belohnungen für kritische Funde deutlich erhöhen. Beim vorherigen Sprint widmete das Unternehmen nach eigenen Angaben 25 Prozent seiner Produktentwickler der Suche und Behebung von Schwachstellen. Mit Codex untersuchten die Entwickler Befunde, reproduzierten Sicherheitslücken in isolierten Umgebungen und bereiteten Patches zur Prüfung vor. OpenAI begründet den Ansatz mit schneller entstehenden Bedrohungen und sieht kontinuierliche defensive Rückkopplungen als Ergänzung zu traditionellen Schutzmaßnahmen. Nach Herstellerangaben sollen leistungsfähige Modelle auch vertrauenswürdigen Verteidigern zugänglich gemacht werden; dafür sei ein subventionierter Zugang im Umfang von einer Milliarde US-Dollar über sechs Monate zugesagt. OpenAI will außerdem Architektur und Erkenntnisse teilen.",
+    "why_relevant": "Redaktionelle Einordnung: Der Text zeigt ein Sicherheitsmodell, das KI nicht nur als Produktfunktion, sondern auch als Werkzeug für kontinuierliches Testen, Reproduzieren und Beheben von Schwachstellen positioniert. Für Produkt- und Sicherheitsverantwortliche ist besonders die Verbindung von internen Teams, externen Forschenden und Bug-Bounty-Prozessen relevant. Die genannten Ergebnisse und Zusagen stammen jedoch vom Anbieter selbst und sind daher als Herstellerangaben zu bewerten.",
+    "watch_next": "Prüfen Sie, ob Ihr Sicherheitsprozess einen klar abgegrenzten Ablauf für Modelltests, reproduzierbare Befunde, menschliche Prüfung und Patch-Freigaben definiert.",
+    "item_id": "bcb3db5c6efd24224755",
+    "published_at": "2026-11-02T19:00:00+01:00",
     "context": "Ausgewählte Kernmeldungen aus dem Zeitfenster der letzten 7 Tage.",
     "limits": [
-      "Nach der Inhaltsbewertung nicht ausgewählte aktuelle Kandidaten: 94.",
+      "Nach der Inhaltsbewertung nicht ausgewählte aktuelle Kandidaten: 90.",
       "Letzter Abruf eingeschränkt: PMI – Artificial Intelligence."
     ]
   }
