@@ -1,0 +1,418 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-11-05T07:36:44+01:00",
+  "mode": "live",
+  "edition": "morning",
+  "briefing": [
+    "Deterministische Ranking-Baseline ohne kostenpflichtige KI-API.",
+    "Primärquellen werden bevorzugt; Social Radar ist deaktiviert.",
+    "Aktuelle Meldungen: Veröffentlichungen der letzten 7 Tage. Lesestücke und ältere Inhalte sind separat eingeordnet."
+  ],
+  "items": [
+    {
+      "id": "9753bcb4af007e4bacc7",
+      "category": "IT Security",
+      "rank": 1,
+      "title": "EU-Behörden warnen vor Cybervorfällen in kommerziellen Kühlsystemen",
+      "summary": "Seit dem 11. Oktober 2026 sind laut gemeinsamer Mitteilung von Europäischer Kommission, ENISA, Europol-EC3, dem EU-CSIRTs-Netzwerk und EU-CyCLONe mehrere kommerzielle Kühlsysteme und ähnliche Geräte in mehreren EU-Mitgliedstaaten von Cybervorfällen betroffen. Nach einer neuen Vorfallswelle am 1. und 2. November raten die Organisationen betroffenen Einrichtungen zu sofortigen Maßnahmen, um die Angriffsfläche zu verringern. Die betroffenen Staaten untersuchen die Vorfälle und veröffentlichen Hinweise über ihre offiziellen Kanäle. ENISA bündelt entsprechende Empfehlungen. Die Mitteilung verweist außerdem auf Meldepflichten für Hersteller schwerwiegender Vorfälle und aktiv ausgenutzter Schwachstellen im Rahmen des Cyber Resilience Act seit dem 11. September 2026. Dessen zentrale Cybersicherheitsanforderungen sollen laut Text ab dem 11. Dezember 2027 gelten. Für NIS2-pflichtige Einrichtungen nennt die Mitteilung Risiko-Management und die Meldung erheblicher Vorfälle.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisches Beispiel: Ein Handelsunternehmen prüft seine vernetzten Kühlanlagen, trennt ungewöhnlich exponierte Systeme nach seinem Notfallverfahren und gleicht die Maßnahmen mit den Hinweisen des zuständigen nationalen CSIRT ab.",
+      "limitations": "Der Text nennt weder konkrete Schwachstellen oder betroffene Hersteller noch technische Indikatoren, Schadensumfang oder Einzelheiten zu den Untersuchungen. Die Aussagen zu CRA- und NIS2-Anforderungen werden nicht rechtlich erläutert.",
+      "summary_origin": "generated",
+      "why_relevant": "Redaktionell relevant ist die Verbindung von operativer Krisenreaktion, Lieferantenkommunikation und regulatorischer Beobachtung. Für Betreiber vernetzter Anlagen zeigt der Fall, dass physische Betriebsprozesse und IT-Sicherheitslage eng gekoppelt sein können.",
+      "watch_next": "Prüfen Sie, ob für die eigenen Kühl- und Gebäudesysteme aktuelle Hinweise des zuständigen nationalen CSIRT oder der ENISA vorliegen, und dokumentieren Sie die technische und organisatorische Reaktion.",
+      "source": "ENISA – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.enisa.europa.eu/news/joint-statement-on-cyber-incidents-in-refrigeration-systems-across-the-eu",
+      "published_at": "2026-11-04T19:12:01+01:00",
+      "collected_at": "2026-11-05T00:36:43+01:00",
+      "verification": "primary",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "8c0806dd80927e420af6",
+      "category": "KI & Technologie",
+      "rank": 2,
+      "title": "Saudi Aramco beteiligt sich mit 49 Prozent an Humain",
+      "summary": "Saudi Aramco hat sich laut heise online mit 49 Prozent am saudischen KI-Unternehmen Humain beteiligt. Der staatlich kontrollierte Ölkonzern bringt rund 2,6 Milliarden US-Dollar sowie nicht bezifferte bestehende Vermögenswerte aus den Bereichen KI, Recheninfrastruktur und Digitalisierung ein. Der saudische Staatsfonds Public Investment Fund behält 51 Prozent. Aramco will eigene KI-Technologien kommerziell verwerten und könnte zugleich vom steigenden Energiebedarf von KI-Rechenzentren profitieren. Humain plant laut Artikel, bis 2030 Rechenzentren mit insgesamt drei Gigawatt elektrischer Leistung aufzubauen. Eine daraus abgeleitete Investitionsschätzung von 33 bis 36 Milliarden US-Dollar basiert auf einer Branchenangabe von Humain-Chef Tareq Amin und ist kein genanntes Humain-Budget. Das Unternehmen soll die gesamte KI-Wertschöpfungskette abdecken, einschließlich Rechenzentren, Cloud-Diensten, Modellen und Anwendungen. Genannt wird außerdem das arabischsprachige Modell ALLAM. Partnerschaften bestehen mit Nvidia, AMD, Cisco und AWS.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisches Beispiel: Ein Unternehmen mit hohem KI-Rechenbedarf vergleicht mögliche Standorte nicht nur nach Modellzugang, sondern auch nach Stromversorgung, Flächenverfügbarkeit, Cloud-Anbindung und Eigentümerstruktur der Infrastruktur.",
+      "limitations": "Mehrere Angaben stammen aus Unternehmens- oder Managementaussagen und sind entsprechend als solche einzuordnen. Der Artikel nennt kein vollständiges Investitionsbudget, keine konkreten Ausbaufristen jenseits des genannten Zieljahres und keine unabhängige Bewertung der technischen Leistungsfähigkeit.",
+      "summary_origin": "generated",
+      "why_relevant": "Redaktionell zeigt der Vorgang, wie KI-Infrastruktur, Energieversorgung, staatliche Industriepolitik und vertikale Wertschöpfung zusammengeführt werden. Für das Management ist besonders die Größenordnung der geplanten Infrastruktur ein Signal für langfristige Kapazitäts- und Standortentscheidungen.",
+      "watch_next": "Prüfen Sie bei einer möglichen Zusammenarbeit mit Humain oder vergleichbaren Anbietern, welche Infrastruktur tatsächlich verfügbar ist, welche Investitionsannahmen bestätigt sind und welche Daten- und Betriebsbedingungen gelten.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/Saudi-Aramco-uebernimmt-knapp-die-Haelfte-des-KI-Unternehmens-Humain-11512647.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-11-04T18:32:00+01:00",
+      "collected_at": "2026-11-05T00:36:45+01:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "368412a762a3aa49c00c",
+      "category": "IT Security",
+      "rank": 3,
+      "title": "OpenAI bietet Daybreak Red in AWS GovCloud US-East an",
+      "summary": "OpenAI teilt mit, dass GPT-5.6 Cyber über Daybreak Red für zugelassene Kunden in AWS GovCloud US-East verfügbar sei. Die Lösung soll laut Hersteller für autorisierte Schwachstellenforschung, Exploit-Validierung und Sicherheitstests genutzt werden. Genannt werden außerdem die Untersuchung komplexer Software-Schwächen, die kontrollierte Reproduktion von Schwachstellen und die Entwicklung von Gegenmaßnahmen. OpenAI betont, qualifizierte Sicherheitsexperten müssten Ergebnisse und vorgeschlagene Korrekturen vor der Umsetzung prüfen. Für verifizierte Verteidiger nennt der Anbieter weniger Verweigerungen bei autorisierten Cybersecurity-Aufgaben sowie stärkere Identitätsprüfung, Überwachung und Zugriffskontrollen. OpenAI erklärt außerdem, Inferenzdaten würden bei Daybreak Red auf Amazon Bedrock nicht zum Training verwendet; Kunden müssten diese Daten nicht mit OpenAI teilen. Der Zugang erfordert laut Anbieter eine Daybreak-Red-Genehmigung und AWS-Bereitstellung. Die Genehmigung allein schalte den Modellzugang bei AWS nicht automatisch frei.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisches Beispiel: Ein autorisiertes Sicherheitsteam lässt eine bekannte Schwachstelle in einer isolierten Testumgebung analysieren, prüft den vorgeschlagenen Fix manuell und dokumentiert Modellzugriff sowie Testergebnis.",
+      "limitations": "Die Angaben zur Verfügbarkeit, zu Sicherheitskontrollen und zur Datennutzung sind Herstellerangaben. Der Text enthält keine unabhängigen Leistungstests, keine Angaben zu Kosten oder konkreten Modellgrenzen und keine Zusicherung, dass vorgeschlagene Maßnahmen korrekt oder risikofrei sind.",
+      "summary_origin": "generated",
+      "why_relevant": "Redaktionell relevant ist die Kombination aus spezialisierten Cybersecurity-Modellen, kontrollierter Umgebung und erweiterten Zugriffsrechten. Das verschiebt die praktische Frage von reiner Modellleistung hin zu Freigaben, Nachvollziehbarkeit und menschlicher Prüfung.",
+      "watch_next": "Prüfen Sie vor einer Bewertung, ob die eigene Organisation die genannten Zulassungs- und AWS-Voraussetzungen erfüllt und wie Datenflüsse, Identitätsprüfung, Protokollierung und menschliche Freigaben konkret umgesetzt werden.",
+      "source": "OpenAI – News",
+      "source_type": "vendor",
+      "source_url": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "published_at": "2026-11-04T08:00:00+01:00",
+      "collected_at": "2026-11-04T18:11:24+01:00",
+      "verification": "vendor",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "a6aa182fed1da3fd6fed",
+      "category": "IT Security",
+      "rank": 4,
+      "title": "secIT-Thementag widmet sich KI und IT-Sicherheit",
+      "summary": "Heise kündigt für den 2. Dezember einen eintägigen virtuellen secIT-Thementag zu KI und Security an. Die Veranstaltung soll in sechs Fachvorträgen und einer virtuellen Podiumsdiskussion behandeln, wie KI die IT-Sicherheit verändert. Im Artikel werden unter anderem massenhafte Schwachstellenfunde, die Bewertung von Sicherheitslücken, php2shell, ein Linux-Kernel-Exploit, Open-Weight-Modelle, die Abliteration von Guardrails sowie Patch-Management genannt. Als Beteiligte werden Frederik Braun von Mozilla, PHP-Releasemanager Volker Dusch, heise-Security-Redakteur Christopher Kunz, c’t-Redakteur Jan Mahn und Udo Schneider als Governance-, Risk-&-Compliance-Lead beim Partner TrendAI aufgeführt. Heise richtet das Format an IT-Profis und Sicherheitsverantwortliche. Der Text berichtet außerdem von einem zeitlich begrenzten Frühbucherrabatt von gut 80 Euro sowie kostenlosem Zugang für Mitglieder von heise security PRO über einen Rabattcode. Die Veranstaltungs- und Preisangaben sind redaktionelle beziehungsweise Anbieterangaben des Artikels.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisches Beispiel: Ein Security-Team nutzt die angekündigten Themen, um für seine interne Roadmap drei Prüfbereiche zu definieren: KI-gestützte Schwachstellensuche, Modell-Governance und priorisiertes Patch-Management.",
+      "limitations": "Der Artikel kündigt eine Veranstaltung an und liefert keine vollständigen Vortragsinhalte oder unabhängigen Nachweise zu den genannten Sicherheitsentwicklungen. Verfügbarkeit, Preise und Zugangskonditionen können sich ändern; die Aussagen zu KI-Effekten bleiben teilweise allgemein.",
+      "summary_origin": "generated",
+      "why_relevant": "Redaktionell bündelt der Thementag mehrere für Security- und PM-Teams relevante Perspektiven: Schwachstellenbewertung, offensive Nutzung, offene Modelle und Patch-Prozesse. Er ist damit eher ein Orientierungsangebot als ein technischer Beleg für einzelne KI-Fähigkeiten.",
+      "watch_next": "Prüfen Sie das aktuelle Veranstaltungsprogramm und bewerten Sie vor einer Teilnahme, welche Vorträge unmittelbar zu den eigenen offenen Sicherheits- oder Governance-Fragen passen.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/Das-Programm-steht-secIT-Thementag-am-2-Dezember-rund-um-KI-Security-11508529.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-11-04T12:00:00+01:00",
+      "collected_at": "2026-11-04T18:11:25+01:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "9a0e03501200e0931c22",
+      "category": "KI & Technologie",
+      "rank": 5,
+      "title": "OpenAI plant Übernahme der Pierre Computer Company",
+      "summary": "OpenAI kündigt die geplante Übernahme der Pierre Computer Company an, die hinter Code Storage und Open-Source-Entwicklerwerkzeugen wie Trees, Diffs und Highlights steht. Laut OpenAI werden Trees und Diffs bereits in der Codex-App verwendet, etwa zum Navigieren in Dateien und zum Prüfen von Änderungen. Die Unternehmen wollen Git-Arbeitsabläufe an eine Entwicklung anpassen, in der Coding-Agenten mehr Aufgaben parallel übernehmen. OpenAI nennt als Ziel, Codex stärker mit Quellcode, Reviews und den Entscheidungen von Teams zu verbinden. Pierre betreibt außerdem Code Storage, einen Dienst zum Speichern von Code und zur Versionsverwaltung mit Git. Nach Abschluss sollen Pierres Open-Source-Projekte Open Source bleiben und weiter Beiträge erhalten. Kunden sollen Code Storage weiter nutzen können, während Funktionen in Codex integriert werden. Der Abschluss steht laut Mitteilung unter üblichen Bedingungen, einschließlich behördlicher Genehmigungen; bis dahin bleiben beide Unternehmen getrennt und unabhängig.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisches Beispiel: Ein Entwicklungsteam lässt einen Agenten einen Branch erzeugen, nutzt strukturierte Diffs für die Review und dokumentiert anschließend, welche menschlichen Entscheidungen zur Freigabe geführt haben.",
+      "limitations": "Die Angaben zur Strategie, zu geplanten Produkten und zur Integration sind Herstellerangaben. Der Abschluss ist laut Text noch nicht erfolgt. Es fehlen konkrete Integrationspläne, Zeitangaben, technische Leistungsdaten sowie Angaben zu Änderungen an den Nutzungsbedingungen.",
+      "summary_origin": "generated",
+      "why_relevant": "Redaktionell ist die Transaktion für Product- und Engineering-Management interessant, weil sie Codeverwaltung, Review und agentische Entwicklung in einer Plattform bündeln soll. Entscheidend wird dabei die tatsächliche Integration in bestehende Git-Prozesse sein.",
+      "watch_next": "Prüfen Sie, welche bestehenden Git-, Review- und Versionsverwaltungsprozesse durch eine solche Integration berührt würden und welche Anforderungen an Nachvollziehbarkeit, Berechtigungen und Open-Source-Nutzung bestehen.",
+      "source": "OpenAI – News",
+      "source_type": "vendor",
+      "source_url": "https://openai.com/index/openai-to-acquire-pierre",
+      "published_at": "2026-11-04T15:30:00+01:00",
+      "collected_at": "2026-11-04T18:11:24+01:00",
+      "verification": "vendor",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "d3a09fae823e4240f8ef",
+      "category": "AI & PM",
+      "rank": 6,
+      "title": "KI-Kompetenz im Projektmanagement: So gelingt der verantwortungsvolle Einstieg",
+      "summary": "Die Meldung formuliert einen Ansatz für verantwortungsvollen KI-Einsatz und Kompetenzaufbau in Projektteams.",
+      "editorial_depth": false,
+      "practice_example": "",
+      "limitations": "",
+      "summary_origin": "generated",
+      "why_relevant": "Projektverantwortliche können daraus Ansatzpunkte für Qualifizierung, gemeinsame Lernprozesse und interne Regeln beim KI-Einsatz ableiten.",
+      "watch_next": "Beobachten, welche konkreten Kompetenzmodelle, Lernformate und Regeln für den verantwortungsvollen KI-Einsatz vorgeschlagen werden.",
+      "source": "GPM – Aktuelles und Blog",
+      "source_type": "primary",
+      "source_url": "https://www.gpm-ipma.de/ueber-die-gpm/blog/ki-kompetenz-im-projektmanagement-so-gelingt-der-verantwortungsvolle-einstieg",
+      "published_at": "2026-10-09",
+      "collected_at": "2026-10-09T05:26:10+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "is_top5": false,
+      "content_kind": "background",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "e7932ad1b84feccfb2a8",
+      "category": "AI & PM",
+      "rank": 7,
+      "title": "Die Zukunft des Projektmanagements verlangt neue Fähigkeiten: Künstliche Intelligenz führen und Veränderungen mutig gestalten.",
+      "summary": "Die angekündigten Keynotes behandeln veränderte Führungsanforderungen und Kompetenzen im KI-gestützten Projektmanagement.",
+      "editorial_depth": false,
+      "practice_example": "",
+      "limitations": "",
+      "summary_origin": "generated",
+      "why_relevant": "Projektverantwortliche können die Themen zur Einordnung künftiger Kompetenzanforderungen und Veränderungsaspekte in ihren Projekten heranziehen.",
+      "watch_next": "Zu beobachten sind die konkret genannten Fähigkeiten, Führungsansätze und Veränderungsmaßnahmen für den Einsatz von KI im Projektmanagement.",
+      "source": "GPM – Aktuelles und Blog",
+      "source_type": "primary",
+      "source_url": "https://www.gpm-ipma.de/ueber-die-gpm/aktuelles/detail/die-zukunft-des-projektmanagements-verlangt-neue-faehigkeiten-kuenstliche-intelligenz-fuehren-und-veraenderungen-mutig-gestalten",
+      "published_at": "2026-10-09",
+      "collected_at": "2026-10-09T19:23:47+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "is_top5": false,
+      "content_kind": "background",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "82380150919cdca02507",
+      "category": "IT Security",
+      "rank": 8,
+      "title": "heise-Angebot: KI in der Cybersecurity – Sicherheit trotz Coding-Agenten, LLMs und Deepfakes",
+      "summary": "KI verändert die IT-Sicherheit und bringt sowohl neue Angriffsflächen als auch Einsatzmöglichkeiten mit sich.",
+      "editorial_depth": false,
+      "practice_example": "",
+      "limitations": "",
+      "summary_origin": "generated",
+      "why_relevant": "Verantwortliche müssen bewerten, wie KI neue Cyberrisiken verändert und welche Sicherheitsmöglichkeiten für die eigene Organisation relevant sind.",
+      "watch_next": "Beobachten Sie konkrete Bedrohungsszenarien, verfügbare Schutzmaßnahmen und deren Übertragbarkeit auf die eigene IT-Umgebung.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/KI-in-der-Cybersecurity-Sicherheit-trotz-Coding-Agenten-LLMs-und-Deepfakes-11447465.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-10-27T12:00:00+01:00",
+      "collected_at": "2026-10-27T17:32:49+01:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": false,
+      "content_kind": "background",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "fd7cd5678893b552b51d",
+      "category": "KI & Technologie",
+      "rank": 9,
+      "title": "Photokina-Comeback und KI-Skandal – die Fotonews der Woche 41/2026",
+      "summary": "Die Fotonews berichten über den Standortwechsel einer Imaging-Veranstaltung, eine Untersuchung möglichen KI-Betrugs bei Nikon und eine Auszeichnung für Graciela Iturbide.",
+      "editorial_depth": false,
+      "practice_example": "",
+      "limitations": "",
+      "summary_origin": "generated",
+      "why_relevant": "Für Technologie- und Projektverantwortliche bietet die Meldung Einblick in aktuelle Entwicklungen rund um KI-Nutzung und Integrität in der Imaging-Branche.",
+      "watch_next": "Beobachten, zu welchem Ergebnis die Prüfung des möglichen KI-Betrugs kommt und wie die Imaging World in Köln umgesetzt wird.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/Photokina-Comeback-und-KI-Skandal-die-Fotonews-der-Woche-41-2026-11482204.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-10-10T10:00:00+02:00",
+      "collected_at": "2026-10-10T10:24:56+02:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": false,
+      "content_kind": "background",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "db5761f0b27c6158337a",
+      "category": "DSGVO & Ethik",
+      "rank": 10,
+      "title": "Kommentar zu Apples Privacy-Versprechen: Zweifache Rolle rückwärts",
+      "summary": "Apple wird ein veränderter Umgang mit Trainingsdaten und bestimmte Gerätefunktionen vorgeworfen beziehungsweise zugeschrieben.",
+      "editorial_depth": false,
+      "practice_example": "",
+      "limitations": "",
+      "summary_origin": "generated",
+      "why_relevant": "Veränderungen bei Trainingsdaten und Gerätefunktionen können für Datenschutzbewertung, Lieferantenbeobachtung und den Einsatz Apple-basierter Systeme relevant sein.",
+      "watch_next": "Beobachtet werden sollten konkrete Apple-Ankündigungen, technische Details und belastbare Angaben zum Umgang mit Trainingsdaten sowie zu den genannten Funktionen.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/meinung/Kommentar-zu-Apples-Privacy-Versprechen-Zweifache-Rolle-rueckwaerts-11471238.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-10-09T10:16:00+02:00",
+      "collected_at": "2026-10-09T10:28:37+02:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": false,
+      "content_kind": "background",
+      "related_sources": [],
+      "social_verified": false
+    }
+  ],
+  "freshness": {
+    "news_window_days": 7,
+    "current_count": 5,
+    "background_count": 5
+  },
+  "signals": {
+    "history_state": "building",
+    "days_available": 1,
+    "topics": []
+  },
+  "source_status": [
+    {
+      "name": "European Commission – AI Act / AI Office",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-11-05T07:36:08+01:00",
+      "items_found": 8
+    },
+    {
+      "name": "EUR-Lex – Regulation (EU) 2024/1689",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-11-05T07:36:09+01:00",
+      "items_found": 1
+    },
+    {
+      "name": "European Data Protection Board",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-11-05T07:36:10+01:00",
+      "items_found": 1
+    },
+    {
+      "name": "Datenschutzkonferenz",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-11-05T07:36:11+01:00",
+      "items_found": 1
+    },
+    {
+      "name": "PMI – Artificial Intelligence",
+      "type": "optional",
+      "status": "failed",
+      "last_update": "2026-11-05T07:36:11+01:00",
+      "note": "403 Client Error: Forbidden for url: https://www.pmi.org/blog?userTagIDSort=11122"
+    },
+    {
+      "name": "GPM – Aktuelles und Blog",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-11-05T07:36:27+01:00",
+      "items_found": 10
+    },
+    {
+      "name": "APM – News and Blog",
+      "type": "core",
+      "status": "degraded",
+      "last_update": "2026-11-05T07:36:40+01:00",
+      "items_found": 10,
+      "note": "Datum oder Kurztext fehlt."
+    },
+    {
+      "name": "BSI – Cyber- und KI-Sicherheit",
+      "type": "optional",
+      "status": "ok",
+      "last_update": "2026-11-05T07:36:42+01:00",
+      "items_found": 5
+    },
+    {
+      "name": "ENISA – Cyber- und KI-Sicherheit",
+      "type": "optional",
+      "status": "ok",
+      "last_update": "2026-11-05T07:36:42+01:00",
+      "items_found": 5
+    },
+    {
+      "name": "OpenAI – News",
+      "type": "optional",
+      "status": "ok",
+      "last_update": "2026-11-05T07:36:43+01:00",
+      "items_found": 5
+    },
+    {
+      "name": "Google – AI Blog",
+      "type": "optional",
+      "status": "ok",
+      "last_update": "2026-11-05T07:36:43+01:00",
+      "items_found": 5
+    },
+    {
+      "name": "heise online – KI-Nachrichten",
+      "type": "optional",
+      "status": "ok",
+      "last_update": "2026-11-05T07:36:44+01:00",
+      "items_found": 8
+    }
+  ],
+  "ranking": {
+    "requested_mode": "hybrid",
+    "effective_mode": "baseline_fallback",
+    "error_class": "EvaluationDiagnosticError",
+    "cache_hits": 0,
+    "cache_misses": 100,
+    "api_items_evaluated": 100,
+    "api_call_performed": true,
+    "selection": {
+      "selection_policy": "24h_first_with_eligible_pm_slot",
+      "recent_core_candidates": 100,
+      "recent_core_not_selected": 95,
+      "unavailable_sources": [
+        "PMI – Artificial Intelligence"
+      ]
+    },
+    "editorial_depth": {
+      "enabled": true,
+      "api_calls": 1,
+      "cache_hits": 0,
+      "article_failures": 0,
+      "usage": {
+        "input_tokens": 3652,
+        "input_tokens_details": {
+          "cache_write_tokens": 3649,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2460,
+        "output_tokens_details": {
+          "reasoning_tokens": 68
+        },
+        "total_tokens": 6112
+      },
+      "model_cost_usd": 0.0036824
+    }
+  },
+  "editorial_depth_status": {
+    "enabled": true,
+    "api_calls": 1,
+    "cache_hits": 0,
+    "article_failures": 0,
+    "usage": {
+      "input_tokens": 3652,
+      "input_tokens_details": {
+        "cache_write_tokens": 3649,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2460,
+      "output_tokens_details": {
+        "reasoning_tokens": 68
+      },
+      "total_tokens": 6112
+    },
+    "model_cost_usd": 0.0036824
+  },
+  "editorial_brief": {
+    "title": "Aktuelle Auswahl",
+    "summary": "Seit dem 11. Oktober 2026 sind laut gemeinsamer Mitteilung von Europäischer Kommission, ENISA, Europol-EC3, dem EU-CSIRTs-Netzwerk und EU-CyCLONe mehrere kommerzielle Kühlsysteme und ähnliche Geräte in mehreren EU-Mitgliedstaaten von Cybervorfällen betroffen. Nach einer neuen Vorfallswelle am 1. und 2. November raten die Organisationen betroffenen Einrichtungen zu sofortigen Maßnahmen, um die Angriffsfläche zu verringern. Die betroffenen Staaten untersuchen die Vorfälle und veröffentlichen Hinweise über ihre offiziellen Kanäle. ENISA bündelt entsprechende Empfehlungen. Die Mitteilung verweist außerdem auf Meldepflichten für Hersteller schwerwiegender Vorfälle und aktiv ausgenutzter Schwachstellen im Rahmen des Cyber Resilience Act seit dem 11. September 2026. Dessen zentrale Cybersicherheitsanforderungen sollen laut Text ab dem 11. Dezember 2027 gelten. Für NIS2-pflichtige Einrichtungen nennt die Mitteilung Risiko-Management und die Meldung erheblicher Vorfälle.",
+    "why_relevant": "Redaktionell relevant ist die Verbindung von operativer Krisenreaktion, Lieferantenkommunikation und regulatorischer Beobachtung. Für Betreiber vernetzter Anlagen zeigt der Fall, dass physische Betriebsprozesse und IT-Sicherheitslage eng gekoppelt sein können.",
+    "watch_next": "Prüfen Sie, ob für die eigenen Kühl- und Gebäudesysteme aktuelle Hinweise des zuständigen nationalen CSIRT oder der ENISA vorliegen, und dokumentieren Sie die technische und organisatorische Reaktion.",
+    "item_id": "9753bcb4af007e4bacc7",
+    "published_at": "2026-11-04T19:12:01+01:00",
+    "context": "Ausgewählte Kernmeldungen aus dem Zeitfenster der letzten 7 Tage.",
+    "limits": [
+      "Nach der Inhaltsbewertung nicht ausgewählte aktuelle Kandidaten: 95.",
+      "Letzter Abruf eingeschränkt: PMI – Artificial Intelligence."
+    ]
+  }
+}
