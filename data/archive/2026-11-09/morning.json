@@ -1,0 +1,418 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-11-09T07:13:18+01:00",
+  "mode": "live",
+  "edition": "morning",
+  "briefing": [
+    "Deterministische Ranking-Baseline ohne kostenpflichtige KI-API.",
+    "Primärquellen werden bevorzugt; Social Radar ist deaktiviert.",
+    "Aktuelle Meldungen: Veröffentlichungen der letzten 7 Tage. Lesestücke und ältere Inhalte sind separat eingeordnet."
+  ],
+  "items": [
+    {
+      "id": "0919dd25b96b3f05353e",
+      "category": "KI & Technologie",
+      "rank": 1,
+      "title": "Atommüll-Reaktor, Nvidia-Untersuchung und Angriffe auf Kühlsysteme",
+      "summary": "Die Technische Universität Dresden plant einen experimentellen Flüssigsalzreaktor, der abgebrannte Brennelemente direkt nutzen und daraus Strom sowie wiederverwertbare Spaltprodukte erzeugen soll. Eine vom Freistaat Sachsen finanzierte Machbarkeitsstudie beschreibt laut Artikel auch die Nutzung unverglaster und verglaster Brennstäbe ohne vorherige Wiederaufbereitung. Die Universität nennt als mögliches Potenzial, dass ein Endlager nach den genannten Standards womöglich nicht mehr erforderlich wäre; bis zur Entwicklung und zum Bau veranschlagt der Artikel jedoch mindestens fünf Jahre. Zudem untersucht das Nvidia-Board mit externer Unterstützung eine Affäre des Vorstandschefs Jensen Huang mit einer Mitarbeiterin eines Kunden, der Verbindungen zu chinesischen Geheimdiensten zugeschrieben werden. Deutsche Nachrichtendienste prüfen außerdem Cyberangriffe auf Kühlsysteme in Supermärkten und einer französischen Blutbank. Unklar ist, ob dahinter koordinierte Sabotage steckt. Rechenzentren stehen wegen Energie- und Wasserverbrauchs sowie mutmaßlich unvollständiger Kennzahlenangaben in der Kritik.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisches Beispiel: Ein Betreiber kritischer Kühltechnik könnte prüfen, ob Fernwartungszugänge ausreichend abgesichert sind, während ein Rechenzentrumsunternehmen seine Energie- und Wasserkennzahlen nachvollziehbar dokumentiert.",
+      "limitations": "Der Reaktor ist laut Artikel bislang ein Entwicklungsprojekt; Aussagen zur Entbehrlichkeit eines Endlagers sind Potenzialbeschreibungen. Bei den Cyberangriffen ist eine koordinierte Sabotage nicht geklärt. Die Angaben zum Rechenzentrumsverbrauch und zur Veröffentlichungspflicht werden im Text nicht weiter belegt.",
+      "summary_origin": "generated",
+      "why_relevant": "Redaktionell relevant ist die Verbindung mehrerer Infrastrukturthemen: nukleare Entsorgung, Unternehmensführung, industrielle Cybersicherheit und die Transparenz von Rechenzentren. Der Text zeigt zugleich, dass technische Potenziale und sicherheitsbezogene Verdachtslagen nicht mit bewiesenen Ergebnissen gleichzusetzen sind.",
+      "watch_next": "Prüfen Sie bei eigenen Anlagen, welche Fernwartungszugänge existieren, wer sie nutzt und ob Zugriffe protokolliert sowie ungewöhnliche Aktivitäten erkannt werden.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/Montag-Reaktor-fuer-Atommuell-Recycling-Untersuchung-von-Nvidia-Chef-nach-Affaere-11516797.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-11-09T06:15:00+01:00",
+      "collected_at": "2026-11-09T07:13:18+01:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "768ff739d8a505817c06",
+      "category": "KI & Technologie",
+      "rank": 2,
+      "title": "betterCode() Agentic AI Summit sucht Konferenzbeiträge",
+      "summary": "Der betterCode() Agentic AI Summit soll am 1. und 2. Juni 2027 in München stattfinden und sich mit KI-gestützter Softwareentwicklung beschäftigen. Laut Veranstalter entwickelte sich die Veranstaltung von einer Konferenz über generative KI hin zu einem Format über agentische Softwareentwicklung, bei der KI nicht nur einzelne Codeblöcke erstellt, sondern umfassendere Entwicklungsaufgaben unterstützt. Thematisiert werden sollen unter anderem Methoden, Modelle, Anwendungsmöglichkeiten, KI-Tools, neue Prozesse und Strukturen sowie rechtliche Aspekte. Der Call for Proposals läuft laut Artikel bis zum 28. Dezember 2026. Gesucht werden 45-minütige Vorträge und ganztägige Workshops; Erfahrungsberichte einschließlich Rückschlägen seien besonders erwünscht. Das Programm soll Anfang Februar veröffentlicht werden. Der Artikel nennt außerdem einen Veranstalterpreis für Tickets vor der Programmveröffentlichung.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisches Beispiel: Ein Entwicklungsteam könnte einen Erfahrungsbericht einreichen, der einen begrenzten Agenten-Piloten, gescheiterte Ansätze und die daraus abgeleiteten Kontrollmechanismen beschreibt.",
+      "limitations": "Der Artikel beschreibt ein Veranstaltungsangebot und die Planung zum Veröffentlichungszeitpunkt. Das endgültige Programm und die tatsächlichen Inhalte der Konferenz liegen im Text noch nicht vor. Die genannten Ticketkonditionen sind Veranstalterangaben.",
+      "summary_origin": "generated",
+      "why_relevant": "Redaktionell relevant ist der Perspektivwechsel von punktueller Codegenerierung zu organisatorisch eingebetteten KI-Agenten. Für Produkt- und Engineering-Teams deutet der Text darauf hin, dass neben Werkzeugen auch Prozesse, Rollen und Sicherheitsfragen betrachtet werden müssen.",
+      "watch_next": "Prüfen Sie, ob Ihr möglicher Konferenzbeitrag eine konkrete Erfahrung, nachvollziehbare Rückschläge und einen klar abgegrenzten Lerngewinn dokumentiert.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/betterCode-Agentic-AI-Summit-Vortraege-fuer-die-Konferenz-in-Muenchen-gesucht-11514424.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-11-08T13:00:00+01:00",
+      "collected_at": "2026-11-08T16:06:34+01:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "2042ea43d36776f4746f",
+      "category": "KI & Technologie",
+      "rank": 3,
+      "title": "Speicherchip-Knappheit verteuert Elektronik und erschwert Planung",
+      "summary": "Steigende Kosten für Speicherchips verteuern laut Artikel PCs, Smartphones, SSDs, Grafikkarten und weitere Elektronikprodukte. Eine Sprecherin von MediaMarktSaturn führt die Entwicklung auf knappe Halbleiter- und Speicherkomponenten zurück und schließt weitere Preisanpassungen nicht aus. Der Artikel nennt als Ursachen gedrosselte Produktion nach einem früheren Preisverfall sowie eine stark gestiegene Nachfrage durch den Ausbau von KI-Rechenzentren. Hersteller verkaufen Kapazitäten teilweise langfristig; bei SK Hynix sei die Hälfte der Produktion bis 2028 vergeben. Markteinschätzungen zur Entspannung reichen von frühestens zwei Jahren bis zu einer anhaltenden Krise bis 2030. Nach NIQ lagen Grafikkartenpreise im September fast doppelt so hoch wie im Vorjahresmonat, Desktop-PCs 41 Prozent höher. HBM für KI-Server und LPDDR für Mobilgeräte konkurrieren um Kapazitäten. Verbände warnen vor unsicheren Kalkulationsgrundlagen im Weihnachtsgeschäft.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisches Beispiel: Ein Unternehmen könnte bei einer geplanten Gerätebeschaffung mehrere Speicherkonfigurationen vergleichen und die Gesamtkosten statt nur den Einstiegspreis bewerten.",
+      "limitations": "Der Artikeltext endet unvollständig. Mehrere Aussagen stammen von Händlern, Verbänden oder Marktforschern und sind entsprechend als deren Einschätzungen einzuordnen. Prognosen zur Dauer der Speicherkrise werden widersprüchlich dargestellt; eine sichere Preisentwicklung folgt daraus nicht.",
+      "summary_origin": "generated",
+      "why_relevant": "Redaktionell relevant ist die Auswirkung des KI-Infrastrukturausbaus auf klassische Hardwaremärkte. Für PM- und IT-Planung bedeutet das im Artikel vor allem: Kosten, Verfügbarkeit und Spezifikationen können durch konkurrierende Nachfrage schwerer vorhersehbar werden.",
+      "watch_next": "Prüfen Sie vor einer Beschaffung aktuelle Preise, Speicherkapazitäten und Lieferzusagen mehrerer Anbieter und dokumentieren Sie die Vergleichsgrundlage.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/Sorgen-um-Weihnachtsgeschaeft-wegen-teurer-Elektronik-11516579.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-11-08T12:02:00+01:00",
+      "collected_at": "2026-11-08T16:06:34+01:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "a2aba81f8c18add1c86b",
+      "category": "KI & Technologie",
+      "rank": 4,
+      "title": "Workshop zu Claude Code und agentischer Softwareentwicklung",
+      "summary": "Ein von heise beworbener Workshop zeigt laut Artikel, wie Claude Code als agentisches Werkzeug umfangreichere Entwicklungsaufgaben unterstützen kann. Vorgesehen sind Anwendungen von der Architekturplanung über Implementierung und Tests bis zu Refactoring. Behandelt werden außerdem Prompting-Strategien, Kontext- und Sitzungsverwaltung sowie die Anpassung des Werkzeugs durch eigene Regeln, Standards und Skills. Fortgeschrittene Themen sind Subagenten, Worktrees und die Anbindung externer Werkzeuge über MCP-Server. Die Inhalte sollen anhand eines durchgängigen TypeScript-Projekts im Live-Einsatz vermittelt werden. Ziel ist nicht nur die Kenntnis einzelner Funktionen, sondern ein Verständnis für die Integration in bestehende Entwicklungsprozesse und für Grenzen agentischer Systeme. Der Workshop richtet sich laut Veranstalter an erfahrene Softwareentwickler mit ersten Erfahrungen in KI-gestützter Entwicklung. Als Referent wird Rainer Stropek mit Erfahrung in Softwareentwicklung, Architektur und Cloud Computing genannt.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisches Beispiel: Ein Team könnte einen kleinen Refactoring-Auftrag in einer isolierten Arbeitskopie ausführen lassen, Tests automatisch anstoßen und jede Änderung vor der Übernahme prüfen.",
+      "limitations": "Die beschriebenen Fähigkeiten und Effizienzgewinne sind Veranstalterangaben; unabhängige Messwerte fehlen. Der Text nennt keine konkreten Modellversionen, Systemvoraussetzungen oder Ergebnisse aus dem Workshop. Die Eignung für andere Sprachen und Entwicklungsumgebungen wird nicht belegt.",
+      "summary_origin": "generated",
+      "why_relevant": "Redaktionell relevant ist die Betonung des gesamten Entwicklungsablaufs statt isolierter Codevorschläge. Der Artikel macht außerdem deutlich, dass der Nutzen agentischer Werkzeuge von Kontext, Regeln, Tool-Anbindungen und Prozessintegration abhängt.",
+      "watch_next": "Prüfen Sie in einem begrenzten Repository, welche Aufgaben ein Agent sicher bearbeiten darf, welche Tests verpflichtend sind und wie Änderungen nachvollziehbar freigegeben werden.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/iX-Workshop-Claude-Code-in-der-Praxis-effizienter-entwickeln-mit-KI-Agenten-11503304.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-11-08T10:00:00+01:00",
+      "collected_at": "2026-11-08T16:06:34+01:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "694710927f8afa39071b",
+      "category": "KI & Technologie",
+      "rank": 5,
+      "title": "KI-Companion-Apps zwischen Nähe, Daten und Abhängigkeit",
+      "summary": "Die Dokumentation „Finding Connection“ begleitet vier Menschen, die emotionale Beziehungen zu KI-Partnern wie Star, Kira, Randy und Trudi beschreiben. Die Protagonisten wissen laut Artikel, dass ihre Chatbots keine menschlichen Gefühle haben, empfinden den Kontakt aber dennoch als echt. Regisseur Florian Karner wollte ursprünglich Einsamkeit untersuchen und stieß dabei auf Companion-Apps. Kritisch sieht er weniger die Nutzer als ein Geschäftsmodell, das eine soziale Lücke mit KI füllt. Der baden-württembergische Datenschutzbeauftragte Tobias Keber verweist im Zusammenhang mit Anbietern wie Replika und Character.AI auf offene Fragen zu Datenverarbeitung, Altersprüfung, Modelltraining, Löschung und Veränderungen der Avatar-Persönlichkeit. Der Artikel nennt außerdem frühere Maßnahmen der italienischen Datenschutzbehörde gegen Replika. Updates können Stimmen und Verhalten verändern; zugleich können Bezahlmodelle romantische Beziehungen und Premiumfunktionen fördern. Der vorliegende Text endet unvollständig.",
+      "editorial_depth": true,
+      "practice_example": "Hypothetisches Beispiel: Ein Anbieter könnte vor einem Avatar-Update offenlegen, welche Stimme und Verhaltensmerkmale sich ändern, und Nutzern eine nachvollziehbare Export- oder Löschoption anbieten.",
+      "limitations": "Der Artikeltext ist unvollständig und enthält keine vollständige Darstellung der Dokumentation oder aller rechtlichen Bewertungen. Aussagen zu Verfahren und Maßnahmen werden als Bericht über Behördenangaben wiedergegeben; daraus folgt keine eigene rechtliche Einordnung. Die Wirkungen von Companion-Apps auf Nutzer werden nicht systematisch untersucht.",
+      "summary_origin": "generated",
+      "why_relevant": "Redaktionell relevant ist die Spannung zwischen subjektiv echter Beziehung und technisch-geschäftlicher Abhängigkeit. Für Produktverantwortliche zeigt der Artikel, dass Datenpraktiken, Versionsänderungen, Löschbarkeit und Monetarisierung bei Companion-Produkten unmittelbar die Nutzererfahrung prägen.",
+      "watch_next": "Prüfen Sie bei einer Companion-Anwendung Datenschutzhinweise, Altersmechanismen, Löschprozesse, Änderungsprotokolle und die Bedingungen für kostenpflichtige Beziehungsfunktionen.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/hintergrund/Missing-Link-Wenn-die-KI-zuhoert-wo-Menschen-es-nicht-mehr-tun-11516378.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-11-08T08:12:00+01:00",
+      "collected_at": "2026-11-08T16:06:34+01:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": true,
+      "content_kind": "current",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "3da36546586f7dd5ca01",
+      "category": "AI & PM",
+      "rank": 6,
+      "title": "Warum Projektmanager KI nutzen wollen – und was sie zurückhält",
+      "summary": "KI im Projektmanagement bietet Entlastung, doch Unsicherheit bremst die Nutzung. Warum psychologische Sicherheit und Lernbereitschaft entscheidend sind.",
+      "editorial_depth": false,
+      "practice_example": "",
+      "limitations": "",
+      "summary_origin": "source_excerpt",
+      "why_relevant": "Für IT- und Projektverantwortliche relevant, weil die Meldung eine konkrete Entwicklung an der Schnittstelle von KI und Projektmanagement beschreibt.",
+      "watch_next": "Weitere Konkretisierungen und Praxisbeispiele in der Originalquelle verfolgen.",
+      "source": "GPM – Aktuelles und Blog",
+      "source_type": "primary",
+      "source_url": "https://www.gpm-ipma.de/ueber-die-gpm/blog/warum-projektmanagerinnen-und-projektmanager-ki-nutzen-wollen-und-was-sie-zurueckhaelt",
+      "published_at": "2026-10-21",
+      "collected_at": "2026-10-21T12:04:28+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "is_top5": false,
+      "content_kind": "background",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "82380150919cdca02507",
+      "category": "IT Security",
+      "rank": 7,
+      "title": "heise-Angebot: KI in der Cybersecurity – Sicherheit trotz Coding-Agenten, LLMs und Deepfakes",
+      "summary": "KI verändert die IT-Sicherheit und bringt sowohl neue Angriffsflächen als auch Einsatzmöglichkeiten mit sich.",
+      "editorial_depth": false,
+      "practice_example": "",
+      "limitations": "",
+      "summary_origin": "generated",
+      "why_relevant": "Verantwortliche müssen bewerten, wie KI neue Cyberrisiken verändert und welche Sicherheitsmöglichkeiten für die eigene Organisation relevant sind.",
+      "watch_next": "Beobachten Sie konkrete Bedrohungsszenarien, verfügbare Schutzmaßnahmen und deren Übertragbarkeit auf die eigene IT-Umgebung.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/KI-in-der-Cybersecurity-Sicherheit-trotz-Coding-Agenten-LLMs-und-Deepfakes-11447465.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-10-27T12:00:00+01:00",
+      "collected_at": "2026-10-27T17:32:49+01:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": false,
+      "content_kind": "background",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "61952b0355e955b50aa9",
+      "category": "AI & PM",
+      "rank": 8,
+      "title": "APM urges Government and industry to use major national projects to create new opportunities for NEETs and early-career talent",
+      "summary": "Association for Project Management (APM) is calling on Government and industry to take urgent action to help young people enter project careers, warning that the UK risks missing out on a generation of talent at a time when AI, infrastructure renewal, clean energy, defence, housing and digital transformation are increasing demand for project skills.",
+      "editorial_depth": false,
+      "practice_example": "",
+      "limitations": "",
+      "summary_origin": "source_excerpt",
+      "why_relevant": "Für IT- und Projektverantwortliche relevant, weil die Meldung eine konkrete Entwicklung an der Schnittstelle von KI und Projektmanagement beschreibt.",
+      "watch_next": "Weitere Konkretisierungen und Praxisbeispiele in der Originalquelle verfolgen.",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/news/apm-urges-government-and-industry-to-use-major-national-projects-to-create-new-opportunities-for-neets-and-early-career-talent/",
+      "published_at": "2026-10-14",
+      "collected_at": "2026-10-14T15:39:16+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "is_top5": false,
+      "content_kind": "background",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "fd7cd5678893b552b51d",
+      "category": "KI & Technologie",
+      "rank": 9,
+      "title": "Photokina-Comeback und KI-Skandal – die Fotonews der Woche 41/2026",
+      "summary": "Die Fotonews berichten über den Standortwechsel einer Imaging-Veranstaltung, eine Untersuchung möglichen KI-Betrugs bei Nikon und eine Auszeichnung für Graciela Iturbide.",
+      "editorial_depth": false,
+      "practice_example": "",
+      "limitations": "",
+      "summary_origin": "generated",
+      "why_relevant": "Für Technologie- und Projektverantwortliche bietet die Meldung Einblick in aktuelle Entwicklungen rund um KI-Nutzung und Integrität in der Imaging-Branche.",
+      "watch_next": "Beobachten, zu welchem Ergebnis die Prüfung des möglichen KI-Betrugs kommt und wie die Imaging World in Köln umgesetzt wird.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/Photokina-Comeback-und-KI-Skandal-die-Fotonews-der-Woche-41-2026-11482204.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-10-10T10:00:00+02:00",
+      "collected_at": "2026-10-10T10:24:56+02:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": false,
+      "content_kind": "background",
+      "related_sources": [],
+      "social_verified": false
+    },
+    {
+      "id": "48b51cd2f32026987a0d",
+      "category": "DSGVO & Ethik",
+      "rank": 10,
+      "title": "Freitag: Google-Konzern mit massivem Börsenverlust, Amazon mit hohen KI-Kosten",
+      "summary": "Absturz wegen hoher Alphabet-Ausgaben + Amazon-Wachstum dank AWS + Patrick Stewart gestorben + Telekom-Fusion mit T-Mobile USA vertagt + Datenschutz-Podcast",
+      "editorial_depth": false,
+      "practice_example": "",
+      "limitations": "",
+      "summary_origin": "source_excerpt",
+      "why_relevant": "Für Unternehmen relevant, weil die Meldung eine konkrete Entwicklung zu Datenschutz oder verantwortungsvoller KI-Nutzung beschreibt.",
+      "watch_next": "Neue Guidance und weitere Konkretisierungen der zuständigen Quelle beobachten.",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/Freitag-Google-Konzern-mit-massivem-Boersenverlust-Amazon-mit-hohen-KI-Kosten-11505595.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "published_at": "2026-10-30T06:15:00+01:00",
+      "collected_at": "2026-10-30T08:03:29+01:00",
+      "verification": "secondary",
+      "status": "ok",
+      "is_top5": false,
+      "content_kind": "background",
+      "related_sources": [],
+      "social_verified": false
+    }
+  ],
+  "freshness": {
+    "news_window_days": 7,
+    "current_count": 5,
+    "background_count": 5
+  },
+  "signals": {
+    "history_state": "building",
+    "days_available": 1,
+    "topics": []
+  },
+  "source_status": [
+    {
+      "name": "European Commission – AI Act / AI Office",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-11-09T07:12:44+01:00",
+      "items_found": 8
+    },
+    {
+      "name": "EUR-Lex – Regulation (EU) 2024/1689",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-11-09T07:12:44+01:00",
+      "items_found": 1
+    },
+    {
+      "name": "European Data Protection Board",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-11-09T07:12:45+01:00",
+      "items_found": 1
+    },
+    {
+      "name": "Datenschutzkonferenz",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-11-09T07:12:46+01:00",
+      "items_found": 1
+    },
+    {
+      "name": "PMI – Artificial Intelligence",
+      "type": "optional",
+      "status": "failed",
+      "last_update": "2026-11-09T07:12:47+01:00",
+      "note": "403 Client Error: Forbidden for url: https://www.pmi.org/blog?userTagIDSort=11122"
+    },
+    {
+      "name": "GPM – Aktuelles und Blog",
+      "type": "core",
+      "status": "ok",
+      "last_update": "2026-11-09T07:12:56+01:00",
+      "items_found": 10
+    },
+    {
+      "name": "APM – News and Blog",
+      "type": "core",
+      "status": "degraded",
+      "last_update": "2026-11-09T07:13:16+01:00",
+      "items_found": 10,
+      "note": "Datum oder Kurztext fehlt."
+    },
+    {
+      "name": "BSI – Cyber- und KI-Sicherheit",
+      "type": "optional",
+      "status": "ok",
+      "last_update": "2026-11-09T07:13:16+01:00",
+      "items_found": 5
+    },
+    {
+      "name": "ENISA – Cyber- und KI-Sicherheit",
+      "type": "optional",
+      "status": "ok",
+      "last_update": "2026-11-09T07:13:17+01:00",
+      "items_found": 5
+    },
+    {
+      "name": "OpenAI – News",
+      "type": "optional",
+      "status": "ok",
+      "last_update": "2026-11-09T07:13:17+01:00",
+      "items_found": 5
+    },
+    {
+      "name": "Google – AI Blog",
+      "type": "optional",
+      "status": "ok",
+      "last_update": "2026-11-09T07:13:17+01:00",
+      "items_found": 5
+    },
+    {
+      "name": "heise online – KI-Nachrichten",
+      "type": "optional",
+      "status": "ok",
+      "last_update": "2026-11-09T07:13:18+01:00",
+      "items_found": 8
+    }
+  ],
+  "ranking": {
+    "requested_mode": "hybrid",
+    "effective_mode": "baseline_fallback",
+    "error_class": "EvaluationDiagnosticError",
+    "cache_hits": 0,
+    "cache_misses": 102,
+    "api_items_evaluated": 102,
+    "api_call_performed": true,
+    "selection": {
+      "selection_policy": "24h_first_with_eligible_pm_slot",
+      "recent_core_candidates": 102,
+      "recent_core_not_selected": 97,
+      "unavailable_sources": [
+        "PMI – Artificial Intelligence"
+      ]
+    },
+    "editorial_depth": {
+      "enabled": true,
+      "api_calls": 1,
+      "cache_hits": 0,
+      "article_failures": 0,
+      "usage": {
+        "input_tokens": 5557,
+        "input_tokens_details": {
+          "cache_write_tokens": 5554,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2353,
+        "output_tokens_details": {
+          "reasoning_tokens": 71
+        },
+        "total_tokens": 7910
+      },
+      "model_cost_usd": 0.003935
+    }
+  },
+  "editorial_depth_status": {
+    "enabled": true,
+    "api_calls": 1,
+    "cache_hits": 0,
+    "article_failures": 0,
+    "usage": {
+      "input_tokens": 5557,
+      "input_tokens_details": {
+        "cache_write_tokens": 5554,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2353,
+      "output_tokens_details": {
+        "reasoning_tokens": 71
+      },
+      "total_tokens": 7910
+    },
+    "model_cost_usd": 0.003935
+  },
+  "editorial_brief": {
+    "title": "Aktuelle Auswahl",
+    "summary": "Die Technische Universität Dresden plant einen experimentellen Flüssigsalzreaktor, der abgebrannte Brennelemente direkt nutzen und daraus Strom sowie wiederverwertbare Spaltprodukte erzeugen soll. Eine vom Freistaat Sachsen finanzierte Machbarkeitsstudie beschreibt laut Artikel auch die Nutzung unverglaster und verglaster Brennstäbe ohne vorherige Wiederaufbereitung. Die Universität nennt als mögliches Potenzial, dass ein Endlager nach den genannten Standards womöglich nicht mehr erforderlich wäre; bis zur Entwicklung und zum Bau veranschlagt der Artikel jedoch mindestens fünf Jahre. Zudem untersucht das Nvidia-Board mit externer Unterstützung eine Affäre des Vorstandschefs Jensen Huang mit einer Mitarbeiterin eines Kunden, der Verbindungen zu chinesischen Geheimdiensten zugeschrieben werden. Deutsche Nachrichtendienste prüfen außerdem Cyberangriffe auf Kühlsysteme in Supermärkten und einer französischen Blutbank. Unklar ist, ob dahinter koordinierte Sabotage steckt. Rechenzentren stehen wegen Energie- und Wasserverbrauchs sowie mutmaßlich unvollständiger Kennzahlenangaben in der Kritik.",
+    "why_relevant": "Redaktionell relevant ist die Verbindung mehrerer Infrastrukturthemen: nukleare Entsorgung, Unternehmensführung, industrielle Cybersicherheit und die Transparenz von Rechenzentren. Der Text zeigt zugleich, dass technische Potenziale und sicherheitsbezogene Verdachtslagen nicht mit bewiesenen Ergebnissen gleichzusetzen sind.",
+    "watch_next": "Prüfen Sie bei eigenen Anlagen, welche Fernwartungszugänge existieren, wer sie nutzt und ob Zugriffe protokolliert sowie ungewöhnliche Aktivitäten erkannt werden.",
+    "item_id": "0919dd25b96b3f05353e",
+    "published_at": "2026-11-09T06:15:00+01:00",
+    "context": "Ausgewählte Kernmeldungen aus dem Zeitfenster der letzten 7 Tage.",
+    "limits": [
+      "Nach der Inhaltsbewertung nicht ausgewählte aktuelle Kandidaten: 97.",
+      "Letzter Abruf eingeschränkt: PMI – Artificial Intelligence."
+    ]
+  }
+}
