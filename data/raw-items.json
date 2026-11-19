@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "collected_at": "2026-11-19T04:19:51+01:00",
+  "collected_at": "2026-11-19T13:55:26+01:00",
   "items": [
     {
       "id": "e5ed168d5258a6eb90ae",
@@ -20,7 +20,977 @@
       "collector_note": null,
       "content_hash": "4e7b2d83bd73447bf7592f45098fe89618d61d4d4f2f7557d537d6523c2ea5a5",
       "first_seen_at": "2026-11-18T22:54:03+01:00",
-      "last_seen_at": "2026-11-19T04:19:51+01:00"
+      "last_seen_at": "2026-11-19T13:55:26+01:00"
+    },
+    {
+      "id": "8f07138f301c9dc84575",
+      "source_id": "heise-ai-news",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/Anthropic-Finaler-IPO-Preis-steht-fest-11528229.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "Anthropic: Finaler IPO-Preis steht fest",
+      "raw_excerpt": "Anthropic hat den finalen Preis für seine Aktien bekannt gegeben. Die Aktien sollen am Donnerstag an die Börse NASDAQ kommen.",
+      "published_at": "2026-11-19T02:25:00+01:00",
+      "collected_at": "2026-11-19T04:19:51+01:00",
+      "verification": "secondary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "45a02c2055783ddb226a1686109d8e87c8d533e1f7f9197b184322faff40c71b",
+      "first_seen_at": "2026-11-19T04:19:51+01:00",
+      "last_seen_at": "2026-11-19T13:55:26+01:00"
+    },
+    {
+      "id": "0549246a7fbb15377444",
+      "source_id": "google-ai-news",
+      "source": "Google – AI Blog",
+      "source_type": "vendor",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "raw_excerpt": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+      "published_at": "2026-11-11T19:00:00+01:00",
+      "collected_at": "2026-11-11T22:53:50+01:00",
+      "verification": "vendor",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "282b33548e3d386b5e08492bcdd8d3438d0cf86197e400ee06e40f2de8ffddd2",
+      "first_seen_at": "2026-11-11T22:53:50+01:00",
+      "last_seen_at": "2026-11-19T13:55:26+01:00"
+    },
+    {
+      "id": "a0f441708b5e6f4f5365",
+      "source_id": "google-ai-news",
+      "source": "Google – AI Blog",
+      "source_type": "vendor",
+      "source_url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "raw_excerpt": "Rotating carousel of cards with text \"Gemini 4 Hydrogen\" \"Now in Google Search\" and examples from the Google Search UI",
+      "published_at": "2026-11-12T19:00:00+01:00",
+      "collected_at": "2026-11-12T19:52:04+01:00",
+      "verification": "vendor",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "18945ec8dd0844ec75133fa8b31249746811a084c7a2ddaa4fd15d9d1f12b341",
+      "first_seen_at": "2026-11-12T19:52:04+01:00",
+      "last_seen_at": "2026-11-19T13:55:26+01:00"
+    },
+    {
+      "id": "85d9bdc6a22ae7418aa8",
+      "source_id": "google-ai-news",
+      "source": "Google – AI Blog",
+      "source_type": "vendor",
+      "source_url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "New Ask Maps features to help with holiday travel and prep",
+      "raw_excerpt": "tbd",
+      "published_at": "2026-11-16T15:00:00+01:00",
+      "collected_at": "2026-11-16T21:58:42+01:00",
+      "verification": "vendor",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "acdcb5508faba10dd800887c166f457f3d8d41e27eb9b54c93a2f25cd90cd636",
+      "first_seen_at": "2026-11-16T21:58:42+01:00",
+      "last_seen_at": "2026-11-19T13:55:26+01:00"
+    },
+    {
+      "id": "f3cc7205676018f9eb5e",
+      "source_id": "google-ai-news",
+      "source": "Google – AI Blog",
+      "source_type": "vendor",
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "Put Gemini to work for you",
+      "raw_excerpt": "A user interface displaying the prompt \"What can I get done for you?\" above an input box containing placeholder text \"Describe a task\".",
+      "published_at": "2026-11-17T18:00:00+01:00",
+      "collected_at": "2026-11-17T23:16:08+01:00",
+      "verification": "vendor",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "4feb2553b9b33a51b46725c33b5fd0b23c6d05968f3bd31418d055ea71cb1e94",
+      "first_seen_at": "2026-11-17T23:16:08+01:00",
+      "last_seen_at": "2026-11-19T13:55:26+01:00"
+    },
+    {
+      "id": "e02c80316e17fbe059d0",
+      "source_id": "google-ai-news",
+      "source": "Google – AI Blog",
+      "source_type": "vendor",
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "The Gemini app is now available on lower-memory Android devices.",
+      "raw_excerpt": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
+      "published_at": "2026-11-18T18:00:00+01:00",
+      "collected_at": "2026-11-18T22:54:02+01:00",
+      "verification": "vendor",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "eebb2331e3ececc845ca7c5375ac4f54ce45c702478f5f7de992568d0020e4b3",
+      "first_seen_at": "2026-11-18T22:54:02+01:00",
+      "last_seen_at": "2026-11-19T13:55:26+01:00"
+    },
+    {
+      "id": "797132733040a2e69552",
+      "source_id": "heise-ai-news",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/Microsofts-KI-Framework-verteilt-Malware-So-bekamen-Angreifer-Zugang-11530977.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "Microsofts KI-Framework verteilt Malware: So bekamen Angreifer Zugang",
+      "raw_excerpt": "Bei einem Hackerangriff wurde das Agent-Framework von Microsoft mit Malware infiziert, die an User ausgespielt wurde. Was Betroffene jetzt wissen müssen.",
+      "published_at": "2026-11-19T12:55:00+01:00",
+      "collected_at": "2026-11-19T13:55:26+01:00",
+      "verification": "secondary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "c56a0504d5f15e6489fac132e5e875741097785f2a6258ec64cc094c0b1f8459",
+      "first_seen_at": "2026-11-19T13:55:26+01:00",
+      "last_seen_at": "2026-11-19T13:55:26+01:00"
+    },
+    {
+      "id": "2fcef0a4c5a1be0cb506",
+      "source_id": "heise-ai-news",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/Google-Genie-4-Interaktive-KI-Welten-jetzt-fuer-Abonnenten-verfuegbar-11530791.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "Google Genie 4: Interaktive KI-Welten jetzt für Abonnenten verfügbar",
+      "raw_excerpt": "Genie 4 ist jetzt für Abonnenten von Google AI Ultra zugänglich. Nutzer können damit interaktive Umgebungen erschaffen, erkunden, verändern und teilen.",
+      "published_at": "2026-11-19T12:20:00+01:00",
+      "collected_at": "2026-11-19T13:55:26+01:00",
+      "verification": "secondary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "ecbf0f1b0f7beb6f62fcf66217f4e47a7de1e340dad188fe324244525af41a2a",
+      "first_seen_at": "2026-11-19T13:55:26+01:00",
+      "last_seen_at": "2026-11-19T13:55:26+01:00"
+    },
+    {
+      "id": "76f8f024d3c2a7c75792",
+      "source_id": "heise-ai-news",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/KI-Assistent-und-MCP-Apple-oeffnet-iWork-Apps-fuer-LLMs-11530795.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "Pages, Numbers, Keynote: Apples Office-Suite bekommt KI-Boost",
+      "raw_excerpt": "Pages, Numbers und Keynote lassen sich nun mit KI-Unterstützung steuern, über MCP dürfen am Mac externe LLMs ran. In der Basisversion fehlen die Funktionen.",
+      "published_at": "2026-11-19T12:08:00+01:00",
+      "collected_at": "2026-11-19T13:55:26+01:00",
+      "verification": "secondary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "4ef583444a585b6817d96f6a4211827ae186d260f3c3150f71d092a682c48123",
+      "first_seen_at": "2026-11-19T13:55:26+01:00",
+      "last_seen_at": "2026-11-19T13:55:26+01:00"
+    },
+    {
+      "id": "be76b9ae6a111ee9e943",
+      "source_id": "heise-ai-news",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/Gemini-4-Neon-macht-Googles-Spitzenmodell-Konkurrenz-11530483.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "Gemini 4 Neon macht Googles Spitzenmodell Konkurrenz",
+      "raw_excerpt": "Googles neues KI-Modell Gemini 4 Neon erreicht in Benchmarks das Niveau des Spitzenmodells Gemini 4 Carbon, arbeitet aber schneller und bald auch günstiger.",
+      "published_at": "2026-11-19T09:38:00+01:00",
+      "collected_at": "2026-11-19T13:55:26+01:00",
+      "verification": "secondary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "a78e86ed5f5d2f68906aedd5ce52dd20502b4fa883a07653ab4e7a1785b184a6",
+      "first_seen_at": "2026-11-19T13:55:26+01:00",
+      "last_seen_at": "2026-11-19T13:55:26+01:00"
+    },
+    {
+      "id": "ccbdd85650ed808e8ba2",
+      "source_id": "heise-ai-news",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/tests/Claude-als-Office-Ersatz-Wie-weit-Anthropics-eingebaute-Werkzeuge-schon-reichen-11521250.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "heise+ | Claude als Office-Ersatz: Wie weit Anthropics eingebaute Werkzeuge schon reichen",
+      "raw_excerpt": "Innerhalb von Claude Textdokumente, Tabellen, Folien und Whiteboards nutzen: Was das KI-Office kann und was es von Microsoft Office und Google Docs trennt.",
+      "published_at": "2026-11-19T09:00:00+01:00",
+      "collected_at": "2026-11-19T13:55:26+01:00",
+      "verification": "secondary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "54f9d0fdd3001c083a0d7de8ea087b1a3712b5e659db6942d833f687b42935e4",
+      "first_seen_at": "2026-11-19T13:55:26+01:00",
+      "last_seen_at": "2026-11-19T13:55:26+01:00"
+    },
+    {
+      "id": "97378a1b1e3f8c9a54bb",
+      "source_id": "heise-ai-news",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/Donnerstag-Anthropics-ueberzeichneter-Boersengang-Meta-mit-noch-einem-Messenger-11530299.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "Donnerstag: Anthropics überzeichneter Börsengang, Meta mit noch einem Messenger",
+      "raw_excerpt": "Mehr teurere KI-Aktien + Standalone-Messenger von Instagram + Updates für Lücken in nginx und WordPress + PHP mit Sicherheitsproblemen + Lyft schluckt FreeNow",
+      "published_at": "2026-11-19T06:15:00+01:00",
+      "collected_at": "2026-11-19T13:55:26+01:00",
+      "verification": "secondary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "fbcb57e4ff9de446e80a0a7ff2ceff8f872ea0b60eaba78a643120a58884310c",
+      "first_seen_at": "2026-11-19T13:55:26+01:00",
+      "last_seen_at": "2026-11-19T13:55:26+01:00"
+    },
+    {
+      "id": "44b268290e123f913bc6",
+      "source_id": "openai-news",
+      "source": "OpenAI – News",
+      "source_type": "vendor",
+      "source_url": "https://openai.com/index/the-silent-consensus",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "The Silent Consensus",
+      "raw_excerpt": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+      "published_at": "2026-11-18T11:00:00+01:00",
+      "collected_at": "2026-11-18T22:54:02+01:00",
+      "verification": "vendor",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "8f3df33278a3933e1b8addf93e4a026cc45f4ab8297812045a448a762960e3fa",
+      "first_seen_at": "2026-11-18T22:54:02+01:00",
+      "last_seen_at": "2026-11-19T13:55:25+01:00"
+    },
+    {
+      "id": "38c6de2cbe1246faf323",
+      "source_id": "openai-news",
+      "source": "OpenAI – News",
+      "source_type": "vendor",
+      "source_url": "https://openai.com/index/inside-the-codex-sandbox",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "Inside the Codex sandbox",
+      "raw_excerpt": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
+      "published_at": "2026-11-18T09:00:00+01:00",
+      "collected_at": "2026-11-18T22:54:02+01:00",
+      "verification": "vendor",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "3646a9686d3d540cb8b53db0b38830f31698e55606953ba04991661c24db7d28",
+      "first_seen_at": "2026-11-18T22:54:02+01:00",
+      "last_seen_at": "2026-11-19T13:55:25+01:00"
+    },
+    {
+      "id": "a69dc149222e331a0889",
+      "source_id": "openai-news",
+      "source": "OpenAI – News",
+      "source_type": "vendor",
+      "source_url": "https://openai.com/index/managing-frontier-ai-risk",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "Managing frontier AI risk: From training to deployment",
+      "raw_excerpt": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+      "published_at": "2026-11-18T07:00:00+01:00",
+      "collected_at": "2026-11-18T22:54:02+01:00",
+      "verification": "vendor",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "86008d235700adb2ee889b2bfcc8656c92f244c20dbf0d457cdaac24ebec88b8",
+      "first_seen_at": "2026-11-18T22:54:02+01:00",
+      "last_seen_at": "2026-11-19T13:55:25+01:00"
+    },
+    {
+      "id": "8f06b79d388f40327935",
+      "source_id": "enisa-security",
+      "source": "ENISA – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.enisa.europa.eu/news/cybersecurity-month-work-employees-skills-under-the-looking-glass",
+      "category": [
+        "IT Security"
+      ],
+      "title": "Cybersecurity Month @ work: Employees' skills under the looking glass",
+      "raw_excerpt": "With the digitalisation of the workplace, organisations and their employees must navigate and manage the digital risks.",
+      "published_at": "2026-09-30T12:55:56+02:00",
+      "collected_at": "2026-10-06T13:24:52+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "225fd97730996f1056df2c3d6e0681ea23d0a6212ad9322476999f5ec066e30b",
+      "first_seen_at": "2026-10-06T13:24:52+02:00",
+      "last_seen_at": "2026-11-19T13:55:25+01:00"
+    },
+    {
+      "id": "6536b2d03b18d7fa242c",
+      "source_id": "enisa-security",
+      "source": "ENISA – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.enisa.europa.eu/news/sweden-sweeps-the-winning-title-of-the-european-cybersecurity-challenge",
+      "category": [
+        "IT Security"
+      ],
+      "title": "Sweden sweeps the winning title of the European Cybersecurity Challenge",
+      "raw_excerpt": "Best competing teams in this 12 th edition of the European Cybersecurity Challenge (ECSC) include Sweden, winners, followed by Finland in second place and Austria in third place. ENISA congratulates the winning teams and thanks all…",
+      "published_at": "2026-10-16T17:14:35+02:00",
+      "collected_at": "2026-10-16T19:22:39+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "e03ad27417c82d4d9a6dbf695936a0fd0a1b930389ad63bab14fbdee07350538",
+      "first_seen_at": "2026-10-16T19:22:39+02:00",
+      "last_seen_at": "2026-11-19T13:55:25+01:00"
+    },
+    {
+      "id": "9f19ecdf86ee7f98cb26",
+      "source_id": "enisa-security",
+      "source": "ENISA – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.enisa.europa.eu/news/joint-statement-on-critical-php-vulnerabilities",
+      "category": [
+        "IT Security"
+      ],
+      "title": "Joint statement on critical PHP vulnerabilities",
+      "raw_excerpt": "The European Commission (DG CNECT), ENISA, the European Union Agency for Cybersecurity, CERT-EU, Europol EC3, and the network of the EU national computer security incident response teams (CSIRTs network), advise organisations to take immediate…",
+      "published_at": "2026-10-21T19:33:36+02:00",
+      "collected_at": "2026-10-21T22:06:31+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "acddcb3d9dbecf995ef8308e998220c71de215736c030001ead1ead9ec8266fd",
+      "first_seen_at": "2026-10-21T22:06:31+02:00",
+      "last_seen_at": "2026-11-19T13:55:25+01:00"
+    },
+    {
+      "id": "9753bcb4af007e4bacc7",
+      "source_id": "enisa-security",
+      "source": "ENISA – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.enisa.europa.eu/news/joint-statement-on-cyber-incidents-in-refrigeration-systems-across-the-eu",
+      "category": [
+        "IT Security"
+      ],
+      "title": "Joint statement on cyber incidents in refrigeration systems across the EU",
+      "raw_excerpt": "Since 11 October 2026, several commercial refrigeration systems and similar devices have been impacted by cybersecurity incidents in a number of EU Member States.",
+      "published_at": "2026-11-04T19:12:01+01:00",
+      "collected_at": "2026-11-05T00:36:43+01:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "2529e56367266e0bcca88dab75e0b732d4b7ed1ab912fc9c47d930074d920bd5",
+      "first_seen_at": "2026-11-05T00:36:43+01:00",
+      "last_seen_at": "2026-11-19T13:55:25+01:00"
+    },
+    {
+      "id": "d90249d72f0d99744e7d",
+      "source_id": "enisa-security",
+      "source": "ENISA – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.enisa.europa.eu/news/enisa-reveals-the-state-of-cybersecurity-in-the-union",
+      "category": [
+        "IT Security"
+      ],
+      "title": "ENISA reveals the State of Cybersecurity in the Union",
+      "raw_excerpt": "As the cyber ecosystem is in flux, the 2026 edition of the biennial report introduces a ‘strategic compass’, reflecting the main directions of the EU cybersecurity ecosystem and sets out actionable policy recommendations identifying areas for…",
+      "published_at": "2026-11-10T12:03:04+01:00",
+      "collected_at": "2026-11-11T00:14:35+01:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "a1610604516dbbabf9dca4d12c9edba8264fa2864002331821c0f70e8f52a559",
+      "first_seen_at": "2026-11-11T00:14:35+01:00",
+      "last_seen_at": "2026-11-19T13:55:25+01:00"
+    },
+    {
+      "id": "0c8caa098365fd047aaa",
+      "source_id": "bsi-security",
+      "source": "BSI – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/260911_CRA_Meldepflicht_Schwachstellen.html",
+      "category": [
+        "IT Security"
+      ],
+      "title": "Cyber Resilience Act: Meldepflicht startet",
+      "raw_excerpt": "Für Hersteller von Produkten mit digitalen Elementen gelten auf dem Binnenmarkt der EU ab dem 11. September 2026 die Meldepflichten des CRA. Hersteller müssen aktiv ausgenutzte Schwachstellen sowie schwerwiegende Sicherheitsvorfälle melden. Das BSI unterstützt mit Schritt-für-Schritt-Anleitungen.",
+      "published_at": "2026-09-11T09:00:00+02:00",
+      "collected_at": "2026-10-06T13:24:51+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "81395f5d03cf2b1d35d1800c9ae35ee1414e3b4260cbdce7260b29b63dc94971",
+      "first_seen_at": "2026-10-06T13:24:51+02:00",
+      "last_seen_at": "2026-11-19T13:55:25+01:00"
+    },
+    {
+      "id": "e5c9b8b2ace7a43200cf",
+      "source_id": "bsi-security",
+      "source": "BSI – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/261007_KI-Sicherheitsstudie_TUEV_BSI.html",
+      "category": [
+        "IT Security"
+      ],
+      "title": "Nur jedes zehnte Unternehmen gegen KI-gestützte Angriffe gerüstet - jedes sechste Unternehmen berichtet von Vorfällen",
+      "raw_excerpt": "Nur wenige Unternehmen in Deutschland haben Schutzmaßnahmen und Prozesse mit Blick auf Cyberangriffe im Zusammenhang mit KI etabliert. Das zeigt die aktuelle Studie von TÜV-Verband und BSI zum Thema „Künstliche Intelligenz und Cybersicherheit in Unternehmen\".",
+      "published_at": "2026-10-07T10:00:00+02:00",
+      "collected_at": "2026-10-12T19:49:22+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "b711f7fcda22b83b3767e55bde5472e65cbdb49e7430aa24d4a26fbdd7d99d78",
+      "first_seen_at": "2026-10-12T19:49:22+02:00",
+      "last_seen_at": "2026-11-19T13:55:25+01:00"
+    },
+    {
+      "id": "6f97b27eb706cd5939f3",
+      "source_id": "bsi-security",
+      "source": "BSI – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/261020_CRA-Durchf%C3%BChrungsgesetz.html",
+      "category": [
+        "IT Security"
+      ],
+      "title": "Bundestag stärkt Cybersicherheit: CRA-Durchführungsgesetz verabschiedet",
+      "raw_excerpt": "Mit der gestrigen Verabschiedung des Durchführungsgesetzes zum Cyber Resilience Act (CRA) durch den Deutschen Bundestag wird ein weiterer wichtiger Schritt für mehr Cybersicherheit in Deutschland und Europa vollzogen.",
+      "published_at": "2026-10-16T12:00:00+02:00",
+      "collected_at": "2026-10-16T14:23:20+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "9bf82115fd99ed444c7d1efb0b7eb07d9b3647128afc8d30d434fc9203d55529",
+      "first_seen_at": "2026-10-16T14:23:20+02:00",
+      "last_seen_at": "2026-11-19T13:55:25+01:00"
+    },
+    {
+      "id": "ccc642bb60b723bc0d67",
+      "source_id": "bsi-security",
+      "source": "BSI – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/261020_BSI_it-sa_2026.html",
+      "category": [
+        "IT Security"
+      ],
+      "title": "Cybersicherheit gemeinsam gestalten: Das BSI auf der it-sa 2026",
+      "raw_excerpt": "Das BSI nimmt vom 27. bis 29. Oktober 2026 wieder an der it-sa Expo in Nürnberg, Europas größter Fachmesse für IT-Sicherheit, teil. Als zentrale Ansprechstelle für Cybersicherheit in der Wirtschaft präsentiert sich das BSI an seinem 200 Quadratmeter großen Stand in Halle 9 (Stand 519).",
+      "published_at": "2026-10-20T08:00:00+02:00",
+      "collected_at": "2026-10-20T13:28:53+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "5fb4c2e6cfebcd2e2b0885e60eaeae8667a67eb0fed937cf73cc50bba32589a8",
+      "first_seen_at": "2026-10-20T13:28:53+02:00",
+      "last_seen_at": "2026-11-19T13:55:25+01:00"
+    },
+    {
+      "id": "5658acd543efec26488d",
+      "source_id": "bsi-security",
+      "source": "BSI – Cyber- und KI-Sicherheit",
+      "source_type": "primary",
+      "source_url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/261116_BSI_Auto-ISAC_Cybersicherheit_Auto.html",
+      "category": [
+        "IT Security"
+      ],
+      "title": "BSI und Auto-ISAC unterzeichnen Absichtserklärung zur Cybersicherheit im Automobilsektor",
+      "raw_excerpt": "Digitale Technologien werden in immer größerem Umfang in Straßenfahrzeugen eingesetzt. Damit wächst die Angriffsfläche für Cyberangriffe. Das BSI und das Automotive Information Sharing and Analysis Center (Auto-ISAC) unterzeichneten ein Memorandum of Understanding zur Zusammenarbeit im Bereich Automotive Security.",
+      "published_at": "2026-11-16T12:45:00+01:00",
+      "collected_at": "2026-11-16T21:58:41+01:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "bc22006bb5cbb4bbb9d5f7ff358b813557fe17ef256b833d3a37a38d3bbbb2d6",
+      "first_seen_at": "2026-11-16T21:58:41+01:00",
+      "last_seen_at": "2026-11-19T13:55:25+01:00"
+    },
+    {
+      "id": "4251684e702c48dee281",
+      "source_id": "openai-news",
+      "source": "OpenAI – News",
+      "source_type": "vendor",
+      "source_url": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "Research acceleration: The jagged frontier",
+      "raw_excerpt": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+      "published_at": "2026-11-18T09:00:00+01:00",
+      "collected_at": "2026-11-19T04:19:49+01:00",
+      "verification": "vendor",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "096bc4c7f6316dfc3f766d9cc2dc71b6c38c179b501b008424651ead5aff63b3",
+      "first_seen_at": "2026-11-19T04:19:49+01:00",
+      "last_seen_at": "2026-11-19T13:55:25+01:00"
+    },
+    {
+      "id": "86bae29a504425f48aa3",
+      "source_id": "openai-news",
+      "source": "OpenAI – News",
+      "source_type": "vendor",
+      "source_url": "https://openai.com/business/customer-stories/sumitomo-life",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+      "raw_excerpt": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+      "published_at": "2026-11-18T09:00:00+01:00",
+      "collected_at": "2026-11-19T04:19:49+01:00",
+      "verification": "vendor",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "fd6270c660b1f200f741278431bae3da837a0de7121821d241617f917b9f720e",
+      "first_seen_at": "2026-11-19T04:19:49+01:00",
+      "last_seen_at": "2026-11-19T13:55:25+01:00"
+    },
+    {
+      "id": "7b14758cea3e0611fc52",
+      "source_id": "apm-project-management",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/blog/beyond-the-mid-career-plateau-redefining-progress-and-finding-momentum/",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "Beyond the mid-career plateau: Redefining progress and finding momentum",
+      "raw_excerpt": "Career progression is not always a straight line. Sometimes, the most important professional growth happens when your job title stays the same. This is something I have come to appreciate as a mid-career project management professional. After more than a decade in the industry, I have learned that experience, qualifications and consistently delivering successful projects do not automatically translate into the next career opportunity.",
+      "published_at": "2026-11-16",
+      "collected_at": "2026-11-17T04:46:27+01:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "1dc6114dbf7937bd0e66bbc2903685fab17f8527196145e1c5fa7e2237d2e669",
+      "first_seen_at": "2026-11-17T04:46:27+01:00",
+      "last_seen_at": "2026-11-19T13:55:24+01:00"
+    },
+    {
+      "id": "5505f6fa357edf764091",
+      "source_id": "apm-project-management",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/blog/the-hidden-dependencies-that-can-make-or-break-a-project/",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "The hidden dependencies that can make or break a project",
+      "raw_excerpt": "A programme can look solid — detailed activities, clear responsibilities, logic all the way through — and still be sitting on a dependency nobody's properly identified. I've seen it happen on a recent review: the relationship was there but it just wasn't the right one. That's often more dangerous than a missing link, because it looks fine on screen right up until it isn't.",
+      "published_at": "2026-11-17",
+      "collected_at": "2026-11-18T05:14:21+01:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "0591737b9de679a9135e171fdd579cb86a237153b0d048bcbf63ece755cf9f20",
+      "first_seen_at": "2026-11-18T05:14:21+01:00",
+      "last_seen_at": "2026-11-19T13:55:23+01:00"
+    },
+    {
+      "id": "2a4e8c5b12ee53c6b7e4",
+      "source_id": "apm-project-management",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/blog/ensuring-projects-deliver-their-intended-organisational-and-social-benefits/",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "Ensuring projects deliver their intended organisational and social benefits",
+      "raw_excerpt": "In the public sector, more than anywhere, projects need to deliver maximum value that aligns with strategic goals. Project outputs are just that, outputs. Time, scope and budget are constraints. The reason we do projects is to deliver benefits. And this is where effective benefits management steps in, serving as the essential discipline that ensures projects do not just finish, but deliver their intended organisational and social benefits.",
+      "published_at": "2026-11-18",
+      "collected_at": "2026-11-18T22:53:55+01:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "b04e78b89ae8047c6de25ae4fd70f274eaac60229319c21555332d2ce0c944fe",
+      "first_seen_at": "2026-11-18T22:53:55+01:00",
+      "last_seen_at": "2026-11-19T13:55:23+01:00"
+    },
+    {
+      "id": "1c951e35244b8e4c6018",
+      "source_id": "apm-project-management",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/news/businesses-optimistic-about-cop31-but-idealism-and-ambition-must-not-outpace-delivery-says-apm/",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "Businesses optimistic about COP31 - but idealism and ambition must not outpace delivery, says APM",
+      "raw_excerpt": "UK business leaders are optimistic about the approaching UN climate change conference COP31 (taking place 9 to 20 November in Antalya, Turkey) with 88% confident that November’s conference will lead to meaningful global action, but the same proportion (88%) also anticipate the conference will require their business to implement changes.",
+      "published_at": "2026-11-04",
+      "collected_at": "2026-11-04T18:11:14+01:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "4be9060c67d8ee8577e8fe49c7dc5f0d5465240fd96e8cc41295ea4fab194731",
+      "first_seen_at": "2026-11-04T18:11:14+01:00",
+      "last_seen_at": "2026-11-19T13:55:22+01:00"
+    },
+    {
+      "id": "061076bf0958571f741e",
+      "source_id": "apm-project-management",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/news/apm-and-the-defence-teaming-centre-to-strengthen-project-delivery-and-career-pathways-in-australias-defence-sector/",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "APM and the Defence Teaming Centre to strengthen project delivery and career pathways in Australia's defence sector",
+      "raw_excerpt": "Association for Project Management (APM) has signed a Memorandum of Understanding with Australian defence industry association, the Defence Teaming Centre (DTC), marking a significant step in APM’s continued international growth.",
+      "published_at": "2026-11-09",
+      "collected_at": "2026-11-09T18:25:49+01:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "4815e9aa5ea54d909440e1d96538f6f75f73f67ad93ad9fe75e1ccfbf76d1e50",
+      "first_seen_at": "2026-11-09T18:25:49+01:00",
+      "last_seen_at": "2026-11-19T13:55:22+01:00"
+    },
+    {
+      "id": "db8b68dcbb9cee5a183d",
+      "source_id": "apm-project-management",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/news/connecting-pmo-and-portfolio-data-to-the-digital-future-webinar/",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "Connecting PMO and portfolio data to the digital future webinar",
+      "raw_excerpt": "Exploring the future of digital PMO and how teams are modernising portfolio management, this session on Monday 9 November unpacked the shift toward connected, governed, real-time ways of working.",
+      "published_at": "2026-11-09",
+      "collected_at": "2026-11-10T18:44:39+01:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "f056d2ebcf27d615a0a2d6514ec8b1555562dbeba660c8c42ad91bbef37ce254",
+      "first_seen_at": "2026-11-10T18:44:39+01:00",
+      "last_seen_at": "2026-11-19T13:55:21+01:00"
+    },
+    {
+      "id": "7f4dee2ac0f61ba7bb37",
+      "source_id": "apm-project-management",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/news/sustainability-in-projects-what-actually-works-webinar/",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "Sustainability in projects: What actually works? webinar",
+      "raw_excerpt": "On Tuesday 10 November three experienced practitioners from across regions and industries explored one of the biggest challenges facing organisations today, not understanding sustainability but successfully embedding it into project delivery.",
+      "published_at": "2026-11-10",
+      "collected_at": "2026-11-11T00:14:23+01:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "7bfe74325f1f82e6601a98a3f891bd567caa9f9897194efc923d59c4e51463b7",
+      "first_seen_at": "2026-11-11T00:14:23+01:00",
+      "last_seen_at": "2026-11-19T13:55:20+01:00"
+    },
+    {
+      "id": "df7289902bed5961efb5",
+      "source_id": "apm-project-management",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/news/apm-channel-islands-regional-network-events-help-professionals-embrace-ai/",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "APM Channel Islands Regional Network events help professionals embrace AI",
+      "raw_excerpt": "APM’s Channel Islands Regional Network drove the discussion on artificial intelligence in the project profession during two events hosted in Guernsey.",
+      "published_at": "2026-11-10",
+      "collected_at": "2026-11-10T10:42:18+01:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "e829523b28a73b883c6dfd925646e1fd9851498e7b2c61b424186d3c61a74c45",
+      "first_seen_at": "2026-11-10T10:42:18+01:00",
+      "last_seen_at": "2026-11-19T13:55:20+01:00"
+    },
+    {
+      "id": "027b9707b22cf23931e0",
+      "source_id": "apm-project-management",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/news/rachael-keeble-joins-apm-board-as-organisation-s-newest-trustee/",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "Rachael Keeble joins APM Board as organisation’s newest Trustee",
+      "raw_excerpt": "Association for Project Management (APM) has welcomed Rachael Keeble to its Board of Trustees, following its annual board elections.",
+      "published_at": "2026-11-16",
+      "collected_at": "2026-11-16T12:02:20+01:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "be78538500b651df29475ca466bf97fb95a3afa2578a9ba07d44ce41cab5143d",
+      "first_seen_at": "2026-11-16T12:02:20+01:00",
+      "last_seen_at": "2026-11-19T13:55:19+01:00"
+    },
+    {
+      "id": "d3b508e80f5e5bf8221c",
+      "source_id": "apm-project-management",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/news/apm-learning-recognised-at-the-association-excellence-awards/",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "APM Learning recognised at the Association Excellence Awards",
+      "raw_excerpt": "Association for Project Management's online learning platform, APM Learning , earned a silver award at the Association Excellence Awards in the ‘Best Learning/Professional Development Programme' category.",
+      "published_at": "2026-11-18",
+      "collected_at": "2026-11-18T14:53:58+01:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "7c7bd72185458d93d189a93f14d4a95716f1abf204ac7085dfdffdedc4e1cbf3",
+      "first_seen_at": "2026-11-18T14:53:58+01:00",
+      "last_seen_at": "2026-11-19T13:55:17+01:00"
+    },
+    {
+      "id": "299bc3455f13fc48bf13",
+      "source_id": "dsk",
+      "source": "Datenschutzkonferenz",
+      "source_type": "primary",
+      "source_url": "https://www.datenschutzkonferenz-online.de/orientierungshilfen.html",
+      "category": [
+        "DSGVO & Ethik",
+        "AI Governance"
+      ],
+      "title": "Datenschutzkonferenz",
+      "raw_excerpt": "Der offizielle Webauftritt der Datenschutzkonferenz (DSK), dem Gremium der deutschen Datenschutzaufsichtsbehörden",
+      "published_at": null,
+      "collected_at": "2026-09-14T18:58:54+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "811ac302c3193eb1b1ab9371558f9eff4f60aa642f2679335f729c77f8d6d3dd",
+      "first_seen_at": "2026-09-14T18:58:54+02:00",
+      "last_seen_at": "2026-11-19T13:55:10+01:00",
+      "collector_note": null
+    },
+    {
+      "id": "fd26c6620cbb3b8fa54e",
+      "source_id": "edpb",
+      "source": "European Data Protection Board",
+      "source_type": "primary",
+      "source_url": "https://www.edpb.europa.eu/",
+      "category": [
+        "DSGVO & Ethik",
+        "AI Governance"
+      ],
+      "title": "Home | European Data Protection Board",
+      "raw_excerpt": "",
+      "published_at": "2026-07-30T12:00:00Z",
+      "collected_at": "2026-09-14T18:58:54+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "a9b348baabb63f3a36168e3506b408dea00ffbc0e6fc27353e27dd69cfd8d3bf",
+      "first_seen_at": "2026-09-14T18:58:54+02:00",
+      "last_seen_at": "2026-11-19T13:55:09+01:00",
+      "collector_note": null
+    },
+    {
+      "id": "01c5434847cfafae5a0c",
+      "source_id": "eurlex-ai-act",
+      "source": "EUR-Lex – Regulation (EU) 2024/1689",
+      "source_type": "primary",
+      "source_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng",
+      "category": [
+        "EU AI Act"
+      ],
+      "title": "AI Act – konsolidierte Fassung 2026-07-27",
+      "raw_excerpt": "Aktuelle konsolidierte Fassung der Regulation (EU) 2024/1689 (Artificial Intelligence Act). Stand: 2026-07-27.",
+      "published_at": "2026-07-27",
+      "collected_at": "2026-11-19T13:55:08+01:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "ed4a9d3330cafe5c922a278159f2a5379789d35caf18fbba77966ea05c9199a3",
+      "first_seen_at": "2026-11-19T13:55:08+01:00",
+      "last_seen_at": "2026-11-19T13:55:08+01:00"
+    },
+    {
+      "id": "2a1bcba63fb036090ae9",
+      "source_id": "eu-ai-office",
+      "source": "European Commission – AI Act / AI Office",
+      "source_type": "primary",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-holds-special-meeting-scientific-panel-frontier-ai-safety-and-risks",
+      "category": [
+        "EU AI Act",
+        "AI Governance"
+      ],
+      "title": "Commission holds special meeting of Scientific panel on frontier AI safety and risks",
+      "raw_excerpt": "The Commission holds a special meeting of the Scientific Panel on artificial intelligence (AI).",
+      "published_at": "2026-10-09",
+      "collected_at": "2026-10-12T19:48:50+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "ce0f30dcbe1de72c8feef41038c965ffbad76d9eaaeeb1aa548b4114a1f8fda4",
+      "first_seen_at": "2026-10-12T19:48:50+02:00",
+      "last_seen_at": "2026-11-19T13:55:07+01:00",
+      "collector_note": null
+    },
+    {
+      "id": "c964fb71ff71960899fa",
+      "source_id": "eu-ai-office",
+      "source": "European Commission – AI Act / AI Office",
+      "source_type": "primary",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/digital-talent-eu-days-2026-building-skills-europes-digital-future",
+      "category": [
+        "EU AI Act",
+        "AI Governance"
+      ],
+      "title": "Digital Talent EU Days 2026: Building the skills for Europe's digital future",
+      "raw_excerpt": "Digital Talent EU Days 2026 will explore how Europe can close digital skills gaps and strengthen its competitiveness.",
+      "published_at": "2026-10-14",
+      "collected_at": "2026-10-14T15:38:44+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "7eccdaf70986afc9b3e66b13af1f4e3b243869796f84739937ab2ab638235728",
+      "first_seen_at": "2026-10-14T15:38:44+02:00",
+      "last_seen_at": "2026-11-19T13:55:06+01:00",
+      "collector_note": null
+    },
+    {
+      "id": "cc90eaa80cf04055a42d",
+      "source_id": "eu-ai-office",
+      "source": "European Commission – AI Act / AI Office",
+      "source_type": "primary",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/eu-and-ukraine-deepen-cooperation-cyber-security-5th-cyber-dialogue",
+      "category": [
+        "EU AI Act",
+        "AI Governance"
+      ],
+      "title": "EU and Ukraine deepen cooperation on cyber security at 5th Cyber Dialogue",
+      "raw_excerpt": "On 9 October, the European Union and Ukraine held their 5th Cyber Dialogue, in Brussels.",
+      "published_at": "2026-10-13",
+      "collected_at": "2026-10-13T09:39:37+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "51fa4ec207150577543197fe8346e235baa94bbc2d64a7efb36ce411888acb34",
+      "first_seen_at": "2026-10-13T09:39:37+02:00",
+      "last_seen_at": "2026-11-19T13:55:06+01:00",
+      "collector_note": null
+    },
+    {
+      "id": "5f4d03f7a17cda029618",
+      "source_id": "eu-ai-office",
+      "source": "European Commission – AI Act / AI Office",
+      "source_type": "primary",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/first-virtual-worlds-partnership-annual-forum-take-place-valencia",
+      "category": [
+        "EU AI Act",
+        "AI Governance"
+      ],
+      "title": "First Virtual Worlds Partnership Annual Forum to take place in Valencia",
+      "raw_excerpt": "The first Virtual worlds Partnership Annual Forum takes place alongside EuroXR 2026 and the New European Media (NEM) summit, bringing together Europe’s virtual worlds community.",
+      "published_at": "2026-10-30",
+      "collected_at": "2026-10-30T15:03:52+01:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "362151879075e38d9d5a0f667131e211c113329a363043a1706974a80f2c5e22",
+      "first_seen_at": "2026-10-30T15:03:52+01:00",
+      "last_seen_at": "2026-11-19T13:55:06+01:00",
+      "collector_note": null
+    },
+    {
+      "id": "d4132fd01e61d7cdcda5",
+      "source_id": "eu-ai-office",
+      "source": "European Commission – AI Act / AI Office",
+      "source_type": "primary",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-launches-education-and-skills-package-tackle-declining-basic-skills-rapid-digital-change",
+      "category": [
+        "EU AI Act",
+        "AI Governance"
+      ],
+      "title": "Commission launches Education and Skills package to tackle declining basic skills, rapid digital change and teacher shortages",
+      "raw_excerpt": "The European Commission presents a new Education and Skills Package to reverse the decline in basic skills, help schools make AI and digital technologies work for learning and address teacher shortages.",
+      "published_at": "2026-11-05",
+      "collected_at": "2026-11-06T18:55:23+01:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "dfdf26c2a0b7379d5d27025a4f73a62a42f3c544ff23ba761135d6587bbdcf37",
+      "first_seen_at": "2026-11-06T18:55:23+01:00",
+      "last_seen_at": "2026-11-19T13:55:06+01:00",
+      "collector_note": null
+    },
+    {
+      "id": "a219305664704ca5e59b",
+      "source_id": "eu-ai-office",
+      "source": "European Commission – AI Act / AI Office",
+      "source_type": "primary",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-hosts-apply-ai-summit-boost-europes-ai-innovation-and-uptake",
+      "category": [
+        "EU AI Act",
+        "AI Governance"
+      ],
+      "title": "Commission hosts Apply AI Summit to boost Europe’s AI innovation and uptake",
+      "raw_excerpt": "Nearly 1,000 high-level policymakers, start-ups, industry leaders and researchers will take part in the Apply AI Summit in Brussels tomorrow.",
+      "published_at": "2026-11-16",
+      "collected_at": "2026-11-16T21:57:50+01:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "a77ec68a4fed1ee69b2e5c8e9d517b0d4baff0c07612dc31757701e0d813fae4",
+      "first_seen_at": "2026-11-16T21:57:50+01:00",
+      "last_seen_at": "2026-11-19T13:55:05+01:00",
+      "collector_note": null
+    },
+    {
+      "id": "c559fbd12af243b637ab",
+      "source_id": "eu-ai-office",
+      "source": "European Commission – AI Act / AI Office",
+      "source_type": "primary",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
+      "category": [
+        "EU AI Act",
+        "AI Governance"
+      ],
+      "title": "AI Omnibus enters into force",
+      "raw_excerpt": "On 27 July 2026, the AI Omnibus enters into force across the EU, bringing extended timelines to administrative simplification.",
+      "published_at": "2026-07-27",
+      "collected_at": "2026-09-15T10:43:59+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "2adce69ab2ad064ab7d0d5e4c37c8459642f465c380fd74168a3f948e4e9027e",
+      "first_seen_at": "2026-09-15T10:43:59+02:00",
+      "last_seen_at": "2026-11-19T13:55:05+01:00",
+      "collector_note": null
+    },
+    {
+      "id": "956414ff323625f7fa6f",
+      "source_id": "eu-ai-office",
+      "source": "European Commission – AI Act / AI Office",
+      "source_type": "primary",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/supporting-implementation-ai-act-clear-guidelines",
+      "category": [
+        "EU AI Act",
+        "AI Governance"
+      ],
+      "title": "Supporting the implementation of the AI Act with clear guidelines",
+      "raw_excerpt": "In the course of 2026, the AI Office has been preparing guidelines to ensure a smooth implementation of the AI Act.",
+      "published_at": "2025-12-04",
+      "collected_at": "2026-09-15T10:43:58+02:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "6964d2a6e825efe24a090875b524221a191b37acacf014c6a4535031cae41c00",
+      "first_seen_at": "2026-09-15T10:43:58+02:00",
+      "last_seen_at": "2026-11-19T13:55:05+01:00",
+      "collector_note": null
     },
     {
       "id": "e615c87e65f7dbecec4d",
@@ -141,426 +1111,6 @@
       "content_hash": "6ef03e84ebca3f29b07861da4d24fec207418decaa6af295248f80942b3595dc",
       "first_seen_at": "2026-11-18T22:54:03+01:00",
       "last_seen_at": "2026-11-19T04:19:51+01:00"
-    },
-    {
-      "id": "8f07138f301c9dc84575",
-      "source_id": "heise-ai-news",
-      "source": "heise online – KI-Nachrichten",
-      "source_type": "discovery",
-      "source_url": "https://www.heise.de/news/Anthropic-Finaler-IPO-Preis-steht-fest-11528229.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "category": [
-        "KI & Technologie"
-      ],
-      "title": "Anthropic: Finaler IPO-Preis steht fest",
-      "raw_excerpt": "Anthropic hat den finalen Preis für seine Aktien bekannt gegeben. Die Aktien sollen am Donnerstag an die Börse NASDAQ kommen.",
-      "published_at": "2026-11-19T02:25:00+01:00",
-      "collected_at": "2026-11-19T04:19:51+01:00",
-      "verification": "secondary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "45a02c2055783ddb226a1686109d8e87c8d533e1f7f9197b184322faff40c71b",
-      "first_seen_at": "2026-11-19T04:19:51+01:00",
-      "last_seen_at": "2026-11-19T04:19:51+01:00"
-    },
-    {
-      "id": "0549246a7fbb15377444",
-      "source_id": "google-ai-news",
-      "source": "Google – AI Blog",
-      "source_type": "vendor",
-      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-      "category": [
-        "KI & Technologie"
-      ],
-      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
-      "raw_excerpt": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
-      "published_at": "2026-11-11T19:00:00+01:00",
-      "collected_at": "2026-11-11T22:53:50+01:00",
-      "verification": "vendor",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "282b33548e3d386b5e08492bcdd8d3438d0cf86197e400ee06e40f2de8ffddd2",
-      "first_seen_at": "2026-11-11T22:53:50+01:00",
-      "last_seen_at": "2026-11-19T04:19:49+01:00"
-    },
-    {
-      "id": "a0f441708b5e6f4f5365",
-      "source_id": "google-ai-news",
-      "source": "Google – AI Blog",
-      "source_type": "vendor",
-      "source_url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
-      "category": [
-        "KI & Technologie"
-      ],
-      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
-      "raw_excerpt": "Rotating carousel of cards with text \"Gemini 4 Hydrogen\" \"Now in Google Search\" and examples from the Google Search UI",
-      "published_at": "2026-11-12T19:00:00+01:00",
-      "collected_at": "2026-11-12T19:52:04+01:00",
-      "verification": "vendor",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "18945ec8dd0844ec75133fa8b31249746811a084c7a2ddaa4fd15d9d1f12b341",
-      "first_seen_at": "2026-11-12T19:52:04+01:00",
-      "last_seen_at": "2026-11-19T04:19:49+01:00"
-    },
-    {
-      "id": "85d9bdc6a22ae7418aa8",
-      "source_id": "google-ai-news",
-      "source": "Google – AI Blog",
-      "source_type": "vendor",
-      "source_url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
-      "category": [
-        "KI & Technologie"
-      ],
-      "title": "New Ask Maps features to help with holiday travel and prep",
-      "raw_excerpt": "tbd",
-      "published_at": "2026-11-16T15:00:00+01:00",
-      "collected_at": "2026-11-16T21:58:42+01:00",
-      "verification": "vendor",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "acdcb5508faba10dd800887c166f457f3d8d41e27eb9b54c93a2f25cd90cd636",
-      "first_seen_at": "2026-11-16T21:58:42+01:00",
-      "last_seen_at": "2026-11-19T04:19:49+01:00"
-    },
-    {
-      "id": "f3cc7205676018f9eb5e",
-      "source_id": "google-ai-news",
-      "source": "Google – AI Blog",
-      "source_type": "vendor",
-      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
-      "category": [
-        "KI & Technologie"
-      ],
-      "title": "Put Gemini to work for you",
-      "raw_excerpt": "A user interface displaying the prompt \"What can I get done for you?\" above an input box containing placeholder text \"Describe a task\".",
-      "published_at": "2026-11-17T18:00:00+01:00",
-      "collected_at": "2026-11-17T23:16:08+01:00",
-      "verification": "vendor",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "4feb2553b9b33a51b46725c33b5fd0b23c6d05968f3bd31418d055ea71cb1e94",
-      "first_seen_at": "2026-11-17T23:16:08+01:00",
-      "last_seen_at": "2026-11-19T04:19:49+01:00"
-    },
-    {
-      "id": "44b268290e123f913bc6",
-      "source_id": "openai-news",
-      "source": "OpenAI – News",
-      "source_type": "vendor",
-      "source_url": "https://openai.com/index/the-silent-consensus",
-      "category": [
-        "KI & Technologie"
-      ],
-      "title": "The Silent Consensus",
-      "raw_excerpt": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
-      "published_at": "2026-11-18T11:00:00+01:00",
-      "collected_at": "2026-11-18T22:54:02+01:00",
-      "verification": "vendor",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "8f3df33278a3933e1b8addf93e4a026cc45f4ab8297812045a448a762960e3fa",
-      "first_seen_at": "2026-11-18T22:54:02+01:00",
-      "last_seen_at": "2026-11-19T04:19:49+01:00"
-    },
-    {
-      "id": "38c6de2cbe1246faf323",
-      "source_id": "openai-news",
-      "source": "OpenAI – News",
-      "source_type": "vendor",
-      "source_url": "https://openai.com/index/inside-the-codex-sandbox",
-      "category": [
-        "KI & Technologie"
-      ],
-      "title": "Inside the Codex sandbox",
-      "raw_excerpt": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
-      "published_at": "2026-11-18T09:00:00+01:00",
-      "collected_at": "2026-11-18T22:54:02+01:00",
-      "verification": "vendor",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "3646a9686d3d540cb8b53db0b38830f31698e55606953ba04991661c24db7d28",
-      "first_seen_at": "2026-11-18T22:54:02+01:00",
-      "last_seen_at": "2026-11-19T04:19:49+01:00"
-    },
-    {
-      "id": "a69dc149222e331a0889",
-      "source_id": "openai-news",
-      "source": "OpenAI – News",
-      "source_type": "vendor",
-      "source_url": "https://openai.com/index/managing-frontier-ai-risk",
-      "category": [
-        "KI & Technologie"
-      ],
-      "title": "Managing frontier AI risk: From training to deployment",
-      "raw_excerpt": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
-      "published_at": "2026-11-18T07:00:00+01:00",
-      "collected_at": "2026-11-18T22:54:02+01:00",
-      "verification": "vendor",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "86008d235700adb2ee889b2bfcc8656c92f244c20dbf0d457cdaac24ebec88b8",
-      "first_seen_at": "2026-11-18T22:54:02+01:00",
-      "last_seen_at": "2026-11-19T04:19:49+01:00"
-    },
-    {
-      "id": "e02c80316e17fbe059d0",
-      "source_id": "google-ai-news",
-      "source": "Google – AI Blog",
-      "source_type": "vendor",
-      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
-      "category": [
-        "KI & Technologie"
-      ],
-      "title": "The Gemini app is now available on lower-memory Android devices.",
-      "raw_excerpt": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
-      "published_at": "2026-11-18T18:00:00+01:00",
-      "collected_at": "2026-11-18T22:54:02+01:00",
-      "verification": "vendor",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "eebb2331e3ececc845ca7c5375ac4f54ce45c702478f5f7de992568d0020e4b3",
-      "first_seen_at": "2026-11-18T22:54:02+01:00",
-      "last_seen_at": "2026-11-19T04:19:49+01:00"
-    },
-    {
-      "id": "8f06b79d388f40327935",
-      "source_id": "enisa-security",
-      "source": "ENISA – Cyber- und KI-Sicherheit",
-      "source_type": "primary",
-      "source_url": "https://www.enisa.europa.eu/news/cybersecurity-month-work-employees-skills-under-the-looking-glass",
-      "category": [
-        "IT Security"
-      ],
-      "title": "Cybersecurity Month @ work: Employees' skills under the looking glass",
-      "raw_excerpt": "With the digitalisation of the workplace, organisations and their employees must navigate and manage the digital risks.",
-      "published_at": "2026-09-30T12:55:56+02:00",
-      "collected_at": "2026-10-06T13:24:52+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "225fd97730996f1056df2c3d6e0681ea23d0a6212ad9322476999f5ec066e30b",
-      "first_seen_at": "2026-10-06T13:24:52+02:00",
-      "last_seen_at": "2026-11-19T04:19:49+01:00"
-    },
-    {
-      "id": "6536b2d03b18d7fa242c",
-      "source_id": "enisa-security",
-      "source": "ENISA – Cyber- und KI-Sicherheit",
-      "source_type": "primary",
-      "source_url": "https://www.enisa.europa.eu/news/sweden-sweeps-the-winning-title-of-the-european-cybersecurity-challenge",
-      "category": [
-        "IT Security"
-      ],
-      "title": "Sweden sweeps the winning title of the European Cybersecurity Challenge",
-      "raw_excerpt": "Best competing teams in this 12 th edition of the European Cybersecurity Challenge (ECSC) include Sweden, winners, followed by Finland in second place and Austria in third place. ENISA congratulates the winning teams and thanks all…",
-      "published_at": "2026-10-16T17:14:35+02:00",
-      "collected_at": "2026-10-16T19:22:39+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "e03ad27417c82d4d9a6dbf695936a0fd0a1b930389ad63bab14fbdee07350538",
-      "first_seen_at": "2026-10-16T19:22:39+02:00",
-      "last_seen_at": "2026-11-19T04:19:49+01:00"
-    },
-    {
-      "id": "9f19ecdf86ee7f98cb26",
-      "source_id": "enisa-security",
-      "source": "ENISA – Cyber- und KI-Sicherheit",
-      "source_type": "primary",
-      "source_url": "https://www.enisa.europa.eu/news/joint-statement-on-critical-php-vulnerabilities",
-      "category": [
-        "IT Security"
-      ],
-      "title": "Joint statement on critical PHP vulnerabilities",
-      "raw_excerpt": "The European Commission (DG CNECT), ENISA, the European Union Agency for Cybersecurity, CERT-EU, Europol EC3, and the network of the EU national computer security incident response teams (CSIRTs network), advise organisations to take immediate…",
-      "published_at": "2026-10-21T19:33:36+02:00",
-      "collected_at": "2026-10-21T22:06:31+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "acddcb3d9dbecf995ef8308e998220c71de215736c030001ead1ead9ec8266fd",
-      "first_seen_at": "2026-10-21T22:06:31+02:00",
-      "last_seen_at": "2026-11-19T04:19:49+01:00"
-    },
-    {
-      "id": "9753bcb4af007e4bacc7",
-      "source_id": "enisa-security",
-      "source": "ENISA – Cyber- und KI-Sicherheit",
-      "source_type": "primary",
-      "source_url": "https://www.enisa.europa.eu/news/joint-statement-on-cyber-incidents-in-refrigeration-systems-across-the-eu",
-      "category": [
-        "IT Security"
-      ],
-      "title": "Joint statement on cyber incidents in refrigeration systems across the EU",
-      "raw_excerpt": "Since 11 October 2026, several commercial refrigeration systems and similar devices have been impacted by cybersecurity incidents in a number of EU Member States.",
-      "published_at": "2026-11-04T19:12:01+01:00",
-      "collected_at": "2026-11-05T00:36:43+01:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "2529e56367266e0bcca88dab75e0b732d4b7ed1ab912fc9c47d930074d920bd5",
-      "first_seen_at": "2026-11-05T00:36:43+01:00",
-      "last_seen_at": "2026-11-19T04:19:49+01:00"
-    },
-    {
-      "id": "d90249d72f0d99744e7d",
-      "source_id": "enisa-security",
-      "source": "ENISA – Cyber- und KI-Sicherheit",
-      "source_type": "primary",
-      "source_url": "https://www.enisa.europa.eu/news/enisa-reveals-the-state-of-cybersecurity-in-the-union",
-      "category": [
-        "IT Security"
-      ],
-      "title": "ENISA reveals the State of Cybersecurity in the Union",
-      "raw_excerpt": "As the cyber ecosystem is in flux, the 2026 edition of the biennial report introduces a ‘strategic compass’, reflecting the main directions of the EU cybersecurity ecosystem and sets out actionable policy recommendations identifying areas for…",
-      "published_at": "2026-11-10T12:03:04+01:00",
-      "collected_at": "2026-11-11T00:14:35+01:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "a1610604516dbbabf9dca4d12c9edba8264fa2864002331821c0f70e8f52a559",
-      "first_seen_at": "2026-11-11T00:14:35+01:00",
-      "last_seen_at": "2026-11-19T04:19:49+01:00"
-    },
-    {
-      "id": "0c8caa098365fd047aaa",
-      "source_id": "bsi-security",
-      "source": "BSI – Cyber- und KI-Sicherheit",
-      "source_type": "primary",
-      "source_url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/260911_CRA_Meldepflicht_Schwachstellen.html",
-      "category": [
-        "IT Security"
-      ],
-      "title": "Cyber Resilience Act: Meldepflicht startet",
-      "raw_excerpt": "Für Hersteller von Produkten mit digitalen Elementen gelten auf dem Binnenmarkt der EU ab dem 11. September 2026 die Meldepflichten des CRA. Hersteller müssen aktiv ausgenutzte Schwachstellen sowie schwerwiegende Sicherheitsvorfälle melden. Das BSI unterstützt mit Schritt-für-Schritt-Anleitungen.",
-      "published_at": "2026-09-11T09:00:00+02:00",
-      "collected_at": "2026-10-06T13:24:51+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "81395f5d03cf2b1d35d1800c9ae35ee1414e3b4260cbdce7260b29b63dc94971",
-      "first_seen_at": "2026-10-06T13:24:51+02:00",
-      "last_seen_at": "2026-11-19T04:19:49+01:00"
-    },
-    {
-      "id": "e5c9b8b2ace7a43200cf",
-      "source_id": "bsi-security",
-      "source": "BSI – Cyber- und KI-Sicherheit",
-      "source_type": "primary",
-      "source_url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/261007_KI-Sicherheitsstudie_TUEV_BSI.html",
-      "category": [
-        "IT Security"
-      ],
-      "title": "Nur jedes zehnte Unternehmen gegen KI-gestützte Angriffe gerüstet - jedes sechste Unternehmen berichtet von Vorfällen",
-      "raw_excerpt": "Nur wenige Unternehmen in Deutschland haben Schutzmaßnahmen und Prozesse mit Blick auf Cyberangriffe im Zusammenhang mit KI etabliert. Das zeigt die aktuelle Studie von TÜV-Verband und BSI zum Thema „Künstliche Intelligenz und Cybersicherheit in Unternehmen\".",
-      "published_at": "2026-10-07T10:00:00+02:00",
-      "collected_at": "2026-10-12T19:49:22+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "b711f7fcda22b83b3767e55bde5472e65cbdb49e7430aa24d4a26fbdd7d99d78",
-      "first_seen_at": "2026-10-12T19:49:22+02:00",
-      "last_seen_at": "2026-11-19T04:19:49+01:00"
-    },
-    {
-      "id": "6f97b27eb706cd5939f3",
-      "source_id": "bsi-security",
-      "source": "BSI – Cyber- und KI-Sicherheit",
-      "source_type": "primary",
-      "source_url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/261020_CRA-Durchf%C3%BChrungsgesetz.html",
-      "category": [
-        "IT Security"
-      ],
-      "title": "Bundestag stärkt Cybersicherheit: CRA-Durchführungsgesetz verabschiedet",
-      "raw_excerpt": "Mit der gestrigen Verabschiedung des Durchführungsgesetzes zum Cyber Resilience Act (CRA) durch den Deutschen Bundestag wird ein weiterer wichtiger Schritt für mehr Cybersicherheit in Deutschland und Europa vollzogen.",
-      "published_at": "2026-10-16T12:00:00+02:00",
-      "collected_at": "2026-10-16T14:23:20+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "9bf82115fd99ed444c7d1efb0b7eb07d9b3647128afc8d30d434fc9203d55529",
-      "first_seen_at": "2026-10-16T14:23:20+02:00",
-      "last_seen_at": "2026-11-19T04:19:49+01:00"
-    },
-    {
-      "id": "ccc642bb60b723bc0d67",
-      "source_id": "bsi-security",
-      "source": "BSI – Cyber- und KI-Sicherheit",
-      "source_type": "primary",
-      "source_url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/261020_BSI_it-sa_2026.html",
-      "category": [
-        "IT Security"
-      ],
-      "title": "Cybersicherheit gemeinsam gestalten: Das BSI auf der it-sa 2026",
-      "raw_excerpt": "Das BSI nimmt vom 27. bis 29. Oktober 2026 wieder an der it-sa Expo in Nürnberg, Europas größter Fachmesse für IT-Sicherheit, teil. Als zentrale Ansprechstelle für Cybersicherheit in der Wirtschaft präsentiert sich das BSI an seinem 200 Quadratmeter großen Stand in Halle 9 (Stand 519).",
-      "published_at": "2026-10-20T08:00:00+02:00",
-      "collected_at": "2026-10-20T13:28:53+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "5fb4c2e6cfebcd2e2b0885e60eaeae8667a67eb0fed937cf73cc50bba32589a8",
-      "first_seen_at": "2026-10-20T13:28:53+02:00",
-      "last_seen_at": "2026-11-19T04:19:49+01:00"
-    },
-    {
-      "id": "5658acd543efec26488d",
-      "source_id": "bsi-security",
-      "source": "BSI – Cyber- und KI-Sicherheit",
-      "source_type": "primary",
-      "source_url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/261116_BSI_Auto-ISAC_Cybersicherheit_Auto.html",
-      "category": [
-        "IT Security"
-      ],
-      "title": "BSI und Auto-ISAC unterzeichnen Absichtserklärung zur Cybersicherheit im Automobilsektor",
-      "raw_excerpt": "Digitale Technologien werden in immer größerem Umfang in Straßenfahrzeugen eingesetzt. Damit wächst die Angriffsfläche für Cyberangriffe. Das BSI und das Automotive Information Sharing and Analysis Center (Auto-ISAC) unterzeichneten ein Memorandum of Understanding zur Zusammenarbeit im Bereich Automotive Security.",
-      "published_at": "2026-11-16T12:45:00+01:00",
-      "collected_at": "2026-11-16T21:58:41+01:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "bc22006bb5cbb4bbb9d5f7ff358b813557fe17ef256b833d3a37a38d3bbbb2d6",
-      "first_seen_at": "2026-11-16T21:58:41+01:00",
-      "last_seen_at": "2026-11-19T04:19:49+01:00"
-    },
-    {
-      "id": "4251684e702c48dee281",
-      "source_id": "openai-news",
-      "source": "OpenAI – News",
-      "source_type": "vendor",
-      "source_url": "https://openai.com/index/research-acceleration-jagged-frontier",
-      "category": [
-        "KI & Technologie"
-      ],
-      "title": "Research acceleration: The jagged frontier",
-      "raw_excerpt": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
-      "published_at": "2026-11-18T09:00:00+01:00",
-      "collected_at": "2026-11-19T04:19:49+01:00",
-      "verification": "vendor",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "096bc4c7f6316dfc3f766d9cc2dc71b6c38c179b501b008424651ead5aff63b3",
-      "first_seen_at": "2026-11-19T04:19:49+01:00",
-      "last_seen_at": "2026-11-19T04:19:49+01:00"
-    },
-    {
-      "id": "86bae29a504425f48aa3",
-      "source_id": "openai-news",
-      "source": "OpenAI – News",
-      "source_type": "vendor",
-      "source_url": "https://openai.com/business/customer-stories/sumitomo-life",
-      "category": [
-        "KI & Technologie"
-      ],
-      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
-      "raw_excerpt": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
-      "published_at": "2026-11-18T09:00:00+01:00",
-      "collected_at": "2026-11-19T04:19:49+01:00",
-      "verification": "vendor",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "fd6270c660b1f200f741278431bae3da837a0de7121821d241617f917b9f720e",
-      "first_seen_at": "2026-11-19T04:19:49+01:00",
-      "last_seen_at": "2026-11-19T04:19:49+01:00"
     },
     {
       "id": "901f283828b58369c072",
@@ -763,215 +1313,6 @@
       "last_seen_at": "2026-11-19T04:19:06+01:00"
     },
     {
-      "id": "299bc3455f13fc48bf13",
-      "source_id": "dsk",
-      "source": "Datenschutzkonferenz",
-      "source_type": "primary",
-      "source_url": "https://www.datenschutzkonferenz-online.de/orientierungshilfen.html",
-      "category": [
-        "DSGVO & Ethik",
-        "AI Governance"
-      ],
-      "title": "Datenschutzkonferenz",
-      "raw_excerpt": "Der offizielle Webauftritt der Datenschutzkonferenz (DSK), dem Gremium der deutschen Datenschutzaufsichtsbehörden",
-      "published_at": null,
-      "collected_at": "2026-09-14T18:58:54+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "811ac302c3193eb1b1ab9371558f9eff4f60aa642f2679335f729c77f8d6d3dd",
-      "first_seen_at": "2026-09-14T18:58:54+02:00",
-      "last_seen_at": "2026-11-19T04:18:59+01:00",
-      "collector_note": null
-    },
-    {
-      "id": "fd26c6620cbb3b8fa54e",
-      "source_id": "edpb",
-      "source": "European Data Protection Board",
-      "source_type": "primary",
-      "source_url": "https://www.edpb.europa.eu/",
-      "category": [
-        "DSGVO & Ethik",
-        "AI Governance"
-      ],
-      "title": "Home | European Data Protection Board",
-      "raw_excerpt": "",
-      "published_at": "2026-07-30T12:00:00Z",
-      "collected_at": "2026-09-14T18:58:54+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "a9b348baabb63f3a36168e3506b408dea00ffbc0e6fc27353e27dd69cfd8d3bf",
-      "first_seen_at": "2026-09-14T18:58:54+02:00",
-      "last_seen_at": "2026-11-19T04:18:58+01:00",
-      "collector_note": null
-    },
-    {
-      "id": "01c5434847cfafae5a0c",
-      "source_id": "eurlex-ai-act",
-      "source": "EUR-Lex – Regulation (EU) 2024/1689",
-      "source_type": "primary",
-      "source_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng",
-      "category": [
-        "EU AI Act"
-      ],
-      "title": "AI Act – konsolidierte Fassung 2026-07-27",
-      "raw_excerpt": "Aktuelle konsolidierte Fassung der Regulation (EU) 2024/1689 (Artificial Intelligence Act). Stand: 2026-07-27.",
-      "published_at": "2026-07-27",
-      "collected_at": "2026-11-19T04:18:57+01:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "ed4a9d3330cafe5c922a278159f2a5379789d35caf18fbba77966ea05c9199a3",
-      "first_seen_at": "2026-11-19T04:18:57+01:00",
-      "last_seen_at": "2026-11-19T04:18:57+01:00"
-    },
-    {
-      "id": "c964fb71ff71960899fa",
-      "source_id": "eu-ai-office",
-      "source": "European Commission – AI Act / AI Office",
-      "source_type": "primary",
-      "source_url": "https://digital-strategy.ec.europa.eu/en/news/digital-talent-eu-days-2026-building-skills-europes-digital-future",
-      "category": [
-        "EU AI Act",
-        "AI Governance"
-      ],
-      "title": "Digital Talent EU Days 2026: Building the skills for Europe's digital future",
-      "raw_excerpt": "Digital Talent EU Days 2026 will explore how Europe can close digital skills gaps and strengthen its competitiveness.",
-      "published_at": "2026-10-14",
-      "collected_at": "2026-10-14T15:38:44+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "7eccdaf70986afc9b3e66b13af1f4e3b243869796f84739937ab2ab638235728",
-      "first_seen_at": "2026-10-14T15:38:44+02:00",
-      "last_seen_at": "2026-11-19T04:18:56+01:00",
-      "collector_note": null
-    },
-    {
-      "id": "cc90eaa80cf04055a42d",
-      "source_id": "eu-ai-office",
-      "source": "European Commission – AI Act / AI Office",
-      "source_type": "primary",
-      "source_url": "https://digital-strategy.ec.europa.eu/en/news/eu-and-ukraine-deepen-cooperation-cyber-security-5th-cyber-dialogue",
-      "category": [
-        "EU AI Act",
-        "AI Governance"
-      ],
-      "title": "EU and Ukraine deepen cooperation on cyber security at 5th Cyber Dialogue",
-      "raw_excerpt": "On 9 October, the European Union and Ukraine held their 5th Cyber Dialogue, in Brussels.",
-      "published_at": "2026-10-13",
-      "collected_at": "2026-10-13T09:39:37+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "51fa4ec207150577543197fe8346e235baa94bbc2d64a7efb36ce411888acb34",
-      "first_seen_at": "2026-10-13T09:39:37+02:00",
-      "last_seen_at": "2026-11-19T04:18:56+01:00",
-      "collector_note": null
-    },
-    {
-      "id": "5f4d03f7a17cda029618",
-      "source_id": "eu-ai-office",
-      "source": "European Commission – AI Act / AI Office",
-      "source_type": "primary",
-      "source_url": "https://digital-strategy.ec.europa.eu/en/news/first-virtual-worlds-partnership-annual-forum-take-place-valencia",
-      "category": [
-        "EU AI Act",
-        "AI Governance"
-      ],
-      "title": "First Virtual Worlds Partnership Annual Forum to take place in Valencia",
-      "raw_excerpt": "The first Virtual worlds Partnership Annual Forum takes place alongside EuroXR 2026 and the New European Media (NEM) summit, bringing together Europe’s virtual worlds community.",
-      "published_at": "2026-10-30",
-      "collected_at": "2026-10-30T15:03:52+01:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "362151879075e38d9d5a0f667131e211c113329a363043a1706974a80f2c5e22",
-      "first_seen_at": "2026-10-30T15:03:52+01:00",
-      "last_seen_at": "2026-11-19T04:18:55+01:00",
-      "collector_note": null
-    },
-    {
-      "id": "d4132fd01e61d7cdcda5",
-      "source_id": "eu-ai-office",
-      "source": "European Commission – AI Act / AI Office",
-      "source_type": "primary",
-      "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-launches-education-and-skills-package-tackle-declining-basic-skills-rapid-digital-change",
-      "category": [
-        "EU AI Act",
-        "AI Governance"
-      ],
-      "title": "Commission launches Education and Skills package to tackle declining basic skills, rapid digital change and teacher shortages",
-      "raw_excerpt": "The European Commission presents a new Education and Skills Package to reverse the decline in basic skills, help schools make AI and digital technologies work for learning and address teacher shortages.",
-      "published_at": "2026-11-05",
-      "collected_at": "2026-11-06T18:55:23+01:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "dfdf26c2a0b7379d5d27025a4f73a62a42f3c544ff23ba761135d6587bbdcf37",
-      "first_seen_at": "2026-11-06T18:55:23+01:00",
-      "last_seen_at": "2026-11-19T04:18:55+01:00",
-      "collector_note": null
-    },
-    {
-      "id": "a219305664704ca5e59b",
-      "source_id": "eu-ai-office",
-      "source": "European Commission – AI Act / AI Office",
-      "source_type": "primary",
-      "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-hosts-apply-ai-summit-boost-europes-ai-innovation-and-uptake",
-      "category": [
-        "EU AI Act",
-        "AI Governance"
-      ],
-      "title": "Commission hosts Apply AI Summit to boost Europe’s AI innovation and uptake",
-      "raw_excerpt": "Nearly 1,000 high-level policymakers, start-ups, industry leaders and researchers will take part in the Apply AI Summit in Brussels tomorrow.",
-      "published_at": "2026-11-16",
-      "collected_at": "2026-11-16T21:57:50+01:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "a77ec68a4fed1ee69b2e5c8e9d517b0d4baff0c07612dc31757701e0d813fae4",
-      "first_seen_at": "2026-11-16T21:57:50+01:00",
-      "last_seen_at": "2026-11-19T04:18:55+01:00",
-      "collector_note": null
-    },
-    {
-      "id": "c559fbd12af243b637ab",
-      "source_id": "eu-ai-office",
-      "source": "European Commission – AI Act / AI Office",
-      "source_type": "primary",
-      "source_url": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
-      "category": [
-        "EU AI Act",
-        "AI Governance"
-      ],
-      "title": "AI Omnibus enters into force",
-      "raw_excerpt": "On 27 July 2026, the AI Omnibus enters into force across the EU, bringing extended timelines to administrative simplification.",
-      "published_at": "2026-07-27",
-      "collected_at": "2026-09-15T10:43:59+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "2adce69ab2ad064ab7d0d5e4c37c8459642f465c380fd74168a3f948e4e9027e",
-      "first_seen_at": "2026-09-15T10:43:59+02:00",
-      "last_seen_at": "2026-11-19T04:18:55+01:00",
-      "collector_note": null
-    },
-    {
-      "id": "956414ff323625f7fa6f",
-      "source_id": "eu-ai-office",
-      "source": "European Commission – AI Act / AI Office",
-      "source_type": "primary",
-      "source_url": "https://digital-strategy.ec.europa.eu/en/news/supporting-implementation-ai-act-clear-guidelines",
-      "category": [
-        "EU AI Act",
-        "AI Governance"
-      ],
-      "title": "Supporting the implementation of the AI Act with clear guidelines",
-      "raw_excerpt": "In the course of 2026, the AI Office has been preparing guidelines to ensure a smooth implementation of the AI Act.",
-      "published_at": "2025-12-04",
-      "collected_at": "2026-09-15T10:43:58+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "6964d2a6e825efe24a090875b524221a191b37acacf014c6a4535031cae41c00",
-      "first_seen_at": "2026-09-15T10:43:58+02:00",
-      "last_seen_at": "2026-11-19T04:18:55+01:00",
-      "collector_note": null
-    },
-    {
       "id": "a4560b9a47c20f7bf26a",
       "source_id": "heise-ai-news",
       "source": "heise online – KI-Nachrichten",
@@ -1092,26 +1433,6 @@
       "last_seen_at": "2026-11-18T22:53:59+01:00"
     },
     {
-      "id": "027b9707b22cf23931e0",
-      "source_id": "apm-project-management",
-      "source": "APM – News and Blog",
-      "source_type": "primary",
-      "source_url": "https://www.apm.org.uk/news/rachael-keeble-joins-apm-board-as-organisation-s-newest-trustee/",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "Rachael Keeble joins APM Board as organisation’s newest Trustee",
-      "raw_excerpt": "Association for Project Management (APM) has welcomed Rachael Keeble to its Board of Trustees, following its annual board elections.",
-      "published_at": "2026-11-16",
-      "collected_at": "2026-11-16T12:02:20+01:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "be78538500b651df29475ca466bf97fb95a3afa2578a9ba07d44ce41cab5143d",
-      "first_seen_at": "2026-11-16T12:02:20+01:00",
-      "last_seen_at": "2026-11-18T22:53:58+01:00"
-    },
-    {
       "id": "13f401771cc48fb2c3a4",
       "source_id": "apm-project-management",
       "source": "APM – News and Blog",
@@ -1132,86 +1453,6 @@
       "last_seen_at": "2026-11-18T22:53:58+01:00"
     },
     {
-      "id": "7b14758cea3e0611fc52",
-      "source_id": "apm-project-management",
-      "source": "APM – News and Blog",
-      "source_type": "primary",
-      "source_url": "https://www.apm.org.uk/blog/beyond-the-mid-career-plateau-redefining-progress-and-finding-momentum/",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "Beyond the mid-career plateau: Redefining progress and finding momentum",
-      "raw_excerpt": "Career progression is not always a straight line. Sometimes, the most important professional growth happens when your job title stays the same. This is something I have come to appreciate as a mid-career project management professional. After more than a decade in the industry, I have learned that experience, qualifications and consistently delivering successful projects do not automatically translate into the next career opportunity.",
-      "published_at": "2026-11-16",
-      "collected_at": "2026-11-17T04:46:27+01:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "1dc6114dbf7937bd0e66bbc2903685fab17f8527196145e1c5fa7e2237d2e669",
-      "first_seen_at": "2026-11-17T04:46:27+01:00",
-      "last_seen_at": "2026-11-18T22:53:57+01:00"
-    },
-    {
-      "id": "5505f6fa357edf764091",
-      "source_id": "apm-project-management",
-      "source": "APM – News and Blog",
-      "source_type": "primary",
-      "source_url": "https://www.apm.org.uk/blog/the-hidden-dependencies-that-can-make-or-break-a-project/",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "The hidden dependencies that can make or break a project",
-      "raw_excerpt": "A programme can look solid — detailed activities, clear responsibilities, logic all the way through — and still be sitting on a dependency nobody's properly identified. I've seen it happen on a recent review: the relationship was there but it just wasn't the right one. That's often more dangerous than a missing link, because it looks fine on screen right up until it isn't.",
-      "published_at": "2026-11-17",
-      "collected_at": "2026-11-18T05:14:21+01:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "0591737b9de679a9135e171fdd579cb86a237153b0d048bcbf63ece755cf9f20",
-      "first_seen_at": "2026-11-18T05:14:21+01:00",
-      "last_seen_at": "2026-11-18T22:53:56+01:00"
-    },
-    {
-      "id": "d3b508e80f5e5bf8221c",
-      "source_id": "apm-project-management",
-      "source": "APM – News and Blog",
-      "source_type": "primary",
-      "source_url": "https://www.apm.org.uk/news/apm-learning-recognised-at-the-association-excellence-awards/",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "APM Learning recognised at the Association Excellence Awards",
-      "raw_excerpt": "Association for Project Management's online learning platform, APM Learning , earned a silver award at the Association Excellence Awards in the ‘Best Learning/Professional Development Programme' category.",
-      "published_at": "2026-11-18",
-      "collected_at": "2026-11-18T14:53:58+01:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "7c7bd72185458d93d189a93f14d4a95716f1abf204ac7085dfdffdedc4e1cbf3",
-      "first_seen_at": "2026-11-18T14:53:58+01:00",
-      "last_seen_at": "2026-11-18T22:53:55+01:00"
-    },
-    {
-      "id": "2a4e8c5b12ee53c6b7e4",
-      "source_id": "apm-project-management",
-      "source": "APM – News and Blog",
-      "source_type": "primary",
-      "source_url": "https://www.apm.org.uk/blog/ensuring-projects-deliver-their-intended-organisational-and-social-benefits/",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "Ensuring projects deliver their intended organisational and social benefits",
-      "raw_excerpt": "In the public sector, more than anywhere, projects need to deliver maximum value that aligns with strategic goals. Project outputs are just that, outputs. Time, scope and budget are constraints. The reason we do projects is to deliver benefits. And this is where effective benefits management steps in, serving as the essential discipline that ensures projects do not just finish, but deliver their intended organisational and social benefits.",
-      "published_at": "2026-11-18",
-      "collected_at": "2026-11-18T22:53:55+01:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "b04e78b89ae8047c6de25ae4fd70f274eaac60229319c21555332d2ce0c944fe",
-      "first_seen_at": "2026-11-18T22:53:55+01:00",
-      "last_seen_at": "2026-11-18T22:53:55+01:00"
-    },
-    {
       "id": "e8a7e5e453f6575c6f77",
       "source_id": "apm-project-management",
       "source": "APM – News and Blog",
@@ -1230,27 +1471,6 @@
       "content_hash": "7d8f1b7437de00115357c4fad7ccce583618e2307b6fc8daf74395180d9b0296",
       "first_seen_at": "2026-10-26T13:58:01+01:00",
       "last_seen_at": "2026-11-18T22:53:54+01:00"
-    },
-    {
-      "id": "2a1bcba63fb036090ae9",
-      "source_id": "eu-ai-office",
-      "source": "European Commission – AI Act / AI Office",
-      "source_type": "primary",
-      "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-holds-special-meeting-scientific-panel-frontier-ai-safety-and-risks",
-      "category": [
-        "EU AI Act",
-        "AI Governance"
-      ],
-      "title": "Commission holds special meeting of Scientific panel on frontier AI safety and risks",
-      "raw_excerpt": "The Commission holds a special meeting of the Scientific Panel on artificial intelligence (AI).",
-      "published_at": "2026-10-09",
-      "collected_at": "2026-10-12T19:48:50+02:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "ce0f30dcbe1de72c8feef41038c965ffbad76d9eaaeeb1aa548b4114a1f8fda4",
-      "first_seen_at": "2026-10-12T19:48:50+02:00",
-      "last_seen_at": "2026-11-18T22:53:12+01:00",
-      "collector_note": null
     },
     {
       "id": "5ae5acfcd0bcebdb82f0",
@@ -1511,106 +1731,6 @@
       "content_hash": "2a1cc877003307acb9b0cd445d074d118d55733363adab45ebee2aa909af133b",
       "first_seen_at": "2026-11-18T05:14:28+01:00",
       "last_seen_at": "2026-11-18T14:54:16+01:00"
-    },
-    {
-      "id": "1c951e35244b8e4c6018",
-      "source_id": "apm-project-management",
-      "source": "APM – News and Blog",
-      "source_type": "primary",
-      "source_url": "https://www.apm.org.uk/news/businesses-optimistic-about-cop31-but-idealism-and-ambition-must-not-outpace-delivery-says-apm/",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "Businesses optimistic about COP31 - but idealism and ambition must not outpace delivery, says APM",
-      "raw_excerpt": "UK business leaders are optimistic about the approaching UN climate change conference COP31 (taking place 9 to 20 November in Antalya, Turkey) with 88% confident that November’s conference will lead to meaningful global action, but the same proportion (88%) also anticipate the conference will require their business to implement changes.",
-      "published_at": "2026-11-04",
-      "collected_at": "2026-11-04T18:11:14+01:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "4be9060c67d8ee8577e8fe49c7dc5f0d5465240fd96e8cc41295ea4fab194731",
-      "first_seen_at": "2026-11-04T18:11:14+01:00",
-      "last_seen_at": "2026-11-18T14:54:06+01:00"
-    },
-    {
-      "id": "061076bf0958571f741e",
-      "source_id": "apm-project-management",
-      "source": "APM – News and Blog",
-      "source_type": "primary",
-      "source_url": "https://www.apm.org.uk/news/apm-and-the-defence-teaming-centre-to-strengthen-project-delivery-and-career-pathways-in-australias-defence-sector/",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "APM and the Defence Teaming Centre to strengthen project delivery and career pathways in Australia's defence sector",
-      "raw_excerpt": "Association for Project Management (APM) has signed a Memorandum of Understanding with Australian defence industry association, the Defence Teaming Centre (DTC), marking a significant step in APM’s continued international growth.",
-      "published_at": "2026-11-09",
-      "collected_at": "2026-11-09T18:25:49+01:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "4815e9aa5ea54d909440e1d96538f6f75f73f67ad93ad9fe75e1ccfbf76d1e50",
-      "first_seen_at": "2026-11-09T18:25:49+01:00",
-      "last_seen_at": "2026-11-18T14:54:05+01:00"
-    },
-    {
-      "id": "db8b68dcbb9cee5a183d",
-      "source_id": "apm-project-management",
-      "source": "APM – News and Blog",
-      "source_type": "primary",
-      "source_url": "https://www.apm.org.uk/news/connecting-pmo-and-portfolio-data-to-the-digital-future-webinar/",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "Connecting PMO and portfolio data to the digital future webinar",
-      "raw_excerpt": "Exploring the future of digital PMO and how teams are modernising portfolio management, this session on Monday 9 November unpacked the shift toward connected, governed, real-time ways of working.",
-      "published_at": "2026-11-09",
-      "collected_at": "2026-11-10T18:44:39+01:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "f056d2ebcf27d615a0a2d6514ec8b1555562dbeba660c8c42ad91bbef37ce254",
-      "first_seen_at": "2026-11-10T18:44:39+01:00",
-      "last_seen_at": "2026-11-18T14:54:03+01:00"
-    },
-    {
-      "id": "7f4dee2ac0f61ba7bb37",
-      "source_id": "apm-project-management",
-      "source": "APM – News and Blog",
-      "source_type": "primary",
-      "source_url": "https://www.apm.org.uk/news/sustainability-in-projects-what-actually-works-webinar/",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "Sustainability in projects: What actually works? webinar",
-      "raw_excerpt": "On Tuesday 10 November three experienced practitioners from across regions and industries explored one of the biggest challenges facing organisations today, not understanding sustainability but successfully embedding it into project delivery.",
-      "published_at": "2026-11-10",
-      "collected_at": "2026-11-11T00:14:23+01:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "7bfe74325f1f82e6601a98a3f891bd567caa9f9897194efc923d59c4e51463b7",
-      "first_seen_at": "2026-11-11T00:14:23+01:00",
-      "last_seen_at": "2026-11-18T14:54:02+01:00"
-    },
-    {
-      "id": "df7289902bed5961efb5",
-      "source_id": "apm-project-management",
-      "source": "APM – News and Blog",
-      "source_type": "primary",
-      "source_url": "https://www.apm.org.uk/news/apm-channel-islands-regional-network-events-help-professionals-embrace-ai/",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "APM Channel Islands Regional Network events help professionals embrace AI",
-      "raw_excerpt": "APM’s Channel Islands Regional Network drove the discussion on artificial intelligence in the project profession during two events hosted in Guernsey.",
-      "published_at": "2026-11-10",
-      "collected_at": "2026-11-10T10:42:18+01:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "e829523b28a73b883c6dfd925646e1fd9851498e7b2c61b424186d3c61a74c45",
-      "first_seen_at": "2026-11-10T10:42:18+01:00",
-      "last_seen_at": "2026-11-18T14:54:01+01:00"
     },
     {
       "id": "d6d690b8fff2640fa901",
@@ -15108,84 +15228,84 @@
       "name": "European Commission – AI Act / AI Office",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-11-19T04:18:56+01:00",
-      "items_found": 7
+      "last_update": "2026-11-19T13:55:07+01:00",
+      "items_found": 8
     },
     {
       "name": "EUR-Lex – Regulation (EU) 2024/1689",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-11-19T04:18:57+01:00",
+      "last_update": "2026-11-19T13:55:08+01:00",
       "items_found": 1
     },
     {
       "name": "European Data Protection Board",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-11-19T04:18:58+01:00",
+      "last_update": "2026-11-19T13:55:09+01:00",
       "items_found": 1
     },
     {
       "name": "Datenschutzkonferenz",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-11-19T04:18:59+01:00",
+      "last_update": "2026-11-19T13:55:10+01:00",
       "items_found": 1
     },
     {
       "name": "PMI – Artificial Intelligence",
       "type": "optional",
       "status": "failed",
-      "last_update": "2026-11-19T04:18:59+01:00",
+      "last_update": "2026-11-19T13:55:10+01:00",
       "note": "403 Client Error: Forbidden for url: https://www.pmi.org/blog?userTagIDSort=11122"
     },
     {
       "name": "GPM – Aktuelles und Blog",
       "type": "core",
-      "status": "ok",
-      "last_update": "2026-11-19T04:19:16+01:00",
-      "items_found": 10
+      "status": "failed",
+      "last_update": "2026-11-19T13:55:11+01:00",
+      "note": "mismatched tag: line 93, column 2"
     },
     {
       "name": "APM – News and Blog",
       "type": "core",
-      "status": "failed",
-      "last_update": "2026-11-19T04:19:47+01:00",
-      "note": "Offizielle Sitemap enthält keine passenden Artikel-URLs."
+      "status": "ok",
+      "last_update": "2026-11-19T13:55:24+01:00",
+      "items_found": 10
     },
     {
       "name": "BSI – Cyber- und KI-Sicherheit",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-11-19T04:19:49+01:00",
+      "last_update": "2026-11-19T13:55:25+01:00",
       "items_found": 5
     },
     {
       "name": "ENISA – Cyber- und KI-Sicherheit",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-11-19T04:19:49+01:00",
+      "last_update": "2026-11-19T13:55:25+01:00",
       "items_found": 5
     },
     {
       "name": "OpenAI – News",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-11-19T04:19:49+01:00",
+      "last_update": "2026-11-19T13:55:25+01:00",
       "items_found": 5
     },
     {
       "name": "Google – AI Blog",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-11-19T04:19:49+01:00",
+      "last_update": "2026-11-19T13:55:26+01:00",
       "items_found": 5
     },
     {
       "name": "heise online – KI-Nachrichten",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-11-19T04:19:51+01:00",
+      "last_update": "2026-11-19T13:55:26+01:00",
       "items_found": 8
     }
   ]
