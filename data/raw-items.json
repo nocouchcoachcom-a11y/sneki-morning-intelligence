@@ -1,207 +1,7 @@
 {
   "schema_version": "1.0",
-  "collected_at": "2026-11-25T16:32:07+01:00",
+  "collected_at": "2026-11-26T01:15:50+01:00",
   "items": [
-    {
-      "id": "e02c80316e17fbe059d0",
-      "source_id": "google-ai-news",
-      "source": "Google – AI Blog",
-      "source_type": "vendor",
-      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
-      "category": [
-        "KI & Technologie"
-      ],
-      "title": "The Gemini app is now available on lower-memory Android devices.",
-      "raw_excerpt": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
-      "published_at": "2026-11-18T18:00:00+01:00",
-      "collected_at": "2026-11-18T22:54:02+01:00",
-      "verification": "vendor",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "eebb2331e3ececc845ca7c5375ac4f54ce45c702478f5f7de992568d0020e4b3",
-      "first_seen_at": "2026-11-18T22:54:02+01:00",
-      "last_seen_at": "2026-11-25T16:32:07+01:00"
-    },
-    {
-      "id": "94d5fac64ab054874ed7",
-      "source_id": "google-ai-news",
-      "source": "Google – AI Blog",
-      "source_type": "vendor",
-      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
-      "category": [
-        "KI & Technologie"
-      ],
-      "title": "Introducing Tool Retrieval in the Gemini API",
-      "raw_excerpt": "Gemini spark on a space background",
-      "published_at": "2026-11-19T19:00:00+01:00",
-      "collected_at": "2026-11-19T22:27:41+01:00",
-      "verification": "vendor",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "2dc363a5424e7f20519a914d9c636bfe7743a6c3bcc8e129ef5774be96068eda",
-      "first_seen_at": "2026-11-19T22:27:41+01:00",
-      "last_seen_at": "2026-11-25T16:32:07+01:00"
-    },
-    {
-      "id": "bfde55887374abfe8420",
-      "source_id": "google-ai-news",
-      "source": "Google – AI Blog",
-      "source_type": "vendor",
-      "source_url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
-      "category": [
-        "KI & Technologie"
-      ],
-      "title": "Walter Isaacson on curiosity and creativity in the AI age.",
-      "raw_excerpt": "Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.",
-      "published_at": "2026-11-19T18:00:00+01:00",
-      "collected_at": "2026-11-19T22:27:41+01:00",
-      "verification": "vendor",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "5212580a23e05f647fd0b0c41d1d75b4ff8e169223a3e7bb62babccbc70aafda",
-      "first_seen_at": "2026-11-19T22:27:41+01:00",
-      "last_seen_at": "2026-11-25T16:32:07+01:00"
-    },
-    {
-      "id": "d72305527e6d04165826",
-      "source_id": "google-ai-news",
-      "source": "Google – AI Blog",
-      "source_type": "vendor",
-      "source_url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
-      "category": [
-        "KI & Technologie"
-      ],
-      "title": "A more tailored Google Search that’s uniquely yours",
-      "raw_excerpt": "Google Search bar with the text \"Personal Intelligence\" surrounded by the Google Wallet, Google Drive, GMail, Google Photos, Google Calendar, and Google G logo icons",
-      "published_at": "2026-11-23T18:00:00+01:00",
-      "collected_at": "2026-11-24T01:48:26+01:00",
-      "verification": "vendor",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "ef77472728ff01856952430ae7279e0de75cf89001422b6e3bc21033b35acca0",
-      "first_seen_at": "2026-11-24T01:48:26+01:00",
-      "last_seen_at": "2026-11-25T16:32:07+01:00"
-    },
-    {
-      "id": "3a0fafc699ab9b5c108c",
-      "source_id": "openai-news",
-      "source": "OpenAI – News",
-      "source_type": "vendor",
-      "source_url": "https://openai.com/index/searching-for-distant-planets-with-astra",
-      "category": [
-        "KI & Technologie"
-      ],
-      "title": "Searching for distant planets with Astra",
-      "raw_excerpt": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
-      "published_at": "2026-11-24T12:00:00+01:00",
-      "collected_at": "2026-11-24T22:08:23+01:00",
-      "verification": "vendor",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "2cdb3996590bb2243a27d8f1f855ee5e42e4f7592be67e94660ab0dbf1dd1042",
-      "first_seen_at": "2026-11-24T22:08:23+01:00",
-      "last_seen_at": "2026-11-25T16:32:07+01:00"
-    },
-    {
-      "id": "b62e6f9d23e784e88a8b",
-      "source_id": "openai-news",
-      "source": "OpenAI – News",
-      "source_type": "vendor",
-      "source_url": "https://openai.com/business/customer-stories/intentful-dots",
-      "category": [
-        "KI & Technologie"
-      ],
-      "title": "How Intentful uses dots to make more time for growth",
-      "raw_excerpt": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
-      "published_at": "2026-11-24T01:00:00+01:00",
-      "collected_at": "2026-11-24T22:08:23+01:00",
-      "verification": "vendor",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "db09c4f7fb3864ad81d92c6ba300bcc6db17fe5527c70533558fd9b33314c15d",
-      "first_seen_at": "2026-11-24T22:08:23+01:00",
-      "last_seen_at": "2026-11-25T16:32:07+01:00"
-    },
-    {
-      "id": "b1ede10d080e350f7df8",
-      "source_id": "openai-news",
-      "source": "OpenAI – News",
-      "source_type": "vendor",
-      "source_url": "https://openai.com/business/customer-stories/ifood",
-      "category": [
-        "KI & Technologie"
-      ],
-      "title": "How iFood scales coding agents across 15,000 repositories",
-      "raw_excerpt": "",
-      "published_at": "2026-11-24T01:00:00+01:00",
-      "collected_at": "2026-11-24T22:08:23+01:00",
-      "verification": "vendor",
-      "status": "degraded",
-      "collector_note": "Datum oder Kurztext fehlt.",
-      "content_hash": "5b6f4a42b8c7cbdf18bed2b67a6504640a438b555a9c704e60b491f1786af679",
-      "first_seen_at": "2026-11-24T22:08:23+01:00",
-      "last_seen_at": "2026-11-25T16:32:07+01:00"
-    },
-    {
-      "id": "a2d74f8e2951d83c6c9c",
-      "source_id": "google-ai-news",
-      "source": "Google – AI Blog",
-      "source_type": "vendor",
-      "source_url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
-      "category": [
-        "KI & Technologie"
-      ],
-      "title": "How Gemini is changing the game for Golden State's organization and fans.",
-      "raw_excerpt": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
-      "published_at": "2026-11-24T17:00:00+01:00",
-      "collected_at": "2026-11-24T22:08:23+01:00",
-      "verification": "vendor",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "1b57a19fbc4523886010e853b43070fe9c3ece89a8735e29befea58882c57d8b",
-      "first_seen_at": "2026-11-24T22:08:23+01:00",
-      "last_seen_at": "2026-11-25T16:32:07+01:00"
-    },
-    {
-      "id": "5a50b2eb3a1b4f6451b1",
-      "source_id": "openai-news",
-      "source": "OpenAI – News",
-      "source_type": "vendor",
-      "source_url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
-      "category": [
-        "KI & Technologie"
-      ],
-      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-      "raw_excerpt": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
-      "published_at": "2026-11-24T14:00:00+01:00",
-      "collected_at": "2026-11-25T05:53:20+01:00",
-      "verification": "vendor",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "bad4182b79a1ed7fc00a6364024458588d6d6f6e2da7b7d566e8577e0e9b57e6",
-      "first_seen_at": "2026-11-25T05:53:20+01:00",
-      "last_seen_at": "2026-11-25T16:32:07+01:00"
-    },
-    {
-      "id": "035cacb9a86d4f8a2773",
-      "source_id": "openai-news",
-      "source": "OpenAI – News",
-      "source_type": "vendor",
-      "source_url": "https://openai.com/business/customer-stories/clay-plugins-openai",
-      "category": [
-        "KI & Technologie"
-      ],
-      "title": "Clay helps sales teams win with Codex and ChatGPT",
-      "raw_excerpt": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
-      "published_at": "2026-11-24T01:00:00+01:00",
-      "collected_at": "2026-11-25T05:53:20+01:00",
-      "verification": "vendor",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "5b4e8d7e65ce4023635a20a955597a75721c2c1ec9f0f0d45f94ebd384dc979d",
-      "first_seen_at": "2026-11-25T05:53:20+01:00",
-      "last_seen_at": "2026-11-25T16:32:07+01:00"
-    },
     {
       "id": "648b4028bb97b051bf31",
       "source_id": "heise-ai-news",
@@ -220,7 +20,7 @@
       "collector_note": null,
       "content_hash": "7f34eb0aa5b639ad636eb45fb192c1701180fb231d84a0563fd885852596f420",
       "first_seen_at": "2026-11-25T16:32:07+01:00",
-      "last_seen_at": "2026-11-25T16:32:07+01:00"
+      "last_seen_at": "2026-11-26T01:15:50+01:00"
     },
     {
       "id": "0a6fdae04028941cb24b",
@@ -240,7 +40,7 @@
       "collector_note": null,
       "content_hash": "684e132f66c5afb2fd100ba19d098c18aad34b35b8786e466980de45e8b0eee2",
       "first_seen_at": "2026-11-25T16:32:07+01:00",
-      "last_seen_at": "2026-11-25T16:32:07+01:00"
+      "last_seen_at": "2026-11-26T01:15:50+01:00"
     },
     {
       "id": "6fd7a7f50eb4700c6abe",
@@ -260,7 +60,7 @@
       "collector_note": null,
       "content_hash": "79ca4005b9499856a64a7906ed43d19710f1fb8416eb6326266a3a1e21416116",
       "first_seen_at": "2026-11-25T16:32:07+01:00",
-      "last_seen_at": "2026-11-25T16:32:07+01:00"
+      "last_seen_at": "2026-11-26T01:15:50+01:00"
     },
     {
       "id": "123e0e76bb7be84f47da",
@@ -280,27 +80,7 @@
       "collector_note": null,
       "content_hash": "e2361e3dad4199bf5cd3a999ce74daecbed7bdd357c936c8fb2ce073ce6543d6",
       "first_seen_at": "2026-11-25T16:32:07+01:00",
-      "last_seen_at": "2026-11-25T16:32:07+01:00"
-    },
-    {
-      "id": "40283b23374f79dbd76b",
-      "source_id": "heise-ai-news",
-      "source": "heise online – KI-Nachrichten",
-      "source_type": "discovery",
-      "source_url": "https://www.heise.de/hintergrund/Retro-Konsolengames-nativ-auf-dem-PC-Was-KI-leistet-und-welche-Fan-Ports-taugen-11464630.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "category": [
-        "KI & Technologie"
-      ],
-      "title": "heise+ | Retro-Konsolengames nativ auf dem PC: Was KI leistet und welche Fan-Ports taugen",
-      "raw_excerpt": "Fans bringen Konsolenklassiker ohne Emulator in 4K und mit 120 fps auf PC und Smartphone. Wie entstehen solche Ports, wo hilft KI und wo schadet sie?",
-      "published_at": "2026-11-25T10:30:00+01:00",
-      "collected_at": "2026-11-25T16:32:07+01:00",
-      "verification": "secondary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "862d267d7bdf9dd15598ddda61d5c74dc1e95c16e17bcf43440d23c13fcd6631",
-      "first_seen_at": "2026-11-25T16:32:07+01:00",
-      "last_seen_at": "2026-11-25T16:32:07+01:00"
+      "last_seen_at": "2026-11-26T01:15:50+01:00"
     },
     {
       "id": "55afe5b83bbc38da3bf6",
@@ -320,7 +100,7 @@
       "collector_note": null,
       "content_hash": "60c4a09e4a120f2f0c3e079fdd31e74e7527ccd5c29804a9eef5dbece3d64ace",
       "first_seen_at": "2026-11-25T16:32:07+01:00",
-      "last_seen_at": "2026-11-25T16:32:07+01:00"
+      "last_seen_at": "2026-11-26T01:15:50+01:00"
     },
     {
       "id": "4c371448893d4fcf7584",
@@ -340,7 +120,7 @@
       "collector_note": null,
       "content_hash": "2a647df96cfe9833d00c30f6ebff896ef6489aecc824c61a725bead9cc38b235",
       "first_seen_at": "2026-11-25T16:32:07+01:00",
-      "last_seen_at": "2026-11-25T16:32:07+01:00"
+      "last_seen_at": "2026-11-26T01:15:50+01:00"
     },
     {
       "id": "8143502df75252c2b4e9",
@@ -360,7 +140,227 @@
       "collector_note": null,
       "content_hash": "ba301e9a587907ed977ae7ebcdbbac8384cd5152af135bdc4dd7d2145ab1e7b7",
       "first_seen_at": "2026-11-25T16:32:07+01:00",
-      "last_seen_at": "2026-11-25T16:32:07+01:00"
+      "last_seen_at": "2026-11-26T01:15:50+01:00"
+    },
+    {
+      "id": "aa3a1e7495bf8f6b04ce",
+      "source_id": "heise-ai-news",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/news/Klinik-KI-als-Open-Source-Leipzig-teilt-AMPEL-Code-11538066.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "Klinik-KI als Open Source: Leipzig teilt AMPEL-Code",
+      "raw_excerpt": "Das Uniklinikum Leipzig gibt den Code der AMPEL-Plattform frei. Kliniken sollen damit eigene Medizinprodukte entwickeln können.",
+      "published_at": "2026-11-25T16:59:00+01:00",
+      "collected_at": "2026-11-26T01:15:50+01:00",
+      "verification": "secondary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "874e3a634dfa52b15eed216614f4518e9c7cebee8f59ac4fa82ad493b13a9645",
+      "first_seen_at": "2026-11-26T01:15:50+01:00",
+      "last_seen_at": "2026-11-26T01:15:50+01:00"
+    },
+    {
+      "id": "e02c80316e17fbe059d0",
+      "source_id": "google-ai-news",
+      "source": "Google – AI Blog",
+      "source_type": "vendor",
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "The Gemini app is now available on lower-memory Android devices.",
+      "raw_excerpt": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
+      "published_at": "2026-11-18T18:00:00+01:00",
+      "collected_at": "2026-11-18T22:54:02+01:00",
+      "verification": "vendor",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "eebb2331e3ececc845ca7c5375ac4f54ce45c702478f5f7de992568d0020e4b3",
+      "first_seen_at": "2026-11-18T22:54:02+01:00",
+      "last_seen_at": "2026-11-26T01:15:49+01:00"
+    },
+    {
+      "id": "94d5fac64ab054874ed7",
+      "source_id": "google-ai-news",
+      "source": "Google – AI Blog",
+      "source_type": "vendor",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "Introducing Tool Retrieval in the Gemini API",
+      "raw_excerpt": "Gemini spark on a space background",
+      "published_at": "2026-11-19T19:00:00+01:00",
+      "collected_at": "2026-11-19T22:27:41+01:00",
+      "verification": "vendor",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "2dc363a5424e7f20519a914d9c636bfe7743a6c3bcc8e129ef5774be96068eda",
+      "first_seen_at": "2026-11-19T22:27:41+01:00",
+      "last_seen_at": "2026-11-26T01:15:49+01:00"
+    },
+    {
+      "id": "bfde55887374abfe8420",
+      "source_id": "google-ai-news",
+      "source": "Google – AI Blog",
+      "source_type": "vendor",
+      "source_url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "Walter Isaacson on curiosity and creativity in the AI age.",
+      "raw_excerpt": "Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.",
+      "published_at": "2026-11-19T18:00:00+01:00",
+      "collected_at": "2026-11-19T22:27:41+01:00",
+      "verification": "vendor",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "5212580a23e05f647fd0b0c41d1d75b4ff8e169223a3e7bb62babccbc70aafda",
+      "first_seen_at": "2026-11-19T22:27:41+01:00",
+      "last_seen_at": "2026-11-26T01:15:49+01:00"
+    },
+    {
+      "id": "d72305527e6d04165826",
+      "source_id": "google-ai-news",
+      "source": "Google – AI Blog",
+      "source_type": "vendor",
+      "source_url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "A more tailored Google Search that’s uniquely yours",
+      "raw_excerpt": "Google Search bar with the text \"Personal Intelligence\" surrounded by the Google Wallet, Google Drive, GMail, Google Photos, Google Calendar, and Google G logo icons",
+      "published_at": "2026-11-23T18:00:00+01:00",
+      "collected_at": "2026-11-24T01:48:26+01:00",
+      "verification": "vendor",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "ef77472728ff01856952430ae7279e0de75cf89001422b6e3bc21033b35acca0",
+      "first_seen_at": "2026-11-24T01:48:26+01:00",
+      "last_seen_at": "2026-11-26T01:15:49+01:00"
+    },
+    {
+      "id": "3a0fafc699ab9b5c108c",
+      "source_id": "openai-news",
+      "source": "OpenAI – News",
+      "source_type": "vendor",
+      "source_url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "Searching for distant planets with Astra",
+      "raw_excerpt": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+      "published_at": "2026-11-24T12:00:00+01:00",
+      "collected_at": "2026-11-24T22:08:23+01:00",
+      "verification": "vendor",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "2cdb3996590bb2243a27d8f1f855ee5e42e4f7592be67e94660ab0dbf1dd1042",
+      "first_seen_at": "2026-11-24T22:08:23+01:00",
+      "last_seen_at": "2026-11-26T01:15:49+01:00"
+    },
+    {
+      "id": "b62e6f9d23e784e88a8b",
+      "source_id": "openai-news",
+      "source": "OpenAI – News",
+      "source_type": "vendor",
+      "source_url": "https://openai.com/business/customer-stories/intentful-dots",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "How Intentful uses dots to make more time for growth",
+      "raw_excerpt": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+      "published_at": "2026-11-24T01:00:00+01:00",
+      "collected_at": "2026-11-24T22:08:23+01:00",
+      "verification": "vendor",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "db09c4f7fb3864ad81d92c6ba300bcc6db17fe5527c70533558fd9b33314c15d",
+      "first_seen_at": "2026-11-24T22:08:23+01:00",
+      "last_seen_at": "2026-11-26T01:15:49+01:00"
+    },
+    {
+      "id": "b1ede10d080e350f7df8",
+      "source_id": "openai-news",
+      "source": "OpenAI – News",
+      "source_type": "vendor",
+      "source_url": "https://openai.com/business/customer-stories/ifood",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "How iFood scales coding agents across 15,000 repositories",
+      "raw_excerpt": "",
+      "published_at": "2026-11-24T01:00:00+01:00",
+      "collected_at": "2026-11-24T22:08:23+01:00",
+      "verification": "vendor",
+      "status": "degraded",
+      "collector_note": "Datum oder Kurztext fehlt.",
+      "content_hash": "5b6f4a42b8c7cbdf18bed2b67a6504640a438b555a9c704e60b491f1786af679",
+      "first_seen_at": "2026-11-24T22:08:23+01:00",
+      "last_seen_at": "2026-11-26T01:15:49+01:00"
+    },
+    {
+      "id": "a2d74f8e2951d83c6c9c",
+      "source_id": "google-ai-news",
+      "source": "Google – AI Blog",
+      "source_type": "vendor",
+      "source_url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "How Gemini is changing the game for Golden State's organization and fans.",
+      "raw_excerpt": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
+      "published_at": "2026-11-24T17:00:00+01:00",
+      "collected_at": "2026-11-24T22:08:23+01:00",
+      "verification": "vendor",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "1b57a19fbc4523886010e853b43070fe9c3ece89a8735e29befea58882c57d8b",
+      "first_seen_at": "2026-11-24T22:08:23+01:00",
+      "last_seen_at": "2026-11-26T01:15:49+01:00"
+    },
+    {
+      "id": "5a50b2eb3a1b4f6451b1",
+      "source_id": "openai-news",
+      "source": "OpenAI – News",
+      "source_type": "vendor",
+      "source_url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "raw_excerpt": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+      "published_at": "2026-11-24T14:00:00+01:00",
+      "collected_at": "2026-11-25T05:53:20+01:00",
+      "verification": "vendor",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "bad4182b79a1ed7fc00a6364024458588d6d6f6e2da7b7d566e8577e0e9b57e6",
+      "first_seen_at": "2026-11-25T05:53:20+01:00",
+      "last_seen_at": "2026-11-26T01:15:49+01:00"
+    },
+    {
+      "id": "035cacb9a86d4f8a2773",
+      "source_id": "openai-news",
+      "source": "OpenAI – News",
+      "source_type": "vendor",
+      "source_url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "Clay helps sales teams win with Codex and ChatGPT",
+      "raw_excerpt": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+      "published_at": "2026-11-24T01:00:00+01:00",
+      "collected_at": "2026-11-25T05:53:20+01:00",
+      "verification": "vendor",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "5b4e8d7e65ce4023635a20a955597a75721c2c1ec9f0f0d45f94ebd384dc979d",
+      "first_seen_at": "2026-11-25T05:53:20+01:00",
+      "last_seen_at": "2026-11-26T01:15:49+01:00"
     },
     {
       "id": "8f06b79d388f40327935",
@@ -380,7 +380,7 @@
       "collector_note": null,
       "content_hash": "225fd97730996f1056df2c3d6e0681ea23d0a6212ad9322476999f5ec066e30b",
       "first_seen_at": "2026-10-06T13:24:52+02:00",
-      "last_seen_at": "2026-11-25T16:32:06+01:00"
+      "last_seen_at": "2026-11-26T01:15:49+01:00"
     },
     {
       "id": "6536b2d03b18d7fa242c",
@@ -400,7 +400,7 @@
       "collector_note": null,
       "content_hash": "e03ad27417c82d4d9a6dbf695936a0fd0a1b930389ad63bab14fbdee07350538",
       "first_seen_at": "2026-10-16T19:22:39+02:00",
-      "last_seen_at": "2026-11-25T16:32:06+01:00"
+      "last_seen_at": "2026-11-26T01:15:49+01:00"
     },
     {
       "id": "9f19ecdf86ee7f98cb26",
@@ -420,7 +420,7 @@
       "collector_note": null,
       "content_hash": "acddcb3d9dbecf995ef8308e998220c71de215736c030001ead1ead9ec8266fd",
       "first_seen_at": "2026-10-21T22:06:31+02:00",
-      "last_seen_at": "2026-11-25T16:32:06+01:00"
+      "last_seen_at": "2026-11-26T01:15:49+01:00"
     },
     {
       "id": "9753bcb4af007e4bacc7",
@@ -440,7 +440,7 @@
       "collector_note": null,
       "content_hash": "2529e56367266e0bcca88dab75e0b732d4b7ed1ab912fc9c47d930074d920bd5",
       "first_seen_at": "2026-11-05T00:36:43+01:00",
-      "last_seen_at": "2026-11-25T16:32:06+01:00"
+      "last_seen_at": "2026-11-26T01:15:49+01:00"
     },
     {
       "id": "d90249d72f0d99744e7d",
@@ -460,7 +460,7 @@
       "collector_note": null,
       "content_hash": "a1610604516dbbabf9dca4d12c9edba8264fa2864002331821c0f70e8f52a559",
       "first_seen_at": "2026-11-11T00:14:35+01:00",
-      "last_seen_at": "2026-11-25T16:32:06+01:00"
+      "last_seen_at": "2026-11-26T01:15:49+01:00"
     },
     {
       "id": "0c8caa098365fd047aaa",
@@ -480,7 +480,7 @@
       "collector_note": null,
       "content_hash": "81395f5d03cf2b1d35d1800c9ae35ee1414e3b4260cbdce7260b29b63dc94971",
       "first_seen_at": "2026-10-06T13:24:51+02:00",
-      "last_seen_at": "2026-11-25T16:32:05+01:00"
+      "last_seen_at": "2026-11-26T01:15:48+01:00"
     },
     {
       "id": "e5c9b8b2ace7a43200cf",
@@ -500,7 +500,7 @@
       "collector_note": null,
       "content_hash": "b711f7fcda22b83b3767e55bde5472e65cbdb49e7430aa24d4a26fbdd7d99d78",
       "first_seen_at": "2026-10-12T19:49:22+02:00",
-      "last_seen_at": "2026-11-25T16:32:05+01:00"
+      "last_seen_at": "2026-11-26T01:15:48+01:00"
     },
     {
       "id": "6f97b27eb706cd5939f3",
@@ -520,7 +520,7 @@
       "collector_note": null,
       "content_hash": "9bf82115fd99ed444c7d1efb0b7eb07d9b3647128afc8d30d434fc9203d55529",
       "first_seen_at": "2026-10-16T14:23:20+02:00",
-      "last_seen_at": "2026-11-25T16:32:05+01:00"
+      "last_seen_at": "2026-11-26T01:15:48+01:00"
     },
     {
       "id": "ccc642bb60b723bc0d67",
@@ -540,7 +540,7 @@
       "collector_note": null,
       "content_hash": "5fb4c2e6cfebcd2e2b0885e60eaeae8667a67eb0fed937cf73cc50bba32589a8",
       "first_seen_at": "2026-10-20T13:28:53+02:00",
-      "last_seen_at": "2026-11-25T16:32:05+01:00"
+      "last_seen_at": "2026-11-26T01:15:48+01:00"
     },
     {
       "id": "5658acd543efec26488d",
@@ -560,7 +560,207 @@
       "collector_note": null,
       "content_hash": "bc22006bb5cbb4bbb9d5f7ff358b813557fe17ef256b833d3a37a38d3bbbb2d6",
       "first_seen_at": "2026-11-16T21:58:41+01:00",
-      "last_seen_at": "2026-11-25T16:32:05+01:00"
+      "last_seen_at": "2026-11-26T01:15:48+01:00"
+    },
+    {
+      "id": "70e63afd3458c1244cad",
+      "source_id": "apm-project-management",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/blog/why-human-judgement-matters-more-in-ai-powered-agile-teams/",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "Why human judgement matters more in AI-powered agile teams",
+      "raw_excerpt": "Artificial Intelligence (AI) has significantly accelerated the journey from initial concept to working output, enabling ideas to be developed faster than at any other point in my career. To some, that may sound like an argument for needing less human involvement in delivery, but my experience has convinced me of the opposite. The easier execution becomes, the more important the decisions around it become - what is worth doing, what should be challenged, where the boundaries sit and when to stop.",
+      "published_at": "2026-11-12",
+      "collected_at": "2026-11-12T19:52:01+01:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "bbcfa5eff3a604936737defa72b383d074529858b18f56786bfb3df02a31b939",
+      "first_seen_at": "2026-11-12T19:52:01+01:00",
+      "last_seen_at": "2026-11-26T01:15:47+01:00"
+    },
+    {
+      "id": "7b14758cea3e0611fc52",
+      "source_id": "apm-project-management",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/blog/beyond-the-mid-career-plateau-redefining-progress-and-finding-momentum/",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "Beyond the mid-career plateau: Redefining progress and finding momentum",
+      "raw_excerpt": "Career progression is not always a straight line. Sometimes, the most important professional growth happens when your job title stays the same. This is something I have come to appreciate as a mid-career project management professional. After more than a decade in the industry, I have learned that experience, qualifications and consistently delivering successful projects do not automatically translate into the next career opportunity.",
+      "published_at": "2026-11-16",
+      "collected_at": "2026-11-17T04:46:27+01:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "1dc6114dbf7937bd0e66bbc2903685fab17f8527196145e1c5fa7e2237d2e669",
+      "first_seen_at": "2026-11-17T04:46:27+01:00",
+      "last_seen_at": "2026-11-26T01:15:45+01:00"
+    },
+    {
+      "id": "5505f6fa357edf764091",
+      "source_id": "apm-project-management",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/blog/the-hidden-dependencies-that-can-make-or-break-a-project/",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "The hidden dependencies that can make or break a project",
+      "raw_excerpt": "A programme can look solid — detailed activities, clear responsibilities, logic all the way through — and still be sitting on a dependency nobody's properly identified. I've seen it happen on a recent review: the relationship was there but it just wasn't the right one. That's often more dangerous than a missing link, because it looks fine on screen right up until it isn't.",
+      "published_at": "2026-11-17",
+      "collected_at": "2026-11-18T05:14:21+01:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "0591737b9de679a9135e171fdd579cb86a237153b0d048bcbf63ece755cf9f20",
+      "first_seen_at": "2026-11-18T05:14:21+01:00",
+      "last_seen_at": "2026-11-26T01:15:44+01:00"
+    },
+    {
+      "id": "2a4e8c5b12ee53c6b7e4",
+      "source_id": "apm-project-management",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/blog/ensuring-projects-deliver-their-intended-organisational-and-social-benefits/",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "Ensuring projects deliver their intended organisational and social benefits",
+      "raw_excerpt": "In the public sector, more than anywhere, projects need to deliver maximum value that aligns with strategic goals. Project outputs are just that, outputs. Time, scope and budget are constraints. The reason we do projects is to deliver benefits. And this is where effective benefits management steps in, serving as the essential discipline that ensures projects do not just finish, but deliver their intended organisational and social benefits.",
+      "published_at": "2026-11-18",
+      "collected_at": "2026-11-18T22:53:55+01:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "b04e78b89ae8047c6de25ae4fd70f274eaac60229319c21555332d2ce0c944fe",
+      "first_seen_at": "2026-11-18T22:53:55+01:00",
+      "last_seen_at": "2026-11-26T01:15:44+01:00"
+    },
+    {
+      "id": "48cb6d0ece06703a3dbd",
+      "source_id": "apm-project-management",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/blog/your-previous-roles-may-be-your-project-management-advantage/",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "Your previous roles may be your project management advantage",
+      "raw_excerpt": "Project managers often focus on the skills they still need to acquire but what about the skills we developed before becoming project managers?",
+      "published_at": "2026-11-24",
+      "collected_at": "2026-11-24T22:08:12+01:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "07cd13c91aba16605f1340c4d3f52c1934207395052a3e3f1204997ac9442f9d",
+      "first_seen_at": "2026-11-24T22:08:12+01:00",
+      "last_seen_at": "2026-11-26T01:15:43+01:00"
+    },
+    {
+      "id": "b800636926b0445bbf49",
+      "source_id": "apm-project-management",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/blog/the-knowledge-we-pass-on-what-mentorship-taught-me-about-knowledge-sharing/",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "The knowledge we pass on: What mentorship taught me about knowledge sharing",
+      "raw_excerpt": "Some of the most valuable knowledge I have gained in my career never came from a textbook, training course, or project document. It came from another person.",
+      "published_at": "2026-11-25",
+      "collected_at": "2026-11-26T01:15:43+01:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "029e32879e4bf8bfe97feddfa6ce79f2c64bab04a630950239c3bda1bdd4a34e",
+      "first_seen_at": "2026-11-26T01:15:43+01:00",
+      "last_seen_at": "2026-11-26T01:15:43+01:00"
+    },
+    {
+      "id": "df7289902bed5961efb5",
+      "source_id": "apm-project-management",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/news/apm-channel-islands-regional-network-events-help-professionals-embrace-ai/",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "APM Channel Islands Regional Network events help professionals embrace AI",
+      "raw_excerpt": "APM’s Channel Islands Regional Network drove the discussion on artificial intelligence in the project profession during two events hosted in Guernsey.",
+      "published_at": "2026-11-10",
+      "collected_at": "2026-11-10T10:42:18+01:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "e829523b28a73b883c6dfd925646e1fd9851498e7b2c61b424186d3c61a74c45",
+      "first_seen_at": "2026-11-10T10:42:18+01:00",
+      "last_seen_at": "2026-11-26T01:15:42+01:00"
+    },
+    {
+      "id": "027b9707b22cf23931e0",
+      "source_id": "apm-project-management",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/news/rachael-keeble-joins-apm-board-as-organisation-s-newest-trustee/",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "Rachael Keeble joins APM Board as organisation’s newest Trustee",
+      "raw_excerpt": "Association for Project Management (APM) has welcomed Rachael Keeble to its Board of Trustees, following its annual board elections.",
+      "published_at": "2026-11-16",
+      "collected_at": "2026-11-16T12:02:20+01:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "be78538500b651df29475ca466bf97fb95a3afa2578a9ba07d44ce41cab5143d",
+      "first_seen_at": "2026-11-16T12:02:20+01:00",
+      "last_seen_at": "2026-11-26T01:15:41+01:00"
+    },
+    {
+      "id": "d3b508e80f5e5bf8221c",
+      "source_id": "apm-project-management",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/news/apm-learning-recognised-at-the-association-excellence-awards/",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "APM Learning recognised at the Association Excellence Awards",
+      "raw_excerpt": "Association for Project Management's online learning platform, APM Learning , earned a silver award at the Association Excellence Awards in the ‘Best Learning/Professional Development Programme' category.",
+      "published_at": "2026-11-18",
+      "collected_at": "2026-11-18T14:53:58+01:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "7c7bd72185458d93d189a93f14d4a95716f1abf204ac7085dfdffdedc4e1cbf3",
+      "first_seen_at": "2026-11-18T14:53:58+01:00",
+      "last_seen_at": "2026-11-26T01:15:39+01:00"
+    },
+    {
+      "id": "bce64ed7b4356fd7c8f5",
+      "source_id": "apm-project-management",
+      "source": "APM – News and Blog",
+      "source_type": "primary",
+      "source_url": "https://www.apm.org.uk/news/from-outputs-to-outcomes-to-owned-benefits-apm-webinar-shares-framework-for-realising-value/",
+      "category": [
+        "AI & PM"
+      ],
+      "title": "From outputs to outcomes to owned benefits: APM webinar shares framework for realising value",
+      "raw_excerpt": "“Projects may finish: value should not.” That was the message at a recent APM Real World Project Management webinar that explored a framework for realising value.",
+      "published_at": "2026-11-20",
+      "collected_at": "2026-11-20T12:31:33+01:00",
+      "verification": "primary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "37af30d5923dc8b8c0d75eb0eea69ec6813dd4b509ad59e5e55d6dc97ebd087b",
+      "first_seen_at": "2026-11-20T12:31:33+01:00",
+      "last_seen_at": "2026-11-26T01:15:39+01:00"
     },
     {
       "id": "28929dd1fff9cdf44d19",
@@ -580,7 +780,7 @@
       "collector_note": null,
       "content_hash": "ae578ae2bf51304107aef7a45f140cefeaa883d78c217f21eb48b19e588f5fc3",
       "first_seen_at": "2026-11-12T19:51:44+01:00",
-      "last_seen_at": "2026-11-25T16:31:34+01:00"
+      "last_seen_at": "2026-11-26T01:15:26+01:00"
     },
     {
       "id": "014a60937aec765a824e",
@@ -600,7 +800,7 @@
       "collector_note": null,
       "content_hash": "d9f1f330a64e1ca2cb30a8d2f71bf2de0946a46bd958b94229ad27d81e5764fb",
       "first_seen_at": "2026-11-16T12:01:55+01:00",
-      "last_seen_at": "2026-11-25T16:31:33+01:00"
+      "last_seen_at": "2026-11-26T01:15:25+01:00"
     },
     {
       "id": "5853d588884f26b82b78",
@@ -620,7 +820,7 @@
       "collector_note": null,
       "content_hash": "de4841e7934f2139a5082a6a913a7128590f51ac20422dd6515a3c6601fa9d22",
       "first_seen_at": "2026-11-20T21:03:57+01:00",
-      "last_seen_at": "2026-11-25T16:31:32+01:00"
+      "last_seen_at": "2026-11-26T01:15:24+01:00"
     },
     {
       "id": "57c962c31dcb2ef2a617",
@@ -640,7 +840,7 @@
       "collector_note": null,
       "content_hash": "5cbeb225d83ff8cf2617bdaa45d4a255dafcfcc24d62d8914dd77cdc96c7fbe3",
       "first_seen_at": "2026-11-20T21:03:56+01:00",
-      "last_seen_at": "2026-11-25T16:31:31+01:00"
+      "last_seen_at": "2026-11-26T01:15:23+01:00"
     },
     {
       "id": "2328789ce371bc7708d3",
@@ -660,7 +860,7 @@
       "collector_note": null,
       "content_hash": "445e671448c2f4576bebe3462f5d4dcdd94a2cb91ae14937f6e045b6680b2b8a",
       "first_seen_at": "2026-09-18T08:27:07+02:00",
-      "last_seen_at": "2026-11-25T16:31:29+01:00"
+      "last_seen_at": "2026-11-26T01:15:21+01:00"
     },
     {
       "id": "714d8c12d1b22a8f76e8",
@@ -680,7 +880,7 @@
       "collector_note": null,
       "content_hash": "ecd0f5d1ba06de5542894664b82d65eb907631b6c1fdf27f0e6cdea929f65c5a",
       "first_seen_at": "2026-11-24T11:51:58+01:00",
-      "last_seen_at": "2026-11-25T16:31:28+01:00"
+      "last_seen_at": "2026-11-26T01:15:20+01:00"
     },
     {
       "id": "cc7e8230d37d71915108",
@@ -700,7 +900,7 @@
       "collector_note": null,
       "content_hash": "36faed48930167b3d9fff58123613e44dd01beacd11e29aaae6750d81a47448d",
       "first_seen_at": "2026-11-24T11:51:57+01:00",
-      "last_seen_at": "2026-11-25T16:31:27+01:00"
+      "last_seen_at": "2026-11-26T01:15:19+01:00"
     },
     {
       "id": "5623a3fcad6fe66208f8",
@@ -720,7 +920,7 @@
       "collector_note": null,
       "content_hash": "43d65b9877dd88b91b75d538f6f4196752a12ef5868dd8ceedb186a8b53144c9",
       "first_seen_at": "2026-11-23T13:20:45+01:00",
-      "last_seen_at": "2026-11-25T16:31:27+01:00"
+      "last_seen_at": "2026-11-26T01:15:18+01:00"
     },
     {
       "id": "a8a1ccad6536f3ca1efc",
@@ -740,7 +940,7 @@
       "collector_note": null,
       "content_hash": "fde148ad02e46da146b1d9dd7feab7a0f4b64897ba31bc23eaf7657ede4331df",
       "first_seen_at": "2026-11-25T16:31:25+01:00",
-      "last_seen_at": "2026-11-25T16:31:25+01:00"
+      "last_seen_at": "2026-11-26T01:15:16+01:00"
     },
     {
       "id": "94712827be08514764e7",
@@ -760,7 +960,7 @@
       "collector_note": null,
       "content_hash": "f222d30b97d96e1f0f974c03a5aeb4919df8696f53abd16297360b41520e531f",
       "first_seen_at": "2026-11-25T16:31:24+01:00",
-      "last_seen_at": "2026-11-25T16:31:24+01:00"
+      "last_seen_at": "2026-11-26T01:15:15+01:00"
     },
     {
       "id": "299bc3455f13fc48bf13",
@@ -780,7 +980,7 @@
       "status": "ok",
       "content_hash": "811ac302c3193eb1b1ab9371558f9eff4f60aa642f2679335f729c77f8d6d3dd",
       "first_seen_at": "2026-09-14T18:58:54+02:00",
-      "last_seen_at": "2026-11-25T16:31:18+01:00",
+      "last_seen_at": "2026-11-26T01:15:09+01:00",
       "collector_note": null
     },
     {
@@ -801,7 +1001,7 @@
       "status": "ok",
       "content_hash": "a9b348baabb63f3a36168e3506b408dea00ffbc0e6fc27353e27dd69cfd8d3bf",
       "first_seen_at": "2026-09-14T18:58:54+02:00",
-      "last_seen_at": "2026-11-25T16:31:18+01:00",
+      "last_seen_at": "2026-11-26T01:15:08+01:00",
       "collector_note": null
     },
     {
@@ -816,13 +1016,13 @@
       "title": "AI Act – konsolidierte Fassung 2026-07-27",
       "raw_excerpt": "Aktuelle konsolidierte Fassung der Regulation (EU) 2024/1689 (Artificial Intelligence Act). Stand: 2026-07-27.",
       "published_at": "2026-07-27",
-      "collected_at": "2026-11-25T16:31:17+01:00",
+      "collected_at": "2026-11-26T01:15:07+01:00",
       "verification": "primary",
       "status": "ok",
       "collector_note": null,
       "content_hash": "ed4a9d3330cafe5c922a278159f2a5379789d35caf18fbba77966ea05c9199a3",
-      "first_seen_at": "2026-11-25T16:31:17+01:00",
-      "last_seen_at": "2026-11-25T16:31:17+01:00"
+      "first_seen_at": "2026-11-26T01:15:07+01:00",
+      "last_seen_at": "2026-11-26T01:15:07+01:00"
     },
     {
       "id": "d4132fd01e61d7cdcda5",
@@ -842,7 +1042,7 @@
       "status": "ok",
       "content_hash": "dfdf26c2a0b7379d5d27025a4f73a62a42f3c544ff23ba761135d6587bbdcf37",
       "first_seen_at": "2026-11-06T18:55:23+01:00",
-      "last_seen_at": "2026-11-25T16:31:16+01:00",
+      "last_seen_at": "2026-11-26T01:15:05+01:00",
       "collector_note": null
     },
     {
@@ -863,7 +1063,7 @@
       "status": "ok",
       "content_hash": "2adce69ab2ad064ab7d0d5e4c37c8459642f465c380fd74168a3f948e4e9027e",
       "first_seen_at": "2026-09-15T10:43:59+02:00",
-      "last_seen_at": "2026-11-25T16:31:15+01:00",
+      "last_seen_at": "2026-11-26T01:15:05+01:00",
       "collector_note": null
     },
     {
@@ -884,8 +1084,49 @@
       "status": "ok",
       "content_hash": "6964d2a6e825efe24a090875b524221a191b37acacf014c6a4535031cae41c00",
       "first_seen_at": "2026-09-15T10:43:58+02:00",
-      "last_seen_at": "2026-11-25T16:31:15+01:00",
+      "last_seen_at": "2026-11-26T01:15:05+01:00",
       "collector_note": null
+    },
+    {
+      "id": "53ba3426e9a61e261d11",
+      "source_id": "eu-ai-office",
+      "source": "European Commission – AI Act / AI Office",
+      "source_type": "primary",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-welcomes-european-citizens-panel-recommendations-democratic-resilience",
+      "category": [
+        "EU AI Act",
+        "AI Governance"
+      ],
+      "title": "Commission welcomes European Citizens' Panel recommendations on Democratic Resilience",
+      "raw_excerpt": "The European Citizens' Panel on Democratic Resilience concluded yesterday with its third and final session.",
+      "published_at": "2026-11-23",
+      "collected_at": "2026-11-24T01:46:52+01:00",
+      "verification": "primary",
+      "status": "ok",
+      "content_hash": "f4b013d5fcf436dfd1b2989b090ffd6d65b772717383bd272cd16d2b0db6e9ed",
+      "first_seen_at": "2026-11-24T01:46:52+01:00",
+      "last_seen_at": "2026-11-26T01:15:05+01:00",
+      "collector_note": null
+    },
+    {
+      "id": "40283b23374f79dbd76b",
+      "source_id": "heise-ai-news",
+      "source": "heise online – KI-Nachrichten",
+      "source_type": "discovery",
+      "source_url": "https://www.heise.de/hintergrund/Retro-Konsolengames-nativ-auf-dem-PC-Was-KI-leistet-und-welche-Fan-Ports-taugen-11464630.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "category": [
+        "KI & Technologie"
+      ],
+      "title": "heise+ | Retro-Konsolengames nativ auf dem PC: Was KI leistet und welche Fan-Ports taugen",
+      "raw_excerpt": "Fans bringen Konsolenklassiker ohne Emulator in 4K und mit 120 fps auf PC und Smartphone. Wie entstehen solche Ports, wo hilft KI und wo schadet sie?",
+      "published_at": "2026-11-25T10:30:00+01:00",
+      "collected_at": "2026-11-25T16:32:07+01:00",
+      "verification": "secondary",
+      "status": "ok",
+      "collector_note": null,
+      "content_hash": "862d267d7bdf9dd15598ddda61d5c74dc1e95c16e17bcf43440d23c13fcd6631",
+      "first_seen_at": "2026-11-25T16:32:07+01:00",
+      "last_seen_at": "2026-11-25T16:32:07+01:00"
     },
     {
       "id": "580459e50ed2adb397cb",
@@ -1088,106 +1329,6 @@
       "last_seen_at": "2026-11-25T05:53:16+01:00"
     },
     {
-      "id": "027b9707b22cf23931e0",
-      "source_id": "apm-project-management",
-      "source": "APM – News and Blog",
-      "source_type": "primary",
-      "source_url": "https://www.apm.org.uk/news/rachael-keeble-joins-apm-board-as-organisation-s-newest-trustee/",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "Rachael Keeble joins APM Board as organisation’s newest Trustee",
-      "raw_excerpt": "Association for Project Management (APM) has welcomed Rachael Keeble to its Board of Trustees, following its annual board elections.",
-      "published_at": "2026-11-16",
-      "collected_at": "2026-11-16T12:02:20+01:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "be78538500b651df29475ca466bf97fb95a3afa2578a9ba07d44ce41cab5143d",
-      "first_seen_at": "2026-11-16T12:02:20+01:00",
-      "last_seen_at": "2026-11-25T05:53:16+01:00"
-    },
-    {
-      "id": "7b14758cea3e0611fc52",
-      "source_id": "apm-project-management",
-      "source": "APM – News and Blog",
-      "source_type": "primary",
-      "source_url": "https://www.apm.org.uk/blog/beyond-the-mid-career-plateau-redefining-progress-and-finding-momentum/",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "Beyond the mid-career plateau: Redefining progress and finding momentum",
-      "raw_excerpt": "Career progression is not always a straight line. Sometimes, the most important professional growth happens when your job title stays the same. This is something I have come to appreciate as a mid-career project management professional. After more than a decade in the industry, I have learned that experience, qualifications and consistently delivering successful projects do not automatically translate into the next career opportunity.",
-      "published_at": "2026-11-16",
-      "collected_at": "2026-11-17T04:46:27+01:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "1dc6114dbf7937bd0e66bbc2903685fab17f8527196145e1c5fa7e2237d2e669",
-      "first_seen_at": "2026-11-17T04:46:27+01:00",
-      "last_seen_at": "2026-11-25T05:53:15+01:00"
-    },
-    {
-      "id": "5505f6fa357edf764091",
-      "source_id": "apm-project-management",
-      "source": "APM – News and Blog",
-      "source_type": "primary",
-      "source_url": "https://www.apm.org.uk/blog/the-hidden-dependencies-that-can-make-or-break-a-project/",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "The hidden dependencies that can make or break a project",
-      "raw_excerpt": "A programme can look solid — detailed activities, clear responsibilities, logic all the way through — and still be sitting on a dependency nobody's properly identified. I've seen it happen on a recent review: the relationship was there but it just wasn't the right one. That's often more dangerous than a missing link, because it looks fine on screen right up until it isn't.",
-      "published_at": "2026-11-17",
-      "collected_at": "2026-11-18T05:14:21+01:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "0591737b9de679a9135e171fdd579cb86a237153b0d048bcbf63ece755cf9f20",
-      "first_seen_at": "2026-11-18T05:14:21+01:00",
-      "last_seen_at": "2026-11-25T05:53:15+01:00"
-    },
-    {
-      "id": "d3b508e80f5e5bf8221c",
-      "source_id": "apm-project-management",
-      "source": "APM – News and Blog",
-      "source_type": "primary",
-      "source_url": "https://www.apm.org.uk/news/apm-learning-recognised-at-the-association-excellence-awards/",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "APM Learning recognised at the Association Excellence Awards",
-      "raw_excerpt": "Association for Project Management's online learning platform, APM Learning , earned a silver award at the Association Excellence Awards in the ‘Best Learning/Professional Development Programme' category.",
-      "published_at": "2026-11-18",
-      "collected_at": "2026-11-18T14:53:58+01:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "7c7bd72185458d93d189a93f14d4a95716f1abf204ac7085dfdffdedc4e1cbf3",
-      "first_seen_at": "2026-11-18T14:53:58+01:00",
-      "last_seen_at": "2026-11-25T05:53:14+01:00"
-    },
-    {
-      "id": "2a4e8c5b12ee53c6b7e4",
-      "source_id": "apm-project-management",
-      "source": "APM – News and Blog",
-      "source_type": "primary",
-      "source_url": "https://www.apm.org.uk/blog/ensuring-projects-deliver-their-intended-organisational-and-social-benefits/",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "Ensuring projects deliver their intended organisational and social benefits",
-      "raw_excerpt": "In the public sector, more than anywhere, projects need to deliver maximum value that aligns with strategic goals. Project outputs are just that, outputs. Time, scope and budget are constraints. The reason we do projects is to deliver benefits. And this is where effective benefits management steps in, serving as the essential discipline that ensures projects do not just finish, but deliver their intended organisational and social benefits.",
-      "published_at": "2026-11-18",
-      "collected_at": "2026-11-18T22:53:55+01:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "b04e78b89ae8047c6de25ae4fd70f274eaac60229319c21555332d2ce0c944fe",
-      "first_seen_at": "2026-11-18T22:53:55+01:00",
-      "last_seen_at": "2026-11-25T05:53:13+01:00"
-    },
-    {
       "id": "e8a7e5e453f6575c6f77",
       "source_id": "apm-project-management",
       "source": "APM – News and Blog",
@@ -1206,46 +1347,6 @@
       "content_hash": "7d8f1b7437de00115357c4fad7ccce583618e2307b6fc8daf74395180d9b0296",
       "first_seen_at": "2026-10-26T13:58:01+01:00",
       "last_seen_at": "2026-11-25T05:53:12+01:00"
-    },
-    {
-      "id": "bce64ed7b4356fd7c8f5",
-      "source_id": "apm-project-management",
-      "source": "APM – News and Blog",
-      "source_type": "primary",
-      "source_url": "https://www.apm.org.uk/news/from-outputs-to-outcomes-to-owned-benefits-apm-webinar-shares-framework-for-realising-value/",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "From outputs to outcomes to owned benefits: APM webinar shares framework for realising value",
-      "raw_excerpt": "“Projects may finish: value should not.” That was the message at a recent APM Real World Project Management webinar that explored a framework for realising value.",
-      "published_at": "2026-11-20",
-      "collected_at": "2026-11-20T12:31:33+01:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "37af30d5923dc8b8c0d75eb0eea69ec6813dd4b509ad59e5e55d6dc97ebd087b",
-      "first_seen_at": "2026-11-20T12:31:33+01:00",
-      "last_seen_at": "2026-11-25T05:53:11+01:00"
-    },
-    {
-      "id": "48cb6d0ece06703a3dbd",
-      "source_id": "apm-project-management",
-      "source": "APM – News and Blog",
-      "source_type": "primary",
-      "source_url": "https://www.apm.org.uk/blog/your-previous-roles-may-be-your-project-management-advantage/",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "Your previous roles may be your project management advantage",
-      "raw_excerpt": "Project managers often focus on the skills they still need to acquire but what about the skills we developed before becoming project managers?",
-      "published_at": "2026-11-24",
-      "collected_at": "2026-11-24T22:08:12+01:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "07cd13c91aba16605f1340c4d3f52c1934207395052a3e3f1204997ac9442f9d",
-      "first_seen_at": "2026-11-24T22:08:12+01:00",
-      "last_seen_at": "2026-11-25T05:53:08+01:00"
     },
     {
       "id": "e25516f83718da1d8858",
@@ -1306,27 +1407,6 @@
       "content_hash": "a77ec68a4fed1ee69b2e5c8e9d517b0d4baff0c07612dc31757701e0d813fae4",
       "first_seen_at": "2026-11-16T21:57:50+01:00",
       "last_seen_at": "2026-11-25T05:52:28+01:00",
-      "collector_note": null
-    },
-    {
-      "id": "53ba3426e9a61e261d11",
-      "source_id": "eu-ai-office",
-      "source": "European Commission – AI Act / AI Office",
-      "source_type": "primary",
-      "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-welcomes-european-citizens-panel-recommendations-democratic-resilience",
-      "category": [
-        "EU AI Act",
-        "AI Governance"
-      ],
-      "title": "Commission welcomes European Citizens' Panel recommendations on Democratic Resilience",
-      "raw_excerpt": "The European Citizens' Panel on Democratic Resilience concluded yesterday with its third and final session.",
-      "published_at": "2026-11-23",
-      "collected_at": "2026-11-24T01:46:52+01:00",
-      "verification": "primary",
-      "status": "ok",
-      "content_hash": "f4b013d5fcf436dfd1b2989b090ffd6d65b772717383bd272cd16d2b0db6e9ed",
-      "first_seen_at": "2026-11-24T01:46:52+01:00",
-      "last_seen_at": "2026-11-25T05:52:27+01:00",
       "collector_note": null
     },
     {
@@ -1730,26 +1810,6 @@
       "collector_note": null,
       "content_hash": "7bfe74325f1f82e6601a98a3f891bd567caa9f9897194efc923d59c4e51463b7",
       "first_seen_at": "2026-11-11T00:14:23+01:00",
-      "last_seen_at": "2026-11-24T11:52:17+01:00"
-    },
-    {
-      "id": "df7289902bed5961efb5",
-      "source_id": "apm-project-management",
-      "source": "APM – News and Blog",
-      "source_type": "primary",
-      "source_url": "https://www.apm.org.uk/news/apm-channel-islands-regional-network-events-help-professionals-embrace-ai/",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "APM Channel Islands Regional Network events help professionals embrace AI",
-      "raw_excerpt": "APM’s Channel Islands Regional Network drove the discussion on artificial intelligence in the project profession during two events hosted in Guernsey.",
-      "published_at": "2026-11-10",
-      "collected_at": "2026-11-10T10:42:18+01:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "e829523b28a73b883c6dfd925646e1fd9851498e7b2c61b424186d3c61a74c45",
-      "first_seen_at": "2026-11-10T10:42:18+01:00",
       "last_seen_at": "2026-11-24T11:52:17+01:00"
     },
     {
@@ -2251,26 +2311,6 @@
       "content_hash": "c17e77f80ce11711e385eb02a885e3d8f120f40d53e1f5da9f98f104a158d70b",
       "first_seen_at": "2026-11-21T18:25:49+01:00",
       "last_seen_at": "2026-11-23T03:40:54+01:00"
-    },
-    {
-      "id": "70e63afd3458c1244cad",
-      "source_id": "apm-project-management",
-      "source": "APM – News and Blog",
-      "source_type": "primary",
-      "source_url": "https://www.apm.org.uk/blog/why-human-judgement-matters-more-in-ai-powered-agile-teams/",
-      "category": [
-        "AI & PM"
-      ],
-      "title": "Why human judgement matters more in AI-powered agile teams",
-      "raw_excerpt": "Artificial Intelligence (AI) has significantly accelerated the journey from initial concept to working output, enabling ideas to be developed faster than at any other point in my career. To some, that may sound like an argument for needing less human involvement in delivery, but my experience has convinced me of the opposite. The easier execution becomes, the more important the decisions around it become - what is worth doing, what should be challenged, where the boundaries sit and when to stop.",
-      "published_at": "2026-11-12",
-      "collected_at": "2026-11-12T19:52:01+01:00",
-      "verification": "primary",
-      "status": "ok",
-      "collector_note": null,
-      "content_hash": "bbcfa5eff3a604936737defa72b383d074529858b18f56786bfb3df02a31b939",
-      "first_seen_at": "2026-11-12T19:52:01+01:00",
-      "last_seen_at": "2026-11-23T03:40:48+01:00"
     },
     {
       "id": "75c22ede77747401bb59",
@@ -17009,70 +17049,70 @@
       "name": "European Commission – AI Act / AI Office",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-11-25T16:31:16+01:00",
-      "items_found": 3
+      "last_update": "2026-11-26T01:15:06+01:00",
+      "items_found": 4
     },
     {
       "name": "EUR-Lex – Regulation (EU) 2024/1689",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-11-25T16:31:17+01:00",
+      "last_update": "2026-11-26T01:15:07+01:00",
       "items_found": 1
     },
     {
       "name": "European Data Protection Board",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-11-25T16:31:18+01:00",
+      "last_update": "2026-11-26T01:15:08+01:00",
       "items_found": 1
     },
     {
       "name": "Datenschutzkonferenz",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-11-25T16:31:18+01:00",
+      "last_update": "2026-11-26T01:15:09+01:00",
       "items_found": 1
     },
     {
       "name": "PMI – Artificial Intelligence",
       "type": "optional",
       "status": "failed",
-      "last_update": "2026-11-25T16:31:18+01:00",
+      "last_update": "2026-11-26T01:15:09+01:00",
       "note": "403 Client Error: Forbidden for url: https://www.pmi.org/blog?userTagIDSort=11122"
     },
     {
       "name": "GPM – Aktuelles und Blog",
       "type": "core",
       "status": "ok",
-      "last_update": "2026-11-25T16:31:34+01:00",
+      "last_update": "2026-11-26T01:15:26+01:00",
       "items_found": 10
     },
     {
       "name": "APM – News and Blog",
       "type": "core",
-      "status": "failed",
-      "last_update": "2026-11-25T16:32:05+01:00",
-      "note": "Offizielle Sitemap enthält keine passenden Artikel-URLs."
+      "status": "ok",
+      "last_update": "2026-11-26T01:15:47+01:00",
+      "items_found": 10
     },
     {
       "name": "BSI – Cyber- und KI-Sicherheit",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-11-25T16:32:05+01:00",
+      "last_update": "2026-11-26T01:15:48+01:00",
       "items_found": 5
     },
     {
       "name": "ENISA – Cyber- und KI-Sicherheit",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-11-25T16:32:06+01:00",
+      "last_update": "2026-11-26T01:15:49+01:00",
       "items_found": 5
     },
     {
       "name": "OpenAI – News",
       "type": "optional",
       "status": "degraded",
-      "last_update": "2026-11-25T16:32:07+01:00",
+      "last_update": "2026-11-26T01:15:49+01:00",
       "items_found": 5,
       "note": "Datum oder Kurztext fehlt."
     },
@@ -17080,14 +17120,14 @@
       "name": "Google – AI Blog",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-11-25T16:32:07+01:00",
+      "last_update": "2026-11-26T01:15:49+01:00",
       "items_found": 5
     },
     {
       "name": "heise online – KI-Nachrichten",
       "type": "optional",
       "status": "ok",
-      "last_update": "2026-11-25T16:32:07+01:00",
+      "last_update": "2026-11-26T01:15:50+01:00",
       "items_found": 8
     }
   ]
